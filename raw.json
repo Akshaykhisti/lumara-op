@@ -1,14 +1,27 @@
 {
- "generated_at_utc": "2026-07-27T06:06:03Z",
+ "generated_at_utc": "2026-07-27T06:50:56Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
   "tz": "Australia/Sydney"
  },
- "customers_total": 48,
- "abandoned_checkouts_recent": 2,
- "unfulfilled_paid": [],
+ "sources": {
+  "shopify": {
+   "ok": true,
+   "fetched_at": "2026-07-27T06:50:56Z"
+  },
+  "meta": {
+   "ok": false,
+   "error": "HTTP 403: {\"error\":{\"message\":\"(#200) Provide valid app ID\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AyqqaC_CU6SAtYsUnYIZfkU\"}}",
+   "fetched_at": "2026-07-27T06:06:03Z"
+  },
+  "klaviyo": {
+   "ok": false,
+   "error": "HTTP 401: {\"errors\":[{\"id\":\"704b5afb-ba33-49a8-a9f4-af215f592c14\",\"status\":401,\"code\":\"not_authenticated\",\"title\":\"Authentication credentials were not provided.\",\"detail\":\"Missing or invalid private k",
+   "fetched_at": "2026-07-27T06:06:03Z"
+  }
+ },
  "orders": [
   {
    "name": "#1032",
@@ -19,7 +32,7 @@
    "customer": "Kim White",
    "items": [
     {
-     "title": "Lumara Olive Mediterranean Candelabra",
+     "title": "Lumara Olive Mediterranean Candelabra \u2014 Sculptural Metal Centrepiece",
      "quantity": 1
     }
    ]
@@ -33,7 +46,7 @@
    "customer": "Susan Eveston",
    "items": [
     {
-     "title": "Lumara Botanical Bud Vase Set of 2",
+     "title": "Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral",
      "quantity": 1
     }
    ]
@@ -47,7 +60,7 @@
    "customer": "Sharyn Howes",
    "items": [
     {
-     "title": "Lumara Giana Natural Table Lamp",
+     "title": "Lumara Giana Natural Table Lamp \u2014 Earthy Organic Style",
      "quantity": 1
     }
    ]
@@ -61,7 +74,7 @@
    "customer": "Irene Philp",
    "items": [
     {
-     "title": "Lumara Olive Mediterranean Candelabra",
+     "title": "Lumara Olive Mediterranean Candelabra \u2014 Sculptural Metal Centrepiece",
      "quantity": 1
     }
    ]
@@ -89,7 +102,7 @@
    "customer": "Penni Robinson",
    "items": [
     {
-     "title": "Lumara Olive Mediterranean Candelabra",
+     "title": "Lumara Olive Mediterranean Candelabra \u2014 Sculptural Metal Centrepiece",
      "quantity": 1
     }
    ]
@@ -103,15 +116,15 @@
    "customer": "Amanda Dillon",
    "items": [
     {
-     "title": "Lumara Mediterranean Large Candle Holder",
+     "title": "Lumara Mediterranean Large Candle Holder \u2014 Tall Ceramic Taper",
      "quantity": 1
     },
     {
-     "title": "Lumara Mediterranean Statement Vase",
+     "title": "Lumara Mediterranean Statement Vase \u2014 Rustic White Ceramic",
      "quantity": 1
     },
     {
-     "title": "Lumara Mediterranean Med Candle Holder",
+     "title": "Lumara Mediterranean Med Candle Holder \u2014 Slender Ceramic Taper",
      "quantity": 1
     }
    ]
@@ -153,8 +166,12 @@
    "customer": "Karen Hyland",
    "items": [
     {
-     "title": "Lumara Ribbed Rhubarb Glass Vase",
-     "quantity": 2
+     "title": "Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass",
+     "quantity": 1
+    },
+    {
+     "title": "Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass",
+     "quantity": 1
     }
    ]
   },
@@ -167,7 +184,7 @@
    "customer": "Tracey Bunt",
    "items": [
     {
-     "title": "Lumara Newport Large Table Lamp",
+     "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
      "quantity": 1
     }
    ]
@@ -181,7 +198,7 @@
    "customer": "Margie Vartuli",
    "items": [
     {
-     "title": "Lumara Newport Large Table Lamp",
+     "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
      "quantity": 1
     }
    ]
@@ -209,7 +226,7 @@
    "customer": "Lyndell James",
    "items": [
     {
-     "title": "Lumara Newport Large Table Lamp",
+     "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
      "quantity": 1
     }
    ]
@@ -223,7 +240,7 @@
    "customer": "christine paradine",
    "items": [
     {
-     "title": "Lumara Malabar Duo Bundle",
+     "title": "Lumara Malabar Duo \u2014 Lamp & Vase Bundle",
      "quantity": 1
     }
    ]
@@ -251,7 +268,7 @@
    "customer": "Pennie Burgess",
    "items": [
     {
-     "title": "Lumara Malabar Vase",
+     "title": "Lumara Malabar Vase \u2014 Ribbed Cobalt Ceramic",
      "quantity": 1
     }
    ]
@@ -265,7 +282,7 @@
    "customer": "Helve Beale",
    "items": [
     {
-     "title": "Lumara Gede Green Table Lamp",
+     "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
      "quantity": 2
     }
    ]
@@ -307,7 +324,7 @@
    "customer": "Amanda Macfarlane",
    "items": [
     {
-     "title": "Lumara Talia Table Lamp",
+     "title": "Lumara Talia Table Lamp \u2014 Mixed Glaze Ceramic",
      "quantity": 2
     }
    ]
@@ -335,7 +352,7 @@
    "customer": "Michelle Caristo",
    "items": [
     {
-     "title": "Lumara Talia Table Lamp",
+     "title": "Lumara Talia Table Lamp \u2014 Mixed Glaze Ceramic",
      "quantity": 1
     }
    ]
@@ -363,22 +380,1043 @@
    "customer": "Jenni Maund",
    "items": [
     {
-     "title": "Lumara Talia Table Lamp",
+     "title": "Lumara Talia Table Lamp \u2014 Mixed Glaze Ceramic",
      "quantity": 1
     }
    ]
   }
  ],
- "ads_today": {
-  "date": "2026-07-27",
-  "spend": 17.74,
-  "impressions": 287,
-  "clicks": 11,
-  "ctr": 3.83,
-  "cpc": 1.61,
-  "purchases": 0,
-  "purchase_value": 0.0
- },
+ "unfulfilled_paid": [],
+ "customers_total": 48,
+ "abandoned_checkouts_recent": 2,
+ "inventory": [
+  {
+   "title": "Lumara Cayman Rattan Table Lamp \u2014 Coastal Natural Style",
+   "sku": "Y8235-1",
+   "qty": 10,
+   "price": 229.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Giana Natural Table Lamp \u2014 Earthy Organic Style",
+   "sku": "LH-TL-002",
+   "qty": 9,
+   "price": 249.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Havana Rattan Table Lamp \u2014 Warm Tropical Style",
+   "sku": "LH-TL-003",
+   "qty": 10,
+   "price": 199.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Nishi Table Lamp \u2014 Contemporary Ceramic Style",
+   "sku": "YR7306-1",
+   "qty": 8,
+   "price": 219.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Lopez Rustic White Candle Holder",
+   "sku": "CH8435-1",
+   "qty": 9,
+   "price": 69.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Urn Candle Holder Set of 3 \u2014 Ceramic Neutral",
+   "sku": "CP6016-1",
+   "qty": 10,
+   "price": 79.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Avia Large Statement Vase \u2014 Warm Ceramic",
+   "sku": "YR7268-1",
+   "qty": 10,
+   "price": 239.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Enchanted Bud Vase \u2014 Organic Ceramic",
+   "sku": "CN7116-2",
+   "qty": 10,
+   "price": 49.99,
+   "status": "DRAFT",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Textured White Vase \u2014 Ribbed Ceramic",
+   "sku": "BT962-2",
+   "qty": 10,
+   "price": 39.99,
+   "status": "DRAFT",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Malt Shake Table Lamp \u2014 Sculptural Organic Form",
+   "sku": "LH-TL-004",
+   "qty": 10,
+   "price": 189.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Malt Shake Large Table Lamp \u2014 Statement Organic Form",
+   "sku": "LH-TL-005",
+   "qty": 10,
+   "price": 239.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Bayville Table Lamp \u2014 Coastal Ceramic Style",
+   "sku": "Y8237-1",
+   "qty": 10,
+   "price": 199.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
+   "sku": "Y8238-1",
+   "qty": 7,
+   "price": 299.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Pompei Table Lamp \u2014 Mediterranean Earthy Ceramic",
+   "sku": "LH-TL-006",
+   "qty": 10,
+   "price": 201.99,
+   "status": "DRAFT",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Brunswick Gold Table Lamp \u2014 Coastal Metallic Statement",
+   "sku": "Y8244-1",
+   "qty": 8,
+   "price": 249.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Palm Beach Table Lamp \u2014 Sculptural Coastal Palm",
+   "sku": "Y8240-1",
+   "qty": 10,
+   "price": 239.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Sandrock Table Lamp \u2014 Earthy Textured Stoneware",
+   "sku": "LH-TL-007",
+   "qty": 10,
+   "price": 259.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Gede Blues Table Lamp \u2014 Blue Reactive Glaze",
+   "sku": "LH-TL-008",
+   "qty": 10,
+   "price": 213.99,
+   "status": "DRAFT",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
+   "sku": "LH-TL-009",
+   "qty": 0,
+   "price": 213.99,
+   "status": "DRAFT",
+   "tracked": true,
+   "available": false
+  },
+  {
+   "title": "Lumara Artichoke Table Lamp \u2014 Sculptural Nature-Inspired",
+   "sku": "LH-TL-010",
+   "qty": 10,
+   "price": 219.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Flynn Table Lamp \u2014 Compact Organic Ceramic",
+   "sku": "LH-TL-011",
+   "qty": 10,
+   "price": 139.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Organic Leaf Statement Vase \u2014 Rustic White Ceramic",
+   "sku": "CH8459-1",
+   "qty": 10,
+   "price": 211.99,
+   "status": "DRAFT",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Petite Maison Urn Vase \u2014 Classic Ceramic Neutral",
+   "sku": "CN7020-1",
+   "qty": 10,
+   "price": 64.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Rosina Large Urn Vase \u2014 Mediterranean Statement",
+   "sku": "CP6009-1",
+   "qty": 10,
+   "price": 214.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral",
+   "sku": "CN7142-1",
+   "qty": 1,
+   "price": 54.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Curvaceous Vase \u2014 Matt Black Sculptural Ceramic",
+   "sku": "CH8405-1",
+   "qty": 0,
+   "price": 69.99,
+   "status": "ARCHIVED",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Taper Saffron Glass Vase \u2014 Warm Ribbed Glass",
+   "sku": "LH-VS-009",
+   "qty": 10,
+   "price": 49.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Taper Grape Glass Vase \u2014 Rich Ribbed Statement",
+   "sku": "LH-VS-010",
+   "qty": 10,
+   "price": 54.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Ribbed Sea Salt Glass Vase \u2014 Soft Coastal Tone",
+   "sku": "LH-VS-011",
+   "qty": 10,
+   "price": 49.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass",
+   "sku": "LH-VS-012",
+   "qty": 1,
+   "price": 49.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Organic Vase \u2014 Buttercup Petal Warm Ceramic",
+   "sku": "LH-VS-013",
+   "qty": 10,
+   "price": 64.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Cliffe Clear Glass Vase \u2014 Slender Minimal Taper",
+   "sku": "LH-VS-014",
+   "qty": 10,
+   "price": 39.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Curve Large Clear Glass Vase \u2014 Generous Statement",
+   "sku": "LH-VS-015",
+   "qty": 10,
+   "price": 54.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara XL Statement Vase \u2014 Tall Architectural Ceramic",
+   "sku": "LH-VS-016",
+   "qty": 0,
+   "price": 84.99,
+   "status": "ARCHIVED",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Bud Vase White \u2014 Classic Ceramic Minimal",
+   "sku": "LH-VS-017",
+   "qty": 10,
+   "price": 34.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Mediterranean Large Candle Holder \u2014 Tall Ceramic Taper",
+   "sku": "LH-CH-003",
+   "qty": 9,
+   "price": 84.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Mediterranean Med Candle Holder \u2014 Slender Ceramic Taper",
+   "sku": "LH-CH-004",
+   "qty": 9,
+   "price": 64.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Geneva XL Candle Holder \u2014 Tall Antiqued Statement",
+   "sku": "LH-CH-005",
+   "qty": 10,
+   "price": 109.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Candleholders Set of 3 White \u2014 Graduated Taper Holders",
+   "sku": "LD6953-1",
+   "qty": 10,
+   "price": 94.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Hurricane Candle Holder Moss \u2014 Organic Green Ceramic",
+   "sku": "LH-CH-006",
+   "qty": 10,
+   "price": 89.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Candlestick Mod Natural \u2014 Slender Natural Taper Holder",
+   "sku": "LH-CH-007",
+   "qty": 10,
+   "price": 49.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Talia Table Lamp \u2014 Mixed Glaze Ceramic",
+   "sku": "YE6211M-1",
+   "qty": 0,
+   "price": 159.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": false
+  },
+  {
+   "title": "Lumara Alegra Statement Vase \u2014 Sculptural Metal",
+   "sku": "QA5813-2",
+   "qty": 4,
+   "price": 94.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Champagne Glass LED Candle Holder",
+   "sku": "SK3116-1",
+   "qty": 10,
+   "price": 74.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Nishi Clay Table Lamp \u2014 Warm Earthy Ceramic",
+   "sku": "YR7316-1",
+   "qty": 10,
+   "price": 169.99,
+   "status": "DRAFT",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Mediterranean Statement Vase \u2014 Rustic White Ceramic",
+   "sku": "KE9006-2",
+   "qty": 9,
+   "price": 94.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Elle Statement Vase \u2014 Sculptural White Stoneware",
+   "sku": "XC4013-2",
+   "qty": 10,
+   "price": 114.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Warm Glow Trio \u2014 Candle Holder Bundle",
+   "sku": "LH-BDL-01",
+   "qty": 0,
+   "price": 139.0,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Mantel Styling Set \u2014 Candle & Vase Bundle",
+   "sku": "LH-BDL-02",
+   "qty": 0,
+   "price": 119.0,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Bedside Bundle \u2014 Flynn Lamp & Bud Vase",
+   "sku": "LH-BDL-03",
+   "qty": 0,
+   "price": 119.0,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Living Room Set \u2014 Lamp, Candle & Vase Bundle",
+   "sku": "LH-BDL-04",
+   "qty": 0,
+   "price": 194.0,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Statement Console \u2014 Lamp & Vase Bundle",
+   "sku": "LH-BDL-05",
+   "qty": 0,
+   "price": 235.0,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Coastal Glow \u2014 Lamp & Candle Bundle",
+   "sku": "LH-BDL-06",
+   "qty": 0,
+   "price": 219.0,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Turtle Shell Planters (Set of 2)",
+   "sku": "QA5419-2",
+   "qty": 0,
+   "price": 179.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": false
+  },
+  {
+   "title": "Talia Vase",
+   "sku": "\u2014",
+   "qty": 8,
+   "price": 89.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Antiqued Metal Candle Holder \u2014 54cm",
+   "sku": "QA5602-1",
+   "qty": 0,
+   "price": 74.95,
+   "status": "DRAFT",
+   "tracked": true,
+   "available": false
+  },
+  {
+   "title": "Gold Metal Side Table \u2014 62cm",
+   "sku": "19753TBL",
+   "qty": 0,
+   "price": 149.99,
+   "status": "DRAFT",
+   "tracked": true,
+   "available": false
+  },
+  {
+   "title": "Lumara Malabar Vase \u2014 Ribbed Cobalt Ceramic",
+   "sku": "YE6213-1",
+   "qty": 10,
+   "price": 69.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Malabar Duo \u2014 Lamp & Vase Bundle",
+   "sku": "LH-BDL-07",
+   "qty": 9,
+   "price": 189.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Pear Table Lamp \u2014 Playful Gloss Green Ceramic",
+   "sku": "YR7256-1",
+   "qty": 0,
+   "price": 228.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara White Foam Table Lamp \u2014 Sculptural Cloud White Ceramic",
+   "sku": "YR7257-1",
+   "qty": 0,
+   "price": 228.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Casa Table Lamp \u2014 Classic Ceramic Charm",
+   "sku": "YF3033-1",
+   "qty": 10,
+   "price": 149.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Riviera XL Table Lamp \u2014 Coastal Glass Statement",
+   "sku": "Y8215-1",
+   "qty": 0,
+   "price": 499.0,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Hamptons XL Table Lamp \u2014 Classic Coastal Statement",
+   "sku": "Y8236-1",
+   "qty": 0,
+   "price": 499.0,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Waitangi Foam Table Lamp \u2014 Sculptural Terracotta",
+   "sku": "YR7254-1",
+   "qty": 0,
+   "price": 429.0,
+   "status": "DRAFT",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Chike Table Lamp \u2014 Sculptural Ceramic Statement",
+   "sku": "YR7399-1",
+   "qty": 0,
+   "price": 499.0,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Fossil Table Lamp \u2014 Organic Textured Ceramic",
+   "sku": "YE6125-1",
+   "qty": 0,
+   "price": 375.0,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Pineapple Table Lamp \u2014 Reactive Glaze Ceramic",
+   "sku": "YE6102-1",
+   "qty": 0,
+   "price": 289.0,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Pineapple Table Lamp \u2014 Reactive Glaze Ceramic",
+   "sku": "YE6101-1",
+   "qty": 0,
+   "price": 289.0,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Malabar Table Lamp \u2014 Ribbed Reactive Glaze Ceramic",
+   "sku": "YE6202-1",
+   "qty": 10,
+   "price": 149.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Olive Mediterranean Candelabra \u2014 Sculptural Metal Centrepiece",
+   "sku": "QA5903-2",
+   "qty": 4,
+   "price": 99.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Velvet Leaf Stem \u2014 Dawn Blush Faux Botanical",
+   "sku": "JI2028-4",
+   "qty": 0,
+   "price": 17.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Velvet Leaf Stem \u2014 Dawn Blush Faux Botanical",
+   "sku": "JI2028-4-X2",
+   "qty": 0,
+   "price": 31.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Velvet Leaf Stem \u2014 Dawn Blush Faux Botanical",
+   "sku": "JI2028-4-X3",
+   "qty": 0,
+   "price": 39.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Velvet Leaf Stem \u2014 Sage Green Faux Botanical",
+   "sku": "JI2029-4",
+   "qty": 0,
+   "price": 17.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Velvet Leaf Stem \u2014 Sage Green Faux Botanical",
+   "sku": "JI2029-4-X2",
+   "qty": 0,
+   "price": 31.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Velvet Leaf Stem \u2014 Sage Green Faux Botanical",
+   "sku": "JI2029-4-X3",
+   "qty": 0,
+   "price": 39.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Velvet Leaf Stem \u2014 Ivory Faux Botanical",
+   "sku": "JI2030-4",
+   "qty": 0,
+   "price": 17.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Velvet Leaf Stem \u2014 Ivory Faux Botanical",
+   "sku": "JI2030-4-X2",
+   "qty": 0,
+   "price": 31.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Velvet Leaf Stem \u2014 Ivory Faux Botanical",
+   "sku": "JI2030-4-X3",
+   "qty": 0,
+   "price": 39.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Gum Leaf Stem \u2014 Faux Eucalyptus Branch",
+   "sku": "JI2045-4",
+   "qty": 0,
+   "price": 57.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Gum Leaf Stem \u2014 Faux Eucalyptus Branch",
+   "sku": "JI2045-4-X2",
+   "qty": 0,
+   "price": 102.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Gum Leaf Stem \u2014 Faux Eucalyptus Branch",
+   "sku": "JI2045-4-X3",
+   "qty": 0,
+   "price": 129.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Banksia Stem \u2014 Amber Faux Native",
+   "sku": "JI2044-4",
+   "qty": 0,
+   "price": 38.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Banksia Stem \u2014 Amber Faux Native",
+   "sku": "JI2044-4-X2",
+   "qty": 0,
+   "price": 68.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Banksia Stem \u2014 Amber Faux Native",
+   "sku": "JI2044-4-X3",
+   "qty": 0,
+   "price": 84.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Magnolia Stem \u2014 Real Touch Faux Bloom",
+   "sku": "LD9306-4",
+   "qty": 0,
+   "price": 36.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Magnolia Stem \u2014 Real Touch Faux Bloom",
+   "sku": "LD9306-4-X2",
+   "qty": 0,
+   "price": 66.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Magnolia Stem \u2014 Real Touch Faux Bloom",
+   "sku": "LD9306-4-X3",
+   "qty": 0,
+   "price": 82.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Kangaroo Paw Stem \u2014 Faux Native Bloom",
+   "sku": "JI2043-4",
+   "qty": 0,
+   "price": 28.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Kangaroo Paw Stem \u2014 Faux Native Bloom",
+   "sku": "JI2043-4-X2",
+   "qty": 0,
+   "price": 52.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Kangaroo Paw Stem \u2014 Faux Native Bloom",
+   "sku": "JI2043-4-X3",
+   "qty": 0,
+   "price": 64.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Pine &amp; Eucalypt Stem \u2014 Faux Greenery Branch",
+   "sku": "LD9311-4",
+   "qty": 0,
+   "price": 23.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Pine &amp; Eucalypt Stem \u2014 Faux Greenery Branch",
+   "sku": "LD9311-4-X2",
+   "qty": 0,
+   "price": 43.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Pine &amp; Eucalypt Stem \u2014 Faux Greenery Branch",
+   "sku": "LD9311-4-X3",
+   "qty": 0,
+   "price": 53.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Ivory Gum Stem \u2014 Faux Foliage Branch",
+   "sku": "LD7363-4",
+   "qty": 0,
+   "price": 21.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Ivory Gum Stem \u2014 Faux Foliage Branch",
+   "sku": "LD7363-4-X2",
+   "qty": 0,
+   "price": 39.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Ivory Gum Stem \u2014 Faux Foliage Branch",
+   "sku": "LD7363-4-X3",
+   "qty": 0,
+   "price": 47.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Berries &amp; Leaves Stem \u2014 Faux Botanical Branch",
+   "sku": "LD9163-4",
+   "qty": 0,
+   "price": 19.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Berries &amp; Leaves Stem \u2014 Faux Botanical Branch",
+   "sku": "LD9163-4-X2",
+   "qty": 0,
+   "price": 36.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Berries &amp; Leaves Stem \u2014 Faux Botanical Branch",
+   "sku": "LD9163-4-X3",
+   "qty": 0,
+   "price": 44.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara LED Branch \u2014 Gold Light-Up Stem",
+   "sku": "LD7130-1",
+   "qty": 0,
+   "price": 16.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara LED Branch \u2014 Gold Light-Up Stem",
+   "sku": "LD7130-1-X2",
+   "qty": 0,
+   "price": 30.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara LED Branch \u2014 Gold Light-Up Stem",
+   "sku": "LD7130-1-X3",
+   "qty": 0,
+   "price": 36.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara LED Branch \u2014 Paperbark Light-Up Stem",
+   "sku": "LD7131-1",
+   "qty": 0,
+   "price": 15.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara LED Branch \u2014 Paperbark Light-Up Stem",
+   "sku": "LD7131-1-X2",
+   "qty": 0,
+   "price": 28.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara LED Branch \u2014 Paperbark Light-Up Stem",
+   "sku": "LD7131-1-X3",
+   "qty": 0,
+   "price": 33.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Fern Gold Stem \u2014 Metallic Faux Frond",
+   "sku": "LD7052-12",
+   "qty": 0,
+   "price": 9.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Fern Gold Stem \u2014 Metallic Faux Frond",
+   "sku": "LD7052-12-X2",
+   "qty": 0,
+   "price": 17.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Fern Gold Stem \u2014 Metallic Faux Frond",
+   "sku": "LD7052-12-X3",
+   "qty": 0,
+   "price": 21.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Table Swag Olive Candelabra",
+   "sku": "QA5903-3",
+   "qty": 3,
+   "price": 89.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Reversible Wool-Blend Throw \u2014 Olive & Cream",
+   "sku": "SC6324-1",
+   "qty": 10,
+   "price": 159.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Magnolia XL Sculpture \u2014 Wall or Tabletop",
+   "sku": "BL7803-1",
+   "qty": 10,
+   "price": 109.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Amazon Woven Basket Set of 3 \u2014 Corn Husk & Seagrass",
+   "sku": "JL6204-1",
+   "qty": 10,
+   "price": 89.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  }
+ ],
  "ads_daily": [
   {
    "date": "2026-07-13",
@@ -531,6 +1569,16 @@
    "purchase_value": 0.0
   }
  ],
+ "ads_today": {
+  "date": "2026-07-27",
+  "spend": 17.74,
+  "impressions": 287,
+  "clicks": 11,
+  "ctr": 3.83,
+  "cpc": 1.61,
+  "purchases": 0,
+  "purchase_value": 0.0
+ },
  "ads_campaigns": [
   {
    "name": "Lumara \u2014 Sales \u2014 Winners Broad CBO (Jul 2026)",
@@ -636,800 +1684,6 @@
    "purchase_value": 0.0,
    "atc": 0,
    "reach": 0
-  }
- ],
- "inventory": [
-  {
-   "title": "Lumara Cayman Rattan Table Lamp",
-   "sku": "Y8235-1",
-   "qty": 10,
-   "price": 229.99,
-   "status": "ACTIVE",
-   "tracked": true,
-   "available": true
-  },
-  {
-   "title": "Lumara Giana Natural Table Lamp",
-   "sku": "LH-TL-002",
-   "qty": 9,
-   "price": 249.99,
-   "status": "ACTIVE",
-   "tracked": true,
-   "available": true
-  },
-  {
-   "title": "Lumara Havana Rattan Table Lamp",
-   "sku": "LH-TL-003",
-   "qty": 10,
-   "price": 199.99,
-   "status": "ACTIVE",
-   "tracked": true,
-   "available": true
-  },
-  {
-   "title": "Lumara Nishi Table Lamp",
-   "sku": "YR7306-1",
-   "qty": 8,
-   "price": 219.99,
-   "status": "ACTIVE",
-   "tracked": true,
-   "available": true
-  },
-  {
-   "title": "Lumara Lopez Rustic White Candle Holder",
-   "sku": "CH8435-1",
-   "qty": 9,
-   "price": 69.99,
-   "status": "ACTIVE",
-   "tracked": true,
-   "available": true
-  },
-  {
-   "title": "Lumara Urn Candle Holder Set of 3",
-   "sku": "CP6016-1",
-   "qty": 10,
-   "price": 79.99,
-   "status": "ACTIVE",
-   "tracked": true,
-   "available": true
-  },
-  {
-   "title": "Lumara Avia Large Statement Vase",
-   "sku": "YR7268-1",
-   "qty": 10,
-   "price": 239.99,
-   "status": "ACTIVE",
-   "tracked": true,
-   "available": true
-  },
-  {
-   "title": "Lumara Enchanted Bud Vase",
-   "sku": "CN7116-2",
-   "qty": 10,
-   "price": 49.99,
-   "status": "DRAFT",
-   "tracked": true,
-   "available": true
-  },
-  {
-   "title": "Lumara Textured White Vase",
-   "sku": "BT962-2",
-   "qty": 10,
-   "price": 39.99,
-   "status": "DRAFT",
-   "tracked": true,
-   "available": true
-  },
-  {
-   "title": "Lumara Malt Shake Table Lamp",
-   "sku": "LH-TL-004",
-   "qty": 10,
-   "price": 189.99,
-   "status": "ACTIVE",
-   "tracked": true,
-   "available": true
-  },
-  {
-   "title": "Lumara Malt Shake Large Table Lamp",
-   "sku": "LH-TL-005",
-   "qty": 10,
-   "price": 239.99,
-   "status": "ACTIVE",
-   "tracked": true,
-   "available": true
-  },
-  {
-   "title": "Lumara Bayville Table Lamp",
-   "sku": "Y8237-1",
-   "qty": 10,
-   "price": 199.99,
-   "status": "ACTIVE",
-   "tracked": true,
-   "available": true
-  },
-  {
-   "title": "Lumara Newport Large Table Lamp",
-   "sku": "Y8238-1",
-   "qty": 7,
-   "price": 299.99,
-   "status": "ACTIVE",
-   "tracked": true,
-   "available": true
-  },
-  {
-   "title": "Lumara Pompei Table Lamp",
-   "sku": "LH-TL-006",
-   "qty": 10,
-   "price": 201.99,
-   "status": "DRAFT",
-   "tracked": true,
-   "available": true
-  },
-  {
-   "title": "Lumara Brunswick Gold Table Lamp",
-   "sku": "Y8244-1",
-   "qty": 8,
-   "price": 249.99,
-   "status": "ACTIVE",
-   "tracked": true,
-   "available": true
-  },
-  {
-   "title": "Lumara Palm Beach Table Lamp",
-   "sku": "Y8240-1",
-   "qty": 10,
-   "price": 239.99,
-   "status": "ACTIVE",
-   "tracked": true,
-   "available": true
-  },
-  {
-   "title": "Lumara Sandrock Table Lamp",
-   "sku": "LH-TL-007",
-   "qty": 10,
-   "price": 259.99,
-   "status": "ACTIVE",
-   "tracked": true,
-   "available": true
-  },
-  {
-   "title": "Lumara Gede Blues Table Lamp",
-   "sku": "LH-TL-008",
-   "qty": 10,
-   "price": 213.99,
-   "status": "DRAFT",
-   "tracked": true,
-   "available": true
-  },
-  {
-   "title": "Lumara Gede Green Table Lamp",
-   "sku": "LH-TL-009",
-   "qty": 0,
-   "price": 213.99,
-   "status": "DRAFT",
-   "tracked": true,
-   "available": false
-  },
-  {
-   "title": "Lumara Artichoke Table Lamp",
-   "sku": "LH-TL-010",
-   "qty": 10,
-   "price": 219.99,
-   "status": "ACTIVE",
-   "tracked": true,
-   "available": true
-  },
-  {
-   "title": "Lumara Flynn Table Lamp",
-   "sku": "LH-TL-011",
-   "qty": 10,
-   "price": 139.99,
-   "status": "ACTIVE",
-   "tracked": true,
-   "available": true
-  },
-  {
-   "title": "Lumara Organic Leaf Statement Vase",
-   "sku": "CH8459-1",
-   "qty": 10,
-   "price": 211.99,
-   "status": "DRAFT",
-   "tracked": true,
-   "available": true
-  },
-  {
-   "title": "Lumara Petite Maison Urn Vase",
-   "sku": "CN7020-1",
-   "qty": 10,
-   "price": 64.99,
-   "status": "ACTIVE",
-   "tracked": true,
-   "available": true
-  },
-  {
-   "title": "Lumara Rosina Large Urn Vase",
-   "sku": "CP6009-1",
-   "qty": 10,
-   "price": 214.99,
-   "status": "ACTIVE",
-   "tracked": true,
-   "available": true
-  },
-  {
-   "title": "Lumara Botanical Bud Vase Set of 2",
-   "sku": "CN7142-1",
-   "qty": 1,
-   "price": 54.99,
-   "status": "ACTIVE",
-   "tracked": true,
-   "available": true
-  },
-  {
-   "title": "Lumara Curvaceous Vase",
-   "sku": "CH8405-1",
-   "qty": 0,
-   "price": 69.99,
-   "status": "ARCHIVED",
-   "tracked": false,
-   "available": true
-  },
-  {
-   "title": "Lumara Taper Saffron Glass Vase",
-   "sku": "LH-VS-009",
-   "qty": 10,
-   "price": 49.99,
-   "status": "ACTIVE",
-   "tracked": true,
-   "available": true
-  },
-  {
-   "title": "Lumara Taper Grape Glass Vase",
-   "sku": "LH-VS-010",
-   "qty": 10,
-   "price": 54.99,
-   "status": "ACTIVE",
-   "tracked": true,
-   "available": true
-  },
-  {
-   "title": "Lumara Ribbed Sea Salt Glass Vase",
-   "sku": "LH-VS-011",
-   "qty": 10,
-   "price": 49.99,
-   "status": "ACTIVE",
-   "tracked": true,
-   "available": true
-  },
-  {
-   "title": "Lumara Ribbed Rhubarb Glass Vase",
-   "sku": "LH-VS-012",
-   "qty": 1,
-   "price": 49.99,
-   "status": "ACTIVE",
-   "tracked": true,
-   "available": true
-  },
-  {
-   "title": "Lumara Organic Vase \u2014 Buttercup Petal",
-   "sku": "LH-VS-013",
-   "qty": 10,
-   "price": 64.99,
-   "status": "ACTIVE",
-   "tracked": true,
-   "available": true
-  },
-  {
-   "title": "Lumara Cliffe Clear Glass Vase",
-   "sku": "LH-VS-014",
-   "qty": 10,
-   "price": 39.99,
-   "status": "ACTIVE",
-   "tracked": true,
-   "available": true
-  },
-  {
-   "title": "Lumara Curve Large Clear Glass Vase",
-   "sku": "LH-VS-015",
-   "qty": 10,
-   "price": 54.99,
-   "status": "ACTIVE",
-   "tracked": true,
-   "available": true
-  },
-  {
-   "title": "Lumara XL Statement Vase",
-   "sku": "LH-VS-016",
-   "qty": 0,
-   "price": 84.99,
-   "status": "ARCHIVED",
-   "tracked": false,
-   "available": true
-  },
-  {
-   "title": "Lumara Bud Vase White",
-   "sku": "LH-VS-017",
-   "qty": 10,
-   "price": 34.99,
-   "status": "ACTIVE",
-   "tracked": true,
-   "available": true
-  },
-  {
-   "title": "Lumara Mediterranean Large Candle Holder",
-   "sku": "LH-CH-003",
-   "qty": 9,
-   "price": 84.99,
-   "status": "ACTIVE",
-   "tracked": true,
-   "available": true
-  },
-  {
-   "title": "Lumara Mediterranean Med Candle Holder",
-   "sku": "LH-CH-004",
-   "qty": 9,
-   "price": 64.99,
-   "status": "ACTIVE",
-   "tracked": true,
-   "available": true
-  },
-  {
-   "title": "Lumara Geneva XL Candle Holder",
-   "sku": "LH-CH-005",
-   "qty": 10,
-   "price": 109.99,
-   "status": "ACTIVE",
-   "tracked": true,
-   "available": true
-  },
-  {
-   "title": "Lumara Candleholders Set of 3 White",
-   "sku": "LD6953-1",
-   "qty": 10,
-   "price": 94.99,
-   "status": "ACTIVE",
-   "tracked": true,
-   "available": true
-  },
-  {
-   "title": "Lumara Hurricane Candle Holder Moss",
-   "sku": "LH-CH-006",
-   "qty": 10,
-   "price": 89.99,
-   "status": "ACTIVE",
-   "tracked": true,
-   "available": true
-  },
-  {
-   "title": "Lumara Candlestick Mod Natural",
-   "sku": "LH-CH-007",
-   "qty": 10,
-   "price": 49.99,
-   "status": "ACTIVE",
-   "tracked": true,
-   "available": true
-  },
-  {
-   "title": "Lumara Talia Table Lamp",
-   "sku": "YE6211M-1",
-   "qty": 0,
-   "price": 159.99,
-   "status": "ACTIVE",
-   "tracked": true,
-   "available": false
-  },
-  {
-   "title": "Lumara Alegra Statement Vase",
-   "sku": "QA5813-2",
-   "qty": 4,
-   "price": 94.99,
-   "status": "ACTIVE",
-   "tracked": true,
-   "available": true
-  },
-  {
-   "title": "Lumara Champagne Glass LED Candle Holder",
-   "sku": "SK3116-1",
-   "qty": 10,
-   "price": 74.99,
-   "status": "ACTIVE",
-   "tracked": true,
-   "available": true
-  },
-  {
-   "title": "Lumara Nishi Clay Table Lamp",
-   "sku": "YR7316-1",
-   "qty": 10,
-   "price": 169.99,
-   "status": "DRAFT",
-   "tracked": true,
-   "available": true
-  },
-  {
-   "title": "Lumara Mediterranean Statement Vase",
-   "sku": "KE9006-2",
-   "qty": 9,
-   "price": 94.99,
-   "status": "ACTIVE",
-   "tracked": true,
-   "available": true
-  },
-  {
-   "title": "Lumara Elle Statement Vase",
-   "sku": "XC4013-2",
-   "qty": 10,
-   "price": 114.99,
-   "status": "ACTIVE",
-   "tracked": true,
-   "available": true
-  },
-  {
-   "title": "Lumara Warm Glow Trio \u2014 Bundle",
-   "sku": "LH-BDL-01",
-   "qty": 0,
-   "price": 139.0,
-   "status": "ACTIVE",
-   "tracked": false,
-   "available": true
-  },
-  {
-   "title": "Lumara Mantel Styling Set \u2014 Bundle",
-   "sku": "LH-BDL-02",
-   "qty": 0,
-   "price": 119.0,
-   "status": "ACTIVE",
-   "tracked": false,
-   "available": true
-  },
-  {
-   "title": "Lumara Bedside Bundle",
-   "sku": "LH-BDL-03",
-   "qty": 0,
-   "price": 119.0,
-   "status": "ACTIVE",
-   "tracked": false,
-   "available": true
-  },
-  {
-   "title": "Lumara Living Room Set \u2014 Bundle",
-   "sku": "LH-BDL-04",
-   "qty": 0,
-   "price": 194.0,
-   "status": "ACTIVE",
-   "tracked": false,
-   "available": true
-  },
-  {
-   "title": "Lumara Statement Console \u2014 Bundle",
-   "sku": "LH-BDL-05",
-   "qty": 0,
-   "price": 235.0,
-   "status": "ACTIVE",
-   "tracked": false,
-   "available": true
-  },
-  {
-   "title": "Lumara Coastal Glow \u2014 Bundle",
-   "sku": "LH-BDL-06",
-   "qty": 0,
-   "price": 219.0,
-   "status": "ACTIVE",
-   "tracked": false,
-   "available": true
-  },
-  {
-   "title": "Turtle Shell Planters (Set of 2)",
-   "sku": "QA5419-2",
-   "qty": 0,
-   "price": 179.99,
-   "status": "ACTIVE",
-   "tracked": true,
-   "available": false
-  },
-  {
-   "title": "Talia Vase",
-   "sku": "\u2014",
-   "qty": 8,
-   "price": 89.99,
-   "status": "ACTIVE",
-   "tracked": true,
-   "available": true
-  },
-  {
-   "title": "Antiqued Metal Candle Holder \u2014 54cm",
-   "sku": "QA5602-1",
-   "qty": 0,
-   "price": 74.95,
-   "status": "DRAFT",
-   "tracked": true,
-   "available": false
-  },
-  {
-   "title": "Gold Metal Side Table \u2014 62cm",
-   "sku": "19753TBL",
-   "qty": 0,
-   "price": 149.99,
-   "status": "DRAFT",
-   "tracked": true,
-   "available": false
-  },
-  {
-   "title": "Lumara Malabar Vase",
-   "sku": "YE6213-1",
-   "qty": 10,
-   "price": 69.99,
-   "status": "ACTIVE",
-   "tracked": false,
-   "available": true
-  },
-  {
-   "title": "Lumara Malabar Duo \u2014 Bundle",
-   "sku": "LH-BDL-07",
-   "qty": 9,
-   "price": 189.99,
-   "status": "ACTIVE",
-   "tracked": true,
-   "available": true
-  },
-  {
-   "title": "Lumara Pear Table Lamp",
-   "sku": "YR7256-1",
-   "qty": 0,
-   "price": 228.99,
-   "status": "ACTIVE",
-   "tracked": false,
-   "available": true
-  },
-  {
-   "title": "Lumara White Foam Table Lamp",
-   "sku": "YR7257-1",
-   "qty": 0,
-   "price": 228.99,
-   "status": "ACTIVE",
-   "tracked": false,
-   "available": true
-  },
-  {
-   "title": "Lumara Casa Table Lamp",
-   "sku": "YF3033-1",
-   "qty": 10,
-   "price": 149.99,
-   "status": "ACTIVE",
-   "tracked": false,
-   "available": true
-  },
-  {
-   "title": "Lumara Riviera XL Table Lamp",
-   "sku": "Y8215-1",
-   "qty": 0,
-   "price": 499.0,
-   "status": "ACTIVE",
-   "tracked": false,
-   "available": true
-  },
-  {
-   "title": "Lumara Hamptons XL Table Lamp",
-   "sku": "Y8236-1",
-   "qty": 0,
-   "price": 499.0,
-   "status": "ACTIVE",
-   "tracked": false,
-   "available": true
-  },
-  {
-   "title": "Lumara Waitangi Foam Table Lamp",
-   "sku": "YR7254-1",
-   "qty": 0,
-   "price": 429.0,
-   "status": "DRAFT",
-   "tracked": false,
-   "available": true
-  },
-  {
-   "title": "Lumara Chike Table Lamp",
-   "sku": "YR7399-1",
-   "qty": 0,
-   "price": 499.0,
-   "status": "ACTIVE",
-   "tracked": false,
-   "available": true
-  },
-  {
-   "title": "Lumara Fossil Table Lamp",
-   "sku": "YE6125-1",
-   "qty": 0,
-   "price": 375.0,
-   "status": "ACTIVE",
-   "tracked": false,
-   "available": true
-  },
-  {
-   "title": "Lumara Pineapple Table Lamp \u2014 Weathered Vintage",
-   "sku": "YE6102-1",
-   "qty": 0,
-   "price": 289.0,
-   "status": "ACTIVE",
-   "tracked": false,
-   "available": true
-  },
-  {
-   "title": "Lumara Pineapple Table Lamp \u2014 White",
-   "sku": "YE6101-1",
-   "qty": 0,
-   "price": 289.0,
-   "status": "ACTIVE",
-   "tracked": false,
-   "available": true
-  },
-  {
-   "title": "Lumara Malabar Table Lamp",
-   "sku": "YE6202-1",
-   "qty": 10,
-   "price": 149.99,
-   "status": "ACTIVE",
-   "tracked": false,
-   "available": true
-  },
-  {
-   "title": "Lumara Olive Mediterranean Candelabra",
-   "sku": "QA5903-2",
-   "qty": 4,
-   "price": 99.99,
-   "status": "ACTIVE",
-   "tracked": true,
-   "available": true
-  },
-  {
-   "title": "Lumara Velvet Leaf Stem \u2014 Dawn Blush (Single)",
-   "sku": "JI2028-4",
-   "qty": 0,
-   "price": 17.99,
-   "status": "ACTIVE",
-   "tracked": false,
-   "available": true
-  },
-  {
-   "title": "Lumara Velvet Leaf Stem \u2014 Sage Green (Single)",
-   "sku": "JI2029-4",
-   "qty": 0,
-   "price": 17.99,
-   "status": "ACTIVE",
-   "tracked": false,
-   "available": true
-  },
-  {
-   "title": "Lumara Velvet Leaf Stem \u2014 Ivory (Single)",
-   "sku": "JI2030-4",
-   "qty": 0,
-   "price": 17.99,
-   "status": "ACTIVE",
-   "tracked": false,
-   "available": true
-  },
-  {
-   "title": "Lumara Gum Leaf Stem (Single)",
-   "sku": "JI2045-4",
-   "qty": 0,
-   "price": 57.99,
-   "status": "ACTIVE",
-   "tracked": false,
-   "available": true
-  },
-  {
-   "title": "Lumara Banksia Stem \u2014 Amber (Single)",
-   "sku": "JI2044-4",
-   "qty": 0,
-   "price": 38.99,
-   "status": "ACTIVE",
-   "tracked": false,
-   "available": true
-  },
-  {
-   "title": "Lumara Magnolia Stem (Single)",
-   "sku": "LD9306-4",
-   "qty": 0,
-   "price": 36.99,
-   "status": "ACTIVE",
-   "tracked": false,
-   "available": true
-  },
-  {
-   "title": "Lumara Kangaroo Paw Stem (Single)",
-   "sku": "JI2043-4",
-   "qty": 0,
-   "price": 28.99,
-   "status": "ACTIVE",
-   "tracked": false,
-   "available": true
-  },
-  {
-   "title": "Lumara Pine & Eucalypt Stem (Single)",
-   "sku": "LD9311-4",
-   "qty": 0,
-   "price": 23.99,
-   "status": "ACTIVE",
-   "tracked": false,
-   "available": true
-  },
-  {
-   "title": "Lumara Ivory Gum Stem (Single)",
-   "sku": "LD7363-4",
-   "qty": 0,
-   "price": 21.99,
-   "status": "ACTIVE",
-   "tracked": false,
-   "available": true
-  },
-  {
-   "title": "Lumara Berries & Leaves Stem (Single)",
-   "sku": "LD9163-4",
-   "qty": 0,
-   "price": 19.99,
-   "status": "ACTIVE",
-   "tracked": false,
-   "available": true
-  },
-  {
-   "title": "Lumara LED Branch \u2014 Gold (Single)",
-   "sku": "LD7130-1",
-   "qty": 0,
-   "price": 16.99,
-   "status": "ACTIVE",
-   "tracked": false,
-   "available": true
-  },
-  {
-   "title": "Lumara LED Branch \u2014 Paperbark (Single)",
-   "sku": "LD7131-1",
-   "qty": 0,
-   "price": 15.99,
-   "status": "ACTIVE",
-   "tracked": false,
-   "available": true
-  },
-  {
-   "title": "Lumara Fern Gold Stem (Single)",
-   "sku": "LD7052-12",
-   "qty": 0,
-   "price": 9.99,
-   "status": "ACTIVE",
-   "tracked": false,
-   "available": true
-  },
-  {
-   "title": "Table Swag Olive Candelabra",
-   "sku": "QA5903-3",
-   "qty": 3,
-   "price": 89.99,
-   "status": "ACTIVE",
-   "tracked": true,
-   "available": true
-  },
-  {
-   "title": "Lumara Reversible Wool-Blend Throw",
-   "sku": "SC6324-1",
-   "qty": 10,
-   "price": 159.99,
-   "status": "ACTIVE",
-   "tracked": true,
-   "available": true
-  },
-  {
-   "title": "Lumara Magnolia XL Sculpture",
-   "sku": "BL7803-1",
-   "qty": 10,
-   "price": 109.99,
-   "status": "ACTIVE",
-   "tracked": true,
-   "available": true
-  },
-  {
-   "title": "Lumara Amazon Woven Basket Set of 3",
-   "sku": "JL6204-1",
-   "qty": 10,
-   "price": 89.99,
-   "status": "ACTIVE",
-   "tracked": true,
-   "available": true
   }
  ],
  "klaviyo": {
@@ -1540,20 +1794,6 @@
     0,
     0
    ]
-  }
- },
- "sources": {
-  "shopify": {
-   "ok": true,
-   "fetched_at": "2026-07-27T06:06:03Z"
-  },
-  "meta": {
-   "ok": true,
-   "fetched_at": "2026-07-27T06:06:03Z"
-  },
-  "klaviyo": {
-   "ok": true,
-   "fetched_at": "2026-07-27T06:06:03Z"
   }
  }
 }

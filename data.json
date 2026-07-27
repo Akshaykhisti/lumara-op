@@ -3,20 +3,22 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-07-27T06:06:03Z",
-  "generated_at_local": "Mon 27 Jul 2026, 4:06pm AEST",
+  "generated_at_utc": "2026-07-27T06:50:56Z",
+  "generated_at_local": "Mon 27 Jul 2026, 4:50pm AEST",
   "today": "2026-07-27",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-07-27T06:06:03Z"
+    "fetched_at": "2026-07-27T06:50:56Z"
    },
    "meta": {
-    "ok": true,
+    "ok": false,
+    "error": "HTTP 403: {\"error\":{\"message\":\"(#200) Provide valid app ID\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AyqqaC_CU6SAtYsUnYIZfkU\"}}",
     "fetched_at": "2026-07-27T06:06:03Z"
    },
    "klaviyo": {
-    "ok": true,
+    "ok": false,
+    "error": "HTTP 401: {\"errors\":[{\"id\":\"704b5afb-ba33-49a8-a9f4-af215f592c14\",\"status\":401,\"code\":\"not_authenticated\",\"title\":\"Authentication credentials were not provided.\",\"detail\":\"Missing or invalid private k",
     "fetched_at": "2026-07-27T06:06:03Z"
    }
   }
@@ -34,18 +36,23 @@
   },
   {
    "level": "serious",
+   "title": "Meta Ads and Klaviyo didn't refresh",
+   "body": "Those panels are showing the last figures that came through, not current ones. Everything else on this page is up to date."
+  },
+  {
+   "level": "serious",
    "title": "2 product(s) sold in the last 30d are out of stock",
-   "body": "Turtle Shell Planters (Set of 2), Lumara Talia Table Lamp. Still listed as active \u2014 they take traffic and convert nothing."
+   "body": "Turtle Shell Planters (Set of 2), Lumara Talia Table Lamp \u2014 Mixed Glaze Ceramic. Still listed as active \u2014 they take traffic and convert nothing."
   },
   {
    "level": "warning",
-   "title": "30 active SKUs have inventory tracking off",
+   "title": "56 active SKUs have inventory tracking off",
    "body": "Shopify isn't counting units for these, so their stock numbers mean nothing and they can't trigger a low-stock warning. Turn tracking on for anything you actually hold."
   },
   {
    "level": "warning",
    "title": "3 product(s) at 3 units or fewer",
-   "body": "Lumara Botanical Bud Vase Set of 2 (1), Lumara Ribbed Rhubarb Glass Vase (1), Table Swag Olive Candelabra (3)"
+   "body": "Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral (1), Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass (1), Table Swag Olive Candelabra (3)"
   }
  ],
  "sales": {
@@ -267,7 +274,7 @@
     "customer": "Kim White",
     "fulfillment": "FULFILLED",
     "financial": "PAID",
-    "items": "Lumara Olive Mediterranean Candelabra"
+    "items": "Lumara Olive Mediterranean Candelabra \u2014 Sculptural Metal Centrepiece"
    },
    {
     "name": "#1031",
@@ -276,7 +283,7 @@
     "customer": "Susan Eveston",
     "fulfillment": "FULFILLED",
     "financial": "PAID",
-    "items": "Lumara Botanical Bud Vase Set of 2"
+    "items": "Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral"
    },
    {
     "name": "#1030",
@@ -285,7 +292,7 @@
     "customer": "Sharyn Howes",
     "fulfillment": "FULFILLED",
     "financial": "PAID",
-    "items": "Lumara Giana Natural Table Lamp"
+    "items": "Lumara Giana Natural Table Lamp \u2014 Earthy Organic Style"
    },
    {
     "name": "#1029",
@@ -294,7 +301,7 @@
     "customer": "Irene Philp",
     "fulfillment": "FULFILLED",
     "financial": "PAID",
-    "items": "Lumara Olive Mediterranean Candelabra"
+    "items": "Lumara Olive Mediterranean Candelabra \u2014 Sculptural Metal Centrepiece"
    },
    {
     "name": "#1028",
@@ -312,7 +319,7 @@
     "customer": "Penni Robinson",
     "fulfillment": "FULFILLED",
     "financial": "PAID",
-    "items": "Lumara Olive Mediterranean Candelabra"
+    "items": "Lumara Olive Mediterranean Candelabra \u2014 Sculptural Metal Centrepiece"
    },
    {
     "name": "#1026",
@@ -321,7 +328,7 @@
     "customer": "Amanda Dillon",
     "fulfillment": "FULFILLED",
     "financial": "PAID",
-    "items": "Lumara Mediterranean Large Candle Holder, Lumara Mediterranean Statement Vase, Lumara Mediterranean Med Candle Holder"
+    "items": "Lumara Mediterranean Large Candle Holder \u2014 Tall Ceramic Taper, Lumara Mediterranean Statement Vase \u2014 Rustic White Ceramic, Lumara Mediterranean Med Candle Holder \u2014 Slender Ceramic Taper"
    },
    {
     "name": "#1025",
@@ -343,19 +350,19 @@
     "units": 4
    },
    {
-    "title": "Lumara Olive Mediterranean Candelabra",
+    "title": "Lumara Olive Mediterranean Candelabra \u2014 Sculptural Metal Centrepiece",
     "units": 3
    },
    {
-    "title": "Lumara Newport Large Table Lamp",
+    "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
     "units": 3
    },
    {
-    "title": "Lumara Talia Table Lamp",
+    "title": "Lumara Talia Table Lamp \u2014 Mixed Glaze Ceramic",
     "units": 3
    },
    {
-    "title": "Lumara Ribbed Rhubarb Glass Vase",
+    "title": "Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass",
     "units": 2
    }
   ]
@@ -643,13 +650,13 @@
   ]
  },
  "stock": {
-  "sellable_skus": 76,
+  "sellable_skus": 102,
   "tracked_skus": 46,
   "out_of_stock": 2,
   "low": 3,
   "watch": 2,
   "healthy": 39,
-  "untracked": 30,
+  "untracked": 56,
   "stock_value": 52176.12,
   "oos_list": [
    {
@@ -663,7 +670,7 @@
     "sold_30d": 4
    },
    {
-    "title": "Lumara Talia Table Lamp",
+    "title": "Lumara Talia Table Lamp \u2014 Mixed Glaze Ceramic",
     "sku": "YE6211M-1",
     "qty": 0,
     "price": 159.99,
@@ -685,7 +692,7 @@
     "sold_30d": 4
    },
    {
-    "title": "Lumara Talia Table Lamp",
+    "title": "Lumara Talia Table Lamp \u2014 Mixed Glaze Ceramic",
     "sku": "YE6211M-1",
     "qty": 0,
     "price": 159.99,
@@ -697,7 +704,7 @@
   ],
   "low_list": [
    {
-    "title": "Lumara Botanical Bud Vase Set of 2",
+    "title": "Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral",
     "sku": "CN7142-1",
     "qty": 1,
     "price": 54.99,
@@ -708,7 +715,7 @@
     "days_cover": 30.0
    },
    {
-    "title": "Lumara Ribbed Rhubarb Glass Vase",
+    "title": "Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass",
     "sku": "LH-VS-012",
     "qty": 1,
     "price": 49.99,
@@ -730,7 +737,7 @@
     "days_cover": null
    },
    {
-    "title": "Lumara Alegra Statement Vase",
+    "title": "Lumara Alegra Statement Vase \u2014 Sculptural Metal",
     "sku": "QA5813-2",
     "qty": 4,
     "price": 94.99,
@@ -741,7 +748,7 @@
     "days_cover": null
    },
    {
-    "title": "Lumara Olive Mediterranean Candelabra",
+    "title": "Lumara Olive Mediterranean Candelabra \u2014 Sculptural Metal Centrepiece",
     "sku": "QA5903-2",
     "qty": 4,
     "price": 99.99,
@@ -754,7 +761,7 @@
   ],
   "untracked_list": [
    {
-    "title": "Lumara Riviera XL Table Lamp",
+    "title": "Lumara Riviera XL Table Lamp \u2014 Coastal Glass Statement",
     "sku": "Y8215-1",
     "qty": 0,
     "price": 499.0,
@@ -763,7 +770,7 @@
     "available": true
    },
    {
-    "title": "Lumara Hamptons XL Table Lamp",
+    "title": "Lumara Hamptons XL Table Lamp \u2014 Classic Coastal Statement",
     "sku": "Y8236-1",
     "qty": 0,
     "price": 499.0,
@@ -772,7 +779,7 @@
     "available": true
    },
    {
-    "title": "Lumara Chike Table Lamp",
+    "title": "Lumara Chike Table Lamp \u2014 Sculptural Ceramic Statement",
     "sku": "YR7399-1",
     "qty": 0,
     "price": 499.0,
@@ -781,7 +788,7 @@
     "available": true
    },
    {
-    "title": "Lumara Fossil Table Lamp",
+    "title": "Lumara Fossil Table Lamp \u2014 Organic Textured Ceramic",
     "sku": "YE6125-1",
     "qty": 0,
     "price": 375.0,
@@ -790,7 +797,7 @@
     "available": true
    },
    {
-    "title": "Lumara Pineapple Table Lamp \u2014 Weathered Vintage",
+    "title": "Lumara Pineapple Table Lamp \u2014 Reactive Glaze Ceramic",
     "sku": "YE6102-1",
     "qty": 0,
     "price": 289.0,
@@ -799,7 +806,7 @@
     "available": true
    },
    {
-    "title": "Lumara Pineapple Table Lamp \u2014 White",
+    "title": "Lumara Pineapple Table Lamp \u2014 Reactive Glaze Ceramic",
     "sku": "YE6101-1",
     "qty": 0,
     "price": 289.0,
@@ -808,7 +815,7 @@
     "available": true
    },
    {
-    "title": "Lumara Statement Console \u2014 Bundle",
+    "title": "Lumara Statement Console \u2014 Lamp & Vase Bundle",
     "sku": "LH-BDL-05",
     "qty": 0,
     "price": 235.0,
@@ -817,7 +824,7 @@
     "available": true
    },
    {
-    "title": "Lumara Pear Table Lamp",
+    "title": "Lumara Pear Table Lamp \u2014 Playful Gloss Green Ceramic",
     "sku": "YR7256-1",
     "qty": 0,
     "price": 228.99,
@@ -826,7 +833,7 @@
     "available": true
    },
    {
-    "title": "Lumara White Foam Table Lamp",
+    "title": "Lumara White Foam Table Lamp \u2014 Sculptural Cloud White Ceramic",
     "sku": "YR7257-1",
     "qty": 0,
     "price": 228.99,
@@ -835,7 +842,7 @@
     "available": true
    },
    {
-    "title": "Lumara Coastal Glow \u2014 Bundle",
+    "title": "Lumara Coastal Glow \u2014 Lamp & Candle Bundle",
     "sku": "LH-BDL-06",
     "qty": 0,
     "price": 219.0,
@@ -844,7 +851,7 @@
     "available": true
    },
    {
-    "title": "Lumara Living Room Set \u2014 Bundle",
+    "title": "Lumara Living Room Set \u2014 Lamp, Candle & Vase Bundle",
     "sku": "LH-BDL-04",
     "qty": 0,
     "price": 194.0,
@@ -853,7 +860,7 @@
     "available": true
    },
    {
-    "title": "Lumara Casa Table Lamp",
+    "title": "Lumara Casa Table Lamp \u2014 Classic Ceramic Charm",
     "sku": "YF3033-1",
     "qty": 10,
     "price": 149.99,
@@ -862,7 +869,7 @@
     "available": true
    },
    {
-    "title": "Lumara Malabar Table Lamp",
+    "title": "Lumara Malabar Table Lamp \u2014 Ribbed Reactive Glaze Ceramic",
     "sku": "YE6202-1",
     "qty": 10,
     "price": 149.99,
@@ -871,7 +878,7 @@
     "available": true
    },
    {
-    "title": "Lumara Warm Glow Trio \u2014 Bundle",
+    "title": "Lumara Warm Glow Trio \u2014 Candle Holder Bundle",
     "sku": "LH-BDL-01",
     "qty": 0,
     "price": 139.0,
@@ -880,7 +887,16 @@
     "available": true
    },
    {
-    "title": "Lumara Mantel Styling Set \u2014 Bundle",
+    "title": "Lumara Gum Leaf Stem \u2014 Faux Eucalyptus Branch",
+    "sku": "JI2045-4-X3",
+    "qty": 0,
+    "price": 129.99,
+    "status": "ACTIVE",
+    "tracked": false,
+    "available": true
+   },
+   {
+    "title": "Lumara Mantel Styling Set \u2014 Candle & Vase Bundle",
     "sku": "LH-BDL-02",
     "qty": 0,
     "price": 119.0,
@@ -889,7 +905,7 @@
     "available": true
    },
    {
-    "title": "Lumara Bedside Bundle",
+    "title": "Lumara Bedside Bundle \u2014 Flynn Lamp & Bud Vase",
     "sku": "LH-BDL-03",
     "qty": 0,
     "price": 119.0,
@@ -898,37 +914,28 @@
     "available": true
    },
    {
-    "title": "Lumara Malabar Vase",
-    "sku": "YE6213-1",
-    "qty": 10,
-    "price": 69.99,
+    "title": "Lumara Gum Leaf Stem \u2014 Faux Eucalyptus Branch",
+    "sku": "JI2045-4-X2",
+    "qty": 0,
+    "price": 102.99,
     "status": "ACTIVE",
     "tracked": false,
     "available": true
    },
    {
-    "title": "Lumara Gum Leaf Stem (Single)",
-    "sku": "JI2045-4",
+    "title": "Lumara Banksia Stem \u2014 Amber Faux Native",
+    "sku": "JI2044-4-X3",
     "qty": 0,
-    "price": 57.99,
+    "price": 84.99,
     "status": "ACTIVE",
     "tracked": false,
     "available": true
    },
    {
-    "title": "Lumara Banksia Stem \u2014 Amber (Single)",
-    "sku": "JI2044-4",
+    "title": "Lumara Magnolia Stem \u2014 Real Touch Faux Bloom",
+    "sku": "LD9306-4-X3",
     "qty": 0,
-    "price": 38.99,
-    "status": "ACTIVE",
-    "tracked": false,
-    "available": true
-   },
-   {
-    "title": "Lumara Magnolia Stem (Single)",
-    "sku": "LD9306-4",
-    "qty": 0,
-    "price": 36.99,
+    "price": 82.99,
     "status": "ACTIVE",
     "tracked": false,
     "available": true
