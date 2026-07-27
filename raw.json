@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-07-27T07:31:25Z",
+ "generated_at_utc": "2026-07-27T08:00:33Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,16 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-07-27T07:31:25Z"
+   "fetched_at": "2026-07-27T08:00:33Z"
   },
   "meta": {
-   "ok": false,
-   "error": "META_TOKEN is not set",
-   "fetched_at": "2026-07-27T06:06:03Z"
+   "ok": true,
+   "fetched_at": "2026-07-27T08:00:33Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-07-27T07:31:25Z"
+   "fetched_at": "2026-07-27T08:00:33Z"
   }
  },
  "orders": [
@@ -1559,41 +1558,26 @@
   },
   {
    "date": "2026-07-27",
-   "spend": 17.74,
-   "impressions": 287,
-   "clicks": 11,
-   "ctr": 3.83,
-   "cpc": 1.61,
+   "spend": 22.15,
+   "impressions": 400,
+   "clicks": 16,
+   "ctr": 4.0,
+   "cpc": 1.38,
    "purchases": 0,
    "purchase_value": 0.0
   }
  ],
  "ads_today": {
   "date": "2026-07-27",
-  "spend": 17.74,
-  "impressions": 287,
-  "clicks": 11,
-  "ctr": 3.83,
-  "cpc": 1.61,
+  "spend": 22.15,
+  "impressions": 400,
+  "clicks": 16,
+  "ctr": 4.0,
+  "cpc": 1.38,
   "purchases": 0,
   "purchase_value": 0.0
  },
  "ads_campaigns": [
-  {
-   "name": "Lumara \u2014 Sales \u2014 Winners Broad CBO (Jul 2026)",
-   "status": "ACTIVE",
-   "daily_budget": 30.0,
-   "spend": 307.06,
-   "impressions": 8450,
-   "clicks": 455,
-   "ctr": 5.38,
-   "cpc": 0.67,
-   "roas": 1.07,
-   "purchases": 3,
-   "purchase_value": 328.83,
-   "atc": 21,
-   "reach": 6077
-  },
   {
    "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
    "status": "PAUSED",
@@ -1603,11 +1587,26 @@
    "clicks": 1598,
    "ctr": 3.76,
    "cpc": 0.74,
-   "roas": 2.65,
+   "roas": 2.6526,
    "purchases": 19,
    "purchase_value": 3156.76,
    "atc": 56,
    "reach": 21242
+  },
+  {
+   "name": "Lumara \u2014 Sales \u2014 Winners Broad CBO (Jul 2026)",
+   "status": "ACTIVE",
+   "daily_budget": 30.0,
+   "spend": 307.06,
+   "impressions": 8450,
+   "clicks": 455,
+   "ctr": 5.38,
+   "cpc": 0.67,
+   "roas": 1.0709,
+   "purchases": 3,
+   "purchase_value": 328.83,
+   "atc": 21,
+   "reach": 6077
   },
   {
    "name": "Lumara \u2014 Talia Lamp \u2014 Final Stock \u2014 FB (Jul 2026)",
@@ -1618,7 +1617,7 @@
    "clicks": 237,
    "ctr": 3.48,
    "cpc": 0.95,
-   "roas": 0.62,
+   "roas": 0.6222,
    "purchases": 1,
    "purchase_value": 139.94,
    "atc": 5,

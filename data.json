@@ -3,22 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-07-27T07:31:25Z",
-  "generated_at_local": "Mon 27 Jul 2026, 5:31pm AEST",
+  "generated_at_utc": "2026-07-27T08:00:33Z",
+  "generated_at_local": "Mon 27 Jul 2026, 6:00pm AEST",
   "today": "2026-07-27",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-07-27T07:31:25Z"
+    "fetched_at": "2026-07-27T08:00:33Z"
    },
    "meta": {
-    "ok": false,
-    "error": "META_TOKEN is not set",
-    "fetched_at": "2026-07-27T06:06:03Z"
+    "ok": true,
+    "fetched_at": "2026-07-27T08:00:33Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-07-27T07:31:25Z"
+    "fetched_at": "2026-07-27T08:00:33Z"
    }
   }
  },
@@ -26,17 +25,12 @@
   {
    "level": "critical",
    "title": "No orders for 6 days",
-   "body": "Last order was #1032 on 21 Jul. Ads have spent $334 since the last attributed purchase."
+   "body": "Last order was #1032 on 21 Jul. Ads have spent $339 since the last attributed purchase."
   },
   {
    "level": "critical",
-   "title": "$334 ad spend, 0 attributed purchases (6 days)",
+   "title": "$339 ad spend, 0 attributed purchases (6 days)",
    "body": "1 campaign(s) live at $30/day. Check pixel/tracking and landing pages before topping up budget."
-  },
-  {
-   "level": "serious",
-   "title": "Meta Ads didn't refresh",
-   "body": "Those panels are showing the last figures that came through, not current ones. Everything else on this page is up to date."
   },
   {
    "level": "serious",
@@ -368,26 +362,26 @@
  },
  "ads": {
   "today": {
-   "spend": 17.74,
+   "spend": 22.15,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 11,
-   "impressions": 287,
+   "clicks": 16,
+   "impressions": 400,
    "purchases": 0,
-   "cpc": 1.61,
-   "ctr": 3.83,
+   "cpc": 1.38,
+   "ctr": 4.0,
    "cpa": null
   },
   "d7": {
-   "spend": 414.4,
+   "spend": 418.81,
    "value": 400.39,
-   "roas": 0.97,
-   "clicks": 474,
-   "impressions": 12475,
+   "roas": 0.96,
+   "clicks": 479,
+   "impressions": 12588,
    "purchases": 3,
    "cpc": 0.87,
-   "ctr": 3.8,
-   "cpa": 138.13
+   "ctr": 3.81,
+   "cpa": 139.6
   },
   "prev7": {
    "spend": 569.35,
@@ -397,7 +391,7 @@
   "daily_budget_live": 30.0,
   "active_campaigns": 1,
   "dry_days": 6,
-  "dry_spend": 334.12,
+  "dry_spend": 338.53,
   "series": [
    {
     "date": "2026-07-14",
@@ -532,12 +526,12 @@
    {
     "date": "2026-07-27",
     "label": "27 Jul",
-    "spend": 17.74,
+    "spend": 22.15,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 11,
-    "ctr": 3.83,
-    "cpc": 1.61
+    "clicks": 16,
+    "ctr": 4.0,
+    "cpc": 1.38
    }
   ],
   "campaigns": [
@@ -550,7 +544,7 @@
     "clicks": 1598,
     "ctr": 3.76,
     "cpc": 0.74,
-    "roas": 2.65,
+    "roas": 2.6526,
     "purchases": 19,
     "purchase_value": 3156.76,
     "atc": 56,
@@ -565,7 +559,7 @@
     "clicks": 455,
     "ctr": 5.38,
     "cpc": 0.67,
-    "roas": 1.07,
+    "roas": 1.0709,
     "purchases": 3,
     "purchase_value": 328.83,
     "atc": 21,
@@ -580,7 +574,7 @@
     "clicks": 237,
     "ctr": 3.48,
     "cpc": 0.95,
-    "roas": 0.62,
+    "roas": 0.6222,
     "purchases": 1,
     "purchase_value": 139.94,
     "atc": 5,
