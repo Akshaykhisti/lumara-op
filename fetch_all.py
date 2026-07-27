@@ -26,13 +26,28 @@ META_VERSIONS = ["v23.0", "v22.0", "v21.0", "v20.0"]
 KLAVIYO_REVISIONS = ["2025-07-15", "2025-01-15", "2024-10-15"]
 OUT = "raw.json"
 
-def env(name, required=True):
-    """Read a credential, tolerating whitespace. A trailing newline pasted into
-    GitHub's secret textarea otherwise corrupts the auth header and surfaces as
-    a bogus 'invalid key' error."""
+def env(name, required=True, prefix=None):
+    """Read a credential, tolerating whitespace, and fail loudly on the two
+    paste mistakes that otherwise surface as inscrutable API errors:
+      - trailing newline from GitHub's secret textarea (corrupts the header)
+      - copying the MASKED value off a settings page, which is bullet
+        characters (U+2022), not the key. That raised a latin-1 codec error
+        from deep inside urllib and told nobody anything useful."""
     v = (os.environ.get(name) or "").strip()
-    if not v and required:
-        raise KeyError(name)
+    if not v:
+        if required:
+            raise RuntimeError(f"{name} is not set")
+        return v
+    if not v.isascii():
+        bad = "".join(sorted({c for c in v if not c.isascii()}))
+        raise RuntimeError(
+            f"{name} contains non-ASCII characters ({bad!r}) — this is what you "
+            f"get by copying the masked value (the dots) instead of the real "
+            f"key. Reveal it first, then copy.")
+    if prefix and not v.startswith(prefix):
+        raise RuntimeError(
+            f"{name} should start with {prefix!r} but starts with {v[:4]!r} — "
+            f"looks like the wrong value or a partial copy.")
     return v
 
 
@@ -291,7 +306,7 @@ def fetch_meta(today):
 
 # ---------------------------------------------------------------- klaviyo
 def klaviyo_get(path, params=None):
-    key = env("KLAVIYO_KEY")
+    key = env("KLAVIYO_KEY", prefix="pk_")
     q = ("?" + urllib.parse.urlencode(params)) if params else ""
     last = None
     for rev in KLAVIYO_REVISIONS:
