@@ -3,19 +3,19 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-07-27T03:19:23Z",
-  "generated_at_local": "Mon 27 Jul 2026, 1:19pm AEST",
+  "generated_at_utc": "2026-07-27T06:06:03Z",
+  "generated_at_local": "Mon 27 Jul 2026, 4:06pm AEST",
   "today": "2026-07-27"
  },
  "alerts": [
   {
    "level": "critical",
    "title": "No orders for 6 days",
-   "body": "Last order was #1032 on 21 Jul. Ads have spent $325 since the last attributed purchase."
+   "body": "Last order was #1032 on 21 Jul. Ads have spent $334 since the last attributed purchase."
   },
   {
    "level": "critical",
-   "title": "$325 ad spend, 0 attributed purchases (6 days)",
+   "title": "$334 ad spend, 0 attributed purchases (6 days)",
    "body": "1 campaign(s) live at $30/day. Check pixel/tracking and landing pages before topping up budget."
   },
   {
@@ -348,26 +348,26 @@
  },
  "ads": {
   "today": {
-   "spend": 8.39,
+   "spend": 17.74,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 4,
-   "impressions": 106,
+   "clicks": 11,
+   "impressions": 287,
    "purchases": 0,
-   "cpc": 2.1,
-   "ctr": 3.77,
+   "cpc": 1.61,
+   "ctr": 3.83,
    "cpa": null
   },
   "d7": {
-   "spend": 405.05,
+   "spend": 414.4,
    "value": 400.39,
-   "roas": 0.99,
-   "clicks": 467,
-   "impressions": 12294,
+   "roas": 0.97,
+   "clicks": 474,
+   "impressions": 12475,
    "purchases": 3,
    "cpc": 0.87,
    "ctr": 3.8,
-   "cpa": 135.02
+   "cpa": 138.13
   },
   "prev7": {
    "spend": 569.35,
@@ -377,7 +377,7 @@
   "daily_budget_live": 30.0,
   "active_campaigns": 1,
   "dry_days": 6,
-  "dry_spend": 324.77,
+  "dry_spend": 334.12,
   "series": [
    {
     "date": "2026-07-14",
@@ -512,12 +512,12 @@
    {
     "date": "2026-07-27",
     "label": "27 Jul",
-    "spend": 8.39,
+    "spend": 17.74,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 4,
-    "ctr": 3.77,
-    "cpc": 2.1
+    "clicks": 11,
+    "ctr": 3.83,
+    "cpc": 1.61
    }
   ],
   "campaigns": [
