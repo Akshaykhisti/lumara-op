@@ -1,0 +1,1559 @@
+{
+ "generated_at_utc": "2026-07-27T06:06:03Z",
+ "shop": {
+  "name": "Lumara Home",
+  "domain": "lumarahome.com.au",
+  "currency": "AUD",
+  "tz": "Australia/Sydney"
+ },
+ "customers_total": 48,
+ "abandoned_checkouts_recent": 2,
+ "unfulfilled_paid": [],
+ "orders": [
+  {
+   "name": "#1032",
+   "createdAt": "2026-07-21T09:38:38Z",
+   "financial": "PAID",
+   "fulfillment": "FULFILLED",
+   "total": 112.94,
+   "customer": "Kim White",
+   "items": [
+    {
+     "title": "Lumara Olive Mediterranean Candelabra",
+     "quantity": 1
+    }
+   ]
+  },
+  {
+   "name": "#1031",
+   "createdAt": "2026-07-21T07:37:41Z",
+   "financial": "PAID",
+   "fulfillment": "FULFILLED",
+   "total": 62.45,
+   "customer": "Susan Eveston",
+   "items": [
+    {
+     "title": "Lumara Botanical Bud Vase Set of 2",
+     "quantity": 1
+    }
+   ]
+  },
+  {
+   "name": "#1030",
+   "createdAt": "2026-07-21T03:10:57Z",
+   "financial": "PAID",
+   "fulfillment": "FULFILLED",
+   "total": 225.0,
+   "customer": "Sharyn Howes",
+   "items": [
+    {
+     "title": "Lumara Giana Natural Table Lamp",
+     "quantity": 1
+    }
+   ]
+  },
+  {
+   "name": "#1029",
+   "createdAt": "2026-07-20T11:52:15Z",
+   "financial": "PAID",
+   "fulfillment": "FULFILLED",
+   "total": 102.95,
+   "customer": "Irene Philp",
+   "items": [
+    {
+     "title": "Lumara Olive Mediterranean Candelabra",
+     "quantity": 1
+    }
+   ]
+  },
+  {
+   "name": "#1028",
+   "createdAt": "2026-07-20T00:33:52Z",
+   "financial": "PAID",
+   "fulfillment": "FULFILLED",
+   "total": 93.95,
+   "customer": "Amanda Mckean",
+   "items": [
+    {
+     "title": "Talia Vase",
+     "quantity": 1
+    }
+   ]
+  },
+  {
+   "name": "#1027",
+   "createdAt": "2026-07-19T10:33:39Z",
+   "financial": "PAID",
+   "fulfillment": "FULFILLED",
+   "total": 112.94,
+   "customer": "Penni Robinson",
+   "items": [
+    {
+     "title": "Lumara Olive Mediterranean Candelabra",
+     "quantity": 1
+    }
+   ]
+  },
+  {
+   "name": "#1026",
+   "createdAt": "2026-07-18T21:29:47Z",
+   "financial": "PAID",
+   "fulfillment": "FULFILLED",
+   "total": 166.48,
+   "customer": "Amanda Dillon",
+   "items": [
+    {
+     "title": "Lumara Mediterranean Large Candle Holder",
+     "quantity": 1
+    },
+    {
+     "title": "Lumara Mediterranean Statement Vase",
+     "quantity": 1
+    },
+    {
+     "title": "Lumara Mediterranean Med Candle Holder",
+     "quantity": 1
+    }
+   ]
+  },
+  {
+   "name": "#1025",
+   "createdAt": "2026-07-18T10:22:23Z",
+   "financial": "PAID",
+   "fulfillment": "FULFILLED",
+   "total": 103.95,
+   "customer": "Amanda Johnson",
+   "items": [
+    {
+     "title": "Talia Vase",
+     "quantity": 1
+    }
+   ]
+  },
+  {
+   "name": "#1024",
+   "createdAt": "2026-07-18T01:30:08Z",
+   "financial": "PAID",
+   "fulfillment": "FULFILLED",
+   "total": 67.95,
+   "customer": "Carmel Torenius",
+   "items": [
+    {
+     "title": "Lumara Lopez Rustic White Candle Holder",
+     "quantity": 1
+    }
+   ]
+  },
+  {
+   "name": "#1023",
+   "createdAt": "2026-07-15T06:33:11Z",
+   "financial": "PAID",
+   "fulfillment": "FULFILLED",
+   "total": 89.45,
+   "customer": "Karen Hyland",
+   "items": [
+    {
+     "title": "Lumara Ribbed Rhubarb Glass Vase",
+     "quantity": 2
+    }
+   ]
+  },
+  {
+   "name": "#1022",
+   "createdAt": "2026-07-14T11:59:12Z",
+   "financial": "PAID",
+   "fulfillment": "FULFILLED",
+   "total": 263.85,
+   "customer": "Tracey Bunt",
+   "items": [
+    {
+     "title": "Lumara Newport Large Table Lamp",
+     "quantity": 1
+    }
+   ]
+  },
+  {
+   "name": "#1021",
+   "createdAt": "2026-07-13T01:49:23Z",
+   "financial": "PAID",
+   "fulfillment": "FULFILLED",
+   "total": 290.94,
+   "customer": "Margie Vartuli",
+   "items": [
+    {
+     "title": "Lumara Newport Large Table Lamp",
+     "quantity": 1
+    }
+   ]
+  },
+  {
+   "name": "#1020",
+   "createdAt": "2026-07-12T09:46:40Z",
+   "financial": "PAID",
+   "fulfillment": "FULFILLED",
+   "total": 102.94,
+   "customer": "christine paradine",
+   "items": [
+    {
+     "title": "Talia Vase",
+     "quantity": 1
+    }
+   ]
+  },
+  {
+   "name": "#1019",
+   "createdAt": "2026-07-11T19:30:09Z",
+   "financial": "PAID",
+   "fulfillment": "FULFILLED",
+   "total": 293.85,
+   "customer": "Lyndell James",
+   "items": [
+    {
+     "title": "Lumara Newport Large Table Lamp",
+     "quantity": 1
+    }
+   ]
+  },
+  {
+   "name": "#1018",
+   "createdAt": "2026-07-09T09:56:52Z",
+   "financial": "PAID",
+   "fulfillment": "FULFILLED",
+   "total": 171.0,
+   "customer": "christine paradine",
+   "items": [
+    {
+     "title": "Lumara Malabar Duo Bundle",
+     "quantity": 1
+    }
+   ]
+  },
+  {
+   "name": "#1017",
+   "createdAt": "2026-07-09T08:56:53Z",
+   "financial": "PAID",
+   "fulfillment": "FULFILLED",
+   "total": 162.0,
+   "customer": "Susanne Hayes",
+   "items": [
+    {
+     "title": "Turtle Shell Planters (Set of 2)",
+     "quantity": 1
+    }
+   ]
+  },
+  {
+   "name": "#1016",
+   "createdAt": "2026-07-09T08:13:27Z",
+   "financial": "PAID",
+   "fulfillment": "FULFILLED",
+   "total": 75.95,
+   "customer": "Pennie Burgess",
+   "items": [
+    {
+     "title": "Lumara Malabar Vase",
+     "quantity": 1
+    }
+   ]
+  },
+  {
+   "name": "#1015",
+   "createdAt": "2026-07-08T07:42:47Z",
+   "financial": "REFUNDED",
+   "fulfillment": "UNFULFILLED",
+   "total": 0.0,
+   "customer": "Helve Beale",
+   "items": [
+    {
+     "title": "Lumara Gede Green Table Lamp",
+     "quantity": 2
+    }
+   ]
+  },
+  {
+   "name": "#1014",
+   "createdAt": "2026-07-05T21:30:01Z",
+   "financial": "PAID",
+   "fulfillment": "FULFILLED",
+   "total": 102.94,
+   "customer": "Therese Tucker",
+   "items": [
+    {
+     "title": "Talia Vase",
+     "quantity": 1
+    }
+   ]
+  },
+  {
+   "name": "#1013",
+   "createdAt": "2026-07-05T09:46:27Z",
+   "financial": "PAID",
+   "fulfillment": "FULFILLED",
+   "total": 162.0,
+   "customer": "Krysten Kent",
+   "items": [
+    {
+     "title": "Turtle Shell Planters (Set of 2)",
+     "quantity": 1
+    }
+   ]
+  },
+  {
+   "name": "#1012",
+   "createdAt": "2026-07-05T09:00:47Z",
+   "financial": "PAID",
+   "fulfillment": "FULFILLED",
+   "total": 259.93,
+   "customer": "Amanda Macfarlane",
+   "items": [
+    {
+     "title": "Lumara Talia Table Lamp",
+     "quantity": 2
+    }
+   ]
+  },
+  {
+   "name": "#1011",
+   "createdAt": "2026-07-05T04:15:04Z",
+   "financial": "PAID",
+   "fulfillment": "FULFILLED",
+   "total": 179.99,
+   "customer": "kerri martin",
+   "items": [
+    {
+     "title": "Turtle Shell Planters (Set of 2)",
+     "quantity": 1
+    }
+   ]
+  },
+  {
+   "name": "#1010",
+   "createdAt": "2026-07-03T09:25:23Z",
+   "financial": "PAID",
+   "fulfillment": "FULFILLED",
+   "total": 127.95,
+   "customer": "Michelle Caristo",
+   "items": [
+    {
+     "title": "Lumara Talia Table Lamp",
+     "quantity": 1
+    }
+   ]
+  },
+  {
+   "name": "#1009",
+   "createdAt": "2026-06-29T08:50:18Z",
+   "financial": "PAID",
+   "fulfillment": "FULFILLED",
+   "total": 202.94,
+   "customer": "Vicky Goldsmith",
+   "items": [
+    {
+     "title": "Turtle Shell Planters (Set of 2)",
+     "quantity": 1
+    }
+   ]
+  },
+  {
+   "name": "#1008",
+   "createdAt": "2026-06-27T06:06:53Z",
+   "financial": "PAID",
+   "fulfillment": "FULFILLED",
+   "total": 139.94,
+   "customer": "Jenni Maund",
+   "items": [
+    {
+     "title": "Lumara Talia Table Lamp",
+     "quantity": 1
+    }
+   ]
+  }
+ ],
+ "ads_today": {
+  "date": "2026-07-27",
+  "spend": 17.74,
+  "impressions": 287,
+  "clicks": 11,
+  "ctr": 3.83,
+  "cpc": 1.61,
+  "purchases": 0,
+  "purchase_value": 0.0
+ },
+ "ads_daily": [
+  {
+   "date": "2026-07-13",
+   "spend": 60.95,
+   "impressions": 2302,
+   "clicks": 116,
+   "ctr": 5.04,
+   "cpc": 0.53,
+   "purchases": 0,
+   "purchase_value": 0.0
+  },
+  {
+   "date": "2026-07-14",
+   "spend": 73.23,
+   "impressions": 2430,
+   "clicks": 108,
+   "ctr": 4.44,
+   "cpc": 0.68,
+   "purchases": 1,
+   "purchase_value": 263.85
+  },
+  {
+   "date": "2026-07-15",
+   "spend": 75.07,
+   "impressions": 2388,
+   "clicks": 110,
+   "ctr": 4.61,
+   "cpc": 0.68,
+   "purchases": 1,
+   "purchase_value": 54.45
+  },
+  {
+   "date": "2026-07-16",
+   "spend": 84.72,
+   "impressions": 2997,
+   "clicks": 148,
+   "ctr": 4.94,
+   "cpc": 0.57,
+   "purchases": 0,
+   "purchase_value": 0.0
+  },
+  {
+   "date": "2026-07-17",
+   "spend": 85.19,
+   "impressions": 2962,
+   "clicks": 128,
+   "ctr": 4.32,
+   "cpc": 0.67,
+   "purchases": 0,
+   "purchase_value": 0.0
+  },
+  {
+   "date": "2026-07-18",
+   "spend": 71.81,
+   "impressions": 2445,
+   "clicks": 92,
+   "ctr": 3.76,
+   "cpc": 0.78,
+   "purchases": 2,
+   "purchase_value": 171.9
+  },
+  {
+   "date": "2026-07-19",
+   "spend": 107.59,
+   "impressions": 4362,
+   "clicks": 172,
+   "ctr": 3.94,
+   "cpc": 0.63,
+   "purchases": 2,
+   "purchase_value": 279.42
+  },
+  {
+   "date": "2026-07-20",
+   "spend": 71.74,
+   "impressions": 2643,
+   "clicks": 90,
+   "ctr": 3.41,
+   "cpc": 0.8,
+   "purchases": 2,
+   "purchase_value": 196.9
+  },
+  {
+   "date": "2026-07-21",
+   "spend": 80.28,
+   "impressions": 3641,
+   "clicks": 133,
+   "ctr": 3.65,
+   "cpc": 0.6,
+   "purchases": 3,
+   "purchase_value": 400.39
+  },
+  {
+   "date": "2026-07-22",
+   "spend": 73.6,
+   "impressions": 2533,
+   "clicks": 77,
+   "ctr": 3.04,
+   "cpc": 0.96,
+   "purchases": 0,
+   "purchase_value": 0.0
+  },
+  {
+   "date": "2026-07-23",
+   "spend": 68.88,
+   "impressions": 2612,
+   "clicks": 68,
+   "ctr": 2.6,
+   "cpc": 1.01,
+   "purchases": 0,
+   "purchase_value": 0.0
+  },
+  {
+   "date": "2026-07-24",
+   "spend": 68.11,
+   "impressions": 1262,
+   "clicks": 54,
+   "ctr": 4.28,
+   "cpc": 1.26,
+   "purchases": 0,
+   "purchase_value": 0.0
+  },
+  {
+   "date": "2026-07-25",
+   "spend": 44.41,
+   "impressions": 920,
+   "clicks": 63,
+   "ctr": 6.85,
+   "cpc": 0.7,
+   "purchases": 0,
+   "purchase_value": 0.0
+  },
+  {
+   "date": "2026-07-26",
+   "spend": 61.38,
+   "impressions": 1220,
+   "clicks": 68,
+   "ctr": 5.57,
+   "cpc": 0.9,
+   "purchases": 0,
+   "purchase_value": 0.0
+  },
+  {
+   "date": "2026-07-27",
+   "spend": 17.74,
+   "impressions": 287,
+   "clicks": 11,
+   "ctr": 3.83,
+   "cpc": 1.61,
+   "purchases": 0,
+   "purchase_value": 0.0
+  }
+ ],
+ "ads_campaigns": [
+  {
+   "name": "Lumara \u2014 Sales \u2014 Winners Broad CBO (Jul 2026)",
+   "status": "ACTIVE",
+   "daily_budget": 30.0,
+   "spend": 307.06,
+   "impressions": 8450,
+   "clicks": 455,
+   "ctr": 5.38,
+   "cpc": 0.67,
+   "roas": 1.07,
+   "purchases": 3,
+   "purchase_value": 328.83,
+   "atc": 21,
+   "reach": 6077
+  },
+  {
+   "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
+   "status": "PAUSED",
+   "daily_budget": 45.0,
+   "spend": 1190.08,
+   "impressions": 42527,
+   "clicks": 1598,
+   "ctr": 3.76,
+   "cpc": 0.74,
+   "roas": 2.65,
+   "purchases": 19,
+   "purchase_value": 3156.76,
+   "atc": 56,
+   "reach": 21242
+  },
+  {
+   "name": "Lumara \u2014 Talia Lamp \u2014 Final Stock \u2014 FB (Jul 2026)",
+   "status": "PAUSED",
+   "daily_budget": 15.0,
+   "spend": 224.91,
+   "impressions": 6813,
+   "clicks": 237,
+   "ctr": 3.48,
+   "cpc": 0.95,
+   "roas": 0.62,
+   "purchases": 1,
+   "purchase_value": 139.94,
+   "atc": 5,
+   "reach": 5066
+  },
+  {
+   "name": "Lumara \u2014 Retargeting \u2014 AU \u2014 Website 30d (Jun 2026)",
+   "status": "PAUSED",
+   "daily_budget": 15.0,
+   "spend": 48.65,
+   "impressions": 1011,
+   "clicks": 56,
+   "ctr": 5.54,
+   "cpc": 0.87,
+   "roas": 0.0,
+   "purchases": 0,
+   "purchase_value": 0.0,
+   "atc": 1,
+   "reach": 559
+  },
+  {
+   "name": "Lumara \u2014 Lamps \u2014 KG Gap (Jul 2026)",
+   "status": "PAUSED",
+   "daily_budget": null,
+   "spend": 0.0,
+   "impressions": 0,
+   "clicks": 0,
+   "ctr": 0.0,
+   "cpc": 0.0,
+   "roas": 0.0,
+   "purchases": 0,
+   "purchase_value": 0.0,
+   "atc": 0,
+   "reach": 0
+  },
+  {
+   "name": "Instagram Only \u2014 Talia & Alegra \u2014 WELCOME10",
+   "status": "PAUSED",
+   "daily_budget": 30.0,
+   "spend": 0.0,
+   "impressions": 0,
+   "clicks": 0,
+   "ctr": 0.0,
+   "cpc": 0.0,
+   "roas": 0.0,
+   "purchases": 0,
+   "purchase_value": 0.0,
+   "atc": 0,
+   "reach": 0
+  },
+  {
+   "name": "Lumara \u2014 Hero Launch (Jun 2026)",
+   "status": "PAUSED",
+   "daily_budget": 25.0,
+   "spend": 0.0,
+   "impressions": 0,
+   "clicks": 0,
+   "ctr": 0.0,
+   "cpc": 0.0,
+   "roas": 0.0,
+   "purchases": 0,
+   "purchase_value": 0.0,
+   "atc": 0,
+   "reach": 0
+  }
+ ],
+ "inventory": [
+  {
+   "title": "Lumara Cayman Rattan Table Lamp",
+   "sku": "Y8235-1",
+   "qty": 10,
+   "price": 229.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Giana Natural Table Lamp",
+   "sku": "LH-TL-002",
+   "qty": 9,
+   "price": 249.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Havana Rattan Table Lamp",
+   "sku": "LH-TL-003",
+   "qty": 10,
+   "price": 199.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Nishi Table Lamp",
+   "sku": "YR7306-1",
+   "qty": 8,
+   "price": 219.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Lopez Rustic White Candle Holder",
+   "sku": "CH8435-1",
+   "qty": 9,
+   "price": 69.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Urn Candle Holder Set of 3",
+   "sku": "CP6016-1",
+   "qty": 10,
+   "price": 79.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Avia Large Statement Vase",
+   "sku": "YR7268-1",
+   "qty": 10,
+   "price": 239.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Enchanted Bud Vase",
+   "sku": "CN7116-2",
+   "qty": 10,
+   "price": 49.99,
+   "status": "DRAFT",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Textured White Vase",
+   "sku": "BT962-2",
+   "qty": 10,
+   "price": 39.99,
+   "status": "DRAFT",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Malt Shake Table Lamp",
+   "sku": "LH-TL-004",
+   "qty": 10,
+   "price": 189.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Malt Shake Large Table Lamp",
+   "sku": "LH-TL-005",
+   "qty": 10,
+   "price": 239.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Bayville Table Lamp",
+   "sku": "Y8237-1",
+   "qty": 10,
+   "price": 199.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Newport Large Table Lamp",
+   "sku": "Y8238-1",
+   "qty": 7,
+   "price": 299.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Pompei Table Lamp",
+   "sku": "LH-TL-006",
+   "qty": 10,
+   "price": 201.99,
+   "status": "DRAFT",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Brunswick Gold Table Lamp",
+   "sku": "Y8244-1",
+   "qty": 8,
+   "price": 249.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Palm Beach Table Lamp",
+   "sku": "Y8240-1",
+   "qty": 10,
+   "price": 239.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Sandrock Table Lamp",
+   "sku": "LH-TL-007",
+   "qty": 10,
+   "price": 259.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Gede Blues Table Lamp",
+   "sku": "LH-TL-008",
+   "qty": 10,
+   "price": 213.99,
+   "status": "DRAFT",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Gede Green Table Lamp",
+   "sku": "LH-TL-009",
+   "qty": 0,
+   "price": 213.99,
+   "status": "DRAFT",
+   "tracked": true,
+   "available": false
+  },
+  {
+   "title": "Lumara Artichoke Table Lamp",
+   "sku": "LH-TL-010",
+   "qty": 10,
+   "price": 219.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Flynn Table Lamp",
+   "sku": "LH-TL-011",
+   "qty": 10,
+   "price": 139.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Organic Leaf Statement Vase",
+   "sku": "CH8459-1",
+   "qty": 10,
+   "price": 211.99,
+   "status": "DRAFT",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Petite Maison Urn Vase",
+   "sku": "CN7020-1",
+   "qty": 10,
+   "price": 64.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Rosina Large Urn Vase",
+   "sku": "CP6009-1",
+   "qty": 10,
+   "price": 214.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Botanical Bud Vase Set of 2",
+   "sku": "CN7142-1",
+   "qty": 1,
+   "price": 54.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Curvaceous Vase",
+   "sku": "CH8405-1",
+   "qty": 0,
+   "price": 69.99,
+   "status": "ARCHIVED",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Taper Saffron Glass Vase",
+   "sku": "LH-VS-009",
+   "qty": 10,
+   "price": 49.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Taper Grape Glass Vase",
+   "sku": "LH-VS-010",
+   "qty": 10,
+   "price": 54.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Ribbed Sea Salt Glass Vase",
+   "sku": "LH-VS-011",
+   "qty": 10,
+   "price": 49.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Ribbed Rhubarb Glass Vase",
+   "sku": "LH-VS-012",
+   "qty": 1,
+   "price": 49.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Organic Vase \u2014 Buttercup Petal",
+   "sku": "LH-VS-013",
+   "qty": 10,
+   "price": 64.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Cliffe Clear Glass Vase",
+   "sku": "LH-VS-014",
+   "qty": 10,
+   "price": 39.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Curve Large Clear Glass Vase",
+   "sku": "LH-VS-015",
+   "qty": 10,
+   "price": 54.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara XL Statement Vase",
+   "sku": "LH-VS-016",
+   "qty": 0,
+   "price": 84.99,
+   "status": "ARCHIVED",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Bud Vase White",
+   "sku": "LH-VS-017",
+   "qty": 10,
+   "price": 34.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Mediterranean Large Candle Holder",
+   "sku": "LH-CH-003",
+   "qty": 9,
+   "price": 84.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Mediterranean Med Candle Holder",
+   "sku": "LH-CH-004",
+   "qty": 9,
+   "price": 64.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Geneva XL Candle Holder",
+   "sku": "LH-CH-005",
+   "qty": 10,
+   "price": 109.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Candleholders Set of 3 White",
+   "sku": "LD6953-1",
+   "qty": 10,
+   "price": 94.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Hurricane Candle Holder Moss",
+   "sku": "LH-CH-006",
+   "qty": 10,
+   "price": 89.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Candlestick Mod Natural",
+   "sku": "LH-CH-007",
+   "qty": 10,
+   "price": 49.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Talia Table Lamp",
+   "sku": "YE6211M-1",
+   "qty": 0,
+   "price": 159.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": false
+  },
+  {
+   "title": "Lumara Alegra Statement Vase",
+   "sku": "QA5813-2",
+   "qty": 4,
+   "price": 94.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Champagne Glass LED Candle Holder",
+   "sku": "SK3116-1",
+   "qty": 10,
+   "price": 74.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Nishi Clay Table Lamp",
+   "sku": "YR7316-1",
+   "qty": 10,
+   "price": 169.99,
+   "status": "DRAFT",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Mediterranean Statement Vase",
+   "sku": "KE9006-2",
+   "qty": 9,
+   "price": 94.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Elle Statement Vase",
+   "sku": "XC4013-2",
+   "qty": 10,
+   "price": 114.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Warm Glow Trio \u2014 Bundle",
+   "sku": "LH-BDL-01",
+   "qty": 0,
+   "price": 139.0,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Mantel Styling Set \u2014 Bundle",
+   "sku": "LH-BDL-02",
+   "qty": 0,
+   "price": 119.0,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Bedside Bundle",
+   "sku": "LH-BDL-03",
+   "qty": 0,
+   "price": 119.0,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Living Room Set \u2014 Bundle",
+   "sku": "LH-BDL-04",
+   "qty": 0,
+   "price": 194.0,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Statement Console \u2014 Bundle",
+   "sku": "LH-BDL-05",
+   "qty": 0,
+   "price": 235.0,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Coastal Glow \u2014 Bundle",
+   "sku": "LH-BDL-06",
+   "qty": 0,
+   "price": 219.0,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Turtle Shell Planters (Set of 2)",
+   "sku": "QA5419-2",
+   "qty": 0,
+   "price": 179.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": false
+  },
+  {
+   "title": "Talia Vase",
+   "sku": "\u2014",
+   "qty": 8,
+   "price": 89.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Antiqued Metal Candle Holder \u2014 54cm",
+   "sku": "QA5602-1",
+   "qty": 0,
+   "price": 74.95,
+   "status": "DRAFT",
+   "tracked": true,
+   "available": false
+  },
+  {
+   "title": "Gold Metal Side Table \u2014 62cm",
+   "sku": "19753TBL",
+   "qty": 0,
+   "price": 149.99,
+   "status": "DRAFT",
+   "tracked": true,
+   "available": false
+  },
+  {
+   "title": "Lumara Malabar Vase",
+   "sku": "YE6213-1",
+   "qty": 10,
+   "price": 69.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Malabar Duo \u2014 Bundle",
+   "sku": "LH-BDL-07",
+   "qty": 9,
+   "price": 189.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Pear Table Lamp",
+   "sku": "YR7256-1",
+   "qty": 0,
+   "price": 228.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara White Foam Table Lamp",
+   "sku": "YR7257-1",
+   "qty": 0,
+   "price": 228.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Casa Table Lamp",
+   "sku": "YF3033-1",
+   "qty": 10,
+   "price": 149.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Riviera XL Table Lamp",
+   "sku": "Y8215-1",
+   "qty": 0,
+   "price": 499.0,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Hamptons XL Table Lamp",
+   "sku": "Y8236-1",
+   "qty": 0,
+   "price": 499.0,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Waitangi Foam Table Lamp",
+   "sku": "YR7254-1",
+   "qty": 0,
+   "price": 429.0,
+   "status": "DRAFT",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Chike Table Lamp",
+   "sku": "YR7399-1",
+   "qty": 0,
+   "price": 499.0,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Fossil Table Lamp",
+   "sku": "YE6125-1",
+   "qty": 0,
+   "price": 375.0,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Pineapple Table Lamp \u2014 Weathered Vintage",
+   "sku": "YE6102-1",
+   "qty": 0,
+   "price": 289.0,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Pineapple Table Lamp \u2014 White",
+   "sku": "YE6101-1",
+   "qty": 0,
+   "price": 289.0,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Malabar Table Lamp",
+   "sku": "YE6202-1",
+   "qty": 10,
+   "price": 149.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Olive Mediterranean Candelabra",
+   "sku": "QA5903-2",
+   "qty": 4,
+   "price": 99.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Velvet Leaf Stem \u2014 Dawn Blush (Single)",
+   "sku": "JI2028-4",
+   "qty": 0,
+   "price": 17.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Velvet Leaf Stem \u2014 Sage Green (Single)",
+   "sku": "JI2029-4",
+   "qty": 0,
+   "price": 17.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Velvet Leaf Stem \u2014 Ivory (Single)",
+   "sku": "JI2030-4",
+   "qty": 0,
+   "price": 17.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Gum Leaf Stem (Single)",
+   "sku": "JI2045-4",
+   "qty": 0,
+   "price": 57.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Banksia Stem \u2014 Amber (Single)",
+   "sku": "JI2044-4",
+   "qty": 0,
+   "price": 38.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Magnolia Stem (Single)",
+   "sku": "LD9306-4",
+   "qty": 0,
+   "price": 36.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Kangaroo Paw Stem (Single)",
+   "sku": "JI2043-4",
+   "qty": 0,
+   "price": 28.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Pine & Eucalypt Stem (Single)",
+   "sku": "LD9311-4",
+   "qty": 0,
+   "price": 23.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Ivory Gum Stem (Single)",
+   "sku": "LD7363-4",
+   "qty": 0,
+   "price": 21.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Berries & Leaves Stem (Single)",
+   "sku": "LD9163-4",
+   "qty": 0,
+   "price": 19.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara LED Branch \u2014 Gold (Single)",
+   "sku": "LD7130-1",
+   "qty": 0,
+   "price": 16.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara LED Branch \u2014 Paperbark (Single)",
+   "sku": "LD7131-1",
+   "qty": 0,
+   "price": 15.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Lumara Fern Gold Stem (Single)",
+   "sku": "LD7052-12",
+   "qty": 0,
+   "price": 9.99,
+   "status": "ACTIVE",
+   "tracked": false,
+   "available": true
+  },
+  {
+   "title": "Table Swag Olive Candelabra",
+   "sku": "QA5903-3",
+   "qty": 3,
+   "price": 89.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Reversible Wool-Blend Throw",
+   "sku": "SC6324-1",
+   "qty": 10,
+   "price": 159.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Magnolia XL Sculpture",
+   "sku": "BL7803-1",
+   "qty": 10,
+   "price": 109.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Amazon Woven Basket Set of 3",
+   "sku": "JL6204-1",
+   "qty": 10,
+   "price": 89.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  }
+ ],
+ "klaviyo": {
+  "flows_live": 1,
+  "flows_draft": 3,
+  "live_flow_names": [
+   "Post-Purchase / Cross-Sell"
+  ],
+  "campaigns_sent": 0,
+  "lists": 2,
+  "placed_order_daily": {
+   "dates": [
+    "2026-06-27",
+    "2026-06-28",
+    "2026-06-29",
+    "2026-06-30",
+    "2026-07-01",
+    "2026-07-02",
+    "2026-07-03",
+    "2026-07-04",
+    "2026-07-05",
+    "2026-07-06",
+    "2026-07-07",
+    "2026-07-08",
+    "2026-07-09",
+    "2026-07-10",
+    "2026-07-11",
+    "2026-07-12",
+    "2026-07-13",
+    "2026-07-14",
+    "2026-07-15",
+    "2026-07-16",
+    "2026-07-17",
+    "2026-07-18",
+    "2026-07-19",
+    "2026-07-20",
+    "2026-07-21",
+    "2026-07-22",
+    "2026-07-23",
+    "2026-07-24",
+    "2026-07-25",
+    "2026-07-26",
+    "2026-07-27"
+   ],
+   "count": [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    3,
+    1,
+    0,
+    1,
+    3,
+    0,
+    0,
+    2,
+    1,
+    1,
+    1,
+    0,
+    0,
+    2,
+    2,
+    2,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "value": [
+    139.94,
+    0,
+    202.94,
+    0,
+    0,
+    0,
+    127.95,
+    0,
+    601.92,
+    102.94,
+    0,
+    405.14,
+    408.95,
+    0,
+    0,
+    396.79,
+    290.94,
+    263.85,
+    89.45,
+    0,
+    0,
+    171.9,
+    279.42,
+    196.9,
+    400.39,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  }
+ },
+ "sources": {
+  "shopify": {
+   "ok": true,
+   "fetched_at": "2026-07-27T06:06:03Z"
+  },
+  "meta": {
+   "ok": true,
+   "fetched_at": "2026-07-27T06:06:03Z"
+  },
+  "klaviyo": {
+   "ok": true,
+   "fetched_at": "2026-07-27T06:06:03Z"
+  }
+ }
+}
