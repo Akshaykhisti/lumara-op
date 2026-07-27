@@ -24,11 +24,12 @@ jobs:
 
       - name: Pull Shopify / Meta / Klaviyo
         env:
-          SHOPIFY_STORE:   ${{ secrets.SHOPIFY_STORE }}
-          SHOPIFY_TOKEN:   ${{ secrets.SHOPIFY_TOKEN }}
-          META_TOKEN:      ${{ secrets.META_TOKEN }}
-          META_AD_ACCOUNT: ${{ secrets.META_AD_ACCOUNT }}
-          KLAVIYO_KEY:     ${{ secrets.KLAVIYO_KEY }}
+          SHOPIFY_STORE:         ${{ secrets.SHOPIFY_STORE }}
+          SHOPIFY_CLIENT_ID:     ${{ secrets.SHOPIFY_CLIENT_ID }}
+          SHOPIFY_CLIENT_SECRET: ${{ secrets.SHOPIFY_CLIENT_SECRET }}
+          META_TOKEN:            ${{ secrets.META_TOKEN }}
+          META_AD_ACCOUNT:       ${{ secrets.META_AD_ACCOUNT }}
+          KLAVIYO_KEY:           ${{ secrets.KLAVIYO_KEY }}
         run: python3 fetch_all.py
 
       - name: Build data.json
