@@ -5,7 +5,21 @@
   "currency": "AUD",
   "generated_at_utc": "2026-07-27T06:06:03Z",
   "generated_at_local": "Mon 27 Jul 2026, 4:06pm AEST",
-  "today": "2026-07-27"
+  "today": "2026-07-27",
+  "sources": {
+   "shopify": {
+    "ok": true,
+    "fetched_at": "2026-07-27T06:06:03Z"
+   },
+   "meta": {
+    "ok": true,
+    "fetched_at": "2026-07-27T06:06:03Z"
+   },
+   "klaviyo": {
+    "ok": true,
+    "fetched_at": "2026-07-27T06:06:03Z"
+   }
+  }
  },
  "alerts": [
   {
