@@ -3,22 +3,22 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-07-27T07:05:49Z",
-  "generated_at_local": "Mon 27 Jul 2026, 5:05pm AEST",
+  "generated_at_utc": "2026-07-27T07:09:24Z",
+  "generated_at_local": "Mon 27 Jul 2026, 5:09pm AEST",
   "today": "2026-07-27",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-07-27T07:05:49Z"
+    "fetched_at": "2026-07-27T07:09:24Z"
    },
    "meta": {
     "ok": false,
-    "error": "HTTP 403: {\"error\":{\"message\":\"(#200) Provide valid app ID\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AIsjSmJ7HB548H8DO8pD6tk\"}}",
+    "error": "'META_TOKEN'",
     "fetched_at": "2026-07-27T06:06:03Z"
    },
    "klaviyo": {
     "ok": false,
-    "error": "HTTP 401: {\"errors\":[{\"id\":\"31997fa8-b70e-4268-af2a-816fc3873117\",\"status\":401,\"code\":\"not_authenticated\",\"title\":\"Authentication credentials were not provided.\",\"detail\":\"Missing or invalid private k",
+    "error": "HTTP 401: {\"errors\":[{\"id\":\"587283f4-42e8-4eec-bbd4-3f38db786854\",\"status\":401,\"code\":\"not_authenticated\",\"title\":\"Authentication credentials were not provided.\",\"detail\":\"Missing or invalid private k",
     "fetched_at": "2026-07-27T06:06:03Z"
    }
   }
