@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-07-27T07:15:58Z",
+ "generated_at_utc": "2026-07-27T07:20:50Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,16 +9,16 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-07-27T07:15:58Z"
+   "fetched_at": "2026-07-27T07:20:50Z"
   },
   "meta": {
    "ok": false,
-   "error": "'META_TOKEN'",
+   "error": "META_TOKEN is not set",
    "fetched_at": "2026-07-27T06:06:03Z"
   },
   "klaviyo": {
    "ok": false,
-   "error": "'latin-1' codec can't encode characters in position 16-20: ordinal not in range(256)",
+   "error": "KLAVIYO_KEY should start with 'pk_' but starts with '67c2' \u2014 looks like the wrong value or a partial copy.",
    "fetched_at": "2026-07-27T06:06:03Z"
   }
  },
