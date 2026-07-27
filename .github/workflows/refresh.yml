@@ -1,0 +1,47 @@
+name: Refresh dashboard
+
+on:
+  schedule:
+    - cron: '25 * * * *'      # hourly, UTC
+  workflow_dispatch:           # lets you run it on demand from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Pull Shopify / Meta / Klaviyo
+        env:
+          SHOPIFY_STORE:   ${{ secrets.SHOPIFY_STORE }}
+          SHOPIFY_TOKEN:   ${{ secrets.SHOPIFY_TOKEN }}
+          META_TOKEN:      ${{ secrets.META_TOKEN }}
+          META_AD_ACCOUNT: ${{ secrets.META_AD_ACCOUNT }}
+          KLAVIYO_KEY:     ${{ secrets.KLAVIYO_KEY }}
+        run: python3 fetch_all.py
+
+      - name: Build data.json
+        run: python3 build_data.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "lumara-ops-bot"
+          git config user.email "actions@github.com"
+          git add raw.json data.json
+          if git diff --cached --quiet; then
+            echo "no change"
+          else
+            git commit -m "refresh $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push
+          fi
