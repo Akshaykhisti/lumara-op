@@ -11,8 +11,9 @@ the existing raw.json and the failure is recorded in `sources` so the dashboard
 can show that panel as stale instead of quietly lying.
 
 Environment:
-    SHOPIFY_STORE     hm0yqq-33.myshopify.com
-    SHOPIFY_TOKEN     shpat_...
+    SHOPIFY_STORE          hm0yqq-33.myshopify.com
+    SHOPIFY_CLIENT_ID      Dev Dashboard app Client ID
+    SHOPIFY_CLIENT_SECRET  Dev Dashboard app Secret
     META_TOKEN        a long-lived / system-user token
     META_AD_ACCOUNT   1251795310364570   (no "act_" prefix)
     KLAVIYO_KEY       pk_...
@@ -105,10 +106,34 @@ query {
 }"""
 
 
+_TOKEN_CACHE = {}
+
+
+def shopify_token():
+    """Dev Dashboard apps don't issue a static shpat_ token — exchange the app's
+    client credentials for a short-lived one (24h) on each run.
+    SHOPIFY_TOKEN still works if a legacy admin-created token is supplied."""
+    if os.environ.get("SHOPIFY_TOKEN"):
+        return os.environ["SHOPIFY_TOKEN"]
+    if "t" in _TOKEN_CACHE:
+        return _TOKEN_CACHE["t"]
+    store = os.environ["SHOPIFY_STORE"]
+    res = http(f"https://{store}/admin/oauth/access_token", {}, {
+        "client_id": os.environ["SHOPIFY_CLIENT_ID"],
+        "client_secret": os.environ["SHOPIFY_CLIENT_SECRET"],
+        "grant_type": "client_credentials",
+    })
+    tok = res.get("access_token")
+    if not tok:
+        raise RuntimeError(f"no access_token in grant response: {str(res)[:200]}")
+    _TOKEN_CACHE["t"] = tok
+    return tok
+
+
 def shopify(query, variables=None):
-    store, token = os.environ["SHOPIFY_STORE"], os.environ["SHOPIFY_TOKEN"]
+    store = os.environ["SHOPIFY_STORE"]
     url = f"https://{store}/admin/api/{SHOPIFY_API}/graphql.json"
-    res = http(url, {"X-Shopify-Access-Token": token},
+    res = http(url, {"X-Shopify-Access-Token": shopify_token()},
                {"query": query, "variables": variables or {}})
     if res.get("errors"):
         raise RuntimeError(f"Shopify GraphQL: {json.dumps(res['errors'])[:300]}")
