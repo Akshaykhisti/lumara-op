@@ -26,6 +26,16 @@ META_VERSIONS = ["v23.0", "v22.0", "v21.0", "v20.0"]
 KLAVIYO_REVISIONS = ["2025-07-15", "2025-01-15", "2024-10-15"]
 OUT = "raw.json"
 
+def env(name, required=True):
+    """Read a credential, tolerating whitespace. A trailing newline pasted into
+    GitHub's secret textarea otherwise corrupts the auth header and surfaces as
+    a bogus 'invalid key' error."""
+    v = (os.environ.get(name) or "").strip()
+    if not v and required:
+        raise KeyError(name)
+    return v
+
+
 # ---------------------------------------------------------------- http
 OPENER = urllib.request.build_opener(urllib.request.ProxyHandler({}))
 
@@ -113,14 +123,14 @@ def shopify_token():
     """Dev Dashboard apps don't issue a static shpat_ token — exchange the app's
     client credentials for a short-lived one (24h) on each run.
     SHOPIFY_TOKEN still works if a legacy admin-created token is supplied."""
-    if os.environ.get("SHOPIFY_TOKEN"):
-        return os.environ["SHOPIFY_TOKEN"]
+    if env("SHOPIFY_TOKEN", required=False):
+        return env("SHOPIFY_TOKEN")
     if "t" in _TOKEN_CACHE:
         return _TOKEN_CACHE["t"]
-    store = os.environ["SHOPIFY_STORE"]
+    store = env("SHOPIFY_STORE")
     res = http(f"https://{store}/admin/oauth/access_token", {}, {
-        "client_id": os.environ["SHOPIFY_CLIENT_ID"],
-        "client_secret": os.environ["SHOPIFY_CLIENT_SECRET"],
+        "client_id": env("SHOPIFY_CLIENT_ID"),
+        "client_secret": env("SHOPIFY_CLIENT_SECRET"),
         "grant_type": "client_credentials",
     })
     tok = res.get("access_token")
@@ -131,7 +141,7 @@ def shopify_token():
 
 
 def shopify(query, variables=None):
-    store = os.environ["SHOPIFY_STORE"]
+    store = env("SHOPIFY_STORE")
     url = f"https://{store}/admin/api/{SHOPIFY_API}/graphql.json"
     res = http(url, {"X-Shopify-Access-Token": shopify_token()},
                {"query": query, "variables": variables or {}})
@@ -188,7 +198,7 @@ def fetch_shopify(today):
 
 # ---------------------------------------------------------------- meta
 def meta_get(path, params):
-    token = os.environ["META_TOKEN"]
+    token = env("META_TOKEN")
     last = None
     for ver in META_VERSIONS:
         q = urllib.parse.urlencode({**params, "access_token": token})
@@ -230,7 +240,7 @@ def insight_row(r):
 
 
 def fetch_meta(today):
-    acct = f"act_{os.environ['META_AD_ACCOUNT']}"
+    acct = f"act_{env('META_AD_ACCOUNT')}"
     base = ("spend,impressions,clicks,ctr,cpc,actions,action_values,purchase_roas")
 
     daily = meta_get(f"{acct}/insights", {
@@ -281,7 +291,7 @@ def fetch_meta(today):
 
 # ---------------------------------------------------------------- klaviyo
 def klaviyo_get(path, params=None):
-    key = os.environ["KLAVIYO_KEY"]
+    key = env("KLAVIYO_KEY")
     q = ("?" + urllib.parse.urlencode(params)) if params else ""
     last = None
     for rev in KLAVIYO_REVISIONS:
