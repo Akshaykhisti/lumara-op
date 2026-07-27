@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="auto">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
+<meta name="referrer" content="no-referrer">
+<meta name="theme-color" content="#f9f9f7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0d0d0d" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Lumara Ops">
+<link rel="manifest" href="data:application/manifest+json,%7B%22name%22%3A%22Lumara%20Ops%22%2C%22short_name%22%3A%22Lumara%20Ops%22%2C%22display%22%3A%22standalone%22%2C%22start_url%22%3A%22.%2F%22%2C%22background_color%22%3A%22%23f9f9f7%22%2C%22theme_color%22%3A%22%23f9f9f7%22%7D">
+<title>Lumara Home — Ops Dashboard</title>
+<style>
+:root{
+  color-scheme: light;
+  --plane:#f9f9f7; --surface:#fcfcfb; --surface-2:#f4f3ef;
+  --ink:#0b0b0b; --ink-2:#52514e; --muted:#898781;
+  --grid:#e1e0d9; --axis:#c3c2b7; --border:rgba(11,11,11,.10);
+  --series-1:#2a78d6; --series-2:#eb6834;
+  --good:#0ca30c; --warning:#fab219; --serious:#ec835a; --critical:#d03b3b;
+  --good-ink:#006300; --critical-ink:#b02b2b;
+  --tint-critical:rgba(208,59,59,.09); --tint-serious:rgba(236,131,90,.12);
+  --tint-warning:rgba(250,178,25,.14); --tint-good:rgba(12,163,12,.10);
+  --shadow:0 1px 2px rgba(11,11,11,.05), 0 1px 12px rgba(11,11,11,.04);
+  --r:14px;
+}
+@media (prefers-color-scheme: dark){
+  :root:where(:not([data-theme="light"])){
+    color-scheme: dark;
+    --plane:#0d0d0d; --surface:#1a1a19; --surface-2:#232321;
+    --ink:#fff; --ink-2:#c3c2b7; --muted:#898781;
+    --grid:#2c2c2a; --axis:#383835; --border:rgba(255,255,255,.10);
+    --series-1:#3987e5; --series-2:#d95926;
+    --good-ink:#0ca30c; --critical-ink:#e46a6a;
+    --tint-critical:rgba(208,59,59,.16); --tint-serious:rgba(236,131,90,.16);
+    --tint-warning:rgba(250,178,25,.14); --tint-good:rgba(12,163,12,.14);
+    --shadow:none;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme: dark;
+  --plane:#0d0d0d; --surface:#1a1a19; --surface-2:#232321;
+  --ink:#fff; --ink-2:#c3c2b7; --muted:#898781;
+  --grid:#2c2c2a; --axis:#383835; --border:rgba(255,255,255,.10);
+  --series-1:#3987e5; --series-2:#d95926;
+  --good-ink:#0ca30c; --critical-ink:#e46a6a;
+  --tint-critical:rgba(208,59,59,.16); --tint-serious:rgba(236,131,90,.16);
+  --tint-warning:rgba(250,178,25,.14); --tint-good:rgba(12,163,12,.14);
+  --shadow:none;
+}
+
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--plane); color:var(--ink);
+  font:15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif;
+  padding:0 0 max(28px,env(safe-area-inset-bottom));
+}
+.wrap{max-width:1180px;margin:0 auto;padding:0 14px}
+
+/* ---------- header ---------- */
+header{
+  position:sticky; top:0; z-index:20;
+  background:color-mix(in srgb, var(--plane) 88%, transparent);
+  backdrop-filter:saturate(1.6) blur(12px);
+  border-bottom:1px solid var(--border);
+  padding:calc(10px + env(safe-area-inset-top)) 0 10px;
+}
+.hrow{display:flex;align-items:center;gap:10px}
+.brand{font-size:16px;font-weight:650;letter-spacing:-.01em;line-height:1.15}
+.brand small{display:block;font-size:11.5px;font-weight:450;color:var(--muted);letter-spacing:0}
+.spacer{flex:1}
+.stamp{text-align:right;font-size:11.5px;color:var(--muted);line-height:1.35}
+.stamp b{display:block;font-size:12.5px;font-weight:600;color:var(--ink-2)}
+.iconbtn{
+  appearance:none;border:1px solid var(--border);background:var(--surface);
+  color:var(--ink-2);width:34px;height:34px;border-radius:10px;cursor:pointer;
+  display:grid;place-items:center;font-size:14px;flex:none;
+}
+.iconbtn:hover{background:var(--surface-2)}
+.live{display:inline-flex;align-items:center;gap:5px}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--good);flex:none}
+.dot.stale{background:var(--warning)}
+.dot.old{background:var(--critical)}
+
+/* ---------- structure ---------- */
+h2{font-size:12px;font-weight:650;letter-spacing:.07em;text-transform:uppercase;
+   color:var(--muted);margin:26px 0 10px;display:flex;align-items:baseline;gap:9px}
+h2 span{font-size:11.5px;font-weight:450;letter-spacing:0;text-transform:none}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--r);
+      box-shadow:var(--shadow)}
+.pad{padding:15px 16px}
+
+/* ---------- alerts ---------- */
+.alerts{display:grid;gap:8px;margin-top:14px}
+.alert{display:flex;gap:11px;padding:12px 14px;border-radius:12px;border:1px solid var(--border)}
+.alert .ico{flex:none;width:20px;height:20px;border-radius:50%;display:grid;place-items:center;
+  font-size:12px;font-weight:800;color:#fff;margin-top:1px}
+.alert h3{margin:0 0 2px;font-size:14px;font-weight:620;line-height:1.35}
+.alert p{margin:0;font-size:13px;color:var(--ink-2);line-height:1.45}
+.alert.critical{background:var(--tint-critical)} .alert.critical .ico{background:var(--critical)}
+.alert.serious {background:var(--tint-serious)}  .alert.serious  .ico{background:var(--serious)}
+.alert.warning {background:var(--tint-warning)}  .alert.warning  .ico{background:var(--warning);color:#3d2a00}
+.alert.good    {background:var(--tint-good)}     .alert.good     .ico{background:var(--good)}
+
+/* ---------- stat tiles ---------- */
+.tiles{display:grid;gap:8px;grid-template-columns:repeat(2,1fr)}
+@media(min-width:620px){.tiles{grid-template-columns:repeat(3,1fr)}}
+@media(min-width:900px){.tiles{grid-template-columns:repeat(6,1fr)}}
+.tiles.four{grid-template-columns:repeat(2,1fr)}
+@media(min-width:620px){.tiles.four{grid-template-columns:repeat(4,1fr)}}
+.tile{background:var(--surface);border:1px solid var(--border);border-radius:12px;
+      padding:12px 13px;box-shadow:var(--shadow);min-width:0}
+.tile .k{font-size:11.5px;color:var(--muted);font-weight:500;line-height:1.3;
+         white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tile .v{font-size:23px;font-weight:640;letter-spacing:-.02em;line-height:1.2;margin-top:5px}
+.tile .v.sm{font-size:19px}
+.tile .d{font-size:11.5px;margin-top:3px;color:var(--muted);display:flex;align-items:center;gap:4px}
+.up{color:var(--good-ink);font-weight:600} .down{color:var(--critical-ink);font-weight:600}
+.tile.flag{box-shadow:var(--shadow),inset 3px 0 0 var(--critical)}
+.tile.warn{box-shadow:var(--shadow),inset 3px 0 0 var(--warning)}
+.tile.okay{box-shadow:var(--shadow),inset 3px 0 0 var(--good)}
+
+/* ---------- charts ---------- */
+.chart{position:relative}
+.chart svg{display:block;width:100%;height:auto;overflow:visible}
+.ctitle{font-size:13.5px;font-weight:600;margin:0 0 2px}
+.csub{font-size:12px;color:var(--muted);margin:0 0 12px}
+.legend{display:flex;gap:14px;flex-wrap:wrap;margin:0 0 12px;font-size:12px;color:var(--ink-2)}
+.legend i{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:5px;vertical-align:-1px}
+.tip{
+  position:absolute;pointer-events:none;opacity:0;transform:translate(-50%,-100%);
+  background:var(--ink);color:var(--plane);padding:7px 10px;border-radius:8px;
+  font-size:12px;line-height:1.45;white-space:nowrap;z-index:5;transition:opacity .1s;
+  box-shadow:0 4px 16px rgba(0,0,0,.22)
+}
+.tip b{font-weight:650}
+.tip .sw{display:inline-block;width:8px;height:8px;border-radius:2px;margin-right:5px}
+.gl{stroke:var(--grid);stroke-width:1}
+.bl{stroke:var(--axis);stroke-width:1}
+.tk{fill:var(--muted);font-size:10.5px}
+.hit{fill:transparent;cursor:crosshair}
+.hit:hover{fill:var(--ink);fill-opacity:.045}
+
+/* ---------- tables ---------- */
+.tbl{width:100%;border-collapse:collapse;font-size:13px}
+.tbl th{text-align:left;font-weight:600;font-size:11px;letter-spacing:.05em;text-transform:uppercase;
+        color:var(--muted);padding:0 10px 8px 0;border-bottom:1px solid var(--border);white-space:nowrap}
+.tbl td{padding:9px 10px 9px 0;border-bottom:1px solid var(--border);vertical-align:top}
+.tbl tr:last-child td{border-bottom:none}
+.tbl .num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;padding-right:0}
+.tbl th.num{padding-right:0}
+.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.nm{font-weight:550;line-height:1.35}
+.sub{color:var(--muted);font-size:11.5px;line-height:1.35;margin-top:2px;
+     display:block;max-width:34ch;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pill{display:inline-flex;align-items:center;gap:4px;padding:2px 8px;border-radius:20px;
+      font-size:11px;font-weight:600;white-space:nowrap}
+.pill.critical{background:var(--tint-critical);color:var(--critical-ink)}
+.pill.warning{background:var(--tint-warning);color:#7a5400}
+.pill.good{background:var(--tint-good);color:var(--good-ink)}
+.pill.mute{background:var(--surface-2);color:var(--muted)}
+:root[data-theme="dark"] .pill.warning{color:#fab219}
+@media (prefers-color-scheme:dark){
+  :root:where(:not([data-theme="light"])) .pill.warning{color:#fab219}
+}
+
+.split{display:grid;gap:10px}
+@media(min-width:880px){.split{grid-template-columns:1fr 1fr}}
+.empty{color:var(--muted);font-size:13px;padding:14px 0;text-align:center}
+footer{margin-top:30px;padding-top:16px;border-top:1px solid var(--border);
+       font-size:11.5px;color:var(--muted);line-height:1.6}
+.srcs{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+.srcs a{color:var(--ink-2);text-decoration:none;border:1px solid var(--border);
+        padding:3px 9px;border-radius:20px;font-size:11.5px}
+.srcs a:hover{background:var(--surface-2)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+</style>
+</head>
+<body data-palette="#2a78d6,#eb6834">
+
+<header>
+  <div class="wrap hrow">
+    <div class="brand">Lumara Home <small id="domain">Operations dashboard</small></div>
+    <div class="spacer"></div>
+    <div class="stamp">
+      <b class="live"><span class="dot" id="dot"></span><span id="age">—</span></b>
+      <span id="stamp">loading…</span>
+    </div>
+    <button class="iconbtn" id="theme" title="Toggle light / dark" aria-label="Toggle light or dark theme">◑</button>
+  </div>
+</header>
+
+<main class="wrap" id="app">
+  <p class="empty" id="boot">Loading live data…</p>
+</main>
+
+<script>
+const $ = (s,r=document)=>r.querySelector(s);
+const fmt = {
+  money:(n,d=0)=>'$'+Number(n||0).toLocaleString('en-AU',{minimumFractionDigits:d,maximumFractionDigits:d}),
+  money2:n=>'$'+Number(n||0).toLocaleString('en-AU',{minimumFractionDigits:2,maximumFractionDigits:2}),
+  n:n=>Number(n||0).toLocaleString('en-AU'),
+  pct:n=>(n>0?'+':'')+Number(n).toFixed(1)+'%'
+};
+const esc = s => String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const ICO = {critical:'!',serious:'!',warning:'!',good:'✓'};
+
+/* ---------- theme ---------- */
+const root = document.documentElement;
+const saved = (()=>{try{return sessionStorage.getItem('t')}catch(e){return null}})();
+if(saved) root.dataset.theme = saved;
+$('#theme').onclick = ()=>{
+  const cur = root.dataset.theme;
+  const dark = cur==='dark' || (cur!=='light' && matchMedia('(prefers-color-scheme:dark)').matches);
+  root.dataset.theme = dark ? 'light' : 'dark';
+  try{sessionStorage.setItem('t',root.dataset.theme)}catch(e){}
+};
+
+/* ---------- chart helpers ---------- */
+const W=760, H=190, PL=44, PR=8, PT=10, PB=26;
+function niceMax(v){
+  if(v<=0) return 10;
+  const p = Math.pow(10, Math.floor(Math.log10(v)));
+  for(const m of [1,1.5,2,2.5,3,4,5,7.5,10]) if(v <= m*p) return m*p;
+  return 10*p;
+}
+function axis(max, money=true){
+  const steps=4, out=[];
+  for(let i=0;i<=steps;i++){
+    const v = max*i/steps;
+    out.push({v, y: PT+(H-PT-PB)*(1-i/steps),
+              label: money ? (v>=1000? '$'+(v/1000).toFixed(v%1000?1:0)+'k' : '$'+Math.round(v)) : String(Math.round(v))});
+  }
+  return out;
+}
+function frame(ticks){
+  return ticks.map(t=>`<line class="gl" x1="${PL}" x2="${W-PR}" y1="${t.y}" y2="${t.y}"/>
+    <text class="tk" x="${PL-8}" y="${t.y+3.5}" text-anchor="end">${t.label}</text>`).join('')
+    + `<line class="bl" x1="${PL}" x2="${W-PR}" y1="${PT+(H-PT-PB)}" y2="${PT+(H-PT-PB)}"/>`;
+}
+/* rounded top, square bottom — data-end rounding anchored to the baseline */
+function bar(x,y,w,h,r=3){
+  if(h<=0.6) return '';
+  r = Math.min(r, w/2, h);
+  const b=y+h;
+  return `M${x} ${b} L${x} ${y+r} Q${x} ${y} ${x+r} ${y} L${x+w-r} ${y} Q${x+w} ${y} ${x+w} ${y+r} L${x+w} ${b} Z`;
+}
+function attachTip(host, svg, items){
+  const tip = document.createElement('div'); tip.className='tip'; host.appendChild(tip);
+  const show = (e,html)=>{
+    tip.innerHTML = html; tip.style.opacity=1;
+    const hb = host.getBoundingClientRect();
+    let x = e.clientX-hb.left, y = e.clientY-hb.top-12;
+    tip.style.left = Math.max(6, Math.min(hb.width-6, x))+'px';
+    tip.style.top = Math.max(tip.offsetHeight+2, y)+'px';
+  };
+  svg.querySelectorAll('.hit').forEach((el,i)=>{
+    const html = items[i];
+    el.addEventListener('pointermove', e=>show(e,html));
+    el.addEventListener('pointerenter', e=>show(e,html));
+    el.addEventListener('pointerleave', ()=>tip.style.opacity=0);
+  });
+  svg.addEventListener('pointerleave', ()=>tip.style.opacity=0);
+}
+
+/* single-series bar chart */
+function barChart(host, rows, {value, label, tip, money=true}){
+  const max = niceMax(Math.max(...rows.map(value), 0));
+  const ticks = axis(max, money);
+  const plot = W-PL-PR, base = PT+(H-PT-PB);
+  const step = plot/rows.length, bw = Math.max(3, Math.min(26, step*0.62));
+  let bars='', hits='', xlab='';
+  const every = rows.length>16 ? Math.ceil(rows.length/8) : (rows.length>8?2:1);
+  rows.forEach((r,i)=>{
+    const cx = PL + step*i + step/2;
+    const h = (H-PT-PB) * (value(r)/max);
+    bars += `<path d="${bar(cx-bw/2, base-h, bw, h)}" fill="var(--series-1)"/>`;
+    hits += `<rect class="hit" x="${PL+step*i}" y="${PT}" width="${step}" height="${H-PT-PB}" rx="3"/>`;
+    if((rows.length-1-i)%every===0)   // count back from the last day so it always lands, evenly spaced
+      xlab += `<text class="tk" x="${cx}" y="${base+15}" text-anchor="middle">${esc(label(r))}</text>`;
+  });
+  host.innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img">${frame(ticks)}${bars}${xlab}${hits}</svg>`;
+  attachTip(host, host.querySelector('svg'), rows.map(tip));
+}
+
+/* grouped two-series bar chart (same unit, one axis) */
+function groupChart(host, rows, {a, b, aName, bName, label, tip}){
+  const max = niceMax(Math.max(...rows.flatMap(r=>[a(r),b(r)]), 0));
+  const ticks = axis(max, true);
+  const plot = W-PL-PR, base = PT+(H-PT-PB);
+  const step = plot/rows.length;
+  const bw = Math.max(3, Math.min(14, (step-4)/2 - 1));   // 2px surface gap between the pair
+  let bars='', hits='', xlab='';
+  rows.forEach((r,i)=>{
+    const cx = PL + step*i + step/2;
+    const ha = (H-PT-PB)*(a(r)/max), hb = (H-PT-PB)*(b(r)/max);
+    bars += `<path d="${bar(cx-bw-1, base-ha, bw, ha)}" fill="var(--series-2)"/>`
+          + `<path d="${bar(cx+1,    base-hb, bw, hb)}" fill="var(--series-1)"/>`;
+    hits += `<rect class="hit" x="${PL+step*i}" y="${PT}" width="${step}" height="${H-PT-PB}" rx="3"/>`;
+    if((rows.length-1-i)%2===0)
+      xlab += `<text class="tk" x="${cx}" y="${base+15}" text-anchor="middle">${esc(label(r))}</text>`;
+  });
+  host.innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img">${frame(ticks)}${bars}${xlab}${hits}</svg>`;
+  attachTip(host, host.querySelector('svg'), rows.map(tip));
+}
+
+/* ---------- render ---------- */
+function delta(now, prev, invert=false){
+  if(prev==null || prev===0) return '';
+  const p = (now-prev)/prev*100;
+  const good = invert ? p<0 : p>0;
+  return `<span class="${good?'up':'down'}">${fmt.pct(p)}</span> vs prev 7d`;
+}
+
+function render(d){
+  const s=d.sales, a=d.ads, st=d.stock, k=d.klaviyo;
+  $('#domain').textContent = d.meta.domain;
+  $('#stamp').textContent = d.meta.generated_at_local;
+  document.title = `${s.today.orders} orders today · Lumara Ops`;
+
+  const alerts = d.alerts.length
+    ? `<div class="alerts">${d.alerts.map(x=>`
+        <div class="alert ${x.level}"><div class="ico">${ICO[x.level]||'!'}</div>
+        <div><h3>${esc(x.title)}</h3><p>${esc(x.body)}</p></div></div>`).join('')}</div>`
+    : `<div class="alerts"><div class="alert good"><div class="ico">✓</div>
+        <div><h3>Nothing needs you right now</h3>
+        <p>Orders flowing, stock above thresholds, ads converting.</p></div></div></div>`;
+
+  const stockPill = q => q===0 ? '<span class="pill critical">Out</span>'
+                    : q<=3 ? `<span class="pill warning">${q} left</span>`
+                    : `<span class="pill good">${q}</span>`;
+
+  const app = $('#app');
+  app.innerHTML = `
+  ${alerts}
+
+  <h2>Today &amp; trading <span>${d.meta.today} · all times AEST</span></h2>
+  <div class="tiles">
+    <div class="tile ${s.today.orders?'okay':'flag'}">
+      <div class="k">Orders today</div><div class="v">${s.today.orders}</div>
+      <div class="d">${s.days_since_order>0?`${s.days_since_order}d since last order`:'trading'}</div></div>
+    <div class="tile"><div class="k">Revenue today</div><div class="v">${fmt.money(s.today.revenue)}</div>
+      <div class="d">${s.today.orders?`AOV ${fmt.money(s.today.aov)}`:'—'}</div></div>
+    <div class="tile"><div class="k">Orders · 7 days</div><div class="v">${s.d7.orders}</div>
+      <div class="d">${s.d30.orders} in 30 days</div></div>
+    <div class="tile"><div class="k">Revenue · 7 days</div><div class="v">${fmt.money(s.d7.revenue)}</div>
+      <div class="d">${delta(s.d7.revenue, s.prev7_revenue)||'—'}</div></div>
+    <div class="tile"><div class="k">AOV · 30 days</div><div class="v">${fmt.money(s.d30.aov)}</div>
+      <div class="d">${fmt.money(s.d30.revenue)} total</div></div>
+    <div class="tile ${s.pending_fulfilment?'warn':''}">
+      <div class="k">Pending fulfilment</div><div class="v">${s.pending_fulfilment}</div>
+      <div class="d">${s.pending_fulfilment?'paid, not shipped':'all shipped'}</div></div>
+  </div>
+
+  <div class="card pad" style="margin-top:10px">
+    <p class="ctitle">Daily revenue</p>
+    <p class="csub">Last 30 days, paid orders, Sydney time. Hover a day for detail.</p>
+    <div class="chart" id="c-rev"></div>
+  </div>
+
+  <h2>Meta ads <span>account ${fmt.money(a.d7.spend)} spent in 7 days</span></h2>
+  <div class="tiles">
+    <div class="tile"><div class="k">Spend today</div><div class="v">${fmt.money2(a.today.spend)}</div>
+      <div class="d">${a.active_campaigns} live · ${fmt.money(a.daily_budget_live)}/day budget</div></div>
+    <div class="tile"><div class="k">Spend · 7 days</div><div class="v">${fmt.money(a.d7.spend)}</div>
+      <div class="d">${a.prev7?delta(a.d7.spend,a.prev7.spend,true):'—'}</div></div>
+    <div class="tile ${a.d7.roas>=2?'okay':a.d7.roas>=1?'warn':'flag'}">
+      <div class="k">ROAS · 7 days</div><div class="v">${a.d7.roas.toFixed(2)}×</div>
+      <div class="d">${fmt.money(a.d7.value)} attributed</div></div>
+    <div class="tile ${a.dry_days>=3?'flag':''}">
+      <div class="k">Purchases · 7 days</div><div class="v">${a.d7.purchases}</div>
+      <div class="d">${a.d7.cpa?`${fmt.money(a.d7.cpa)} per purchase`:`${a.dry_days}d with none`}</div></div>
+    <div class="tile"><div class="k">CTR · 7 days</div><div class="v">${a.d7.ctr.toFixed(2)}%</div>
+      <div class="d">${fmt.n(a.d7.clicks)} clicks</div></div>
+    <div class="tile"><div class="k">CPC · 7 days</div><div class="v">${fmt.money2(a.d7.cpc)}</div>
+      <div class="d">${fmt.n(a.d7.impressions)} impressions</div></div>
+  </div>
+
+  <div class="card pad" style="margin-top:10px">
+    <p class="ctitle">Ad spend vs attributed revenue</p>
+    <p class="csub">Last 14 days, both in AUD on one scale. Bars level = breaking even.</p>
+    <div class="legend">
+      <span><i style="background:var(--series-2)"></i>Spend</span>
+      <span><i style="background:var(--series-1)"></i>Attributed revenue</span>
+    </div>
+    <div class="chart" id="c-ads"></div>
+  </div>
+
+  <div class="card pad" style="margin-top:10px">
+    <p class="ctitle">Campaigns · last 30 days</p>
+    <div class="scroll"><table class="tbl"><thead><tr>
+      <th>Campaign</th><th class="num">Spend</th><th class="num">Rev</th>
+      <th class="num">ROAS</th><th class="num">CTR</th><th class="num">CPC</th><th class="num">Purch</th>
+    </tr></thead><tbody>
+    ${a.campaigns.map(c=>`<tr>
+      <td><div class="nm">${esc(c.name)}</div>
+        <span class="sub">${c.status==='ACTIVE'
+          ? `<span class="pill good">Live</span> ${c.daily_budget?fmt.money(c.daily_budget)+'/day':''}`
+          : '<span class="pill mute">Paused</span>'}</span></td>
+      <td class="num">${c.spend?fmt.money(c.spend):'—'}</td>
+      <td class="num">${c.purchase_value?fmt.money(c.purchase_value):'—'}</td>
+      <td class="num">${c.spend?`<span class="pill ${c.roas>=2?'good':c.roas>=1?'warning':'critical'}">${c.roas.toFixed(2)}×</span>`:'—'}</td>
+      <td class="num">${c.spend?c.ctr.toFixed(2)+'%':'—'}</td>
+      <td class="num">${c.spend?fmt.money2(c.cpc):'—'}</td>
+      <td class="num">${c.spend?c.purchases:'—'}</td></tr>`).join('')}
+    </tbody></table></div>
+  </div>
+
+  <h2>Stock <span>${st.tracked_skus} tracked SKUs · ${fmt.money(st.stock_value)} at retail</span></h2>
+  <div class="tiles">
+    <div class="tile ${st.out_of_stock?'flag':'okay'}"><div class="k">Can't be bought</div>
+      <div class="v">${st.out_of_stock}</div>
+      <div class="d">${st.oos_sellers.length} sold in last 30d</div></div>
+    <div class="tile ${st.low?'warn':''}"><div class="k">Low (≤3)</div><div class="v">${st.low}</div>
+      <div class="d">reorder now</div></div>
+    <div class="tile"><div class="k">Watch (4–5)</div><div class="v">${st.watch}</div>
+      <div class="d">plan reorder</div></div>
+    <div class="tile okay"><div class="k">Healthy (&gt;5)</div><div class="v">${st.healthy}</div>
+      <div class="d">no action</div></div>
+    <div class="tile ${st.untracked>=5?'warn':''}"><div class="k">Tracking off</div>
+      <div class="v">${st.untracked}</div>
+      <div class="d">counts are fiction</div></div>
+    <div class="tile"><div class="k">Active SKUs</div><div class="v">${st.sellable_skus}</div>
+      <div class="d">live on the store</div></div>
+  </div>
+
+  <div class="split" style="margin-top:10px">
+    <div class="card pad">
+      <p class="ctitle">Running low</p>
+      <p class="csub">Active products at 5 units or fewer.</p>
+      ${st.low_list.length ? `<table class="tbl"><thead><tr><th>Product</th>
+        <th class="num">Left</th><th class="num">Sold 30d</th><th class="num">Cover</th></tr></thead><tbody>
+        ${st.low_list.map(p=>`<tr><td><div class="nm">${esc(p.title)}</div>
+          <span class="sub">${esc(p.sku)}</span></td>
+          <td class="num">${stockPill(p.qty)}</td>
+          <td class="num">${p.sold_30d||'—'}</td>
+          <td class="num">${p.days_cover?p.days_cover+'d':'—'}</td></tr>`).join('')}
+        </tbody></table>` : '<p class="empty">Nothing running low.</p>'}
+    </div>
+    <div class="card pad">
+      <p class="ctitle">Sold out but still listed</p>
+      <p class="csub">Active, tracked, and showing as unavailable at checkout.</p>
+      ${st.oos_list.length ? `<table class="tbl"><thead><tr><th>Product</th>
+        <th class="num">Price</th><th class="num">Sold 30d</th></tr></thead><tbody>
+        ${st.oos_list.map(p=>`<tr><td><div class="nm">${esc(p.title)}</div>
+          <span class="sub">${esc(p.sku)}</span></td>
+          <td class="num">${fmt.money(p.price)}</td>
+          <td class="num">${p.sold_30d?`<span class="pill critical">${p.sold_30d}</span>`:'—'}</td></tr>`).join('')}
+        </tbody></table>` : '<p class="empty">Everything buyable.</p>'}
+      ${st.untracked ? `<p class="ctitle" style="margin-top:20px">Inventory tracking off</p>
+        <p class="csub">${st.untracked} active SKUs Shopify isn't counting — the quantity
+        shown in admin is meaningless and they'll never trigger a low-stock warning.</p>
+        <table class="tbl"><thead><tr><th>Product</th><th class="num">Price</th>
+        <th class="num">Shows</th></tr></thead><tbody>
+        ${st.untracked_list.map(p=>`<tr><td><div class="nm">${esc(p.title)}</div>
+          <span class="sub">${esc(p.sku)}</span></td>
+          <td class="num">${fmt.money(p.price)}</td>
+          <td class="num"><span class="pill mute">${p.qty}</span></td></tr>`).join('')}
+        </tbody></table>
+        ${st.untracked > st.untracked_list.length
+          ? `<p class="csub" style="margin:10px 0 0">+ ${st.untracked - st.untracked_list.length} more not shown.</p>` : ''}` : ''}
+    </div>
+  </div>
+
+  <h2>Orders &amp; customers</h2>
+  <div class="split">
+    <div class="card pad">
+      <p class="ctitle">Recent orders</p>
+      <p class="csub">Most recent 8, Sydney time.</p>
+      ${s.recent.length ? `<table class="tbl"><thead><tr><th>Order</th>
+        <th class="num">Total</th><th class="num">Status</th></tr></thead><tbody>
+        ${s.recent.map(o=>`<tr><td><div class="nm">${esc(o.name)} · ${esc(o.customer)}</div>
+          <span class="sub">${esc(o.when)} — ${esc(o.items)}</span></td>
+          <td class="num">${fmt.money2(o.total)}</td>
+          <td class="num">${o.financial==='REFUNDED'?'<span class="pill mute">Refunded</span>'
+            : o.fulfillment==='FULFILLED'?'<span class="pill good">Shipped</span>'
+            : '<span class="pill warning">To ship</span>'}</td></tr>`).join('')}
+        </tbody></table>` : '<p class="empty">No orders yet.</p>'}
+    </div>
+    <div class="card pad">
+      <p class="ctitle">Best sellers · 30 days</p>
+      <p class="csub">Units sold across paid orders.</p>
+      ${s.top_sellers.length ? `<table class="tbl"><thead><tr><th>Product</th>
+        <th class="num">Units</th></tr></thead><tbody>
+        ${s.top_sellers.map(t=>`<tr><td class="nm">${esc(t.title)}</td>
+          <td class="num">${t.units}</td></tr>`).join('')}
+        </tbody></table>` : '<p class="empty">No sales in the window.</p>'}
+      <div class="tiles four" style="margin-top:14px">
+        <div class="tile"><div class="k">Customers</div><div class="v sm">${fmt.n(s.customers_total)}</div></div>
+        <div class="tile"><div class="k">Abandoned</div><div class="v sm">${s.abandoned_checkouts}</div></div>
+      </div>
+    </div>
+  </div>
+
+  <h2>Email · Klaviyo</h2>
+  <div class="tiles four">
+    <div class="tile ${k.flows_live?'okay':'warn'}"><div class="k">Flows live</div>
+      <div class="v">${k.flows_live}</div>
+      <div class="d">${esc((k.live_flow_names||[]).join(', ')||'none')}</div></div>
+    <div class="tile"><div class="k">Flows in draft</div><div class="v">${k.flows_draft}</div>
+      <div class="d">not sending</div></div>
+    <div class="tile ${k.campaigns_sent?'':'warn'}"><div class="k">Campaigns sent</div>
+      <div class="v">${k.campaigns_sent}</div>
+      <div class="d">${k.campaigns_sent?'lifetime':'no broadcasts yet'}</div></div>
+    <div class="tile"><div class="k">Lists</div><div class="v">${k.lists}</div>
+      <div class="d">segments &amp; lists</div></div>
+  </div>
+
+  <footer>
+    Auto-refreshes hourly. Data pulled from Shopify Admin, Meta Ads and Klaviyo at the time stamped above;
+    ad figures use Meta's own attribution and will not match Shopify exactly.
+    Revenue counts paid orders and excludes refunds.
+    <div class="srcs">
+      <a href="https://admin.shopify.com" target="_blank" rel="noopener">Shopify admin</a>
+      <a href="https://adsmanager.facebook.com" target="_blank" rel="noopener">Meta Ads Manager</a>
+      <a href="https://www.klaviyo.com" target="_blank" rel="noopener">Klaviyo</a>
+      <a href="https://${esc(d.meta.domain)}" target="_blank" rel="noopener">${esc(d.meta.domain)}</a>
+    </div>
+  </footer>`;
+
+  barChart($('#c-rev'), s.daily, {
+    value:r=>r.revenue, label:r=>r.label,
+    tip:r=>`<b>${esc(r.label)}</b><br><span class="sw" style="background:var(--series-1)"></span>${fmt.money2(r.revenue)} · ${r.orders} order${r.orders===1?'':'s'}`
+  });
+  groupChart($('#c-ads'), a.series, {
+    a:r=>r.spend, b:r=>r.revenue, label:r=>r.label,
+    tip:r=>`<b>${esc(r.label)}</b><br>
+      <span class="sw" style="background:var(--series-2)"></span>Spend ${fmt.money2(r.spend)}<br>
+      <span class="sw" style="background:var(--series-1)"></span>Revenue ${fmt.money2(r.revenue)}<br>
+      ${r.purchases} purchase${r.purchases===1?'':'s'} · ${r.clicks} clicks · CTR ${r.ctr}%`
+  });
+
+  stampAge(d.meta.generated_at_utc);
+}
+
+let stampT = null;
+function stampAge(iso){
+  clearInterval(stampT);
+  const tick = ()=>{
+    const mins = Math.max(0, Math.round((Date.now()-new Date(iso).getTime())/60000));
+    const dot = $('#dot');
+    dot.className = 'dot' + (mins>150?' old':mins>75?' stale':'');
+    $('#age').textContent = mins<1 ? 'just now'
+      : mins<60 ? mins+' min ago'
+      : Math.floor(mins/60)+'h '+(mins%60)+'m ago';
+  };
+  tick(); stampT = setInterval(tick, 30000);
+}
+
+async function load(){
+  if(window.__SNAPSHOT__){ render(window.__SNAPSHOT__); return; }   // offline copy
+  try{
+    const r = await fetch('./data.json?t='+Date.now(), {cache:'no-store'});
+    if(!r.ok) throw new Error(r.status);
+    render(await r.json());
+  }catch(e){
+    if(!document.querySelector('.tiles'))
+      $('#app').innerHTML = `<div class="alerts"><div class="alert critical"><div class="ico">!</div>
+        <div><h3>Couldn't load data</h3><p>${esc(e.message)} — retrying shortly.</p></div></div></div>`;
+  }
+}
+load();
+setInterval(load, 5*60*1000);                                   // poll for a fresh build
+document.addEventListener('visibilitychange', ()=>{ if(!document.hidden) load(); });
+</script>
+</body>
+</html>
