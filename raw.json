@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-07-27T07:09:24Z",
+ "generated_at_utc": "2026-07-27T07:15:58Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,7 +9,7 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-07-27T07:09:24Z"
+   "fetched_at": "2026-07-27T07:15:58Z"
   },
   "meta": {
    "ok": false,
@@ -18,7 +18,7 @@
   },
   "klaviyo": {
    "ok": false,
-   "error": "HTTP 401: {\"errors\":[{\"id\":\"587283f4-42e8-4eec-bbd4-3f38db786854\",\"status\":401,\"code\":\"not_authenticated\",\"title\":\"Authentication credentials were not provided.\",\"detail\":\"Missing or invalid private k",
+   "error": "'latin-1' codec can't encode characters in position 16-20: ordinal not in range(256)",
    "fetched_at": "2026-07-27T06:06:03Z"
   }
  },
