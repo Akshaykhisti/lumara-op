@@ -219,6 +219,18 @@ if raw["unfulfilled_paid"]:
         "body": ", ".join(o["name"] for o in raw["unfulfilled_paid"][:6]),
     })
 
+LABEL = {"shopify": "Shopify", "meta": "Meta Ads", "klaviyo": "Klaviyo"}
+broken = [LABEL.get(k, k) for k, v in (raw.get("sources") or {}).items() if not v.get("ok")]
+if broken:
+    names = broken[0] if len(broken) == 1 else \
+        " and ".join([", ".join(broken[:-1]), broken[-1]])
+    alerts.insert(0, {
+        "level": "serious",
+        "title": f"{names} didn't refresh",
+        "body": "Those panels are showing the last figures that came through, not "
+                "current ones. Everything else on this page is up to date.",
+    })
+
 order = {"critical": 0, "serious": 1, "warning": 2, "good": 3}
 alerts.sort(key=lambda a: order.get(a["level"], 9))
 
@@ -231,6 +243,7 @@ out = {
         "generated_at_utc": raw["generated_at_utc"],
         "generated_at_local": now_syd.strftime("%a %-d %b %Y, %-I:%M%p AEST").replace("AM", "am").replace("PM", "pm"),
         "today": today.isoformat(),
+        "sources": raw.get("sources", {}),
     },
     "alerts": alerts,
     "sales": {
