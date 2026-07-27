@@ -1,0 +1,1034 @@
+{
+ "meta": {
+  "shop": "Lumara Home",
+  "domain": "lumarahome.com.au",
+  "currency": "AUD",
+  "generated_at_utc": "2026-07-27T03:19:23Z",
+  "generated_at_local": "Mon 27 Jul 2026, 1:19pm AEST",
+  "today": "2026-07-27"
+ },
+ "alerts": [
+  {
+   "level": "critical",
+   "title": "No orders for 6 days",
+   "body": "Last order was #1032 on 21 Jul. Ads have spent $325 since the last attributed purchase."
+  },
+  {
+   "level": "critical",
+   "title": "$325 ad spend, 0 attributed purchases (6 days)",
+   "body": "1 campaign(s) live at $30/day. Check pixel/tracking and landing pages before topping up budget."
+  },
+  {
+   "level": "serious",
+   "title": "2 product(s) sold in the last 30d are out of stock",
+   "body": "Turtle Shell Planters (Set of 2), Lumara Talia Table Lamp. Still listed as active \u2014 they take traffic and convert nothing."
+  },
+  {
+   "level": "warning",
+   "title": "30 active SKUs have inventory tracking off",
+   "body": "Shopify isn't counting units for these, so their stock numbers mean nothing and they can't trigger a low-stock warning. Turn tracking on for anything you actually hold."
+  },
+  {
+   "level": "warning",
+   "title": "3 product(s) at 3 units or fewer",
+   "body": "Lumara Botanical Bud Vase Set of 2 (1), Lumara Ribbed Rhubarb Glass Vase (1), Table Swag Olive Candelabra (3)"
+  }
+ ],
+ "sales": {
+  "today": {
+   "orders": 0,
+   "revenue": 0.0,
+   "aov": 0.0
+  },
+  "d7": {
+   "orders": 3,
+   "revenue": 400.39,
+   "aov": 133.46
+  },
+  "d30": {
+   "orders": 23,
+   "revenue": 3534.34,
+   "aov": 153.67
+  },
+  "prev7_revenue": 1001.52,
+  "wow_pct": -60.0,
+  "pending_fulfilment": 0,
+  "pending_orders": [],
+  "abandoned_checkouts": 2,
+  "customers_total": 48,
+  "days_since_order": 6,
+  "last_order": {
+   "name": "#1032",
+   "when": "21 jul, 7:38pm",
+   "total": 112.94,
+   "customer": "Kim White"
+  },
+  "daily": [
+   {
+    "date": "2026-06-28",
+    "label": "28 Jun",
+    "orders": 0,
+    "revenue": 0.0
+   },
+   {
+    "date": "2026-06-29",
+    "label": "29 Jun",
+    "orders": 1,
+    "revenue": 202.94
+   },
+   {
+    "date": "2026-06-30",
+    "label": "30 Jun",
+    "orders": 0,
+    "revenue": 0.0
+   },
+   {
+    "date": "2026-07-01",
+    "label": "1 Jul",
+    "orders": 0,
+    "revenue": 0.0
+   },
+   {
+    "date": "2026-07-02",
+    "label": "2 Jul",
+    "orders": 0,
+    "revenue": 0.0
+   },
+   {
+    "date": "2026-07-03",
+    "label": "3 Jul",
+    "orders": 1,
+    "revenue": 127.95
+   },
+   {
+    "date": "2026-07-04",
+    "label": "4 Jul",
+    "orders": 0,
+    "revenue": 0.0
+   },
+   {
+    "date": "2026-07-05",
+    "label": "5 Jul",
+    "orders": 3,
+    "revenue": 601.92
+   },
+   {
+    "date": "2026-07-06",
+    "label": "6 Jul",
+    "orders": 1,
+    "revenue": 102.94
+   },
+   {
+    "date": "2026-07-07",
+    "label": "7 Jul",
+    "orders": 0,
+    "revenue": 0.0
+   },
+   {
+    "date": "2026-07-08",
+    "label": "8 Jul",
+    "orders": 0,
+    "revenue": 0.0
+   },
+   {
+    "date": "2026-07-09",
+    "label": "9 Jul",
+    "orders": 3,
+    "revenue": 408.95
+   },
+   {
+    "date": "2026-07-10",
+    "label": "10 Jul",
+    "orders": 0,
+    "revenue": 0.0
+   },
+   {
+    "date": "2026-07-11",
+    "label": "11 Jul",
+    "orders": 0,
+    "revenue": 0.0
+   },
+   {
+    "date": "2026-07-12",
+    "label": "12 Jul",
+    "orders": 2,
+    "revenue": 396.79
+   },
+   {
+    "date": "2026-07-13",
+    "label": "13 Jul",
+    "orders": 1,
+    "revenue": 290.94
+   },
+   {
+    "date": "2026-07-14",
+    "label": "14 Jul",
+    "orders": 1,
+    "revenue": 263.85
+   },
+   {
+    "date": "2026-07-15",
+    "label": "15 Jul",
+    "orders": 1,
+    "revenue": 89.45
+   },
+   {
+    "date": "2026-07-16",
+    "label": "16 Jul",
+    "orders": 0,
+    "revenue": 0.0
+   },
+   {
+    "date": "2026-07-17",
+    "label": "17 Jul",
+    "orders": 0,
+    "revenue": 0.0
+   },
+   {
+    "date": "2026-07-18",
+    "label": "18 Jul",
+    "orders": 2,
+    "revenue": 171.9
+   },
+   {
+    "date": "2026-07-19",
+    "label": "19 Jul",
+    "orders": 2,
+    "revenue": 279.42
+   },
+   {
+    "date": "2026-07-20",
+    "label": "20 Jul",
+    "orders": 2,
+    "revenue": 196.9
+   },
+   {
+    "date": "2026-07-21",
+    "label": "21 Jul",
+    "orders": 3,
+    "revenue": 400.39
+   },
+   {
+    "date": "2026-07-22",
+    "label": "22 Jul",
+    "orders": 0,
+    "revenue": 0.0
+   },
+   {
+    "date": "2026-07-23",
+    "label": "23 Jul",
+    "orders": 0,
+    "revenue": 0.0
+   },
+   {
+    "date": "2026-07-24",
+    "label": "24 Jul",
+    "orders": 0,
+    "revenue": 0.0
+   },
+   {
+    "date": "2026-07-25",
+    "label": "25 Jul",
+    "orders": 0,
+    "revenue": 0.0
+   },
+   {
+    "date": "2026-07-26",
+    "label": "26 Jul",
+    "orders": 0,
+    "revenue": 0.0
+   },
+   {
+    "date": "2026-07-27",
+    "label": "27 Jul",
+    "orders": 0,
+    "revenue": 0.0
+   }
+  ],
+  "recent": [
+   {
+    "name": "#1032",
+    "when": "21 jul, 7:38pm",
+    "total": 112.94,
+    "customer": "Kim White",
+    "fulfillment": "FULFILLED",
+    "financial": "PAID",
+    "items": "Lumara Olive Mediterranean Candelabra"
+   },
+   {
+    "name": "#1031",
+    "when": "21 jul, 5:37pm",
+    "total": 62.45,
+    "customer": "Susan Eveston",
+    "fulfillment": "FULFILLED",
+    "financial": "PAID",
+    "items": "Lumara Botanical Bud Vase Set of 2"
+   },
+   {
+    "name": "#1030",
+    "when": "21 jul, 1:10pm",
+    "total": 225.0,
+    "customer": "Sharyn Howes",
+    "fulfillment": "FULFILLED",
+    "financial": "PAID",
+    "items": "Lumara Giana Natural Table Lamp"
+   },
+   {
+    "name": "#1029",
+    "when": "20 jul, 9:52pm",
+    "total": 102.95,
+    "customer": "Irene Philp",
+    "fulfillment": "FULFILLED",
+    "financial": "PAID",
+    "items": "Lumara Olive Mediterranean Candelabra"
+   },
+   {
+    "name": "#1028",
+    "when": "20 jul, 10:33am",
+    "total": 93.95,
+    "customer": "Amanda Mckean",
+    "fulfillment": "FULFILLED",
+    "financial": "PAID",
+    "items": "Talia Vase"
+   },
+   {
+    "name": "#1027",
+    "when": "19 jul, 8:33pm",
+    "total": 112.94,
+    "customer": "Penni Robinson",
+    "fulfillment": "FULFILLED",
+    "financial": "PAID",
+    "items": "Lumara Olive Mediterranean Candelabra"
+   },
+   {
+    "name": "#1026",
+    "when": "19 jul, 7:29am",
+    "total": 166.48,
+    "customer": "Amanda Dillon",
+    "fulfillment": "FULFILLED",
+    "financial": "PAID",
+    "items": "Lumara Mediterranean Large Candle Holder, Lumara Mediterranean Statement Vase, Lumara Mediterranean Med Candle Holder"
+   },
+   {
+    "name": "#1025",
+    "when": "18 jul, 8:22pm",
+    "total": 103.95,
+    "customer": "Amanda Johnson",
+    "fulfillment": "FULFILLED",
+    "financial": "PAID",
+    "items": "Talia Vase"
+   }
+  ],
+  "top_sellers": [
+   {
+    "title": "Talia Vase",
+    "units": 4
+   },
+   {
+    "title": "Turtle Shell Planters (Set of 2)",
+    "units": 4
+   },
+   {
+    "title": "Lumara Olive Mediterranean Candelabra",
+    "units": 3
+   },
+   {
+    "title": "Lumara Newport Large Table Lamp",
+    "units": 3
+   },
+   {
+    "title": "Lumara Talia Table Lamp",
+    "units": 3
+   },
+   {
+    "title": "Lumara Ribbed Rhubarb Glass Vase",
+    "units": 2
+   }
+  ]
+ },
+ "ads": {
+  "today": {
+   "spend": 8.39,
+   "value": 0.0,
+   "roas": 0.0,
+   "clicks": 4,
+   "impressions": 106,
+   "purchases": 0,
+   "cpc": 2.1,
+   "ctr": 3.77,
+   "cpa": null
+  },
+  "d7": {
+   "spend": 405.05,
+   "value": 400.39,
+   "roas": 0.99,
+   "clicks": 467,
+   "impressions": 12294,
+   "purchases": 3,
+   "cpc": 0.87,
+   "ctr": 3.8,
+   "cpa": 135.02
+  },
+  "prev7": {
+   "spend": 569.35,
+   "value": 966.52,
+   "roas": 1.7
+  },
+  "daily_budget_live": 30.0,
+  "active_campaigns": 1,
+  "dry_days": 6,
+  "dry_spend": 324.77,
+  "series": [
+   {
+    "date": "2026-07-14",
+    "label": "14 Jul",
+    "spend": 73.23,
+    "revenue": 263.85,
+    "purchases": 1,
+    "clicks": 108,
+    "ctr": 4.44,
+    "cpc": 0.68
+   },
+   {
+    "date": "2026-07-15",
+    "label": "15 Jul",
+    "spend": 75.07,
+    "revenue": 54.45,
+    "purchases": 1,
+    "clicks": 110,
+    "ctr": 4.61,
+    "cpc": 0.68
+   },
+   {
+    "date": "2026-07-16",
+    "label": "16 Jul",
+    "spend": 84.72,
+    "revenue": 0.0,
+    "purchases": 0,
+    "clicks": 148,
+    "ctr": 4.94,
+    "cpc": 0.57
+   },
+   {
+    "date": "2026-07-17",
+    "label": "17 Jul",
+    "spend": 85.19,
+    "revenue": 0.0,
+    "purchases": 0,
+    "clicks": 128,
+    "ctr": 4.32,
+    "cpc": 0.67
+   },
+   {
+    "date": "2026-07-18",
+    "label": "18 Jul",
+    "spend": 71.81,
+    "revenue": 171.9,
+    "purchases": 2,
+    "clicks": 92,
+    "ctr": 3.76,
+    "cpc": 0.78
+   },
+   {
+    "date": "2026-07-19",
+    "label": "19 Jul",
+    "spend": 107.59,
+    "revenue": 279.42,
+    "purchases": 2,
+    "clicks": 172,
+    "ctr": 3.94,
+    "cpc": 0.63
+   },
+   {
+    "date": "2026-07-20",
+    "label": "20 Jul",
+    "spend": 71.74,
+    "revenue": 196.9,
+    "purchases": 2,
+    "clicks": 90,
+    "ctr": 3.41,
+    "cpc": 0.8
+   },
+   {
+    "date": "2026-07-21",
+    "label": "21 Jul",
+    "spend": 80.28,
+    "revenue": 400.39,
+    "purchases": 3,
+    "clicks": 133,
+    "ctr": 3.65,
+    "cpc": 0.6
+   },
+   {
+    "date": "2026-07-22",
+    "label": "22 Jul",
+    "spend": 73.6,
+    "revenue": 0.0,
+    "purchases": 0,
+    "clicks": 77,
+    "ctr": 3.04,
+    "cpc": 0.96
+   },
+   {
+    "date": "2026-07-23",
+    "label": "23 Jul",
+    "spend": 68.88,
+    "revenue": 0.0,
+    "purchases": 0,
+    "clicks": 68,
+    "ctr": 2.6,
+    "cpc": 1.01
+   },
+   {
+    "date": "2026-07-24",
+    "label": "24 Jul",
+    "spend": 68.11,
+    "revenue": 0.0,
+    "purchases": 0,
+    "clicks": 54,
+    "ctr": 4.28,
+    "cpc": 1.26
+   },
+   {
+    "date": "2026-07-25",
+    "label": "25 Jul",
+    "spend": 44.41,
+    "revenue": 0.0,
+    "purchases": 0,
+    "clicks": 63,
+    "ctr": 6.85,
+    "cpc": 0.7
+   },
+   {
+    "date": "2026-07-26",
+    "label": "26 Jul",
+    "spend": 61.38,
+    "revenue": 0.0,
+    "purchases": 0,
+    "clicks": 68,
+    "ctr": 5.57,
+    "cpc": 0.9
+   },
+   {
+    "date": "2026-07-27",
+    "label": "27 Jul",
+    "spend": 8.39,
+    "revenue": 0.0,
+    "purchases": 0,
+    "clicks": 4,
+    "ctr": 3.77,
+    "cpc": 2.1
+   }
+  ],
+  "campaigns": [
+   {
+    "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
+    "status": "PAUSED",
+    "daily_budget": 45.0,
+    "spend": 1190.08,
+    "impressions": 42527,
+    "clicks": 1598,
+    "ctr": 3.76,
+    "cpc": 0.74,
+    "roas": 2.65,
+    "purchases": 19,
+    "purchase_value": 3156.76,
+    "atc": 56,
+    "reach": 21242
+   },
+   {
+    "name": "Lumara \u2014 Sales \u2014 Winners Broad CBO (Jul 2026)",
+    "status": "ACTIVE",
+    "daily_budget": 30.0,
+    "spend": 307.06,
+    "impressions": 8450,
+    "clicks": 455,
+    "ctr": 5.38,
+    "cpc": 0.67,
+    "roas": 1.07,
+    "purchases": 3,
+    "purchase_value": 328.83,
+    "atc": 21,
+    "reach": 6077
+   },
+   {
+    "name": "Lumara \u2014 Talia Lamp \u2014 Final Stock \u2014 FB (Jul 2026)",
+    "status": "PAUSED",
+    "daily_budget": 15.0,
+    "spend": 224.91,
+    "impressions": 6813,
+    "clicks": 237,
+    "ctr": 3.48,
+    "cpc": 0.95,
+    "roas": 0.62,
+    "purchases": 1,
+    "purchase_value": 139.94,
+    "atc": 5,
+    "reach": 5066
+   },
+   {
+    "name": "Lumara \u2014 Retargeting \u2014 AU \u2014 Website 30d (Jun 2026)",
+    "status": "PAUSED",
+    "daily_budget": 15.0,
+    "spend": 48.65,
+    "impressions": 1011,
+    "clicks": 56,
+    "ctr": 5.54,
+    "cpc": 0.87,
+    "roas": 0.0,
+    "purchases": 0,
+    "purchase_value": 0.0,
+    "atc": 1,
+    "reach": 559
+   },
+   {
+    "name": "Lumara \u2014 Lamps \u2014 KG Gap (Jul 2026)",
+    "status": "PAUSED",
+    "daily_budget": null,
+    "spend": 0.0,
+    "impressions": 0,
+    "clicks": 0,
+    "ctr": 0.0,
+    "cpc": 0.0,
+    "roas": 0.0,
+    "purchases": 0,
+    "purchase_value": 0.0,
+    "atc": 0,
+    "reach": 0
+   },
+   {
+    "name": "Instagram Only \u2014 Talia & Alegra \u2014 WELCOME10",
+    "status": "PAUSED",
+    "daily_budget": 30.0,
+    "spend": 0.0,
+    "impressions": 0,
+    "clicks": 0,
+    "ctr": 0.0,
+    "cpc": 0.0,
+    "roas": 0.0,
+    "purchases": 0,
+    "purchase_value": 0.0,
+    "atc": 0,
+    "reach": 0
+   },
+   {
+    "name": "Lumara \u2014 Hero Launch (Jun 2026)",
+    "status": "PAUSED",
+    "daily_budget": 25.0,
+    "spend": 0.0,
+    "impressions": 0,
+    "clicks": 0,
+    "ctr": 0.0,
+    "cpc": 0.0,
+    "roas": 0.0,
+    "purchases": 0,
+    "purchase_value": 0.0,
+    "atc": 0,
+    "reach": 0
+   }
+  ]
+ },
+ "stock": {
+  "sellable_skus": 76,
+  "tracked_skus": 46,
+  "out_of_stock": 2,
+  "low": 3,
+  "watch": 2,
+  "healthy": 39,
+  "untracked": 30,
+  "stock_value": 52176.12,
+  "oos_list": [
+   {
+    "title": "Turtle Shell Planters (Set of 2)",
+    "sku": "QA5419-2",
+    "qty": 0,
+    "price": 179.99,
+    "status": "ACTIVE",
+    "tracked": true,
+    "available": false,
+    "sold_30d": 4
+   },
+   {
+    "title": "Lumara Talia Table Lamp",
+    "sku": "YE6211M-1",
+    "qty": 0,
+    "price": 159.99,
+    "status": "ACTIVE",
+    "tracked": true,
+    "available": false,
+    "sold_30d": 3
+   }
+  ],
+  "oos_sellers": [
+   {
+    "title": "Turtle Shell Planters (Set of 2)",
+    "sku": "QA5419-2",
+    "qty": 0,
+    "price": 179.99,
+    "status": "ACTIVE",
+    "tracked": true,
+    "available": false,
+    "sold_30d": 4
+   },
+   {
+    "title": "Lumara Talia Table Lamp",
+    "sku": "YE6211M-1",
+    "qty": 0,
+    "price": 159.99,
+    "status": "ACTIVE",
+    "tracked": true,
+    "available": false,
+    "sold_30d": 3
+   }
+  ],
+  "low_list": [
+   {
+    "title": "Lumara Botanical Bud Vase Set of 2",
+    "sku": "CN7142-1",
+    "qty": 1,
+    "price": 54.99,
+    "status": "ACTIVE",
+    "tracked": true,
+    "available": true,
+    "sold_30d": 1,
+    "days_cover": 30.0
+   },
+   {
+    "title": "Lumara Ribbed Rhubarb Glass Vase",
+    "sku": "LH-VS-012",
+    "qty": 1,
+    "price": 49.99,
+    "status": "ACTIVE",
+    "tracked": true,
+    "available": true,
+    "sold_30d": 2,
+    "days_cover": 15.0
+   },
+   {
+    "title": "Table Swag Olive Candelabra",
+    "sku": "QA5903-3",
+    "qty": 3,
+    "price": 89.99,
+    "status": "ACTIVE",
+    "tracked": true,
+    "available": true,
+    "sold_30d": 0,
+    "days_cover": null
+   },
+   {
+    "title": "Lumara Alegra Statement Vase",
+    "sku": "QA5813-2",
+    "qty": 4,
+    "price": 94.99,
+    "status": "ACTIVE",
+    "tracked": true,
+    "available": true,
+    "sold_30d": 0,
+    "days_cover": null
+   },
+   {
+    "title": "Lumara Olive Mediterranean Candelabra",
+    "sku": "QA5903-2",
+    "qty": 4,
+    "price": 99.99,
+    "status": "ACTIVE",
+    "tracked": true,
+    "available": true,
+    "sold_30d": 3,
+    "days_cover": 40.0
+   }
+  ],
+  "untracked_list": [
+   {
+    "title": "Lumara Riviera XL Table Lamp",
+    "sku": "Y8215-1",
+    "qty": 0,
+    "price": 499.0,
+    "status": "ACTIVE",
+    "tracked": false,
+    "available": true
+   },
+   {
+    "title": "Lumara Hamptons XL Table Lamp",
+    "sku": "Y8236-1",
+    "qty": 0,
+    "price": 499.0,
+    "status": "ACTIVE",
+    "tracked": false,
+    "available": true
+   },
+   {
+    "title": "Lumara Chike Table Lamp",
+    "sku": "YR7399-1",
+    "qty": 0,
+    "price": 499.0,
+    "status": "ACTIVE",
+    "tracked": false,
+    "available": true
+   },
+   {
+    "title": "Lumara Fossil Table Lamp",
+    "sku": "YE6125-1",
+    "qty": 0,
+    "price": 375.0,
+    "status": "ACTIVE",
+    "tracked": false,
+    "available": true
+   },
+   {
+    "title": "Lumara Pineapple Table Lamp \u2014 Weathered Vintage",
+    "sku": "YE6102-1",
+    "qty": 0,
+    "price": 289.0,
+    "status": "ACTIVE",
+    "tracked": false,
+    "available": true
+   },
+   {
+    "title": "Lumara Pineapple Table Lamp \u2014 White",
+    "sku": "YE6101-1",
+    "qty": 0,
+    "price": 289.0,
+    "status": "ACTIVE",
+    "tracked": false,
+    "available": true
+   },
+   {
+    "title": "Lumara Statement Console \u2014 Bundle",
+    "sku": "LH-BDL-05",
+    "qty": 0,
+    "price": 235.0,
+    "status": "ACTIVE",
+    "tracked": false,
+    "available": true
+   },
+   {
+    "title": "Lumara Pear Table Lamp",
+    "sku": "YR7256-1",
+    "qty": 0,
+    "price": 228.99,
+    "status": "ACTIVE",
+    "tracked": false,
+    "available": true
+   },
+   {
+    "title": "Lumara White Foam Table Lamp",
+    "sku": "YR7257-1",
+    "qty": 0,
+    "price": 228.99,
+    "status": "ACTIVE",
+    "tracked": false,
+    "available": true
+   },
+   {
+    "title": "Lumara Coastal Glow \u2014 Bundle",
+    "sku": "LH-BDL-06",
+    "qty": 0,
+    "price": 219.0,
+    "status": "ACTIVE",
+    "tracked": false,
+    "available": true
+   },
+   {
+    "title": "Lumara Living Room Set \u2014 Bundle",
+    "sku": "LH-BDL-04",
+    "qty": 0,
+    "price": 194.0,
+    "status": "ACTIVE",
+    "tracked": false,
+    "available": true
+   },
+   {
+    "title": "Lumara Casa Table Lamp",
+    "sku": "YF3033-1",
+    "qty": 10,
+    "price": 149.99,
+    "status": "ACTIVE",
+    "tracked": false,
+    "available": true
+   },
+   {
+    "title": "Lumara Malabar Table Lamp",
+    "sku": "YE6202-1",
+    "qty": 10,
+    "price": 149.99,
+    "status": "ACTIVE",
+    "tracked": false,
+    "available": true
+   },
+   {
+    "title": "Lumara Warm Glow Trio \u2014 Bundle",
+    "sku": "LH-BDL-01",
+    "qty": 0,
+    "price": 139.0,
+    "status": "ACTIVE",
+    "tracked": false,
+    "available": true
+   },
+   {
+    "title": "Lumara Mantel Styling Set \u2014 Bundle",
+    "sku": "LH-BDL-02",
+    "qty": 0,
+    "price": 119.0,
+    "status": "ACTIVE",
+    "tracked": false,
+    "available": true
+   },
+   {
+    "title": "Lumara Bedside Bundle",
+    "sku": "LH-BDL-03",
+    "qty": 0,
+    "price": 119.0,
+    "status": "ACTIVE",
+    "tracked": false,
+    "available": true
+   },
+   {
+    "title": "Lumara Malabar Vase",
+    "sku": "YE6213-1",
+    "qty": 10,
+    "price": 69.99,
+    "status": "ACTIVE",
+    "tracked": false,
+    "available": true
+   },
+   {
+    "title": "Lumara Gum Leaf Stem (Single)",
+    "sku": "JI2045-4",
+    "qty": 0,
+    "price": 57.99,
+    "status": "ACTIVE",
+    "tracked": false,
+    "available": true
+   },
+   {
+    "title": "Lumara Banksia Stem \u2014 Amber (Single)",
+    "sku": "JI2044-4",
+    "qty": 0,
+    "price": 38.99,
+    "status": "ACTIVE",
+    "tracked": false,
+    "available": true
+   },
+   {
+    "title": "Lumara Magnolia Stem (Single)",
+    "sku": "LD9306-4",
+    "qty": 0,
+    "price": 36.99,
+    "status": "ACTIVE",
+    "tracked": false,
+    "available": true
+   }
+  ]
+ },
+ "klaviyo": {
+  "flows_live": 1,
+  "flows_draft": 3,
+  "live_flow_names": [
+   "Post-Purchase / Cross-Sell"
+  ],
+  "campaigns_sent": 0,
+  "lists": 2,
+  "placed_order_daily": {
+   "dates": [
+    "2026-06-27",
+    "2026-06-28",
+    "2026-06-29",
+    "2026-06-30",
+    "2026-07-01",
+    "2026-07-02",
+    "2026-07-03",
+    "2026-07-04",
+    "2026-07-05",
+    "2026-07-06",
+    "2026-07-07",
+    "2026-07-08",
+    "2026-07-09",
+    "2026-07-10",
+    "2026-07-11",
+    "2026-07-12",
+    "2026-07-13",
+    "2026-07-14",
+    "2026-07-15",
+    "2026-07-16",
+    "2026-07-17",
+    "2026-07-18",
+    "2026-07-19",
+    "2026-07-20",
+    "2026-07-21",
+    "2026-07-22",
+    "2026-07-23",
+    "2026-07-24",
+    "2026-07-25",
+    "2026-07-26",
+    "2026-07-27"
+   ],
+   "count": [
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    3,
+    1,
+    0,
+    1,
+    3,
+    0,
+    0,
+    2,
+    1,
+    1,
+    1,
+    0,
+    0,
+    2,
+    2,
+    2,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "value": [
+    139.94,
+    0,
+    202.94,
+    0,
+    0,
+    0,
+    127.95,
+    0,
+    601.92,
+    102.94,
+    0,
+    405.14,
+    408.95,
+    0,
+    0,
+    396.79,
+    290.94,
+    263.85,
+    89.45,
+    0,
+    0,
+    171.9,
+    279.42,
+    196.9,
+    400.39,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  }
+ }
+}
