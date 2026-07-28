@@ -3,28 +3,28 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-07-28T13:18:07Z",
-  "generated_at_local": "Tue 28 Jul 2026, 11:18pm AEST",
-  "today": "2026-07-28",
+  "generated_at_utc": "2026-07-28T15:39:13Z",
+  "generated_at_local": "Wed 29 Jul 2026, 1:39am AEST",
+  "today": "2026-07-29",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-07-28T13:18:07Z"
+    "fetched_at": "2026-07-28T15:39:13Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-07-28T13:18:07Z"
+    "fetched_at": "2026-07-28T15:39:13Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-07-28T13:18:07Z"
+    "fetched_at": "2026-07-28T15:39:13Z"
    }
   }
  },
  "alerts": [
   {
    "level": "critical",
-   "title": "$388 ad spend, 0 attributed purchases (7 days)",
+   "title": "$388 ad spend, 0 attributed purchases (8 days)",
    "body": "1 campaign(s) live at $30/day. Check pixel/tracking and landing pages before topping up budget."
   },
   {
@@ -45,9 +45,9 @@
  ],
  "sales": {
   "today": {
-   "orders": 1,
-   "revenue": 92.94,
-   "aov": 92.94
+   "orders": 0,
+   "revenue": 0.0,
+   "aov": 0.0
   },
   "d7": {
    "orders": 1,
@@ -55,17 +55,17 @@
    "aov": 92.94
   },
   "d30": {
-   "orders": 24,
-   "revenue": 3627.28,
-   "aov": 151.14
+   "orders": 23,
+   "revenue": 3424.34,
+   "aov": 148.88
   },
-  "prev7_revenue": 1138.06,
-  "wow_pct": -91.8,
+  "prev7_revenue": 1048.61,
+  "wow_pct": -91.1,
   "pending_fulfilment": 0,
   "pending_orders": [],
-  "abandoned_checkouts": 2,
+  "abandoned_checkouts": 0,
   "customers_total": 48,
-  "days_since_order": 0,
+  "days_since_order": 1,
   "last_order": {
    "name": "#1033",
    "when": "28 jul, 2:19pm",
@@ -73,12 +73,6 @@
    "customer": "Sharyn Howes"
   },
   "daily": [
-   {
-    "date": "2026-06-29",
-    "label": "29 Jun",
-    "orders": 1,
-    "revenue": 202.94
-   },
    {
     "date": "2026-06-30",
     "label": "30 Jun",
@@ -252,6 +246,12 @@
     "label": "28 Jul",
     "orders": 1,
     "revenue": 92.94
+   },
+   {
+    "date": "2026-07-29",
+    "label": "29 Jul",
+    "orders": 0,
+    "revenue": 0.0
    }
   ],
   "recent": [
@@ -334,15 +334,15 @@
     "units": 4
    },
    {
-    "title": "Turtle Shell Planters (Set of 2)",
-    "units": 4
-   },
-   {
     "title": "Lumara Olive Mediterranean Candelabra \u2014 Sculptural Metal Centrepiece",
     "units": 3
    },
    {
     "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
+    "units": 3
+   },
+   {
+    "title": "Turtle Shell Planters (Set of 2)",
     "units": 3
    },
    {
@@ -357,47 +357,37 @@
  },
  "ads": {
   "today": {
-   "spend": 35.43,
+   "spend": 0.12,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 21,
-   "impressions": 741,
+   "clicks": 0,
+   "impressions": 5,
    "purchases": 0,
-   "cpc": 1.69,
-   "ctr": 2.83,
+   "cpc": 0.0,
+   "ctr": 0.0,
    "cpa": null
   },
   "d7": {
-   "spend": 387.9,
+   "spend": 314.44,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 375,
-   "impressions": 10029,
+   "clicks": 298,
+   "impressions": 7502,
    "purchases": 0,
-   "cpc": 1.03,
-   "ctr": 3.74,
+   "cpc": 1.06,
+   "ctr": 3.97,
    "cpa": null
   },
   "prev7": {
-   "spend": 576.4,
-   "value": 1103.06,
-   "roas": 1.91
+   "spend": 574.93,
+   "value": 1048.61,
+   "roas": 1.82
   },
   "daily_budget_live": 30.0,
   "active_campaigns": 1,
-  "dry_days": 7,
-  "dry_spend": 387.9,
+  "dry_days": 8,
+  "dry_spend": 388.04,
   "series": [
-   {
-    "date": "2026-07-15",
-    "label": "15 Jul",
-    "spend": 75.07,
-    "revenue": 54.45,
-    "purchases": 1,
-    "clicks": 110,
-    "ctr": 4.61,
-    "cpc": 0.68
-   },
    {
     "date": "2026-07-16",
     "label": "16 Jul",
@@ -521,12 +511,22 @@
    {
     "date": "2026-07-28",
     "label": "28 Jul",
-    "spend": 35.43,
+    "spend": 35.45,
     "revenue": 0.0,
     "purchases": 0,
     "clicks": 21,
     "ctr": 2.83,
     "cpc": 1.69
+   },
+   {
+    "date": "2026-07-29",
+    "label": "29 Jul",
+    "spend": 0.12,
+    "revenue": 0.0,
+    "purchases": 0,
+    "clicks": 0,
+    "ctr": 0.0,
+    "cpc": 0.0
    }
   ],
   "campaigns": [
@@ -534,12 +534,12 @@
     "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
     "status": "PAUSED",
     "daily_budget": 45.0,
-    "spend": 1190.08,
-    "impressions": 42527,
-    "clicks": 1598,
+    "spend": 1189.42,
+    "impressions": 42515,
+    "clicks": 1597,
     "ctr": 3.76,
     "cpc": 0.74,
-    "roas": 2.6526,
+    "roas": 2.654,
     "purchases": 19,
     "purchase_value": 3156.76,
     "atc": 56,
@@ -549,31 +549,31 @@
     "name": "Lumara \u2014 Sales \u2014 Winners Broad CBO (Jul 2026)",
     "status": "ACTIVE",
     "daily_budget": 30.0,
-    "spend": 343.15,
-    "impressions": 9191,
-    "clicks": 479,
-    "ctr": 5.21,
-    "cpc": 0.72,
-    "roas": 0.9583,
+    "spend": 378.6,
+    "impressions": 9933,
+    "clicks": 500,
+    "ctr": 5.03,
+    "cpc": 0.76,
+    "roas": 0.8685,
     "purchases": 3,
     "purchase_value": 328.83,
-    "atc": 22,
-    "reach": 6534
+    "atc": 23,
+    "reach": 6859
    },
    {
     "name": "Lumara \u2014 Talia Lamp \u2014 Final Stock \u2014 FB (Jul 2026)",
     "status": "PAUSED",
     "daily_budget": 15.0,
-    "spend": 185.84,
-    "impressions": 5801,
-    "clicks": 201,
-    "ctr": 3.46,
+    "spend": 115.77,
+    "impressions": 3446,
+    "clicks": 126,
+    "ctr": 3.66,
     "cpc": 0.92,
     "roas": 0.0,
     "purchases": 0,
     "purchase_value": 0.0,
     "atc": 2,
-    "reach": 4456
+    "reach": 2734
    },
    {
     "name": "Lumara \u2014 Retargeting \u2014 AU \u2014 Website 30d (Jun 2026)",
@@ -655,7 +655,7 @@
     "status": "ACTIVE",
     "tracked": true,
     "available": false,
-    "sold_30d": 4
+    "sold_30d": 3
    },
    {
     "title": "Lumara Talia Table Lamp \u2014 Mixed Glaze Ceramic",
@@ -677,7 +677,7 @@
     "status": "ACTIVE",
     "tracked": true,
     "available": false,
-    "sold_30d": 4
+    "sold_30d": 3
    },
    {
     "title": "Lumara Talia Table Lamp \u2014 Mixed Glaze Ceramic",

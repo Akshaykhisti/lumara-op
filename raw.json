@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-07-28T13:18:07Z",
+ "generated_at_utc": "2026-07-28T15:39:13Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-07-28T13:18:07Z"
+   "fetched_at": "2026-07-28T15:39:13Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-07-28T13:18:07Z"
+   "fetched_at": "2026-07-28T15:39:13Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-07-28T13:18:07Z"
+   "fetched_at": "2026-07-28T15:39:13Z"
   }
  },
  "orders": [
@@ -386,7 +386,7 @@
  ],
  "unfulfilled_paid": [],
  "customers_total": 48,
- "abandoned_checkouts_recent": 2,
+ "abandoned_checkouts_recent": 0,
  "inventory": [
   {
    "title": "Lumara Cayman Rattan Table Lamp \u2014 Coastal Natural Style",
@@ -1417,16 +1417,6 @@
  ],
  "ads_daily": [
   {
-   "date": "2026-07-14",
-   "spend": 73.23,
-   "impressions": 2430,
-   "clicks": 108,
-   "ctr": 4.44,
-   "cpc": 0.68,
-   "purchases": 1,
-   "purchase_value": 263.85
-  },
-  {
    "date": "2026-07-15",
    "spend": 75.07,
    "impressions": 2388,
@@ -1558,22 +1548,32 @@
   },
   {
    "date": "2026-07-28",
-   "spend": 35.43,
-   "impressions": 741,
+   "spend": 35.45,
+   "impressions": 742,
    "clicks": 21,
    "ctr": 2.83,
    "cpc": 1.69,
    "purchases": 0,
    "purchase_value": 0.0
+  },
+  {
+   "date": "2026-07-29",
+   "spend": 0.12,
+   "impressions": 5,
+   "clicks": 0,
+   "ctr": 0.0,
+   "cpc": 0.0,
+   "purchases": 0,
+   "purchase_value": 0.0
   }
  ],
  "ads_today": {
-  "date": "2026-07-28",
-  "spend": 35.43,
-  "impressions": 741,
-  "clicks": 21,
-  "ctr": 2.83,
-  "cpc": 1.69,
+  "date": "2026-07-29",
+  "spend": 0.12,
+  "impressions": 5,
+  "clicks": 0,
+  "ctr": 0.0,
+  "cpc": 0.0,
   "purchases": 0,
   "purchase_value": 0.0
  },
@@ -1582,12 +1582,12 @@
    "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
    "status": "PAUSED",
    "daily_budget": 45.0,
-   "spend": 1190.08,
-   "impressions": 42527,
-   "clicks": 1598,
+   "spend": 1189.42,
+   "impressions": 42515,
+   "clicks": 1597,
    "ctr": 3.76,
    "cpc": 0.74,
-   "roas": 2.6526,
+   "roas": 2.654,
    "purchases": 19,
    "purchase_value": 3156.76,
    "atc": 56,
@@ -1597,31 +1597,31 @@
    "name": "Lumara \u2014 Sales \u2014 Winners Broad CBO (Jul 2026)",
    "status": "ACTIVE",
    "daily_budget": 30.0,
-   "spend": 343.15,
-   "impressions": 9191,
-   "clicks": 479,
-   "ctr": 5.21,
-   "cpc": 0.72,
-   "roas": 0.9583,
+   "spend": 378.6,
+   "impressions": 9933,
+   "clicks": 500,
+   "ctr": 5.03,
+   "cpc": 0.76,
+   "roas": 0.8685,
    "purchases": 3,
    "purchase_value": 328.83,
-   "atc": 22,
-   "reach": 6534
+   "atc": 23,
+   "reach": 6859
   },
   {
    "name": "Lumara \u2014 Talia Lamp \u2014 Final Stock \u2014 FB (Jul 2026)",
    "status": "PAUSED",
    "daily_budget": 15.0,
-   "spend": 185.84,
-   "impressions": 5801,
-   "clicks": 201,
-   "ctr": 3.46,
+   "spend": 115.77,
+   "impressions": 3446,
+   "clicks": 126,
+   "ctr": 3.66,
    "cpc": 0.92,
    "roas": 0.0,
    "purchases": 0,
    "purchase_value": 0.0,
    "atc": 2,
-   "reach": 4456
+   "reach": 2734
   },
   {
    "name": "Lumara \u2014 Retargeting \u2014 AU \u2014 Website 30d (Jun 2026)",
