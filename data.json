@@ -3,39 +3,39 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-07-28T04:14:57Z",
-  "generated_at_local": "Tue 28 Jul 2026, 2:14pm AEST",
+  "generated_at_utc": "2026-07-28T06:45:43Z",
+  "generated_at_local": "Tue 28 Jul 2026, 4:45pm AEST",
   "today": "2026-07-28",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-07-28T04:14:57Z"
+    "fetched_at": "2026-07-28T06:45:43Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-07-28T04:14:57Z"
+    "fetched_at": "2026-07-28T06:45:43Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-07-28T04:14:57Z"
+    "fetched_at": "2026-07-28T06:45:43Z"
    }
   }
  },
  "alerts": [
   {
    "level": "critical",
-   "title": "No orders for 7 days",
-   "body": "Last order was #1032 on 21 Jul. Ads have spent $370 since the last attributed purchase."
-  },
-  {
-   "level": "critical",
-   "title": "$370 ad spend, 0 attributed purchases (7 days)",
+   "title": "$374 ad spend, 0 attributed purchases (7 days)",
    "body": "1 campaign(s) live at $30/day. Check pixel/tracking and landing pages before topping up budget."
   },
   {
    "level": "serious",
    "title": "2 product(s) sold in the last 30d are out of stock",
    "body": "Turtle Shell Planters (Set of 2), Lumara Talia Table Lamp \u2014 Mixed Glaze Ceramic. Still listed as active \u2014 they take traffic and convert nothing."
+  },
+  {
+   "level": "serious",
+   "title": "1 paid order(s) awaiting fulfilment",
+   "body": "#1033"
   },
   {
    "level": "warning",
@@ -50,32 +50,39 @@
  ],
  "sales": {
   "today": {
-   "orders": 0,
-   "revenue": 0.0,
-   "aov": 0.0
+   "orders": 1,
+   "revenue": 92.94,
+   "aov": 92.94
   },
   "d7": {
-   "orders": 0,
-   "revenue": 0.0,
-   "aov": 0.0
+   "orders": 1,
+   "revenue": 92.94,
+   "aov": 92.94
   },
   "d30": {
-   "orders": 23,
-   "revenue": 3534.34,
-   "aov": 153.67
+   "orders": 24,
+   "revenue": 3627.28,
+   "aov": 151.14
   },
   "prev7_revenue": 1138.06,
-  "wow_pct": -100.0,
-  "pending_fulfilment": 0,
-  "pending_orders": [],
+  "wow_pct": -91.8,
+  "pending_fulfilment": 1,
+  "pending_orders": [
+   {
+    "name": "#1033",
+    "createdAt": "2026-07-28T04:19:28Z",
+    "total": 92.94,
+    "customer": "Sharyn Howes"
+   }
+  ],
   "abandoned_checkouts": 2,
   "customers_total": 48,
-  "days_since_order": 7,
+  "days_since_order": 0,
   "last_order": {
-   "name": "#1032",
-   "when": "21 jul, 7:38pm",
-   "total": 112.94,
-   "customer": "Kim White"
+   "name": "#1033",
+   "when": "28 jul, 2:19pm",
+   "total": 92.94,
+   "customer": "Sharyn Howes"
   },
   "daily": [
    {
@@ -255,11 +262,20 @@
    {
     "date": "2026-07-28",
     "label": "28 Jul",
-    "orders": 0,
-    "revenue": 0.0
+    "orders": 1,
+    "revenue": 92.94
    }
   ],
   "recent": [
+   {
+    "name": "#1033",
+    "when": "28 jul, 2:19pm",
+    "total": 92.94,
+    "customer": "Sharyn Howes",
+    "fulfillment": "UNFULFILLED",
+    "financial": "PAID",
+    "items": "Lumara Urn Candle Holder Set of 3 \u2014 Ceramic Neutral"
+   },
    {
     "name": "#1032",
     "when": "21 jul, 7:38pm",
@@ -322,15 +338,6 @@
     "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Lumara Mediterranean Large Candle Holder \u2014 Tall Ceramic Taper, Lumara Mediterranean Statement Vase \u2014 Rustic White Ceramic, Lumara Mediterranean Med Candle Holder \u2014 Slender Ceramic Taper"
-   },
-   {
-    "name": "#1025",
-    "when": "18 jul, 8:22pm",
-    "total": 103.95,
-    "customer": "Amanda Johnson",
-    "fulfillment": "FULFILLED",
-    "financial": "PAID",
-    "items": "Talia Vase"
    }
   ],
   "top_sellers": [
@@ -362,25 +369,25 @@
  },
  "ads": {
   "today": {
-   "spend": 17.47,
+   "spend": 21.79,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 6,
-   "impressions": 313,
+   "clicks": 12,
+   "impressions": 403,
    "purchases": 0,
-   "cpc": 2.91,
-   "ctr": 1.92,
+   "cpc": 1.82,
+   "ctr": 2.98,
    "cpa": null
   },
   "d7": {
-   "spend": 369.93,
+   "spend": 374.25,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 360,
-   "impressions": 9600,
+   "clicks": 366,
+   "impressions": 9690,
    "purchases": 0,
-   "cpc": 1.03,
-   "ctr": 3.75,
+   "cpc": 1.02,
+   "ctr": 3.78,
    "cpa": null
   },
   "prev7": {
@@ -391,7 +398,7 @@
   "daily_budget_live": 30.0,
   "active_campaigns": 1,
   "dry_days": 7,
-  "dry_spend": 369.93,
+  "dry_spend": 374.25,
   "series": [
    {
     "date": "2026-07-15",
@@ -526,12 +533,12 @@
    {
     "date": "2026-07-28",
     "label": "28 Jul",
-    "spend": 17.47,
+    "spend": 21.79,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 6,
-    "ctr": 1.92,
-    "cpc": 2.91
+    "clicks": 12,
+    "ctr": 2.98,
+    "cpc": 1.82
    }
   ],
   "campaigns": [
@@ -650,7 +657,7 @@
   "watch": 2,
   "healthy": 39,
   "untracked": 56,
-  "stock_value": 52176.12,
+  "stock_value": 52096.13,
   "oos_list": [
    {
     "title": "Turtle Shell Planters (Set of 2)",

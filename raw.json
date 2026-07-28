@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-07-28T04:14:57Z",
+ "generated_at_utc": "2026-07-28T06:45:43Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,18 +9,32 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-07-28T04:14:57Z"
+   "fetched_at": "2026-07-28T06:45:43Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-07-28T04:14:57Z"
+   "fetched_at": "2026-07-28T06:45:43Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-07-28T04:14:57Z"
+   "fetched_at": "2026-07-28T06:45:43Z"
   }
  },
  "orders": [
+  {
+   "name": "#1033",
+   "createdAt": "2026-07-28T04:19:28Z",
+   "financial": "PAID",
+   "fulfillment": "UNFULFILLED",
+   "total": 92.94,
+   "customer": "Sharyn Howes",
+   "items": [
+    {
+     "title": "Lumara Urn Candle Holder Set of 3 \u2014 Ceramic Neutral",
+     "quantity": 1
+    }
+   ]
+  },
   {
    "name": "#1032",
    "createdAt": "2026-07-21T09:38:38Z",
@@ -370,7 +384,14 @@
    ]
   }
  ],
- "unfulfilled_paid": [],
+ "unfulfilled_paid": [
+  {
+   "name": "#1033",
+   "createdAt": "2026-07-28T04:19:28Z",
+   "total": 92.94,
+   "customer": "Sharyn Howes"
+  }
+ ],
  "customers_total": 48,
  "abandoned_checkouts_recent": 2,
  "inventory": [
@@ -422,7 +443,7 @@
   {
    "title": "Lumara Urn Candle Holder Set of 3 \u2014 Ceramic Neutral",
    "sku": "CP6016-1",
-   "qty": 10,
+   "qty": 9,
    "price": 79.99,
    "status": "ACTIVE",
    "tracked": true,
@@ -1544,22 +1565,22 @@
   },
   {
    "date": "2026-07-28",
-   "spend": 17.47,
-   "impressions": 313,
-   "clicks": 6,
-   "ctr": 1.92,
-   "cpc": 2.91,
+   "spend": 21.79,
+   "impressions": 403,
+   "clicks": 12,
+   "ctr": 2.98,
+   "cpc": 1.82,
    "purchases": 0,
    "purchase_value": 0.0
   }
  ],
  "ads_today": {
   "date": "2026-07-28",
-  "spend": 17.47,
-  "impressions": 313,
-  "clicks": 6,
-  "ctr": 1.92,
-  "cpc": 2.91,
+  "spend": 21.79,
+  "impressions": 403,
+  "clicks": 12,
+  "ctr": 2.98,
+  "cpc": 1.82,
   "purchases": 0,
   "purchase_value": 0.0
  },
