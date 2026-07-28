@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-07-28T01:02:17Z",
-  "generated_at_local": "Tue 28 Jul 2026, 11:02am AEST",
+  "generated_at_utc": "2026-07-28T04:14:57Z",
+  "generated_at_local": "Tue 28 Jul 2026, 2:14pm AEST",
   "today": "2026-07-28",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-07-28T01:02:17Z"
+    "fetched_at": "2026-07-28T04:14:57Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-07-28T01:02:17Z"
+    "fetched_at": "2026-07-28T04:14:57Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-07-28T01:02:17Z"
+    "fetched_at": "2026-07-28T04:14:57Z"
    }
   }
  },
@@ -25,11 +25,11 @@
   {
    "level": "critical",
    "title": "No orders for 7 days",
-   "body": "Last order was #1032 on 21 Jul. Ads have spent $364 since the last attributed purchase."
+   "body": "Last order was #1032 on 21 Jul. Ads have spent $370 since the last attributed purchase."
   },
   {
    "level": "critical",
-   "title": "$364 ad spend, 0 attributed purchases (7 days)",
+   "title": "$370 ad spend, 0 attributed purchases (7 days)",
    "body": "1 campaign(s) live at $30/day. Check pixel/tracking and landing pages before topping up budget."
   },
   {
@@ -362,24 +362,24 @@
  },
  "ads": {
   "today": {
-   "spend": 11.57,
+   "spend": 17.47,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 2,
-   "impressions": 205,
+   "clicks": 6,
+   "impressions": 313,
    "purchases": 0,
-   "cpc": 5.79,
-   "ctr": 0.98,
+   "cpc": 2.91,
+   "ctr": 1.92,
    "cpa": null
   },
   "d7": {
-   "spend": 364.03,
+   "spend": 369.93,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 356,
-   "impressions": 9492,
+   "clicks": 360,
+   "impressions": 9600,
    "purchases": 0,
-   "cpc": 1.02,
+   "cpc": 1.03,
    "ctr": 3.75,
    "cpa": null
   },
@@ -391,7 +391,7 @@
   "daily_budget_live": 30.0,
   "active_campaigns": 1,
   "dry_days": 7,
-  "dry_spend": 364.03,
+  "dry_spend": 369.93,
   "series": [
    {
     "date": "2026-07-15",
@@ -526,12 +526,12 @@
    {
     "date": "2026-07-28",
     "label": "28 Jul",
-    "spend": 11.57,
+    "spend": 17.47,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 2,
-    "ctr": 0.98,
-    "cpc": 5.79
+    "clicks": 6,
+    "ctr": 1.92,
+    "cpc": 2.91
    }
   ],
   "campaigns": [
