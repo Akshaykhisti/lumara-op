@@ -3,28 +3,28 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-07-28T09:26:34Z",
-  "generated_at_local": "Tue 28 Jul 2026, 7:26pm AEST",
+  "generated_at_utc": "2026-07-28T11:32:39Z",
+  "generated_at_local": "Tue 28 Jul 2026, 9:32pm AEST",
   "today": "2026-07-28",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-07-28T09:26:34Z"
+    "fetched_at": "2026-07-28T11:32:39Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-07-28T09:26:34Z"
+    "fetched_at": "2026-07-28T11:32:39Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-07-28T09:26:34Z"
+    "fetched_at": "2026-07-28T11:32:39Z"
    }
   }
  },
  "alerts": [
   {
    "level": "critical",
-   "title": "$380 ad spend, 0 attributed purchases (7 days)",
+   "title": "$384 ad spend, 0 attributed purchases (7 days)",
    "body": "1 campaign(s) live at $30/day. Check pixel/tracking and landing pages before topping up budget."
   },
   {
@@ -34,7 +34,7 @@
   },
   {
    "level": "warning",
-   "title": "56 active SKUs have inventory tracking off",
+   "title": "52 active SKUs have inventory tracking off",
    "body": "Shopify isn't counting units for these, so their stock numbers mean nothing and they can't trigger a low-stock warning. Turn tracking on for anything you actually hold."
   },
   {
@@ -357,25 +357,25 @@
  },
  "ads": {
   "today": {
-   "spend": 27.33,
+   "spend": 31.92,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 17,
-   "impressions": 544,
+   "clicks": 18,
+   "impressions": 681,
    "purchases": 0,
-   "cpc": 1.61,
-   "ctr": 3.12,
+   "cpc": 1.77,
+   "ctr": 2.64,
    "cpa": null
   },
   "d7": {
-   "spend": 379.79,
+   "spend": 384.38,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 371,
-   "impressions": 9831,
+   "clicks": 372,
+   "impressions": 9968,
    "purchases": 0,
-   "cpc": 1.02,
-   "ctr": 3.77,
+   "cpc": 1.03,
+   "ctr": 3.73,
    "cpa": null
   },
   "prev7": {
@@ -386,7 +386,7 @@
   "daily_budget_live": 30.0,
   "active_campaigns": 1,
   "dry_days": 7,
-  "dry_spend": 379.79,
+  "dry_spend": 384.38,
   "series": [
    {
     "date": "2026-07-15",
@@ -521,12 +521,12 @@
    {
     "date": "2026-07-28",
     "label": "28 Jul",
-    "spend": 27.33,
+    "spend": 31.92,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 17,
-    "ctr": 3.12,
-    "cpc": 1.61
+    "clicks": 18,
+    "ctr": 2.64,
+    "cpc": 1.77
    }
   ],
   "campaigns": [
@@ -638,14 +638,14 @@
   ]
  },
  "stock": {
-  "sellable_skus": 102,
-  "tracked_skus": 46,
+  "sellable_skus": 103,
+  "tracked_skus": 51,
   "out_of_stock": 2,
   "low": 3,
   "watch": 2,
-  "healthy": 39,
-  "untracked": 56,
-  "stock_value": 52096.13,
+  "healthy": 44,
+  "untracked": 52,
+  "stock_value": 65395.63,
   "oos_list": [
    {
     "title": "Turtle Shell Planters (Set of 2)",
@@ -748,42 +748,6 @@
    }
   ],
   "untracked_list": [
-   {
-    "title": "Lumara Riviera XL Table Lamp \u2014 Coastal Glass Statement",
-    "sku": "Y8215-1",
-    "qty": 0,
-    "price": 499.0,
-    "status": "ACTIVE",
-    "tracked": false,
-    "available": true
-   },
-   {
-    "title": "Lumara Hamptons XL Table Lamp \u2014 Classic Coastal Statement",
-    "sku": "Y8236-1",
-    "qty": 0,
-    "price": 499.0,
-    "status": "ACTIVE",
-    "tracked": false,
-    "available": true
-   },
-   {
-    "title": "Lumara Chike Table Lamp \u2014 Sculptural Ceramic Statement",
-    "sku": "YR7399-1",
-    "qty": 0,
-    "price": 499.0,
-    "status": "ACTIVE",
-    "tracked": false,
-    "available": true
-   },
-   {
-    "title": "Lumara Fossil Table Lamp \u2014 Organic Textured Ceramic",
-    "sku": "YE6125-1",
-    "qty": 0,
-    "price": 375.0,
-    "status": "ACTIVE",
-    "tracked": false,
-    "available": true
-   },
    {
     "title": "Lumara Pineapple Table Lamp \u2014 Reactive Glaze Ceramic",
     "sku": "YE6102-1",
@@ -924,6 +888,42 @@
     "sku": "LD9306-4-X3",
     "qty": 0,
     "price": 82.99,
+    "status": "ACTIVE",
+    "tracked": false,
+    "available": true
+   },
+   {
+    "title": "Lumara Malabar Vase \u2014 Ribbed Cobalt Ceramic",
+    "sku": "YE6213-1",
+    "qty": 10,
+    "price": 69.99,
+    "status": "ACTIVE",
+    "tracked": false,
+    "available": true
+   },
+   {
+    "title": "Lumara Banksia Stem \u2014 Amber Faux Native",
+    "sku": "JI2044-4-X2",
+    "qty": 0,
+    "price": 68.99,
+    "status": "ACTIVE",
+    "tracked": false,
+    "available": true
+   },
+   {
+    "title": "Lumara Magnolia Stem \u2014 Real Touch Faux Bloom",
+    "sku": "LD9306-4-X2",
+    "qty": 0,
+    "price": 66.99,
+    "status": "ACTIVE",
+    "tracked": false,
+    "available": true
+   },
+   {
+    "title": "Lumara Kangaroo Paw Stem \u2014 Faux Native Bloom",
+    "sku": "JI2043-4-X3",
+    "qty": 0,
+    "price": 64.99,
     "status": "ACTIVE",
     "tracked": false,
     "available": true
