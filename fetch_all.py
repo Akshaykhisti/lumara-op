@@ -367,7 +367,16 @@ def main():
     failed = []
     for name, fn, keys in plan:
         try:
-            raw.update(fn())
+            try:
+                raw.update(fn())
+            except Exception as e:                                # noqa: BLE001
+                # One retry after a pause: Meta in particular throws transient
+                # "API access blocked" (OAuthException 200) at datacenter IPs
+                # like GitHub's runners — it usually clears on the next attempt.
+                print(f"{name}: first attempt failed ({str(e)[:120]}) — "
+                      "retrying in 45s", file=sys.stderr)
+                time.sleep(45)
+                raw.update(fn())
             raw["sources"][name] = {"ok": True, "fetched_at": now}
             print(f"{name}: ok")
         except Exception as e:                                    # noqa: BLE001
