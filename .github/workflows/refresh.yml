@@ -1,24 +1,37 @@
 name: Refresh dashboard
 
+# GitHub's cron scheduler is best-effort and, in practice, badly throttled:
+# with a 20-minute cron this repo saw real gaps of 1.5-3.5 HOURS between
+# firings. So instead of trusting the scheduler for cadence, each run is a
+# long-lived loop that refreshes every 20 minutes for up to ~5.5 hours. The
+# cron only has to fire once per ~5.5h window to keep coverage continuous —
+# even its worst observed drought (3.5h) clears that bar easily.
+#
+# cancel-in-progress: a newly fired run replaces the old loop, so a fresh
+# cron tick or a code push always starts fetching immediately with the
+# latest code instead of queueing behind a stale loop.
+
 on:
   schedule:
-    # GitHub's scheduler is best-effort: runs are frequently delayed and slots
-    # are silently dropped under load. Firing every 20 min means a couple of
-    # skipped slots still leaves the data roughly hourly-fresh. Runs are ~15s
-    # and commit nothing when the data is unchanged, so this is close to free.
     - cron: '7,27,47 * * * *'
-  workflow_dispatch:           # lets you run it on demand from the Actions tab
+  workflow_dispatch:           # run it on demand from the Actions tab
+  push:
+    paths:
+      - 'fetch_all.py'
+      - 'build_data.py'
+      - '.github/workflows/refresh.yml'
 
 permissions:
   contents: write
 
 concurrency:
   group: refresh
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 350
     steps:
       - uses: actions/checkout@v4
 
@@ -26,7 +39,7 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Pull Shopify / Meta / Klaviyo
+      - name: Refresh loop (every 20 min for ~5.5h)
         env:
           SHOPIFY_STORE:         ${{ secrets.SHOPIFY_STORE }}
           SHOPIFY_CLIENT_ID:     ${{ secrets.SHOPIFY_CLIENT_ID }}
@@ -34,19 +47,25 @@ jobs:
           META_TOKEN:            ${{ secrets.META_TOKEN }}
           META_AD_ACCOUNT:       ${{ secrets.META_AD_ACCOUNT }}
           KLAVIYO_KEY:           ${{ secrets.KLAVIYO_KEY }}
-        run: python3 fetch_all.py
-
-      - name: Build data.json
-        run: python3 build_data.py
-
-      - name: Commit if changed
         run: |
           git config user.name  "lumara-ops-bot"
           git config user.email "actions@github.com"
-          git add raw.json data.json
-          if git diff --cached --quiet; then
-            echo "no change"
-          else
-            git commit -m "refresh $(date -u +%Y-%m-%dT%H:%M:%SZ)"
-            git push
-          fi
+          end=$(( SECONDS + 330*60 ))
+          while true; do
+            if python3 fetch_all.py && python3 build_data.py; then
+              git add raw.json data.json
+              if git diff --cached --quiet; then
+                echo "$(date -u +%H:%M) no change"
+              else
+                git commit -m "refresh $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+                # data commits use GITHUB_TOKEN, which never re-triggers the
+                # push event above — no loop-of-loops.
+                git pull --rebase origin main || true
+                git push || echo "push failed; will retry next cycle"
+              fi
+            else
+              echo "fetch/build failed; retrying next cycle" >&2
+            fi
+            [ $SECONDS -ge $end ] && break
+            sleep 1200
+          done
