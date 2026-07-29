@@ -3,35 +3,35 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-07-29T04:36:32Z",
-  "generated_at_local": "Wed 29 Jul 2026, 2:36pm AEST",
+  "generated_at_utc": "2026-07-29T06:33:56Z",
+  "generated_at_local": "Wed 29 Jul 2026, 4:33pm AEST",
   "today": "2026-07-29",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-07-29T04:36:32Z"
+    "fetched_at": "2026-07-29T06:33:56Z"
    },
    "meta": {
     "ok": false,
-    "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AT-fZ6ynvHAQjjSyHCwY0fL\"}}",
+    "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AqER8ghIfXtr6QYPmDzdXeN\"}}",
     "fetched_at": "2026-07-29T01:07:22Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-07-29T04:36:32Z"
+    "fetched_at": "2026-07-29T06:33:56Z"
    }
   }
  },
  "alerts": [
   {
-   "level": "critical",
-   "title": "$400 ad spend, 0 attributed purchases (8 days)",
-   "body": "1 campaign(s) live at $30/day. Check pixel/tracking and landing pages before topping up budget."
+   "level": "serious",
+   "title": "Meta Ads didn't refresh",
+   "body": "Those panels show the last figures that came through, not current ones. Meta Ads data is from 5h ago. Everything else on this page is up to date."
   },
   {
    "level": "serious",
-   "title": "Meta Ads didn't refresh",
-   "body": "Those panels are showing the last figures that came through, not current ones. Everything else on this page is up to date."
+   "title": "$400 ad spend, 0 Meta-attributed purchases (8 days)",
+   "body": "The store DID take 2 order(s) worth $187 in that window \u2014 Meta just isn't claiming any of them. Either they're organic/direct sales, or the pixel is missing purchases. Worth checking Events Manager before reading this as zero conversion."
   },
   {
    "level": "serious",
