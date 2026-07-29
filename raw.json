@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-07-29T01:07:22Z",
+ "generated_at_utc": "2026-07-29T04:36:32Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,18 +9,33 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-07-29T01:07:22Z"
+   "fetched_at": "2026-07-29T04:36:32Z"
   },
   "meta": {
-   "ok": true,
+   "ok": false,
+   "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AT-fZ6ynvHAQjjSyHCwY0fL\"}}",
    "fetched_at": "2026-07-29T01:07:22Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-07-29T01:07:22Z"
+   "fetched_at": "2026-07-29T04:36:32Z"
   }
  },
  "orders": [
+  {
+   "name": "#1034",
+   "createdAt": "2026-07-29T02:59:30Z",
+   "financial": "PAID",
+   "fulfillment": "FULFILLED",
+   "total": 93.95,
+   "customer": "Trina Donkin",
+   "items": [
+    {
+     "title": "Talia Vase",
+     "quantity": 1
+    }
+   ]
+  },
   {
    "name": "#1033",
    "createdAt": "2026-07-28T04:19:28Z",
@@ -385,7 +400,7 @@
   }
  ],
  "unfulfilled_paid": [],
- "customers_total": 48,
+ "customers_total": 49,
  "abandoned_checkouts_recent": 0,
  "inventory": [
   {
@@ -877,7 +892,7 @@
   {
    "title": "Talia Vase",
    "sku": "\u2014",
-   "qty": 8,
+   "qty": 7,
    "price": 89.99,
    "status": "ACTIVE",
    "tracked": true,
