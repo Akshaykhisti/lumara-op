@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-07-29T13:27:31Z",
+ "generated_at_utc": "2026-07-29T13:48:19Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,16 +9,16 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-07-29T13:27:31Z"
+   "fetched_at": "2026-07-29T13:48:19Z"
   },
   "meta": {
    "ok": false,
-   "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AOfswtYGQlYIH41ay7jLJmf\"}}",
+   "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"Asvw5yx28SkadrZvicRbEP1\"}}",
    "fetched_at": "2026-07-29T01:07:22Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-07-29T13:27:31Z"
+   "fetched_at": "2026-07-29T13:48:19Z"
   }
  },
  "orders": [
@@ -1425,6 +1425,222 @@
    "sku": "JL6204-1",
    "qty": 10,
    "price": 89.99,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Sunflower Bird Feeder \u2014 Cast Iron",
+   "sku": "UL4106-1",
+   "qty": 10,
+   "price": 39.95,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Scallop Hanging Bird Feeder \u2014 Cast Iron",
+   "sku": "UL4107-1",
+   "qty": 10,
+   "price": 54.95,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Frog Mates Bird Feeder \u2014 Cast Iron",
+   "sku": "UL4061-2",
+   "qty": 10,
+   "price": 64.95,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Songbird Bath & Feeder \u2014 Antique Bronze",
+   "sku": "U2356-3",
+   "qty": 10,
+   "price": 59.95,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Snail Garden Water Bowl \u2014 Medium",
+   "sku": "CM6021-1",
+   "qty": 10,
+   "price": 39.95,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Snail Garden Water Bowl \u2014 Large",
+   "sku": "CM6022-1",
+   "qty": 10,
+   "price": 46.95,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Frog Lily Water Bowl",
+   "sku": "CM6023-1",
+   "qty": 10,
+   "price": 31.95,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Turtle Tap Water Bowl",
+   "sku": "CM6025-1",
+   "qty": 10,
+   "price": 39.95,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Embossed Flower Bird Bath \u2014 Small",
+   "sku": "CM6027-1",
+   "qty": 10,
+   "price": 29.95,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Seaside Bird Bath \u2014 Coastal",
+   "sku": "CM6030-1",
+   "qty": 10,
+   "price": 44.95,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Two Birds Leaf Bird Bath",
+   "sku": "CM6034-1",
+   "qty": 10,
+   "price": 41.95,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Perched Birds Feeder Bowl \u2014 Styles Vary",
+   "sku": "CP6307-6",
+   "qty": 10,
+   "price": 36.95,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Rust Bee Wall Art \u2014 XL",
+   "sku": "TY8014-6",
+   "qty": 10,
+   "price": 24.95,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Bee Honeycomb Wall Art",
+   "sku": "TY8015-3",
+   "qty": 10,
+   "price": 54.95,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Round Bee Honeycomb Wall Art",
+   "sku": "TY8016-2",
+   "qty": 10,
+   "price": 99.95,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Bee Planters \u2014 Set of 2",
+   "sku": "TY8105-2",
+   "qty": 10,
+   "price": 59.95,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Bee Cloche Set of 2 \u2014 Washed Silver",
+   "sku": "TY8107-2",
+   "qty": 10,
+   "price": 169.95,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Echidna Garden Statue",
+   "sku": "TY8027-2",
+   "qty": 10,
+   "price": 89.95,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Rust Hen Garden Statue \u2014 Large",
+   "sku": "TY8000-2",
+   "qty": 10,
+   "price": 84.95,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Goose Garden Statue \u2014 Large",
+   "sku": "TY8008-2",
+   "qty": 10,
+   "price": 69.95,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Wren Post Garden Wall Art",
+   "sku": "TY8010-4",
+   "qty": 10,
+   "price": 29.95,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Dachshund Garden Stake",
+   "sku": "TY8004-4",
+   "qty": 10,
+   "price": 34.95,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Welcome Farm Sign",
+   "sku": "TY8012-2",
+   "qty": 10,
+   "price": 69.95,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Home Sweet Home Tractor Sign",
+   "sku": "TY8013-2",
+   "qty": 10,
+   "price": 69.95,
    "status": "ACTIVE",
    "tracked": true,
    "available": true
