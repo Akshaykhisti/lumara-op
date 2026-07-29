@@ -120,13 +120,24 @@ ads_series = [{"date": a["date"],
               for a in sorted(ads, key=lambda a: a["date"])][-14:]
 
 # consecutive trailing days of spend with zero attributed purchases
-dry_spend, dry_days = 0.0, 0
+dry_spend, dry_days, dry_start = 0.0, 0, None
 for a in reversed(ads_series):
     if a["purchases"] == 0 and a["spend"] > 0:
         dry_spend += a["spend"]
         dry_days += 1
+        dry_start = a["date"]
     elif a["purchases"] > 0:
         break
+
+# The store's own orders inside that same window. Meta attributing zero
+# purchases while Shopify takes orders is an attribution/pixel story, not a
+# "conversion is broken" story — the alert has to distinguish the two or it
+# reads as wrong the moment an organic order lands.
+orders_in_dry, orders_in_dry_rev = [], 0.0
+if dry_start:
+    _dry_d = datetime.fromisoformat(dry_start).date()
+    orders_in_dry = [o for o in live if o["date"] >= _dry_d]
+    orders_in_dry_rev = money(sum(o["total"] for o in orders_in_dry))
 
 active_campaigns = [c for c in raw["ads_campaigns"] if c["status"] == "ACTIVE"]
 daily_budget_live = money(sum(c["daily_budget"] or 0 for c in active_campaigns))
@@ -184,12 +195,25 @@ if days_since_order is not None and days_since_order >= 2:
                 f"Ads have spent ${dry_spend:,.0f} since the last attributed purchase.",
     })
 if dry_days >= 3 and dry_spend > 0:
-    alerts.append({
-        "level": "critical",
-        "title": f"${dry_spend:,.0f} ad spend, 0 attributed purchases ({dry_days} days)",
-        "body": f"{len(active_campaigns)} campaign(s) live at ${daily_budget_live:,.0f}/day. "
-                "Check pixel/tracking and landing pages before topping up budget.",
-    })
+    if orders_in_dry:
+        alerts.append({
+            "level": "serious",
+            "title": f"${dry_spend:,.0f} ad spend, 0 Meta-attributed purchases "
+                     f"({dry_days} days)",
+            "body": f"The store DID take {len(orders_in_dry)} order(s) worth "
+                    f"${orders_in_dry_rev:,.0f} in that window — Meta just isn't "
+                    "claiming any of them. Either they're organic/direct sales, or "
+                    "the pixel is missing purchases. Worth checking Events Manager "
+                    "before reading this as zero conversion.",
+        })
+    else:
+        alerts.append({
+            "level": "critical",
+            "title": f"${dry_spend:,.0f} ad spend, 0 purchases ({dry_days} days)",
+            "body": f"No store orders in that window either. {len(active_campaigns)} "
+                    f"campaign(s) live at ${daily_budget_live:,.0f}/day. Check "
+                    "pixel/tracking and landing pages before topping up budget.",
+        })
 if oos_sellers:
     names = ", ".join(p["title"] for p in oos_sellers[:3])
     alerts.append({
@@ -220,15 +244,26 @@ if raw["unfulfilled_paid"]:
     })
 
 LABEL = {"shopify": "Shopify", "meta": "Meta Ads", "klaviyo": "Klaviyo"}
-broken = [LABEL.get(k, k) for k, v in (raw.get("sources") or {}).items() if not v.get("ok")]
+broken = {k: v for k, v in (raw.get("sources") or {}).items() if not v.get("ok")}
 if broken:
-    names = broken[0] if len(broken) == 1 else \
-        " and ".join([", ".join(broken[:-1]), broken[-1]])
+    names_l = [LABEL.get(k, k) for k in broken]
+    names = names_l[0] if len(names_l) == 1 else \
+        " and ".join([", ".join(names_l[:-1]), names_l[-1]])
+    ages = []
+    for k, v in broken.items():
+        try:
+            h = (now_utc - parse(v["fetched_at"])).total_seconds() / 3600
+            ages.append(f"{LABEL.get(k, k)} data is from {h:.0f}h ago"
+                        if h >= 2 else f"{LABEL.get(k, k)} data is under 2h old")
+        except Exception:                                         # noqa: BLE001
+            pass
+    age_note = (" " + "; ".join(ages) + ".") if ages else ""
     alerts.insert(0, {
         "level": "serious",
         "title": f"{names} didn't refresh",
-        "body": "Those panels are showing the last figures that came through, not "
-                "current ones. Everything else on this page is up to date.",
+        "body": "Those panels show the last figures that came through, not "
+                f"current ones.{age_note} Everything else on this page is up "
+                "to date.",
     })
 
 order = {"critical": 0, "serious": 1, "warning": 2, "good": 3}
