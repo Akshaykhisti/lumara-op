@@ -3,21 +3,22 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-07-30T02:41:05Z",
-  "generated_at_local": "Thu 30 Jul 2026, 12:41pm AEST",
+  "generated_at_utc": "2026-07-30T03:01:53Z",
+  "generated_at_local": "Thu 30 Jul 2026, 1:01pm AEST",
   "today": "2026-07-30",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-07-30T02:41:05Z"
+    "fetched_at": "2026-07-30T03:01:53Z"
    },
    "meta": {
     "ok": false,
-    "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AWJppjHzfXnE-Or_72UxjJ0\"}}",
+    "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"ATYivtXPfpesODn8ovsOQQf\"}}",
     "fetched_at": "2026-07-29T01:07:22Z"
    },
    "klaviyo": {
-    "ok": true,
+    "ok": false,
+    "error": "HTTP 503: {\"errors\":[{\"id\":\"d428d9a6-6165-4299-b7e0-54ec21ab2819\",\"code\":\"authentication_failed\",\"status\":503,\"source\":{\"pointer\":\"/data/\"},\"detail\":\"Klaviyo API is currently unavailable. Please revie",
     "fetched_at": "2026-07-30T02:41:05Z"
    }
   }
@@ -25,8 +26,8 @@
  "alerts": [
   {
    "level": "serious",
-   "title": "Meta Ads didn't refresh",
-   "body": "Those panels show the last figures that came through, not current ones. Meta Ads data is from 26h ago. Everything else on this page is up to date."
+   "title": "Meta Ads and Klaviyo didn't refresh",
+   "body": "Those panels show the last figures that came through, not current ones. Meta Ads data is from 26h ago; Klaviyo data is under 2h old. Everything else on this page is up to date."
   },
   {
    "level": "serious",
