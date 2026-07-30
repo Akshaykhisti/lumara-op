@@ -3,22 +3,22 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-07-30T04:19:47Z",
-  "generated_at_local": "Thu 30 Jul 2026, 2:19pm AEST",
+  "generated_at_utc": "2026-07-30T04:40:37Z",
+  "generated_at_local": "Thu 30 Jul 2026, 2:40pm AEST",
   "today": "2026-07-30",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-07-30T04:19:47Z"
+    "fetched_at": "2026-07-30T04:40:37Z"
    },
    "meta": {
     "ok": false,
-    "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AyV0BoL66jqu_BuatiPUvV1\"}}",
+    "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AS3HuZvDNb7NxQ1jfAiBSY6\"}}",
     "fetched_at": "2026-07-29T01:07:22Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-07-30T04:19:47Z"
+    "fetched_at": "2026-07-30T04:40:37Z"
    }
   }
  },
@@ -26,7 +26,7 @@
   {
    "level": "serious",
    "title": "Meta Ads didn't refresh",
-   "body": "Those panels show the last figures that came through, not current ones. Meta Ads data is from 27h ago. Everything else on this page is up to date."
+   "body": "Those panels show the last figures that came through, not current ones. Meta Ads data is from 28h ago. Everything else on this page is up to date."
   },
   {
    "level": "serious",
