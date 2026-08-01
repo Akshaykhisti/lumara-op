@@ -3,31 +3,26 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-01T21:13:04Z",
-  "generated_at_local": "Sun 2 Aug 2026, 7:13am AEST",
+  "generated_at_utc": "2026-08-01T21:33:52Z",
+  "generated_at_local": "Sun 2 Aug 2026, 7:33am AEST",
   "today": "2026-08-02",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-01T21:13:04Z"
+    "fetched_at": "2026-08-01T21:33:52Z"
    },
    "meta": {
     "ok": false,
-    "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"Az_csPsrbSTtpDbr1dtuPNr\"}}",
+    "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"Aw9xItvXUBcwI2NdHYqlOQH\"}}",
     "fetched_at": "2026-07-29T01:07:22Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-01T21:13:04Z"
+    "fetched_at": "2026-08-01T21:33:52Z"
    }
   }
  },
  "alerts": [
-  {
-   "level": "critical",
-   "title": "No orders for 4 days",
-   "body": "Last order was #1034 on 29 Jul. Ads have spent $400 since the last attributed purchase."
-  },
   {
    "level": "serious",
    "title": "Meta Ads didn't refresh",
@@ -36,12 +31,17 @@
   {
    "level": "serious",
    "title": "$400 ad spend, 0 Meta-attributed purchases (8 days)",
-   "body": "The store DID take 2 order(s) worth $187 in that window \u2014 Meta just isn't claiming any of them. Either they're organic/direct sales, or the pixel is missing purchases. Worth checking Events Manager before reading this as zero conversion."
+   "body": "The store DID take 3 order(s) worth $290 in that window \u2014 Meta just isn't claiming any of them. Either they're organic/direct sales, or the pixel is missing purchases. Worth checking Events Manager before reading this as zero conversion."
   },
   {
    "level": "serious",
    "title": "2 product(s) sold in the last 30d are out of stock",
    "body": "Turtle Shell Planters (Set of 2), Lumara Talia Table Lamp \u2014 Mixed Glaze Ceramic. Still listed as active \u2014 they take traffic and convert nothing."
+  },
+  {
+   "level": "serious",
+   "title": "1 paid order(s) awaiting fulfilment",
+   "body": "#1035"
   },
   {
    "level": "warning",
@@ -51,37 +51,44 @@
   {
    "level": "warning",
    "title": "3 product(s) at 3 units or fewer",
-   "body": "Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral (1), Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass (1), Table Swag Olive Candelabra (3)"
+   "body": "Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral (1), Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass (1), Table Swag Olive Candelabra (2)"
   }
  ],
  "sales": {
   "today": {
-   "orders": 0,
-   "revenue": 0.0,
-   "aov": 0.0
+   "orders": 1,
+   "revenue": 102.94,
+   "aov": 102.94
   },
   "d7": {
-   "orders": 2,
-   "revenue": 186.89,
-   "aov": 93.44
+   "orders": 3,
+   "revenue": 289.83,
+   "aov": 96.61
   },
   "d30": {
-   "orders": 23,
-   "revenue": 3390.34,
-   "aov": 147.41
+   "orders": 24,
+   "revenue": 3493.28,
+   "aov": 145.55
   },
   "prev7_revenue": 597.29,
-  "wow_pct": -68.7,
-  "pending_fulfilment": 0,
-  "pending_orders": [],
+  "wow_pct": -51.5,
+  "pending_fulfilment": 1,
+  "pending_orders": [
+   {
+    "name": "#1035",
+    "createdAt": "2026-08-01T21:27:58Z",
+    "total": 102.94,
+    "customer": "Joanne Binns"
+   }
+  ],
   "abandoned_checkouts": 0,
-  "customers_total": 51,
-  "days_since_order": 4,
+  "customers_total": 52,
+  "days_since_order": 0,
   "last_order": {
-   "name": "#1034",
-   "when": "29 jul, 12:59pm",
-   "total": 93.95,
-   "customer": "Trina Donkin"
+   "name": "#1035",
+   "when": "2 aug, 7:27am",
+   "total": 102.94,
+   "customer": "Joanne Binns"
   },
   "daily": [
    {
@@ -261,11 +268,20 @@
    {
     "date": "2026-08-02",
     "label": "2 Aug",
-    "orders": 0,
-    "revenue": 0.0
+    "orders": 1,
+    "revenue": 102.94
    }
   ],
   "recent": [
+   {
+    "name": "#1035",
+    "when": "2 aug, 7:27am",
+    "total": 102.94,
+    "customer": "Joanne Binns",
+    "fulfillment": "UNFULFILLED",
+    "financial": "PAID",
+    "items": "Table Swag Olive Candelabra"
+   },
    {
     "name": "#1034",
     "when": "29 jul, 12:59pm",
@@ -328,15 +344,6 @@
     "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Talia Vase"
-   },
-   {
-    "name": "#1027",
-    "when": "19 jul, 8:33pm",
-    "total": 112.94,
-    "customer": "Penni Robinson",
-    "fulfillment": "FULFILLED",
-    "financial": "PAID",
-    "items": "Lumara Olive Mediterranean Candelabra \u2014 Sculptural Metal Centrepiece"
    }
   ],
   "top_sellers": [
@@ -656,7 +663,7 @@
   "watch": 2,
   "healthy": 68,
   "untracked": 52,
-  "stock_value": 79223.64,
+  "stock_value": 79133.65,
   "oos_list": [
    {
     "title": "Turtle Shell Planters (Set of 2)",
@@ -727,13 +734,13 @@
    {
     "title": "Table Swag Olive Candelabra",
     "sku": "QA5903-3",
-    "qty": 3,
+    "qty": 2,
     "price": 89.99,
     "status": "ACTIVE",
     "tracked": true,
     "available": true,
-    "sold_30d": 0,
-    "days_cover": null
+    "sold_30d": 1,
+    "days_cover": 60.0
    },
    {
     "title": "Lumara Alegra Statement Vase \u2014 Sculptural Metal",
