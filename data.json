@@ -3,22 +3,22 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-02T08:41:20Z",
-  "generated_at_local": "Sun 2 Aug 2026, 6:41pm AEST",
+  "generated_at_utc": "2026-08-02T09:02:09Z",
+  "generated_at_local": "Sun 2 Aug 2026, 7:02pm AEST",
   "today": "2026-08-02",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-02T08:41:20Z"
+    "fetched_at": "2026-08-02T09:02:09Z"
    },
    "meta": {
     "ok": false,
-    "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AZBeg_LZ2msYZjsTn1DpOWN\"}}",
+    "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"A-etGE8Ksso4lmZsr8cev7Z\"}}",
     "fetched_at": "2026-07-29T01:07:22Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-02T08:41:20Z"
+    "fetched_at": "2026-08-02T09:02:09Z"
    }
   }
  },
@@ -31,7 +31,7 @@
   {
    "level": "serious",
    "title": "$400 ad spend, 0 Meta-attributed purchases (8 days)",
-   "body": "The store DID take 3 order(s) worth $290 in that window \u2014 Meta just isn't claiming any of them. Either they're organic/direct sales, or the pixel is missing purchases. Worth checking Events Manager before reading this as zero conversion."
+   "body": "The store DID take 4 order(s) worth $515 in that window \u2014 Meta just isn't claiming any of them. Either they're organic/direct sales, or the pixel is missing purchases. Worth checking Events Manager before reading this as zero conversion."
   },
   {
    "level": "serious",
@@ -40,8 +40,8 @@
   },
   {
    "level": "serious",
-   "title": "1 paid order(s) awaiting fulfilment",
-   "body": "#1035"
+   "title": "2 paid order(s) awaiting fulfilment",
+   "body": "#1035, #1036"
   },
   {
    "level": "warning",
@@ -56,39 +56,45 @@
  ],
  "sales": {
   "today": {
-   "orders": 1,
-   "revenue": 102.94,
-   "aov": 102.94
+   "orders": 2,
+   "revenue": 327.94,
+   "aov": 163.97
   },
   "d7": {
-   "orders": 3,
-   "revenue": 289.83,
-   "aov": 96.61
+   "orders": 4,
+   "revenue": 514.83,
+   "aov": 128.71
   },
   "d30": {
-   "orders": 24,
-   "revenue": 3493.28,
-   "aov": 145.55
+   "orders": 25,
+   "revenue": 3718.28,
+   "aov": 148.73
   },
   "prev7_revenue": 597.29,
-  "wow_pct": -51.5,
-  "pending_fulfilment": 1,
+  "wow_pct": -13.8,
+  "pending_fulfilment": 2,
   "pending_orders": [
    {
     "name": "#1035",
     "createdAt": "2026-08-01T21:27:58Z",
     "total": 102.94,
     "customer": "Joanne Binns"
+   },
+   {
+    "name": "#1036",
+    "createdAt": "2026-08-02T08:46:49Z",
+    "total": 225.0,
+    "customer": "Dianne Partridge"
    }
   ],
   "abandoned_checkouts": 0,
-  "customers_total": 53,
+  "customers_total": 54,
   "days_since_order": 0,
   "last_order": {
-   "name": "#1035",
-   "when": "2 aug, 7:27am",
-   "total": 102.94,
-   "customer": "Joanne Binns"
+   "name": "#1036",
+   "when": "2 aug, 6:46pm",
+   "total": 225.0,
+   "customer": "Dianne Partridge"
   },
   "daily": [
    {
@@ -268,11 +274,20 @@
    {
     "date": "2026-08-02",
     "label": "2 Aug",
-    "orders": 1,
-    "revenue": 102.94
+    "orders": 2,
+    "revenue": 327.94
    }
   ],
   "recent": [
+   {
+    "name": "#1036",
+    "when": "2 aug, 6:46pm",
+    "total": 225.0,
+    "customer": "Dianne Partridge",
+    "fulfillment": "UNFULFILLED",
+    "financial": "PAID",
+    "items": "Lumara Giana Natural Table Lamp \u2014 Earthy Organic Style"
+   },
    {
     "name": "#1035",
     "when": "2 aug, 7:27am",
@@ -335,15 +350,6 @@
     "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Lumara Olive Mediterranean Candelabra \u2014 Sculptural Metal Centrepiece"
-   },
-   {
-    "name": "#1028",
-    "when": "20 jul, 10:33am",
-    "total": 93.95,
-    "customer": "Amanda Mckean",
-    "fulfillment": "FULFILLED",
-    "financial": "PAID",
-    "items": "Talia Vase"
    }
   ],
   "top_sellers": [
@@ -364,11 +370,11 @@
     "units": 3
    },
    {
-    "title": "Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass",
+    "title": "Lumara Giana Natural Table Lamp \u2014 Earthy Organic Style",
     "units": 2
    },
    {
-    "title": "Lumara Talia Table Lamp \u2014 Mixed Glaze Ceramic",
+    "title": "Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass",
     "units": 2
    }
   ]
@@ -663,7 +669,7 @@
   "watch": 2,
   "healthy": 68,
   "untracked": 52,
-  "stock_value": 79133.65,
+  "stock_value": 78883.66,
   "oos_list": [
    {
     "title": "Turtle Shell Planters (Set of 2)",
