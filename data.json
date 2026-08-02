@@ -3,22 +3,22 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-02T12:48:35Z",
-  "generated_at_local": "Sun 2 Aug 2026, 10:48pm AEST",
+  "generated_at_utc": "2026-08-02T13:09:24Z",
+  "generated_at_local": "Sun 2 Aug 2026, 11:09pm AEST",
   "today": "2026-08-02",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-02T12:48:35Z"
+    "fetched_at": "2026-08-02T13:09:24Z"
    },
    "meta": {
     "ok": false,
-    "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AYNEjXx6ZMXIk7qP0C4WkMP\"}}",
+    "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AwevlYEfdx48qccHX9oBU7A\"}}",
     "fetched_at": "2026-07-29T01:07:22Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-02T12:48:35Z"
+    "fetched_at": "2026-08-02T13:09:24Z"
    }
   }
  },
@@ -40,8 +40,8 @@
   },
   {
    "level": "serious",
-   "title": "2 paid order(s) awaiting fulfilment",
-   "body": "#1035, #1036"
+   "title": "1 paid order(s) awaiting fulfilment",
+   "body": "#1035"
   },
   {
    "level": "warning",
@@ -72,19 +72,13 @@
   },
   "prev7_revenue": 597.29,
   "wow_pct": -13.8,
-  "pending_fulfilment": 2,
+  "pending_fulfilment": 1,
   "pending_orders": [
    {
     "name": "#1035",
     "createdAt": "2026-08-01T21:27:58Z",
     "total": 102.94,
     "customer": "Joanne Binns"
-   },
-   {
-    "name": "#1036",
-    "createdAt": "2026-08-02T08:46:49Z",
-    "total": 225.0,
-    "customer": "Dianne Partridge"
    }
   ],
   "abandoned_checkouts": 0,
@@ -284,7 +278,7 @@
     "when": "2 aug, 6:46pm",
     "total": 225.0,
     "customer": "Dianne Partridge",
-    "fulfillment": "UNFULFILLED",
+    "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Lumara Giana Natural Table Lamp \u2014 Earthy Organic Style"
    },

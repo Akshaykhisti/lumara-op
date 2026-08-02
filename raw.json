@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-08-02T12:48:35Z",
+ "generated_at_utc": "2026-08-02T13:09:24Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,16 +9,16 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-08-02T12:48:35Z"
+   "fetched_at": "2026-08-02T13:09:24Z"
   },
   "meta": {
    "ok": false,
-   "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AYNEjXx6ZMXIk7qP0C4WkMP\"}}",
+   "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AwevlYEfdx48qccHX9oBU7A\"}}",
    "fetched_at": "2026-07-29T01:07:22Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-08-02T12:48:35Z"
+   "fetched_at": "2026-08-02T13:09:24Z"
   }
  },
  "orders": [
@@ -26,7 +26,7 @@
    "name": "#1036",
    "createdAt": "2026-08-02T08:46:49Z",
    "financial": "PAID",
-   "fulfillment": "UNFULFILLED",
+   "fulfillment": "FULFILLED",
    "total": 225.0,
    "customer": "Dianne Partridge",
    "items": [
@@ -419,12 +419,6 @@
    "createdAt": "2026-08-01T21:27:58Z",
    "total": 102.94,
    "customer": "Joanne Binns"
-  },
-  {
-   "name": "#1036",
-   "createdAt": "2026-08-02T08:46:49Z",
-   "total": 225.0,
-   "customer": "Dianne Partridge"
   }
  ],
  "customers_total": 54,
