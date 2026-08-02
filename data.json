@@ -3,22 +3,22 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-02T13:48:07Z",
-  "generated_at_local": "Sun 2 Aug 2026, 11:48pm AEST",
-  "today": "2026-08-02",
+  "generated_at_utc": "2026-08-02T14:08:56Z",
+  "generated_at_local": "Mon 3 Aug 2026, 12:08am AEST",
+  "today": "2026-08-03",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-02T13:48:07Z"
+    "fetched_at": "2026-08-02T14:08:56Z"
    },
    "meta": {
     "ok": false,
-    "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AiPfsfhfPUN6DOpNKa6UQ2g\"}}",
+    "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"ACpZ-uH7Z8PTw487JdyV7r9\"}}",
     "fetched_at": "2026-07-29T01:07:22Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-02T13:48:07Z"
+    "fetched_at": "2026-08-02T14:08:56Z"
    }
   }
  },
@@ -56,9 +56,9 @@
  ],
  "sales": {
   "today": {
-   "orders": 2,
-   "revenue": 327.94,
-   "aov": 163.97
+   "orders": 0,
+   "revenue": 0.0,
+   "aov": 0.0
   },
   "d7": {
    "orders": 4,
@@ -70,8 +70,8 @@
    "revenue": 3718.28,
    "aov": 148.73
   },
-  "prev7_revenue": 597.29,
-  "wow_pct": -13.8,
+  "prev7_revenue": 400.39,
+  "wow_pct": 28.6,
   "pending_fulfilment": 1,
   "pending_orders": [
    {
@@ -83,7 +83,7 @@
   ],
   "abandoned_checkouts": 0,
   "customers_total": 54,
-  "days_since_order": 0,
+  "days_since_order": 1,
   "last_order": {
    "name": "#1036",
    "when": "2 aug, 6:46pm",
@@ -91,12 +91,6 @@
    "customer": "Dianne Partridge"
   },
   "daily": [
-   {
-    "date": "2026-07-04",
-    "label": "4 Jul",
-    "orders": 0,
-    "revenue": 0.0
-   },
    {
     "date": "2026-07-05",
     "label": "5 Jul",
@@ -270,6 +264,12 @@
     "label": "2 Aug",
     "orders": 2,
     "revenue": 327.94
+   },
+   {
+    "date": "2026-08-03",
+    "label": "3 Aug",
+    "orders": 0,
+    "revenue": 0.0
    }
   ],
   "recent": [
@@ -386,20 +386,20 @@
    "cpa": null
   },
   "d7": {
-   "spend": 83.98,
+   "spend": 47.89,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 58,
-   "impressions": 1711,
+   "clicks": 34,
+   "impressions": 970,
    "purchases": 0,
-   "cpc": 1.45,
-   "ctr": 3.39,
+   "cpc": 1.41,
+   "ctr": 3.51,
    "cpa": null
   },
   "prev7": {
-   "spend": 468.4,
-   "value": 597.29,
-   "roas": 1.28
+   "spend": 432.75,
+   "value": 400.39,
+   "roas": 0.93
   },
   "daily_budget_live": 30.0,
   "active_campaigns": 1,
