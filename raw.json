@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-08-02T22:20:49Z",
+ "generated_at_utc": "2026-08-02T22:41:38Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,16 +9,16 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-08-02T22:20:49Z"
+   "fetched_at": "2026-08-02T22:41:38Z"
   },
   "meta": {
    "ok": false,
-   "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AiNlyRXCEY1IPt6Tq6O7Ecd\"}}",
+   "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AcehV6c2vmcAxbMzP17IDVb\"}}",
    "fetched_at": "2026-07-29T01:07:22Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-08-02T22:20:49Z"
+   "fetched_at": "2026-08-02T22:41:38Z"
   }
  },
  "orders": [
