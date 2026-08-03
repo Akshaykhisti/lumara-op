@@ -222,14 +222,9 @@ if oos_sellers:
         "body": names + ("…" if len(oos_sellers) > 3 else "")
                 + ". Still listed as active — they take traffic and convert nothing.",
     })
-if len(untracked) >= 5:
-    alerts.append({
-        "level": "warning",
-        "title": f"{len(untracked)} active SKUs have inventory tracking off",
-        "body": "Shopify isn't counting units for these, so their stock numbers "
-                "mean nothing and they can't trigger a low-stock warning. "
-                "Turn tracking on for anything you actually hold.",
-    })
+# NOTE: no alert for untracked SKUs — tracking-off is deliberate for the
+# LaVida just-in-time dropship items (Akshay's call, 3 Aug 2026). They still
+# get their own bucket in the stock panel, just not a standing warning.
 if low:
     alerts.append({
         "level": "warning",
