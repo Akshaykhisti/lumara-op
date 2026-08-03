@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-08-03T11:29:46Z",
+ "generated_at_utc": "2026-08-03T11:35:55Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,16 +9,16 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-08-03T11:29:46Z"
+   "fetched_at": "2026-08-03T11:35:55Z"
   },
   "meta": {
    "ok": false,
-   "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"A7ZdBcQ7XmXLZ0P1n0HYdyi\"}}",
+   "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"ATtGFPSfYk84oUGIRnUsFzh\"}}",
    "fetched_at": "2026-07-29T01:07:22Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-08-03T11:29:46Z"
+   "fetched_at": "2026-08-03T11:35:55Z"
   }
  },
  "orders": [
@@ -784,7 +784,7 @@
    "sku": "YE6211M-1",
    "qty": 0,
    "price": 159.99,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": true,
    "available": false
   },
@@ -892,7 +892,7 @@
    "sku": "QA5419-2",
    "qty": 0,
    "price": 179.99,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": true,
    "available": false
   },

@@ -3,22 +3,22 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-03T11:29:46Z",
-  "generated_at_local": "Mon 3 Aug 2026, 9:29pm AEST",
+  "generated_at_utc": "2026-08-03T11:35:55Z",
+  "generated_at_local": "Mon 3 Aug 2026, 9:35pm AEST",
   "today": "2026-08-03",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-03T11:29:46Z"
+    "fetched_at": "2026-08-03T11:35:55Z"
    },
    "meta": {
     "ok": false,
-    "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"A7ZdBcQ7XmXLZ0P1n0HYdyi\"}}",
+    "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"ATtGFPSfYk84oUGIRnUsFzh\"}}",
     "fetched_at": "2026-07-29T01:07:22Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-03T11:29:46Z"
+    "fetched_at": "2026-08-03T11:35:55Z"
    }
   }
  },
@@ -35,18 +35,8 @@
   },
   {
    "level": "serious",
-   "title": "2 product(s) sold in the last 30d are out of stock",
-   "body": "Turtle Shell Planters (Set of 2), Lumara Talia Table Lamp \u2014 Mixed Glaze Ceramic. Still listed as active \u2014 they take traffic and convert nothing."
-  },
-  {
-   "level": "serious",
    "title": "1 paid order(s) awaiting fulfilment",
    "body": "#1035"
-  },
-  {
-   "level": "warning",
-   "title": "52 active SKUs have inventory tracking off",
-   "body": "Shopify isn't counting units for these, so their stock numbers mean nothing and they can't trigger a low-stock warning. Turn tracking on for anything you actually hold."
   },
   {
    "level": "warning",
@@ -656,58 +646,16 @@
   ]
  },
  "stock": {
-  "sellable_skus": 127,
-  "tracked_skus": 75,
-  "out_of_stock": 2,
+  "sellable_skus": 125,
+  "tracked_skus": 73,
+  "out_of_stock": 0,
   "low": 3,
   "watch": 2,
   "healthy": 68,
   "untracked": 52,
   "stock_value": 78883.66,
-  "oos_list": [
-   {
-    "title": "Turtle Shell Planters (Set of 2)",
-    "sku": "QA5419-2",
-    "qty": 0,
-    "price": 179.99,
-    "status": "ACTIVE",
-    "tracked": true,
-    "available": false,
-    "sold_30d": 3
-   },
-   {
-    "title": "Lumara Talia Table Lamp \u2014 Mixed Glaze Ceramic",
-    "sku": "YE6211M-1",
-    "qty": 0,
-    "price": 159.99,
-    "status": "ACTIVE",
-    "tracked": true,
-    "available": false,
-    "sold_30d": 2
-   }
-  ],
-  "oos_sellers": [
-   {
-    "title": "Turtle Shell Planters (Set of 2)",
-    "sku": "QA5419-2",
-    "qty": 0,
-    "price": 179.99,
-    "status": "ACTIVE",
-    "tracked": true,
-    "available": false,
-    "sold_30d": 3
-   },
-   {
-    "title": "Lumara Talia Table Lamp \u2014 Mixed Glaze Ceramic",
-    "sku": "YE6211M-1",
-    "qty": 0,
-    "price": 159.99,
-    "status": "ACTIVE",
-    "tracked": true,
-    "available": false,
-    "sold_30d": 2
-   }
-  ],
+  "oos_list": [],
+  "oos_sellers": [],
   "low_list": [
    {
     "title": "Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral",
