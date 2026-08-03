@@ -3,22 +3,22 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-03T13:44:07Z",
-  "generated_at_local": "Mon 3 Aug 2026, 11:44pm AEST",
-  "today": "2026-08-03",
+  "generated_at_utc": "2026-08-03T14:04:56Z",
+  "generated_at_local": "Tue 4 Aug 2026, 12:04am AEST",
+  "today": "2026-08-04",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-03T13:44:07Z"
+    "fetched_at": "2026-08-03T14:04:56Z"
    },
    "meta": {
     "ok": false,
-    "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AF48rCdBLeGRRiXk_Ggdrpv\"}}",
+    "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AwHGod6IbMUOv-E8Zu6gwoc\"}}",
     "fetched_at": "2026-07-29T01:07:22Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-03T13:44:07Z"
+    "fetched_at": "2026-08-03T14:04:56Z"
    }
   }
  },
@@ -40,6 +40,11 @@
   },
   {
    "level": "warning",
+   "title": "No orders for 2 days",
+   "body": "Last order was #1036 on 2 Aug. Ads have spent $400 since the last attributed purchase."
+  },
+  {
+   "level": "warning",
    "title": "10 product(s) at 3 units or fewer",
    "body": "Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral (1), Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass (1), Table Swag Olive Candelabra (2), Lumara Bee Mirror \u2014 Gold Resin (2)"
   }
@@ -51,17 +56,17 @@
    "aov": 0.0
   },
   "d7": {
-   "orders": 4,
-   "revenue": 514.83,
-   "aov": 128.71
+   "orders": 3,
+   "revenue": 421.89,
+   "aov": 140.63
   },
   "d30": {
-   "orders": 25,
-   "revenue": 3718.28,
-   "aov": 148.73
+   "orders": 22,
+   "revenue": 3116.36,
+   "aov": 141.65
   },
-  "prev7_revenue": 400.39,
-  "wow_pct": 28.6,
+  "prev7_revenue": 92.94,
+  "wow_pct": 353.9,
   "pending_fulfilment": 1,
   "pending_orders": [
    {
@@ -73,7 +78,7 @@
   ],
   "abandoned_checkouts": 0,
   "customers_total": 54,
-  "days_since_order": 1,
+  "days_since_order": 2,
   "last_order": {
    "name": "#1036",
    "when": "2 aug, 6:46pm",
@@ -81,12 +86,6 @@
    "customer": "Dianne Partridge"
   },
   "daily": [
-   {
-    "date": "2026-07-05",
-    "label": "5 Jul",
-    "orders": 3,
-    "revenue": 601.92
-   },
    {
     "date": "2026-07-06",
     "label": "6 Jul",
@@ -260,6 +259,12 @@
     "label": "3 Aug",
     "orders": 0,
     "revenue": 0.0
+   },
+   {
+    "date": "2026-08-04",
+    "label": "4 Aug",
+    "orders": 0,
+    "revenue": 0.0
    }
   ],
   "recent": [
@@ -350,16 +355,16 @@
     "units": 3
    },
    {
-    "title": "Turtle Shell Planters (Set of 2)",
-    "units": 3
-   },
-   {
     "title": "Lumara Giana Natural Table Lamp \u2014 Earthy Organic Style",
     "units": 2
    },
    {
     "title": "Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass",
     "units": 2
+   },
+   {
+    "title": "Table Swag Olive Candelabra",
+    "units": 1
    }
   ]
  },
@@ -376,20 +381,20 @@
    "cpa": null
   },
   "d7": {
-   "spend": 47.89,
+   "spend": 12.42,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 34,
-   "impressions": 970,
+   "clicks": 13,
+   "impressions": 226,
    "purchases": 0,
-   "cpc": 1.41,
-   "ctr": 3.51,
+   "cpc": 0.96,
+   "ctr": 5.75,
    "cpa": null
   },
   "prev7": {
-   "spend": 432.75,
-   "value": 400.39,
-   "roas": 0.93
+   "spend": 387.94,
+   "value": 0.0,
+   "roas": 0.0
   },
   "daily_budget_live": 30.0,
   "active_campaigns": 1,
