@@ -3,22 +3,22 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-04T23:13:43Z",
-  "generated_at_local": "Wed 5 Aug 2026, 9:13am AEST",
+  "generated_at_utc": "2026-08-04T23:34:32Z",
+  "generated_at_local": "Wed 5 Aug 2026, 9:34am AEST",
   "today": "2026-08-05",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-04T23:13:43Z"
+    "fetched_at": "2026-08-04T23:34:32Z"
    },
    "meta": {
     "ok": false,
-    "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AvEyvBy9mH3xj66YVTzCDsM\"}}",
+    "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AxYkaSoi0eJ8tb2vizqkN6C\"}}",
     "fetched_at": "2026-07-29T01:07:22Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-04T23:13:43Z"
+    "fetched_at": "2026-08-04T23:34:32Z"
    }
   }
  },
@@ -45,8 +45,8 @@
   },
   {
    "level": "warning",
-   "title": "4 product(s) at 3 units or fewer",
-   "body": "Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral (1), Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass (1), Table Swag Olive Candelabra (2), Lumara Ashore Framed Canvas \u2014 Coastal 70 \u00d7 90 cm (2)"
+   "title": "3 product(s) at 3 units or fewer",
+   "body": "Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral (1), Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass (1), Table Swag Olive Candelabra (2)"
   }
  ],
  "sales": {
@@ -654,11 +654,11 @@
   "sellable_skus": 133,
   "tracked_skus": 81,
   "out_of_stock": 0,
-  "low": 4,
+  "low": 3,
   "watch": 3,
-  "healthy": 74,
+  "healthy": 75,
   "untracked": 52,
-  "stock_value": 90600.62,
+  "stock_value": 92120.22,
   "oos_list": [],
   "oos_sellers": [],
   "low_list": [
@@ -694,17 +694,6 @@
     "available": true,
     "sold_30d": 1,
     "days_cover": 60.0
-   },
-   {
-    "title": "Lumara Ashore Framed Canvas \u2014 Coastal 70 \u00d7 90 cm",
-    "sku": "AW1733-2",
-    "qty": 2,
-    "price": 189.95,
-    "status": "ACTIVE",
-    "tracked": true,
-    "available": true,
-    "sold_30d": 0,
-    "days_cover": null
    },
    {
     "title": "Lumara Alegra Statement Vase \u2014 Sculptural Metal",
