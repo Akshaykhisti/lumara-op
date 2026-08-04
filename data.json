@@ -3,22 +3,22 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-04T11:34:32Z",
-  "generated_at_local": "Tue 4 Aug 2026, 9:34pm AEST",
+  "generated_at_utc": "2026-08-04T11:48:35Z",
+  "generated_at_local": "Tue 4 Aug 2026, 9:48pm AEST",
   "today": "2026-08-04",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-04T11:34:32Z"
+    "fetched_at": "2026-08-04T11:48:35Z"
    },
    "meta": {
     "ok": false,
-    "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AgSzt7UJ6-S1nO6R67gBHfo\"}}",
+    "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"A-62W0vlqzyLEeDYAdE_wiQ\"}}",
     "fetched_at": "2026-07-29T01:07:22Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-04T11:34:32Z"
+    "fetched_at": "2026-08-04T11:48:35Z"
    }
   }
  },
@@ -26,7 +26,7 @@
   {
    "level": "serious",
    "title": "Meta Ads didn't refresh",
-   "body": "Those panels show the last figures that came through, not current ones. Meta Ads data is from 154h ago. Everything else on this page is up to date."
+   "body": "Those panels show the last figures that came through, not current ones. Meta Ads data is from 155h ago. Everything else on this page is up to date."
   },
   {
    "level": "serious",
@@ -764,6 +764,24 @@
   ],
   "untracked_list": [
    {
+    "title": "Lumara Statement Console \u2014 Lamp & Vase Bundle",
+    "sku": "LH-BDL-05",
+    "qty": 0,
+    "price": 309.99,
+    "status": "ACTIVE",
+    "tracked": false,
+    "available": true
+   },
+   {
+    "title": "Lumara Coastal Glow \u2014 Lamp & Candle Bundle",
+    "sku": "LH-BDL-06",
+    "qty": 0,
+    "price": 289.9,
+    "status": "ACTIVE",
+    "tracked": false,
+    "available": true
+   },
+   {
     "title": "Lumara Pineapple Table Lamp \u2014 Reactive Glaze Ceramic",
     "sku": "YE6102-1",
     "qty": 0,
@@ -777,15 +795,6 @@
     "sku": "YE6101-1",
     "qty": 0,
     "price": 289.0,
-    "status": "ACTIVE",
-    "tracked": false,
-    "available": true
-   },
-   {
-    "title": "Lumara Statement Console \u2014 Lamp & Vase Bundle",
-    "sku": "LH-BDL-05",
-    "qty": 0,
-    "price": 235.0,
     "status": "ACTIVE",
     "tracked": false,
     "available": true
@@ -809,19 +818,19 @@
     "available": true
    },
    {
-    "title": "Lumara Coastal Glow \u2014 Lamp & Candle Bundle",
-    "sku": "LH-BDL-06",
+    "title": "Lumara Living Room Set \u2014 Lamp, Candle & Vase Bundle",
+    "sku": "LH-BDL-04",
     "qty": 0,
-    "price": 219.0,
+    "price": 194.0,
     "status": "ACTIVE",
     "tracked": false,
     "available": true
    },
    {
-    "title": "Lumara Living Room Set \u2014 Lamp, Candle & Vase Bundle",
-    "sku": "LH-BDL-04",
+    "title": "Lumara Warm Glow Trio \u2014 Candle Holder Bundle",
+    "sku": "LH-BDL-01",
     "qty": 0,
-    "price": 194.0,
+    "price": 189.99,
     "status": "ACTIVE",
     "tracked": false,
     "available": true
@@ -840,15 +849,6 @@
     "sku": "YE6202-1",
     "qty": 10,
     "price": 149.99,
-    "status": "ACTIVE",
-    "tracked": false,
-    "available": true
-   },
-   {
-    "title": "Lumara Warm Glow Trio \u2014 Candle Holder Bundle",
-    "sku": "LH-BDL-01",
-    "qty": 0,
-    "price": 139.0,
     "status": "ACTIVE",
     "tracked": false,
     "available": true

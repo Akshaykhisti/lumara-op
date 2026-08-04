@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-08-04T11:34:32Z",
+ "generated_at_utc": "2026-08-04T11:48:35Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,16 +9,16 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-08-04T11:34:32Z"
+   "fetched_at": "2026-08-04T11:48:35Z"
   },
   "meta": {
    "ok": false,
-   "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AgSzt7UJ6-S1nO6R67gBHfo\"}}",
+   "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"A-62W0vlqzyLEeDYAdE_wiQ\"}}",
    "fetched_at": "2026-07-29T01:07:22Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-08-04T11:34:32Z"
+   "fetched_at": "2026-08-04T11:48:35Z"
   }
  },
  "orders": [
@@ -837,7 +837,7 @@
    "title": "Lumara Warm Glow Trio \u2014 Candle Holder Bundle",
    "sku": "LH-BDL-01",
    "qty": 0,
-   "price": 139.0,
+   "price": 189.99,
    "status": "ACTIVE",
    "tracked": false,
    "available": true
@@ -873,7 +873,7 @@
    "title": "Lumara Statement Console \u2014 Lamp & Vase Bundle",
    "sku": "LH-BDL-05",
    "qty": 0,
-   "price": 235.0,
+   "price": 309.99,
    "status": "ACTIVE",
    "tracked": false,
    "available": true
@@ -882,7 +882,7 @@
    "title": "Lumara Coastal Glow \u2014 Lamp & Candle Bundle",
    "sku": "LH-BDL-06",
    "qty": 0,
-   "price": 219.0,
+   "price": 289.9,
    "status": "ACTIVE",
    "tracked": false,
    "available": true
