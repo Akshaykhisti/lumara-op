@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-08-04T04:59:30Z",
+ "generated_at_utc": "2026-08-04T05:20:18Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,16 +9,16 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-08-04T04:59:30Z"
+   "fetched_at": "2026-08-04T05:20:18Z"
   },
   "meta": {
    "ok": false,
-   "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"ASkBQxooFvJziO1JokNTXe6\"}}",
+   "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AaHBJnXmJV3-B9AFzSBxTnM\"}}",
    "fetched_at": "2026-07-29T01:07:22Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-08-04T04:59:30Z"
+   "fetched_at": "2026-08-04T05:20:18Z"
   }
  },
  "orders": [
@@ -1655,7 +1655,7 @@
   {
    "title": "Lumara Bee Mirror \u2014 Gold Resin",
    "sku": "BL7783-1",
-   "qty": 2,
+   "qty": 10,
    "price": 99.95,
    "status": "ACTIVE",
    "tracked": true,
@@ -1664,7 +1664,7 @@
   {
    "title": "Lumara Marbella Arch Mirror \u2014 Gold",
    "sku": "BL7785-1",
-   "qty": 2,
+   "qty": 10,
    "price": 94.95,
    "status": "ACTIVE",
    "tracked": true,
@@ -1682,7 +1682,7 @@
   {
    "title": "Lumara Clara Embroidered Wall Art \u2014 Framed 60 \u00d7 80 cm",
    "sku": "AW1727-2",
-   "qty": 2,
+   "qty": 10,
    "price": 229.95,
    "status": "ACTIVE",
    "tracked": true,
@@ -1718,7 +1718,7 @@
   {
    "title": "Lumara Solo Sailing Framed Print \u2014 Timber & Glass 70 \u00d7 100 cm",
    "sku": "AW1736-2",
-   "qty": 2,
+   "qty": 10,
    "price": 299.95,
    "status": "ACTIVE",
    "tracked": true,
