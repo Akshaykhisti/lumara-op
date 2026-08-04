@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-08-04T13:53:30Z",
+ "generated_at_utc": "2026-08-04T14:14:19Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,16 +9,16 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-08-04T13:53:30Z"
+   "fetched_at": "2026-08-04T14:14:19Z"
   },
   "meta": {
    "ok": false,
-   "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"A3GuBAF2lb4y1EfKHj3W79G\"}}",
+   "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AFyG75DQGf6-bESlLFdG76e\"}}",
    "fetched_at": "2026-07-29T01:07:22Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-08-04T13:53:30Z"
+   "fetched_at": "2026-08-04T14:14:19Z"
   }
  },
  "orders": [
@@ -352,48 +352,6 @@
    "items": [
     {
      "title": "Talia Vase",
-     "quantity": 1
-    }
-   ]
-  },
-  {
-   "name": "#1013",
-   "createdAt": "2026-07-05T09:46:27Z",
-   "financial": "PAID",
-   "fulfillment": "FULFILLED",
-   "total": 162.0,
-   "customer": "Krysten Kent",
-   "items": [
-    {
-     "title": "Turtle Shell Planters (Set of 2)",
-     "quantity": 1
-    }
-   ]
-  },
-  {
-   "name": "#1012",
-   "createdAt": "2026-07-05T09:00:47Z",
-   "financial": "PAID",
-   "fulfillment": "FULFILLED",
-   "total": 259.93,
-   "customer": "Amanda Macfarlane",
-   "items": [
-    {
-     "title": "Lumara Talia Table Lamp \u2014 Mixed Glaze Ceramic",
-     "quantity": 2
-    }
-   ]
-  },
-  {
-   "name": "#1011",
-   "createdAt": "2026-07-05T04:15:04Z",
-   "financial": "PAID",
-   "fulfillment": "FULFILLED",
-   "total": 179.99,
-   "customer": "kerri martin",
-   "items": [
-    {
-     "title": "Turtle Shell Planters (Set of 2)",
      "quantity": 1
     }
    ]
