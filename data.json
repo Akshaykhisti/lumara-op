@@ -3,22 +3,22 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-04T04:17:52Z",
-  "generated_at_local": "Tue 4 Aug 2026, 2:17pm AEST",
+  "generated_at_utc": "2026-08-04T04:38:41Z",
+  "generated_at_local": "Tue 4 Aug 2026, 2:38pm AEST",
   "today": "2026-08-04",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-04T04:17:52Z"
+    "fetched_at": "2026-08-04T04:38:41Z"
    },
    "meta": {
     "ok": false,
-    "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"Au6-Ykb6gRsLgmZ85Irpn_a\"}}",
+    "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"A_wZ_0dLthZBuqreJgl42tc\"}}",
     "fetched_at": "2026-07-29T01:07:22Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-04T04:17:52Z"
+    "fetched_at": "2026-08-04T04:38:41Z"
    }
   }
  },
@@ -26,7 +26,7 @@
   {
    "level": "serious",
    "title": "Meta Ads didn't refresh",
-   "body": "Those panels show the last figures that came through, not current ones. Meta Ads data is from 147h ago. Everything else on this page is up to date."
+   "body": "Those panels show the last figures that came through, not current ones. Meta Ads data is from 148h ago. Everything else on this page is up to date."
   },
   {
    "level": "serious",
@@ -658,7 +658,7 @@
   "watch": 3,
   "healthy": 68,
   "untracked": 52,
-  "stock_value": 81392.76,
+  "stock_value": 81722.92,
   "oos_list": [],
   "oos_sellers": [],
   "low_list": [
@@ -798,7 +798,7 @@
     "title": "Lumara Baroque Heart Wall Art \u2014 Gold",
     "sku": "BL7808-1",
     "qty": 4,
-    "price": 39.95,
+    "price": 59.99,
     "status": "ACTIVE",
     "tracked": true,
     "available": true,
