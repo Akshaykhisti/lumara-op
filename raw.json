@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-08-04T04:38:41Z",
+ "generated_at_utc": "2026-08-04T04:59:30Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,16 +9,16 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-08-04T04:38:41Z"
+   "fetched_at": "2026-08-04T04:59:30Z"
   },
   "meta": {
    "ok": false,
-   "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"A_wZ_0dLthZBuqreJgl42tc\"}}",
+   "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"ASkBQxooFvJziO1JokNTXe6\"}}",
    "fetched_at": "2026-07-29T01:07:22Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-08-04T04:38:41Z"
+   "fetched_at": "2026-08-04T04:59:30Z"
   }
  },
  "orders": [
@@ -1414,7 +1414,7 @@
    "sku": "SC6324-1",
    "qty": 10,
    "price": 159.99,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": true,
    "available": true
   },
@@ -1431,7 +1431,7 @@
    "title": "Lumara Amazon Woven Basket Set of 3 \u2014 Corn Husk & Seagrass",
    "sku": "JL6204-1",
    "qty": 10,
-   "price": 89.99,
+   "price": 119.99,
    "status": "ACTIVE",
    "tracked": true,
    "available": true
