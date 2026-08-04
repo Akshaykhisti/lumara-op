@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-08-04T12:09:24Z",
+ "generated_at_utc": "2026-08-04T12:30:13Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,16 +9,16 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-08-04T12:09:24Z"
+   "fetched_at": "2026-08-04T12:30:13Z"
   },
   "meta": {
    "ok": false,
-   "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"A3_SqQw0SKLHhzjtCjag304\"}}",
+   "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"Af83vShocZMOG78gKU6Krz1\"}}",
    "fetched_at": "2026-07-29T01:07:22Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-08-04T12:09:24Z"
+   "fetched_at": "2026-08-04T12:30:13Z"
   }
  },
  "orders": [
@@ -1691,7 +1691,7 @@
   {
    "title": "Lumara Navy Shell Framed Print I \u2014 60 \u00d7 80 cm",
    "sku": "AW1730-2",
-   "qty": 2,
+   "qty": 10,
    "price": 129.95,
    "status": "ACTIVE",
    "tracked": true,
@@ -1700,7 +1700,7 @@
   {
    "title": "Lumara Navy Shell Framed Print II \u2014 60 \u00d7 80 cm",
    "sku": "AW1731-2",
-   "qty": 2,
+   "qty": 10,
    "price": 129.95,
    "status": "ACTIVE",
    "tracked": true,
@@ -1720,6 +1720,15 @@
    "sku": "AW1736-2",
    "qty": 10,
    "price": 299.95,
+   "status": "ACTIVE",
+   "tracked": true,
+   "available": true
+  },
+  {
+   "title": "Lumara Navy Shell Pair \u2014 Framed Prints I & II",
+   "sku": "LH-BND-SHELLS",
+   "qty": 10,
+   "price": 230.0,
    "status": "ACTIVE",
    "tracked": true,
    "available": true
