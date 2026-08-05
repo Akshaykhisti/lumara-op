@@ -3,26 +3,31 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-05T13:41:46Z",
-  "generated_at_local": "Wed 5 Aug 2026, 11:41pm AEST",
-  "today": "2026-08-05",
+  "generated_at_utc": "2026-08-05T14:02:34Z",
+  "generated_at_local": "Thu 6 Aug 2026, 12:02am AEST",
+  "today": "2026-08-06",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-05T13:41:46Z"
+    "fetched_at": "2026-08-05T14:02:34Z"
    },
    "meta": {
     "ok": false,
-    "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AxkVv1Ntx-QflD58bP2EiiU\"}}",
+    "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AQNWYUkG4cM6YxIEtD9PZXS\"}}",
     "fetched_at": "2026-07-29T01:07:22Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-05T13:41:46Z"
+    "fetched_at": "2026-08-05T14:02:34Z"
    }
   }
  },
  "alerts": [
+  {
+   "level": "critical",
+   "title": "No orders for 4 days",
+   "body": "Last order was #1036 on 2 Aug. Ads have spent $400 since the last attributed purchase."
+  },
   {
    "level": "serious",
    "title": "Meta Ads didn't refresh",
@@ -32,11 +37,6 @@
    "level": "serious",
    "title": "$400 ad spend, 0 Meta-attributed purchases (8 days)",
    "body": "The store DID take 4 order(s) worth $515 in that window \u2014 Meta just isn't claiming any of them. Either they're organic/direct sales, or the pixel is missing purchases. Worth checking Events Manager before reading this as zero conversion."
-  },
-  {
-   "level": "warning",
-   "title": "No orders for 3 days",
-   "body": "Last order was #1036 on 2 Aug. Ads have spent $400 since the last attributed purchase."
   },
   {
    "level": "warning",
@@ -66,7 +66,7 @@
   "pending_orders": [],
   "abandoned_checkouts": 0,
   "customers_total": 55,
-  "days_since_order": 3,
+  "days_since_order": 4,
   "last_order": {
    "name": "#1036",
    "when": "2 aug, 6:46pm",
@@ -74,12 +74,6 @@
    "customer": "Dianne Partridge"
   },
   "daily": [
-   {
-    "date": "2026-07-07",
-    "label": "7 Jul",
-    "orders": 0,
-    "revenue": 0.0
-   },
    {
     "date": "2026-07-08",
     "label": "8 Jul",
@@ -253,6 +247,12 @@
     "label": "5 Aug",
     "orders": 0,
     "revenue": 0.0
+   },
+   {
+    "date": "2026-08-06",
+    "label": "6 Aug",
+    "orders": 0,
+    "revenue": 0.0
    }
   ],
   "recent": [
@@ -380,7 +380,7 @@
    "cpa": null
   },
   "prev7": {
-   "spend": 326.76,
+   "spend": 257.88,
    "value": 0.0,
    "roas": 0.0
   },
