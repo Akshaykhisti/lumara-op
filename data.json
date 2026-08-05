@@ -3,22 +3,22 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-05T08:51:58Z",
-  "generated_at_local": "Wed 5 Aug 2026, 6:51pm AEST",
+  "generated_at_utc": "2026-08-05T09:12:48Z",
+  "generated_at_local": "Wed 5 Aug 2026, 7:12pm AEST",
   "today": "2026-08-05",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-05T08:51:58Z"
+    "fetched_at": "2026-08-05T09:12:48Z"
    },
    "meta": {
     "ok": false,
-    "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AWcT625AEltB9zFcOlPo0cY\"}}",
+    "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AaBUNcm0bn6hoKlPdXlSJ7d\"}}",
     "fetched_at": "2026-07-29T01:07:22Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-05T08:51:58Z"
+    "fetched_at": "2026-08-05T09:12:48Z"
    }
   }
  },
@@ -32,11 +32,6 @@
    "level": "serious",
    "title": "$400 ad spend, 0 Meta-attributed purchases (8 days)",
    "body": "The store DID take 4 order(s) worth $515 in that window \u2014 Meta just isn't claiming any of them. Either they're organic/direct sales, or the pixel is missing purchases. Worth checking Events Manager before reading this as zero conversion."
-  },
-  {
-   "level": "serious",
-   "title": "1 paid order(s) awaiting fulfilment",
-   "body": "#1035"
   },
   {
    "level": "warning",
@@ -67,17 +62,10 @@
   },
   "prev7_revenue": 186.89,
   "wow_pct": 75.5,
-  "pending_fulfilment": 1,
-  "pending_orders": [
-   {
-    "name": "#1035",
-    "createdAt": "2026-08-01T21:27:58Z",
-    "total": 102.94,
-    "customer": "Joanne Binns"
-   }
-  ],
+  "pending_fulfilment": 0,
+  "pending_orders": [],
   "abandoned_checkouts": 0,
-  "customers_total": 54,
+  "customers_total": 55,
   "days_since_order": 3,
   "last_order": {
    "name": "#1036",
@@ -282,7 +270,7 @@
     "when": "2 aug, 7:27am",
     "total": 102.94,
     "customer": "Joanne Binns",
-    "fulfillment": "IN_PROGRESS",
+    "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Table Swag Olive Candelabra"
    },

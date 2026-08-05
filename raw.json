@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-08-05T08:51:58Z",
+ "generated_at_utc": "2026-08-05T09:12:48Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,16 +9,16 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-08-05T08:51:58Z"
+   "fetched_at": "2026-08-05T09:12:48Z"
   },
   "meta": {
    "ok": false,
-   "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AWcT625AEltB9zFcOlPo0cY\"}}",
+   "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AaBUNcm0bn6hoKlPdXlSJ7d\"}}",
    "fetched_at": "2026-07-29T01:07:22Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-08-05T08:51:58Z"
+   "fetched_at": "2026-08-05T09:12:48Z"
   }
  },
  "orders": [
@@ -40,7 +40,7 @@
    "name": "#1035",
    "createdAt": "2026-08-01T21:27:58Z",
    "financial": "PAID",
-   "fulfillment": "IN_PROGRESS",
+   "fulfillment": "FULFILLED",
    "total": 102.94,
    "customer": "Joanne Binns",
    "items": [
@@ -357,15 +357,8 @@
    ]
   }
  ],
- "unfulfilled_paid": [
-  {
-   "name": "#1035",
-   "createdAt": "2026-08-01T21:27:58Z",
-   "total": 102.94,
-   "customer": "Joanne Binns"
-  }
- ],
- "customers_total": 54,
+ "unfulfilled_paid": [],
+ "customers_total": 55,
  "abandoned_checkouts_recent": 0,
  "inventory": [
   {
