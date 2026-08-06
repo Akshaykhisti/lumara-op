@@ -1,15 +1,17 @@
 name: Refresh dashboard
 
-# GitHub's cron scheduler is best-effort and, in practice, badly throttled:
-# with a 20-minute cron this repo saw real gaps of 1.5-3.5 HOURS between
-# firings. So instead of trusting the scheduler for cadence, each run is a
-# long-lived loop that refreshes every 20 minutes for up to ~5.5 hours. The
-# cron only has to fire once per ~5.5h window to keep coverage continuous —
-# even its worst observed drought (3.5h) clears that bar easily.
+# GitHub's cron scheduler is best-effort (observed gaps: 1.5-3.5h on a
+# 20-minute cron), so each run is a long-lived loop that refreshes every
+# 20 minutes for up to ~5.5h. The cron only has to land once per window.
 #
-# cancel-in-progress: a newly fired run replaces the old loop, so a fresh
-# cron tick or a code push always starts fetching immediately with the
-# latest code instead of queueing behind a stale loop.
+# Handover is GRACEFUL, not cancel-based. v1 used cancel-in-progress: true,
+# which turned every scheduled takeover into a cancelled run — and GitHub
+# emails every cancelled run as "Run failed". Now new firings queue
+# (cancel-in-progress: false) and the loop polls for a waiting successor
+# every 5 minutes, exiting cleanly (green) when one appears. Code pushes
+# therefore take effect within ~5 minutes, and the only red runs left are
+# real failures (like the 6 Aug "job was not acquired by any runner"
+# GitHub capacity incident).
 
 on:
   schedule:
@@ -23,10 +25,11 @@ on:
 
 permissions:
   contents: write
+  actions: read                # the loop reads the run queue to hand over
 
 concurrency:
   group: refresh
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   refresh:
@@ -39,7 +42,7 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Refresh loop (every 20 min for ~5.5h)
+      - name: Refresh loop (every 20 min, hand over when a newer run waits)
         env:
           SHOPIFY_STORE:         ${{ secrets.SHOPIFY_STORE }}
           SHOPIFY_CLIENT_ID:     ${{ secrets.SHOPIFY_CLIENT_ID }}
@@ -47,9 +50,34 @@ jobs:
           META_TOKEN:            ${{ secrets.META_TOKEN }}
           META_AD_ACCOUNT:       ${{ secrets.META_AD_ACCOUNT }}
           KLAVIYO_KEY:           ${{ secrets.KLAVIYO_KEY }}
+          GH_API_TOKEN:          ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name  "lumara-ops-bot"
           git config user.email "actions@github.com"
+
+          successor_waiting() {
+            python3 - <<'PY'
+          import json, os, sys, urllib.request
+          tok, repo = os.environ["GH_API_TOKEN"], os.environ["GITHUB_REPOSITORY"]
+          me = os.environ["GITHUB_RUN_ID"]
+          n = 0
+          for st in ("queued", "waiting", "pending"):
+              req = urllib.request.Request(
+                  f"https://api.github.com/repos/{repo}/actions/workflows/"
+                  f"refresh.yml/runs?status={st}&per_page=10")
+              req.add_header("Authorization", "Bearer " + tok)
+              req.add_header("Accept", "application/vnd.github+json")
+              req.add_header("User-Agent", "lumara-ops")
+              try:
+                  d = json.load(urllib.request.urlopen(req, timeout=30))
+                  n += sum(1 for r in d.get("workflow_runs", [])
+                           if str(r["id"]) != me)
+              except Exception:
+                  pass  # API hiccup -> assume no successor, keep looping
+          sys.exit(0 if n else 1)
+          PY
+          }
+
           end=$(( SECONDS + 330*60 ))
           while true; do
             if python3 fetch_all.py && python3 build_data.py; then
@@ -58,14 +86,19 @@ jobs:
                 echo "$(date -u +%H:%M) no change"
               else
                 git commit -m "refresh $(date -u +%Y-%m-%dT%H:%M:%SZ)"
-                # data commits use GITHUB_TOKEN, which never re-triggers the
-                # push event above — no loop-of-loops.
                 git pull --rebase origin main || true
                 git push || echo "push failed; will retry next cycle"
               fi
             else
               echo "fetch/build failed; retrying next cycle" >&2
             fi
+            # sleep 20 min in 5-min slices, watching for a waiting successor
+            for i in 1 2 3 4; do
+              sleep 300
+              if successor_waiting; then
+                echo "newer run is waiting — handing over cleanly"
+                exit 0
+              fi
+            done
             [ $SECONDS -ge $end ] && break
-            sleep 1200
           done
