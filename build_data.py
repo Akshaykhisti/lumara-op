@@ -324,3 +324,5 @@ out = {
 json.dump(out, open(OUT, "w"), indent=1, default=str)
 print(f"wrote {OUT}: {len(alerts)} alerts, {d7['orders']} orders/7d, "
       f"${ads_7['spend']} ad spend/7d, {len(oos)} OOS")
+
+# refresh-nudge: 2026-08-06T22:10Z
