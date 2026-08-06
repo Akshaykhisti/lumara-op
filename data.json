@@ -3,31 +3,26 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-06T09:02:13Z",
-  "generated_at_local": "Thu 6 Aug 2026, 7:02pm AEST",
+  "generated_at_utc": "2026-08-06T09:14:24Z",
+  "generated_at_local": "Thu 6 Aug 2026, 7:14pm AEST",
   "today": "2026-08-06",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-06T09:02:13Z"
+    "fetched_at": "2026-08-06T09:14:24Z"
    },
    "meta": {
     "ok": false,
-    "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"A1eGYyLenlPPpeSM2Fh9Cp_\"}}",
+    "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AIQgAEMmZwg6TNuAzWlHh9B\"}}",
     "fetched_at": "2026-07-29T01:07:22Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-06T09:02:13Z"
+    "fetched_at": "2026-08-06T09:14:24Z"
    }
   }
  },
  "alerts": [
-  {
-   "level": "critical",
-   "title": "No orders for 4 days",
-   "body": "Last order was #1036 on 2 Aug. Ads have spent $400 since the last attributed purchase."
-  },
   {
    "level": "serious",
    "title": "Meta Ads didn't refresh",
@@ -36,7 +31,12 @@
   {
    "level": "serious",
    "title": "$400 ad spend, 0 Meta-attributed purchases (8 days)",
-   "body": "The store DID take 4 order(s) worth $515 in that window \u2014 Meta just isn't claiming any of them. Either they're organic/direct sales, or the pixel is missing purchases. Worth checking Events Manager before reading this as zero conversion."
+   "body": "The store DID take 5 order(s) worth $1,075 in that window \u2014 Meta just isn't claiming any of them. Either they're organic/direct sales, or the pixel is missing purchases. Worth checking Events Manager before reading this as zero conversion."
+  },
+  {
+   "level": "serious",
+   "title": "1 paid order(s) awaiting fulfilment",
+   "body": "#1037"
   },
   {
    "level": "warning",
@@ -46,32 +46,39 @@
  ],
  "sales": {
   "today": {
-   "orders": 0,
-   "revenue": 0.0,
-   "aov": 0.0
+   "orders": 1,
+   "revenue": 559.89,
+   "aov": 559.89
   },
   "d7": {
-   "orders": 2,
-   "revenue": 327.94,
-   "aov": 163.97
+   "orders": 3,
+   "revenue": 887.83,
+   "aov": 295.94
   },
   "d30": {
-   "orders": 21,
-   "revenue": 3013.42,
-   "aov": 143.5
+   "orders": 22,
+   "revenue": 3573.31,
+   "aov": 162.42
   },
   "prev7_revenue": 186.89,
-  "wow_pct": 75.5,
-  "pending_fulfilment": 0,
-  "pending_orders": [],
+  "wow_pct": 375.1,
+  "pending_fulfilment": 1,
+  "pending_orders": [
+   {
+    "name": "#1037",
+    "createdAt": "2026-08-06T09:05:14Z",
+    "total": 559.89,
+    "customer": "Lindy Herron"
+   }
+  ],
   "abandoned_checkouts": 0,
-  "customers_total": 55,
-  "days_since_order": 4,
+  "customers_total": 56,
+  "days_since_order": 0,
   "last_order": {
-   "name": "#1036",
-   "when": "2 aug, 6:46pm",
-   "total": 225.0,
-   "customer": "Dianne Partridge"
+   "name": "#1037",
+   "when": "6 aug, 7:05pm",
+   "total": 559.89,
+   "customer": "Lindy Herron"
   },
   "daily": [
    {
@@ -251,11 +258,20 @@
    {
     "date": "2026-08-06",
     "label": "6 Aug",
-    "orders": 0,
-    "revenue": 0.0
+    "orders": 1,
+    "revenue": 559.89
    }
   ],
   "recent": [
+   {
+    "name": "#1037",
+    "when": "6 aug, 7:05pm",
+    "total": 559.89,
+    "customer": "Lindy Herron",
+    "fulfillment": "UNFULFILLED",
+    "financial": "PAID",
+    "items": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement, Lumara Navy Shell Framed Print II \u2014 60 \u00d7 80 cm, Lumara Navy Shell Framed Print I \u2014 60 \u00d7 80 cm"
+   },
    {
     "name": "#1036",
     "when": "2 aug, 6:46pm",
@@ -318,28 +334,19 @@
     "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Lumara Giana Natural Table Lamp \u2014 Earthy Organic Style"
-   },
-   {
-    "name": "#1029",
-    "when": "20 jul, 9:52pm",
-    "total": 102.95,
-    "customer": "Irene Philp",
-    "fulfillment": "FULFILLED",
-    "financial": "PAID",
-    "items": "Lumara Olive Mediterranean Candelabra \u2014 Sculptural Metal Centrepiece"
    }
   ],
   "top_sellers": [
+   {
+    "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
+    "units": 4
+   },
    {
     "title": "Talia Vase",
     "units": 4
    },
    {
     "title": "Lumara Olive Mediterranean Candelabra \u2014 Sculptural Metal Centrepiece",
-    "units": 3
-   },
-   {
-    "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
     "units": 3
    },
    {
@@ -351,7 +358,7 @@
     "units": 2
    },
    {
-    "title": "Table Swag Olive Candelabra",
+    "title": "Lumara Navy Shell Framed Print II \u2014 60 \u00d7 80 cm",
     "units": 1
    }
   ]
@@ -646,7 +653,7 @@
   "watch": 3,
   "healthy": 75,
   "untracked": 52,
-  "stock_value": 92120.22,
+  "stock_value": 91560.33,
   "oos_list": [],
   "oos_sellers": [],
   "low_list": [

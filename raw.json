@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-08-06T09:02:13Z",
+ "generated_at_utc": "2026-08-06T09:14:24Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,19 +9,41 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-08-06T09:02:13Z"
+   "fetched_at": "2026-08-06T09:14:24Z"
   },
   "meta": {
    "ok": false,
-   "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"A1eGYyLenlPPpeSM2Fh9Cp_\"}}",
+   "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AIQgAEMmZwg6TNuAzWlHh9B\"}}",
    "fetched_at": "2026-07-29T01:07:22Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-08-06T09:02:13Z"
+   "fetched_at": "2026-08-06T09:14:24Z"
   }
  },
  "orders": [
+  {
+   "name": "#1037",
+   "createdAt": "2026-08-06T09:05:14Z",
+   "financial": "PAID",
+   "fulfillment": "UNFULFILLED",
+   "total": 559.89,
+   "customer": "Lindy Herron",
+   "items": [
+    {
+     "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
+     "quantity": 1
+    },
+    {
+     "title": "Lumara Navy Shell Framed Print II \u2014 60 \u00d7 80 cm",
+     "quantity": 1
+    },
+    {
+     "title": "Lumara Navy Shell Framed Print I \u2014 60 \u00d7 80 cm",
+     "quantity": 1
+    }
+   ]
+  },
   {
    "name": "#1036",
    "createdAt": "2026-08-02T08:46:49Z",
@@ -343,8 +365,15 @@
    ]
   }
  ],
- "unfulfilled_paid": [],
- "customers_total": 55,
+ "unfulfilled_paid": [
+  {
+   "name": "#1037",
+   "createdAt": "2026-08-06T09:05:14Z",
+   "total": 559.89,
+   "customer": "Lindy Herron"
+  }
+ ],
+ "customers_total": 56,
  "abandoned_checkouts_recent": 0,
  "inventory": [
   {
@@ -458,7 +487,7 @@
   {
    "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
    "sku": "Y8238-1",
-   "qty": 7,
+   "qty": 6,
    "price": 299.99,
    "status": "ACTIVE",
    "tracked": true,
@@ -1628,7 +1657,7 @@
   {
    "title": "Lumara Navy Shell Framed Print I \u2014 60 \u00d7 80 cm",
    "sku": "AW1730-2",
-   "qty": 10,
+   "qty": 9,
    "price": 129.95,
    "status": "ACTIVE",
    "tracked": true,
@@ -1637,7 +1666,7 @@
   {
    "title": "Lumara Navy Shell Framed Print II \u2014 60 \u00d7 80 cm",
    "sku": "AW1731-2",
-   "qty": 10,
+   "qty": 9,
    "price": 129.95,
    "status": "ACTIVE",
    "tracked": true,
