@@ -3,22 +3,22 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-06T13:59:43Z",
-  "generated_at_local": "Thu 6 Aug 2026, 11:59pm AEST",
-  "today": "2026-08-06",
+  "generated_at_utc": "2026-08-06T14:20:32Z",
+  "generated_at_local": "Fri 7 Aug 2026, 12:20am AEST",
+  "today": "2026-08-07",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-06T13:59:43Z"
+    "fetched_at": "2026-08-06T14:20:32Z"
    },
    "meta": {
     "ok": false,
-    "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AV9ZIE3shin8ZTdyoNwTm9P\"}}",
+    "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"ApwKkzGLzawgg24oGEeCnpA\"}}",
     "fetched_at": "2026-07-29T01:07:22Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-06T13:59:43Z"
+    "fetched_at": "2026-08-06T14:20:32Z"
    }
   }
  },
@@ -46,9 +46,9 @@
  ],
  "sales": {
   "today": {
-   "orders": 2,
-   "revenue": 829.89,
-   "aov": 414.94
+   "orders": 0,
+   "revenue": 0.0,
+   "aov": 0.0
   },
   "d7": {
    "orders": 4,
@@ -79,7 +79,7 @@
   ],
   "abandoned_checkouts": 0,
   "customers_total": 57,
-  "days_since_order": 0,
+  "days_since_order": 1,
   "last_order": {
    "name": "#1038",
    "when": "6 aug, 8:47pm",
@@ -87,12 +87,6 @@
    "customer": "Denise Rowles"
   },
   "daily": [
-   {
-    "date": "2026-07-08",
-    "label": "8 Jul",
-    "orders": 0,
-    "revenue": 0.0
-   },
    {
     "date": "2026-07-09",
     "label": "9 Jul",
@@ -266,6 +260,12 @@
     "label": "6 Aug",
     "orders": 2,
     "revenue": 829.89
+   },
+   {
+    "date": "2026-08-07",
+    "label": "7 Aug",
+    "orders": 0,
+    "revenue": 0.0
    }
   ],
   "recent": [
@@ -393,7 +393,7 @@
    "cpa": null
   },
   "prev7": {
-   "spend": 257.88,
+   "spend": 189.77,
    "value": 0.0,
    "roas": 0.0
   },
