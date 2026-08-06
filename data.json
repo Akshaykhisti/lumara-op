@@ -3,22 +3,22 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-06T10:38:14Z",
-  "generated_at_local": "Thu 6 Aug 2026, 8:38pm AEST",
+  "generated_at_utc": "2026-08-06T10:59:06Z",
+  "generated_at_local": "Thu 6 Aug 2026, 8:59pm AEST",
   "today": "2026-08-06",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-06T10:38:14Z"
+    "fetched_at": "2026-08-06T10:59:06Z"
    },
    "meta": {
     "ok": false,
-    "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"Ak1IBzC8a9B-y8iKsT1-1P0\"}}",
+    "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AaKoVTEg7CmrQ4FbU6aeuLY\"}}",
     "fetched_at": "2026-07-29T01:07:22Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-06T10:38:14Z"
+    "fetched_at": "2026-08-06T10:59:06Z"
    }
   }
  },
@@ -31,12 +31,12 @@
   {
    "level": "serious",
    "title": "$400 ad spend, 0 Meta-attributed purchases (8 days)",
-   "body": "The store DID take 5 order(s) worth $1,075 in that window \u2014 Meta just isn't claiming any of them. Either they're organic/direct sales, or the pixel is missing purchases. Worth checking Events Manager before reading this as zero conversion."
+   "body": "The store DID take 6 order(s) worth $1,345 in that window \u2014 Meta just isn't claiming any of them. Either they're organic/direct sales, or the pixel is missing purchases. Worth checking Events Manager before reading this as zero conversion."
   },
   {
    "level": "serious",
-   "title": "1 paid order(s) awaiting fulfilment",
-   "body": "#1037"
+   "title": "2 paid order(s) awaiting fulfilment",
+   "body": "#1037, #1038"
   },
   {
    "level": "warning",
@@ -46,39 +46,45 @@
  ],
  "sales": {
   "today": {
-   "orders": 1,
-   "revenue": 559.89,
-   "aov": 559.89
+   "orders": 2,
+   "revenue": 829.89,
+   "aov": 414.94
   },
   "d7": {
-   "orders": 3,
-   "revenue": 887.83,
-   "aov": 295.94
+   "orders": 4,
+   "revenue": 1157.83,
+   "aov": 289.46
   },
   "d30": {
-   "orders": 22,
-   "revenue": 3573.31,
-   "aov": 162.42
+   "orders": 23,
+   "revenue": 3843.31,
+   "aov": 167.1
   },
   "prev7_revenue": 186.89,
-  "wow_pct": 375.1,
-  "pending_fulfilment": 1,
+  "wow_pct": 519.5,
+  "pending_fulfilment": 2,
   "pending_orders": [
    {
     "name": "#1037",
     "createdAt": "2026-08-06T09:05:14Z",
     "total": 559.89,
     "customer": "Lindy Herron"
+   },
+   {
+    "name": "#1038",
+    "createdAt": "2026-08-06T10:47:52Z",
+    "total": 270.0,
+    "customer": "Denise Rowles"
    }
   ],
   "abandoned_checkouts": 0,
-  "customers_total": 56,
+  "customers_total": 57,
   "days_since_order": 0,
   "last_order": {
-   "name": "#1037",
-   "when": "6 aug, 7:05pm",
-   "total": 559.89,
-   "customer": "Lindy Herron"
+   "name": "#1038",
+   "when": "6 aug, 8:47pm",
+   "total": 270.0,
+   "customer": "Denise Rowles"
   },
   "daily": [
    {
@@ -258,11 +264,20 @@
    {
     "date": "2026-08-06",
     "label": "6 Aug",
-    "orders": 1,
-    "revenue": 559.89
+    "orders": 2,
+    "revenue": 829.89
    }
   ],
   "recent": [
+   {
+    "name": "#1038",
+    "when": "6 aug, 8:47pm",
+    "total": 270.0,
+    "customer": "Denise Rowles",
+    "fulfillment": "UNFULFILLED",
+    "financial": "PAID",
+    "items": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement"
+   },
    {
     "name": "#1037",
     "when": "6 aug, 7:05pm",
@@ -325,21 +340,12 @@
     "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral"
-   },
-   {
-    "name": "#1030",
-    "when": "21 jul, 1:10pm",
-    "total": 225.0,
-    "customer": "Sharyn Howes",
-    "fulfillment": "FULFILLED",
-    "financial": "PAID",
-    "items": "Lumara Giana Natural Table Lamp \u2014 Earthy Organic Style"
    }
   ],
   "top_sellers": [
    {
     "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
-    "units": 4
+    "units": 5
    },
    {
     "title": "Talia Vase",
@@ -650,10 +656,10 @@
   "tracked_skus": 81,
   "out_of_stock": 0,
   "low": 3,
-  "watch": 3,
-  "healthy": 75,
+  "watch": 4,
+  "healthy": 74,
   "untracked": 52,
-  "stock_value": 91560.33,
+  "stock_value": 91260.34,
   "oos_list": [],
   "oos_sellers": [],
   "low_list": [
@@ -722,6 +728,17 @@
     "available": true,
     "sold_30d": 0,
     "days_cover": null
+   },
+   {
+    "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
+    "sku": "Y8238-1",
+    "qty": 5,
+    "price": 299.99,
+    "status": "ACTIVE",
+    "tracked": true,
+    "available": true,
+    "sold_30d": 5,
+    "days_cover": 30.0
    }
   ],
   "untracked_list": [

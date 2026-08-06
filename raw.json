@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-08-06T10:38:14Z",
+ "generated_at_utc": "2026-08-06T10:59:06Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,19 +9,33 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-08-06T10:38:14Z"
+   "fetched_at": "2026-08-06T10:59:06Z"
   },
   "meta": {
    "ok": false,
-   "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"Ak1IBzC8a9B-y8iKsT1-1P0\"}}",
+   "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AaKoVTEg7CmrQ4FbU6aeuLY\"}}",
    "fetched_at": "2026-07-29T01:07:22Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-08-06T10:38:14Z"
+   "fetched_at": "2026-08-06T10:59:06Z"
   }
  },
  "orders": [
+  {
+   "name": "#1038",
+   "createdAt": "2026-08-06T10:47:52Z",
+   "financial": "PAID",
+   "fulfillment": "UNFULFILLED",
+   "total": 270.0,
+   "customer": "Denise Rowles",
+   "items": [
+    {
+     "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
+     "quantity": 1
+    }
+   ]
+  },
   {
    "name": "#1037",
    "createdAt": "2026-08-06T09:05:14Z",
@@ -371,9 +385,15 @@
    "createdAt": "2026-08-06T09:05:14Z",
    "total": 559.89,
    "customer": "Lindy Herron"
+  },
+  {
+   "name": "#1038",
+   "createdAt": "2026-08-06T10:47:52Z",
+   "total": 270.0,
+   "customer": "Denise Rowles"
   }
  ],
- "customers_total": 56,
+ "customers_total": 57,
  "abandoned_checkouts_recent": 0,
  "inventory": [
   {
@@ -487,7 +507,7 @@
   {
    "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
    "sku": "Y8238-1",
-   "qty": 6,
+   "qty": 5,
    "price": 299.99,
    "status": "ACTIVE",
    "tracked": true,
