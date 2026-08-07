@@ -3,40 +3,29 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-06T16:57:33Z",
-  "generated_at_local": "Fri 7 Aug 2026, 2:57am AEST",
+  "generated_at_utc": "2026-08-07T00:23:52Z",
+  "generated_at_local": "Fri 7 Aug 2026, 10:23am AEST",
   "today": "2026-08-07",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-06T16:57:33Z"
+    "fetched_at": "2026-08-07T00:23:52Z"
    },
    "meta": {
-    "ok": false,
-    "error": "HTTP 400: {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AehHDlHRcCkOV1IkVLfCs5X\"}}",
-    "fetched_at": "2026-07-29T01:07:22Z"
+    "ok": true,
+    "fetched_at": "2026-08-07T00:23:52Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-06T16:57:33Z"
+    "fetched_at": "2026-08-07T00:23:52Z"
    }
   }
  },
  "alerts": [
   {
    "level": "serious",
-   "title": "Meta Ads didn't refresh",
-   "body": "Those panels show the last figures that came through, not current ones. Meta Ads data is from 208h ago. Everything else on this page is up to date."
-  },
-  {
-   "level": "serious",
-   "title": "$400 ad spend, 0 Meta-attributed purchases (8 days)",
-   "body": "The store DID take 6 order(s) worth $1,345 in that window \u2014 Meta just isn't claiming any of them. Either they're organic/direct sales, or the pixel is missing purchases. Worth checking Events Manager before reading this as zero conversion."
-  },
-  {
-   "level": "serious",
-   "title": "2 paid order(s) awaiting fulfilment",
-   "body": "#1037, #1038"
+   "title": "1 paid order(s) awaiting fulfilment",
+   "body": "#1037"
   },
   {
    "level": "warning",
@@ -62,19 +51,13 @@
   },
   "prev7_revenue": 186.89,
   "wow_pct": 519.5,
-  "pending_fulfilment": 2,
+  "pending_fulfilment": 1,
   "pending_orders": [
    {
     "name": "#1037",
     "createdAt": "2026-08-06T09:05:14Z",
     "total": 559.89,
     "customer": "Lindy Herron"
-   },
-   {
-    "name": "#1038",
-    "createdAt": "2026-08-06T10:47:52Z",
-    "total": 270.0,
-    "customer": "Denise Rowles"
    }
   ],
   "abandoned_checkouts": 0,
@@ -274,7 +257,7 @@
     "when": "6 aug, 8:47pm",
     "total": 270.0,
     "customer": "Denise Rowles",
-    "fulfillment": "UNFULFILLED",
+    "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement"
    },
@@ -371,127 +354,37 @@
  },
  "ads": {
   "today": {
-   "spend": 0.0,
+   "spend": 18.99,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 0,
-   "impressions": 0,
+   "clicks": 28,
+   "impressions": 361,
    "purchases": 0,
-   "cpc": 0.0,
-   "ctr": 0.0,
+   "cpc": 0.68,
+   "ctr": 7.76,
    "cpa": null
   },
   "d7": {
-   "spend": 0.0,
-   "value": 0.0,
-   "roas": 0.0,
-   "clicks": 0,
-   "impressions": 0,
-   "purchases": 0,
-   "cpc": 0.0,
-   "ctr": 0.0,
-   "cpa": null
+   "spend": 510.41,
+   "value": 932.83,
+   "roas": 1.83,
+   "clicks": 670,
+   "impressions": 11803,
+   "purchases": 3,
+   "cpc": 0.76,
+   "ctr": 5.68,
+   "cpa": 170.14
   },
   "prev7": {
-   "spend": 189.77,
+   "spend": 283.12,
    "value": 0.0,
    "roas": 0.0
   },
-  "daily_budget_live": 30.0,
-  "active_campaigns": 1,
-  "dry_days": 8,
-  "dry_spend": 400.36,
+  "daily_budget_live": 60.0,
+  "active_campaigns": 2,
+  "dry_days": 1,
+  "dry_spend": 18.99,
   "series": [
-   {
-    "date": "2026-07-16",
-    "label": "16 Jul",
-    "spend": 84.72,
-    "revenue": 0.0,
-    "purchases": 0,
-    "clicks": 148,
-    "ctr": 4.94,
-    "cpc": 0.57
-   },
-   {
-    "date": "2026-07-17",
-    "label": "17 Jul",
-    "spend": 85.19,
-    "revenue": 0.0,
-    "purchases": 0,
-    "clicks": 128,
-    "ctr": 4.32,
-    "cpc": 0.67
-   },
-   {
-    "date": "2026-07-18",
-    "label": "18 Jul",
-    "spend": 71.81,
-    "revenue": 171.9,
-    "purchases": 2,
-    "clicks": 92,
-    "ctr": 3.76,
-    "cpc": 0.78
-   },
-   {
-    "date": "2026-07-19",
-    "label": "19 Jul",
-    "spend": 107.59,
-    "revenue": 279.42,
-    "purchases": 2,
-    "clicks": 172,
-    "ctr": 3.94,
-    "cpc": 0.63
-   },
-   {
-    "date": "2026-07-20",
-    "label": "20 Jul",
-    "spend": 71.74,
-    "revenue": 196.9,
-    "purchases": 2,
-    "clicks": 90,
-    "ctr": 3.41,
-    "cpc": 0.8
-   },
-   {
-    "date": "2026-07-21",
-    "label": "21 Jul",
-    "spend": 80.28,
-    "revenue": 400.39,
-    "purchases": 3,
-    "clicks": 133,
-    "ctr": 3.65,
-    "cpc": 0.6
-   },
-   {
-    "date": "2026-07-22",
-    "label": "22 Jul",
-    "spend": 73.6,
-    "revenue": 0.0,
-    "purchases": 0,
-    "clicks": 77,
-    "ctr": 3.04,
-    "cpc": 0.96
-   },
-   {
-    "date": "2026-07-23",
-    "label": "23 Jul",
-    "spend": 68.88,
-    "revenue": 0.0,
-    "purchases": 0,
-    "clicks": 68,
-    "ctr": 2.6,
-    "cpc": 1.01
-   },
-   {
-    "date": "2026-07-24",
-    "label": "24 Jul",
-    "spend": 68.11,
-    "revenue": 0.0,
-    "purchases": 0,
-    "clicks": 54,
-    "ctr": 4.28,
-    "cpc": 1.26
-   },
    {
     "date": "2026-07-25",
     "label": "25 Jul",
@@ -535,59 +428,134 @@
    {
     "date": "2026-07-29",
     "label": "29 Jul",
-    "spend": 12.42,
+    "spend": 39.15,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 13,
-    "ctr": 5.75,
-    "cpc": 0.96
+    "clicks": 40,
+    "ctr": 4.42,
+    "cpc": 0.98
+   },
+   {
+    "date": "2026-07-30",
+    "label": "30 Jul",
+    "spend": 37.37,
+    "revenue": 0.0,
+    "purchases": 0,
+    "clicks": 51,
+    "ctr": 5.98,
+    "cpc": 0.73
+   },
+   {
+    "date": "2026-07-31",
+    "label": "31 Jul",
+    "spend": 29.25,
+    "revenue": 0.0,
+    "purchases": 0,
+    "clicks": 34,
+    "ctr": 4.45,
+    "cpc": 0.86
+   },
+   {
+    "date": "2026-08-01",
+    "label": "1 Aug",
+    "spend": 108.76,
+    "revenue": 0.0,
+    "purchases": 0,
+    "clicks": 124,
+    "ctr": 3.92,
+    "cpc": 0.88
+   },
+   {
+    "date": "2026-08-02",
+    "label": "2 Aug",
+    "spend": 100.28,
+    "revenue": 102.94,
+    "purchases": 1,
+    "clicks": 112,
+    "ctr": 6.06,
+    "cpc": 0.9
+   },
+   {
+    "date": "2026-08-03",
+    "label": "3 Aug",
+    "spend": 86.7,
+    "revenue": 0.0,
+    "purchases": 0,
+    "clicks": 143,
+    "ctr": 6.49,
+    "cpc": 0.61
+   },
+   {
+    "date": "2026-08-04",
+    "label": "4 Aug",
+    "spend": 77.22,
+    "revenue": 0.0,
+    "purchases": 0,
+    "clicks": 99,
+    "ctr": 5.86,
+    "cpc": 0.78
+   },
+   {
+    "date": "2026-08-05",
+    "label": "5 Aug",
+    "spend": 62.81,
+    "revenue": 0.0,
+    "purchases": 0,
+    "clicks": 83,
+    "ctr": 6.26,
+    "cpc": 0.76
+   },
+   {
+    "date": "2026-08-06",
+    "label": "6 Aug",
+    "spend": 55.65,
+    "revenue": 829.89,
+    "purchases": 2,
+    "clicks": 81,
+    "ctr": 6.69,
+    "cpc": 0.69
+   },
+   {
+    "date": "2026-08-07",
+    "label": "7 Aug",
+    "spend": 18.99,
+    "revenue": 0.0,
+    "purchases": 0,
+    "clicks": 28,
+    "ctr": 7.76,
+    "cpc": 0.68
    }
   ],
   "campaigns": [
    {
     "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
-    "status": "PAUSED",
-    "daily_budget": 45.0,
-    "spend": 1189.42,
-    "impressions": 42515,
-    "clicks": 1597,
-    "ctr": 3.76,
-    "cpc": 0.74,
-    "roas": 2.654,
-    "purchases": 19,
-    "purchase_value": 3156.76,
-    "atc": 56,
-    "reach": 21242
+    "status": "ACTIVE",
+    "daily_budget": 30.0,
+    "spend": 1224.07,
+    "impressions": 41608,
+    "clicks": 1670,
+    "ctr": 4.01,
+    "cpc": 0.73,
+    "roas": 2.5153,
+    "purchases": 16,
+    "purchase_value": 3078.85,
+    "atc": 51,
+    "reach": 22155
    },
    {
     "name": "Lumara \u2014 Sales \u2014 Winners Broad CBO (Jul 2026)",
     "status": "ACTIVE",
     "daily_budget": 30.0,
-    "spend": 378.62,
-    "impressions": 9935,
-    "clicks": 500,
-    "ctr": 5.03,
-    "cpc": 0.76,
-    "roas": 0.8685,
-    "purchases": 3,
-    "purchase_value": 328.83,
-    "atc": 23,
-    "reach": 6859
-   },
-   {
-    "name": "Lumara \u2014 Talia Lamp \u2014 Final Stock \u2014 FB (Jul 2026)",
-    "status": "PAUSED",
-    "daily_budget": 15.0,
-    "spend": 115.77,
-    "impressions": 3446,
-    "clicks": 126,
-    "ctr": 3.66,
-    "cpc": 0.92,
-    "roas": 0.0,
-    "purchases": 0,
-    "purchase_value": 0.0,
-    "atc": 2,
-    "reach": 2734
+    "spend": 672.67,
+    "impressions": 16480,
+    "clicks": 873,
+    "ctr": 5.3,
+    "cpc": 0.77,
+    "roas": 0.6419,
+    "purchases": 4,
+    "purchase_value": 431.77,
+    "atc": 28,
+    "reach": 10367
    },
    {
     "name": "Lumara \u2014 Retargeting \u2014 AU \u2014 Website 30d (Jun 2026)",
@@ -623,6 +591,21 @@
     "name": "Instagram Only \u2014 Talia & Alegra \u2014 WELCOME10",
     "status": "PAUSED",
     "daily_budget": 30.0,
+    "spend": 0.0,
+    "impressions": 0,
+    "clicks": 0,
+    "ctr": 0.0,
+    "cpc": 0.0,
+    "roas": 0.0,
+    "purchases": 0,
+    "purchase_value": 0.0,
+    "atc": 0,
+    "reach": 0
+   },
+   {
+    "name": "Lumara \u2014 Talia Lamp \u2014 Final Stock \u2014 FB (Jul 2026)",
+    "status": "PAUSED",
+    "daily_budget": 15.0,
     "spend": 0.0,
     "impressions": 0,
     "clicks": 0,
