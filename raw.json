@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-08-07T13:57:20Z",
+ "generated_at_utc": "2026-08-07T14:17:32Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-08-07T13:57:20Z"
+   "fetched_at": "2026-08-07T14:17:32Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-08-07T13:57:20Z"
+   "fetched_at": "2026-08-07T14:17:32Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-08-07T13:57:20Z"
+   "fetched_at": "2026-08-07T14:17:32Z"
   }
  },
  "orders": [
@@ -374,20 +374,6 @@
     {
      "title": "Lumara Malabar Vase \u2014 Ribbed Cobalt Ceramic",
      "quantity": 1
-    }
-   ]
-  },
-  {
-   "name": "#1015",
-   "createdAt": "2026-07-08T07:42:47Z",
-   "financial": "REFUNDED",
-   "fulfillment": "UNFULFILLED",
-   "total": 0.0,
-   "customer": "Helve Beale",
-   "items": [
-    {
-     "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
-     "quantity": 2
     }
    ]
   }
@@ -1735,16 +1721,6 @@
  ],
  "ads_daily": [
   {
-   "date": "2026-07-24",
-   "spend": 68.11,
-   "impressions": 1262,
-   "clicks": 54,
-   "ctr": 4.28,
-   "cpc": 1.26,
-   "purchases": 0,
-   "purchase_value": 0.0
-  },
-  {
    "date": "2026-07-25",
    "spend": 44.41,
    "impressions": 920,
@@ -1883,48 +1859,58 @@
    "cpc": 0.73,
    "purchases": 1,
    "purchase_value": 299.99
+  },
+  {
+   "date": "2026-08-08",
+   "spend": 0.0,
+   "impressions": 0,
+   "clicks": 0,
+   "ctr": 0.0,
+   "cpc": 0.0,
+   "purchases": 0,
+   "purchase_value": 0.0
   }
  ],
  "ads_today": {
-  "date": "2026-08-07",
-  "spend": 60.03,
-  "impressions": 1174,
-  "clicks": 82,
-  "ctr": 6.98,
-  "cpc": 0.73,
-  "purchases": 1,
-  "purchase_value": 299.99
+  "date": "2026-08-08",
+  "spend": 0.0,
+  "impressions": 0,
+  "clicks": 0,
+  "ctr": 0.0,
+  "cpc": 0.0,
+  "purchases": 0,
+  "purchase_value": 0.0
  },
  "ads_campaigns": [
   {
    "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
    "status": "ACTIVE",
    "daily_budget": 30.0,
-   "spend": 1224.22,
-   "impressions": 41610,
-   "clicks": 1670,
-   "ctr": 4.01,
+   "spend": 1208.78,
+   "impressions": 40488,
+   "clicks": 1648,
+   "ctr": 4.07,
    "cpc": 0.73,
-   "roas": 2.5149,
-   "purchases": 16,
-   "purchase_value": 3078.85,
-   "atc": 51,
-   "reach": 22155
+   "roas": 2.2119,
+   "purchases": 15,
+   "purchase_value": 2673.71,
+   "atc": 48,
+   "reach": 21864
   },
   {
    "name": "Lumara \u2014 Sales \u2014 Winners Broad CBO (Jul 2026)",
    "status": "ACTIVE",
    "daily_budget": 30.0,
-   "spend": 672.67,
-   "impressions": 16480,
-   "clicks": 873,
-   "ctr": 5.3,
-   "cpc": 0.77,
-   "roas": 0.6419,
-   "purchases": 4,
-   "purchase_value": 431.77,
-   "atc": 28,
-   "reach": 10367
+   "spend": 702.03,
+   "impressions": 16997,
+   "clicks": 903,
+   "ctr": 5.31,
+   "cpc": 0.78,
+   "roas": 1.0423,
+   "purchases": 5,
+   "purchase_value": 731.76,
+   "atc": 29,
+   "reach": 10671
   },
   {
    "name": "Lumara \u2014 Retargeting \u2014 AU \u2014 Website 30d (Jun 2026)",
