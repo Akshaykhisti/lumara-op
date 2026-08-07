@@ -3,29 +3,29 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-07T10:09:41Z",
-  "generated_at_local": "Fri 7 Aug 2026, 8:09pm AEST",
+  "generated_at_utc": "2026-08-07T10:29:51Z",
+  "generated_at_local": "Fri 7 Aug 2026, 8:29pm AEST",
   "today": "2026-08-07",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-07T10:09:41Z"
+    "fetched_at": "2026-08-07T10:29:51Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-08-07T10:09:41Z"
+    "fetched_at": "2026-08-07T10:29:51Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-07T10:09:41Z"
+    "fetched_at": "2026-08-07T10:29:51Z"
    }
   }
  },
  "alerts": [
   {
    "level": "serious",
-   "title": "1 paid order(s) awaiting fulfilment",
-   "body": "#1037"
+   "title": "2 paid order(s) awaiting fulfilment",
+   "body": "#1037, #1039"
   },
   {
    "level": "warning",
@@ -35,39 +35,45 @@
  ],
  "sales": {
   "today": {
-   "orders": 0,
-   "revenue": 0.0,
-   "aov": 0.0
+   "orders": 1,
+   "revenue": 299.99,
+   "aov": 299.99
   },
   "d7": {
-   "orders": 4,
-   "revenue": 1157.83,
-   "aov": 289.46
+   "orders": 5,
+   "revenue": 1457.82,
+   "aov": 291.56
   },
   "d30": {
-   "orders": 23,
-   "revenue": 3843.31,
-   "aov": 167.1
+   "orders": 24,
+   "revenue": 4143.3,
+   "aov": 172.64
   },
   "prev7_revenue": 186.89,
-  "wow_pct": 519.5,
-  "pending_fulfilment": 1,
+  "wow_pct": 680.0,
+  "pending_fulfilment": 2,
   "pending_orders": [
    {
     "name": "#1037",
     "createdAt": "2026-08-06T09:05:14Z",
     "total": 559.89,
     "customer": "Lindy Herron"
+   },
+   {
+    "name": "#1039",
+    "createdAt": "2026-08-07T10:22:13Z",
+    "total": 299.99,
+    "customer": "Pamela Mavingire"
    }
   ],
   "abandoned_checkouts": 0,
-  "customers_total": 57,
-  "days_since_order": 1,
+  "customers_total": 58,
+  "days_since_order": 0,
   "last_order": {
-   "name": "#1038",
-   "when": "6 aug, 8:47pm",
-   "total": 270.0,
-   "customer": "Denise Rowles"
+   "name": "#1039",
+   "when": "7 aug, 8:22pm",
+   "total": 299.99,
+   "customer": "Pamela Mavingire"
   },
   "daily": [
    {
@@ -247,11 +253,20 @@
    {
     "date": "2026-08-07",
     "label": "7 Aug",
-    "orders": 0,
-    "revenue": 0.0
+    "orders": 1,
+    "revenue": 299.99
    }
   ],
   "recent": [
+   {
+    "name": "#1039",
+    "when": "7 aug, 8:22pm",
+    "total": 299.99,
+    "customer": "Pamela Mavingire",
+    "fulfillment": "UNFULFILLED",
+    "financial": "PAID",
+    "items": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement"
+   },
    {
     "name": "#1038",
     "when": "6 aug, 8:47pm",
@@ -314,21 +329,12 @@
     "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Lumara Olive Mediterranean Candelabra \u2014 Sculptural Metal Centrepiece"
-   },
-   {
-    "name": "#1031",
-    "when": "21 jul, 5:37pm",
-    "total": 62.45,
-    "customer": "Susan Eveston",
-    "fulfillment": "FULFILLED",
-    "financial": "PAID",
-    "items": "Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral"
    }
   ],
   "top_sellers": [
    {
     "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
-    "units": 5
+    "units": 6
    },
    {
     "title": "Talia Vase",
@@ -354,26 +360,26 @@
  },
  "ads": {
   "today": {
-   "spend": 51.73,
+   "spend": 53.14,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 70,
-   "impressions": 965,
+   "clicks": 71,
+   "impressions": 990,
    "purchases": 0,
-   "cpc": 0.74,
-   "ctr": 7.25,
+   "cpc": 0.75,
+   "ctr": 7.17,
    "cpa": null
   },
   "d7": {
-   "spend": 543.15,
+   "spend": 544.56,
    "value": 932.83,
-   "roas": 1.72,
-   "clicks": 712,
-   "impressions": 12407,
+   "roas": 1.71,
+   "clicks": 713,
+   "impressions": 12432,
    "purchases": 3,
    "cpc": 0.76,
    "ctr": 5.74,
-   "cpa": 181.05
+   "cpa": 181.52
   },
   "prev7": {
    "spend": 283.12,
@@ -383,7 +389,7 @@
   "daily_budget_live": 60.0,
   "active_campaigns": 2,
   "dry_days": 1,
-  "dry_spend": 51.73,
+  "dry_spend": 53.14,
   "series": [
    {
     "date": "2026-07-25",
@@ -518,12 +524,12 @@
    {
     "date": "2026-08-07",
     "label": "7 Aug",
-    "spend": 51.73,
+    "spend": 53.14,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 70,
-    "ctr": 7.25,
-    "cpc": 0.74
+    "clicks": 71,
+    "ctr": 7.17,
+    "cpc": 0.75
    }
   ],
   "campaigns": [
@@ -642,7 +648,7 @@
   "watch": 4,
   "healthy": 74,
   "untracked": 52,
-  "stock_value": 91260.34,
+  "stock_value": 90960.35,
   "oos_list": [],
   "oos_sellers": [],
   "low_list": [
@@ -680,6 +686,17 @@
     "days_cover": 60.0
    },
    {
+    "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
+    "sku": "Y8238-1",
+    "qty": 4,
+    "price": 299.99,
+    "status": "ACTIVE",
+    "tracked": true,
+    "available": true,
+    "sold_30d": 6,
+    "days_cover": 20.0
+   },
+   {
     "title": "Lumara Alegra Statement Vase \u2014 Sculptural Metal",
     "sku": "QA5813-2",
     "qty": 4,
@@ -711,17 +728,6 @@
     "available": true,
     "sold_30d": 0,
     "days_cover": null
-   },
-   {
-    "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
-    "sku": "Y8238-1",
-    "qty": 5,
-    "price": 299.99,
-    "status": "ACTIVE",
-    "tracked": true,
-    "available": true,
-    "sold_30d": 5,
-    "days_cover": 30.0
    }
   ],
   "untracked_list": [

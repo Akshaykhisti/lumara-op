@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-08-07T10:09:41Z",
+ "generated_at_utc": "2026-08-07T10:29:51Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,18 +9,32 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-08-07T10:09:41Z"
+   "fetched_at": "2026-08-07T10:29:51Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-08-07T10:09:41Z"
+   "fetched_at": "2026-08-07T10:29:51Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-08-07T10:09:41Z"
+   "fetched_at": "2026-08-07T10:29:51Z"
   }
  },
  "orders": [
+  {
+   "name": "#1039",
+   "createdAt": "2026-08-07T10:22:13Z",
+   "financial": "PAID",
+   "fulfillment": "UNFULFILLED",
+   "total": 299.99,
+   "customer": "Pamela Mavingire",
+   "items": [
+    {
+     "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
+     "quantity": 1
+    }
+   ]
+  },
   {
    "name": "#1038",
    "createdAt": "2026-08-06T10:47:52Z",
@@ -384,9 +398,15 @@
    "createdAt": "2026-08-06T09:05:14Z",
    "total": 559.89,
    "customer": "Lindy Herron"
+  },
+  {
+   "name": "#1039",
+   "createdAt": "2026-08-07T10:22:13Z",
+   "total": 299.99,
+   "customer": "Pamela Mavingire"
   }
  ],
- "customers_total": 57,
+ "customers_total": 58,
  "abandoned_checkouts_recent": 0,
  "inventory": [
   {
@@ -500,7 +520,7 @@
   {
    "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
    "sku": "Y8238-1",
-   "qty": 5,
+   "qty": 4,
    "price": 299.99,
    "status": "ACTIVE",
    "tracked": true,
@@ -1856,22 +1876,22 @@
   },
   {
    "date": "2026-08-07",
-   "spend": 51.73,
-   "impressions": 965,
-   "clicks": 70,
-   "ctr": 7.25,
-   "cpc": 0.74,
+   "spend": 53.14,
+   "impressions": 990,
+   "clicks": 71,
+   "ctr": 7.17,
+   "cpc": 0.75,
    "purchases": 0,
    "purchase_value": 0.0
   }
  ],
  "ads_today": {
   "date": "2026-08-07",
-  "spend": 51.73,
-  "impressions": 965,
-  "clicks": 70,
-  "ctr": 7.25,
-  "cpc": 0.74,
+  "spend": 53.14,
+  "impressions": 990,
+  "clicks": 71,
+  "ctr": 7.17,
+  "cpc": 0.75,
   "purchases": 0,
   "purchase_value": 0.0
  },
