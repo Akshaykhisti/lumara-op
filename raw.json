@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-08-08T13:54:31Z",
+ "generated_at_utc": "2026-08-08T14:14:41Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-08-08T13:54:31Z"
+   "fetched_at": "2026-08-08T14:14:41Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-08-08T13:54:31Z"
+   "fetched_at": "2026-08-08T14:14:41Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-08-08T13:54:31Z"
+   "fetched_at": "2026-08-08T14:14:41Z"
   }
  },
  "orders": [
@@ -331,48 +331,6 @@
    "items": [
     {
      "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
-     "quantity": 1
-    }
-   ]
-  },
-  {
-   "name": "#1018",
-   "createdAt": "2026-07-09T09:56:52Z",
-   "financial": "PAID",
-   "fulfillment": "FULFILLED",
-   "total": 171.0,
-   "customer": "christine paradine",
-   "items": [
-    {
-     "title": "Lumara Malabar Duo \u2014 Lamp & Vase Bundle",
-     "quantity": 1
-    }
-   ]
-  },
-  {
-   "name": "#1017",
-   "createdAt": "2026-07-09T08:56:53Z",
-   "financial": "PAID",
-   "fulfillment": "FULFILLED",
-   "total": 162.0,
-   "customer": "Susanne Hayes",
-   "items": [
-    {
-     "title": "Turtle Shell Planters (Set of 2)",
-     "quantity": 1
-    }
-   ]
-  },
-  {
-   "name": "#1016",
-   "createdAt": "2026-07-09T08:13:27Z",
-   "financial": "PAID",
-   "fulfillment": "FULFILLED",
-   "total": 75.95,
-   "customer": "Pennie Burgess",
-   "items": [
-    {
-     "title": "Lumara Malabar Vase \u2014 Ribbed Cobalt Ceramic",
      "quantity": 1
     }
    ]
@@ -1715,16 +1673,6 @@
  ],
  "ads_daily": [
   {
-   "date": "2026-07-25",
-   "spend": 44.41,
-   "impressions": 920,
-   "clicks": 63,
-   "ctr": 6.85,
-   "cpc": 0.7,
-   "purchases": 0,
-   "purchase_value": 0.0
-  },
-  {
    "date": "2026-07-26",
    "spend": 61.38,
    "impressions": 1220,
@@ -1856,22 +1804,32 @@
   },
   {
    "date": "2026-08-08",
-   "spend": 46.41,
-   "impressions": 1219,
-   "clicks": 65,
-   "ctr": 5.33,
-   "cpc": 0.71,
+   "spend": 46.84,
+   "impressions": 1239,
+   "clicks": 68,
+   "ctr": 5.49,
+   "cpc": 0.69,
+   "purchases": 0,
+   "purchase_value": 0.0
+  },
+  {
+   "date": "2026-08-09",
+   "spend": 0.0,
+   "impressions": 0,
+   "clicks": 0,
+   "ctr": 0.0,
+   "cpc": 0.0,
    "purchases": 0,
    "purchase_value": 0.0
   }
  ],
  "ads_today": {
-  "date": "2026-08-08",
-  "spend": 46.41,
-  "impressions": 1219,
-  "clicks": 65,
-  "ctr": 5.33,
-  "cpc": 0.71,
+  "date": "2026-08-09",
+  "spend": 0.0,
+  "impressions": 0,
+  "clicks": 0,
+  "ctr": 0.0,
+  "cpc": 0.0,
   "purchases": 0,
   "purchase_value": 0.0
  },
@@ -1880,31 +1838,31 @@
    "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
    "status": "ACTIVE",
    "daily_budget": 30.0,
-   "spend": 1209.11,
-   "impressions": 40491,
-   "clicks": 1649,
-   "ctr": 4.07,
+   "spend": 1183.14,
+   "impressions": 39524,
+   "clicks": 1624,
+   "ctr": 4.11,
    "cpc": 0.73,
-   "roas": 2.2113,
-   "purchases": 15,
-   "purchase_value": 2673.71,
-   "atc": 48,
-   "reach": 21864
+   "roas": 1.9142,
+   "purchases": 12,
+   "purchase_value": 2264.76,
+   "atc": 45,
+   "reach": 21779
   },
   {
    "name": "Lumara \u2014 Sales \u2014 Winners Broad CBO (Jul 2026)",
    "status": "ACTIVE",
    "daily_budget": 30.0,
-   "spend": 702.12,
-   "impressions": 17001,
-   "clicks": 903,
+   "spend": 725.34,
+   "impressions": 17561,
+   "clicks": 932,
    "ctr": 5.31,
    "cpc": 0.78,
-   "roas": 1.0422,
+   "roas": 1.0089,
    "purchases": 5,
    "purchase_value": 731.76,
    "atc": 29,
-   "reach": 10675
+   "reach": 10912
   },
   {
    "name": "Lumara \u2014 Retargeting \u2014 AU \u2014 Website 30d (Jun 2026)",
