@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-08-09T10:59:57Z",
+ "generated_at_utc": "2026-08-09T11:20:06Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,18 +9,32 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-08-09T10:59:57Z"
+   "fetched_at": "2026-08-09T11:20:06Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-08-09T10:59:57Z"
+   "fetched_at": "2026-08-09T11:20:06Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-08-09T10:59:57Z"
+   "fetched_at": "2026-08-09T11:20:06Z"
   }
  },
  "orders": [
+  {
+   "name": "#1041",
+   "createdAt": "2026-08-09T11:13:23Z",
+   "financial": "PAID",
+   "fulfillment": "UNFULFILLED",
+   "total": 319.95,
+   "customer": "Beth Gaze",
+   "items": [
+    {
+     "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
+     "quantity": 1
+    }
+   ]
+  },
   {
    "name": "#1040",
    "createdAt": "2026-08-09T00:22:16Z",
@@ -362,9 +376,15 @@
    "createdAt": "2026-08-09T00:22:16Z",
    "total": 270.0,
    "customer": "Teagan Wex"
+  },
+  {
+   "name": "#1041",
+   "createdAt": "2026-08-09T11:13:23Z",
+   "total": 319.95,
+   "customer": "Beth Gaze"
   }
  ],
- "customers_total": 59,
+ "customers_total": 60,
  "abandoned_checkouts_recent": 0,
  "inventory": [
   {
@@ -478,7 +498,7 @@
   {
    "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
    "sku": "Y8238-1",
-   "qty": 3,
+   "qty": 2,
    "price": 299.99,
    "status": "ACTIVE",
    "tracked": true,
@@ -1834,10 +1854,10 @@
   },
   {
    "date": "2026-08-09",
-   "spend": 62.73,
-   "impressions": 1287,
-   "clicks": 74,
-   "ctr": 5.75,
+   "spend": 63.55,
+   "impressions": 1308,
+   "clicks": 75,
+   "ctr": 5.73,
    "cpc": 0.85,
    "purchases": 1,
    "purchase_value": 270.0
@@ -1845,10 +1865,10 @@
  ],
  "ads_today": {
   "date": "2026-08-09",
-  "spend": 62.73,
-  "impressions": 1287,
-  "clicks": 74,
-  "ctr": 5.75,
+  "spend": 63.55,
+  "impressions": 1308,
+  "clicks": 75,
+  "ctr": 5.73,
   "cpc": 0.85,
   "purchases": 1,
   "purchase_value": 270.0

@@ -3,55 +3,55 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-09T10:59:57Z",
-  "generated_at_local": "Sun 9 Aug 2026, 8:59pm AEST",
+  "generated_at_utc": "2026-08-09T11:20:06Z",
+  "generated_at_local": "Sun 9 Aug 2026, 9:20pm AEST",
   "today": "2026-08-09",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-09T10:59:57Z"
+    "fetched_at": "2026-08-09T11:20:06Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-08-09T10:59:57Z"
+    "fetched_at": "2026-08-09T11:20:06Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-09T10:59:57Z"
+    "fetched_at": "2026-08-09T11:20:06Z"
    }
   }
  },
  "alerts": [
   {
    "level": "serious",
-   "title": "2 paid order(s) awaiting fulfilment",
-   "body": "#1039, #1040"
+   "title": "3 paid order(s) awaiting fulfilment",
+   "body": "#1039, #1040, #1041"
   },
   {
    "level": "warning",
    "title": "4 product(s) at 3 units or fewer",
-   "body": "Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral (1), Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass (1), Table Swag Olive Candelabra (2), Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement (3)"
+   "body": "Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral (1), Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass (1), Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement (2), Table Swag Olive Candelabra (2)"
   }
  ],
  "sales": {
   "today": {
-   "orders": 1,
-   "revenue": 270.0,
-   "aov": 270.0
+   "orders": 2,
+   "revenue": 589.95,
+   "aov": 294.98
   },
   "d7": {
-   "orders": 4,
-   "revenue": 1399.88,
-   "aov": 349.97
+   "orders": 5,
+   "revenue": 1719.83,
+   "aov": 343.97
   },
   "d30": {
-   "orders": 22,
-   "revenue": 4004.35,
-   "aov": 182.02
+   "orders": 23,
+   "revenue": 4324.3,
+   "aov": 188.01
   },
   "prev7_revenue": 514.83,
-  "wow_pct": 171.9,
-  "pending_fulfilment": 2,
+  "wow_pct": 234.1,
+  "pending_fulfilment": 3,
   "pending_orders": [
    {
     "name": "#1039",
@@ -64,16 +64,22 @@
     "createdAt": "2026-08-09T00:22:16Z",
     "total": 270.0,
     "customer": "Teagan Wex"
+   },
+   {
+    "name": "#1041",
+    "createdAt": "2026-08-09T11:13:23Z",
+    "total": 319.95,
+    "customer": "Beth Gaze"
    }
   ],
   "abandoned_checkouts": 0,
-  "customers_total": 59,
+  "customers_total": 60,
   "days_since_order": 0,
   "last_order": {
-   "name": "#1040",
-   "when": "9 aug, 10:22am",
-   "total": 270.0,
-   "customer": "Teagan Wex"
+   "name": "#1041",
+   "when": "9 aug, 9:13pm",
+   "total": 319.95,
+   "customer": "Beth Gaze"
   },
   "daily": [
    {
@@ -253,11 +259,20 @@
    {
     "date": "2026-08-09",
     "label": "9 Aug",
-    "orders": 1,
-    "revenue": 270.0
+    "orders": 2,
+    "revenue": 589.95
    }
   ],
   "recent": [
+   {
+    "name": "#1041",
+    "when": "9 aug, 9:13pm",
+    "total": 319.95,
+    "customer": "Beth Gaze",
+    "fulfillment": "UNFULFILLED",
+    "financial": "PAID",
+    "items": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement"
+   },
    {
     "name": "#1040",
     "when": "9 aug, 10:22am",
@@ -320,21 +335,12 @@
     "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Talia Vase"
-   },
-   {
-    "name": "#1033",
-    "when": "28 jul, 2:19pm",
-    "total": 92.94,
-    "customer": "Sharyn Howes",
-    "fulfillment": "FULFILLED",
-    "financial": "PAID",
-    "items": "Lumara Urn Candle Holder Set of 3 \u2014 Ceramic Neutral"
    }
   ],
   "top_sellers": [
    {
     "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
-    "units": 7
+    "units": 8
    },
    {
     "title": "Talia Vase",
@@ -360,26 +366,26 @@
  },
  "ads": {
   "today": {
-   "spend": 62.73,
+   "spend": 63.55,
    "value": 270.0,
-   "roas": 4.3,
-   "clicks": 74,
-   "impressions": 1287,
+   "roas": 4.25,
+   "clicks": 75,
+   "impressions": 1308,
    "purchases": 1,
    "cpc": 0.85,
-   "ctr": 5.75,
-   "cpa": 62.73
+   "ctr": 5.73,
+   "cpa": 63.55
   },
   "d7": {
-   "spend": 452.57,
+   "spend": 453.39,
    "value": 1399.88,
    "roas": 3.09,
-   "clicks": 631,
-   "impressions": 10140,
+   "clicks": 632,
+   "impressions": 10161,
    "purchases": 4,
    "cpc": 0.72,
    "ctr": 6.22,
-   "cpa": 113.14
+   "cpa": 113.35
   },
   "prev7": {
    "spend": 386.37,
@@ -524,11 +530,11 @@
    {
     "date": "2026-08-09",
     "label": "9 Aug",
-    "spend": 62.73,
+    "spend": 63.55,
     "revenue": 270.0,
     "purchases": 1,
-    "clicks": 74,
-    "ctr": 5.75,
+    "clicks": 75,
+    "ctr": 5.73,
     "cpc": 0.85
    }
   ],
@@ -648,7 +654,7 @@
   "watch": 3,
   "healthy": 74,
   "untracked": 52,
-  "stock_value": 90660.36,
+  "stock_value": 90360.37,
   "oos_list": [],
   "oos_sellers": [],
   "low_list": [
@@ -675,6 +681,17 @@
     "days_cover": 15.0
    },
    {
+    "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
+    "sku": "Y8238-1",
+    "qty": 2,
+    "price": 299.99,
+    "status": "ACTIVE",
+    "tracked": true,
+    "available": true,
+    "sold_30d": 8,
+    "days_cover": 7.5
+   },
+   {
     "title": "Table Swag Olive Candelabra",
     "sku": "QA5903-3",
     "qty": 2,
@@ -684,17 +701,6 @@
     "available": true,
     "sold_30d": 1,
     "days_cover": 60.0
-   },
-   {
-    "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
-    "sku": "Y8238-1",
-    "qty": 3,
-    "price": 299.99,
-    "status": "ACTIVE",
-    "tracked": true,
-    "available": true,
-    "sold_30d": 7,
-    "days_cover": 12.9
    },
    {
     "title": "Lumara Alegra Statement Vase \u2014 Sculptural Metal",
