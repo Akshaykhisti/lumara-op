@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-08-10T13:52:45Z",
+ "generated_at_utc": "2026-08-10T14:08:05Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-08-10T13:52:45Z"
+   "fetched_at": "2026-08-10T14:08:05Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-08-10T13:52:45Z"
+   "fetched_at": "2026-08-10T14:08:05Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-08-10T13:52:45Z"
+   "fetched_at": "2026-08-10T14:08:05Z"
   }
  },
  "orders": [
@@ -1694,16 +1694,6 @@
  ],
  "ads_daily": [
   {
-   "date": "2026-07-27",
-   "spend": 36.09,
-   "impressions": 741,
-   "clicks": 24,
-   "ctr": 3.24,
-   "cpc": 1.5,
-   "purchases": 0,
-   "purchase_value": 0.0
-  },
-  {
    "date": "2026-07-28",
    "spend": 35.47,
    "impressions": 744,
@@ -1842,15 +1832,25 @@
    "cpc": 0.88,
    "purchases": 0,
    "purchase_value": 0.0
+  },
+  {
+   "date": "2026-08-11",
+   "spend": 0.0,
+   "impressions": 0,
+   "clicks": 0,
+   "ctr": 0.0,
+   "cpc": 0.0,
+   "purchases": 0,
+   "purchase_value": 0.0
   }
  ],
  "ads_today": {
-  "date": "2026-08-10",
-  "spend": 63.26,
-  "impressions": 1300,
-  "clicks": 72,
-  "ctr": 5.54,
-  "cpc": 0.88,
+  "date": "2026-08-11",
+  "spend": 0.0,
+  "impressions": 0,
+  "clicks": 0,
+  "ctr": 0.0,
+  "cpc": 0.0,
   "purchases": 0,
   "purchase_value": 0.0
  },
@@ -1859,31 +1859,31 @@
    "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
    "status": "ACTIVE",
    "daily_budget": 30.0,
-   "spend": 1167.39,
-   "impressions": 38793,
-   "clicks": 1599,
+   "spend": 1153.01,
+   "impressions": 37893,
+   "clicks": 1561,
    "ctr": 4.12,
-   "cpc": 0.73,
-   "roas": 2.1713,
+   "cpc": 0.74,
+   "roas": 2.1984,
    "purchases": 13,
    "purchase_value": 2534.76,
-   "atc": 44,
-   "reach": 21597
+   "atc": 43,
+   "reach": 21222
   },
   {
    "name": "Lumara \u2014 Sales \u2014 Winners Broad CBO (Jul 2026)",
    "status": "ACTIVE",
    "daily_budget": 30.0,
-   "spend": 761.99,
-   "impressions": 18213,
-   "clicks": 980,
-   "ctr": 5.38,
+   "spend": 794.17,
+   "impressions": 18883,
+   "clicks": 1021,
+   "ctr": 5.41,
    "cpc": 0.78,
-   "roas": 1.3802,
+   "roas": 1.3243,
    "purchases": 6,
    "purchase_value": 1051.71,
    "atc": 31,
-   "reach": 11205
+   "reach": 11470
   },
   {
    "name": "Lumara \u2014 Retargeting \u2014 AU \u2014 Website 30d (Jun 2026)",
