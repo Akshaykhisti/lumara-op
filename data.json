@@ -3,30 +3,25 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-10T12:31:59Z",
-  "generated_at_local": "Mon 10 Aug 2026, 10:31pm AEST",
+  "generated_at_utc": "2026-08-10T12:52:10Z",
+  "generated_at_local": "Mon 10 Aug 2026, 10:52pm AEST",
   "today": "2026-08-10",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-10T12:31:59Z"
+    "fetched_at": "2026-08-10T12:52:10Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-08-10T12:31:59Z"
+    "fetched_at": "2026-08-10T12:52:10Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-10T12:31:59Z"
+    "fetched_at": "2026-08-10T12:52:10Z"
    }
   }
  },
  "alerts": [
-  {
-   "level": "serious",
-   "title": "1 paid order(s) awaiting fulfilment",
-   "body": "#1041"
-  },
   {
    "level": "warning",
    "title": "4 product(s) at 3 units or fewer",
@@ -51,15 +46,8 @@
   },
   "prev7_revenue": 514.83,
   "wow_pct": 234.1,
-  "pending_fulfilment": 1,
-  "pending_orders": [
-   {
-    "name": "#1041",
-    "createdAt": "2026-08-09T11:13:23Z",
-    "total": 319.95,
-    "customer": "Beth Gaze"
-   }
-  ],
+  "pending_fulfilment": 0,
+  "pending_orders": [],
   "abandoned_checkouts": 0,
   "customers_total": 60,
   "days_since_order": 1,
@@ -257,7 +245,7 @@
     "when": "9 aug, 9:13pm",
     "total": 319.95,
     "customer": "Beth Gaze",
-    "fulfillment": "UNFULFILLED",
+    "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement"
    },
@@ -354,26 +342,26 @@
  },
  "ads": {
   "today": {
-   "spend": 60.61,
+   "spend": 61.49,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 70,
-   "impressions": 1255,
+   "clicks": 71,
+   "impressions": 1277,
    "purchases": 0,
    "cpc": 0.87,
-   "ctr": 5.58,
+   "ctr": 5.56,
    "cpa": null
   },
   "d7": {
-   "spend": 434.0,
+   "spend": 434.88,
    "value": 1719.83,
-   "roas": 3.96,
-   "clicks": 569,
-   "impressions": 9355,
+   "roas": 3.95,
+   "clicks": 570,
+   "impressions": 9377,
    "purchases": 5,
    "cpc": 0.76,
    "ctr": 6.08,
-   "cpa": 86.8
+   "cpa": 86.98
   },
   "prev7": {
    "spend": 436.98,
@@ -383,7 +371,7 @@
   "daily_budget_live": 60.0,
   "active_campaigns": 2,
   "dry_days": 1,
-  "dry_spend": 60.61,
+  "dry_spend": 61.49,
   "series": [
    {
     "date": "2026-07-28",
@@ -518,11 +506,11 @@
    {
     "date": "2026-08-10",
     "label": "10 Aug",
-    "spend": 60.61,
+    "spend": 61.49,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 70,
-    "ctr": 5.58,
+    "clicks": 71,
+    "ctr": 5.56,
     "cpc": 0.87
    }
   ],
