@@ -3,28 +3,28 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-11T13:48:38Z",
-  "generated_at_local": "Tue 11 Aug 2026, 11:48pm AEST",
-  "today": "2026-08-11",
+  "generated_at_utc": "2026-08-11T14:08:58Z",
+  "generated_at_local": "Wed 12 Aug 2026, 12:08am AEST",
+  "today": "2026-08-12",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-11T13:48:38Z"
+    "fetched_at": "2026-08-11T14:08:58Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-08-11T13:48:38Z"
+    "fetched_at": "2026-08-11T14:08:58Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-11T13:48:38Z"
+    "fetched_at": "2026-08-11T14:08:58Z"
    }
   }
  },
  "alerts": [
   {
    "level": "warning",
-   "title": "No orders for 2 days",
+   "title": "No orders for 3 days",
    "body": "Last order was #1041 on 9 Aug. Ads have spent $127 since the last attributed purchase."
   },
   {
@@ -45,17 +45,17 @@
    "aov": 343.97
   },
   "d30": {
-   "orders": 21,
-   "revenue": 3927.51,
-   "aov": 187.02
+   "orders": 20,
+   "revenue": 3636.57,
+   "aov": 181.83
   },
-  "prev7_revenue": 421.89,
-  "wow_pct": 307.6,
+  "prev7_revenue": 327.94,
+  "wow_pct": 424.4,
   "pending_fulfilment": 0,
   "pending_orders": [],
   "abandoned_checkouts": 0,
   "customers_total": 60,
-  "days_since_order": 2,
+  "days_since_order": 3,
   "last_order": {
    "name": "#1041",
    "when": "9 aug, 9:13pm",
@@ -63,12 +63,6 @@
    "customer": "Beth Gaze"
   },
   "daily": [
-   {
-    "date": "2026-07-13",
-    "label": "13 Jul",
-    "orders": 1,
-    "revenue": 290.94
-   },
    {
     "date": "2026-07-14",
     "label": "14 Jul",
@@ -242,6 +236,12 @@
     "label": "11 Aug",
     "orders": 0,
     "revenue": 0.0
+   },
+   {
+    "date": "2026-08-12",
+    "label": "12 Aug",
+    "orders": 0,
+    "revenue": 0.0
    }
   ],
   "recent": [
@@ -321,7 +321,7 @@
   "top_sellers": [
    {
     "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
-    "units": 7
+    "units": 6
    },
    {
     "title": "Talia Vase",
@@ -347,47 +347,37 @@
  },
  "ads": {
   "today": {
-   "spend": 62.43,
+   "spend": 0.0,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 74,
-   "impressions": 1794,
+   "clicks": 0,
+   "impressions": 0,
    "purchases": 0,
-   "cpc": 0.84,
-   "ctr": 4.12,
+   "cpc": 0.0,
+   "ctr": 0.0,
    "cpa": null
   },
   "d7": {
-   "spend": 422.86,
+   "spend": 360.57,
    "value": 1719.83,
-   "roas": 4.07,
-   "clicks": 546,
-   "impressions": 9511,
+   "roas": 4.77,
+   "clicks": 464,
+   "impressions": 8218,
    "purchases": 5,
-   "cpc": 0.77,
-   "ctr": 5.74,
-   "cpa": 84.57
+   "cpc": 0.78,
+   "ctr": 5.65,
+   "cpa": 72.11
   },
   "prev7": {
-   "spend": 478.73,
+   "spend": 502.39,
    "value": 102.94,
-   "roas": 0.22
+   "roas": 0.2
   },
   "daily_budget_live": 60.0,
   "active_campaigns": 2,
   "dry_days": 2,
-  "dry_spend": 126.58,
+  "dry_spend": 127.1,
   "series": [
-   {
-    "date": "2026-07-29",
-    "label": "29 Jul",
-    "spend": 39.15,
-    "revenue": 0.0,
-    "purchases": 0,
-    "clicks": 40,
-    "ctr": 4.42,
-    "cpc": 0.98
-   },
    {
     "date": "2026-07-30",
     "label": "30 Jul",
@@ -511,12 +501,22 @@
    {
     "date": "2026-08-11",
     "label": "11 Aug",
-    "spend": 62.43,
+    "spend": 62.95,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 74,
-    "ctr": 4.12,
+    "clicks": 75,
+    "ctr": 4.11,
     "cpc": 0.84
+   },
+   {
+    "date": "2026-08-12",
+    "label": "12 Aug",
+    "spend": 0.0,
+    "revenue": 0.0,
+    "purchases": 0,
+    "clicks": 0,
+    "ctr": 0.0,
+    "cpc": 0.0
    }
   ],
   "campaigns": [
@@ -524,31 +524,31 @@
     "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
     "status": "ACTIVE",
     "daily_budget": 30.0,
-    "spend": 1153.04,
-    "impressions": 37894,
-    "clicks": 1561,
-    "ctr": 4.12,
+    "spend": 1124.47,
+    "impressions": 36427,
+    "clicks": 1515,
+    "ctr": 4.16,
     "cpc": 0.74,
-    "roas": 2.1983,
-    "purchases": 13,
-    "purchase_value": 2534.76,
-    "atc": 43,
-    "reach": 21222
+    "roas": 1.9013,
+    "purchases": 11,
+    "purchase_value": 2137.97,
+    "atc": 37,
+    "reach": 21112
    },
    {
     "name": "Lumara \u2014 Sales \u2014 Winners Broad CBO (Jul 2026)",
     "status": "ACTIVE",
     "daily_budget": 30.0,
-    "spend": 795.14,
-    "impressions": 18889,
-    "clicks": 1021,
-    "ctr": 5.41,
-    "cpc": 0.78,
-    "roas": 1.3227,
+    "spend": 827.51,
+    "impressions": 19736,
+    "clicks": 1051,
+    "ctr": 5.33,
+    "cpc": 0.79,
+    "roas": 1.2709,
     "purchases": 6,
     "purchase_value": 1051.71,
     "atc": 31,
-    "reach": 11470
+    "reach": 12025
    },
    {
     "name": "Lumara \u2014 Retargeting \u2014 AU \u2014 Website 30d (Jun 2026)",
@@ -669,8 +669,8 @@
     "status": "ACTIVE",
     "tracked": true,
     "available": true,
-    "sold_30d": 7,
-    "days_cover": 8.6
+    "sold_30d": 6,
+    "days_cover": 10.0
    },
    {
     "title": "Table Swag Olive Candelabra",
