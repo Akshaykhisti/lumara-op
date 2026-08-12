@@ -3,34 +3,34 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-12T10:36:52Z",
-  "generated_at_local": "Wed 12 Aug 2026, 8:36pm AEST",
+  "generated_at_utc": "2026-08-12T10:57:03Z",
+  "generated_at_local": "Wed 12 Aug 2026, 8:57pm AEST",
   "today": "2026-08-12",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-12T10:36:52Z"
+    "fetched_at": "2026-08-12T10:57:03Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-08-12T10:36:52Z"
+    "fetched_at": "2026-08-12T10:57:03Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-12T10:36:52Z"
+    "fetched_at": "2026-08-12T10:57:03Z"
    }
   }
  },
  "alerts": [
   {
    "level": "critical",
-   "title": "$180 ad spend, 0 purchases (3 days)",
+   "title": "$181 ad spend, 0 purchases (3 days)",
    "body": "No store orders in that window either. 2 campaign(s) live at $60/day. Check pixel/tracking and landing pages before topping up budget."
   },
   {
    "level": "warning",
    "title": "No orders for 3 days",
-   "body": "Last order was #1041 on 9 Aug. Ads have spent $180 since the last attributed purchase."
+   "body": "Last order was #1041 on 9 Aug. Ads have spent $181 since the last attributed purchase."
   },
   {
    "level": "warning",
@@ -352,26 +352,26 @@
  },
  "ads": {
   "today": {
-   "spend": 52.1,
+   "spend": 52.36,
    "value": 0.0,
    "roas": 0.0,
    "clicks": 66,
-   "impressions": 1880,
+   "impressions": 1893,
    "purchases": 0,
    "cpc": 0.79,
-   "ctr": 3.51,
+   "ctr": 3.49,
    "cpa": null
   },
   "d7": {
-   "spend": 413.95,
+   "spend": 414.21,
    "value": 1719.83,
    "roas": 4.15,
    "clicks": 530,
-   "impressions": 10125,
+   "impressions": 10138,
    "purchases": 5,
    "cpc": 0.78,
    "ctr": 5.23,
-   "cpa": 82.79
+   "cpa": 82.84
   },
   "prev7": {
    "spend": 502.39,
@@ -381,7 +381,7 @@
   "daily_budget_live": 60.0,
   "active_campaigns": 2,
   "dry_days": 3,
-  "dry_spend": 180.48,
+  "dry_spend": 180.74,
   "series": [
    {
     "date": "2026-07-30",
@@ -516,11 +516,11 @@
    {
     "date": "2026-08-12",
     "label": "12 Aug",
-    "spend": 52.1,
+    "spend": 52.36,
     "revenue": 0.0,
     "purchases": 0,
     "clicks": 66,
-    "ctr": 3.51,
+    "ctr": 3.49,
     "cpc": 0.79
    }
   ],
