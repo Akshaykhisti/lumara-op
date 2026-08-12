@@ -3,34 +3,34 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-12T13:49:07Z",
-  "generated_at_local": "Wed 12 Aug 2026, 11:49pm AEST",
-  "today": "2026-08-12",
+  "generated_at_utc": "2026-08-12T14:09:16Z",
+  "generated_at_local": "Thu 13 Aug 2026, 12:09am AEST",
+  "today": "2026-08-13",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-12T13:49:07Z"
+    "fetched_at": "2026-08-12T14:09:16Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-08-12T13:49:07Z"
+    "fetched_at": "2026-08-12T14:09:16Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-12T13:49:07Z"
+    "fetched_at": "2026-08-12T14:09:16Z"
    }
   }
  },
  "alerts": [
   {
    "level": "critical",
-   "title": "$185 ad spend, 0 purchases (3 days)",
-   "body": "No store orders in that window either. 2 campaign(s) live at $60/day. Check pixel/tracking and landing pages before topping up budget."
+   "title": "No orders for 4 days",
+   "body": "Last order was #1041 on 9 Aug. Ads have spent $185 since the last attributed purchase."
   },
   {
-   "level": "warning",
-   "title": "No orders for 3 days",
-   "body": "Last order was #1041 on 9 Aug. Ads have spent $185 since the last attributed purchase."
+   "level": "critical",
+   "title": "$185 ad spend, 0 purchases (3 days)",
+   "body": "No store orders in that window either. 2 campaign(s) live at $60/day. Check pixel/tracking and landing pages before topping up budget."
   },
   {
    "level": "warning",
@@ -45,22 +45,22 @@
    "aov": 0.0
   },
   "d7": {
-   "orders": 5,
-   "revenue": 1719.83,
-   "aov": 343.97
+   "orders": 3,
+   "revenue": 889.94,
+   "aov": 296.65
   },
   "d30": {
-   "orders": 20,
-   "revenue": 3636.57,
-   "aov": 181.83
+   "orders": 19,
+   "revenue": 3372.72,
+   "aov": 177.51
   },
-  "prev7_revenue": 327.94,
-  "wow_pct": 424.4,
+  "prev7_revenue": 1157.83,
+  "wow_pct": -23.1,
   "pending_fulfilment": 0,
   "pending_orders": [],
   "abandoned_checkouts": 0,
   "customers_total": 60,
-  "days_since_order": 3,
+  "days_since_order": 4,
   "last_order": {
    "name": "#1041",
    "when": "9 aug, 9:13pm",
@@ -68,12 +68,6 @@
    "customer": "Beth Gaze"
   },
   "daily": [
-   {
-    "date": "2026-07-14",
-    "label": "14 Jul",
-    "orders": 1,
-    "revenue": 263.85
-   },
    {
     "date": "2026-07-15",
     "label": "15 Jul",
@@ -247,6 +241,12 @@
     "label": "12 Aug",
     "orders": 0,
     "revenue": 0.0
+   },
+   {
+    "date": "2026-08-13",
+    "label": "13 Aug",
+    "orders": 0,
+    "revenue": 0.0
    }
   ],
   "recent": [
@@ -326,7 +326,7 @@
   "top_sellers": [
    {
     "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
-    "units": 6
+    "units": 5
    },
    {
     "title": "Talia Vase",
@@ -352,47 +352,37 @@
  },
  "ads": {
   "today": {
-   "spend": 56.29,
+   "spend": 0.0,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 70,
-   "impressions": 1996,
+   "clicks": 0,
+   "impressions": 0,
    "purchases": 0,
-   "cpc": 0.8,
-   "ctr": 3.51,
+   "cpc": 0.0,
+   "ctr": 0.0,
    "cpa": null
   },
   "d7": {
-   "spend": 418.17,
-   "value": 1719.83,
-   "roas": 4.11,
-   "clicks": 534,
-   "impressions": 10243,
-   "purchases": 5,
-   "cpc": 0.78,
-   "ctr": 5.21,
-   "cpa": 83.63
+   "spend": 362.38,
+   "value": 889.94,
+   "roas": 2.46,
+   "clicks": 453,
+   "impressions": 9031,
+   "purchases": 3,
+   "cpc": 0.8,
+   "ctr": 5.02,
+   "cpa": 120.79
   },
   "prev7": {
-   "spend": 502.39,
-   "value": 102.94,
-   "roas": 0.2
+   "spend": 520.82,
+   "value": 932.83,
+   "roas": 1.79
   },
   "daily_budget_live": 60.0,
   "active_campaigns": 2,
   "dry_days": 3,
-  "dry_spend": 184.7,
+  "dry_spend": 184.71,
   "series": [
-   {
-    "date": "2026-07-30",
-    "label": "30 Jul",
-    "spend": 37.37,
-    "revenue": 0.0,
-    "purchases": 0,
-    "clicks": 51,
-    "ctr": 5.98,
-    "cpc": 0.73
-   },
    {
     "date": "2026-07-31",
     "label": "31 Jul",
@@ -516,12 +506,22 @@
    {
     "date": "2026-08-12",
     "label": "12 Aug",
-    "spend": 56.29,
+    "spend": 56.3,
     "revenue": 0.0,
     "purchases": 0,
     "clicks": 70,
     "ctr": 3.51,
     "cpc": 0.8
+   },
+   {
+    "date": "2026-08-13",
+    "label": "13 Aug",
+    "spend": 0.0,
+    "revenue": 0.0,
+    "purchases": 0,
+    "clicks": 0,
+    "ctr": 0.0,
+    "cpc": 0.0
    }
   ],
   "campaigns": [
@@ -529,31 +529,31 @@
     "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
     "status": "ACTIVE",
     "daily_budget": 30.0,
-    "spend": 1125.1,
-    "impressions": 36444,
-    "clicks": 1515,
-    "ctr": 4.16,
-    "cpc": 0.74,
-    "roas": 1.9002,
+    "spend": 1104.39,
+    "impressions": 35614,
+    "clicks": 1466,
+    "ctr": 4.12,
+    "cpc": 0.75,
+    "roas": 1.9359,
     "purchases": 11,
     "purchase_value": 2137.97,
-    "atc": 37,
-    "reach": 21112
+    "atc": 36,
+    "reach": 20952
    },
    {
     "name": "Lumara \u2014 Sales \u2014 Winners Broad CBO (Jul 2026)",
     "status": "ACTIVE",
     "daily_budget": 30.0,
-    "spend": 828.19,
-    "impressions": 19748,
-    "clicks": 1051,
-    "ctr": 5.32,
-    "cpc": 0.79,
-    "roas": 1.2699,
+    "spend": 844.25,
+    "impressions": 20273,
+    "clicks": 1054,
+    "ctr": 5.2,
+    "cpc": 0.8,
+    "roas": 1.2457,
     "purchases": 6,
     "purchase_value": 1051.71,
-    "atc": 31,
-    "reach": 12077
+    "atc": 30,
+    "reach": 12551
    },
    {
     "name": "Lumara \u2014 Retargeting \u2014 AU \u2014 Website 30d (Jun 2026)",
@@ -674,8 +674,8 @@
     "status": "ACTIVE",
     "tracked": true,
     "available": true,
-    "sold_30d": 6,
-    "days_cover": 10.0
+    "sold_30d": 5,
+    "days_cover": 12.0
    },
    {
     "title": "Table Swag Olive Candelabra",
