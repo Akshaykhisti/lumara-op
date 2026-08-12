@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-08-12T18:02:08Z",
+ "generated_at_utc": "2026-08-12T18:22:16Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-08-12T18:02:08Z"
+   "fetched_at": "2026-08-12T18:22:16Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-08-12T18:02:08Z"
+   "fetched_at": "2026-08-12T18:22:16Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-08-12T18:02:08Z"
+   "fetched_at": "2026-08-12T18:22:16Z"
   }
  },
  "orders": [
@@ -323,8 +323,8 @@
   }
  ],
  "unfulfilled_paid": [],
- "customers_total": 60,
- "abandoned_checkouts_recent": 0,
+ "customers_total": 61,
+ "abandoned_checkouts_recent": 1,
  "inventory": [
   {
    "title": "Lumara Cayman Rattan Table Lamp \u2014 Coastal Natural Style",
@@ -1793,22 +1793,22 @@
   },
   {
    "date": "2026-08-13",
-   "spend": 6.63,
-   "impressions": 226,
-   "clicks": 14,
-   "ctr": 6.19,
-   "cpc": 0.47,
+   "spend": 7.78,
+   "impressions": 245,
+   "clicks": 19,
+   "ctr": 7.76,
+   "cpc": 0.41,
    "purchases": 0,
    "purchase_value": 0.0
   }
  ],
  "ads_today": {
   "date": "2026-08-13",
-  "spend": 6.63,
-  "impressions": 226,
-  "clicks": 14,
-  "ctr": 6.19,
-  "cpc": 0.47,
+  "spend": 7.78,
+  "impressions": 245,
+  "clicks": 19,
+  "ctr": 7.76,
+  "cpc": 0.41,
   "purchases": 0,
   "purchase_value": 0.0
  },
