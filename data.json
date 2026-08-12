@@ -3,34 +3,34 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-12T04:48:16Z",
-  "generated_at_local": "Wed 12 Aug 2026, 2:48pm AEST",
+  "generated_at_utc": "2026-08-12T05:08:24Z",
+  "generated_at_local": "Wed 12 Aug 2026, 3:08pm AEST",
   "today": "2026-08-12",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-12T04:48:16Z"
+    "fetched_at": "2026-08-12T05:08:24Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-08-12T04:48:16Z"
+    "fetched_at": "2026-08-12T05:08:24Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-12T04:48:16Z"
+    "fetched_at": "2026-08-12T05:08:24Z"
    }
   }
  },
  "alerts": [
   {
    "level": "critical",
-   "title": "$162 ad spend, 0 purchases (3 days)",
+   "title": "$166 ad spend, 0 purchases (3 days)",
    "body": "No store orders in that window either. 2 campaign(s) live at $60/day. Check pixel/tracking and landing pages before topping up budget."
   },
   {
    "level": "warning",
    "title": "No orders for 3 days",
-   "body": "Last order was #1041 on 9 Aug. Ads have spent $162 since the last attributed purchase."
+   "body": "Last order was #1041 on 9 Aug. Ads have spent $166 since the last attributed purchase."
   },
   {
    "level": "warning",
@@ -352,26 +352,26 @@
  },
  "ads": {
   "today": {
-   "spend": 33.87,
+   "spend": 37.9,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 42,
-   "impressions": 1318,
+   "clicks": 48,
+   "impressions": 1441,
    "purchases": 0,
-   "cpc": 0.81,
-   "ctr": 3.19,
+   "cpc": 0.79,
+   "ctr": 3.33,
    "cpa": null
   },
   "d7": {
-   "spend": 395.57,
+   "spend": 399.6,
    "value": 1719.83,
-   "roas": 4.35,
-   "clicks": 506,
-   "impressions": 9562,
+   "roas": 4.3,
+   "clicks": 512,
+   "impressions": 9685,
    "purchases": 5,
    "cpc": 0.78,
    "ctr": 5.29,
-   "cpa": 79.11
+   "cpa": 79.92
   },
   "prev7": {
    "spend": 502.39,
@@ -381,7 +381,7 @@
   "daily_budget_live": 60.0,
   "active_campaigns": 2,
   "dry_days": 3,
-  "dry_spend": 162.1,
+  "dry_spend": 166.13,
   "series": [
    {
     "date": "2026-07-30",
@@ -516,12 +516,12 @@
    {
     "date": "2026-08-12",
     "label": "12 Aug",
-    "spend": 33.87,
+    "spend": 37.9,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 42,
-    "ctr": 3.19,
-    "cpc": 0.81
+    "clicks": 48,
+    "ctr": 3.33,
+    "cpc": 0.79
    }
   ],
   "campaigns": [
