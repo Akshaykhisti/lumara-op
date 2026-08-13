@@ -3,28 +3,28 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-13T13:40:07Z",
-  "generated_at_local": "Thu 13 Aug 2026, 11:40pm AEST",
-  "today": "2026-08-13",
+  "generated_at_utc": "2026-08-13T14:00:18Z",
+  "generated_at_local": "Fri 14 Aug 2026, 12:00am AEST",
+  "today": "2026-08-14",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-13T13:40:07Z"
+    "fetched_at": "2026-08-13T14:00:18Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-08-13T13:40:07Z"
+    "fetched_at": "2026-08-13T14:00:18Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-13T13:40:07Z"
+    "fetched_at": "2026-08-13T14:00:18Z"
    }
   }
  },
  "alerts": [
   {
    "level": "critical",
-   "title": "No orders for 4 days",
+   "title": "No orders for 5 days",
    "body": "Last order was #1041 on 9 Aug. Ads have spent $262 since the last attributed purchase."
   },
   {
@@ -45,22 +45,22 @@
    "aov": 0.0
   },
   "d7": {
-   "orders": 3,
-   "revenue": 889.94,
-   "aov": 296.65
+   "orders": 2,
+   "revenue": 589.95,
+   "aov": 294.98
   },
   "d30": {
-   "orders": 19,
-   "revenue": 3372.72,
-   "aov": 177.51
+   "orders": 18,
+   "revenue": 3283.27,
+   "aov": 182.4
   },
-  "prev7_revenue": 1157.83,
-  "wow_pct": -23.1,
+  "prev7_revenue": 1457.82,
+  "wow_pct": -59.5,
   "pending_fulfilment": 0,
   "pending_orders": [],
   "abandoned_checkouts": 1,
   "customers_total": 61,
-  "days_since_order": 4,
+  "days_since_order": 5,
   "last_order": {
    "name": "#1041",
    "when": "9 aug, 9:13pm",
@@ -68,12 +68,6 @@
    "customer": "Beth Gaze"
   },
   "daily": [
-   {
-    "date": "2026-07-15",
-    "label": "15 Jul",
-    "orders": 1,
-    "revenue": 89.45
-   },
    {
     "date": "2026-07-16",
     "label": "16 Jul",
@@ -247,6 +241,12 @@
     "label": "13 Aug",
     "orders": 0,
     "revenue": 0.0
+   },
+   {
+    "date": "2026-08-14",
+    "label": "14 Aug",
+    "orders": 0,
+    "revenue": 0.0
    }
   ],
   "recent": [
@@ -341,58 +341,48 @@
     "units": 2
    },
    {
-    "title": "Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass",
-    "units": 2
+    "title": "Lumara Navy Shell Framed Print II \u2014 60 \u00d7 80 cm",
+    "units": 1
    },
    {
-    "title": "Lumara Navy Shell Framed Print II \u2014 60 \u00d7 80 cm",
+    "title": "Lumara Navy Shell Framed Print I \u2014 60 \u00d7 80 cm",
     "units": 1
    }
   ]
  },
  "ads": {
   "today": {
-   "spend": 76.76,
+   "spend": 0.0,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 126,
-   "impressions": 2199,
+   "clicks": 0,
+   "impressions": 0,
    "purchases": 0,
-   "cpc": 0.61,
-   "ctr": 5.73,
+   "cpc": 0.0,
+   "ctr": 0.0,
    "cpa": null
   },
   "d7": {
-   "spend": 439.41,
-   "value": 889.94,
-   "roas": 2.03,
-   "clicks": 580,
-   "impressions": 11235,
-   "purchases": 3,
+   "spend": 379.04,
+   "value": 589.95,
+   "roas": 1.56,
+   "clicks": 497,
+   "impressions": 10061,
+   "purchases": 2,
    "cpc": 0.76,
-   "ctr": 5.16,
-   "cpa": 146.47
+   "ctr": 4.94,
+   "cpa": 189.52
   },
   "prev7": {
-   "spend": 520.82,
-   "value": 932.83,
-   "roas": 1.79
+   "spend": 552.02,
+   "value": 1232.82,
+   "roas": 2.23
   },
   "daily_budget_live": 60.0,
   "active_campaigns": 2,
   "dry_days": 4,
-  "dry_spend": 261.74,
+  "dry_spend": 261.82,
   "series": [
-   {
-    "date": "2026-07-31",
-    "label": "31 Jul",
-    "spend": 29.25,
-    "revenue": 0.0,
-    "purchases": 0,
-    "clicks": 34,
-    "ctr": 4.45,
-    "cpc": 0.86
-   },
    {
     "date": "2026-08-01",
     "label": "1 Aug",
@@ -516,12 +506,22 @@
    {
     "date": "2026-08-13",
     "label": "13 Aug",
-    "spend": 76.76,
+    "spend": 76.84,
     "revenue": 0.0,
     "purchases": 0,
     "clicks": 126,
-    "ctr": 5.73,
+    "ctr": 5.71,
     "cpc": 0.61
+   },
+   {
+    "date": "2026-08-14",
+    "label": "14 Aug",
+    "spend": 0.0,
+    "revenue": 0.0,
+    "purchases": 0,
+    "clicks": 0,
+    "ctr": 0.0,
+    "cpc": 0.0
    }
   ],
   "campaigns": [
@@ -529,31 +529,31 @@
     "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
     "status": "ACTIVE",
     "daily_budget": 30.0,
-    "spend": 1104.59,
-    "impressions": 35616,
-    "clicks": 1467,
-    "ctr": 4.12,
-    "cpc": 0.75,
-    "roas": 1.9355,
-    "purchases": 11,
-    "purchase_value": 2137.97,
+    "spend": 1096.11,
+    "impressions": 35204,
+    "clicks": 1477,
+    "ctr": 4.2,
+    "cpc": 0.74,
+    "roas": 1.7098,
+    "purchases": 10,
+    "purchase_value": 1874.12,
     "atc": 36,
-    "reach": 20952
+    "reach": 20917
    },
    {
     "name": "Lumara \u2014 Sales \u2014 Winners Broad CBO (Jul 2026)",
     "status": "ACTIVE",
     "daily_budget": 30.0,
-    "spend": 844.32,
-    "impressions": 20276,
-    "clicks": 1054,
-    "ctr": 5.2,
-    "cpc": 0.8,
-    "roas": 1.2456,
+    "spend": 856.4,
+    "impressions": 20462,
+    "clicks": 1062,
+    "ctr": 5.19,
+    "cpc": 0.81,
+    "roas": 1.2281,
     "purchases": 6,
     "purchase_value": 1051.71,
     "atc": 30,
-    "reach": 12551
+    "reach": 12907
    },
    {
     "name": "Lumara \u2014 Retargeting \u2014 AU \u2014 Website 30d (Jun 2026)",
@@ -663,8 +663,8 @@
     "status": "ACTIVE",
     "tracked": true,
     "available": true,
-    "sold_30d": 2,
-    "days_cover": 15.0
+    "sold_30d": 0,
+    "days_cover": null
    },
    {
     "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",

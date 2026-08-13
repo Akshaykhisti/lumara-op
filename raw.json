@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-08-13T13:40:07Z",
+ "generated_at_utc": "2026-08-13T14:00:18Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-08-13T13:40:07Z"
+   "fetched_at": "2026-08-13T14:00:18Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-08-13T13:40:07Z"
+   "fetched_at": "2026-08-13T14:00:18Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-08-13T13:40:07Z"
+   "fetched_at": "2026-08-13T14:00:18Z"
   }
  },
  "orders": [
@@ -303,20 +303,6 @@
     },
     {
      "title": "Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass",
-     "quantity": 1
-    }
-   ]
-  },
-  {
-   "name": "#1022",
-   "createdAt": "2026-07-14T11:59:12Z",
-   "financial": "PAID",
-   "fulfillment": "FULFILLED",
-   "total": 263.85,
-   "customer": "Tracey Bunt",
-   "items": [
-    {
-     "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
      "quantity": 1
     }
    ]
@@ -1652,16 +1638,6 @@
  ],
  "ads_daily": [
   {
-   "date": "2026-07-30",
-   "spend": 37.37,
-   "impressions": 853,
-   "clicks": 51,
-   "ctr": 5.98,
-   "cpc": 0.73,
-   "purchases": 0,
-   "purchase_value": 0.0
-  },
-  {
    "date": "2026-07-31",
    "spend": 29.25,
    "impressions": 764,
@@ -1793,22 +1769,32 @@
   },
   {
    "date": "2026-08-13",
-   "spend": 76.76,
-   "impressions": 2199,
+   "spend": 76.84,
+   "impressions": 2205,
    "clicks": 126,
-   "ctr": 5.73,
+   "ctr": 5.71,
    "cpc": 0.61,
+   "purchases": 0,
+   "purchase_value": 0.0
+  },
+  {
+   "date": "2026-08-14",
+   "spend": 0.0,
+   "impressions": 0,
+   "clicks": 0,
+   "ctr": 0.0,
+   "cpc": 0.0,
    "purchases": 0,
    "purchase_value": 0.0
   }
  ],
  "ads_today": {
-  "date": "2026-08-13",
-  "spend": 76.76,
-  "impressions": 2199,
-  "clicks": 126,
-  "ctr": 5.73,
-  "cpc": 0.61,
+  "date": "2026-08-14",
+  "spend": 0.0,
+  "impressions": 0,
+  "clicks": 0,
+  "ctr": 0.0,
+  "cpc": 0.0,
   "purchases": 0,
   "purchase_value": 0.0
  },
@@ -1817,31 +1803,31 @@
    "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
    "status": "ACTIVE",
    "daily_budget": 30.0,
-   "spend": 1104.59,
-   "impressions": 35616,
-   "clicks": 1467,
-   "ctr": 4.12,
-   "cpc": 0.75,
-   "roas": 1.9355,
-   "purchases": 11,
-   "purchase_value": 2137.97,
+   "spend": 1096.11,
+   "impressions": 35204,
+   "clicks": 1477,
+   "ctr": 4.2,
+   "cpc": 0.74,
+   "roas": 1.7098,
+   "purchases": 10,
+   "purchase_value": 1874.12,
    "atc": 36,
-   "reach": 20952
+   "reach": 20917
   },
   {
    "name": "Lumara \u2014 Sales \u2014 Winners Broad CBO (Jul 2026)",
    "status": "ACTIVE",
    "daily_budget": 30.0,
-   "spend": 844.32,
-   "impressions": 20276,
-   "clicks": 1054,
-   "ctr": 5.2,
-   "cpc": 0.8,
-   "roas": 1.2456,
+   "spend": 856.4,
+   "impressions": 20462,
+   "clicks": 1062,
+   "ctr": 5.19,
+   "cpc": 0.81,
+   "roas": 1.2281,
    "purchases": 6,
    "purchase_value": 1051.71,
    "atc": 30,
-   "reach": 12551
+   "reach": 12907
   },
   {
    "name": "Lumara \u2014 Retargeting \u2014 AU \u2014 Website 30d (Jun 2026)",
