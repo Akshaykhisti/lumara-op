@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-08-14T22:32:12Z",
+ "generated_at_utc": "2026-08-14T22:52:20Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,18 +9,32 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-08-14T22:32:12Z"
+   "fetched_at": "2026-08-14T22:52:20Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-08-14T22:32:12Z"
+   "fetched_at": "2026-08-14T22:52:20Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-08-14T22:32:12Z"
+   "fetched_at": "2026-08-14T22:52:20Z"
   }
  },
  "orders": [
+  {
+   "name": "#1043",
+   "createdAt": "2026-08-14T22:43:12Z",
+   "financial": "PAID",
+   "fulfillment": "UNFULFILLED",
+   "total": 270.0,
+   "customer": "Elizabeth Cooper",
+   "items": [
+    {
+     "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
+     "quantity": 1
+    }
+   ]
+  },
   {
    "name": "#1042",
    "createdAt": "2026-08-14T09:27:44Z",
@@ -304,8 +318,15 @@
    ]
   }
  ],
- "unfulfilled_paid": [],
- "customers_total": 61,
+ "unfulfilled_paid": [
+  {
+   "name": "#1043",
+   "createdAt": "2026-08-14T22:43:12Z",
+   "total": 270.0,
+   "customer": "Elizabeth Cooper"
+  }
+ ],
+ "customers_total": 62,
  "abandoned_checkouts_recent": 1,
  "inventory": [
   {
@@ -419,7 +440,7 @@
   {
    "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
    "sku": "Y8238-1",
-   "qty": 2,
+   "qty": 1,
    "price": 299.99,
    "status": "ACTIVE",
    "tracked": true,
@@ -1765,8 +1786,8 @@
   },
   {
    "date": "2026-08-14",
-   "spend": 52.17,
-   "impressions": 1727,
+   "spend": 52.19,
+   "impressions": 1728,
    "clicks": 84,
    "ctr": 4.86,
    "cpc": 0.62,
@@ -1775,22 +1796,22 @@
   },
   {
    "date": "2026-08-15",
-   "spend": 6.76,
-   "impressions": 290,
-   "clicks": 9,
-   "ctr": 3.1,
-   "cpc": 0.75,
+   "spend": 8.82,
+   "impressions": 341,
+   "clicks": 12,
+   "ctr": 3.52,
+   "cpc": 0.73,
    "purchases": 0,
    "purchase_value": 0.0
   }
  ],
  "ads_today": {
   "date": "2026-08-15",
-  "spend": 6.76,
-  "impressions": 290,
-  "clicks": 9,
-  "ctr": 3.1,
-  "cpc": 0.75,
+  "spend": 8.82,
+  "impressions": 341,
+  "clicks": 12,
+  "ctr": 3.52,
+  "cpc": 0.73,
   "purchases": 0,
   "purchase_value": 0.0
  },
@@ -1799,8 +1820,8 @@
    "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
    "status": "ACTIVE",
    "daily_budget": 30.0,
-   "spend": 1078.88,
-   "impressions": 34783,
+   "spend": 1078.9,
+   "impressions": 34784,
    "clicks": 1458,
    "ctr": 4.19,
    "cpc": 0.74,
