@@ -3,28 +3,28 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-14T23:28:03Z",
-  "generated_at_local": "Sat 15 Aug 2026, 9:28am AEST",
+  "generated_at_utc": "2026-08-14T23:48:21Z",
+  "generated_at_local": "Sat 15 Aug 2026, 9:48am AEST",
   "today": "2026-08-15",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-14T23:28:03Z"
+    "fetched_at": "2026-08-14T23:48:21Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-08-14T23:28:03Z"
+    "fetched_at": "2026-08-14T23:48:21Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-14T23:28:03Z"
+    "fetched_at": "2026-08-14T23:48:21Z"
    }
   }
  },
  "alerts": [
   {
    "level": "serious",
-   "title": "$326 ad spend, 0 Meta-attributed purchases (6 days)",
+   "title": "$327 ad spend, 0 Meta-attributed purchases (6 days)",
    "body": "The store DID take 2 order(s) worth $460 in that window \u2014 Meta just isn't claiming any of them. Either they're organic/direct sales, or the pixel is missing purchases. Worth checking Events Manager before reading this as zero conversion."
   },
   {
@@ -34,8 +34,8 @@
   },
   {
    "level": "warning",
-   "title": "4 product(s) at 3 units or fewer",
-   "body": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement (1), Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral (1), Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass (1), Table Swag Olive Candelabra (2)"
+   "title": "3 product(s) at 3 units or fewer",
+   "body": "Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral (1), Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass (1), Table Swag Olive Candelabra (2)"
   }
  ],
  "sales": {
@@ -359,26 +359,26 @@
  },
  "ads": {
   "today": {
-   "spend": 11.43,
+   "spend": 13.09,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 15,
-   "impressions": 435,
+   "clicks": 19,
+   "impressions": 486,
    "purchases": 0,
-   "cpc": 0.76,
-   "ctr": 3.45,
+   "cpc": 0.69,
+   "ctr": 3.91,
    "cpa": null
   },
   "d7": {
-   "spend": 395.94,
+   "spend": 397.7,
    "value": 589.95,
-   "roas": 1.49,
-   "clicks": 529,
-   "impressions": 10990,
+   "roas": 1.48,
+   "clicks": 533,
+   "impressions": 11042,
    "purchases": 2,
    "cpc": 0.75,
-   "ctr": 4.81,
-   "cpa": 197.97
+   "ctr": 4.83,
+   "cpa": 198.85
   },
   "prev7": {
    "spend": 490.15,
@@ -388,7 +388,7 @@
   "daily_budget_live": 60.0,
   "active_campaigns": 2,
   "dry_days": 6,
-  "dry_spend": 325.61,
+  "dry_spend": 327.37,
   "series": [
    {
     "date": "2026-08-02",
@@ -513,7 +513,7 @@
    {
     "date": "2026-08-14",
     "label": "14 Aug",
-    "spend": 52.19,
+    "spend": 52.29,
     "revenue": 0.0,
     "purchases": 0,
     "clicks": 84,
@@ -523,12 +523,12 @@
    {
     "date": "2026-08-15",
     "label": "15 Aug",
-    "spend": 11.43,
+    "spend": 13.09,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 15,
-    "ctr": 3.45,
-    "cpc": 0.76
+    "clicks": 19,
+    "ctr": 3.91,
+    "cpc": 0.69
    }
   ],
   "campaigns": [
@@ -536,12 +536,12 @@
     "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
     "status": "ACTIVE",
     "daily_budget": 30.0,
-    "spend": 1078.9,
-    "impressions": 34784,
+    "spend": 1079.0,
+    "impressions": 34785,
     "clicks": 1458,
     "ctr": 4.19,
     "cpc": 0.74,
-    "roas": 1.6866,
+    "roas": 1.6864,
     "purchases": 9,
     "purchase_value": 1819.67,
     "atc": 35,
@@ -643,25 +643,14 @@
   "sellable_skus": 133,
   "tracked_skus": 81,
   "out_of_stock": 0,
-  "low": 4,
-  "watch": 3,
+  "low": 3,
+  "watch": 4,
   "healthy": 74,
   "untracked": 52,
-  "stock_value": 89870.43,
+  "stock_value": 90770.4,
   "oos_list": [],
   "oos_sellers": [],
   "low_list": [
-   {
-    "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
-    "sku": "Y8238-1",
-    "qty": 1,
-    "price": 299.99,
-    "status": "ACTIVE",
-    "tracked": true,
-    "available": true,
-    "sold_30d": 6,
-    "days_cover": 5.0
-   },
    {
     "title": "Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral",
     "sku": "CN7142-1",
@@ -694,6 +683,17 @@
     "available": true,
     "sold_30d": 1,
     "days_cover": 60.0
+   },
+   {
+    "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
+    "sku": "Y8238-1",
+    "qty": 4,
+    "price": 299.99,
+    "status": "ACTIVE",
+    "tracked": true,
+    "available": true,
+    "sold_30d": 6,
+    "days_cover": 20.0
    },
    {
     "title": "Lumara Alegra Statement Vase \u2014 Sculptural Metal",

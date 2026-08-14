@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-08-14T23:28:03Z",
+ "generated_at_utc": "2026-08-14T23:48:21Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-08-14T23:28:03Z"
+   "fetched_at": "2026-08-14T23:48:21Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-08-14T23:28:03Z"
+   "fetched_at": "2026-08-14T23:48:21Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-08-14T23:28:03Z"
+   "fetched_at": "2026-08-14T23:48:21Z"
   }
  },
  "orders": [
@@ -440,7 +440,7 @@
   {
    "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
    "sku": "Y8238-1",
-   "qty": 1,
+   "qty": 4,
    "price": 299.99,
    "status": "ACTIVE",
    "tracked": true,
@@ -1786,8 +1786,8 @@
   },
   {
    "date": "2026-08-14",
-   "spend": 52.19,
-   "impressions": 1728,
+   "spend": 52.29,
+   "impressions": 1729,
    "clicks": 84,
    "ctr": 4.86,
    "cpc": 0.62,
@@ -1796,22 +1796,22 @@
   },
   {
    "date": "2026-08-15",
-   "spend": 11.43,
-   "impressions": 435,
-   "clicks": 15,
-   "ctr": 3.45,
-   "cpc": 0.76,
+   "spend": 13.09,
+   "impressions": 486,
+   "clicks": 19,
+   "ctr": 3.91,
+   "cpc": 0.69,
    "purchases": 0,
    "purchase_value": 0.0
   }
  ],
  "ads_today": {
   "date": "2026-08-15",
-  "spend": 11.43,
-  "impressions": 435,
-  "clicks": 15,
-  "ctr": 3.45,
-  "cpc": 0.76,
+  "spend": 13.09,
+  "impressions": 486,
+  "clicks": 19,
+  "ctr": 3.91,
+  "cpc": 0.69,
   "purchases": 0,
   "purchase_value": 0.0
  },
@@ -1820,12 +1820,12 @@
    "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
    "status": "ACTIVE",
    "daily_budget": 30.0,
-   "spend": 1078.9,
-   "impressions": 34784,
+   "spend": 1079.0,
+   "impressions": 34785,
    "clicks": 1458,
    "ctr": 4.19,
    "cpc": 0.74,
-   "roas": 1.6866,
+   "roas": 1.6864,
    "purchases": 9,
    "purchase_value": 1819.67,
    "atc": 35,
