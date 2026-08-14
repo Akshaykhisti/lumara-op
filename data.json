@@ -3,28 +3,28 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-14T14:00:30Z",
-  "generated_at_local": "Sat 15 Aug 2026, 12:00am AEST",
+  "generated_at_utc": "2026-08-14T14:20:41Z",
+  "generated_at_local": "Sat 15 Aug 2026, 12:20am AEST",
   "today": "2026-08-15",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-14T14:00:30Z"
+    "fetched_at": "2026-08-14T14:20:41Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-08-14T14:00:30Z"
+    "fetched_at": "2026-08-14T14:20:41Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-14T14:00:30Z"
+    "fetched_at": "2026-08-14T14:20:41Z"
    }
   }
  },
  "alerts": [
   {
    "level": "serious",
-   "title": "$314 ad spend, 0 Meta-attributed purchases (5 days)",
+   "title": "$314 ad spend, 0 Meta-attributed purchases (6 days)",
    "body": "The store DID take 1 order(s) worth $190 in that window \u2014 Meta just isn't claiming any of them. Either they're organic/direct sales, or the pixel is missing purchases. Worth checking Events Manager before reading this as zero conversion."
   },
   {
@@ -359,26 +359,26 @@
  },
  "ads": {
   "today": {
-   "spend": 0.0,
+   "spend": 0.19,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 0,
-   "impressions": 0,
+   "clicks": 1,
+   "impressions": 6,
    "purchases": 0,
-   "cpc": 0.0,
-   "ctr": 0.0,
+   "cpc": 0.19,
+   "ctr": 16.67,
    "cpa": null
   },
   "d7": {
-   "spend": 384.3,
+   "spend": 384.52,
    "value": 589.95,
-   "roas": 1.54,
-   "clicks": 513,
-   "impressions": 10543,
+   "roas": 1.53,
+   "clicks": 514,
+   "impressions": 10551,
    "purchases": 2,
    "cpc": 0.75,
    "ctr": 4.87,
-   "cpa": 192.15
+   "cpa": 192.26
   },
   "prev7": {
    "spend": 490.15,
@@ -387,8 +387,8 @@
   },
   "daily_budget_live": 60.0,
   "active_campaigns": 2,
-  "dry_days": 5,
-  "dry_spend": 313.97,
+  "dry_days": 6,
+  "dry_spend": 314.19,
   "series": [
    {
     "date": "2026-08-02",
@@ -513,22 +513,22 @@
    {
     "date": "2026-08-14",
     "label": "14 Aug",
-    "spend": 51.98,
+    "spend": 52.01,
     "revenue": 0.0,
     "purchases": 0,
     "clicks": 83,
-    "ctr": 4.84,
+    "ctr": 4.83,
     "cpc": 0.63
    },
    {
     "date": "2026-08-15",
     "label": "15 Aug",
-    "spend": 0.0,
+    "spend": 0.19,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 0,
-    "ctr": 0.0,
-    "cpc": 0.0
+    "clicks": 1,
+    "ctr": 16.67,
+    "cpc": 0.19
    }
   ],
   "campaigns": [
@@ -536,8 +536,8 @@
     "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
     "status": "ACTIVE",
     "daily_budget": 30.0,
-    "spend": 1078.75,
-    "impressions": 34776,
+    "spend": 1078.76,
+    "impressions": 34777,
     "clicks": 1458,
     "ctr": 4.19,
     "cpc": 0.74,
@@ -551,16 +551,16 @@
     "name": "Lumara \u2014 Sales \u2014 Winners Broad CBO (Jul 2026)",
     "status": "ACTIVE",
     "daily_budget": 30.0,
-    "spend": 850.85,
-    "impressions": 20228,
+    "spend": 850.87,
+    "impressions": 20229,
     "clicks": 1055,
     "ctr": 5.22,
     "cpc": 0.81,
-    "roas": 1.2361,
+    "roas": 1.236,
     "purchases": 6,
     "purchase_value": 1051.71,
     "atc": 27,
-    "reach": 12771
+    "reach": 12775
    },
    {
     "name": "Lumara \u2014 Retargeting \u2014 AU \u2014 Website 30d (Jun 2026)",
