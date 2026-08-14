@@ -3,28 +3,28 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-14T18:54:09Z",
-  "generated_at_local": "Sat 15 Aug 2026, 4:54am AEST",
+  "generated_at_utc": "2026-08-14T19:14:20Z",
+  "generated_at_local": "Sat 15 Aug 2026, 5:14am AEST",
   "today": "2026-08-15",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-14T18:54:09Z"
+    "fetched_at": "2026-08-14T19:14:20Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-08-14T18:54:09Z"
+    "fetched_at": "2026-08-14T19:14:20Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-14T18:54:09Z"
+    "fetched_at": "2026-08-14T19:14:20Z"
    }
   }
  },
  "alerts": [
   {
    "level": "serious",
-   "title": "$315 ad spend, 0 Meta-attributed purchases (6 days)",
+   "title": "$316 ad spend, 0 Meta-attributed purchases (6 days)",
    "body": "The store DID take 1 order(s) worth $190 in that window \u2014 Meta just isn't claiming any of them. Either they're organic/direct sales, or the pixel is missing purchases. Worth checking Events Manager before reading this as zero conversion."
   },
   {
@@ -359,26 +359,26 @@
  },
  "ads": {
   "today": {
-   "spend": 1.37,
+   "spend": 1.53,
    "value": 0.0,
    "roas": 0.0,
    "clicks": 6,
-   "impressions": 60,
+   "impressions": 64,
    "purchases": 0,
-   "cpc": 0.23,
-   "ctr": 10.0,
+   "cpc": 0.26,
+   "ctr": 9.38,
    "cpa": null
   },
   "d7": {
-   "spend": 385.76,
+   "spend": 385.92,
    "value": 589.95,
    "roas": 1.53,
    "clicks": 519,
-   "impressions": 10607,
+   "impressions": 10611,
    "purchases": 2,
    "cpc": 0.74,
    "ctr": 4.89,
-   "cpa": 192.88
+   "cpa": 192.96
   },
   "prev7": {
    "spend": 490.15,
@@ -388,7 +388,7 @@
   "daily_budget_live": 60.0,
   "active_campaigns": 2,
   "dry_days": 6,
-  "dry_spend": 315.43,
+  "dry_spend": 315.59,
   "series": [
    {
     "date": "2026-08-02",
@@ -523,12 +523,12 @@
    {
     "date": "2026-08-15",
     "label": "15 Aug",
-    "spend": 1.37,
+    "spend": 1.53,
     "revenue": 0.0,
     "purchases": 0,
     "clicks": 6,
-    "ctr": 10.0,
-    "cpc": 0.23
+    "ctr": 9.38,
+    "cpc": 0.26
    }
   ],
   "campaigns": [
