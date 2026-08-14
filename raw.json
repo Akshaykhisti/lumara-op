@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-08-14T09:12:30Z",
+ "generated_at_utc": "2026-08-14T09:32:39Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,18 +9,32 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-08-14T09:12:30Z"
+   "fetched_at": "2026-08-14T09:32:39Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-08-14T09:12:30Z"
+   "fetched_at": "2026-08-14T09:32:39Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-08-14T09:12:30Z"
+   "fetched_at": "2026-08-14T09:32:39Z"
   }
  },
  "orders": [
+  {
+   "name": "#1042",
+   "createdAt": "2026-08-14T09:27:44Z",
+   "financial": "PAID",
+   "fulfillment": "UNFULFILLED",
+   "total": 189.95,
+   "customer": "Lindy Herron",
+   "items": [
+    {
+     "title": "Lumara Ashore Framed Canvas \u2014 Coastal 70 \u00d7 90 cm",
+     "quantity": 1
+    }
+   ]
+  },
   {
    "name": "#1041",
    "createdAt": "2026-08-09T11:13:23Z",
@@ -308,7 +322,14 @@
    ]
   }
  ],
- "unfulfilled_paid": [],
+ "unfulfilled_paid": [
+  {
+   "name": "#1042",
+   "createdAt": "2026-08-14T09:27:44Z",
+   "total": 189.95,
+   "customer": "Lindy Herron"
+  }
+ ],
  "customers_total": 61,
  "abandoned_checkouts_recent": 1,
  "inventory": [
@@ -1611,7 +1632,7 @@
   {
    "title": "Lumara Ashore Framed Canvas \u2014 Coastal 70 \u00d7 90 cm",
    "sku": "AW1733-2",
-   "qty": 10,
+   "qty": 9,
    "price": 189.95,
    "status": "ACTIVE",
    "tracked": true,
@@ -1779,22 +1800,22 @@
   },
   {
    "date": "2026-08-14",
-   "spend": 44.42,
-   "impressions": 1350,
-   "clicks": 65,
-   "ctr": 4.81,
-   "cpc": 0.68,
+   "spend": 46.53,
+   "impressions": 1399,
+   "clicks": 66,
+   "ctr": 4.72,
+   "cpc": 0.7,
    "purchases": 0,
    "purchase_value": 0.0
   }
  ],
  "ads_today": {
   "date": "2026-08-14",
-  "spend": 44.42,
-  "impressions": 1350,
-  "clicks": 65,
-  "ctr": 4.81,
-  "cpc": 0.68,
+  "spend": 46.53,
+  "impressions": 1399,
+  "clicks": 66,
+  "ctr": 4.72,
+  "cpc": 0.7,
   "purchases": 0,
   "purchase_value": 0.0
  },

@@ -3,34 +3,34 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-14T09:12:30Z",
-  "generated_at_local": "Fri 14 Aug 2026, 7:12pm AEST",
+  "generated_at_utc": "2026-08-14T09:32:39Z",
+  "generated_at_local": "Fri 14 Aug 2026, 7:32pm AEST",
   "today": "2026-08-14",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-14T09:12:30Z"
+    "fetched_at": "2026-08-14T09:32:39Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-08-14T09:12:30Z"
+    "fetched_at": "2026-08-14T09:32:39Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-14T09:12:30Z"
+    "fetched_at": "2026-08-14T09:32:39Z"
    }
   }
  },
  "alerts": [
   {
-   "level": "critical",
-   "title": "No orders for 5 days",
-   "body": "Last order was #1041 on 9 Aug. Ads have spent $306 since the last attributed purchase."
+   "level": "serious",
+   "title": "$309 ad spend, 0 Meta-attributed purchases (5 days)",
+   "body": "The store DID take 1 order(s) worth $190 in that window \u2014 Meta just isn't claiming any of them. Either they're organic/direct sales, or the pixel is missing purchases. Worth checking Events Manager before reading this as zero conversion."
   },
   {
-   "level": "critical",
-   "title": "$306 ad spend, 0 purchases (5 days)",
-   "body": "No store orders in that window either. 2 campaign(s) live at $60/day. Check pixel/tracking and landing pages before topping up budget."
+   "level": "serious",
+   "title": "1 paid order(s) awaiting fulfilment",
+   "body": "#1042"
   },
   {
    "level": "warning",
@@ -40,32 +40,39 @@
  ],
  "sales": {
   "today": {
-   "orders": 0,
-   "revenue": 0.0,
-   "aov": 0.0
+   "orders": 1,
+   "revenue": 189.95,
+   "aov": 189.95
   },
   "d7": {
-   "orders": 2,
-   "revenue": 589.95,
-   "aov": 294.98
+   "orders": 3,
+   "revenue": 779.9,
+   "aov": 259.97
   },
   "d30": {
-   "orders": 18,
-   "revenue": 3283.27,
-   "aov": 182.4
+   "orders": 19,
+   "revenue": 3473.22,
+   "aov": 182.8
   },
   "prev7_revenue": 1457.82,
-  "wow_pct": -59.5,
-  "pending_fulfilment": 0,
-  "pending_orders": [],
+  "wow_pct": -46.5,
+  "pending_fulfilment": 1,
+  "pending_orders": [
+   {
+    "name": "#1042",
+    "createdAt": "2026-08-14T09:27:44Z",
+    "total": 189.95,
+    "customer": "Lindy Herron"
+   }
+  ],
   "abandoned_checkouts": 1,
   "customers_total": 61,
-  "days_since_order": 5,
+  "days_since_order": 0,
   "last_order": {
-   "name": "#1041",
-   "when": "9 aug, 9:13pm",
-   "total": 319.95,
-   "customer": "Beth Gaze"
+   "name": "#1042",
+   "when": "14 aug, 7:27pm",
+   "total": 189.95,
+   "customer": "Lindy Herron"
   },
   "daily": [
    {
@@ -245,11 +252,20 @@
    {
     "date": "2026-08-14",
     "label": "14 Aug",
-    "orders": 0,
-    "revenue": 0.0
+    "orders": 1,
+    "revenue": 189.95
    }
   ],
   "recent": [
+   {
+    "name": "#1042",
+    "when": "14 aug, 7:27pm",
+    "total": 189.95,
+    "customer": "Lindy Herron",
+    "fulfillment": "UNFULFILLED",
+    "financial": "PAID",
+    "items": "Lumara Ashore Framed Canvas \u2014 Coastal 70 \u00d7 90 cm"
+   },
    {
     "name": "#1041",
     "when": "9 aug, 9:13pm",
@@ -312,15 +328,6 @@
     "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Table Swag Olive Candelabra"
-   },
-   {
-    "name": "#1034",
-    "when": "29 jul, 12:59pm",
-    "total": 93.95,
-    "customer": "Trina Donkin",
-    "fulfillment": "FULFILLED",
-    "financial": "PAID",
-    "items": "Talia Vase"
    }
   ],
   "top_sellers": [
@@ -341,37 +348,37 @@
     "units": 2
    },
    {
-    "title": "Lumara Navy Shell Framed Print II \u2014 60 \u00d7 80 cm",
+    "title": "Lumara Ashore Framed Canvas \u2014 Coastal 70 \u00d7 90 cm",
     "units": 1
    },
    {
-    "title": "Lumara Navy Shell Framed Print I \u2014 60 \u00d7 80 cm",
+    "title": "Lumara Navy Shell Framed Print II \u2014 60 \u00d7 80 cm",
     "units": 1
    }
   ]
  },
  "ads": {
   "today": {
-   "spend": 44.42,
+   "spend": 46.53,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 65,
-   "impressions": 1350,
+   "clicks": 66,
+   "impressions": 1399,
    "purchases": 0,
-   "cpc": 0.68,
-   "ctr": 4.81,
+   "cpc": 0.71,
+   "ctr": 4.72,
    "cpa": null
   },
   "d7": {
-   "spend": 423.63,
+   "spend": 425.74,
    "value": 589.95,
    "roas": 1.39,
-   "clicks": 563,
-   "impressions": 11420,
+   "clicks": 564,
+   "impressions": 11469,
    "purchases": 2,
    "cpc": 0.75,
-   "ctr": 4.93,
-   "cpa": 211.81
+   "ctr": 4.92,
+   "cpa": 212.87
   },
   "prev7": {
    "spend": 552.02,
@@ -381,7 +388,7 @@
   "daily_budget_live": 60.0,
   "active_campaigns": 2,
   "dry_days": 5,
-  "dry_spend": 306.41,
+  "dry_spend": 308.52,
   "series": [
    {
     "date": "2026-08-01",
@@ -516,12 +523,12 @@
    {
     "date": "2026-08-14",
     "label": "14 Aug",
-    "spend": 44.42,
+    "spend": 46.53,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 65,
-    "ctr": 4.81,
-    "cpc": 0.68
+    "clicks": 66,
+    "ctr": 4.72,
+    "cpc": 0.7
    }
   ],
   "campaigns": [
@@ -640,7 +647,7 @@
   "watch": 3,
   "healthy": 74,
   "untracked": 52,
-  "stock_value": 90360.37,
+  "stock_value": 90170.42,
   "oos_list": [],
   "oos_sellers": [],
   "low_list": [
