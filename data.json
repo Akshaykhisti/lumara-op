@@ -3,34 +3,29 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-14T21:31:17Z",
-  "generated_at_local": "Sat 15 Aug 2026, 7:31am AEST",
+  "generated_at_utc": "2026-08-14T21:51:25Z",
+  "generated_at_local": "Sat 15 Aug 2026, 7:51am AEST",
   "today": "2026-08-15",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-14T21:31:17Z"
+    "fetched_at": "2026-08-14T21:51:25Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-08-14T21:31:17Z"
+    "fetched_at": "2026-08-14T21:51:25Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-14T21:31:17Z"
+    "fetched_at": "2026-08-14T21:51:25Z"
    }
   }
  },
  "alerts": [
   {
    "level": "serious",
-   "title": "$318 ad spend, 0 Meta-attributed purchases (6 days)",
+   "title": "$319 ad spend, 0 Meta-attributed purchases (6 days)",
    "body": "The store DID take 1 order(s) worth $190 in that window \u2014 Meta just isn't claiming any of them. Either they're organic/direct sales, or the pixel is missing purchases. Worth checking Events Manager before reading this as zero conversion."
-  },
-  {
-   "level": "serious",
-   "title": "1 paid order(s) awaiting fulfilment",
-   "body": "#1042"
   },
   {
    "level": "warning",
@@ -56,15 +51,8 @@
   },
   "prev7_revenue": 1457.82,
   "wow_pct": -46.5,
-  "pending_fulfilment": 1,
-  "pending_orders": [
-   {
-    "name": "#1042",
-    "createdAt": "2026-08-14T09:27:44Z",
-    "total": 189.95,
-    "customer": "Lindy Herron"
-   }
-  ],
+  "pending_fulfilment": 0,
+  "pending_orders": [],
   "abandoned_checkouts": 1,
   "customers_total": 61,
   "days_since_order": 1,
@@ -262,7 +250,7 @@
     "when": "14 aug, 7:27pm",
     "total": 189.95,
     "customer": "Lindy Herron",
-    "fulfillment": "UNFULFILLED",
+    "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Lumara Ashore Framed Canvas \u2014 Coastal 70 \u00d7 90 cm"
    },
@@ -359,26 +347,26 @@
  },
  "ads": {
   "today": {
-   "spend": 4.23,
+   "spend": 5.19,
    "value": 0.0,
    "roas": 0.0,
    "clicks": 8,
-   "impressions": 180,
+   "impressions": 216,
    "purchases": 0,
-   "cpc": 0.53,
-   "ctr": 4.44,
+   "cpc": 0.65,
+   "ctr": 3.7,
    "cpa": null
   },
   "d7": {
-   "spend": 388.69,
+   "spend": 389.65,
    "value": 589.95,
-   "roas": 1.52,
+   "roas": 1.51,
    "clicks": 522,
-   "impressions": 10731,
+   "impressions": 10768,
    "purchases": 2,
-   "cpc": 0.74,
-   "ctr": 4.86,
-   "cpa": 194.34
+   "cpc": 0.75,
+   "ctr": 4.85,
+   "cpa": 194.83
   },
   "prev7": {
    "spend": 490.15,
@@ -388,7 +376,7 @@
   "daily_budget_live": 60.0,
   "active_campaigns": 2,
   "dry_days": 6,
-  "dry_spend": 318.36,
+  "dry_spend": 319.32,
   "series": [
    {
     "date": "2026-08-02",
@@ -523,12 +511,12 @@
    {
     "date": "2026-08-15",
     "label": "15 Aug",
-    "spend": 4.23,
+    "spend": 5.19,
     "revenue": 0.0,
     "purchases": 0,
     "clicks": 8,
-    "ctr": 4.44,
-    "cpc": 0.53
+    "ctr": 3.7,
+    "cpc": 0.65
    }
   ],
   "campaigns": [
@@ -552,7 +540,7 @@
     "status": "ACTIVE",
     "daily_budget": 30.0,
     "spend": 850.91,
-    "impressions": 20231,
+    "impressions": 20232,
     "clicks": 1056,
     "ctr": 5.22,
     "cpc": 0.81,
