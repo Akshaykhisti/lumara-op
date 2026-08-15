@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-08-15T23:44:15Z",
+ "generated_at_utc": "2026-08-15T23:59:37Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-08-15T23:44:15Z"
+   "fetched_at": "2026-08-15T23:59:37Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-08-15T23:44:15Z"
+   "fetched_at": "2026-08-15T23:59:37Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-08-15T23:44:15Z"
+   "fetched_at": "2026-08-15T23:59:37Z"
   }
  },
  "orders": [
@@ -1662,11 +1662,11 @@
   {
    "title": "Lumara Ashore Framed Canvas \u2014 Coastal 70 \u00d7 90 cm",
    "sku": "AW1733-2",
-   "qty": 8,
+   "qty": 0,
    "price": 189.95,
    "status": "ACTIVE",
    "tracked": true,
-   "available": true
+   "available": false
   },
   {
    "title": "Lumara Solo Sailing Framed Print \u2014 Timber & Glass 70 \u00d7 100 cm",
@@ -1830,10 +1830,10 @@
   },
   {
    "date": "2026-08-16",
-   "spend": 17.87,
-   "impressions": 594,
-   "clicks": 24,
-   "ctr": 4.04,
+   "spend": 19.16,
+   "impressions": 635,
+   "clicks": 26,
+   "ctr": 4.09,
    "cpc": 0.74,
    "purchases": 0,
    "purchase_value": 0.0
@@ -1841,10 +1841,10 @@
  ],
  "ads_today": {
   "date": "2026-08-16",
-  "spend": 17.87,
-  "impressions": 594,
-  "clicks": 24,
-  "ctr": 4.04,
+  "spend": 19.16,
+  "impressions": 635,
+  "clicks": 26,
+  "ctr": 4.09,
   "cpc": 0.74,
   "purchases": 0,
   "purchase_value": 0.0

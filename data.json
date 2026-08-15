@@ -3,25 +3,30 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-15T23:44:15Z",
-  "generated_at_local": "Sun 16 Aug 2026, 9:44am AEST",
+  "generated_at_utc": "2026-08-15T23:59:37Z",
+  "generated_at_local": "Sun 16 Aug 2026, 9:59am AEST",
   "today": "2026-08-16",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-15T23:44:15Z"
+    "fetched_at": "2026-08-15T23:59:37Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-08-15T23:44:15Z"
+    "fetched_at": "2026-08-15T23:59:37Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-15T23:44:15Z"
+    "fetched_at": "2026-08-15T23:59:37Z"
    }
   }
  },
  "alerts": [
+  {
+   "level": "serious",
+   "title": "1 product(s) sold in the last 30d are out of stock",
+   "body": "Lumara Ashore Framed Canvas \u2014 Coastal 70 \u00d7 90 cm. Still listed as active \u2014 they take traffic and convert nothing."
+  },
   {
    "level": "serious",
    "title": "2 paid order(s) awaiting fulfilment",
@@ -360,26 +365,26 @@
  },
  "ads": {
   "today": {
-   "spend": 17.87,
+   "spend": 19.16,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 24,
-   "impressions": 594,
+   "clicks": 26,
+   "impressions": 635,
    "purchases": 0,
    "cpc": 0.74,
-   "ctr": 4.04,
+   "ctr": 4.09,
    "cpa": null
   },
   "d7": {
-   "spend": 367.18,
+   "spend": 368.47,
    "value": 683.99,
    "roas": 1.86,
-   "clicks": 538,
-   "impressions": 11159,
+   "clicks": 540,
+   "impressions": 11200,
    "purchases": 2,
    "cpc": 0.68,
    "ctr": 4.82,
-   "cpa": 183.59
+   "cpa": 184.24
   },
   "prev7": {
    "spend": 460.2,
@@ -389,7 +394,7 @@
   "daily_budget_live": 60.0,
   "active_campaigns": 2,
   "dry_days": 1,
-  "dry_spend": 17.87,
+  "dry_spend": 19.16,
   "series": [
    {
     "date": "2026-08-03",
@@ -524,11 +529,11 @@
    {
     "date": "2026-08-16",
     "label": "16 Aug",
-    "spend": 17.87,
+    "spend": 19.16,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 24,
-    "ctr": 4.04,
+    "clicks": 26,
+    "ctr": 4.09,
     "cpc": 0.74
    }
   ],
@@ -643,14 +648,36 @@
  "stock": {
   "sellable_skus": 133,
   "tracked_skus": 81,
-  "out_of_stock": 0,
+  "out_of_stock": 1,
   "low": 3,
   "watch": 4,
-  "healthy": 74,
+  "healthy": 73,
   "untracked": 52,
-  "stock_value": 90120.47,
-  "oos_list": [],
-  "oos_sellers": [],
+  "stock_value": 88600.87,
+  "oos_list": [
+   {
+    "title": "Lumara Ashore Framed Canvas \u2014 Coastal 70 \u00d7 90 cm",
+    "sku": "AW1733-2",
+    "qty": 0,
+    "price": 189.95,
+    "status": "ACTIVE",
+    "tracked": true,
+    "available": false,
+    "sold_30d": 2
+   }
+  ],
+  "oos_sellers": [
+   {
+    "title": "Lumara Ashore Framed Canvas \u2014 Coastal 70 \u00d7 90 cm",
+    "sku": "AW1733-2",
+    "qty": 0,
+    "price": 189.95,
+    "status": "ACTIVE",
+    "tracked": true,
+    "available": false,
+    "sold_30d": 2
+   }
+  ],
   "low_list": [
    {
     "title": "Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral",
