@@ -3,29 +3,29 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-15T10:52:27Z",
-  "generated_at_local": "Sat 15 Aug 2026, 8:52pm AEST",
+  "generated_at_utc": "2026-08-15T10:57:44Z",
+  "generated_at_local": "Sat 15 Aug 2026, 8:57pm AEST",
   "today": "2026-08-15",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-15T10:52:27Z"
+    "fetched_at": "2026-08-15T10:57:44Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-08-15T10:52:27Z"
+    "fetched_at": "2026-08-15T10:57:44Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-15T10:52:27Z"
+    "fetched_at": "2026-08-15T10:57:44Z"
    }
   }
  },
  "alerts": [
   {
    "level": "serious",
-   "title": "2 paid order(s) awaiting fulfilment",
-   "body": "#1043, #1044"
+   "title": "1 paid order(s) awaiting fulfilment",
+   "body": "#1043"
   },
   {
    "level": "warning",
@@ -51,19 +51,13 @@
   },
   "prev7_revenue": 1457.82,
   "wow_pct": 0.4,
-  "pending_fulfilment": 2,
+  "pending_fulfilment": 1,
   "pending_orders": [
    {
     "name": "#1043",
     "createdAt": "2026-08-14T22:43:12Z",
     "total": 270.0,
     "customer": "Elizabeth Cooper"
-   },
-   {
-    "name": "#1044",
-    "createdAt": "2026-08-15T05:55:52Z",
-    "total": 413.99,
-    "customer": "Jenny Edmonds"
    }
   ],
   "abandoned_checkouts": 1,
@@ -263,7 +257,7 @@
     "when": "15 aug, 3:55pm",
     "total": 413.99,
     "customer": "Jenny Edmonds",
-    "fulfillment": "UNFULFILLED",
+    "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Lumara Cayman Rattan Table Lamp \u2014 Coastal Natural Style \u00d72"
    },
@@ -360,26 +354,26 @@
  },
  "ads": {
   "today": {
-   "spend": 34.01,
+   "spend": 34.04,
    "value": 683.99,
-   "roas": 20.11,
-   "clicks": 80,
-   "impressions": 1372,
+   "roas": 20.09,
+   "clicks": 81,
+   "impressions": 1379,
    "purchases": 2,
-   "cpc": 0.43,
-   "ctr": 5.83,
-   "cpa": 17.0
+   "cpc": 0.42,
+   "ctr": 5.87,
+   "cpa": 17.02
   },
   "d7": {
-   "spend": 418.65,
+   "spend": 418.68,
    "value": 1273.94,
    "roas": 3.04,
-   "clicks": 594,
-   "impressions": 11929,
+   "clicks": 595,
+   "impressions": 11936,
    "purchases": 4,
    "cpc": 0.7,
    "ctr": 4.98,
-   "cpa": 104.66
+   "cpa": 104.67
   },
   "prev7": {
    "spend": 490.15,
@@ -524,12 +518,12 @@
    {
     "date": "2026-08-15",
     "label": "15 Aug",
-    "spend": 34.01,
+    "spend": 34.04,
     "revenue": 683.99,
     "purchases": 2,
-    "clicks": 80,
-    "ctr": 5.83,
-    "cpc": 0.43
+    "clicks": 81,
+    "ctr": 5.87,
+    "cpc": 0.42
    }
   ],
   "campaigns": [
