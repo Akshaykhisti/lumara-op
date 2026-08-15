@@ -3,29 +3,29 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-15T05:53:27Z",
-  "generated_at_local": "Sat 15 Aug 2026, 3:53pm AEST",
+  "generated_at_utc": "2026-08-15T06:03:46Z",
+  "generated_at_local": "Sat 15 Aug 2026, 4:03pm AEST",
   "today": "2026-08-15",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-15T05:53:27Z"
+    "fetched_at": "2026-08-15T06:03:46Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-08-15T05:53:27Z"
+    "fetched_at": "2026-08-15T06:03:46Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-15T05:53:27Z"
+    "fetched_at": "2026-08-15T06:03:46Z"
    }
   }
  },
  "alerts": [
   {
    "level": "serious",
-   "title": "1 paid order(s) awaiting fulfilment",
-   "body": "#1043"
+   "title": "2 paid order(s) awaiting fulfilment",
+   "body": "#1043, #1044"
   },
   {
    "level": "warning",
@@ -35,39 +35,45 @@
  ],
  "sales": {
   "today": {
-   "orders": 1,
-   "revenue": 270.0,
-   "aov": 270.0
+   "orders": 2,
+   "revenue": 683.99,
+   "aov": 342.0
   },
   "d7": {
-   "orders": 4,
-   "revenue": 1049.9,
-   "aov": 262.48
+   "orders": 5,
+   "revenue": 1463.89,
+   "aov": 292.78
   },
   "d30": {
-   "orders": 20,
-   "revenue": 3743.22,
-   "aov": 187.16
+   "orders": 21,
+   "revenue": 4157.21,
+   "aov": 197.96
   },
   "prev7_revenue": 1457.82,
-  "wow_pct": -28.0,
-  "pending_fulfilment": 1,
+  "wow_pct": 0.4,
+  "pending_fulfilment": 2,
   "pending_orders": [
    {
     "name": "#1043",
     "createdAt": "2026-08-14T22:43:12Z",
     "total": 270.0,
     "customer": "Elizabeth Cooper"
+   },
+   {
+    "name": "#1044",
+    "createdAt": "2026-08-15T05:55:52Z",
+    "total": 413.99,
+    "customer": "Jenny Edmonds"
    }
   ],
   "abandoned_checkouts": 1,
-  "customers_total": 62,
+  "customers_total": 63,
   "days_since_order": 0,
   "last_order": {
-   "name": "#1043",
-   "when": "15 aug, 8:43am",
-   "total": 270.0,
-   "customer": "Elizabeth Cooper"
+   "name": "#1044",
+   "when": "15 aug, 3:55pm",
+   "total": 413.99,
+   "customer": "Jenny Edmonds"
   },
   "daily": [
    {
@@ -247,11 +253,20 @@
    {
     "date": "2026-08-15",
     "label": "15 Aug",
-    "orders": 1,
-    "revenue": 270.0
+    "orders": 2,
+    "revenue": 683.99
    }
   ],
   "recent": [
+   {
+    "name": "#1044",
+    "when": "15 aug, 3:55pm",
+    "total": 413.99,
+    "customer": "Jenny Edmonds",
+    "fulfillment": "UNFULFILLED",
+    "financial": "PAID",
+    "items": "Lumara Cayman Rattan Table Lamp \u2014 Coastal Natural Style \u00d72"
+   },
    {
     "name": "#1043",
     "when": "15 aug, 8:43am",
@@ -314,15 +329,6 @@
     "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement, Lumara Navy Shell Framed Print II \u2014 60 \u00d7 80 cm, Lumara Navy Shell Framed Print I \u2014 60 \u00d7 80 cm"
-   },
-   {
-    "name": "#1036",
-    "when": "2 aug, 6:46pm",
-    "total": 225.0,
-    "customer": "Dianne Partridge",
-    "fulfillment": "FULFILLED",
-    "financial": "PAID",
-    "items": "Lumara Giana Natural Table Lamp \u2014 Earthy Organic Style"
    }
   ],
   "top_sellers": [
@@ -339,41 +345,41 @@
     "units": 3
    },
    {
+    "title": "Lumara Cayman Rattan Table Lamp \u2014 Coastal Natural Style",
+    "units": 2
+   },
+   {
     "title": "Lumara Giana Natural Table Lamp \u2014 Earthy Organic Style",
     "units": 2
    },
    {
     "title": "Lumara Ashore Framed Canvas \u2014 Coastal 70 \u00d7 90 cm",
     "units": 1
-   },
-   {
-    "title": "Lumara Navy Shell Framed Print II \u2014 60 \u00d7 80 cm",
-    "units": 1
    }
   ]
  },
  "ads": {
   "today": {
-   "spend": 28.29,
+   "spend": 28.82,
    "value": 270.0,
-   "roas": 9.54,
-   "clicks": 60,
-   "impressions": 1085,
+   "roas": 9.37,
+   "clicks": 62,
+   "impressions": 1102,
    "purchases": 1,
-   "cpc": 0.47,
-   "ctr": 5.53,
-   "cpa": 28.29
+   "cpc": 0.46,
+   "ctr": 5.63,
+   "cpa": 28.82
   },
   "d7": {
-   "spend": 412.93,
+   "spend": 413.46,
    "value": 859.95,
    "roas": 2.08,
-   "clicks": 574,
-   "impressions": 11642,
+   "clicks": 576,
+   "impressions": 11659,
    "purchases": 3,
    "cpc": 0.72,
-   "ctr": 4.93,
-   "cpa": 137.64
+   "ctr": 4.94,
+   "cpa": 137.82
   },
   "prev7": {
    "spend": 490.15,
@@ -518,12 +524,12 @@
    {
     "date": "2026-08-15",
     "label": "15 Aug",
-    "spend": 28.29,
+    "spend": 28.82,
     "revenue": 270.0,
     "purchases": 1,
-    "clicks": 60,
-    "ctr": 5.53,
-    "cpc": 0.47
+    "clicks": 62,
+    "ctr": 5.63,
+    "cpc": 0.46
    }
   ],
   "campaigns": [
@@ -642,7 +648,7 @@
   "watch": 4,
   "healthy": 74,
   "untracked": 52,
-  "stock_value": 90770.4,
+  "stock_value": 90310.42,
   "oos_list": [],
   "oos_sellers": [],
   "low_list": [

@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-08-15T05:53:27Z",
+ "generated_at_utc": "2026-08-15T06:03:46Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,18 +9,32 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-08-15T05:53:27Z"
+   "fetched_at": "2026-08-15T06:03:46Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-08-15T05:53:27Z"
+   "fetched_at": "2026-08-15T06:03:46Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-08-15T05:53:27Z"
+   "fetched_at": "2026-08-15T06:03:46Z"
   }
  },
  "orders": [
+  {
+   "name": "#1044",
+   "createdAt": "2026-08-15T05:55:52Z",
+   "financial": "PAID",
+   "fulfillment": "UNFULFILLED",
+   "total": 413.99,
+   "customer": "Jenny Edmonds",
+   "items": [
+    {
+     "title": "Lumara Cayman Rattan Table Lamp \u2014 Coastal Natural Style",
+     "quantity": 2
+    }
+   ]
+  },
   {
    "name": "#1043",
    "createdAt": "2026-08-14T22:43:12Z",
@@ -324,15 +338,21 @@
    "createdAt": "2026-08-14T22:43:12Z",
    "total": 270.0,
    "customer": "Elizabeth Cooper"
+  },
+  {
+   "name": "#1044",
+   "createdAt": "2026-08-15T05:55:52Z",
+   "total": 413.99,
+   "customer": "Jenny Edmonds"
   }
  ],
- "customers_total": 62,
+ "customers_total": 63,
  "abandoned_checkouts_recent": 1,
  "inventory": [
   {
    "title": "Lumara Cayman Rattan Table Lamp \u2014 Coastal Natural Style",
    "sku": "Y8235-1",
-   "qty": 10,
+   "qty": 8,
    "price": 229.99,
    "status": "ACTIVE",
    "tracked": true,
@@ -1796,22 +1816,22 @@
   },
   {
    "date": "2026-08-15",
-   "spend": 28.29,
-   "impressions": 1085,
-   "clicks": 60,
-   "ctr": 5.53,
-   "cpc": 0.47,
+   "spend": 28.82,
+   "impressions": 1102,
+   "clicks": 62,
+   "ctr": 5.63,
+   "cpc": 0.46,
    "purchases": 1,
    "purchase_value": 270.0
   }
  ],
  "ads_today": {
   "date": "2026-08-15",
-  "spend": 28.29,
-  "impressions": 1085,
-  "clicks": 60,
-  "ctr": 5.53,
-  "cpc": 0.47,
+  "spend": 28.82,
+  "impressions": 1102,
+  "clicks": 62,
+  "ctr": 5.63,
+  "cpc": 0.46,
   "purchases": 1,
   "purchase_value": 270.0
  },
