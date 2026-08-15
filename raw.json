@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-08-15T23:28:58Z",
+ "generated_at_utc": "2026-08-15T23:44:15Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,18 +9,32 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-08-15T23:28:58Z"
+   "fetched_at": "2026-08-15T23:44:15Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-08-15T23:28:58Z"
+   "fetched_at": "2026-08-15T23:44:15Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-08-15T23:28:58Z"
+   "fetched_at": "2026-08-15T23:44:15Z"
   }
  },
  "orders": [
+  {
+   "name": "#1045",
+   "createdAt": "2026-08-15T23:38:29Z",
+   "financial": "PAID",
+   "fulfillment": "UNFULFILLED",
+   "total": 189.95,
+   "customer": "Kristen Ey",
+   "items": [
+    {
+     "title": "Lumara Ashore Framed Canvas \u2014 Coastal 70 \u00d7 90 cm",
+     "quantity": 1
+    }
+   ]
+  },
   {
    "name": "#1044",
    "createdAt": "2026-08-15T05:55:52Z",
@@ -338,9 +352,15 @@
    "createdAt": "2026-08-14T22:43:12Z",
    "total": 270.0,
    "customer": "Elizabeth Cooper"
+  },
+  {
+   "name": "#1045",
+   "createdAt": "2026-08-15T23:38:29Z",
+   "total": 189.95,
+   "customer": "Kristen Ey"
   }
  ],
- "customers_total": 63,
+ "customers_total": 64,
  "abandoned_checkouts_recent": 1,
  "inventory": [
   {
@@ -1642,7 +1662,7 @@
   {
    "title": "Lumara Ashore Framed Canvas \u2014 Coastal 70 \u00d7 90 cm",
    "sku": "AW1733-2",
-   "qty": 9,
+   "qty": 8,
    "price": 189.95,
    "status": "ACTIVE",
    "tracked": true,
@@ -1810,22 +1830,22 @@
   },
   {
    "date": "2026-08-16",
-   "spend": 16.76,
-   "impressions": 544,
-   "clicks": 19,
-   "ctr": 3.49,
-   "cpc": 0.88,
+   "spend": 17.87,
+   "impressions": 594,
+   "clicks": 24,
+   "ctr": 4.04,
+   "cpc": 0.74,
    "purchases": 0,
    "purchase_value": 0.0
   }
  ],
  "ads_today": {
   "date": "2026-08-16",
-  "spend": 16.76,
-  "impressions": 544,
-  "clicks": 19,
-  "ctr": 3.49,
-  "cpc": 0.88,
+  "spend": 17.87,
+  "impressions": 594,
+  "clicks": 24,
+  "ctr": 4.04,
+  "cpc": 0.74,
   "purchases": 0,
   "purchase_value": 0.0
  },
