@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-08-16T18:39:34Z",
+ "generated_at_utc": "2026-08-16T18:59:44Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-08-16T18:39:34Z"
+   "fetched_at": "2026-08-16T18:59:44Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-08-16T18:39:34Z"
+   "fetched_at": "2026-08-16T18:59:44Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-08-16T18:39:34Z"
+   "fetched_at": "2026-08-16T18:59:44Z"
   }
  },
  "orders": [
@@ -1814,32 +1814,32 @@
   },
   {
    "date": "2026-08-16",
-   "spend": 80.87,
-   "impressions": 3359,
+   "spend": 81.0,
+   "impressions": 3362,
    "clicks": 142,
-   "ctr": 4.23,
+   "ctr": 4.22,
    "cpc": 0.57,
    "purchases": 1,
    "purchase_value": 189.95
   },
   {
    "date": "2026-08-17",
-   "spend": 1.72,
-   "impressions": 95,
+   "spend": 1.81,
+   "impressions": 100,
    "clicks": 4,
-   "ctr": 4.21,
-   "cpc": 0.43,
+   "ctr": 4.0,
+   "cpc": 0.45,
    "purchases": 0,
    "purchase_value": 0.0
   }
  ],
  "ads_today": {
   "date": "2026-08-17",
-  "spend": 1.72,
-  "impressions": 95,
+  "spend": 1.81,
+  "impressions": 100,
   "clicks": 4,
-  "ctr": 4.21,
-  "cpc": 0.43,
+  "ctr": 4.0,
+  "cpc": 0.45,
   "purchases": 0,
   "purchase_value": 0.0
  },
@@ -1863,12 +1863,12 @@
    "name": "Lumara \u2014 Sales \u2014 Winners Broad CBO (Jul 2026)",
    "status": "ACTIVE",
    "daily_budget": 30.0,
-   "spend": 845.35,
-   "impressions": 20776,
+   "spend": 845.48,
+   "impressions": 20779,
    "clicks": 1050,
    "ctr": 5.05,
    "cpc": 0.81,
-   "roas": 1.4688,
+   "roas": 1.4686,
    "purchases": 7,
    "purchase_value": 1241.66,
    "atc": 23,
