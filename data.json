@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-16T09:26:16Z",
-  "generated_at_local": "Sun 16 Aug 2026, 7:26pm AEST",
+  "generated_at_utc": "2026-08-16T09:36:34Z",
+  "generated_at_local": "Sun 16 Aug 2026, 7:36pm AEST",
   "today": "2026-08-16",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-16T09:26:16Z"
+    "fetched_at": "2026-08-16T09:36:34Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-08-16T09:26:16Z"
+    "fetched_at": "2026-08-16T09:36:34Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-16T09:26:16Z"
+    "fetched_at": "2026-08-16T09:36:34Z"
    }
   }
  },
@@ -359,26 +359,26 @@
  },
  "ads": {
   "today": {
-   "spend": 68.48,
+   "spend": 68.82,
    "value": 189.95,
-   "roas": 2.77,
+   "roas": 2.76,
    "clicks": 114,
-   "impressions": 2745,
+   "impressions": 2773,
    "purchases": 1,
    "cpc": 0.6,
-   "ctr": 4.15,
-   "cpa": 68.48
+   "ctr": 4.11,
+   "cpa": 68.82
   },
   "d7": {
-   "spend": 417.79,
+   "spend": 418.13,
    "value": 873.94,
    "roas": 2.09,
    "clicks": 628,
-   "impressions": 13310,
+   "impressions": 13338,
    "purchases": 3,
    "cpc": 0.67,
-   "ctr": 4.72,
-   "cpa": 139.26
+   "ctr": 4.71,
+   "cpa": 139.38
   },
   "prev7": {
    "spend": 460.2,
@@ -523,11 +523,11 @@
    {
     "date": "2026-08-16",
     "label": "16 Aug",
-    "spend": 68.48,
+    "spend": 68.82,
     "revenue": 189.95,
     "purchases": 1,
     "clicks": 114,
-    "ctr": 4.15,
+    "ctr": 4.11,
     "cpc": 0.6
    }
   ],
