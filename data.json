@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-16T20:51:35Z",
-  "generated_at_local": "Mon 17 Aug 2026, 6:51am AEST",
+  "generated_at_utc": "2026-08-16T21:01:51Z",
+  "generated_at_local": "Mon 17 Aug 2026, 7:01am AEST",
   "today": "2026-08-17",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-16T20:51:35Z"
+    "fetched_at": "2026-08-16T21:01:51Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-08-16T20:51:35Z"
+    "fetched_at": "2026-08-16T21:01:51Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-16T20:51:35Z"
+    "fetched_at": "2026-08-16T21:01:51Z"
    }
   }
  },
@@ -359,26 +359,26 @@
  },
  "ads": {
   "today": {
-   "spend": 4.52,
+   "spend": 4.93,
    "value": 0.0,
    "roas": 0.0,
    "clicks": 10,
-   "impressions": 205,
+   "impressions": 233,
    "purchases": 0,
-   "cpc": 0.45,
-   "ctr": 4.88,
+   "cpc": 0.49,
+   "ctr": 4.29,
    "cpa": null
   },
   "d7": {
-   "spend": 370.68,
+   "spend": 371.1,
    "value": 873.94,
-   "roas": 2.36,
+   "roas": 2.35,
    "clicks": 594,
-   "impressions": 12827,
+   "impressions": 12856,
    "purchases": 3,
    "cpc": 0.62,
-   "ctr": 4.63,
-   "cpa": 123.56
+   "ctr": 4.62,
+   "cpa": 123.7
   },
   "prev7": {
    "spend": 437.65,
@@ -388,7 +388,7 @@
   "daily_budget_live": 60.0,
   "active_campaigns": 2,
   "dry_days": 1,
-  "dry_spend": 4.52,
+  "dry_spend": 4.93,
   "series": [
    {
     "date": "2026-08-04",
@@ -513,7 +513,7 @@
    {
     "date": "2026-08-16",
     "label": "16 Aug",
-    "spend": 81.0,
+    "spend": 81.01,
     "revenue": 189.95,
     "purchases": 1,
     "clicks": 142,
@@ -523,12 +523,12 @@
    {
     "date": "2026-08-17",
     "label": "17 Aug",
-    "spend": 4.52,
+    "spend": 4.93,
     "revenue": 0.0,
     "purchases": 0,
     "clicks": 10,
-    "ctr": 4.88,
-    "cpc": 0.45
+    "ctr": 4.29,
+    "cpc": 0.49
    }
   ],
   "campaigns": [
@@ -551,8 +551,8 @@
     "name": "Lumara \u2014 Sales \u2014 Winners Broad CBO (Jul 2026)",
     "status": "ACTIVE",
     "daily_budget": 30.0,
-    "spend": 845.48,
-    "impressions": 20779,
+    "spend": 845.49,
+    "impressions": 20780,
     "clicks": 1050,
     "ctr": 5.05,
     "cpc": 0.81,
