@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-16T01:45:47Z",
-  "generated_at_local": "Sun 16 Aug 2026, 11:45am AEST",
+  "generated_at_utc": "2026-08-16T02:05:54Z",
+  "generated_at_local": "Sun 16 Aug 2026, 12:05pm AEST",
   "today": "2026-08-16",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-16T01:45:47Z"
+    "fetched_at": "2026-08-16T02:05:54Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-08-16T01:45:47Z"
+    "fetched_at": "2026-08-16T02:05:54Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-16T01:45:47Z"
+    "fetched_at": "2026-08-16T02:05:54Z"
    }
   }
  },
@@ -29,8 +29,8 @@
   },
   {
    "level": "serious",
-   "title": "2 paid order(s) awaiting fulfilment",
-   "body": "#1043, #1045"
+   "title": "1 paid order(s) awaiting fulfilment",
+   "body": "#1043"
   },
   {
    "level": "warning",
@@ -56,19 +56,13 @@
   },
   "prev7_revenue": 1719.83,
   "wow_pct": -38.1,
-  "pending_fulfilment": 2,
+  "pending_fulfilment": 1,
   "pending_orders": [
    {
     "name": "#1043",
     "createdAt": "2026-08-14T22:43:12Z",
     "total": 270.0,
     "customer": "Elizabeth Cooper"
-   },
-   {
-    "name": "#1045",
-    "createdAt": "2026-08-15T23:38:29Z",
-    "total": 189.95,
-    "customer": "Kristen Ey"
    }
   ],
   "abandoned_checkouts": 1,
@@ -268,7 +262,7 @@
     "when": "16 aug, 9:38am",
     "total": 189.95,
     "customer": "Kristen Ey",
-    "fulfillment": "UNFULFILLED",
+    "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Lumara Ashore Framed Canvas \u2014 Coastal 70 \u00d7 90 cm"
    },
@@ -365,26 +359,26 @@
  },
  "ads": {
   "today": {
-   "spend": 28.46,
+   "spend": 30.24,
    "value": 189.95,
-   "roas": 6.67,
+   "roas": 6.28,
    "clicks": 44,
-   "impressions": 1039,
+   "impressions": 1113,
    "purchases": 1,
-   "cpc": 0.65,
-   "ctr": 4.23,
-   "cpa": 28.46
+   "cpc": 0.69,
+   "ctr": 3.95,
+   "cpa": 30.24
   },
   "d7": {
-   "spend": 377.77,
+   "spend": 379.55,
    "value": 873.94,
-   "roas": 2.31,
+   "roas": 2.3,
    "clicks": 558,
-   "impressions": 11604,
+   "impressions": 11678,
    "purchases": 3,
    "cpc": 0.68,
-   "ctr": 4.81,
-   "cpa": 125.92
+   "ctr": 4.78,
+   "cpa": 126.52
   },
   "prev7": {
    "spend": 460.2,
@@ -529,12 +523,12 @@
    {
     "date": "2026-08-16",
     "label": "16 Aug",
-    "spend": 28.46,
+    "spend": 30.24,
     "revenue": 189.95,
     "purchases": 1,
     "clicks": 44,
-    "ctr": 4.23,
-    "cpc": 0.65
+    "ctr": 3.95,
+    "cpc": 0.69
    }
   ],
   "campaigns": [
