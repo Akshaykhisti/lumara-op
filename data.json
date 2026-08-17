@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-17T21:22:27Z",
-  "generated_at_local": "Tue 18 Aug 2026, 7:22am AEST",
+  "generated_at_utc": "2026-08-17T21:32:43Z",
+  "generated_at_local": "Tue 18 Aug 2026, 7:32am AEST",
   "today": "2026-08-18",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-17T21:22:27Z"
+    "fetched_at": "2026-08-17T21:32:43Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-08-17T21:22:27Z"
+    "fetched_at": "2026-08-17T21:32:43Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-17T21:22:27Z"
+    "fetched_at": "2026-08-17T21:32:43Z"
    }
   }
  },
@@ -364,26 +364,26 @@
  },
  "ads": {
   "today": {
-   "spend": 1.79,
+   "spend": 1.89,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 9,
-   "impressions": 120,
+   "clicks": 10,
+   "impressions": 128,
    "purchases": 0,
-   "cpc": 0.2,
-   "ctr": 7.5,
+   "cpc": 0.19,
+   "ctr": 7.81,
    "cpa": null
   },
   "d7": {
-   "spend": 372.58,
+   "spend": 372.7,
    "value": 873.94,
-   "roas": 2.35,
-   "clicks": 669,
-   "impressions": 14570,
+   "roas": 2.34,
+   "clicks": 670,
+   "impressions": 14580,
    "purchases": 3,
    "cpc": 0.56,
-   "ctr": 4.59,
-   "cpa": 124.19
+   "ctr": 4.6,
+   "cpa": 124.23
   },
   "prev7": {
    "spend": 424.69,
@@ -393,7 +393,7 @@
   "daily_budget_live": 60.0,
   "active_campaigns": 2,
   "dry_days": 2,
-  "dry_spend": 70.63,
+  "dry_spend": 70.75,
   "series": [
    {
     "date": "2026-08-05",
@@ -518,7 +518,7 @@
    {
     "date": "2026-08-17",
     "label": "17 Aug",
-    "spend": 68.84,
+    "spend": 68.86,
     "revenue": 0.0,
     "purchases": 0,
     "clicks": 149,
@@ -528,12 +528,12 @@
    {
     "date": "2026-08-18",
     "label": "18 Aug",
-    "spend": 1.79,
+    "spend": 1.89,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 9,
-    "ctr": 7.5,
-    "cpc": 0.2
+    "clicks": 10,
+    "ctr": 7.81,
+    "cpc": 0.19
    }
   ],
   "campaigns": [
@@ -556,16 +556,16 @@
     "name": "Lumara \u2014 Sales \u2014 Winners Broad CBO (Jul 2026)",
     "status": "ACTIVE",
     "daily_budget": 30.0,
-    "spend": 849.25,
-    "impressions": 21926,
+    "spend": 849.27,
+    "impressions": 21928,
     "clicks": 1089,
     "ctr": 4.97,
     "cpc": 0.78,
-    "roas": 1.4621,
+    "roas": 1.462,
     "purchases": 7,
     "purchase_value": 1241.66,
     "atc": 22,
-    "reach": 14290
+    "reach": 14297
    },
    {
     "name": "Lumara \u2014 Retargeting \u2014 AU \u2014 Website 30d (Jun 2026)",
