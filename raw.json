@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-08-17T20:21:33Z",
+ "generated_at_utc": "2026-08-17T20:36:53Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-08-17T20:21:33Z"
+   "fetched_at": "2026-08-17T20:36:53Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-08-17T20:21:33Z"
+   "fetched_at": "2026-08-17T20:36:53Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-08-17T20:21:33Z"
+   "fetched_at": "2026-08-17T20:36:53Z"
   }
  },
  "orders": [
@@ -1786,8 +1786,8 @@
   },
   {
    "date": "2026-08-17",
-   "spend": 68.44,
-   "impressions": 3672,
+   "spend": 68.52,
+   "impressions": 3674,
    "clicks": 149,
    "ctr": 4.06,
    "cpc": 0.46,
@@ -1796,22 +1796,22 @@
   },
   {
    "date": "2026-08-18",
-   "spend": 0.9,
-   "impressions": 87,
-   "clicks": 3,
-   "ctr": 3.45,
-   "cpc": 0.3,
+   "spend": 1.23,
+   "impressions": 96,
+   "clicks": 5,
+   "ctr": 5.21,
+   "cpc": 0.25,
    "purchases": 0,
    "purchase_value": 0.0
   }
  ],
  "ads_today": {
   "date": "2026-08-18",
-  "spend": 0.9,
-  "impressions": 87,
-  "clicks": 3,
-  "ctr": 3.45,
-  "cpc": 0.3,
+  "spend": 1.23,
+  "impressions": 96,
+  "clicks": 5,
+  "ctr": 5.21,
+  "cpc": 0.25,
   "purchases": 0,
   "purchase_value": 0.0
  },
@@ -1820,12 +1820,12 @@
    "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
    "status": "ACTIVE",
    "daily_budget": 30.0,
-   "spend": 1023.59,
-   "impressions": 33189,
+   "spend": 1023.65,
+   "impressions": 33190,
    "clicks": 1435,
    "ctr": 4.32,
    "cpc": 0.71,
-   "roas": 2.278,
+   "roas": 2.2779,
    "purchases": 9,
    "purchase_value": 2331.76,
    "atc": 34,
@@ -1835,8 +1835,8 @@
    "name": "Lumara \u2014 Sales \u2014 Winners Broad CBO (Jul 2026)",
    "status": "ACTIVE",
    "daily_budget": 30.0,
-   "spend": 849.12,
-   "impressions": 21922,
+   "spend": 849.14,
+   "impressions": 21923,
    "clicks": 1089,
    "ctr": 4.97,
    "cpc": 0.78,
