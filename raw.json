@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-08-17T13:45:12Z",
+ "generated_at_utc": "2026-08-17T14:05:32Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-08-17T13:45:12Z"
+   "fetched_at": "2026-08-17T14:05:32Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-08-17T13:45:12Z"
+   "fetched_at": "2026-08-17T14:05:32Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-08-17T13:45:12Z"
+   "fetched_at": "2026-08-17T14:05:32Z"
   }
  },
  "orders": [
@@ -313,34 +313,6 @@
     },
     {
      "title": "Lumara Mediterranean Med Candle Holder \u2014 Slender Ceramic Taper",
-     "quantity": 1
-    }
-   ]
-  },
-  {
-   "name": "#1025",
-   "createdAt": "2026-07-18T10:22:23Z",
-   "financial": "PAID",
-   "fulfillment": "FULFILLED",
-   "total": 103.95,
-   "customer": "Amanda Johnson",
-   "items": [
-    {
-     "title": "Talia Vase",
-     "quantity": 1
-    }
-   ]
-  },
-  {
-   "name": "#1024",
-   "createdAt": "2026-07-18T01:30:08Z",
-   "financial": "PAID",
-   "fulfillment": "FULFILLED",
-   "total": 67.95,
-   "customer": "Carmel Torenius",
-   "items": [
-    {
-     "title": "Lumara Lopez Rustic White Candle Holder",
      "quantity": 1
     }
    ]
@@ -1683,16 +1655,6 @@
  ],
  "ads_daily": [
   {
-   "date": "2026-08-03",
-   "spend": 86.7,
-   "impressions": 2203,
-   "clicks": 143,
-   "ctr": 6.49,
-   "cpc": 0.61,
-   "purchases": 0,
-   "purchase_value": 0.0
-  },
-  {
    "date": "2026-08-04",
    "spend": 77.22,
    "impressions": 1690,
@@ -1824,22 +1786,32 @@
   },
   {
    "date": "2026-08-17",
-   "spend": 67.87,
-   "impressions": 3648,
+   "spend": 68.14,
+   "impressions": 3661,
    "clicks": 149,
-   "ctr": 4.08,
+   "ctr": 4.07,
    "cpc": 0.46,
+   "purchases": 0,
+   "purchase_value": 0.0
+  },
+  {
+   "date": "2026-08-18",
+   "spend": 0.0,
+   "impressions": 0,
+   "clicks": 0,
+   "ctr": 0.0,
+   "cpc": 0.0,
    "purchases": 0,
    "purchase_value": 0.0
   }
  ],
  "ads_today": {
-  "date": "2026-08-17",
-  "spend": 67.87,
-  "impressions": 3648,
-  "clicks": 149,
-  "ctr": 4.08,
-  "cpc": 0.46,
+  "date": "2026-08-18",
+  "spend": 0.0,
+  "impressions": 0,
+  "clicks": 0,
+  "ctr": 0.0,
+  "cpc": 0.0,
   "purchases": 0,
   "purchase_value": 0.0
  },
@@ -1848,31 +1820,31 @@
    "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
    "status": "ACTIVE",
    "daily_budget": 30.0,
-   "spend": 1030.58,
-   "impressions": 33103,
-   "clicks": 1415,
-   "ctr": 4.27,
-   "cpc": 0.73,
-   "roas": 2.4294,
-   "purchases": 11,
-   "purchase_value": 2503.66,
-   "atc": 39,
-   "reach": 21345
+   "spend": 1023.46,
+   "impressions": 33183,
+   "clicks": 1435,
+   "ctr": 4.32,
+   "cpc": 0.71,
+   "roas": 2.2783,
+   "purchases": 9,
+   "purchase_value": 2331.76,
+   "atc": 34,
+   "reach": 21551
   },
   {
    "name": "Lumara \u2014 Sales \u2014 Winners Broad CBO (Jul 2026)",
    "status": "ACTIVE",
    "daily_budget": 30.0,
-   "spend": 845.5,
-   "impressions": 20781,
-   "clicks": 1052,
-   "ctr": 5.06,
-   "cpc": 0.8,
-   "roas": 1.4686,
+   "spend": 848.95,
+   "impressions": 21917,
+   "clicks": 1089,
+   "ctr": 4.97,
+   "cpc": 0.78,
+   "roas": 1.4626,
    "purchases": 7,
    "purchase_value": 1241.66,
-   "atc": 23,
-   "reach": 12962
+   "atc": 22,
+   "reach": 14277
   },
   {
    "name": "Lumara \u2014 Retargeting \u2014 AU \u2014 Website 30d (Jun 2026)",

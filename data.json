@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-17T13:45:12Z",
-  "generated_at_local": "Mon 17 Aug 2026, 11:45pm AEST",
-  "today": "2026-08-17",
+  "generated_at_utc": "2026-08-17T14:05:32Z",
+  "generated_at_local": "Tue 18 Aug 2026, 12:05am AEST",
+  "today": "2026-08-18",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-17T13:45:12Z"
+    "fetched_at": "2026-08-17T14:05:32Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-08-17T13:45:12Z"
+    "fetched_at": "2026-08-17T14:05:32Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-17T13:45:12Z"
+    "fetched_at": "2026-08-17T14:05:32Z"
    }
   }
  },
@@ -31,6 +31,11 @@
    "level": "serious",
    "title": "1 paid order(s) awaiting fulfilment",
    "body": "#1043"
+  },
+  {
+   "level": "warning",
+   "title": "No orders for 2 days",
+   "body": "Last order was #1045 on 16 Aug. Ads have spent $68 since the last attributed purchase."
   },
   {
    "level": "warning",
@@ -50,9 +55,9 @@
    "aov": 265.97
   },
   "d30": {
-   "orders": 20,
-   "revenue": 4175.26,
-   "aov": 208.76
+   "orders": 18,
+   "revenue": 3895.84,
+   "aov": 216.44
   },
   "prev7_revenue": 1719.83,
   "wow_pct": -38.1,
@@ -67,7 +72,7 @@
   ],
   "abandoned_checkouts": 1,
   "customers_total": 64,
-  "days_since_order": 1,
+  "days_since_order": 2,
   "last_order": {
    "name": "#1045",
    "when": "16 aug, 9:38am",
@@ -75,12 +80,6 @@
    "customer": "Kristen Ey"
   },
   "daily": [
-   {
-    "date": "2026-07-19",
-    "label": "19 Jul",
-    "orders": 2,
-    "revenue": 279.42
-   },
    {
     "date": "2026-07-20",
     "label": "20 Jul",
@@ -254,6 +253,12 @@
     "label": "17 Aug",
     "orders": 0,
     "revenue": 0.0
+   },
+   {
+    "date": "2026-08-18",
+    "label": "18 Aug",
+    "orders": 0,
+    "revenue": 0.0
    }
   ],
   "recent": [
@@ -336,10 +341,6 @@
     "units": 6
    },
    {
-    "title": "Lumara Olive Mediterranean Candelabra \u2014 Sculptural Metal Centrepiece",
-    "units": 3
-   },
-   {
     "title": "Lumara Ashore Framed Canvas \u2014 Coastal 70 \u00d7 90 cm",
     "units": 2
    },
@@ -354,52 +355,46 @@
    {
     "title": "Talia Vase",
     "units": 2
+   },
+   {
+    "title": "Lumara Olive Mediterranean Candelabra \u2014 Sculptural Metal Centrepiece",
+    "units": 2
    }
   ]
  },
  "ads": {
   "today": {
-   "spend": 67.87,
+   "spend": 0.0,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 149,
-   "impressions": 3648,
+   "clicks": 0,
+   "impressions": 0,
    "purchases": 0,
-   "cpc": 0.46,
-   "ctr": 4.08,
+   "cpc": 0.0,
+   "ctr": 0.0,
    "cpa": null
   },
   "d7": {
-   "spend": 434.08,
+   "spend": 370.09,
    "value": 873.94,
-   "roas": 2.01,
-   "clicks": 735,
-   "impressions": 16275,
+   "roas": 2.36,
+   "clicks": 660,
+   "impressions": 14432,
    "purchases": 3,
-   "cpc": 0.59,
-   "ctr": 4.52,
-   "cpa": 144.69
+   "cpc": 0.56,
+   "ctr": 4.57,
+   "cpa": 123.36
   },
   "prev7": {
-   "spend": 437.65,
+   "spend": 424.69,
    "value": 1719.83,
-   "roas": 3.93
+   "roas": 4.05
   },
   "daily_budget_live": 60.0,
   "active_campaigns": 2,
   "dry_days": 1,
-  "dry_spend": 67.87,
+  "dry_spend": 68.14,
   "series": [
-   {
-    "date": "2026-08-04",
-    "label": "4 Aug",
-    "spend": 77.22,
-    "revenue": 0.0,
-    "purchases": 0,
-    "clicks": 99,
-    "ctr": 5.86,
-    "cpc": 0.78
-   },
    {
     "date": "2026-08-05",
     "label": "5 Aug",
@@ -523,12 +518,22 @@
    {
     "date": "2026-08-17",
     "label": "17 Aug",
-    "spend": 67.87,
+    "spend": 68.14,
     "revenue": 0.0,
     "purchases": 0,
     "clicks": 149,
-    "ctr": 4.08,
+    "ctr": 4.07,
     "cpc": 0.46
+   },
+   {
+    "date": "2026-08-18",
+    "label": "18 Aug",
+    "spend": 0.0,
+    "revenue": 0.0,
+    "purchases": 0,
+    "clicks": 0,
+    "ctr": 0.0,
+    "cpc": 0.0
    }
   ],
   "campaigns": [
@@ -536,31 +541,31 @@
     "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
     "status": "ACTIVE",
     "daily_budget": 30.0,
-    "spend": 1030.58,
-    "impressions": 33103,
-    "clicks": 1415,
-    "ctr": 4.27,
-    "cpc": 0.73,
-    "roas": 2.4294,
-    "purchases": 11,
-    "purchase_value": 2503.66,
-    "atc": 39,
-    "reach": 21345
+    "spend": 1023.46,
+    "impressions": 33183,
+    "clicks": 1435,
+    "ctr": 4.32,
+    "cpc": 0.71,
+    "roas": 2.2783,
+    "purchases": 9,
+    "purchase_value": 2331.76,
+    "atc": 34,
+    "reach": 21551
    },
    {
     "name": "Lumara \u2014 Sales \u2014 Winners Broad CBO (Jul 2026)",
     "status": "ACTIVE",
     "daily_budget": 30.0,
-    "spend": 845.5,
-    "impressions": 20781,
-    "clicks": 1052,
-    "ctr": 5.06,
-    "cpc": 0.8,
-    "roas": 1.4686,
+    "spend": 848.95,
+    "impressions": 21917,
+    "clicks": 1089,
+    "ctr": 4.97,
+    "cpc": 0.78,
+    "roas": 1.4626,
     "purchases": 7,
     "purchase_value": 1241.66,
-    "atc": 23,
-    "reach": 12962
+    "atc": 22,
+    "reach": 14277
    },
    {
     "name": "Lumara \u2014 Retargeting \u2014 AU \u2014 Website 30d (Jun 2026)",
@@ -736,8 +741,8 @@
     "status": "ACTIVE",
     "tracked": true,
     "available": true,
-    "sold_30d": 3,
-    "days_cover": 40.0
+    "sold_30d": 2,
+    "days_cover": 60.0
    },
    {
     "title": "Lumara Baroque Heart Wall Art \u2014 Gold",
