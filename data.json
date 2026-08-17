@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-17T15:21:40Z",
-  "generated_at_local": "Tue 18 Aug 2026, 1:21am AEST",
+  "generated_at_utc": "2026-08-17T15:31:58Z",
+  "generated_at_local": "Tue 18 Aug 2026, 1:31am AEST",
   "today": "2026-08-18",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-17T15:21:40Z"
+    "fetched_at": "2026-08-17T15:31:58Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-08-17T15:21:40Z"
+    "fetched_at": "2026-08-17T15:31:58Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-17T15:21:40Z"
+    "fetched_at": "2026-08-17T15:31:58Z"
    }
   }
  },
@@ -368,22 +368,22 @@
    "value": 0.0,
    "roas": 0.0,
    "clicks": 3,
-   "impressions": 32,
+   "impressions": 33,
    "purchases": 0,
    "cpc": 0.1,
-   "ctr": 9.38,
+   "ctr": 9.09,
    "cpa": null
   },
   "d7": {
-   "spend": 370.53,
+   "spend": 370.63,
    "value": 873.94,
    "roas": 2.36,
    "clicks": 663,
-   "impressions": 14469,
+   "impressions": 14471,
    "purchases": 3,
    "cpc": 0.56,
    "ctr": 4.58,
-   "cpa": 123.51
+   "cpa": 123.54
   },
   "prev7": {
    "spend": 424.69,
@@ -393,7 +393,7 @@
   "daily_budget_live": 60.0,
   "active_campaigns": 2,
   "dry_days": 2,
-  "dry_spend": 68.58,
+  "dry_spend": 68.68,
   "series": [
    {
     "date": "2026-08-05",
@@ -518,7 +518,7 @@
    {
     "date": "2026-08-17",
     "label": "17 Aug",
-    "spend": 68.29,
+    "spend": 68.39,
     "revenue": 0.0,
     "purchases": 0,
     "clicks": 149,
@@ -532,7 +532,7 @@
     "revenue": 0.0,
     "purchases": 0,
     "clicks": 3,
-    "ctr": 9.38,
+    "ctr": 9.09,
     "cpc": 0.1
    }
   ],
@@ -541,12 +541,12 @@
     "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
     "status": "ACTIVE",
     "daily_budget": 30.0,
-    "spend": 1023.49,
-    "impressions": 33184,
+    "spend": 1023.59,
+    "impressions": 33185,
     "clicks": 1435,
     "ctr": 4.32,
     "cpc": 0.71,
-    "roas": 2.2782,
+    "roas": 2.278,
     "purchases": 9,
     "purchase_value": 2331.76,
     "atc": 34,
