@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-18T19:16:37Z",
-  "generated_at_local": "Wed 19 Aug 2026, 5:16am AEST",
+  "generated_at_utc": "2026-08-18T19:36:47Z",
+  "generated_at_local": "Wed 19 Aug 2026, 5:36am AEST",
   "today": "2026-08-19",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-18T19:16:37Z"
+    "fetched_at": "2026-08-18T19:36:47Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-08-18T19:16:37Z"
+    "fetched_at": "2026-08-18T19:36:47Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-18T19:16:37Z"
+    "fetched_at": "2026-08-18T19:36:47Z"
    }
   }
  },
@@ -373,22 +373,22 @@
    "value": 0.0,
    "roas": 0.0,
    "clicks": 6,
-   "impressions": 90,
+   "impressions": 93,
    "purchases": 0,
    "cpc": 0.32,
-   "ctr": 6.67,
+   "ctr": 6.45,
    "cpa": null
   },
   "d7": {
-   "spend": 363.55,
+   "spend": 363.56,
    "value": 873.94,
    "roas": 2.4,
    "clicks": 700,
-   "impressions": 15248,
+   "impressions": 15252,
    "purchases": 3,
    "cpc": 0.52,
    "ctr": 4.59,
-   "cpa": 121.18
+   "cpa": 121.19
   },
   "prev7": {
    "spend": 418.45,
@@ -398,7 +398,7 @@
   "daily_budget_live": 60.0,
   "active_campaigns": 2,
   "dry_days": 3,
-  "dry_spend": 118.17,
+  "dry_spend": 118.18,
   "series": [
    {
     "date": "2026-08-06",
@@ -523,7 +523,7 @@
    {
     "date": "2026-08-18",
     "label": "18 Aug",
-    "spend": 47.26,
+    "spend": 47.27,
     "revenue": 0.0,
     "purchases": 0,
     "clicks": 105,
@@ -537,7 +537,7 @@
     "revenue": 0.0,
     "purchases": 0,
     "clicks": 6,
-    "ctr": 6.67,
+    "ctr": 6.45,
     "cpc": 0.32
    }
   ],
@@ -561,8 +561,8 @@
     "name": "Lumara \u2014 Sales \u2014 Winners Broad CBO (Jul 2026)",
     "status": "ACTIVE",
     "daily_budget": 30.0,
-    "spend": 835.39,
-    "impressions": 22316,
+    "spend": 835.4,
+    "impressions": 22317,
     "clicks": 1078,
     "ctr": 4.83,
     "cpc": 0.77,
