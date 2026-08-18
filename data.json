@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-18T15:07:46Z",
-  "generated_at_local": "Wed 19 Aug 2026, 1:07am AEST",
+  "generated_at_utc": "2026-08-18T15:27:57Z",
+  "generated_at_local": "Wed 19 Aug 2026, 1:27am AEST",
   "today": "2026-08-19",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-18T15:07:46Z"
+    "fetched_at": "2026-08-18T15:27:57Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-08-18T15:07:46Z"
+    "fetched_at": "2026-08-18T15:27:57Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-18T15:07:46Z"
+    "fetched_at": "2026-08-18T15:27:57Z"
    }
   }
  },
@@ -369,26 +369,26 @@
  },
  "ads": {
   "today": {
-   "spend": 1.02,
+   "spend": 1.15,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 4,
-   "impressions": 46,
+   "clicks": 5,
+   "impressions": 51,
    "purchases": 0,
-   "cpc": 0.26,
-   "ctr": 8.7,
+   "cpc": 0.23,
+   "ctr": 9.8,
    "cpa": null
   },
   "d7": {
-   "spend": 362.52,
+   "spend": 362.65,
    "value": 873.94,
    "roas": 2.41,
-   "clicks": 698,
-   "impressions": 15194,
+   "clicks": 699,
+   "impressions": 15201,
    "purchases": 3,
    "cpc": 0.52,
-   "ctr": 4.59,
-   "cpa": 120.84
+   "ctr": 4.6,
+   "cpa": 120.88
   },
   "prev7": {
    "spend": 418.45,
@@ -398,7 +398,7 @@
   "daily_budget_live": 60.0,
   "active_campaigns": 2,
   "dry_days": 3,
-  "dry_spend": 117.14,
+  "dry_spend": 117.27,
   "series": [
    {
     "date": "2026-08-06",
@@ -527,18 +527,18 @@
     "revenue": 0.0,
     "purchases": 0,
     "clicks": 105,
-    "ctr": 3.91,
+    "ctr": 3.9,
     "cpc": 0.45
    },
    {
     "date": "2026-08-19",
     "label": "19 Aug",
-    "spend": 1.02,
+    "spend": 1.15,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 4,
-    "ctr": 8.7,
-    "cpc": 0.26
+    "clicks": 5,
+    "ctr": 9.8,
+    "cpc": 0.23
    }
   ],
   "campaigns": [
@@ -547,7 +547,7 @@
     "status": "ACTIVE",
     "daily_budget": 30.0,
     "spend": 977.54,
-    "impressions": 31145,
+    "impressions": 31146,
     "clicks": 1379,
     "ctr": 4.43,
     "cpc": 0.71,
@@ -562,7 +562,7 @@
     "status": "ACTIVE",
     "daily_budget": 30.0,
     "spend": 835.26,
-    "impressions": 22311,
+    "impressions": 22312,
     "clicks": 1078,
     "ctr": 4.83,
     "cpc": 0.77,
