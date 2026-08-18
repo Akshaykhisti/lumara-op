@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-18T13:50:46Z",
-  "generated_at_local": "Tue 18 Aug 2026, 11:50pm AEST",
-  "today": "2026-08-18",
+  "generated_at_utc": "2026-08-18T14:10:59Z",
+  "generated_at_local": "Wed 19 Aug 2026, 12:10am AEST",
+  "today": "2026-08-19",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-18T13:50:46Z"
+    "fetched_at": "2026-08-18T14:10:59Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-08-18T13:50:46Z"
+    "fetched_at": "2026-08-18T14:10:59Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-18T13:50:46Z"
+    "fetched_at": "2026-08-18T14:10:59Z"
    }
   }
  },
@@ -34,7 +34,7 @@
   },
   {
    "level": "warning",
-   "title": "No orders for 2 days",
+   "title": "No orders for 3 days",
    "body": "Last order was #1045 on 16 Aug. Ads have spent $116 since the last attributed purchase."
   },
   {
@@ -55,9 +55,9 @@
    "aov": 265.97
   },
   "d30": {
-   "orders": 18,
-   "revenue": 3895.84,
-   "aov": 216.44
+   "orders": 16,
+   "revenue": 3698.94,
+   "aov": 231.18
   },
   "prev7_revenue": 1719.83,
   "wow_pct": -38.1,
@@ -72,7 +72,7 @@
   ],
   "abandoned_checkouts": 1,
   "customers_total": 64,
-  "days_since_order": 2,
+  "days_since_order": 3,
   "last_order": {
    "name": "#1045",
    "when": "16 aug, 9:38am",
@@ -80,12 +80,6 @@
    "customer": "Kristen Ey"
   },
   "daily": [
-   {
-    "date": "2026-07-20",
-    "label": "20 Jul",
-    "orders": 2,
-    "revenue": 196.9
-   },
    {
     "date": "2026-07-21",
     "label": "21 Jul",
@@ -259,6 +253,12 @@
     "label": "18 Aug",
     "orders": 0,
     "revenue": 0.0
+   },
+   {
+    "date": "2026-08-19",
+    "label": "19 Aug",
+    "orders": 0,
+    "revenue": 0.0
    }
   ],
   "recent": [
@@ -353,58 +353,48 @@
     "units": 2
    },
    {
-    "title": "Talia Vase",
-    "units": 2
+    "title": "Lumara Navy Shell Framed Print II \u2014 60 \u00d7 80 cm",
+    "units": 1
    },
    {
-    "title": "Lumara Olive Mediterranean Candelabra \u2014 Sculptural Metal Centrepiece",
-    "units": 2
+    "title": "Lumara Navy Shell Framed Print I \u2014 60 \u00d7 80 cm",
+    "units": 1
    }
   ]
  },
  "ads": {
   "today": {
-   "spend": 46.52,
+   "spend": 0.0,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 104,
-   "impressions": 2664,
+   "clicks": 0,
+   "impressions": 0,
    "purchases": 0,
-   "cpc": 0.45,
-   "ctr": 3.9,
+   "cpc": 0.0,
+   "ctr": 0.0,
    "cpa": null
   },
   "d7": {
-   "spend": 417.49,
+   "spend": 361.45,
    "value": 873.94,
-   "roas": 2.09,
-   "clicks": 764,
-   "impressions": 17126,
+   "roas": 2.42,
+   "clicks": 694,
+   "impressions": 15143,
    "purchases": 3,
-   "cpc": 0.55,
-   "ctr": 4.46,
-   "cpa": 139.16
+   "cpc": 0.52,
+   "ctr": 4.58,
+   "cpa": 120.48
   },
   "prev7": {
-   "spend": 424.69,
+   "spend": 418.45,
    "value": 1719.83,
-   "roas": 4.05
+   "roas": 4.11
   },
   "daily_budget_live": 60.0,
   "active_campaigns": 2,
   "dry_days": 2,
-  "dry_spend": 115.54,
+  "dry_spend": 116.07,
   "series": [
-   {
-    "date": "2026-08-05",
-    "label": "5 Aug",
-    "spend": 62.81,
-    "revenue": 0.0,
-    "purchases": 0,
-    "clicks": 83,
-    "ctr": 6.26,
-    "cpc": 0.76
-   },
    {
     "date": "2026-08-06",
     "label": "6 Aug",
@@ -528,12 +518,22 @@
    {
     "date": "2026-08-18",
     "label": "18 Aug",
-    "spend": 46.52,
+    "spend": 47.05,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 104,
-    "ctr": 3.9,
+    "clicks": 105,
+    "ctr": 3.91,
     "cpc": 0.45
+   },
+   {
+    "date": "2026-08-19",
+    "label": "19 Aug",
+    "spend": 0.0,
+    "revenue": 0.0,
+    "purchases": 0,
+    "clicks": 0,
+    "ctr": 0.0,
+    "cpc": 0.0
    }
   ],
   "campaigns": [
@@ -541,31 +541,31 @@
     "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
     "status": "ACTIVE",
     "daily_budget": 30.0,
-    "spend": 1023.87,
-    "impressions": 33195,
-    "clicks": 1435,
-    "ctr": 4.32,
+    "spend": 977.52,
+    "impressions": 31142,
+    "clicks": 1379,
+    "ctr": 4.43,
     "cpc": 0.71,
-    "roas": 2.2774,
-    "purchases": 9,
-    "purchase_value": 2331.76,
-    "atc": 34,
-    "reach": 21551
+    "roas": 2.2151,
+    "purchases": 8,
+    "purchase_value": 2165.28,
+    "atc": 32,
+    "reach": 20880
    },
    {
     "name": "Lumara \u2014 Sales \u2014 Winners Broad CBO (Jul 2026)",
     "status": "ACTIVE",
     "daily_budget": 30.0,
-    "spend": 849.42,
-    "impressions": 21935,
-    "clicks": 1089,
-    "ctr": 4.96,
-    "cpc": 0.78,
-    "roas": 1.4618,
-    "purchases": 7,
-    "purchase_value": 1241.66,
-    "atc": 22,
-    "reach": 14305
+    "spend": 835.23,
+    "impressions": 22309,
+    "clicks": 1078,
+    "ctr": 4.83,
+    "cpc": 0.77,
+    "roas": 1.3514,
+    "purchases": 6,
+    "purchase_value": 1128.72,
+    "atc": 20,
+    "reach": 14620
    },
    {
     "name": "Lumara \u2014 Retargeting \u2014 AU \u2014 Website 30d (Jun 2026)",
@@ -741,8 +741,8 @@
     "status": "ACTIVE",
     "tracked": true,
     "available": true,
-    "sold_30d": 2,
-    "days_cover": 60.0
+    "sold_30d": 1,
+    "days_cover": 120.0
    },
    {
     "title": "Lumara Baroque Heart Wall Art \u2014 Gold",
