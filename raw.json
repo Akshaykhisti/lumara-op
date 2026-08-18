@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-08-18T10:37:51Z",
+ "generated_at_utc": "2026-08-18T10:58:04Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-08-18T10:37:51Z"
+   "fetched_at": "2026-08-18T10:58:04Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-08-18T10:37:51Z"
+   "fetched_at": "2026-08-18T10:58:04Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-08-18T10:37:51Z"
+   "fetched_at": "2026-08-18T10:58:04Z"
   }
  },
  "orders": [
@@ -67,7 +67,7 @@
    "name": "#1042",
    "createdAt": "2026-08-14T09:27:44Z",
    "financial": "PAID",
-   "fulfillment": "UNFULFILLED",
+   "fulfillment": "FULFILLED",
    "total": 189.95,
    "customer": "Lindy Herron",
    "items": [
@@ -319,12 +319,6 @@
   }
  ],
  "unfulfilled_paid": [
-  {
-   "name": "#1042",
-   "createdAt": "2026-08-14T09:27:44Z",
-   "total": 189.95,
-   "customer": "Lindy Herron"
-  },
   {
    "name": "#1043",
    "createdAt": "2026-08-14T22:43:12Z",
@@ -1802,22 +1796,22 @@
   },
   {
    "date": "2026-08-18",
-   "spend": 35.42,
-   "impressions": 2027,
-   "clicks": 71,
-   "ctr": 3.5,
-   "cpc": 0.5,
+   "spend": 36.42,
+   "impressions": 2109,
+   "clicks": 74,
+   "ctr": 3.51,
+   "cpc": 0.49,
    "purchases": 0,
    "purchase_value": 0.0
   }
  ],
  "ads_today": {
   "date": "2026-08-18",
-  "spend": 35.42,
-  "impressions": 2027,
-  "clicks": 71,
-  "ctr": 3.5,
-  "cpc": 0.5,
+  "spend": 36.42,
+  "impressions": 2109,
+  "clicks": 74,
+  "ctr": 3.51,
+  "cpc": 0.49,
   "purchases": 0,
   "purchase_value": 0.0
  },
