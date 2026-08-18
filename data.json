@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-18T18:25:44Z",
-  "generated_at_local": "Wed 19 Aug 2026, 4:25am AEST",
+  "generated_at_utc": "2026-08-18T18:46:06Z",
+  "generated_at_local": "Wed 19 Aug 2026, 4:46am AEST",
   "today": "2026-08-19",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-18T18:25:44Z"
+    "fetched_at": "2026-08-18T18:46:06Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-08-18T18:25:44Z"
+    "fetched_at": "2026-08-18T18:46:06Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-18T18:25:44Z"
+    "fetched_at": "2026-08-18T18:46:06Z"
    }
   }
  },
@@ -373,18 +373,18 @@
    "value": 0.0,
    "roas": 0.0,
    "clicks": 5,
-   "impressions": 80,
+   "impressions": 81,
    "purchases": 0,
    "cpc": 0.35,
-   "ctr": 6.25,
+   "ctr": 6.17,
    "cpa": null
   },
   "d7": {
-   "spend": 363.36,
+   "spend": 363.37,
    "value": 873.94,
    "roas": 2.41,
    "clicks": 699,
-   "impressions": 15236,
+   "impressions": 15238,
    "purchases": 3,
    "cpc": 0.52,
    "ctr": 4.59,
@@ -398,7 +398,7 @@
   "daily_budget_live": 60.0,
   "active_campaigns": 2,
   "dry_days": 3,
-  "dry_spend": 117.98,
+  "dry_spend": 117.99,
   "series": [
    {
     "date": "2026-08-06",
@@ -523,7 +523,7 @@
    {
     "date": "2026-08-18",
     "label": "18 Aug",
-    "spend": 47.23,
+    "spend": 47.24,
     "revenue": 0.0,
     "purchases": 0,
     "clicks": 105,
@@ -537,7 +537,7 @@
     "revenue": 0.0,
     "purchases": 0,
     "clicks": 5,
-    "ctr": 6.25,
+    "ctr": 6.17,
     "cpc": 0.35
    }
   ],
@@ -561,8 +561,8 @@
     "name": "Lumara \u2014 Sales \u2014 Winners Broad CBO (Jul 2026)",
     "status": "ACTIVE",
     "daily_budget": 30.0,
-    "spend": 835.38,
-    "impressions": 22315,
+    "spend": 835.39,
+    "impressions": 22316,
     "clicks": 1078,
     "ctr": 4.83,
     "cpc": 0.77,
