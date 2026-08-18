@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-18T06:34:44Z",
-  "generated_at_local": "Tue 18 Aug 2026, 4:34pm AEST",
+  "generated_at_utc": "2026-08-18T06:55:01Z",
+  "generated_at_local": "Tue 18 Aug 2026, 4:55pm AEST",
   "today": "2026-08-18",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-18T06:34:44Z"
+    "fetched_at": "2026-08-18T06:55:01Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-08-18T06:34:44Z"
+    "fetched_at": "2026-08-18T06:55:01Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-18T06:34:44Z"
+    "fetched_at": "2026-08-18T06:55:01Z"
    }
   }
  },
@@ -29,13 +29,13 @@
   },
   {
    "level": "serious",
-   "title": "1 paid order(s) awaiting fulfilment",
-   "body": "#1043"
+   "title": "2 paid order(s) awaiting fulfilment",
+   "body": "#1042, #1043"
   },
   {
    "level": "warning",
    "title": "No orders for 2 days",
-   "body": "Last order was #1045 on 16 Aug. Ads have spent $89 since the last attributed purchase."
+   "body": "Last order was #1045 on 16 Aug. Ads have spent $90 since the last attributed purchase."
   },
   {
    "level": "warning",
@@ -61,8 +61,14 @@
   },
   "prev7_revenue": 1719.83,
   "wow_pct": -38.1,
-  "pending_fulfilment": 1,
+  "pending_fulfilment": 2,
   "pending_orders": [
+   {
+    "name": "#1042",
+    "createdAt": "2026-08-14T09:27:44Z",
+    "total": 189.95,
+    "customer": "Lindy Herron"
+   },
    {
     "name": "#1043",
     "createdAt": "2026-08-14T22:43:12Z",
@@ -294,7 +300,7 @@
     "when": "14 aug, 7:27pm",
     "total": 189.95,
     "customer": "Lindy Herron",
-    "fulfillment": "FULFILLED",
+    "fulfillment": "UNFULFILLED",
     "financial": "PAID",
     "items": "Lumara Ashore Framed Canvas \u2014 Coastal 70 \u00d7 90 cm"
    },
@@ -364,26 +370,26 @@
  },
  "ads": {
   "today": {
-   "spend": 20.27,
+   "spend": 20.78,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 38,
-   "impressions": 1159,
+   "clicks": 40,
+   "impressions": 1218,
    "purchases": 0,
-   "cpc": 0.53,
+   "cpc": 0.52,
    "ctr": 3.28,
    "cpa": null
   },
   "d7": {
-   "spend": 391.24,
+   "spend": 391.75,
    "value": 873.94,
    "roas": 2.23,
-   "clicks": 698,
-   "impressions": 15621,
+   "clicks": 700,
+   "impressions": 15680,
    "purchases": 3,
    "cpc": 0.56,
-   "ctr": 4.47,
-   "cpa": 130.41
+   "ctr": 4.46,
+   "cpa": 130.58
   },
   "prev7": {
    "spend": 424.69,
@@ -393,7 +399,7 @@
   "daily_budget_live": 60.0,
   "active_campaigns": 2,
   "dry_days": 2,
-  "dry_spend": 89.29,
+  "dry_spend": 89.8,
   "series": [
    {
     "date": "2026-08-05",
@@ -528,12 +534,12 @@
    {
     "date": "2026-08-18",
     "label": "18 Aug",
-    "spend": 20.27,
+    "spend": 20.78,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 38,
+    "clicks": 40,
     "ctr": 3.28,
-    "cpc": 0.53
+    "cpc": 0.52
    }
   ],
   "campaigns": [
