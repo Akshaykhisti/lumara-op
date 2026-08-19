@@ -3,28 +3,28 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-19T00:01:22Z",
-  "generated_at_local": "Wed 19 Aug 2026, 10:01am AEST",
+  "generated_at_utc": "2026-08-19T00:21:33Z",
+  "generated_at_local": "Wed 19 Aug 2026, 10:21am AEST",
   "today": "2026-08-19",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-19T00:01:22Z"
+    "fetched_at": "2026-08-19T00:21:33Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-08-19T00:01:22Z"
+    "fetched_at": "2026-08-19T00:21:33Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-19T00:01:22Z"
+    "fetched_at": "2026-08-19T00:21:33Z"
    }
   }
  },
  "alerts": [
   {
    "level": "critical",
-   "title": "$129 ad spend, 0 purchases (3 days)",
+   "title": "$130 ad spend, 0 purchases (3 days)",
    "body": "No store orders in that window either. 2 campaign(s) live at $60/day. Check pixel/tracking and landing pages before topping up budget."
   },
   {
@@ -33,14 +33,9 @@
    "body": "Lumara Ashore Framed Canvas \u2014 Coastal 70 \u00d7 90 cm. Still listed as active \u2014 they take traffic and convert nothing."
   },
   {
-   "level": "serious",
-   "title": "1 paid order(s) awaiting fulfilment",
-   "body": "#1043"
-  },
-  {
    "level": "warning",
    "title": "No orders for 3 days",
-   "body": "Last order was #1045 on 16 Aug. Ads have spent $129 since the last attributed purchase."
+   "body": "Last order was #1045 on 16 Aug. Ads have spent $130 since the last attributed purchase."
   },
   {
    "level": "warning",
@@ -66,15 +61,8 @@
   },
   "prev7_revenue": 1719.83,
   "wow_pct": -38.1,
-  "pending_fulfilment": 1,
-  "pending_orders": [
-   {
-    "name": "#1043",
-    "createdAt": "2026-08-14T22:43:12Z",
-    "total": 270.0,
-    "customer": "Elizabeth Cooper"
-   }
-  ],
+  "pending_fulfilment": 0,
+  "pending_orders": [],
   "abandoned_checkouts": 1,
   "customers_total": 64,
   "days_since_order": 3,
@@ -290,7 +278,7 @@
     "when": "15 aug, 8:43am",
     "total": 270.0,
     "customer": "Elizabeth Cooper",
-    "fulfillment": "IN_PROGRESS",
+    "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement"
    },
@@ -369,26 +357,26 @@
  },
  "ads": {
   "today": {
-   "spend": 12.73,
+   "spend": 13.82,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 29,
-   "impressions": 657,
+   "clicks": 33,
+   "impressions": 714,
    "purchases": 0,
-   "cpc": 0.44,
-   "ctr": 4.41,
+   "cpc": 0.42,
+   "ctr": 4.62,
    "cpa": null
   },
   "d7": {
-   "spend": 374.57,
+   "spend": 375.66,
    "value": 873.94,
    "roas": 2.33,
-   "clicks": 723,
-   "impressions": 15828,
+   "clicks": 727,
+   "impressions": 15885,
    "purchases": 3,
    "cpc": 0.52,
-   "ctr": 4.57,
-   "cpa": 124.86
+   "ctr": 4.58,
+   "cpa": 125.22
   },
   "prev7": {
    "spend": 418.45,
@@ -398,7 +386,7 @@
   "daily_budget_live": 60.0,
   "active_campaigns": 2,
   "dry_days": 3,
-  "dry_spend": 129.19,
+  "dry_spend": 130.28,
   "series": [
    {
     "date": "2026-08-06",
@@ -533,12 +521,12 @@
    {
     "date": "2026-08-19",
     "label": "19 Aug",
-    "spend": 12.73,
+    "spend": 13.82,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 29,
-    "ctr": 4.41,
-    "cpc": 0.44
+    "clicks": 33,
+    "ctr": 4.62,
+    "cpc": 0.42
    }
   ],
   "campaigns": [
