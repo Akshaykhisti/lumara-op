@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-08-19T13:52:43Z",
+ "generated_at_utc": "2026-08-19T14:12:55Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-08-19T13:52:43Z"
+   "fetched_at": "2026-08-19T14:12:55Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-08-19T13:52:43Z"
+   "fetched_at": "2026-08-19T14:12:55Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-08-19T13:52:43Z"
+   "fetched_at": "2026-08-19T14:12:55Z"
   }
  },
  "orders": [
@@ -252,39 +252,11 @@
      "quantity": 1
     }
    ]
-  },
-  {
-   "name": "#1029",
-   "createdAt": "2026-07-20T11:52:15Z",
-   "financial": "PAID",
-   "fulfillment": "FULFILLED",
-   "total": 102.95,
-   "customer": "Irene Philp",
-   "items": [
-    {
-     "title": "Lumara Olive Mediterranean Candelabra \u2014 Sculptural Metal Centrepiece",
-     "quantity": 1
-    }
-   ]
-  },
-  {
-   "name": "#1028",
-   "createdAt": "2026-07-20T00:33:52Z",
-   "financial": "PAID",
-   "fulfillment": "FULFILLED",
-   "total": 93.95,
-   "customer": "Amanda Mckean",
-   "items": [
-    {
-     "title": "Talia Vase",
-     "quantity": 1
-    }
-   ]
   }
  ],
  "unfulfilled_paid": [],
  "customers_total": 64,
- "abandoned_checkouts_recent": 1,
+ "abandoned_checkouts_recent": 0,
  "inventory": [
   {
    "title": "Lumara Cayman Rattan Table Lamp \u2014 Coastal Natural Style",
@@ -1612,16 +1584,6 @@
  ],
  "ads_daily": [
   {
-   "date": "2026-08-05",
-   "spend": 62.81,
-   "impressions": 1326,
-   "clicks": 83,
-   "ctr": 6.26,
-   "cpc": 0.76,
-   "purchases": 0,
-   "purchase_value": 0.0
-  },
-  {
    "date": "2026-08-06",
    "spend": 55.8,
    "impressions": 1213,
@@ -1753,22 +1715,32 @@
   },
   {
    "date": "2026-08-19",
-   "spend": 46.03,
-   "impressions": 2396,
+   "spend": 46.21,
+   "impressions": 2401,
    "clicks": 92,
-   "ctr": 3.84,
+   "ctr": 3.83,
    "cpc": 0.5,
+   "purchases": 0,
+   "purchase_value": 0.0
+  },
+  {
+   "date": "2026-08-20",
+   "spend": 0.0,
+   "impressions": 0,
+   "clicks": 0,
+   "ctr": 0.0,
+   "cpc": 0.0,
    "purchases": 0,
    "purchase_value": 0.0
   }
  ],
  "ads_today": {
-  "date": "2026-08-19",
-  "spend": 46.03,
-  "impressions": 2396,
-  "clicks": 92,
-  "ctr": 3.84,
-  "cpc": 0.5,
+  "date": "2026-08-20",
+  "spend": 0.0,
+  "impressions": 0,
+  "clicks": 0,
+  "ctr": 0.0,
+  "cpc": 0.0,
   "purchases": 0,
   "purchase_value": 0.0
  },
@@ -1777,31 +1749,31 @@
    "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
    "status": "ACTIVE",
    "daily_budget": 30.0,
-   "spend": 977.69,
-   "impressions": 31156,
-   "clicks": 1379,
-   "ctr": 4.43,
-   "cpc": 0.71,
-   "roas": 2.2147,
-   "purchases": 8,
-   "purchase_value": 2165.28,
-   "atc": 32,
-   "reach": 20880
+   "spend": 965.48,
+   "impressions": 30822,
+   "clicks": 1381,
+   "ctr": 4.48,
+   "cpc": 0.7,
+   "roas": 2.1454,
+   "purchases": 7,
+   "purchase_value": 2071.33,
+   "atc": 31,
+   "reach": 20757
   },
   {
    "name": "Lumara \u2014 Sales \u2014 Winners Broad CBO (Jul 2026)",
    "status": "ACTIVE",
    "daily_budget": 30.0,
-   "spend": 835.58,
-   "impressions": 22325,
+   "spend": 822.26,
+   "impressions": 22417,
    "clicks": 1078,
-   "ctr": 4.83,
-   "cpc": 0.78,
-   "roas": 1.3508,
-   "purchases": 6,
-   "purchase_value": 1128.72,
+   "ctr": 4.81,
+   "cpc": 0.76,
+   "roas": 1.2475,
+   "purchases": 5,
+   "purchase_value": 1025.77,
    "atc": 20,
-   "reach": 14636
+   "reach": 14859
   },
   {
    "name": "Lumara \u2014 Retargeting \u2014 AU \u2014 Website 30d (Jun 2026)",

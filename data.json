@@ -3,25 +3,30 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-19T13:52:43Z",
-  "generated_at_local": "Wed 19 Aug 2026, 11:52pm AEST",
-  "today": "2026-08-19",
+  "generated_at_utc": "2026-08-19T14:12:55Z",
+  "generated_at_local": "Thu 20 Aug 2026, 12:12am AEST",
+  "today": "2026-08-20",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-19T13:52:43Z"
+    "fetched_at": "2026-08-19T14:12:55Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-08-19T13:52:43Z"
+    "fetched_at": "2026-08-19T14:12:55Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-19T13:52:43Z"
+    "fetched_at": "2026-08-19T14:12:55Z"
    }
   }
  },
  "alerts": [
+  {
+   "level": "critical",
+   "title": "No orders for 4 days",
+   "body": "Last order was #1045 on 16 Aug. Ads have spent $163 since the last attributed purchase."
+  },
   {
    "level": "critical",
    "title": "$163 ad spend, 0 purchases (3 days)",
@@ -31,11 +36,6 @@
    "level": "serious",
    "title": "1 product(s) sold in the last 30d are out of stock",
    "body": "Lumara Ashore Framed Canvas \u2014 Coastal 70 \u00d7 90 cm. Still listed as active \u2014 they take traffic and convert nothing."
-  },
-  {
-   "level": "warning",
-   "title": "No orders for 3 days",
-   "body": "Last order was #1045 on 16 Aug. Ads have spent $163 since the last attributed purchase."
   },
   {
    "level": "warning",
@@ -55,17 +55,17 @@
    "aov": 265.97
   },
   "d30": {
-   "orders": 16,
-   "revenue": 3698.94,
-   "aov": 231.18
+   "orders": 13,
+   "revenue": 3298.55,
+   "aov": 253.73
   },
-  "prev7_revenue": 1719.83,
-  "wow_pct": -38.1,
+  "prev7_revenue": 889.94,
+  "wow_pct": 19.5,
   "pending_fulfilment": 0,
   "pending_orders": [],
-  "abandoned_checkouts": 1,
+  "abandoned_checkouts": 0,
   "customers_total": 64,
-  "days_since_order": 3,
+  "days_since_order": 4,
   "last_order": {
    "name": "#1045",
    "when": "16 aug, 9:38am",
@@ -73,12 +73,6 @@
    "customer": "Kristen Ey"
   },
   "daily": [
-   {
-    "date": "2026-07-21",
-    "label": "21 Jul",
-    "orders": 3,
-    "revenue": 400.39
-   },
    {
     "date": "2026-07-22",
     "label": "22 Jul",
@@ -252,6 +246,12 @@
     "label": "19 Aug",
     "orders": 0,
     "revenue": 0.0
+   },
+   {
+    "date": "2026-08-20",
+    "label": "20 Aug",
+    "orders": 0,
+    "revenue": 0.0
    }
   ],
   "recent": [
@@ -342,62 +342,52 @@
     "units": 2
    },
    {
-    "title": "Lumara Giana Natural Table Lamp \u2014 Earthy Organic Style",
-    "units": 2
-   },
-   {
     "title": "Lumara Navy Shell Framed Print II \u2014 60 \u00d7 80 cm",
     "units": 1
    },
    {
     "title": "Lumara Navy Shell Framed Print I \u2014 60 \u00d7 80 cm",
     "units": 1
+   },
+   {
+    "title": "Lumara Giana Natural Table Lamp \u2014 Earthy Organic Style",
+    "units": 1
    }
   ]
  },
  "ads": {
   "today": {
-   "spend": 46.03,
+   "spend": 0.0,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 92,
-   "impressions": 2396,
+   "clicks": 0,
+   "impressions": 0,
    "purchases": 0,
-   "cpc": 0.5,
-   "ctr": 3.84,
+   "cpc": 0.0,
+   "ctr": 0.0,
    "cpa": null
   },
   "d7": {
-   "spend": 408.0,
+   "spend": 331.17,
    "value": 873.94,
-   "roas": 2.14,
-   "clicks": 786,
-   "impressions": 17569,
+   "roas": 2.64,
+   "clicks": 659,
+   "impressions": 15360,
    "purchases": 3,
-   "cpc": 0.52,
-   "ctr": 4.47,
-   "cpa": 136.0
+   "cpc": 0.5,
+   "ctr": 4.29,
+   "cpa": 110.39
   },
   "prev7": {
-   "spend": 418.45,
-   "value": 1719.83,
-   "roas": 4.11
+   "spend": 439.66,
+   "value": 889.94,
+   "roas": 2.02
   },
   "daily_budget_live": 60.0,
   "active_campaigns": 2,
   "dry_days": 3,
-  "dry_spend": 162.62,
+  "dry_spend": 162.8,
   "series": [
-   {
-    "date": "2026-08-06",
-    "label": "6 Aug",
-    "spend": 55.8,
-    "revenue": 829.89,
-    "purchases": 2,
-    "clicks": 81,
-    "ctr": 6.68,
-    "cpc": 0.69
-   },
    {
     "date": "2026-08-07",
     "label": "7 Aug",
@@ -521,12 +511,22 @@
    {
     "date": "2026-08-19",
     "label": "19 Aug",
-    "spend": 46.03,
+    "spend": 46.21,
     "revenue": 0.0,
     "purchases": 0,
     "clicks": 92,
-    "ctr": 3.84,
+    "ctr": 3.83,
     "cpc": 0.5
+   },
+   {
+    "date": "2026-08-20",
+    "label": "20 Aug",
+    "spend": 0.0,
+    "revenue": 0.0,
+    "purchases": 0,
+    "clicks": 0,
+    "ctr": 0.0,
+    "cpc": 0.0
    }
   ],
   "campaigns": [
@@ -534,31 +534,31 @@
     "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
     "status": "ACTIVE",
     "daily_budget": 30.0,
-    "spend": 977.69,
-    "impressions": 31156,
-    "clicks": 1379,
-    "ctr": 4.43,
-    "cpc": 0.71,
-    "roas": 2.2147,
-    "purchases": 8,
-    "purchase_value": 2165.28,
-    "atc": 32,
-    "reach": 20880
+    "spend": 965.48,
+    "impressions": 30822,
+    "clicks": 1381,
+    "ctr": 4.48,
+    "cpc": 0.7,
+    "roas": 2.1454,
+    "purchases": 7,
+    "purchase_value": 2071.33,
+    "atc": 31,
+    "reach": 20757
    },
    {
     "name": "Lumara \u2014 Sales \u2014 Winners Broad CBO (Jul 2026)",
     "status": "ACTIVE",
     "daily_budget": 30.0,
-    "spend": 835.58,
-    "impressions": 22325,
+    "spend": 822.26,
+    "impressions": 22417,
     "clicks": 1078,
-    "ctr": 4.83,
-    "cpc": 0.78,
-    "roas": 1.3508,
-    "purchases": 6,
-    "purchase_value": 1128.72,
+    "ctr": 4.81,
+    "cpc": 0.76,
+    "roas": 1.2475,
+    "purchases": 5,
+    "purchase_value": 1025.77,
     "atc": 20,
-    "reach": 14636
+    "reach": 14859
    },
    {
     "name": "Lumara \u2014 Retargeting \u2014 AU \u2014 Website 30d (Jun 2026)",
@@ -679,8 +679,8 @@
     "status": "ACTIVE",
     "tracked": true,
     "available": true,
-    "sold_30d": 1,
-    "days_cover": 30.0
+    "sold_30d": 0,
+    "days_cover": null
    },
    {
     "title": "Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass",
@@ -734,8 +734,8 @@
     "status": "ACTIVE",
     "tracked": true,
     "available": true,
-    "sold_30d": 1,
-    "days_cover": 120.0
+    "sold_30d": 0,
+    "days_cover": null
    },
    {
     "title": "Lumara Baroque Heart Wall Art \u2014 Gold",
