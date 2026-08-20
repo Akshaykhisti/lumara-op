@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-08-20T07:17:55Z",
+ "generated_at_utc": "2026-08-20T07:38:06Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,18 +9,32 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-08-20T07:17:55Z"
+   "fetched_at": "2026-08-20T07:38:06Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-08-20T07:17:55Z"
+   "fetched_at": "2026-08-20T07:38:06Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-08-20T07:17:55Z"
+   "fetched_at": "2026-08-20T07:38:06Z"
   }
  },
  "orders": [
+  {
+   "name": "#1046",
+   "createdAt": "2026-08-20T07:35:21Z",
+   "financial": "PAID",
+   "fulfillment": "UNFULFILLED",
+   "total": 405.14,
+   "customer": "Helve Beale",
+   "items": [
+    {
+     "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
+     "quantity": 2
+    }
+   ]
+  },
   {
    "name": "#1045",
    "createdAt": "2026-08-15T23:38:29Z",
@@ -254,7 +268,14 @@
    ]
   }
  ],
- "unfulfilled_paid": [],
+ "unfulfilled_paid": [
+  {
+   "name": "#1046",
+   "createdAt": "2026-08-20T07:35:21Z",
+   "total": 405.14,
+   "customer": "Helve Beale"
+  }
+ ],
  "customers_total": 64,
  "abandoned_checkouts_recent": 0,
  "inventory": [
@@ -423,7 +444,7 @@
   {
    "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
    "sku": "LH-TL-009",
-   "qty": 10,
+   "qty": 8,
    "price": 213.99,
    "status": "ACTIVE",
    "tracked": true,
@@ -1725,10 +1746,10 @@
   },
   {
    "date": "2026-08-20",
-   "spend": 48.18,
-   "impressions": 2197,
-   "clicks": 100,
-   "ctr": 4.55,
+   "spend": 49.27,
+   "impressions": 2245,
+   "clicks": 102,
+   "ctr": 4.54,
    "cpc": 0.48,
    "purchases": 0,
    "purchase_value": 0.0
@@ -1736,10 +1757,10 @@
  ],
  "ads_today": {
   "date": "2026-08-20",
-  "spend": 48.18,
-  "impressions": 2197,
-  "clicks": 100,
-  "ctr": 4.55,
+  "spend": 49.27,
+  "impressions": 2245,
+  "clicks": 102,
+  "ctr": 4.54,
   "cpc": 0.48,
   "purchases": 0,
   "purchase_value": 0.0
