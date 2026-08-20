@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-08-20T06:22:12Z",
+ "generated_at_utc": "2026-08-20T06:42:24Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-08-20T06:22:12Z"
+   "fetched_at": "2026-08-20T06:42:24Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-08-20T06:22:12Z"
+   "fetched_at": "2026-08-20T06:42:24Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-08-20T06:22:12Z"
+   "fetched_at": "2026-08-20T06:42:24Z"
   }
  },
  "orders": [
@@ -423,11 +423,11 @@
   {
    "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
    "sku": "LH-TL-009",
-   "qty": 0,
+   "qty": 10,
    "price": 213.99,
-   "status": "DRAFT",
+   "status": "ACTIVE",
    "tracked": true,
-   "available": false
+   "available": true
   },
   {
    "title": "Lumara Artichoke Table Lamp \u2014 Sculptural Nature-Inspired",
@@ -1725,22 +1725,22 @@
   },
   {
    "date": "2026-08-20",
-   "spend": 42.95,
-   "impressions": 2034,
-   "clicks": 98,
-   "ctr": 4.82,
-   "cpc": 0.44,
+   "spend": 46.46,
+   "impressions": 2110,
+   "clicks": 100,
+   "ctr": 4.74,
+   "cpc": 0.46,
    "purchases": 0,
    "purchase_value": 0.0
   }
  ],
  "ads_today": {
   "date": "2026-08-20",
-  "spend": 42.95,
-  "impressions": 2034,
-  "clicks": 98,
-  "ctr": 4.82,
-  "cpc": 0.44,
+  "spend": 46.46,
+  "impressions": 2110,
+  "clicks": 100,
+  "ctr": 4.74,
+  "cpc": 0.46,
   "purchases": 0,
   "purchase_value": 0.0
  },
