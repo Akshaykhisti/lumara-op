@@ -3,28 +3,28 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-20T08:59:13Z",
-  "generated_at_local": "Thu 20 Aug 2026, 6:59pm AEST",
+  "generated_at_utc": "2026-08-20T09:04:32Z",
+  "generated_at_local": "Thu 20 Aug 2026, 7:04pm AEST",
   "today": "2026-08-20",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-20T08:59:13Z"
+    "fetched_at": "2026-08-20T09:04:32Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-08-20T08:59:13Z"
+    "fetched_at": "2026-08-20T09:04:32Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-20T08:59:13Z"
+    "fetched_at": "2026-08-20T09:04:32Z"
    }
   }
  },
  "alerts": [
   {
    "level": "serious",
-   "title": "$217 ad spend, 0 Meta-attributed purchases (4 days)",
+   "title": "$218 ad spend, 0 Meta-attributed purchases (4 days)",
    "body": "The store DID take 1 order(s) worth $405 in that window \u2014 Meta just isn't claiming any of them. Either they're organic/direct sales, or the pixel is missing purchases. Worth checking Events Manager before reading this as zero conversion."
   },
   {
@@ -364,26 +364,26 @@
  },
  "ads": {
   "today": {
-   "spend": 53.63,
+   "spend": 54.49,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 113,
-   "impressions": 2470,
+   "clicks": 115,
+   "impressions": 2495,
    "purchases": 0,
    "cpc": 0.47,
-   "ctr": 4.57,
+   "ctr": 4.61,
    "cpa": null
   },
   "d7": {
-   "spend": 385.3,
+   "spend": 386.16,
    "value": 873.94,
-   "roas": 2.27,
-   "clicks": 773,
-   "impressions": 17849,
+   "roas": 2.26,
+   "clicks": 775,
+   "impressions": 17874,
    "purchases": 3,
    "cpc": 0.5,
-   "ctr": 4.33,
-   "cpa": 128.43
+   "ctr": 4.34,
+   "cpa": 128.72
   },
   "prev7": {
    "spend": 439.66,
@@ -393,7 +393,7 @@
   "daily_budget_live": 75.0,
   "active_campaigns": 3,
   "dry_days": 4,
-  "dry_spend": 216.93,
+  "dry_spend": 217.79,
   "series": [
    {
     "date": "2026-08-07",
@@ -528,11 +528,11 @@
    {
     "date": "2026-08-20",
     "label": "20 Aug",
-    "spend": 53.63,
+    "spend": 54.49,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 113,
-    "ctr": 4.57,
+    "clicks": 115,
+    "ctr": 4.61,
     "cpc": 0.47
    }
   ],
