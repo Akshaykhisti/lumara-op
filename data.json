@@ -3,28 +3,28 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-21T00:43:23Z",
-  "generated_at_local": "Fri 21 Aug 2026, 10:43am AEST",
+  "generated_at_utc": "2026-08-21T01:03:33Z",
+  "generated_at_local": "Fri 21 Aug 2026, 11:03am AEST",
   "today": "2026-08-21",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-21T00:43:23Z"
+    "fetched_at": "2026-08-21T01:03:33Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-08-21T00:43:23Z"
+    "fetched_at": "2026-08-21T01:03:33Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-21T00:43:23Z"
+    "fetched_at": "2026-08-21T01:03:33Z"
    }
   }
  },
  "alerts": [
   {
    "level": "serious",
-   "title": "$251 ad spend, 0 Meta-attributed purchases (5 days)",
+   "title": "$253 ad spend, 0 Meta-attributed purchases (5 days)",
    "body": "The store DID take 1 order(s) worth $405 in that window \u2014 Meta just isn't claiming any of them. Either they're organic/direct sales, or the pixel is missing purchases. Worth checking Events Manager before reading this as zero conversion."
   },
   {
@@ -364,26 +364,26 @@
  },
  "ads": {
   "today": {
-   "spend": 17.78,
+   "spend": 19.35,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 58,
-   "impressions": 985,
+   "clicks": 63,
+   "impressions": 1066,
    "purchases": 0,
    "cpc": 0.31,
-   "ctr": 5.89,
+   "ctr": 5.91,
    "cpa": null
   },
   "d7": {
-   "spend": 367.54,
+   "spend": 369.11,
    "value": 873.94,
-   "roas": 2.38,
-   "clicks": 773,
-   "impressions": 17900,
+   "roas": 2.37,
+   "clicks": 778,
+   "impressions": 17981,
    "purchases": 3,
-   "cpc": 0.48,
-   "ctr": 4.32,
-   "cpa": 122.51
+   "cpc": 0.47,
+   "ctr": 4.33,
+   "cpa": 123.04
   },
   "prev7": {
    "spend": 431.53,
@@ -393,7 +393,7 @@
   "daily_budget_live": 75.0,
   "active_campaigns": 3,
   "dry_days": 5,
-  "dry_spend": 251.49,
+  "dry_spend": 253.06,
   "series": [
    {
     "date": "2026-08-08",
@@ -528,11 +528,11 @@
    {
     "date": "2026-08-21",
     "label": "21 Aug",
-    "spend": 17.78,
+    "spend": 19.35,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 58,
-    "ctr": 5.89,
+    "clicks": 63,
+    "ctr": 5.91,
     "cpc": 0.31
    }
   ],
@@ -595,7 +595,7 @@
     "purchases": 0,
     "purchase_value": 0.0,
     "atc": 0,
-    "reach": 985
+    "reach": 987
    },
    {
     "name": "Lumara \u2014 Lamps \u2014 KG Gap (Jul 2026)",
