@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-08-21T00:23:14Z",
+ "generated_at_utc": "2026-08-21T00:43:23Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-08-21T00:23:14Z"
+   "fetched_at": "2026-08-21T00:43:23Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-08-21T00:23:14Z"
+   "fetched_at": "2026-08-21T00:43:23Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-08-21T00:23:14Z"
+   "fetched_at": "2026-08-21T00:43:23Z"
   }
  },
  "orders": [
@@ -1694,32 +1694,32 @@
   },
   {
    "date": "2026-08-20",
-   "spend": 70.37,
-   "impressions": 3264,
-   "clicks": 137,
-   "ctr": 4.2,
+   "spend": 70.41,
+   "impressions": 3266,
+   "clicks": 139,
+   "ctr": 4.26,
    "cpc": 0.51,
    "purchases": 0,
    "purchase_value": 0.0
   },
   {
    "date": "2026-08-21",
-   "spend": 16.04,
-   "impressions": 888,
-   "clicks": 53,
-   "ctr": 5.97,
-   "cpc": 0.3,
+   "spend": 17.78,
+   "impressions": 985,
+   "clicks": 58,
+   "ctr": 5.89,
+   "cpc": 0.31,
    "purchases": 0,
    "purchase_value": 0.0
   }
  ],
  "ads_today": {
   "date": "2026-08-21",
-  "spend": 16.04,
-  "impressions": 888,
-  "clicks": 53,
-  "ctr": 5.97,
-  "cpc": 0.3,
+  "spend": 17.78,
+  "impressions": 985,
+  "clicks": 58,
+  "ctr": 5.89,
+  "cpc": 0.31,
   "purchases": 0,
   "purchase_value": 0.0
  },
@@ -1728,12 +1728,12 @@
    "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
    "status": "ACTIVE",
    "daily_budget": 30.0,
-   "spend": 940.08,
-   "impressions": 29107,
-   "clicks": 1331,
-   "ctr": 4.57,
+   "spend": 940.1,
+   "impressions": 29108,
+   "clicks": 1333,
+   "ctr": 4.58,
    "cpc": 0.71,
-   "roas": 1.8976,
+   "roas": 1.8975,
    "purchases": 5,
    "purchase_value": 1783.88,
    "atc": 29,
@@ -1773,8 +1773,8 @@
    "name": "Decor",
    "status": "ACTIVE",
    "daily_budget": 15.0,
-   "spend": 17.8,
-   "impressions": 1001,
+   "spend": 17.82,
+   "impressions": 1002,
    "clicks": 59,
    "ctr": 5.89,
    "cpc": 0.3,
