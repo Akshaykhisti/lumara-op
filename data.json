@@ -3,28 +3,28 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-21T23:02:29Z",
-  "generated_at_local": "Sat 22 Aug 2026, 9:02am AEST",
+  "generated_at_utc": "2026-08-21T23:22:37Z",
+  "generated_at_local": "Sat 22 Aug 2026, 9:22am AEST",
   "today": "2026-08-22",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-21T23:02:29Z"
+    "fetched_at": "2026-08-21T23:22:37Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-08-21T23:02:29Z"
+    "fetched_at": "2026-08-21T23:22:37Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-21T23:02:29Z"
+    "fetched_at": "2026-08-21T23:22:37Z"
    }
   }
  },
  "alerts": [
   {
    "level": "serious",
-   "title": "$322 ad spend, 0 Meta-attributed purchases (6 days)",
+   "title": "$324 ad spend, 0 Meta-attributed purchases (6 days)",
    "body": "The store DID take 1 order(s) worth $405 in that window \u2014 Meta just isn't claiming any of them. Either they're organic/direct sales, or the pixel is missing purchases. Worth checking Events Manager before reading this as zero conversion."
   },
   {
@@ -40,7 +40,7 @@
   {
    "level": "warning",
    "title": "No orders for 2 days",
-   "body": "Last order was #1046 on 20 Aug. Ads have spent $322 since the last attributed purchase."
+   "body": "Last order was #1046 on 20 Aug. Ads have spent $324 since the last attributed purchase."
   },
   {
    "level": "warning",
@@ -369,26 +369,26 @@
  },
  "ads": {
   "today": {
-   "spend": 17.19,
+   "spend": 19.93,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 43,
-   "impressions": 917,
+   "clicks": 45,
+   "impressions": 1040,
    "purchases": 0,
-   "cpc": 0.4,
-   "ctr": 4.69,
+   "cpc": 0.44,
+   "ctr": 4.33,
    "cpa": null
   },
   "d7": {
-   "spend": 402.67,
+   "spend": 405.42,
    "value": 189.95,
    "roas": 0.47,
-   "clicks": 858,
-   "impressions": 20356,
+   "clicks": 860,
+   "impressions": 20480,
    "purchases": 1,
    "cpc": 0.47,
-   "ctr": 4.21,
-   "cpa": 402.67
+   "ctr": 4.2,
+   "cpa": 405.42
   },
   "prev7": {
    "spend": 419.64,
@@ -398,7 +398,7 @@
   "daily_budget_live": 75.0,
   "active_campaigns": 3,
   "dry_days": 6,
-  "dry_spend": 321.62,
+  "dry_spend": 324.37,
   "series": [
    {
     "date": "2026-08-09",
@@ -523,7 +523,7 @@
    {
     "date": "2026-08-21",
     "label": "21 Aug",
-    "spend": 70.69,
+    "spend": 70.7,
     "revenue": 0.0,
     "purchases": 0,
     "clicks": 185,
@@ -533,12 +533,12 @@
    {
     "date": "2026-08-22",
     "label": "22 Aug",
-    "spend": 17.19,
+    "spend": 19.93,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 43,
-    "ctr": 4.69,
-    "cpc": 0.4
+    "clicks": 45,
+    "ctr": 4.33,
+    "cpc": 0.44
    }
   ],
   "campaigns": [
@@ -591,10 +591,10 @@
     "name": "Decor",
     "status": "ACTIVE",
     "daily_budget": 15.0,
-    "spend": 26.16,
-    "impressions": 2050,
+    "spend": 26.17,
+    "impressions": 2051,
     "clicks": 158,
-    "ctr": 7.71,
+    "ctr": 7.7,
     "cpc": 0.17,
     "roas": 0.0,
     "purchases": 0,
