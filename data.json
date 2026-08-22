@@ -3,28 +3,28 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-22T20:30:33Z",
-  "generated_at_local": "Sun 23 Aug 2026, 6:30am AEST",
+  "generated_at_utc": "2026-08-22T20:50:41Z",
+  "generated_at_local": "Sun 23 Aug 2026, 6:50am AEST",
   "today": "2026-08-23",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-22T20:30:33Z"
+    "fetched_at": "2026-08-22T20:50:41Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-08-22T20:30:33Z"
+    "fetched_at": "2026-08-22T20:50:41Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-22T20:30:33Z"
+    "fetched_at": "2026-08-22T20:50:41Z"
    }
   }
  },
  "alerts": [
   {
    "level": "serious",
-   "title": "$380 ad spend, 0 Meta-attributed purchases (7 days)",
+   "title": "$382 ad spend, 0 Meta-attributed purchases (7 days)",
    "body": "The store DID take 1 order(s) worth $405 in that window \u2014 Meta just isn't claiming any of them. Either they're organic/direct sales, or the pixel is missing purchases. Worth checking Events Manager before reading this as zero conversion."
   },
   {
@@ -40,7 +40,7 @@
   {
    "level": "warning",
    "title": "No orders for 3 days",
-   "body": "Last order was #1046 on 20 Aug. Ads have spent $380 since the last attributed purchase."
+   "body": "Last order was #1046 on 20 Aug. Ads have spent $382 since the last attributed purchase."
   },
   {
    "level": "warning",
@@ -369,25 +369,25 @@
  },
  "ads": {
   "today": {
-   "spend": 1.93,
+   "spend": 3.19,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 10,
-   "impressions": 246,
+   "clicks": 15,
+   "impressions": 295,
    "purchases": 0,
-   "cpc": 0.19,
-   "ctr": 4.07,
+   "cpc": 0.21,
+   "ctr": 5.08,
    "cpa": null
   },
   "d7": {
-   "spend": 380.31,
+   "spend": 381.57,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 868,
-   "impressions": 20691,
+   "clicks": 873,
+   "impressions": 20741,
    "purchases": 0,
    "cpc": 0.44,
-   "ctr": 4.2,
+   "ctr": 4.21,
    "cpa": null
   },
   "prev7": {
@@ -398,7 +398,7 @@
   "daily_budget_live": 65.0,
   "active_campaigns": 2,
   "dry_days": 7,
-  "dry_spend": 380.31,
+  "dry_spend": 381.57,
   "series": [
    {
     "date": "2026-08-10",
@@ -533,12 +533,12 @@
    {
     "date": "2026-08-23",
     "label": "23 Aug",
-    "spend": 1.93,
+    "spend": 3.19,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 10,
-    "ctr": 4.07,
-    "cpc": 0.19
+    "clicks": 15,
+    "ctr": 5.08,
+    "cpc": 0.21
    }
   ],
   "campaigns": [
@@ -592,7 +592,7 @@
     "status": "ACTIVE",
     "daily_budget": 15.0,
     "spend": 35.2,
-    "impressions": 3386,
+    "impressions": 3387,
     "clicks": 238,
     "ctr": 7.03,
     "cpc": 0.15,
