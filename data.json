@@ -3,28 +3,28 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-22T11:27:45Z",
-  "generated_at_local": "Sat 22 Aug 2026, 9:27pm AEST",
+  "generated_at_utc": "2026-08-22T11:43:02Z",
+  "generated_at_local": "Sat 22 Aug 2026, 9:43pm AEST",
   "today": "2026-08-22",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-22T11:27:45Z"
+    "fetched_at": "2026-08-22T11:43:02Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-08-22T11:27:45Z"
+    "fetched_at": "2026-08-22T11:43:02Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-22T11:27:45Z"
+    "fetched_at": "2026-08-22T11:43:02Z"
    }
   }
  },
  "alerts": [
   {
    "level": "serious",
-   "title": "$374 ad spend, 0 Meta-attributed purchases (6 days)",
+   "title": "$375 ad spend, 0 Meta-attributed purchases (6 days)",
    "body": "The store DID take 1 order(s) worth $405 in that window \u2014 Meta just isn't claiming any of them. Either they're organic/direct sales, or the pixel is missing purchases. Worth checking Events Manager before reading this as zero conversion."
   },
   {
@@ -40,7 +40,7 @@
   {
    "level": "warning",
    "title": "No orders for 2 days",
-   "body": "Last order was #1046 on 20 Aug. Ads have spent $374 since the last attributed purchase."
+   "body": "Last order was #1046 on 20 Aug. Ads have spent $375 since the last attributed purchase."
   },
   {
    "level": "warning",
@@ -369,26 +369,26 @@
  },
  "ads": {
   "today": {
-   "spend": 69.57,
+   "spend": 70.08,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 173,
-   "impressions": 3911,
+   "clicks": 175,
+   "impressions": 3960,
    "purchases": 0,
    "cpc": 0.4,
    "ctr": 4.42,
    "cpa": null
   },
   "d7": {
-   "spend": 455.06,
+   "spend": 455.57,
    "value": 189.95,
    "roas": 0.42,
-   "clicks": 988,
-   "impressions": 23352,
+   "clicks": 990,
+   "impressions": 23401,
    "purchases": 1,
    "cpc": 0.46,
    "ctr": 4.23,
-   "cpa": 455.06
+   "cpa": 455.57
   },
   "prev7": {
    "spend": 419.64,
@@ -398,7 +398,7 @@
   "daily_budget_live": 65.0,
   "active_campaigns": 2,
   "dry_days": 6,
-  "dry_spend": 374.01,
+  "dry_spend": 374.52,
   "series": [
    {
     "date": "2026-08-09",
@@ -533,10 +533,10 @@
    {
     "date": "2026-08-22",
     "label": "22 Aug",
-    "spend": 69.57,
+    "spend": 70.08,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 173,
+    "clicks": 175,
     "ctr": 4.42,
     "cpc": 0.4
    }
