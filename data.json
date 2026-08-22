@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-22T15:00:51Z",
-  "generated_at_local": "Sun 23 Aug 2026, 1:00am AEST",
+  "generated_at_utc": "2026-08-22T15:21:00Z",
+  "generated_at_local": "Sun 23 Aug 2026, 1:21am AEST",
   "today": "2026-08-23",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-22T15:00:51Z"
+    "fetched_at": "2026-08-22T15:21:00Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-08-22T15:00:51Z"
+    "fetched_at": "2026-08-22T15:21:00Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-22T15:00:51Z"
+    "fetched_at": "2026-08-22T15:21:00Z"
    }
   }
  },
@@ -369,25 +369,25 @@
  },
  "ads": {
   "today": {
-   "spend": 0.27,
+   "spend": 0.43,
    "value": 0.0,
    "roas": 0.0,
    "clicks": 3,
-   "impressions": 55,
+   "impressions": 78,
    "purchases": 0,
-   "cpc": 0.09,
-   "ctr": 5.45,
+   "cpc": 0.14,
+   "ctr": 3.85,
    "cpa": null
   },
   "d7": {
-   "spend": 378.6,
+   "spend": 378.8,
    "value": 0.0,
    "roas": 0.0,
    "clicks": 860,
-   "impressions": 20497,
+   "impressions": 20522,
    "purchases": 0,
    "cpc": 0.44,
-   "ctr": 4.2,
+   "ctr": 4.19,
    "cpa": null
   },
   "prev7": {
@@ -398,7 +398,7 @@
   "daily_budget_live": 65.0,
   "active_campaigns": 2,
   "dry_days": 7,
-  "dry_spend": 378.6,
+  "dry_spend": 378.8,
   "series": [
    {
     "date": "2026-08-10",
@@ -523,7 +523,7 @@
    {
     "date": "2026-08-22",
     "label": "22 Aug",
-    "spend": 73.89,
+    "spend": 73.93,
     "revenue": 0.0,
     "purchases": 0,
     "clicks": 186,
@@ -533,12 +533,12 @@
    {
     "date": "2026-08-23",
     "label": "23 Aug",
-    "spend": 0.27,
+    "spend": 0.43,
     "revenue": 0.0,
     "purchases": 0,
     "clicks": 3,
-    "ctr": 5.45,
-    "cpc": 0.09
+    "ctr": 3.85,
+    "cpc": 0.14
    }
   ],
   "campaigns": [
@@ -546,8 +546,8 @@
     "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
     "status": "ACTIVE",
     "daily_budget": 50.0,
-    "spend": 912.74,
-    "impressions": 28706,
+    "spend": 912.77,
+    "impressions": 28707,
     "clicks": 1375,
     "ctr": 4.79,
     "cpc": 0.66,
@@ -561,8 +561,8 @@
     "name": "Lumara \u2014 Sales \u2014 Winners Broad CBO (Jul 2026)",
     "status": "PAUSED",
     "daily_budget": 30.0,
-    "spend": 833.35,
-    "impressions": 24028,
+    "spend": 833.36,
+    "impressions": 24029,
     "clicks": 1079,
     "ctr": 4.49,
     "cpc": 0.77,
