@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-08-22T15:21:00Z",
+ "generated_at_utc": "2026-08-22T15:31:16Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-08-22T15:21:00Z"
+   "fetched_at": "2026-08-22T15:31:16Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-08-22T15:21:00Z"
+   "fetched_at": "2026-08-22T15:31:16Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-08-22T15:21:00Z"
+   "fetched_at": "2026-08-22T15:31:16Z"
   }
  },
  "orders": [
@@ -1704,22 +1704,22 @@
   },
   {
    "date": "2026-08-23",
-   "spend": 0.43,
-   "impressions": 78,
-   "clicks": 3,
-   "ctr": 3.85,
-   "cpc": 0.14,
+   "spend": 0.46,
+   "impressions": 84,
+   "clicks": 4,
+   "ctr": 4.76,
+   "cpc": 0.12,
    "purchases": 0,
    "purchase_value": 0.0
   }
  ],
  "ads_today": {
   "date": "2026-08-23",
-  "spend": 0.43,
-  "impressions": 78,
-  "clicks": 3,
-  "ctr": 3.85,
-  "cpc": 0.14,
+  "spend": 0.46,
+  "impressions": 84,
+  "clicks": 4,
+  "ctr": 4.76,
+  "cpc": 0.12,
   "purchases": 0,
   "purchase_value": 0.0
  },
@@ -1752,7 +1752,7 @@
    "purchases": 4,
    "purchase_value": 912.83,
    "atc": 19,
-   "reach": 15784
+   "reach": 15789
   },
   {
    "name": "Lumara \u2014 Retargeting \u2014 AU \u2014 Website 30d (Jun 2026)",
