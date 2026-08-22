@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-08-22T22:52:27Z",
+ "generated_at_utc": "2026-08-22T22:57:42Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-08-22T22:52:27Z"
+   "fetched_at": "2026-08-22T22:57:42Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-08-22T22:52:27Z"
+   "fetched_at": "2026-08-22T22:57:42Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-08-22T22:52:27Z"
+   "fetched_at": "2026-08-22T22:57:42Z"
   }
  },
  "orders": [
@@ -25,7 +25,7 @@
    "name": "#1047",
    "createdAt": "2026-08-22T22:06:19Z",
    "financial": "PAID",
-   "fulfillment": "UNFULFILLED",
+   "fulfillment": "FULFILLED",
    "total": 289.95,
    "customer": "Lesley Anderson",
    "items": [
@@ -39,7 +39,7 @@
    "name": "#1046",
    "createdAt": "2026-08-20T07:35:21Z",
    "financial": "PAID",
-   "fulfillment": "UNFULFILLED",
+   "fulfillment": "FULFILLED",
    "total": 405.14,
    "customer": "Helve Beale",
    "items": [
@@ -240,20 +240,7 @@
    ]
   }
  ],
- "unfulfilled_paid": [
-  {
-   "name": "#1046",
-   "createdAt": "2026-08-20T07:35:21Z",
-   "total": 405.14,
-   "customer": "Helve Beale"
-  },
-  {
-   "name": "#1047",
-   "createdAt": "2026-08-22T22:06:19Z",
-   "total": 289.95,
-   "customer": "Lesley Anderson"
-  }
- ],
+ "unfulfilled_paid": [],
  "customers_total": 66,
  "abandoned_checkouts_recent": 0,
  "inventory": [
@@ -1724,22 +1711,22 @@
   },
   {
    "date": "2026-08-23",
-   "spend": 13.46,
-   "impressions": 728,
+   "spend": 13.67,
+   "impressions": 750,
    "clicks": 30,
-   "ctr": 4.12,
-   "cpc": 0.45,
+   "ctr": 4.0,
+   "cpc": 0.46,
    "purchases": 1,
    "purchase_value": 289.95
   }
  ],
  "ads_today": {
   "date": "2026-08-23",
-  "spend": 13.46,
-  "impressions": 728,
+  "spend": 13.67,
+  "impressions": 750,
   "clicks": 30,
-  "ctr": 4.12,
-  "cpc": 0.45,
+  "ctr": 4.0,
+  "cpc": 0.46,
   "purchases": 1,
   "purchase_value": 289.95
  },
