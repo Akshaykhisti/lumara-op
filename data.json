@@ -3,30 +3,25 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-22T22:17:01Z",
-  "generated_at_local": "Sun 23 Aug 2026, 8:17am AEST",
+  "generated_at_utc": "2026-08-22T22:32:18Z",
+  "generated_at_local": "Sun 23 Aug 2026, 8:32am AEST",
   "today": "2026-08-23",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-22T22:17:01Z"
+    "fetched_at": "2026-08-22T22:32:18Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-08-22T22:17:01Z"
+    "fetched_at": "2026-08-22T22:32:18Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-22T22:17:01Z"
+    "fetched_at": "2026-08-22T22:32:18Z"
    }
   }
  },
  "alerts": [
-  {
-   "level": "serious",
-   "title": "$388 ad spend, 0 Meta-attributed purchases (7 days)",
-   "body": "The store DID take 2 order(s) worth $695 in that window \u2014 Meta just isn't claiming any of them. Either they're organic/direct sales, or the pixel is missing purchases. Worth checking Events Manager before reading this as zero conversion."
-  },
   {
    "level": "serious",
    "title": "1 product(s) sold in the last 30d are out of stock",
@@ -370,26 +365,26 @@
  },
  "ads": {
   "today": {
-   "spend": 9.96,
-   "value": 0.0,
-   "roas": 0.0,
-   "clicks": 28,
-   "impressions": 566,
-   "purchases": 0,
+   "spend": 10.57,
+   "value": 289.95,
+   "roas": 27.43,
+   "clicks": 29,
+   "impressions": 616,
+   "purchases": 1,
    "cpc": 0.36,
-   "ctr": 4.95,
-   "cpa": null
+   "ctr": 4.71,
+   "cpa": 10.57
   },
   "d7": {
-   "spend": 388.35,
-   "value": 0.0,
-   "roas": 0.0,
-   "clicks": 886,
-   "impressions": 21013,
-   "purchases": 0,
+   "spend": 388.96,
+   "value": 289.95,
+   "roas": 0.75,
+   "clicks": 887,
+   "impressions": 21063,
+   "purchases": 1,
    "cpc": 0.44,
-   "ctr": 4.22,
-   "cpa": null
+   "ctr": 4.21,
+   "cpa": 388.96
   },
   "prev7": {
    "spend": 430.36,
@@ -398,8 +393,8 @@
   },
   "daily_budget_live": 65.0,
   "active_campaigns": 2,
-  "dry_days": 7,
-  "dry_spend": 388.35,
+  "dry_days": 0,
+  "dry_spend": 0.0,
   "series": [
    {
     "date": "2026-08-10",
@@ -534,11 +529,11 @@
    {
     "date": "2026-08-23",
     "label": "23 Aug",
-    "spend": 9.96,
-    "revenue": 0.0,
-    "purchases": 0,
-    "clicks": 28,
-    "ctr": 4.95,
+    "spend": 10.57,
+    "revenue": 289.95,
+    "purchases": 1,
+    "clicks": 29,
+    "ctr": 4.71,
     "cpc": 0.36
    }
   ],
