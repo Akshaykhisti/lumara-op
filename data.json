@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-24T22:21:31Z",
-  "generated_at_local": "Tue 25 Aug 2026, 8:21am AEST",
+  "generated_at_utc": "2026-08-24T22:36:52Z",
+  "generated_at_local": "Tue 25 Aug 2026, 8:36am AEST",
   "today": "2026-08-25",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-24T22:21:31Z"
+    "fetched_at": "2026-08-24T22:36:52Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-08-24T22:21:31Z"
+    "fetched_at": "2026-08-24T22:36:52Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-24T22:21:31Z"
+    "fetched_at": "2026-08-24T22:36:52Z"
    }
   }
  },
@@ -30,7 +30,7 @@
   {
    "level": "warning",
    "title": "No orders for 2 days",
-   "body": "Last order was #1047 on 23 Aug. Ads have spent $71 since the last attributed purchase."
+   "body": "Last order was #1047 on 23 Aug. Ads have spent $72 since the last attributed purchase."
   },
   {
    "level": "warning",
@@ -352,26 +352,26 @@
  },
  "ads": {
   "today": {
-   "spend": 4.61,
+   "spend": 5.05,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 20,
-   "impressions": 385,
+   "clicks": 24,
+   "impressions": 411,
    "purchases": 0,
-   "cpc": 0.23,
-   "ctr": 5.19,
+   "cpc": 0.21,
+   "ctr": 5.84,
    "cpa": null
   },
   "d7": {
-   "spend": 413.44,
+   "spend": 413.89,
    "value": 289.95,
    "roas": 0.7,
-   "clicks": 1044,
-   "impressions": 23695,
+   "clicks": 1048,
+   "impressions": 23723,
    "purchases": 1,
-   "cpc": 0.4,
-   "ctr": 4.41,
-   "cpa": 413.44
+   "cpc": 0.39,
+   "ctr": 4.42,
+   "cpa": 413.89
   },
   "prev7": {
    "spend": 418.54,
@@ -381,7 +381,7 @@
   "daily_budget_live": 65.0,
   "active_campaigns": 2,
   "dry_days": 2,
-  "dry_spend": 71.09,
+  "dry_spend": 71.54,
   "series": [
    {
     "date": "2026-08-12",
@@ -506,7 +506,7 @@
    {
     "date": "2026-08-24",
     "label": "24 Aug",
-    "spend": 66.48,
+    "spend": 66.49,
     "revenue": 0.0,
     "purchases": 0,
     "clicks": 194,
@@ -516,12 +516,12 @@
    {
     "date": "2026-08-25",
     "label": "25 Aug",
-    "spend": 4.61,
+    "spend": 5.05,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 20,
-    "ctr": 5.19,
-    "cpc": 0.23
+    "clicks": 24,
+    "ctr": 5.84,
+    "cpc": 0.21
    }
   ],
   "campaigns": [
@@ -530,7 +530,7 @@
     "status": "ACTIVE",
     "daily_budget": 50.0,
     "spend": 945.16,
-    "impressions": 32181,
+    "impressions": 32182,
     "clicks": 1469,
     "ctr": 4.56,
     "cpc": 0.64,
@@ -559,8 +559,8 @@
     "name": "Decor",
     "status": "ACTIVE",
     "daily_budget": 15.0,
-    "spend": 67.79,
-    "impressions": 7566,
+    "spend": 67.8,
+    "impressions": 7567,
     "clicks": 476,
     "ctr": 6.29,
     "cpc": 0.14,
@@ -568,7 +568,7 @@
     "purchases": 0,
     "purchase_value": 0.0,
     "atc": 6,
-    "reach": 6315
+    "reach": 6317
    },
    {
     "name": "Lumara \u2014 Retargeting \u2014 AU \u2014 Website 30d (Jun 2026)",
