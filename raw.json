@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-08-24T14:19:41Z",
+ "generated_at_utc": "2026-08-24T14:39:53Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-08-24T14:19:41Z"
+   "fetched_at": "2026-08-24T14:39:53Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-08-24T14:19:41Z"
+   "fetched_at": "2026-08-24T14:39:53Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-08-24T14:19:41Z"
+   "fetched_at": "2026-08-24T14:39:53Z"
   }
  },
  "orders": [
@@ -1701,32 +1701,32 @@
   },
   {
    "date": "2026-08-24",
-   "spend": 66.13,
-   "impressions": 4515,
+   "spend": 66.14,
+   "impressions": 4519,
    "clicks": 194,
-   "ctr": 4.3,
+   "ctr": 4.29,
    "cpc": 0.34,
    "purchases": 0,
    "purchase_value": 0.0
   },
   {
    "date": "2026-08-25",
-   "spend": 0.06,
-   "impressions": 10,
-   "clicks": 0,
-   "ctr": 0.0,
-   "cpc": 0.0,
+   "spend": 0.55,
+   "impressions": 29,
+   "clicks": 1,
+   "ctr": 3.45,
+   "cpc": 0.55,
    "purchases": 0,
    "purchase_value": 0.0
   }
  ],
  "ads_today": {
   "date": "2026-08-25",
-  "spend": 0.06,
-  "impressions": 10,
-  "clicks": 0,
-  "ctr": 0.0,
-  "cpc": 0.0,
+  "spend": 0.55,
+  "impressions": 29,
+  "clicks": 1,
+  "ctr": 3.45,
+  "cpc": 0.55,
   "purchases": 0,
   "purchase_value": 0.0
  },
@@ -1736,7 +1736,7 @@
    "status": "ACTIVE",
    "daily_budget": 50.0,
    "spend": 944.97,
-   "impressions": 32170,
+   "impressions": 32171,
    "clicks": 1469,
    "ctr": 4.57,
    "cpc": 0.64,
@@ -1744,7 +1744,7 @@
    "purchases": 6,
    "purchase_value": 2073.83,
    "atc": 34,
-   "reach": 20668
+   "reach": 20671
   },
   {
    "name": "Lumara \u2014 Sales \u2014 Winners Broad CBO (Jul 2026)",
@@ -1765,10 +1765,10 @@
    "name": "Decor",
    "status": "ACTIVE",
    "daily_budget": 15.0,
-   "spend": 67.63,
-   "impressions": 7548,
+   "spend": 67.64,
+   "impressions": 7551,
    "clicks": 476,
-   "ctr": 6.31,
+   "ctr": 6.3,
    "cpc": 0.14,
    "roas": 0.0,
    "purchases": 0,
