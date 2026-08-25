@@ -3,29 +3,29 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-25T21:35:12Z",
-  "generated_at_local": "Wed 26 Aug 2026, 7:35am AEST",
+  "generated_at_utc": "2026-08-25T21:55:22Z",
+  "generated_at_local": "Wed 26 Aug 2026, 7:55am AEST",
   "today": "2026-08-26",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-25T21:35:12Z"
+    "fetched_at": "2026-08-25T21:55:22Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-08-25T21:35:12Z"
+    "fetched_at": "2026-08-25T21:55:22Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-25T21:35:12Z"
+    "fetched_at": "2026-08-25T21:55:22Z"
    }
   }
  },
  "alerts": [
   {
-   "level": "critical",
-   "title": "$139 ad spend, 0 purchases (3 days)",
-   "body": "No store orders in that window either. 2 campaign(s) live at $80/day. Check pixel/tracking and landing pages before topping up budget."
+   "level": "serious",
+   "title": "$141 ad spend, 0 Meta-attributed purchases (3 days)",
+   "body": "The store DID take 1 order(s) worth $320 in that window \u2014 Meta just isn't claiming any of them. Either they're organic/direct sales, or the pixel is missing purchases. Worth checking Events Manager before reading this as zero conversion."
   },
   {
    "level": "serious",
@@ -33,44 +33,51 @@
    "body": "Lumara Ashore Framed Canvas \u2014 Coastal 70 \u00d7 90 cm. Still listed as active \u2014 they take traffic and convert nothing."
   },
   {
-   "level": "warning",
-   "title": "No orders for 3 days",
-   "body": "Last order was #1047 on 23 Aug. Ads have spent $139 since the last attributed purchase."
+   "level": "serious",
+   "title": "1 paid order(s) awaiting fulfilment",
+   "body": "#1048"
   },
   {
    "level": "warning",
    "title": "4 product(s) at 3 units or fewer",
-   "body": "Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral (1), Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass (1), Table Swag Olive Candelabra (2), Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement (3)"
+   "body": "Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral (1), Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass (1), Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement (2), Table Swag Olive Candelabra (2)"
   }
  ],
  "sales": {
   "today": {
-   "orders": 0,
-   "revenue": 0.0,
-   "aov": 0.0
+   "orders": 1,
+   "revenue": 319.95,
+   "aov": 319.95
   },
   "d7": {
-   "orders": 2,
-   "revenue": 695.09,
-   "aov": 347.54
+   "orders": 3,
+   "revenue": 1015.04,
+   "aov": 338.35
   },
   "d30": {
-   "orders": 15,
-   "revenue": 3993.64,
-   "aov": 266.24
+   "orders": 16,
+   "revenue": 4313.59,
+   "aov": 269.6
   },
   "prev7_revenue": 1063.89,
-  "wow_pct": -34.7,
-  "pending_fulfilment": 0,
-  "pending_orders": [],
+  "wow_pct": -4.6,
+  "pending_fulfilment": 1,
+  "pending_orders": [
+   {
+    "name": "#1048",
+    "createdAt": "2026-08-25T21:50:03Z",
+    "total": 319.95,
+    "customer": "Michelle Jansen"
+   }
+  ],
   "abandoned_checkouts": 0,
-  "customers_total": 66,
-  "days_since_order": 3,
+  "customers_total": 67,
+  "days_since_order": 0,
   "last_order": {
-   "name": "#1047",
-   "when": "23 aug, 8:06am",
-   "total": 289.95,
-   "customer": "Lesley Anderson"
+   "name": "#1048",
+   "when": "26 aug, 7:50am",
+   "total": 319.95,
+   "customer": "Michelle Jansen"
   },
   "daily": [
    {
@@ -250,11 +257,20 @@
    {
     "date": "2026-08-26",
     "label": "26 Aug",
-    "orders": 0,
-    "revenue": 0.0
+    "orders": 1,
+    "revenue": 319.95
    }
   ],
   "recent": [
+   {
+    "name": "#1048",
+    "when": "26 aug, 7:50am",
+    "total": 319.95,
+    "customer": "Michelle Jansen",
+    "fulfillment": "UNFULFILLED",
+    "financial": "PAID",
+    "items": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement"
+   },
    {
     "name": "#1047",
     "when": "23 aug, 8:06am",
@@ -317,21 +333,12 @@
     "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement"
-   },
-   {
-    "name": "#1040",
-    "when": "9 aug, 10:22am",
-    "total": 270.0,
-    "customer": "Teagan Wex",
-    "fulfillment": "FULFILLED",
-    "financial": "PAID",
-    "items": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement"
    }
   ],
   "top_sellers": [
    {
     "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
-    "units": 7
+    "units": 8
    },
    {
     "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
@@ -357,26 +364,26 @@
  },
  "ads": {
   "today": {
-   "spend": 5.43,
+   "spend": 7.49,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 12,
-   "impressions": 214,
+   "clicks": 17,
+   "impressions": 237,
    "purchases": 0,
-   "cpc": 0.45,
-   "ctr": 5.61,
+   "cpc": 0.44,
+   "ctr": 7.17,
    "cpa": null
   },
   "d7": {
-   "spend": 434.28,
+   "spend": 436.37,
    "value": 289.95,
-   "roas": 0.67,
-   "clicks": 1131,
-   "impressions": 23813,
+   "roas": 0.66,
+   "clicks": 1136,
+   "impressions": 23837,
    "purchases": 1,
    "cpc": 0.38,
-   "ctr": 4.75,
-   "cpa": 434.28
+   "ctr": 4.77,
+   "cpa": 436.37
   },
   "prev7": {
    "spend": 408.68,
@@ -386,7 +393,7 @@
   "daily_budget_live": 80.0,
   "active_campaigns": 2,
   "dry_days": 3,
-  "dry_spend": 138.64,
+  "dry_spend": 140.73,
   "series": [
    {
     "date": "2026-08-13",
@@ -511,7 +518,7 @@
    {
     "date": "2026-08-25",
     "label": "25 Aug",
-    "spend": 66.66,
+    "spend": 66.69,
     "revenue": 0.0,
     "purchases": 0,
     "clicks": 188,
@@ -521,12 +528,12 @@
    {
     "date": "2026-08-26",
     "label": "26 Aug",
-    "spend": 5.43,
+    "spend": 7.49,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 12,
-    "ctr": 5.61,
-    "cpc": 0.45
+    "clicks": 17,
+    "ctr": 7.17,
+    "cpc": 0.44
    }
   ],
   "campaigns": [
@@ -534,12 +541,12 @@
     "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
     "status": "ACTIVE",
     "daily_budget": 50.0,
-    "spend": 946.35,
-    "impressions": 32691,
+    "spend": 946.38,
+    "impressions": 32692,
     "clicks": 1525,
     "ctr": 4.66,
     "cpc": 0.62,
-    "roas": 2.1914,
+    "roas": 2.1913,
     "purchases": 6,
     "purchase_value": 2073.83,
     "atc": 34,
@@ -660,7 +667,7 @@
   "watch": 3,
   "healthy": 74,
   "untracked": 52,
-  "stock_value": 90012.8,
+  "stock_value": 89712.81,
   "oos_list": [
    {
     "title": "Lumara Ashore Framed Canvas \u2014 Coastal 70 \u00d7 90 cm",
@@ -709,6 +716,17 @@
     "days_cover": null
    },
    {
+    "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
+    "sku": "Y8238-1",
+    "qty": 2,
+    "price": 299.99,
+    "status": "ACTIVE",
+    "tracked": true,
+    "available": true,
+    "sold_30d": 8,
+    "days_cover": 7.5
+   },
+   {
     "title": "Table Swag Olive Candelabra",
     "sku": "QA5903-3",
     "qty": 2,
@@ -718,17 +736,6 @@
     "available": true,
     "sold_30d": 1,
     "days_cover": 60.0
-   },
-   {
-    "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
-    "sku": "Y8238-1",
-    "qty": 3,
-    "price": 299.99,
-    "status": "ACTIVE",
-    "tracked": true,
-    "available": true,
-    "sold_30d": 7,
-    "days_cover": 12.9
    },
    {
     "title": "Lumara Alegra Statement Vase \u2014 Sculptural Metal",
