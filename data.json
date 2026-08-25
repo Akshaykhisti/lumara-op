@@ -3,39 +3,29 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-25T22:00:38Z",
-  "generated_at_local": "Wed 26 Aug 2026, 8:00am AEST",
+  "generated_at_utc": "2026-08-25T22:20:48Z",
+  "generated_at_local": "Wed 26 Aug 2026, 8:20am AEST",
   "today": "2026-08-26",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-25T22:00:38Z"
+    "fetched_at": "2026-08-25T22:20:48Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-08-25T22:00:38Z"
+    "fetched_at": "2026-08-25T22:20:48Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-25T22:00:38Z"
+    "fetched_at": "2026-08-25T22:20:48Z"
    }
   }
  },
  "alerts": [
   {
    "level": "serious",
-   "title": "$141 ad spend, 0 Meta-attributed purchases (3 days)",
-   "body": "The store DID take 1 order(s) worth $320 in that window \u2014 Meta just isn't claiming any of them. Either they're organic/direct sales, or the pixel is missing purchases. Worth checking Events Manager before reading this as zero conversion."
-  },
-  {
-   "level": "serious",
    "title": "1 product(s) sold in the last 30d are out of stock",
    "body": "Lumara Ashore Framed Canvas \u2014 Coastal 70 \u00d7 90 cm. Still listed as active \u2014 they take traffic and convert nothing."
-  },
-  {
-   "level": "serious",
-   "title": "1 paid order(s) awaiting fulfilment",
-   "body": "#1048"
   },
   {
    "level": "warning",
@@ -61,15 +51,8 @@
   },
   "prev7_revenue": 1063.89,
   "wow_pct": -4.6,
-  "pending_fulfilment": 1,
-  "pending_orders": [
-   {
-    "name": "#1048",
-    "createdAt": "2026-08-25T21:50:03Z",
-    "total": 319.95,
-    "customer": "Michelle Jansen"
-   }
-  ],
+  "pending_fulfilment": 0,
+  "pending_orders": [],
   "abandoned_checkouts": 0,
   "customers_total": 67,
   "days_since_order": 0,
@@ -267,7 +250,7 @@
     "when": "26 aug, 7:50am",
     "total": 319.95,
     "customer": "Michelle Jansen",
-    "fulfillment": "UNFULFILLED",
+    "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement"
    },
@@ -364,26 +347,26 @@
  },
  "ads": {
   "today": {
-   "spend": 7.57,
-   "value": 0.0,
-   "roas": 0.0,
-   "clicks": 17,
-   "impressions": 240,
-   "purchases": 0,
-   "cpc": 0.45,
-   "ctr": 7.08,
-   "cpa": null
+   "spend": 10.61,
+   "value": 319.95,
+   "roas": 30.16,
+   "clicks": 20,
+   "impressions": 267,
+   "purchases": 1,
+   "cpc": 0.53,
+   "ctr": 7.49,
+   "cpa": 10.61
   },
   "d7": {
-   "spend": 436.45,
-   "value": 289.95,
-   "roas": 0.66,
-   "clicks": 1136,
-   "impressions": 23841,
-   "purchases": 1,
-   "cpc": 0.38,
-   "ctr": 4.76,
-   "cpa": 436.45
+   "spend": 439.54,
+   "value": 609.9,
+   "roas": 1.39,
+   "clicks": 1139,
+   "impressions": 23872,
+   "purchases": 2,
+   "cpc": 0.39,
+   "ctr": 4.77,
+   "cpa": 219.77
   },
   "prev7": {
    "spend": 408.68,
@@ -392,8 +375,8 @@
   },
   "daily_budget_live": 80.0,
   "active_campaigns": 2,
-  "dry_days": 3,
-  "dry_spend": 140.81,
+  "dry_days": 0,
+  "dry_spend": 0.0,
   "series": [
    {
     "date": "2026-08-13",
@@ -518,22 +501,22 @@
    {
     "date": "2026-08-25",
     "label": "25 Aug",
-    "spend": 66.69,
+    "spend": 66.74,
     "revenue": 0.0,
     "purchases": 0,
     "clicks": 188,
-    "ctr": 6.96,
+    "ctr": 6.94,
     "cpc": 0.35
    },
    {
     "date": "2026-08-26",
     "label": "26 Aug",
-    "spend": 7.57,
-    "revenue": 0.0,
-    "purchases": 0,
-    "clicks": 17,
-    "ctr": 7.08,
-    "cpc": 0.45
+    "spend": 10.61,
+    "revenue": 319.95,
+    "purchases": 1,
+    "clicks": 20,
+    "ctr": 7.49,
+    "cpc": 0.53
    }
   ],
   "campaigns": [
@@ -571,8 +554,8 @@
     "name": "Decor",
     "status": "ACTIVE",
     "daily_budget": 30.0,
-    "spend": 89.37,
-    "impressions": 8961,
+    "spend": 89.42,
+    "impressions": 8965,
     "clicks": 568,
     "ctr": 6.34,
     "cpc": 0.16,
