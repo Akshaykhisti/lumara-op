@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-08-26T01:03:01Z",
+ "generated_at_utc": "2026-08-26T01:23:12Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,18 +9,36 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-08-26T01:03:01Z"
+   "fetched_at": "2026-08-26T01:23:12Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-08-26T01:03:01Z"
+   "fetched_at": "2026-08-26T01:23:12Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-08-26T01:03:01Z"
+   "fetched_at": "2026-08-26T01:23:12Z"
   }
  },
  "orders": [
+  {
+   "name": "#1050",
+   "createdAt": "2026-08-26T01:08:42Z",
+   "financial": "PAID",
+   "fulfillment": "UNFULFILLED",
+   "total": 415.93,
+   "customer": "Vicki Jones",
+   "items": [
+    {
+     "title": "Lumara Hurricane Candle Holder Moss \u2014 Organic Green Ceramic",
+     "quantity": 2
+    },
+    {
+     "title": "Lumara Chike Table Lamp \u2014 Sculptural Ceramic Statement",
+     "quantity": 1
+    }
+   ]
+  },
   {
    "name": "#1049",
    "createdAt": "2026-08-26T00:18:14Z",
@@ -274,9 +292,15 @@
    "createdAt": "2026-08-26T00:18:14Z",
    "total": 233.94,
    "customer": "Janet Cameron"
+  },
+  {
+   "name": "#1050",
+   "createdAt": "2026-08-26T01:08:42Z",
+   "total": 415.93,
+   "customer": "Vicki Jones"
   }
  ],
- "customers_total": 67,
+ "customers_total": 68,
  "abandoned_checkouts_recent": 0,
  "inventory": [
   {
@@ -633,7 +657,7 @@
   {
    "title": "Lumara Hurricane Candle Holder Moss \u2014 Organic Green Ceramic",
    "sku": "LH-CH-006",
-   "qty": 10,
+   "qty": 8,
    "price": 89.99,
    "status": "ACTIVE",
    "tracked": true,
@@ -867,7 +891,7 @@
   {
    "title": "Lumara Chike Table Lamp \u2014 Sculptural Ceramic Statement",
    "sku": "YR7399-1",
-   "qty": 10,
+   "qty": 9,
    "price": 259.99,
    "status": "ACTIVE",
    "tracked": true,
@@ -1736,32 +1760,32 @@
   },
   {
    "date": "2026-08-25",
-   "spend": 66.77,
-   "impressions": 2710,
+   "spend": 66.83,
+   "impressions": 2711,
    "clicks": 188,
-   "ctr": 6.94,
+   "ctr": 6.93,
    "cpc": 0.36,
    "purchases": 0,
    "purchase_value": 0.0
   },
   {
    "date": "2026-08-26",
-   "spend": 27.44,
-   "impressions": 657,
-   "clicks": 42,
-   "ctr": 6.39,
-   "cpc": 0.65,
+   "spend": 30.8,
+   "impressions": 738,
+   "clicks": 44,
+   "ctr": 5.96,
+   "cpc": 0.7,
    "purchases": 2,
    "purchase_value": 553.89
   }
  ],
  "ads_today": {
   "date": "2026-08-26",
-  "spend": 27.44,
-  "impressions": 657,
-  "clicks": 42,
-  "ctr": 6.39,
-  "cpc": 0.65,
+  "spend": 30.8,
+  "impressions": 738,
+  "clicks": 44,
+  "ctr": 5.96,
+  "cpc": 0.7,
   "purchases": 2,
   "purchase_value": 553.89
  },
@@ -1800,10 +1824,10 @@
    "name": "Decor",
    "status": "ACTIVE",
    "daily_budget": 30.0,
-   "spend": 89.43,
-   "impressions": 8966,
+   "spend": 89.49,
+   "impressions": 8967,
    "clicks": 568,
-   "ctr": 6.34,
+   "ctr": 6.33,
    "cpc": 0.16,
    "roas": 0.0,
    "purchases": 0,
