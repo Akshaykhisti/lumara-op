@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-08-26T23:39:01Z",
+ "generated_at_utc": "2026-08-26T23:49:17Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-08-26T23:39:01Z"
+   "fetched_at": "2026-08-26T23:49:17Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-08-26T23:39:01Z"
+   "fetched_at": "2026-08-26T23:49:17Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-08-26T23:39:01Z"
+   "fetched_at": "2026-08-26T23:49:17Z"
   }
  },
  "orders": [
@@ -25,7 +25,7 @@
    "name": "#1051",
    "createdAt": "2026-08-26T12:38:35Z",
    "financial": "PAID",
-   "fulfillment": "UNFULFILLED",
+   "fulfillment": "FULFILLED",
    "total": 242.55,
    "customer": "JO-ANNE WOODRUFF",
    "items": [
@@ -312,12 +312,6 @@
    "createdAt": "2026-08-26T01:08:42Z",
    "total": 415.93,
    "customer": "Vicki Jones"
-  },
-  {
-   "name": "#1051",
-   "createdAt": "2026-08-26T12:38:35Z",
-   "total": 242.55,
-   "customer": "JO-ANNE WOODRUFF"
   }
  ],
  "customers_total": 71,
@@ -1790,22 +1784,22 @@
   },
   {
    "date": "2026-08-27",
-   "spend": 18.23,
-   "impressions": 446,
-   "clicks": 20,
-   "ctr": 4.48,
-   "cpc": 0.91,
+   "spend": 18.73,
+   "impressions": 464,
+   "clicks": 21,
+   "ctr": 4.53,
+   "cpc": 0.89,
    "purchases": 0,
    "purchase_value": 0.0
   }
  ],
  "ads_today": {
   "date": "2026-08-27",
-  "spend": 18.23,
-  "impressions": 446,
-  "clicks": 20,
-  "ctr": 4.48,
-  "cpc": 0.91,
+  "spend": 18.73,
+  "impressions": 464,
+  "clicks": 21,
+  "ctr": 4.53,
+  "cpc": 0.89,
   "purchases": 0,
   "purchase_value": 0.0
  },
