@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-26T02:03:38Z",
-  "generated_at_local": "Wed 26 Aug 2026, 12:03pm AEST",
+  "generated_at_utc": "2026-08-26T02:23:50Z",
+  "generated_at_local": "Wed 26 Aug 2026, 12:23pm AEST",
   "today": "2026-08-26",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-26T02:03:38Z"
+    "fetched_at": "2026-08-26T02:23:50Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-08-26T02:03:38Z"
+    "fetched_at": "2026-08-26T02:23:50Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-26T02:03:38Z"
+    "fetched_at": "2026-08-26T02:23:50Z"
    }
   }
  },
@@ -71,8 +71,8 @@
     "customer": "Vicki Jones"
    }
   ],
-  "abandoned_checkouts": 1,
-  "customers_total": 69,
+  "abandoned_checkouts": 2,
+  "customers_total": 70,
   "days_since_order": 0,
   "last_order": {
    "name": "#1050",
@@ -365,26 +365,26 @@
  },
  "ads": {
   "today": {
-   "spend": 37.25,
+   "spend": 38.67,
    "value": 969.82,
-   "roas": 26.04,
-   "clicks": 51,
-   "impressions": 831,
+   "roas": 25.08,
+   "clicks": 54,
+   "impressions": 862,
    "purchases": 3,
-   "cpc": 0.73,
-   "ctr": 6.14,
-   "cpa": 12.42
+   "cpc": 0.72,
+   "ctr": 6.26,
+   "cpa": 12.89
   },
   "d7": {
-   "spend": 466.27,
+   "spend": 467.69,
    "value": 1259.77,
-   "roas": 2.7,
-   "clicks": 1170,
-   "impressions": 24440,
+   "roas": 2.69,
+   "clicks": 1173,
+   "impressions": 24471,
    "purchases": 4,
    "cpc": 0.4,
    "ctr": 4.79,
-   "cpa": 116.57
+   "cpa": 116.92
   },
   "prev7": {
    "spend": 408.68,
@@ -529,12 +529,12 @@
    {
     "date": "2026-08-26",
     "label": "26 Aug",
-    "spend": 37.25,
+    "spend": 38.67,
     "revenue": 969.82,
     "purchases": 3,
-    "clicks": 51,
-    "ctr": 6.14,
-    "cpc": 0.73
+    "clicks": 54,
+    "ctr": 6.26,
+    "cpc": 0.72
    }
   ],
   "campaigns": [
