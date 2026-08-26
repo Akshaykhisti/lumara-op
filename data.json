@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-26T12:26:24Z",
-  "generated_at_local": "Wed 26 Aug 2026, 10:26pm AEST",
+  "generated_at_utc": "2026-08-26T12:46:34Z",
+  "generated_at_local": "Wed 26 Aug 2026, 10:46pm AEST",
   "today": "2026-08-26",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-26T12:26:24Z"
+    "fetched_at": "2026-08-26T12:46:34Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-08-26T12:26:24Z"
+    "fetched_at": "2026-08-26T12:46:34Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-26T12:26:24Z"
+    "fetched_at": "2026-08-26T12:46:34Z"
    }
   }
  },
@@ -29,8 +29,8 @@
   },
   {
    "level": "serious",
-   "title": "2 paid order(s) awaiting fulfilment",
-   "body": "#1049, #1050"
+   "title": "3 paid order(s) awaiting fulfilment",
+   "body": "#1049, #1050, #1051"
   },
   {
    "level": "warning",
@@ -40,23 +40,23 @@
  ],
  "sales": {
   "today": {
-   "orders": 3,
-   "revenue": 969.82,
-   "aov": 323.27
+   "orders": 4,
+   "revenue": 1212.37,
+   "aov": 303.09
   },
   "d7": {
-   "orders": 5,
-   "revenue": 1664.91,
-   "aov": 332.98
+   "orders": 6,
+   "revenue": 1907.46,
+   "aov": 317.91
   },
   "d30": {
-   "orders": 18,
-   "revenue": 4963.46,
-   "aov": 275.75
+   "orders": 19,
+   "revenue": 5206.01,
+   "aov": 274.0
   },
   "prev7_revenue": 1063.89,
-  "wow_pct": 56.5,
-  "pending_fulfilment": 2,
+  "wow_pct": 79.3,
+  "pending_fulfilment": 3,
   "pending_orders": [
    {
     "name": "#1049",
@@ -69,16 +69,22 @@
     "createdAt": "2026-08-26T01:08:42Z",
     "total": 415.93,
     "customer": "Vicki Jones"
+   },
+   {
+    "name": "#1051",
+    "createdAt": "2026-08-26T12:38:35Z",
+    "total": 242.55,
+    "customer": "JO-ANNE WOODRUFF"
    }
   ],
   "abandoned_checkouts": 2,
-  "customers_total": 70,
+  "customers_total": 71,
   "days_since_order": 0,
   "last_order": {
-   "name": "#1050",
-   "when": "26 aug, 11:08am",
-   "total": 415.93,
-   "customer": "Vicki Jones"
+   "name": "#1051",
+   "when": "26 aug, 10:38pm",
+   "total": 242.55,
+   "customer": "JO-ANNE WOODRUFF"
   },
   "daily": [
    {
@@ -258,11 +264,20 @@
    {
     "date": "2026-08-26",
     "label": "26 Aug",
-    "orders": 3,
-    "revenue": 969.82
+    "orders": 4,
+    "revenue": 1212.37
    }
   ],
   "recent": [
+   {
+    "name": "#1051",
+    "when": "26 aug, 10:38pm",
+    "total": 242.55,
+    "customer": "JO-ANNE WOODRUFF",
+    "fulfillment": "UNFULFILLED",
+    "financial": "PAID",
+    "items": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze"
+   },
    {
     "name": "#1050",
     "when": "26 aug, 11:08am",
@@ -325,15 +340,6 @@
     "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Lumara Cayman Rattan Table Lamp \u2014 Coastal Natural Style \u00d72"
-   },
-   {
-    "name": "#1043",
-    "when": "15 aug, 8:43am",
-    "total": 270.0,
-    "customer": "Elizabeth Cooper",
-    "fulfillment": "FULFILLED",
-    "financial": "PAID",
-    "items": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement"
    }
   ],
   "top_sellers": [
@@ -343,7 +349,7 @@
    },
    {
     "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
-    "units": 3
+    "units": 4
    },
    {
     "title": "Lumara Hurricane Candle Holder Moss \u2014 Organic Green Ceramic",
@@ -365,26 +371,26 @@
  },
  "ads": {
   "today": {
-   "spend": 85.85,
+   "spend": 86.89,
    "value": 969.82,
-   "roas": 11.3,
-   "clicks": 151,
-   "impressions": 2395,
+   "roas": 11.16,
+   "clicks": 157,
+   "impressions": 2422,
    "purchases": 3,
-   "cpc": 0.57,
-   "ctr": 6.3,
-   "cpa": 28.62
+   "cpc": 0.55,
+   "ctr": 6.48,
+   "cpa": 28.96
   },
   "d7": {
-   "spend": 514.87,
+   "spend": 515.91,
    "value": 1259.77,
-   "roas": 2.45,
-   "clicks": 1270,
-   "impressions": 26004,
+   "roas": 2.44,
+   "clicks": 1276,
+   "impressions": 26031,
    "purchases": 4,
-   "cpc": 0.41,
-   "ctr": 4.88,
-   "cpa": 128.72
+   "cpc": 0.4,
+   "ctr": 4.9,
+   "cpa": 128.98
   },
   "prev7": {
    "spend": 408.68,
@@ -529,12 +535,12 @@
    {
     "date": "2026-08-26",
     "label": "26 Aug",
-    "spend": 85.85,
+    "spend": 86.89,
     "revenue": 969.82,
     "purchases": 3,
-    "clicks": 151,
-    "ctr": 6.3,
-    "cpc": 0.57
+    "clicks": 157,
+    "ctr": 6.48,
+    "cpc": 0.55
    }
   ],
   "campaigns": [
@@ -668,7 +674,7 @@
   "watch": 3,
   "healthy": 74,
   "untracked": 52,
-  "stock_value": 89058.85,
+  "stock_value": 88844.86,
   "oos_list": [
    {
     "title": "Lumara Ashore Framed Canvas \u2014 Coastal 70 \u00d7 90 cm",
