@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-08-26T00:02:28Z",
+ "generated_at_utc": "2026-08-26T00:22:39Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,18 +9,32 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-08-26T00:02:28Z"
+   "fetched_at": "2026-08-26T00:22:39Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-08-26T00:02:28Z"
+   "fetched_at": "2026-08-26T00:22:39Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-08-26T00:02:28Z"
+   "fetched_at": "2026-08-26T00:22:39Z"
   }
  },
  "orders": [
+  {
+   "name": "#1049",
+   "createdAt": "2026-08-26T00:18:14Z",
+   "financial": "PAID",
+   "fulfillment": "UNFULFILLED",
+   "total": 233.94,
+   "customer": "Janet Cameron",
+   "items": [
+    {
+     "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
+     "quantity": 1
+    }
+   ]
+  },
   {
    "name": "#1048",
    "createdAt": "2026-08-25T21:50:03Z",
@@ -254,7 +268,14 @@
    ]
   }
  ],
- "unfulfilled_paid": [],
+ "unfulfilled_paid": [
+  {
+   "name": "#1049",
+   "createdAt": "2026-08-26T00:18:14Z",
+   "total": 233.94,
+   "customer": "Janet Cameron"
+  }
+ ],
  "customers_total": 67,
  "abandoned_checkouts_recent": 0,
  "inventory": [
@@ -423,7 +444,7 @@
   {
    "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
    "sku": "LH-TL-009",
-   "qty": 8,
+   "qty": 7,
    "price": 213.99,
    "status": "ACTIVE",
    "tracked": true,
@@ -1725,22 +1746,22 @@
   },
   {
    "date": "2026-08-26",
-   "spend": 21.56,
-   "impressions": 450,
-   "clicks": 32,
-   "ctr": 7.11,
-   "cpc": 0.67,
+   "spend": 23.02,
+   "impressions": 511,
+   "clicks": 37,
+   "ctr": 7.24,
+   "cpc": 0.62,
    "purchases": 1,
    "purchase_value": 319.95
   }
  ],
  "ads_today": {
   "date": "2026-08-26",
-  "spend": 21.56,
-  "impressions": 450,
-  "clicks": 32,
-  "ctr": 7.11,
-  "cpc": 0.67,
+  "spend": 23.02,
+  "impressions": 511,
+  "clicks": 37,
+  "ctr": 7.24,
+  "cpc": 0.62,
   "purchases": 1,
   "purchase_value": 319.95
  },
