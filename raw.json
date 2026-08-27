@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-08-27T10:29:38Z",
+ "generated_at_utc": "2026-08-27T16:21:09Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-08-27T10:29:38Z"
+   "fetched_at": "2026-08-27T16:21:09Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-08-27T10:29:38Z"
+   "fetched_at": "2026-08-27T16:21:09Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-08-27T10:29:38Z"
+   "fetched_at": "2026-08-27T16:21:09Z"
   }
  },
  "orders": [
@@ -39,7 +39,7 @@
    "name": "#1050",
    "createdAt": "2026-08-26T01:08:42Z",
    "financial": "PAID",
-   "fulfillment": "UNFULFILLED",
+   "fulfillment": "FULFILLED",
    "total": 415.93,
    "customer": "Vicki Jones",
    "items": [
@@ -284,30 +284,9 @@
      "quantity": 1
     }
    ]
-  },
-  {
-   "name": "#1033",
-   "createdAt": "2026-07-28T04:19:28Z",
-   "financial": "PAID",
-   "fulfillment": "FULFILLED",
-   "total": 92.94,
-   "customer": "Sharyn Howes",
-   "items": [
-    {
-     "title": "Lumara Urn Candle Holder Set of 3 \u2014 Ceramic Neutral",
-     "quantity": 1
-    }
-   ]
   }
  ],
- "unfulfilled_paid": [
-  {
-   "name": "#1050",
-   "createdAt": "2026-08-26T01:08:42Z",
-   "total": 415.93,
-   "customer": "Vicki Jones"
-  }
- ],
+ "unfulfilled_paid": [],
  "customers_total": 72,
  "abandoned_checkouts_recent": 3,
  "inventory": [
@@ -1637,16 +1616,6 @@
  ],
  "ads_daily": [
   {
-   "date": "2026-08-13",
-   "spend": 77.01,
-   "impressions": 2214,
-   "clicks": 127,
-   "ctr": 5.74,
-   "cpc": 0.61,
-   "purchases": 0,
-   "purchase_value": 0.0
-  },
-  {
    "date": "2026-08-14",
    "spend": 52.32,
    "impressions": 1730,
@@ -1778,22 +1747,32 @@
   },
   {
    "date": "2026-08-27",
-   "spend": 67.37,
-   "impressions": 1791,
-   "clicks": 90,
-   "ctr": 5.03,
-   "cpc": 0.75,
+   "spend": 80.81,
+   "impressions": 2239,
+   "clicks": 113,
+   "ctr": 5.05,
+   "cpc": 0.72,
+   "purchases": 0,
+   "purchase_value": 0.0
+  },
+  {
+   "date": "2026-08-28",
+   "spend": 1.06,
+   "impressions": 35,
+   "clicks": 1,
+   "ctr": 2.86,
+   "cpc": 1.06,
    "purchases": 0,
    "purchase_value": 0.0
   }
  ],
  "ads_today": {
-  "date": "2026-08-27",
-  "spend": 67.37,
-  "impressions": 1791,
-  "clicks": 90,
-  "ctr": 5.03,
-  "cpc": 0.75,
+  "date": "2026-08-28",
+  "spend": 1.06,
+  "impressions": 35,
+  "clicks": 1,
+  "ctr": 2.86,
+  "cpc": 1.06,
   "purchases": 0,
   "purchase_value": 0.0
  },
@@ -1802,46 +1781,46 @@
    "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
    "status": "ACTIVE",
    "daily_budget": 50.0,
-   "spend": 1004.56,
-   "impressions": 34370,
-   "clicks": 1637,
+   "spend": 1049.46,
+   "impressions": 35616,
+   "clicks": 1696,
    "ctr": 4.76,
-   "cpc": 0.61,
-   "roas": 3.2713,
+   "cpc": 0.62,
+   "roas": 3.1313,
    "purchases": 10,
    "purchase_value": 3286.2,
-   "atc": 46,
-   "reach": 21760
+   "atc": 48,
+   "reach": 22315
   },
   {
    "name": "Lumara \u2014 Sales \u2014 Winners Broad CBO (Jul 2026)",
    "status": "PAUSED",
    "daily_budget": 30.0,
-   "spend": 797.27,
-   "impressions": 23288,
-   "clicks": 1055,
-   "ctr": 4.53,
-   "cpc": 0.76,
-   "roas": 1.1449,
+   "spend": 761.8,
+   "impressions": 22544,
+   "clicks": 1034,
+   "ctr": 4.59,
+   "cpc": 0.74,
+   "roas": 1.1983,
    "purchases": 4,
    "purchase_value": 912.83,
-   "atc": 15,
-   "reach": 15298
+   "atc": 14,
+   "reach": 14766
   },
   {
    "name": "Decor",
    "status": "ACTIVE",
    "daily_budget": 30.0,
-   "spend": 119.6,
-   "impressions": 9782,
-   "clicks": 615,
-   "ctr": 6.29,
-   "cpc": 0.19,
+   "spend": 155.51,
+   "impressions": 10775,
+   "clicks": 669,
+   "ctr": 6.21,
+   "cpc": 0.23,
    "roas": 0.0,
    "purchases": 0,
    "purchase_value": 0.0,
-   "atc": 6,
-   "reach": 7937
+   "atc": 9,
+   "reach": 8502
   },
   {
    "name": "Lumara \u2014 Lamps \u2014 KG Gap (Jul 2026)",

@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-27T10:29:38Z",
-  "generated_at_local": "Thu 27 Aug 2026, 8:29pm AEST",
-  "today": "2026-08-27",
+  "generated_at_utc": "2026-08-27T16:21:09Z",
+  "generated_at_local": "Fri 28 Aug 2026, 2:21am AEST",
+  "today": "2026-08-28",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-27T10:29:38Z"
+    "fetched_at": "2026-08-27T16:21:09Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-08-27T10:29:38Z"
+    "fetched_at": "2026-08-27T16:21:09Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-27T10:29:38Z"
+    "fetched_at": "2026-08-27T16:21:09Z"
    }
   }
  },
@@ -28,9 +28,9 @@
    "body": "Lumara Ashore Framed Canvas \u2014 Coastal 70 \u00d7 90 cm. Still listed as active \u2014 they take traffic and convert nothing."
   },
   {
-   "level": "serious",
-   "title": "1 paid order(s) awaiting fulfilment",
-   "body": "#1050"
+   "level": "warning",
+   "title": "No orders for 2 days",
+   "body": "Last order was #1051 on 26 Aug. Ads have spent $82 since the last attributed purchase."
   },
   {
    "level": "warning",
@@ -50,24 +50,17 @@
    "aov": 300.46
   },
   "d30": {
-   "orders": 18,
-   "revenue": 5113.07,
-   "aov": 284.06
+   "orders": 17,
+   "revenue": 5019.12,
+   "aov": 295.24
   },
-  "prev7_revenue": 1469.03,
-  "wow_pct": 2.3,
-  "pending_fulfilment": 1,
-  "pending_orders": [
-   {
-    "name": "#1050",
-    "createdAt": "2026-08-26T01:08:42Z",
-    "total": 415.93,
-    "customer": "Vicki Jones"
-   }
-  ],
+  "prev7_revenue": 1279.08,
+  "wow_pct": 17.5,
+  "pending_fulfilment": 0,
+  "pending_orders": [],
   "abandoned_checkouts": 3,
   "customers_total": 72,
-  "days_since_order": 1,
+  "days_since_order": 2,
   "last_order": {
    "name": "#1051",
    "when": "26 aug, 10:38pm",
@@ -75,12 +68,6 @@
    "customer": "JO-ANNE WOODRUFF"
   },
   "daily": [
-   {
-    "date": "2026-07-29",
-    "label": "29 Jul",
-    "orders": 1,
-    "revenue": 93.95
-   },
    {
     "date": "2026-07-30",
     "label": "30 Jul",
@@ -254,6 +241,12 @@
     "label": "27 Aug",
     "orders": 0,
     "revenue": 0.0
+   },
+   {
+    "date": "2026-08-28",
+    "label": "28 Aug",
+    "orders": 0,
+    "revenue": 0.0
    }
   ],
   "recent": [
@@ -271,7 +264,7 @@
     "when": "26 aug, 11:08am",
     "total": 415.93,
     "customer": "Vicki Jones",
-    "fulfillment": "UNFULFILLED",
+    "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Lumara Hurricane Candle Holder Moss \u2014 Organic Green Ceramic \u00d72, Lumara Chike Table Lamp \u2014 Sculptural Ceramic Statement"
    },
@@ -359,47 +352,37 @@
  },
  "ads": {
   "today": {
-   "spend": 67.37,
+   "spend": 1.06,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 90,
-   "impressions": 1791,
+   "clicks": 1,
+   "impressions": 35,
    "purchases": 0,
-   "cpc": 0.75,
-   "ctr": 5.03,
+   "cpc": 1.06,
+   "ctr": 2.86,
    "cpa": null
   },
   "d7": {
-   "spend": 514.22,
+   "spend": 458.02,
    "value": 1502.32,
-   "roas": 2.92,
-   "clicks": 1229,
-   "impressions": 24622,
+   "roas": 3.28,
+   "clicks": 1068,
+   "impressions": 21124,
    "purchases": 5,
-   "cpc": 0.42,
-   "ctr": 4.99,
-   "cpa": 102.84
+   "cpc": 0.43,
+   "ctr": 5.06,
+   "cpa": 91.6
   },
   "prev7": {
-   "spend": 402.11,
+   "spend": 420.49,
    "value": 873.94,
-   "roas": 2.17
+   "roas": 2.08
   },
   "daily_budget_live": 80.0,
   "active_campaigns": 2,
-  "dry_days": 1,
-  "dry_spend": 67.37,
+  "dry_days": 2,
+  "dry_spend": 81.87,
   "series": [
-   {
-    "date": "2026-08-14",
-    "label": "14 Aug",
-    "spend": 52.32,
-    "revenue": 0.0,
-    "purchases": 0,
-    "clicks": 84,
-    "ctr": 4.86,
-    "cpc": 0.62
-   },
    {
     "date": "2026-08-15",
     "label": "15 Aug",
@@ -523,12 +506,22 @@
    {
     "date": "2026-08-27",
     "label": "27 Aug",
-    "spend": 67.37,
+    "spend": 80.81,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 90,
-    "ctr": 5.03,
-    "cpc": 0.75
+    "clicks": 113,
+    "ctr": 5.05,
+    "cpc": 0.72
+   },
+   {
+    "date": "2026-08-28",
+    "label": "28 Aug",
+    "spend": 1.06,
+    "revenue": 0.0,
+    "purchases": 0,
+    "clicks": 1,
+    "ctr": 2.86,
+    "cpc": 1.06
    }
   ],
   "campaigns": [
@@ -536,46 +529,46 @@
     "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
     "status": "ACTIVE",
     "daily_budget": 50.0,
-    "spend": 1004.56,
-    "impressions": 34370,
-    "clicks": 1637,
+    "spend": 1049.46,
+    "impressions": 35616,
+    "clicks": 1696,
     "ctr": 4.76,
-    "cpc": 0.61,
-    "roas": 3.2713,
+    "cpc": 0.62,
+    "roas": 3.1313,
     "purchases": 10,
     "purchase_value": 3286.2,
-    "atc": 46,
-    "reach": 21760
+    "atc": 48,
+    "reach": 22315
    },
    {
     "name": "Lumara \u2014 Sales \u2014 Winners Broad CBO (Jul 2026)",
     "status": "PAUSED",
     "daily_budget": 30.0,
-    "spend": 797.27,
-    "impressions": 23288,
-    "clicks": 1055,
-    "ctr": 4.53,
-    "cpc": 0.76,
-    "roas": 1.1449,
+    "spend": 761.8,
+    "impressions": 22544,
+    "clicks": 1034,
+    "ctr": 4.59,
+    "cpc": 0.74,
+    "roas": 1.1983,
     "purchases": 4,
     "purchase_value": 912.83,
-    "atc": 15,
-    "reach": 15298
+    "atc": 14,
+    "reach": 14766
    },
    {
     "name": "Decor",
     "status": "ACTIVE",
     "daily_budget": 30.0,
-    "spend": 119.6,
-    "impressions": 9782,
-    "clicks": 615,
-    "ctr": 6.29,
-    "cpc": 0.19,
+    "spend": 155.51,
+    "impressions": 10775,
+    "clicks": 669,
+    "ctr": 6.21,
+    "cpc": 0.23,
     "roas": 0.0,
     "purchases": 0,
     "purchase_value": 0.0,
-    "atc": 6,
-    "reach": 7937
+    "atc": 9,
+    "reach": 8502
    },
    {
     "name": "Lumara \u2014 Lamps \u2014 KG Gap (Jul 2026)",
