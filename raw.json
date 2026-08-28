@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-08-28T03:40:55Z",
+ "generated_at_utc": "2026-08-28T04:01:05Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,18 +9,32 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-08-28T03:40:55Z"
+   "fetched_at": "2026-08-28T04:01:05Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-08-28T03:40:55Z"
+   "fetched_at": "2026-08-28T04:01:05Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-08-28T03:40:55Z"
+   "fetched_at": "2026-08-28T04:01:05Z"
   }
  },
  "orders": [
+  {
+   "name": "#1053",
+   "createdAt": "2026-08-28T03:52:29Z",
+   "financial": "PAID",
+   "fulfillment": "UNFULFILLED",
+   "total": 132.94,
+   "customer": "Karen Bonato",
+   "items": [
+    {
+     "title": "Lumara Amazon Woven Basket Set of 3 \u2014 Corn Husk & Seagrass",
+     "quantity": 1
+    }
+   ]
+  },
   {
    "name": "#1052",
    "createdAt": "2026-08-27T21:44:51Z",
@@ -300,8 +314,15 @@
    ]
   }
  ],
- "unfulfilled_paid": [],
- "customers_total": 72,
+ "unfulfilled_paid": [
+  {
+   "name": "#1053",
+   "createdAt": "2026-08-28T03:52:29Z",
+   "total": 132.94,
+   "customer": "Karen Bonato"
+  }
+ ],
+ "customers_total": 73,
  "abandoned_checkouts_recent": 3,
  "inventory": [
   {
@@ -1324,7 +1345,7 @@
   {
    "title": "Lumara Amazon Woven Basket Set of 3 \u2014 Corn Husk & Seagrass",
    "sku": "JL6204-1",
-   "qty": 10,
+   "qty": 9,
    "price": 119.99,
    "status": "ACTIVE",
    "tracked": true,
@@ -1771,10 +1792,10 @@
   },
   {
    "date": "2026-08-28",
-   "spend": 47.8,
-   "impressions": 1088,
-   "clicks": 69,
-   "ctr": 6.34,
+   "spend": 49.03,
+   "impressions": 1122,
+   "clicks": 71,
+   "ctr": 6.33,
    "cpc": 0.69,
    "purchases": 1,
    "purchase_value": 79.0
@@ -1782,10 +1803,10 @@
  ],
  "ads_today": {
   "date": "2026-08-28",
-  "spend": 47.8,
-  "impressions": 1088,
-  "clicks": 69,
-  "ctr": 6.34,
+  "spend": 49.03,
+  "impressions": 1122,
+  "clicks": 71,
+  "ctr": 6.33,
   "cpc": 0.69,
   "purchases": 1,
   "purchase_value": 79.0

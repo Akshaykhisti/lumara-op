@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-28T03:40:55Z",
-  "generated_at_local": "Fri 28 Aug 2026, 1:40pm AEST",
+  "generated_at_utc": "2026-08-28T04:01:05Z",
+  "generated_at_local": "Fri 28 Aug 2026, 2:01pm AEST",
   "today": "2026-08-28",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-28T03:40:55Z"
+    "fetched_at": "2026-08-28T04:01:05Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-08-28T03:40:55Z"
+    "fetched_at": "2026-08-28T04:01:05Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-28T03:40:55Z"
+    "fetched_at": "2026-08-28T04:01:05Z"
    }
   }
  },
@@ -28,6 +28,11 @@
    "body": "Lumara Ashore Framed Canvas \u2014 Coastal 70 \u00d7 90 cm. Still listed as active \u2014 they take traffic and convert nothing."
   },
   {
+   "level": "serious",
+   "title": "1 paid order(s) awaiting fulfilment",
+   "body": "#1053"
+  },
+  {
    "level": "warning",
    "title": "4 product(s) at 3 units or fewer",
    "body": "Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral (1), Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass (1), Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement (2), Table Swag Olive Candelabra (2)"
@@ -35,32 +40,39 @@
  ],
  "sales": {
   "today": {
-   "orders": 1,
-   "revenue": 79.0,
-   "aov": 79.0
+   "orders": 2,
+   "revenue": 211.94,
+   "aov": 105.97
   },
   "d7": {
-   "orders": 6,
-   "revenue": 1581.32,
-   "aov": 263.55
+   "orders": 7,
+   "revenue": 1714.26,
+   "aov": 244.89
   },
   "d30": {
-   "orders": 18,
-   "revenue": 5098.12,
-   "aov": 283.23
+   "orders": 19,
+   "revenue": 5231.06,
+   "aov": 275.32
   },
   "prev7_revenue": 1279.08,
-  "wow_pct": 23.6,
-  "pending_fulfilment": 0,
-  "pending_orders": [],
+  "wow_pct": 34.0,
+  "pending_fulfilment": 1,
+  "pending_orders": [
+   {
+    "name": "#1053",
+    "createdAt": "2026-08-28T03:52:29Z",
+    "total": 132.94,
+    "customer": "Karen Bonato"
+   }
+  ],
   "abandoned_checkouts": 3,
-  "customers_total": 72,
+  "customers_total": 73,
   "days_since_order": 0,
   "last_order": {
-   "name": "#1052",
-   "when": "28 aug, 7:44am",
-   "total": 79.0,
-   "customer": "Vicki Jones"
+   "name": "#1053",
+   "when": "28 aug, 1:52pm",
+   "total": 132.94,
+   "customer": "Karen Bonato"
   },
   "daily": [
    {
@@ -240,11 +252,20 @@
    {
     "date": "2026-08-28",
     "label": "28 Aug",
-    "orders": 1,
-    "revenue": 79.0
+    "orders": 2,
+    "revenue": 211.94
    }
   ],
   "recent": [
+   {
+    "name": "#1053",
+    "when": "28 aug, 1:52pm",
+    "total": 132.94,
+    "customer": "Karen Bonato",
+    "fulfillment": "UNFULFILLED",
+    "financial": "PAID",
+    "items": "Lumara Amazon Woven Basket Set of 3 \u2014 Corn Husk & Seagrass"
+   },
    {
     "name": "#1052",
     "when": "28 aug, 7:44am",
@@ -307,15 +328,6 @@
     "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze \u00d72"
-   },
-   {
-    "name": "#1045",
-    "when": "16 aug, 9:38am",
-    "total": 189.95,
-    "customer": "Kristen Ey",
-    "fulfillment": "FULFILLED",
-    "financial": "PAID",
-    "items": "Lumara Ashore Framed Canvas \u2014 Coastal 70 \u00d7 90 cm"
    }
   ],
   "top_sellers": [
@@ -340,33 +352,33 @@
     "units": 2
    },
    {
-    "title": "Additional freight \u2014 Chike Table Lamp to Australia Post Emerald QLD 4720",
+    "title": "Lumara Amazon Woven Basket Set of 3 \u2014 Corn Husk & Seagrass",
     "units": 1
    }
   ]
  },
  "ads": {
   "today": {
-   "spend": 47.8,
+   "spend": 49.03,
    "value": 79.0,
-   "roas": 1.65,
-   "clicks": 69,
-   "impressions": 1088,
+   "roas": 1.61,
+   "clicks": 71,
+   "impressions": 1122,
    "purchases": 1,
    "cpc": 0.69,
-   "ctr": 6.34,
-   "cpa": 47.8
+   "ctr": 6.33,
+   "cpa": 49.03
   },
   "d7": {
-   "spend": 505.12,
+   "spend": 506.35,
    "value": 1581.32,
-   "roas": 3.13,
-   "clicks": 1138,
-   "impressions": 22188,
+   "roas": 3.12,
+   "clicks": 1140,
+   "impressions": 22222,
    "purchases": 6,
    "cpc": 0.44,
    "ctr": 5.13,
-   "cpa": 84.19
+   "cpa": 84.39
   },
   "prev7": {
    "spend": 420.49,
@@ -511,11 +523,11 @@
    {
     "date": "2026-08-28",
     "label": "28 Aug",
-    "spend": 47.8,
+    "spend": 49.03,
     "revenue": 79.0,
     "purchases": 1,
-    "clicks": 69,
-    "ctr": 6.34,
+    "clicks": 71,
+    "ctr": 6.33,
     "cpc": 0.69
    }
   ],
@@ -650,7 +662,7 @@
   "watch": 3,
   "healthy": 74,
   "untracked": 52,
-  "stock_value": 88844.86,
+  "stock_value": 88724.87,
   "oos_list": [
    {
     "title": "Lumara Ashore Framed Canvas \u2014 Coastal 70 \u00d7 90 cm",
