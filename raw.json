@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-08-28T13:57:41Z",
+ "generated_at_utc": "2026-08-28T14:17:52Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-08-28T13:57:41Z"
+   "fetched_at": "2026-08-28T14:17:52Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-08-28T13:57:41Z"
+   "fetched_at": "2026-08-28T14:17:52Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-08-28T13:57:41Z"
+   "fetched_at": "2026-08-28T14:17:52Z"
   }
  },
  "orders": [
@@ -309,20 +309,6 @@
    "items": [
     {
      "title": "Table Swag Olive Candelabra",
-     "quantity": 1
-    }
-   ]
-  },
-  {
-   "name": "#1034",
-   "createdAt": "2026-07-29T02:59:30Z",
-   "financial": "PAID",
-   "fulfillment": "FULFILLED",
-   "total": 93.95,
-   "customer": "Trina Donkin",
-   "items": [
-    {
-     "title": "Talia Vase",
      "quantity": 1
     }
    ]
@@ -1671,16 +1657,6 @@
  ],
  "ads_daily": [
   {
-   "date": "2026-08-14",
-   "spend": 52.32,
-   "impressions": 1730,
-   "clicks": 84,
-   "ctr": 4.86,
-   "cpc": 0.62,
-   "purchases": 0,
-   "purchase_value": 0.0
-  },
-  {
    "date": "2026-08-15",
    "spend": 35.0,
    "impressions": 1458,
@@ -1812,70 +1788,80 @@
   },
   {
    "date": "2026-08-28",
-   "spend": 80.84,
-   "impressions": 2202,
+   "spend": 80.91,
+   "impressions": 2205,
    "clicks": 129,
-   "ctr": 5.86,
+   "ctr": 5.85,
    "cpc": 0.63,
    "purchases": 3,
    "purchase_value": 424.49
+  },
+  {
+   "date": "2026-08-29",
+   "spend": 0.24,
+   "impressions": 7,
+   "clicks": 0,
+   "ctr": 0.0,
+   "cpc": 0.0,
+   "purchases": 0,
+   "purchase_value": 0.0
   }
  ],
  "ads_today": {
-  "date": "2026-08-28",
-  "spend": 80.84,
-  "impressions": 2202,
-  "clicks": 129,
-  "ctr": 5.86,
-  "cpc": 0.63,
-  "purchases": 3,
-  "purchase_value": 424.49
+  "date": "2026-08-29",
+  "spend": 0.24,
+  "impressions": 7,
+  "clicks": 0,
+  "ctr": 0.0,
+  "cpc": 0.0,
+  "purchases": 0,
+  "purchase_value": 0.0
  },
  "ads_campaigns": [
   {
    "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
    "status": "ACTIVE",
    "daily_budget": 50.0,
-   "spend": 1049.74,
-   "impressions": 35622,
-   "clicks": 1698,
-   "ctr": 4.77,
+   "spend": 1101.44,
+   "impressions": 37066,
+   "clicks": 1781,
+   "ctr": 4.8,
    "cpc": 0.62,
-   "roas": 3.1305,
-   "purchases": 10,
-   "purchase_value": 3286.2,
-   "atc": 48,
-   "reach": 22315
+   "roas": 3.3689,
+   "purchases": 13,
+   "purchase_value": 3710.69,
+   "atc": 51,
+   "reach": 22917
   },
   {
    "name": "Lumara \u2014 Sales \u2014 Winners Broad CBO (Jul 2026)",
    "status": "PAUSED",
    "daily_budget": 30.0,
-   "spend": 761.8,
-   "impressions": 22544,
-   "clicks": 1034,
+   "spend": 722.65,
+   "impressions": 21639,
+   "clicks": 994,
    "ctr": 4.59,
-   "cpc": 0.74,
-   "roas": 1.1983,
+   "cpc": 0.73,
+   "roas": 1.2632,
    "purchases": 4,
    "purchase_value": 912.83,
-   "atc": 14,
-   "reach": 14766
+   "atc": 13,
+   "reach": 14326
   },
   {
    "name": "Decor",
    "status": "ACTIVE",
    "daily_budget": 30.0,
-   "spend": 155.71,
-   "impressions": 10781,
-   "clicks": 669,
-   "ctr": 6.21,
-   "cpc": 0.23,
+   "spend": 184.92,
+   "impressions": 11542,
+   "clicks": 715,
+   "ctr": 6.19,
+   "cpc": 0.26,
    "roas": 0.0,
    "purchases": 0,
    "purchase_value": 0.0,
    "atc": 9,
-   "reach": 8511
+   "reach": 8811
   },
   {
    "name": "Lumara \u2014 Lamps \u2014 KG Gap (Jul 2026)",
