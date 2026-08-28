@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-27T21:43:54Z",
-  "generated_at_local": "Fri 28 Aug 2026, 7:43am AEST",
+  "generated_at_utc": "2026-08-28T00:59:27Z",
+  "generated_at_local": "Fri 28 Aug 2026, 10:59am AEST",
   "today": "2026-08-28",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-27T21:43:54Z"
+    "fetched_at": "2026-08-28T00:59:27Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-08-27T21:43:54Z"
+    "fetched_at": "2026-08-28T00:59:27Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-27T21:43:54Z"
+    "fetched_at": "2026-08-28T00:59:27Z"
    }
   }
  },
@@ -29,43 +29,38 @@
   },
   {
    "level": "warning",
-   "title": "No orders for 2 days",
-   "body": "Last order was #1051 on 26 Aug. Ads have spent $95 since the last attributed purchase."
-  },
-  {
-   "level": "warning",
    "title": "4 product(s) at 3 units or fewer",
    "body": "Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral (1), Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass (1), Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement (2), Table Swag Olive Candelabra (2)"
   }
  ],
  "sales": {
   "today": {
-   "orders": 0,
-   "revenue": 0.0,
-   "aov": 0.0
+   "orders": 1,
+   "revenue": 79.0,
+   "aov": 79.0
   },
   "d7": {
-   "orders": 5,
-   "revenue": 1502.32,
-   "aov": 300.46
+   "orders": 6,
+   "revenue": 1581.32,
+   "aov": 263.55
   },
   "d30": {
-   "orders": 17,
-   "revenue": 5019.12,
-   "aov": 295.24
+   "orders": 18,
+   "revenue": 5098.12,
+   "aov": 283.23
   },
   "prev7_revenue": 1279.08,
-  "wow_pct": 17.5,
+  "wow_pct": 23.6,
   "pending_fulfilment": 0,
   "pending_orders": [],
   "abandoned_checkouts": 3,
   "customers_total": 72,
-  "days_since_order": 2,
+  "days_since_order": 0,
   "last_order": {
-   "name": "#1051",
-   "when": "26 aug, 10:38pm",
-   "total": 242.55,
-   "customer": "JO-ANNE WOODRUFF"
+   "name": "#1052",
+   "when": "28 aug, 7:44am",
+   "total": 79.0,
+   "customer": "Vicki Jones"
   },
   "daily": [
    {
@@ -245,11 +240,20 @@
    {
     "date": "2026-08-28",
     "label": "28 Aug",
-    "orders": 0,
-    "revenue": 0.0
+    "orders": 1,
+    "revenue": 79.0
    }
   ],
   "recent": [
+   {
+    "name": "#1052",
+    "when": "28 aug, 7:44am",
+    "total": 79.0,
+    "customer": "Vicki Jones",
+    "fulfillment": "FULFILLED",
+    "financial": "PAID",
+    "items": "Additional freight \u2014 Chike Table Lamp to Australia Post Emerald QLD 4720"
+   },
    {
     "name": "#1051",
     "when": "26 aug, 10:38pm",
@@ -312,15 +316,6 @@
     "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Lumara Ashore Framed Canvas \u2014 Coastal 70 \u00d7 90 cm"
-   },
-   {
-    "name": "#1044",
-    "when": "15 aug, 3:55pm",
-    "total": 413.99,
-    "customer": "Jenny Edmonds",
-    "fulfillment": "FULFILLED",
-    "financial": "PAID",
-    "items": "Lumara Cayman Rattan Table Lamp \u2014 Coastal Natural Style \u00d72"
    }
   ],
   "top_sellers": [
@@ -345,33 +340,33 @@
     "units": 2
    },
    {
-    "title": "Lumara Chike Table Lamp \u2014 Sculptural Ceramic Statement",
+    "title": "Additional freight \u2014 Chike Table Lamp to Australia Post Emerald QLD 4720",
     "units": 1
    }
   ]
  },
  "ads": {
   "today": {
-   "spend": 13.67,
-   "value": 0.0,
-   "roas": 0.0,
-   "clicks": 15,
-   "impressions": 254,
-   "purchases": 0,
-   "cpc": 0.91,
-   "ctr": 5.91,
-   "cpa": null
+   "spend": 35.58,
+   "value": 79.0,
+   "roas": 2.22,
+   "clicks": 53,
+   "impressions": 808,
+   "purchases": 1,
+   "cpc": 0.67,
+   "ctr": 6.56,
+   "cpa": 35.58
   },
   "d7": {
-   "spend": 470.66,
-   "value": 1502.32,
-   "roas": 3.19,
-   "clicks": 1082,
-   "impressions": 21348,
-   "purchases": 5,
-   "cpc": 0.43,
-   "ctr": 5.07,
-   "cpa": 94.13
+   "spend": 492.9,
+   "value": 1581.32,
+   "roas": 3.21,
+   "clicks": 1122,
+   "impressions": 21908,
+   "purchases": 6,
+   "cpc": 0.44,
+   "ctr": 5.12,
+   "cpa": 82.15
   },
   "prev7": {
    "spend": 420.49,
@@ -380,8 +375,8 @@
   },
   "daily_budget_live": 80.0,
   "active_campaigns": 2,
-  "dry_days": 2,
-  "dry_spend": 94.51,
+  "dry_days": 0,
+  "dry_spend": 0.0,
   "series": [
    {
     "date": "2026-08-15",
@@ -506,22 +501,22 @@
    {
     "date": "2026-08-27",
     "label": "27 Aug",
-    "spend": 80.84,
+    "spend": 81.17,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 113,
-    "ctr": 5.04,
-    "cpc": 0.72
+    "clicks": 115,
+    "ctr": 5.11,
+    "cpc": 0.71
    },
    {
     "date": "2026-08-28",
     "label": "28 Aug",
-    "spend": 13.67,
-    "revenue": 0.0,
-    "purchases": 0,
-    "clicks": 15,
-    "ctr": 5.91,
-    "cpc": 0.91
+    "spend": 35.58,
+    "revenue": 79.0,
+    "purchases": 1,
+    "clicks": 53,
+    "ctr": 6.56,
+    "cpc": 0.67
    }
   ],
   "campaigns": [
@@ -529,12 +524,12 @@
     "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
     "status": "ACTIVE",
     "daily_budget": 50.0,
-    "spend": 1049.49,
-    "impressions": 35618,
-    "clicks": 1696,
-    "ctr": 4.76,
+    "spend": 1049.74,
+    "impressions": 35622,
+    "clicks": 1698,
+    "ctr": 4.77,
     "cpc": 0.62,
-    "roas": 3.1312,
+    "roas": 3.1305,
     "purchases": 10,
     "purchase_value": 3286.2,
     "atc": 48,
@@ -559,8 +554,8 @@
     "name": "Decor",
     "status": "ACTIVE",
     "daily_budget": 30.0,
-    "spend": 155.51,
-    "impressions": 10778,
+    "spend": 155.59,
+    "impressions": 10780,
     "clicks": 669,
     "ctr": 6.21,
     "cpc": 0.23,
