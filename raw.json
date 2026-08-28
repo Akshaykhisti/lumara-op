@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-08-28T06:22:20Z",
+ "generated_at_utc": "2026-08-28T12:36:56Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,18 +9,32 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-08-28T06:22:20Z"
+   "fetched_at": "2026-08-28T12:36:56Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-08-28T06:22:20Z"
+   "fetched_at": "2026-08-28T12:36:56Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-08-28T06:22:20Z"
+   "fetched_at": "2026-08-28T12:36:56Z"
   }
  },
  "orders": [
+  {
+   "name": "#1054",
+   "createdAt": "2026-08-28T08:35:13Z",
+   "financial": "PAID",
+   "fulfillment": "UNFULFILLED",
+   "total": 212.55,
+   "customer": "Ross Currie",
+   "items": [
+    {
+     "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
+     "quantity": 1
+    }
+   ]
+  },
   {
    "name": "#1053",
    "createdAt": "2026-08-28T03:52:29Z",
@@ -320,10 +334,16 @@
    "createdAt": "2026-08-28T03:52:29Z",
    "total": 132.94,
    "customer": "Karen Bonato"
+  },
+  {
+   "name": "#1054",
+   "createdAt": "2026-08-28T08:35:13Z",
+   "total": 212.55,
+   "customer": "Ross Currie"
   }
  ],
- "customers_total": 73,
- "abandoned_checkouts_recent": 3,
+ "customers_total": 74,
+ "abandoned_checkouts_recent": 4,
  "inventory": [
   {
    "title": "Lumara Cayman Rattan Table Lamp \u2014 Coastal Natural Style",
@@ -490,7 +510,7 @@
   {
    "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
    "sku": "LH-TL-009",
-   "qty": 6,
+   "qty": 5,
    "price": 213.99,
    "status": "ACTIVE",
    "tracked": true,
@@ -1782,8 +1802,8 @@
   },
   {
    "date": "2026-08-27",
-   "spend": 81.17,
-   "impressions": 2250,
+   "spend": 81.29,
+   "impressions": 2251,
    "clicks": 115,
    "ctr": 5.11,
    "cpc": 0.71,
@@ -1792,24 +1812,24 @@
   },
   {
    "date": "2026-08-28",
-   "spend": 58.36,
-   "impressions": 1423,
-   "clicks": 82,
-   "ctr": 5.76,
-   "cpc": 0.71,
-   "purchases": 2,
-   "purchase_value": 211.94
+   "spend": 78.65,
+   "impressions": 2118,
+   "clicks": 124,
+   "ctr": 5.85,
+   "cpc": 0.63,
+   "purchases": 3,
+   "purchase_value": 424.49
   }
  ],
  "ads_today": {
   "date": "2026-08-28",
-  "spend": 58.36,
-  "impressions": 1423,
-  "clicks": 82,
-  "ctr": 5.76,
-  "cpc": 0.71,
-  "purchases": 2,
-  "purchase_value": 211.94
+  "spend": 78.65,
+  "impressions": 2118,
+  "clicks": 124,
+  "ctr": 5.85,
+  "cpc": 0.63,
+  "purchases": 3,
+  "purchase_value": 424.49
  },
  "ads_campaigns": [
   {
@@ -1846,8 +1866,8 @@
    "name": "Decor",
    "status": "ACTIVE",
    "daily_budget": 30.0,
-   "spend": 155.59,
-   "impressions": 10780,
+   "spend": 155.71,
+   "impressions": 10781,
    "clicks": 669,
    "ctr": 6.21,
    "cpc": 0.23,
