@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-29T23:58:37Z",
-  "generated_at_local": "Sun 30 Aug 2026, 9:58am AEST",
+  "generated_at_utc": "2026-08-30T00:18:49Z",
+  "generated_at_local": "Sun 30 Aug 2026, 10:18am AEST",
   "today": "2026-08-30",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-29T23:58:37Z"
+    "fetched_at": "2026-08-30T00:18:49Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-08-29T23:58:37Z"
+    "fetched_at": "2026-08-30T00:18:49Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-29T23:58:37Z"
+    "fetched_at": "2026-08-30T00:18:49Z"
    }
   }
  },
@@ -29,13 +29,8 @@
   },
   {
    "level": "serious",
-   "title": "2 paid order(s) awaiting fulfilment",
-   "body": "#1053, #1054"
-  },
-  {
-   "level": "warning",
-   "title": "No orders for 2 days",
-   "body": "Last order was #1054 on 28 Aug. Ads have spent $94 since the last attributed purchase."
+   "title": "3 paid order(s) awaiting fulfilment",
+   "body": "#1053, #1054, #1055"
   },
   {
    "level": "warning",
@@ -45,23 +40,23 @@
  ],
  "sales": {
   "today": {
-   "orders": 0,
-   "revenue": 0.0,
-   "aov": 0.0
+   "orders": 1,
+   "revenue": 212.55,
+   "aov": 212.55
   },
   "d7": {
-   "orders": 7,
-   "revenue": 1636.86,
-   "aov": 233.84
+   "orders": 8,
+   "revenue": 1849.41,
+   "aov": 231.18
   },
   "d30": {
-   "orders": 20,
-   "revenue": 5443.61,
-   "aov": 272.18
+   "orders": 21,
+   "revenue": 5656.16,
+   "aov": 269.34
   },
   "prev7_revenue": 695.09,
-  "wow_pct": 135.5,
-  "pending_fulfilment": 2,
+  "wow_pct": 166.1,
+  "pending_fulfilment": 3,
   "pending_orders": [
    {
     "name": "#1053",
@@ -74,16 +69,22 @@
     "createdAt": "2026-08-28T08:35:13Z",
     "total": 212.55,
     "customer": "Ross Currie"
+   },
+   {
+    "name": "#1055",
+    "createdAt": "2026-08-30T00:17:55Z",
+    "total": 212.55,
+    "customer": "LEANNE MCLEAN"
    }
   ],
   "abandoned_checkouts": 4,
-  "customers_total": 74,
-  "days_since_order": 2,
+  "customers_total": 75,
+  "days_since_order": 0,
   "last_order": {
-   "name": "#1054",
-   "when": "28 aug, 6:35pm",
+   "name": "#1055",
+   "when": "30 aug, 10:17am",
    "total": 212.55,
-   "customer": "Ross Currie"
+   "customer": "LEANNE MCLEAN"
   },
   "daily": [
    {
@@ -263,11 +264,20 @@
    {
     "date": "2026-08-30",
     "label": "30 Aug",
-    "orders": 0,
-    "revenue": 0.0
+    "orders": 1,
+    "revenue": 212.55
    }
   ],
   "recent": [
+   {
+    "name": "#1055",
+    "when": "30 aug, 10:17am",
+    "total": 212.55,
+    "customer": "LEANNE MCLEAN",
+    "fulfillment": "UNFULFILLED",
+    "financial": "PAID",
+    "items": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze"
+   },
    {
     "name": "#1054",
     "when": "28 aug, 6:35pm",
@@ -330,15 +340,6 @@
     "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement"
-   },
-   {
-    "name": "#1047",
-    "when": "23 aug, 8:06am",
-    "total": 289.95,
-    "customer": "Lesley Anderson",
-    "fulfillment": "FULFILLED",
-    "financial": "PAID",
-    "items": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement"
    }
   ],
   "top_sellers": [
@@ -348,7 +349,7 @@
    },
    {
     "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
-    "units": 5
+    "units": 6
    },
    {
     "title": "Lumara Hurricane Candle Holder Moss \u2014 Organic Green Ceramic",
@@ -370,36 +371,36 @@
  },
  "ads": {
   "today": {
-   "spend": 35.51,
+   "spend": 37.9,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 93,
-   "impressions": 1331,
+   "clicks": 99,
+   "impressions": 1421,
    "purchases": 0,
    "cpc": 0.38,
-   "ctr": 6.99,
+   "ctr": 6.97,
    "cpa": null
   },
   "d7": {
-   "spend": 477.92,
+   "spend": 480.31,
    "value": 1636.86,
-   "roas": 3.42,
-   "clicks": 1017,
-   "impressions": 17626,
+   "roas": 3.41,
+   "clicks": 1023,
+   "impressions": 17716,
    "purchases": 7,
    "cpc": 0.47,
    "ctr": 5.77,
-   "cpa": 68.27
+   "cpa": 68.62
   },
   "prev7": {
    "spend": 458.94,
    "value": 289.95,
    "roas": 0.63
   },
-  "daily_budget_live": 80.0,
+  "daily_budget_live": 90.0,
   "active_campaigns": 2,
   "dry_days": 2,
-  "dry_spend": 94.01,
+  "dry_spend": 96.4,
   "series": [
    {
     "date": "2026-08-17",
@@ -534,11 +535,11 @@
    {
     "date": "2026-08-30",
     "label": "30 Aug",
-    "spend": 35.51,
+    "spend": 37.9,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 93,
-    "ctr": 6.99,
+    "clicks": 99,
+    "ctr": 6.97,
     "cpc": 0.38
    }
   ],
@@ -576,7 +577,7 @@
    {
     "name": "Decor",
     "status": "ACTIVE",
-    "daily_budget": 30.0,
+    "daily_budget": 40.0,
     "spend": 208.43,
     "impressions": 12355,
     "clicks": 784,
@@ -673,7 +674,7 @@
   "watch": 4,
   "healthy": 73,
   "untracked": 52,
-  "stock_value": 88510.88,
+  "stock_value": 88296.89,
   "oos_list": [
    {
     "title": "Lumara Ashore Framed Canvas \u2014 Coastal 70 \u00d7 90 cm",
@@ -744,6 +745,17 @@
     "days_cover": 60.0
    },
    {
+    "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
+    "sku": "LH-TL-009",
+    "qty": 4,
+    "price": 213.99,
+    "status": "ACTIVE",
+    "tracked": true,
+    "available": true,
+    "sold_30d": 6,
+    "days_cover": 20.0
+   },
+   {
     "title": "Lumara Alegra Statement Vase \u2014 Sculptural Metal",
     "sku": "QA5813-2",
     "qty": 4,
@@ -775,17 +787,6 @@
     "available": true,
     "sold_30d": 0,
     "days_cover": null
-   },
-   {
-    "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
-    "sku": "LH-TL-009",
-    "qty": 5,
-    "price": 213.99,
-    "status": "ACTIVE",
-    "tracked": true,
-    "available": true,
-    "sold_30d": 5,
-    "days_cover": 30.0
    }
   ],
   "untracked_list": [
