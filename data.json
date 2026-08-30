@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-30T04:01:01Z",
-  "generated_at_local": "Sun 30 Aug 2026, 2:01pm AEST",
+  "generated_at_utc": "2026-08-30T04:21:12Z",
+  "generated_at_local": "Sun 30 Aug 2026, 2:21pm AEST",
   "today": "2026-08-30",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-30T04:01:01Z"
+    "fetched_at": "2026-08-30T04:21:12Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-08-30T04:01:01Z"
+    "fetched_at": "2026-08-30T04:21:12Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-30T04:01:01Z"
+    "fetched_at": "2026-08-30T04:21:12Z"
    }
   }
  },
@@ -29,8 +29,8 @@
   },
   {
    "level": "serious",
-   "title": "3 paid order(s) awaiting fulfilment",
-   "body": "#1053, #1054, #1055"
+   "title": "1 paid order(s) awaiting fulfilment",
+   "body": "#1053"
   },
   {
    "level": "warning",
@@ -56,25 +56,13 @@
   },
   "prev7_revenue": 695.09,
   "wow_pct": 166.1,
-  "pending_fulfilment": 3,
+  "pending_fulfilment": 1,
   "pending_orders": [
    {
     "name": "#1053",
     "createdAt": "2026-08-28T03:52:29Z",
     "total": 132.94,
     "customer": "Karen Bonato"
-   },
-   {
-    "name": "#1054",
-    "createdAt": "2026-08-28T08:35:13Z",
-    "total": 212.55,
-    "customer": "Ross Currie"
-   },
-   {
-    "name": "#1055",
-    "createdAt": "2026-08-30T00:17:55Z",
-    "total": 212.55,
-    "customer": "LEANNE MCLEAN"
    }
   ],
   "abandoned_checkouts": 4,
@@ -274,7 +262,7 @@
     "when": "30 aug, 10:17am",
     "total": 212.55,
     "customer": "LEANNE MCLEAN",
-    "fulfillment": "UNFULFILLED",
+    "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze"
    },
@@ -283,7 +271,7 @@
     "when": "28 aug, 6:35pm",
     "total": 212.55,
     "customer": "Ross Currie",
-    "fulfillment": "UNFULFILLED",
+    "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze"
    },
@@ -371,26 +359,26 @@
  },
  "ads": {
   "today": {
-   "spend": 68.31,
+   "spend": 69.73,
    "value": 212.55,
-   "roas": 3.11,
-   "clicks": 155,
-   "impressions": 2307,
+   "roas": 3.05,
+   "clicks": 158,
+   "impressions": 2364,
    "purchases": 1,
    "cpc": 0.44,
-   "ctr": 6.72,
-   "cpa": 68.31
+   "ctr": 6.68,
+   "cpa": 69.73
   },
   "d7": {
-   "spend": 510.72,
+   "spend": 512.14,
    "value": 1849.41,
-   "roas": 3.62,
-   "clicks": 1079,
-   "impressions": 18602,
+   "roas": 3.61,
+   "clicks": 1082,
+   "impressions": 18659,
    "purchases": 8,
    "cpc": 0.47,
    "ctr": 5.8,
-   "cpa": 63.84
+   "cpa": 64.02
   },
   "prev7": {
    "spend": 458.94,
@@ -535,11 +523,11 @@
    {
     "date": "2026-08-30",
     "label": "30 Aug",
-    "spend": 68.31,
+    "spend": 69.73,
     "revenue": 212.55,
     "purchases": 1,
-    "clicks": 155,
-    "ctr": 6.72,
+    "clicks": 158,
+    "ctr": 6.68,
     "cpc": 0.44
    }
   ],
