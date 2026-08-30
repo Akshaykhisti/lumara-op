@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-30T10:04:06Z",
-  "generated_at_local": "Sun 30 Aug 2026, 8:04pm AEST",
+  "generated_at_utc": "2026-08-30T10:24:15Z",
+  "generated_at_local": "Sun 30 Aug 2026, 8:24pm AEST",
   "today": "2026-08-30",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-30T10:04:06Z"
+    "fetched_at": "2026-08-30T10:24:15Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-08-30T10:04:06Z"
+    "fetched_at": "2026-08-30T10:24:15Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-30T10:04:06Z"
+    "fetched_at": "2026-08-30T10:24:15Z"
    }
   }
  },
@@ -289,7 +289,7 @@
     "when": "28 aug, 1:52pm",
     "total": 132.94,
     "customer": "Karen Bonato",
-    "fulfillment": "UNFULFILLED",
+    "fulfillment": "IN_PROGRESS",
     "financial": "PAID",
     "items": "Lumara Amazon Woven Basket Set of 3 \u2014 Corn Husk & Seagrass"
    },
@@ -359,26 +359,26 @@
  },
  "ads": {
   "today": {
-   "spend": 96.24,
+   "spend": 99.27,
    "value": 660.48,
-   "roas": 6.86,
-   "clicks": 224,
-   "impressions": 3273,
+   "roas": 6.65,
+   "clicks": 226,
+   "impressions": 3346,
    "purchases": 2,
-   "cpc": 0.43,
-   "ctr": 6.84,
-   "cpa": 48.12
+   "cpc": 0.44,
+   "ctr": 6.75,
+   "cpa": 49.63
   },
   "d7": {
-   "spend": 538.65,
+   "spend": 541.68,
    "value": 2297.34,
-   "roas": 4.26,
-   "clicks": 1148,
-   "impressions": 19568,
+   "roas": 4.24,
+   "clicks": 1150,
+   "impressions": 19641,
    "purchases": 9,
    "cpc": 0.47,
-   "ctr": 5.87,
-   "cpa": 59.85
+   "ctr": 5.86,
+   "cpa": 60.19
   },
   "prev7": {
    "spend": 458.94,
@@ -523,12 +523,12 @@
    {
     "date": "2026-08-30",
     "label": "30 Aug",
-    "spend": 96.24,
+    "spend": 99.27,
     "revenue": 660.48,
     "purchases": 2,
-    "clicks": 224,
-    "ctr": 6.84,
-    "cpc": 0.43
+    "clicks": 226,
+    "ctr": 6.75,
+    "cpc": 0.44
    }
   ],
   "campaigns": [
