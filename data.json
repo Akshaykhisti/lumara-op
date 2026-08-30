@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-30T14:01:07Z",
-  "generated_at_local": "Mon 31 Aug 2026, 12:01am AEST",
+  "generated_at_utc": "2026-08-30T14:21:19Z",
+  "generated_at_local": "Mon 31 Aug 2026, 12:21am AEST",
   "today": "2026-08-31",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-30T14:01:07Z"
+    "fetched_at": "2026-08-30T14:21:19Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-08-30T14:01:07Z"
+    "fetched_at": "2026-08-30T14:21:19Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-30T14:01:07Z"
+    "fetched_at": "2026-08-30T14:21:19Z"
    }
   }
  },
@@ -370,15 +370,15 @@
    "cpa": null
   },
   "d7": {
-   "spend": 483.87,
+   "spend": 483.96,
    "value": 2297.34,
    "roas": 4.75,
    "clicks": 977,
-   "impressions": 15468,
+   "impressions": 15473,
    "purchases": 9,
    "cpc": 0.5,
-   "ctr": 6.32,
-   "cpa": 53.76
+   "ctr": 6.31,
+   "cpa": 53.77
   },
   "prev7": {
    "spend": 456.47,
@@ -513,11 +513,11 @@
    {
     "date": "2026-08-30",
     "label": "30 Aug",
-    "spend": 108.01,
+    "spend": 108.1,
     "revenue": 660.48,
     "purchases": 2,
     "clicks": 247,
-    "ctr": 6.63,
+    "ctr": 6.62,
     "cpc": 0.44
    },
    {
@@ -537,7 +537,7 @@
     "status": "ACTIVE",
     "daily_budget": 50.0,
     "spend": 1198.2,
-    "impressions": 40527,
+    "impressions": 40528,
     "clicks": 2006,
     "ctr": 4.95,
     "cpc": 0.6,
@@ -545,7 +545,7 @@
     "purchases": 15,
     "purchase_value": 4371.17,
     "atc": 56,
-    "reach": 24742
+    "reach": 24747
    },
    {
     "name": "Lumara \u2014 Sales \u2014 Winners Broad CBO (Jul 2026)",
@@ -566,10 +566,10 @@
     "name": "Decor",
     "status": "ACTIVE",
     "daily_budget": 40.0,
-    "spend": 254.74,
-    "impressions": 13893,
+    "spend": 254.82,
+    "impressions": 13895,
     "clicks": 876,
-    "ctr": 6.31,
+    "ctr": 6.3,
     "cpc": 0.29,
     "roas": 0.0,
     "purchases": 0,
