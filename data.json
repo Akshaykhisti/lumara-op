@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-30T06:42:27Z",
-  "generated_at_local": "Sun 30 Aug 2026, 4:42pm AEST",
+  "generated_at_utc": "2026-08-30T07:02:37Z",
+  "generated_at_local": "Sun 30 Aug 2026, 5:02pm AEST",
   "today": "2026-08-30",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-30T06:42:27Z"
+    "fetched_at": "2026-08-30T07:02:37Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-08-30T06:42:27Z"
+    "fetched_at": "2026-08-30T07:02:37Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-30T06:42:27Z"
+    "fetched_at": "2026-08-30T07:02:37Z"
    }
   }
  },
@@ -29,50 +29,56 @@
   },
   {
    "level": "serious",
-   "title": "1 paid order(s) awaiting fulfilment",
-   "body": "#1053"
+   "title": "2 paid order(s) awaiting fulfilment",
+   "body": "#1053, #1056"
   },
   {
    "level": "warning",
-   "title": "4 product(s) at 3 units or fewer",
-   "body": "Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral (1), Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass (1), Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement (2), Table Swag Olive Candelabra (2)"
+   "title": "5 product(s) at 3 units or fewer",
+   "body": "Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral (1), Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass (1), Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement (2), Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze (2)"
   }
  ],
  "sales": {
   "today": {
-   "orders": 1,
-   "revenue": 212.55,
-   "aov": 212.55
+   "orders": 2,
+   "revenue": 660.48,
+   "aov": 330.24
   },
   "d7": {
-   "orders": 8,
-   "revenue": 1849.41,
-   "aov": 231.18
+   "orders": 9,
+   "revenue": 2297.34,
+   "aov": 255.26
   },
   "d30": {
-   "orders": 21,
-   "revenue": 5656.16,
-   "aov": 269.34
+   "orders": 22,
+   "revenue": 6104.09,
+   "aov": 277.46
   },
   "prev7_revenue": 695.09,
-  "wow_pct": 166.1,
-  "pending_fulfilment": 1,
+  "wow_pct": 230.5,
+  "pending_fulfilment": 2,
   "pending_orders": [
    {
     "name": "#1053",
     "createdAt": "2026-08-28T03:52:29Z",
     "total": 132.94,
     "customer": "Karen Bonato"
+   },
+   {
+    "name": "#1056",
+    "createdAt": "2026-08-30T06:44:58Z",
+    "total": 447.93,
+    "customer": "Michael Tighe"
    }
   ],
   "abandoned_checkouts": 4,
-  "customers_total": 76,
+  "customers_total": 77,
   "days_since_order": 0,
   "last_order": {
-   "name": "#1055",
-   "when": "30 aug, 10:17am",
-   "total": 212.55,
-   "customer": "LEANNE MCLEAN"
+   "name": "#1056",
+   "when": "30 aug, 4:44pm",
+   "total": 447.93,
+   "customer": "Michael Tighe"
   },
   "daily": [
    {
@@ -252,11 +258,20 @@
    {
     "date": "2026-08-30",
     "label": "30 Aug",
-    "orders": 1,
-    "revenue": 212.55
+    "orders": 2,
+    "revenue": 660.48
    }
   ],
   "recent": [
+   {
+    "name": "#1056",
+    "when": "30 aug, 4:44pm",
+    "total": 447.93,
+    "customer": "Michael Tighe",
+    "fulfillment": "UNFULFILLED",
+    "financial": "PAID",
+    "items": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze \u00d72"
+   },
    {
     "name": "#1055",
     "when": "30 aug, 10:17am",
@@ -319,25 +334,16 @@
     "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze"
-   },
-   {
-    "name": "#1048",
-    "when": "26 aug, 7:50am",
-    "total": 319.95,
-    "customer": "Michelle Jansen",
-    "fulfillment": "FULFILLED",
-    "financial": "PAID",
-    "items": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement"
    }
   ],
   "top_sellers": [
    {
-    "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
+    "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
     "units": 8
    },
    {
-    "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
-    "units": 6
+    "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
+    "units": 8
    },
    {
     "title": "Lumara Hurricane Candle Holder Moss \u2014 Organic Green Ceramic",
@@ -359,26 +365,26 @@
  },
  "ads": {
   "today": {
-   "spend": 81.46,
+   "spend": 83.12,
    "value": 212.55,
-   "roas": 2.61,
-   "clicks": 185,
-   "impressions": 2727,
+   "roas": 2.56,
+   "clicks": 188,
+   "impressions": 2786,
    "purchases": 1,
    "cpc": 0.44,
-   "ctr": 6.78,
-   "cpa": 81.46
+   "ctr": 6.75,
+   "cpa": 83.12
   },
   "d7": {
-   "spend": 523.87,
+   "spend": 525.53,
    "value": 1849.41,
-   "roas": 3.53,
-   "clicks": 1109,
-   "impressions": 19022,
+   "roas": 3.52,
+   "clicks": 1112,
+   "impressions": 19081,
    "purchases": 8,
    "cpc": 0.47,
    "ctr": 5.83,
-   "cpa": 65.48
+   "cpa": 65.69
   },
   "prev7": {
    "spend": 458.94,
@@ -523,11 +529,11 @@
    {
     "date": "2026-08-30",
     "label": "30 Aug",
-    "spend": 81.46,
+    "spend": 83.12,
     "revenue": 212.55,
     "purchases": 1,
-    "clicks": 185,
-    "ctr": 6.78,
+    "clicks": 188,
+    "ctr": 6.75,
     "cpc": 0.44
    }
   ],
@@ -658,11 +664,11 @@
   "sellable_skus": 134,
   "tracked_skus": 82,
   "out_of_stock": 1,
-  "low": 4,
-  "watch": 4,
+  "low": 5,
+  "watch": 3,
   "healthy": 73,
   "untracked": 52,
-  "stock_value": 88296.89,
+  "stock_value": 87868.91,
   "oos_list": [
    {
     "title": "Lumara Ashore Framed Canvas \u2014 Coastal 70 \u00d7 90 cm",
@@ -722,6 +728,17 @@
     "days_cover": 7.5
    },
    {
+    "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
+    "sku": "LH-TL-009",
+    "qty": 2,
+    "price": 213.99,
+    "status": "ACTIVE",
+    "tracked": true,
+    "available": true,
+    "sold_30d": 8,
+    "days_cover": 7.5
+   },
+   {
     "title": "Table Swag Olive Candelabra",
     "sku": "QA5903-3",
     "qty": 2,
@@ -731,17 +748,6 @@
     "available": true,
     "sold_30d": 1,
     "days_cover": 60.0
-   },
-   {
-    "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
-    "sku": "LH-TL-009",
-    "qty": 4,
-    "price": 213.99,
-    "status": "ACTIVE",
-    "tracked": true,
-    "available": true,
-    "sold_30d": 6,
-    "days_cover": 20.0
    },
    {
     "title": "Lumara Alegra Statement Vase \u2014 Sculptural Metal",
