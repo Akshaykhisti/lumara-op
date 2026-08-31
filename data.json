@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-31T02:53:46Z",
-  "generated_at_local": "Mon 31 Aug 2026, 12:53pm AEST",
+  "generated_at_utc": "2026-08-31T03:13:53Z",
+  "generated_at_local": "Mon 31 Aug 2026, 1:13pm AEST",
   "today": "2026-08-31",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-31T02:53:46Z"
+    "fetched_at": "2026-08-31T03:13:53Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-08-31T02:53:46Z"
+    "fetched_at": "2026-08-31T03:13:53Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-31T02:53:46Z"
+    "fetched_at": "2026-08-31T03:13:53Z"
    }
   }
  },
@@ -29,8 +29,8 @@
   },
   {
    "level": "serious",
-   "title": "2 paid order(s) awaiting fulfilment",
-   "body": "#1053, #1057"
+   "title": "1 paid order(s) awaiting fulfilment",
+   "body": "#1053"
   },
   {
    "level": "warning",
@@ -56,19 +56,13 @@
   },
   "prev7_revenue": 695.09,
   "wow_pct": 242.7,
-  "pending_fulfilment": 2,
+  "pending_fulfilment": 1,
   "pending_orders": [
    {
     "name": "#1053",
     "createdAt": "2026-08-28T03:52:29Z",
     "total": 132.94,
     "customer": "Karen Bonato"
-   },
-   {
-    "name": "#1057",
-    "createdAt": "2026-08-31T00:16:52Z",
-    "total": 84.95,
-    "customer": "Anju Agarwal"
    }
   ],
   "abandoned_checkouts": 5,
@@ -268,7 +262,7 @@
     "when": "31 aug, 10:16am",
     "total": 84.95,
     "customer": "Anju Agarwal",
-    "fulfillment": "UNFULFILLED",
+    "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Lumara Urn Candle Holder Set of 3 \u2014 Ceramic Neutral"
    },
@@ -365,26 +359,26 @@
  },
  "ads": {
   "today": {
-   "spend": 33.75,
+   "spend": 34.66,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 60,
-   "impressions": 954,
+   "clicks": 61,
+   "impressions": 977,
    "purchases": 0,
-   "cpc": 0.56,
-   "ctr": 6.29,
+   "cpc": 0.57,
+   "ctr": 6.24,
    "cpa": null
   },
   "d7": {
-   "spend": 517.77,
+   "spend": 518.68,
    "value": 2297.34,
-   "roas": 4.44,
-   "clicks": 1037,
-   "impressions": 16434,
+   "roas": 4.43,
+   "clicks": 1038,
+   "impressions": 16457,
    "purchases": 9,
    "cpc": 0.5,
    "ctr": 6.31,
-   "cpa": 57.53
+   "cpa": 57.63
   },
   "prev7": {
    "spend": 456.47,
@@ -394,7 +388,7 @@
   "daily_budget_live": 90.0,
   "active_campaigns": 2,
   "dry_days": 1,
-  "dry_spend": 33.75,
+  "dry_spend": 34.66,
   "series": [
    {
     "date": "2026-08-18",
@@ -529,12 +523,12 @@
    {
     "date": "2026-08-31",
     "label": "31 Aug",
-    "spend": 33.75,
+    "spend": 34.66,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 60,
-    "ctr": 6.29,
-    "cpc": 0.56
+    "clicks": 61,
+    "ctr": 6.24,
+    "cpc": 0.57
    }
   ],
   "campaigns": [
