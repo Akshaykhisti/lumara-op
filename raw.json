@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-08-31T03:34:01Z",
+ "generated_at_utc": "2026-08-31T03:54:08Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,18 +9,32 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-08-31T03:34:01Z"
+   "fetched_at": "2026-08-31T03:54:08Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-08-31T03:34:01Z"
+   "fetched_at": "2026-08-31T03:54:08Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-08-31T03:34:01Z"
+   "fetched_at": "2026-08-31T03:54:08Z"
   }
  },
  "orders": [
+  {
+   "name": "#1058",
+   "createdAt": "2026-08-31T03:38:25Z",
+   "financial": "PAID",
+   "fulfillment": "UNFULFILLED",
+   "total": 84.95,
+   "customer": "Rhiannon Tannous",
+   "items": [
+    {
+     "title": "Lumara Urn Candle Holder Set of 3 \u2014 Ceramic Neutral",
+     "quantity": 1
+    }
+   ]
+  },
   {
    "name": "#1057",
    "createdAt": "2026-08-31T00:16:52Z",
@@ -362,9 +376,15 @@
    "createdAt": "2026-08-28T03:52:29Z",
    "total": 132.94,
    "customer": "Karen Bonato"
+  },
+  {
+   "name": "#1058",
+   "createdAt": "2026-08-31T03:38:25Z",
+   "total": 84.95,
+   "customer": "Rhiannon Tannous"
   }
  ],
- "customers_total": 79,
+ "customers_total": 80,
  "abandoned_checkouts_recent": 5,
  "inventory": [
   {
@@ -415,7 +435,7 @@
   {
    "title": "Lumara Urn Candle Holder Set of 3 \u2014 Ceramic Neutral",
    "sku": "CP6016-1",
-   "qty": 8,
+   "qty": 7,
    "price": 79.99,
    "status": "ACTIVE",
    "tracked": true,
@@ -1834,10 +1854,10 @@
   },
   {
    "date": "2026-08-31",
-   "spend": 36.22,
-   "impressions": 1008,
-   "clicks": 64,
-   "ctr": 6.35,
+   "spend": 39.28,
+   "impressions": 1055,
+   "clicks": 69,
+   "ctr": 6.54,
    "cpc": 0.57,
    "purchases": 0,
    "purchase_value": 0.0
@@ -1845,10 +1865,10 @@
  ],
  "ads_today": {
   "date": "2026-08-31",
-  "spend": 36.22,
-  "impressions": 1008,
-  "clicks": 64,
-  "ctr": 6.35,
+  "spend": 39.28,
+  "impressions": 1055,
+  "clicks": 69,
+  "ctr": 6.54,
   "cpc": 0.57,
   "purchases": 0,
   "purchase_value": 0.0
