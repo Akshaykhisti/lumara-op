@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-08-31T04:14:15Z",
+ "generated_at_utc": "2026-08-31T04:34:23Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-08-31T04:14:15Z"
+   "fetched_at": "2026-08-31T04:34:23Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-08-31T04:14:15Z"
+   "fetched_at": "2026-08-31T04:34:23Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-08-31T04:14:15Z"
+   "fetched_at": "2026-08-31T04:34:23Z"
   }
  },
  "orders": [
@@ -25,7 +25,7 @@
    "name": "#1058",
    "createdAt": "2026-08-31T03:38:25Z",
    "financial": "PAID",
-   "fulfillment": "UNFULFILLED",
+   "fulfillment": "FULFILLED",
    "total": 84.95,
    "customer": "Rhiannon Tannous",
    "items": [
@@ -376,12 +376,6 @@
    "createdAt": "2026-08-28T03:52:29Z",
    "total": 132.94,
    "customer": "Karen Bonato"
-  },
-  {
-   "name": "#1058",
-   "createdAt": "2026-08-31T03:38:25Z",
-   "total": 84.95,
-   "customer": "Rhiannon Tannous"
   }
  ],
  "customers_total": 80,
@@ -1854,24 +1848,24 @@
   },
   {
    "date": "2026-08-31",
-   "spend": 39.66,
-   "impressions": 1068,
-   "clicks": 70,
-   "ctr": 6.55,
-   "cpc": 0.57,
-   "purchases": 0,
-   "purchase_value": 0.0
+   "spend": 39.92,
+   "impressions": 1086,
+   "clicks": 71,
+   "ctr": 6.54,
+   "cpc": 0.56,
+   "purchases": 1,
+   "purchase_value": 84.95
   }
  ],
  "ads_today": {
   "date": "2026-08-31",
-  "spend": 39.66,
-  "impressions": 1068,
-  "clicks": 70,
-  "ctr": 6.55,
-  "cpc": 0.57,
-  "purchases": 0,
-  "purchase_value": 0.0
+  "spend": 39.92,
+  "impressions": 1086,
+  "clicks": 71,
+  "ctr": 6.54,
+  "cpc": 0.56,
+  "purchases": 1,
+  "purchase_value": 84.95
  },
  "ads_campaigns": [
   {
