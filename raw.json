@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-08-30T23:57:11Z",
+ "generated_at_utc": "2026-08-31T00:17:21Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,18 +9,32 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-08-30T23:57:11Z"
+   "fetched_at": "2026-08-31T00:17:21Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-08-30T23:57:11Z"
+   "fetched_at": "2026-08-31T00:17:21Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-08-30T23:57:11Z"
+   "fetched_at": "2026-08-31T00:17:21Z"
   }
  },
  "orders": [
+  {
+   "name": "#1057",
+   "createdAt": "2026-08-31T00:16:52Z",
+   "financial": "PAID",
+   "fulfillment": "UNFULFILLED",
+   "total": 84.95,
+   "customer": "Anju Agarwal",
+   "items": [
+    {
+     "title": "Lumara Urn Candle Holder Set of 3 \u2014 Ceramic Neutral",
+     "quantity": 1
+    }
+   ]
+  },
   {
    "name": "#1056",
    "createdAt": "2026-08-30T06:44:58Z",
@@ -348,9 +362,15 @@
    "createdAt": "2026-08-28T03:52:29Z",
    "total": 132.94,
    "customer": "Karen Bonato"
+  },
+  {
+   "name": "#1057",
+   "createdAt": "2026-08-31T00:16:52Z",
+   "total": 84.95,
+   "customer": "Anju Agarwal"
   }
  ],
- "customers_total": 78,
+ "customers_total": 79,
  "abandoned_checkouts_recent": 5,
  "inventory": [
   {
@@ -401,7 +421,7 @@
   {
    "title": "Lumara Urn Candle Holder Set of 3 \u2014 Ceramic Neutral",
    "sku": "CP6016-1",
-   "qty": 9,
+   "qty": 8,
    "price": 79.99,
    "status": "ACTIVE",
    "tracked": true,
@@ -1820,10 +1840,10 @@
   },
   {
    "date": "2026-08-31",
-   "spend": 18.22,
-   "impressions": 564,
-   "clicks": 31,
-   "ctr": 5.5,
+   "spend": 21.34,
+   "impressions": 634,
+   "clicks": 36,
+   "ctr": 5.68,
    "cpc": 0.59,
    "purchases": 0,
    "purchase_value": 0.0
@@ -1831,10 +1851,10 @@
  ],
  "ads_today": {
   "date": "2026-08-31",
-  "spend": 18.22,
-  "impressions": 564,
-  "clicks": 31,
-  "ctr": 5.5,
+  "spend": 21.34,
+  "impressions": 634,
+  "clicks": 36,
+  "ctr": 5.68,
   "cpc": 0.59,
   "purchases": 0,
   "purchase_value": 0.0
