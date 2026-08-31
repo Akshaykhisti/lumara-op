@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-08-31T04:54:33Z",
-  "generated_at_local": "Mon 31 Aug 2026, 2:54pm AEST",
+  "generated_at_utc": "2026-08-31T05:14:41Z",
+  "generated_at_local": "Mon 31 Aug 2026, 3:14pm AEST",
   "today": "2026-08-31",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-08-31T04:54:33Z"
+    "fetched_at": "2026-08-31T05:14:41Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-08-31T04:54:33Z"
+    "fetched_at": "2026-08-31T05:14:41Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-08-31T04:54:33Z"
+    "fetched_at": "2026-08-31T05:14:41Z"
    }
   }
  },
@@ -29,50 +29,56 @@
   },
   {
    "level": "serious",
-   "title": "1 paid order(s) awaiting fulfilment",
-   "body": "#1053"
+   "title": "2 paid order(s) awaiting fulfilment",
+   "body": "#1053, #1059"
   },
   {
    "level": "warning",
    "title": "4 product(s) at 3 units or fewer",
-   "body": "Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral (1), Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass (1), Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze (2), Table Swag Olive Candelabra (2)"
+   "body": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze (1), Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral (1), Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass (1), Table Swag Olive Candelabra (2)"
   }
  ],
  "sales": {
   "today": {
-   "orders": 2,
-   "revenue": 169.9,
-   "aov": 84.95
+   "orders": 3,
+   "revenue": 403.84,
+   "aov": 134.61
   },
   "d7": {
-   "orders": 11,
-   "revenue": 2467.24,
-   "aov": 224.29
+   "orders": 12,
+   "revenue": 2701.18,
+   "aov": 225.1
   },
   "d30": {
-   "orders": 24,
-   "revenue": 6273.99,
-   "aov": 261.42
+   "orders": 25,
+   "revenue": 6507.93,
+   "aov": 260.32
   },
   "prev7_revenue": 695.09,
-  "wow_pct": 255.0,
-  "pending_fulfilment": 1,
+  "wow_pct": 288.6,
+  "pending_fulfilment": 2,
   "pending_orders": [
    {
     "name": "#1053",
     "createdAt": "2026-08-28T03:52:29Z",
     "total": 132.94,
     "customer": "Karen Bonato"
+   },
+   {
+    "name": "#1059",
+    "createdAt": "2026-08-31T05:03:18Z",
+    "total": 233.94,
+    "customer": "Janette A Bunyan"
    }
   ],
   "abandoned_checkouts": 5,
-  "customers_total": 80,
+  "customers_total": 81,
   "days_since_order": 0,
   "last_order": {
-   "name": "#1058",
-   "when": "31 aug, 1:38pm",
-   "total": 84.95,
-   "customer": "Rhiannon Tannous"
+   "name": "#1059",
+   "when": "31 aug, 3:03pm",
+   "total": 233.94,
+   "customer": "Janette A Bunyan"
   },
   "daily": [
    {
@@ -252,11 +258,20 @@
    {
     "date": "2026-08-31",
     "label": "31 Aug",
-    "orders": 2,
-    "revenue": 169.9
+    "orders": 3,
+    "revenue": 403.84
    }
   ],
   "recent": [
+   {
+    "name": "#1059",
+    "when": "31 aug, 3:03pm",
+    "total": 233.94,
+    "customer": "Janette A Bunyan",
+    "fulfillment": "UNFULFILLED",
+    "financial": "PAID",
+    "items": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze"
+   },
    {
     "name": "#1058",
     "when": "31 aug, 1:38pm",
@@ -319,21 +334,12 @@
     "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Additional freight \u2014 Chike Table Lamp to Australia Post Emerald QLD 4720"
-   },
-   {
-    "name": "#1051",
-    "when": "26 aug, 10:38pm",
-    "total": 242.55,
-    "customer": "JO-ANNE WOODRUFF",
-    "fulfillment": "FULFILLED",
-    "financial": "PAID",
-    "items": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze"
    }
   ],
   "top_sellers": [
    {
     "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
-    "units": 8
+    "units": 9
    },
    {
     "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
@@ -359,26 +365,26 @@
  },
  "ads": {
   "today": {
-   "spend": 40.81,
+   "spend": 42.06,
    "value": 84.95,
-   "roas": 2.08,
-   "clicks": 72,
-   "impressions": 1123,
+   "roas": 2.02,
+   "clicks": 77,
+   "impressions": 1167,
    "purchases": 1,
-   "cpc": 0.57,
-   "ctr": 6.41,
-   "cpa": 40.81
+   "cpc": 0.55,
+   "ctr": 6.6,
+   "cpa": 42.06
   },
   "d7": {
-   "spend": 524.83,
+   "spend": 526.08,
    "value": 2382.29,
-   "roas": 4.54,
-   "clicks": 1049,
-   "impressions": 16603,
+   "roas": 4.53,
+   "clicks": 1054,
+   "impressions": 16647,
    "purchases": 10,
    "cpc": 0.5,
-   "ctr": 6.32,
-   "cpa": 52.48
+   "ctr": 6.33,
+   "cpa": 52.61
   },
   "prev7": {
    "spend": 456.47,
@@ -523,12 +529,12 @@
    {
     "date": "2026-08-31",
     "label": "31 Aug",
-    "spend": 40.81,
+    "spend": 42.06,
     "revenue": 84.95,
     "purchases": 1,
-    "clicks": 72,
-    "ctr": 6.41,
-    "cpc": 0.57
+    "clicks": 77,
+    "ctr": 6.6,
+    "cpc": 0.55
    }
   ],
   "campaigns": [
@@ -662,7 +668,7 @@
   "watch": 3,
   "healthy": 74,
   "untracked": 52,
-  "stock_value": 90108.85,
+  "stock_value": 89894.86,
   "oos_list": [
    {
     "title": "Lumara Ashore Framed Canvas \u2014 Coastal 70 \u00d7 90 cm",
@@ -689,6 +695,17 @@
   ],
   "low_list": [
    {
+    "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
+    "sku": "LH-TL-009",
+    "qty": 1,
+    "price": 213.99,
+    "status": "ACTIVE",
+    "tracked": true,
+    "available": true,
+    "sold_30d": 9,
+    "days_cover": 3.3
+   },
+   {
     "title": "Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral",
     "sku": "CN7142-1",
     "qty": 1,
@@ -709,17 +726,6 @@
     "available": true,
     "sold_30d": 0,
     "days_cover": null
-   },
-   {
-    "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
-    "sku": "LH-TL-009",
-    "qty": 2,
-    "price": 213.99,
-    "status": "ACTIVE",
-    "tracked": true,
-    "available": true,
-    "sold_30d": 8,
-    "days_cover": 7.5
    },
    {
     "title": "Table Swag Olive Candelabra",
