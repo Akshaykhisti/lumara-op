@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-09-01T21:13:10Z",
+ "generated_at_utc": "2026-09-01T21:33:22Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-09-01T21:13:10Z"
+   "fetched_at": "2026-09-01T21:33:22Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-09-01T21:13:10Z"
+   "fetched_at": "2026-09-01T21:33:22Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-09-01T21:13:10Z"
+   "fetched_at": "2026-09-01T21:33:22Z"
   }
  },
  "orders": [
@@ -1824,32 +1824,32 @@
   },
   {
    "date": "2026-09-01",
-   "spend": 83.96,
-   "impressions": 2755,
+   "spend": 84.02,
+   "impressions": 2759,
    "clicks": 186,
-   "ctr": 6.75,
+   "ctr": 6.74,
    "cpc": 0.45,
    "purchases": 0,
    "purchase_value": 0.0
   },
   {
    "date": "2026-09-02",
-   "spend": 8.05,
-   "impressions": 246,
-   "clicks": 15,
-   "ctr": 6.1,
-   "cpc": 0.54,
+   "spend": 9.32,
+   "impressions": 293,
+   "clicks": 18,
+   "ctr": 6.14,
+   "cpc": 0.52,
    "purchases": 0,
    "purchase_value": 0.0
   }
  ],
  "ads_today": {
   "date": "2026-09-02",
-  "spend": 8.05,
-  "impressions": 246,
-  "clicks": 15,
-  "ctr": 6.1,
-  "cpc": 0.54,
+  "spend": 9.32,
+  "impressions": 293,
+  "clicks": 18,
+  "ctr": 6.14,
+  "cpc": 0.52,
   "purchases": 0,
   "purchase_value": 0.0
  },
@@ -1858,12 +1858,12 @@
    "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
    "status": "ACTIVE",
    "daily_budget": 50.0,
-   "spend": 1149.5,
-   "impressions": 40349,
+   "spend": 1149.52,
+   "impressions": 40350,
    "clicks": 2053,
    "ctr": 5.09,
    "cpc": 0.56,
-   "roas": 4.0062,
+   "roas": 4.0061,
    "purchases": 16,
    "purchase_value": 4605.11,
    "atc": 56,
@@ -1888,8 +1888,8 @@
    "name": "Decor",
    "status": "ACTIVE",
    "daily_budget": 40.0,
-   "spend": 336.78,
-   "impressions": 16418,
+   "spend": 336.82,
+   "impressions": 16421,
    "clicks": 1049,
    "ctr": 6.39,
    "cpc": 0.32,
