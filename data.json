@@ -3,29 +3,29 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-01T22:13:46Z",
-  "generated_at_local": "Wed 2 Sep 2026, 8:13am AEST",
+  "generated_at_utc": "2026-09-01T22:33:57Z",
+  "generated_at_local": "Wed 2 Sep 2026, 8:33am AEST",
   "today": "2026-09-02",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-01T22:13:46Z"
+    "fetched_at": "2026-09-01T22:33:57Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-01T22:13:46Z"
+    "fetched_at": "2026-09-01T22:33:57Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-01T22:13:46Z"
+    "fetched_at": "2026-09-01T22:33:57Z"
    }
   }
  },
  "alerts": [
   {
    "level": "serious",
-   "title": "2 product(s) sold in the last 30d are out of stock",
-   "body": "Lumara Ashore Framed Canvas \u2014 Coastal 70 \u00d7 90 cm, Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral. Still listed as active \u2014 they take traffic and convert nothing."
+   "title": "3 product(s) sold in the last 30d are out of stock",
+   "body": "Lumara Ashore Framed Canvas \u2014 Coastal 70 \u00d7 90 cm, Lumara Welcome Farm Sign, Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral. Still listed as active \u2014 they take traffic and convert nothing."
   },
   {
    "level": "serious",
@@ -365,26 +365,26 @@
  },
  "ads": {
   "today": {
-   "spend": 13.83,
+   "spend": 16.18,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 28,
-   "impressions": 424,
+   "clicks": 37,
+   "impressions": 481,
    "purchases": 0,
-   "cpc": 0.49,
-   "ctr": 6.6,
+   "cpc": 0.44,
+   "ctr": 7.69,
    "cpa": null
   },
   "d7": {
-   "spend": 517.0,
+   "spend": 519.37,
    "value": 1403.86,
-   "roas": 2.72,
-   "clicks": 1031,
-   "impressions": 16513,
+   "roas": 2.7,
+   "clicks": 1040,
+   "impressions": 16573,
    "purchases": 7,
    "cpc": 0.5,
-   "ctr": 6.24,
-   "cpa": 73.86
+   "ctr": 6.28,
+   "cpa": 74.2
   },
   "prev7": {
    "spend": 517.29,
@@ -394,7 +394,7 @@
   "daily_budget_live": 90.0,
   "active_campaigns": 2,
   "dry_days": 2,
-  "dry_spend": 97.85,
+  "dry_spend": 100.22,
   "series": [
    {
     "date": "2026-08-20",
@@ -519,22 +519,22 @@
    {
     "date": "2026-09-01",
     "label": "1 Sep",
-    "spend": 84.02,
+    "spend": 84.04,
     "revenue": 0.0,
     "purchases": 0,
     "clicks": 186,
-    "ctr": 6.74,
+    "ctr": 6.73,
     "cpc": 0.45
    },
    {
     "date": "2026-09-02",
     "label": "2 Sep",
-    "spend": 13.83,
+    "spend": 16.18,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 28,
-    "ctr": 6.6,
-    "cpc": 0.49
+    "clicks": 37,
+    "ctr": 7.69,
+    "cpc": 0.44
    }
   ],
   "campaigns": [
@@ -542,8 +542,8 @@
     "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
     "status": "ACTIVE",
     "daily_budget": 50.0,
-    "spend": 1149.52,
-    "impressions": 40350,
+    "spend": 1149.53,
+    "impressions": 40352,
     "clicks": 2053,
     "ctr": 5.09,
     "cpc": 0.56,
@@ -572,8 +572,8 @@
     "name": "Decor",
     "status": "ACTIVE",
     "daily_budget": 40.0,
-    "spend": 336.82,
-    "impressions": 16421,
+    "spend": 336.83,
+    "impressions": 16422,
     "clicks": 1049,
     "ctr": 6.39,
     "cpc": 0.32,
@@ -663,12 +663,12 @@
  "stock": {
   "sellable_skus": 134,
   "tracked_skus": 82,
-  "out_of_stock": 2,
+  "out_of_stock": 4,
   "low": 3,
   "watch": 3,
-  "healthy": 74,
+  "healthy": 72,
   "untracked": 52,
-  "stock_value": 89769.92,
+  "stock_value": 87440.87,
   "oos_list": [
    {
     "title": "Lumara Ashore Framed Canvas \u2014 Coastal 70 \u00d7 90 cm",
@@ -679,6 +679,26 @@
     "tracked": true,
     "available": false,
     "sold_30d": 2
+   },
+   {
+    "title": "Lumara Bee Cloche Set of 2 \u2014 Washed Silver",
+    "sku": "TY8107-2",
+    "qty": 0,
+    "price": 169.95,
+    "status": "ACTIVE",
+    "tracked": true,
+    "available": false,
+    "sold_30d": 0
+   },
+   {
+    "title": "Lumara Welcome Farm Sign",
+    "sku": "TY8012-2",
+    "qty": 0,
+    "price": 69.95,
+    "status": "ACTIVE",
+    "tracked": true,
+    "available": false,
+    "sold_30d": 1
    },
    {
     "title": "Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral",
@@ -701,6 +721,16 @@
     "tracked": true,
     "available": false,
     "sold_30d": 2
+   },
+   {
+    "title": "Lumara Welcome Farm Sign",
+    "sku": "TY8012-2",
+    "qty": 0,
+    "price": 69.95,
+    "status": "ACTIVE",
+    "tracked": true,
+    "available": false,
+    "sold_30d": 1
    },
    {
     "title": "Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral",
