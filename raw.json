@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-09-01T13:53:49Z",
+ "generated_at_utc": "2026-09-01T14:14:01Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-09-01T13:53:49Z"
+   "fetched_at": "2026-09-01T14:14:01Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-09-01T13:53:49Z"
+   "fetched_at": "2026-09-01T14:14:01Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-09-01T13:53:49Z"
+   "fetched_at": "2026-09-01T14:14:01Z"
   }
  },
  "orders": [
@@ -351,34 +351,6 @@
     },
     {
      "title": "Lumara Navy Shell Framed Print I \u2014 60 \u00d7 80 cm",
-     "quantity": 1
-    }
-   ]
-  },
-  {
-   "name": "#1036",
-   "createdAt": "2026-08-02T08:46:49Z",
-   "financial": "PAID",
-   "fulfillment": "FULFILLED",
-   "total": 225.0,
-   "customer": "Dianne Partridge",
-   "items": [
-    {
-     "title": "Lumara Giana Natural Table Lamp \u2014 Earthy Organic Style",
-     "quantity": 1
-    }
-   ]
-  },
-  {
-   "name": "#1035",
-   "createdAt": "2026-08-01T21:27:58Z",
-   "financial": "PAID",
-   "fulfillment": "FULFILLED",
-   "total": 102.94,
-   "customer": "Joanne Binns",
-   "items": [
-    {
-     "title": "Table Swag Olive Candelabra",
      "quantity": 1
     }
    ]
@@ -1721,16 +1693,6 @@
  ],
  "ads_daily": [
   {
-   "date": "2026-08-18",
-   "spend": 47.57,
-   "impressions": 2713,
-   "clicks": 105,
-   "ctr": 3.87,
-   "cpc": 0.45,
-   "purchases": 0,
-   "purchase_value": 0.0
-  },
-  {
    "date": "2026-08-19",
    "spend": 46.71,
    "impressions": 2420,
@@ -1862,22 +1824,32 @@
   },
   {
    "date": "2026-09-01",
-   "spend": 81.53,
-   "impressions": 2728,
-   "clicks": 182,
-   "ctr": 6.67,
+   "spend": 81.88,
+   "impressions": 2741,
+   "clicks": 184,
+   "ctr": 6.71,
    "cpc": 0.45,
+   "purchases": 0,
+   "purchase_value": 0.0
+  },
+  {
+   "date": "2026-09-02",
+   "spend": 0.0,
+   "impressions": 0,
+   "clicks": 0,
+   "ctr": 0.0,
+   "cpc": 0.0,
    "purchases": 0,
    "purchase_value": 0.0
   }
  ],
  "ads_today": {
-  "date": "2026-09-01",
-  "spend": 81.53,
-  "impressions": 2728,
-  "clicks": 182,
-  "ctr": 6.67,
-  "cpc": 0.45,
+  "date": "2026-09-02",
+  "spend": 0.0,
+  "impressions": 0,
+  "clicks": 0,
+  "ctr": 0.0,
+  "cpc": 0.0,
   "purchases": 0,
   "purchase_value": 0.0
  },
@@ -1886,46 +1858,46 @@
    "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
    "status": "ACTIVE",
    "daily_budget": 50.0,
-   "spend": 1168.03,
-   "impressions": 39971,
-   "clicks": 2034,
+   "spend": 1149.16,
+   "impressions": 40339,
+   "clicks": 2053,
    "ctr": 5.09,
-   "cpc": 0.57,
-   "roas": 3.9426,
+   "cpc": 0.56,
+   "roas": 4.0074,
    "purchases": 16,
    "purchase_value": 4605.11,
-   "atc": 57,
-   "reach": 24321
+   "atc": 56,
+   "reach": 24769
   },
   {
    "name": "Lumara \u2014 Sales \u2014 Winners Broad CBO (Jul 2026)",
    "status": "PAUSED",
    "daily_budget": 30.0,
-   "spend": 623.91,
-   "impressions": 19168,
-   "clicks": 866,
-   "ctr": 4.52,
-   "cpc": 0.72,
-   "roas": 1.4631,
-   "purchases": 4,
-   "purchase_value": 912.83,
+   "spend": 587.98,
+   "impressions": 18479,
+   "clicks": 826,
+   "ctr": 4.47,
+   "cpc": 0.71,
+   "roas": 1.3774,
+   "purchases": 3,
+   "purchase_value": 809.89,
    "atc": 11,
-   "reach": 12906
+   "reach": 12325
   },
   {
    "name": "Decor",
    "status": "ACTIVE",
    "daily_budget": 40.0,
-   "spend": 298.64,
-   "impressions": 15199,
-   "clicks": 954,
-   "ctr": 6.28,
-   "cpc": 0.31,
-   "roas": 0.2845,
+   "spend": 335.04,
+   "impressions": 16414,
+   "clicks": 1047,
+   "ctr": 6.38,
+   "cpc": 0.32,
+   "roas": 0.2536,
    "purchases": 1,
    "purchase_value": 84.95,
-   "atc": 14,
-   "reach": 10657
+   "atc": 19,
+   "reach": 11316
   },
   {
    "name": "Lumara \u2014 Lamps \u2014 KG Gap (Jul 2026)",
