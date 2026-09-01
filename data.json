@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-01T22:54:08Z",
-  "generated_at_local": "Wed 2 Sep 2026, 8:54am AEST",
+  "generated_at_utc": "2026-09-01T23:14:30Z",
+  "generated_at_local": "Wed 2 Sep 2026, 9:14am AEST",
   "today": "2026-09-02",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-01T22:54:08Z"
+    "fetched_at": "2026-09-01T23:14:30Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-01T22:54:08Z"
+    "fetched_at": "2026-09-01T23:14:30Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-01T22:54:08Z"
+    "fetched_at": "2026-09-01T23:14:30Z"
    }
   }
  },
@@ -365,26 +365,26 @@
  },
  "ads": {
   "today": {
-   "spend": 17.64,
+   "spend": 20.28,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 39,
-   "impressions": 545,
+   "clicks": 43,
+   "impressions": 635,
    "purchases": 0,
-   "cpc": 0.45,
-   "ctr": 7.16,
+   "cpc": 0.47,
+   "ctr": 6.77,
    "cpa": null
   },
   "d7": {
-   "spend": 520.83,
+   "spend": 523.47,
    "value": 1403.86,
-   "roas": 2.7,
-   "clicks": 1042,
-   "impressions": 16637,
+   "roas": 2.68,
+   "clicks": 1046,
+   "impressions": 16729,
    "purchases": 7,
    "cpc": 0.5,
-   "ctr": 6.26,
-   "cpa": 74.4
+   "ctr": 6.25,
+   "cpa": 74.78
   },
   "prev7": {
    "spend": 517.29,
@@ -394,7 +394,7 @@
   "daily_budget_live": 90.0,
   "active_campaigns": 2,
   "dry_days": 2,
-  "dry_spend": 101.68,
+  "dry_spend": 104.32,
   "series": [
    {
     "date": "2026-08-20",
@@ -529,12 +529,12 @@
    {
     "date": "2026-09-02",
     "label": "2 Sep",
-    "spend": 17.64,
+    "spend": 20.28,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 39,
-    "ctr": 7.16,
-    "cpc": 0.45
+    "clicks": 43,
+    "ctr": 6.77,
+    "cpc": 0.47
    }
   ],
   "campaigns": [
@@ -543,7 +543,7 @@
     "status": "ACTIVE",
     "daily_budget": 50.0,
     "spend": 1149.53,
-    "impressions": 40352,
+    "impressions": 40354,
     "clicks": 2053,
     "ctr": 5.09,
     "cpc": 0.56,
