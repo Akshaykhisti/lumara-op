@@ -3,81 +3,82 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-01T21:53:34Z",
-  "generated_at_local": "Wed 2 Sep 2026, 7:53am AEST",
+  "generated_at_utc": "2026-09-01T22:13:46Z",
+  "generated_at_local": "Wed 2 Sep 2026, 8:13am AEST",
   "today": "2026-09-02",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-01T21:53:34Z"
+    "fetched_at": "2026-09-01T22:13:46Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-01T21:53:34Z"
+    "fetched_at": "2026-09-01T22:13:46Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-01T21:53:34Z"
+    "fetched_at": "2026-09-01T22:13:46Z"
    }
   }
  },
  "alerts": [
   {
    "level": "serious",
-   "title": "1 product(s) sold in the last 30d are out of stock",
-   "body": "Lumara Ashore Framed Canvas \u2014 Coastal 70 \u00d7 90 cm. Still listed as active \u2014 they take traffic and convert nothing."
+   "title": "2 product(s) sold in the last 30d are out of stock",
+   "body": "Lumara Ashore Framed Canvas \u2014 Coastal 70 \u00d7 90 cm, Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral. Still listed as active \u2014 they take traffic and convert nothing."
   },
   {
    "level": "serious",
-   "title": "1 paid order(s) awaiting fulfilment",
-   "body": "#1053"
+   "title": "2 paid order(s) awaiting fulfilment",
+   "body": "#1053, #1060"
   },
   {
    "level": "warning",
-   "title": "No orders for 2 days",
-   "body": "Last order was #1059 on 31 Aug. Ads have spent $96 since the last attributed purchase."
-  },
-  {
-   "level": "warning",
-   "title": "4 product(s) at 3 units or fewer",
-   "body": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze (1), Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral (1), Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass (1), Table Swag Olive Candelabra (2)"
+   "title": "3 product(s) at 3 units or fewer",
+   "body": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze (1), Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass (1), Table Swag Olive Candelabra (2)"
   }
  ],
  "sales": {
   "today": {
-   "orders": 0,
-   "revenue": 0.0,
-   "aov": 0.0
+   "orders": 1,
+   "revenue": 125.4,
+   "aov": 125.4
   },
   "d7": {
-   "orders": 8,
-   "revenue": 1488.81,
-   "aov": 186.1
+   "orders": 9,
+   "revenue": 1614.21,
+   "aov": 179.36
   },
   "d30": {
-   "orders": 23,
-   "revenue": 6179.99,
-   "aov": 268.7
+   "orders": 24,
+   "revenue": 6305.39,
+   "aov": 262.72
   },
   "prev7_revenue": 1907.46,
-  "wow_pct": -21.9,
-  "pending_fulfilment": 1,
+  "wow_pct": -15.4,
+  "pending_fulfilment": 2,
   "pending_orders": [
    {
     "name": "#1053",
     "createdAt": "2026-08-28T03:52:29Z",
     "total": 132.94,
     "customer": "Karen Bonato"
+   },
+   {
+    "name": "#1060",
+    "createdAt": "2026-09-01T22:04:16Z",
+    "total": 125.4,
+    "customer": "Debbie Bryant"
    }
   ],
   "abandoned_checkouts": 5,
-  "customers_total": 81,
-  "days_since_order": 2,
+  "customers_total": 82,
+  "days_since_order": 0,
   "last_order": {
-   "name": "#1059",
-   "when": "31 aug, 3:03pm",
-   "total": 233.94,
-   "customer": "Janette A Bunyan"
+   "name": "#1060",
+   "when": "2 sep, 8:04am",
+   "total": 125.4,
+   "customer": "Debbie Bryant"
   },
   "daily": [
    {
@@ -257,11 +258,20 @@
    {
     "date": "2026-09-02",
     "label": "2 Sep",
-    "orders": 0,
-    "revenue": 0.0
+    "orders": 1,
+    "revenue": 125.4
    }
   ],
   "recent": [
+   {
+    "name": "#1060",
+    "when": "2 sep, 8:04am",
+    "total": 125.4,
+    "customer": "Debbie Bryant",
+    "fulfillment": "UNFULFILLED",
+    "financial": "PAID",
+    "items": "Lumara Welcome Farm Sign, Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral"
+   },
    {
     "name": "#1059",
     "when": "31 aug, 3:03pm",
@@ -324,15 +334,6 @@
     "fulfillment": "IN_PROGRESS",
     "financial": "PAID",
     "items": "Lumara Amazon Woven Basket Set of 3 \u2014 Corn Husk & Seagrass"
-   },
-   {
-    "name": "#1052",
-    "when": "28 aug, 7:44am",
-    "total": 79.0,
-    "customer": "Vicki Jones",
-    "fulfillment": "FULFILLED",
-    "financial": "PAID",
-    "items": "Additional freight \u2014 Chike Table Lamp to Australia Post Emerald QLD 4720"
    }
   ],
   "top_sellers": [
@@ -364,26 +365,26 @@
  },
  "ads": {
   "today": {
-   "spend": 11.67,
+   "spend": 13.83,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 21,
-   "impressions": 357,
+   "clicks": 28,
+   "impressions": 424,
    "purchases": 0,
-   "cpc": 0.56,
-   "ctr": 5.88,
+   "cpc": 0.49,
+   "ctr": 6.6,
    "cpa": null
   },
   "d7": {
-   "spend": 514.84,
+   "spend": 517.0,
    "value": 1403.86,
-   "roas": 2.73,
-   "clicks": 1024,
-   "impressions": 16446,
+   "roas": 2.72,
+   "clicks": 1031,
+   "impressions": 16513,
    "purchases": 7,
    "cpc": 0.5,
-   "ctr": 6.23,
-   "cpa": 73.55
+   "ctr": 6.24,
+   "cpa": 73.86
   },
   "prev7": {
    "spend": 517.29,
@@ -393,7 +394,7 @@
   "daily_budget_live": 90.0,
   "active_campaigns": 2,
   "dry_days": 2,
-  "dry_spend": 95.69,
+  "dry_spend": 97.85,
   "series": [
    {
     "date": "2026-08-20",
@@ -528,12 +529,12 @@
    {
     "date": "2026-09-02",
     "label": "2 Sep",
-    "spend": 11.67,
+    "spend": 13.83,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 21,
-    "ctr": 5.88,
-    "cpc": 0.56
+    "clicks": 28,
+    "ctr": 6.6,
+    "cpc": 0.49
    }
   ],
   "campaigns": [
@@ -662,12 +663,12 @@
  "stock": {
   "sellable_skus": 134,
   "tracked_skus": 82,
-  "out_of_stock": 1,
-  "low": 4,
+  "out_of_stock": 2,
+  "low": 3,
   "watch": 3,
   "healthy": 74,
   "untracked": 52,
-  "stock_value": 89894.86,
+  "stock_value": 89769.92,
   "oos_list": [
    {
     "title": "Lumara Ashore Framed Canvas \u2014 Coastal 70 \u00d7 90 cm",
@@ -678,6 +679,16 @@
     "tracked": true,
     "available": false,
     "sold_30d": 2
+   },
+   {
+    "title": "Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral",
+    "sku": "CN7142-1",
+    "qty": 0,
+    "price": 54.99,
+    "status": "ACTIVE",
+    "tracked": true,
+    "available": false,
+    "sold_30d": 1
    }
   ],
   "oos_sellers": [
@@ -690,6 +701,16 @@
     "tracked": true,
     "available": false,
     "sold_30d": 2
+   },
+   {
+    "title": "Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral",
+    "sku": "CN7142-1",
+    "qty": 0,
+    "price": 54.99,
+    "status": "ACTIVE",
+    "tracked": true,
+    "available": false,
+    "sold_30d": 1
    }
   ],
   "low_list": [
@@ -703,17 +724,6 @@
     "available": true,
     "sold_30d": 9,
     "days_cover": 3.3
-   },
-   {
-    "title": "Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral",
-    "sku": "CN7142-1",
-    "qty": 1,
-    "price": 54.99,
-    "status": "ACTIVE",
-    "tracked": true,
-    "available": true,
-    "sold_30d": 0,
-    "days_cover": null
    },
    {
     "title": "Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass",

@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-09-01T21:53:34Z",
+ "generated_at_utc": "2026-09-01T22:13:46Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,18 +9,36 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-09-01T21:53:34Z"
+   "fetched_at": "2026-09-01T22:13:46Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-09-01T21:53:34Z"
+   "fetched_at": "2026-09-01T22:13:46Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-09-01T21:53:34Z"
+   "fetched_at": "2026-09-01T22:13:46Z"
   }
  },
  "orders": [
+  {
+   "name": "#1060",
+   "createdAt": "2026-09-01T22:04:16Z",
+   "financial": "PAID",
+   "fulfillment": "UNFULFILLED",
+   "total": 125.4,
+   "customer": "Debbie Bryant",
+   "items": [
+    {
+     "title": "Lumara Welcome Farm Sign",
+     "quantity": 1
+    },
+    {
+     "title": "Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral",
+     "quantity": 1
+    }
+   ]
+  },
   {
    "name": "#1059",
    "createdAt": "2026-08-31T05:03:18Z",
@@ -362,9 +380,15 @@
    "createdAt": "2026-08-28T03:52:29Z",
    "total": 132.94,
    "customer": "Karen Bonato"
+  },
+  {
+   "name": "#1060",
+   "createdAt": "2026-09-01T22:04:16Z",
+   "total": 125.4,
+   "customer": "Debbie Bryant"
   }
  ],
- "customers_total": 81,
+ "customers_total": 82,
  "abandoned_checkouts_recent": 5,
  "inventory": [
   {
@@ -586,11 +610,11 @@
   {
    "title": "Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral",
    "sku": "CN7142-1",
-   "qty": 1,
+   "qty": 0,
    "price": 54.99,
    "status": "ACTIVE",
    "tracked": true,
-   "available": true
+   "available": false
   },
   {
    "title": "Lumara Curvaceous Vase \u2014 Matt Black Sculptural Ceramic",
@@ -1594,7 +1618,7 @@
   {
    "title": "Lumara Welcome Farm Sign",
    "sku": "TY8012-2",
-   "qty": 10,
+   "qty": 9,
    "price": 69.95,
    "status": "ACTIVE",
    "tracked": true,
@@ -1834,22 +1858,22 @@
   },
   {
    "date": "2026-09-02",
-   "spend": 11.67,
-   "impressions": 357,
-   "clicks": 21,
-   "ctr": 5.88,
-   "cpc": 0.56,
+   "spend": 13.83,
+   "impressions": 424,
+   "clicks": 28,
+   "ctr": 6.6,
+   "cpc": 0.49,
    "purchases": 0,
    "purchase_value": 0.0
   }
  ],
  "ads_today": {
   "date": "2026-09-02",
-  "spend": 11.67,
-  "impressions": 357,
-  "clicks": 21,
-  "ctr": 5.88,
-  "cpc": 0.56,
+  "spend": 13.83,
+  "impressions": 424,
+  "clicks": 28,
+  "ctr": 6.6,
+  "cpc": 0.49,
   "purchases": 0,
   "purchase_value": 0.0
  },
