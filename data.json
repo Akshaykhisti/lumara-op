@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-02T19:41:24Z",
-  "generated_at_local": "Thu 3 Sep 2026, 5:41am AEST",
+  "generated_at_utc": "2026-09-02T20:01:37Z",
+  "generated_at_local": "Thu 3 Sep 2026, 6:01am AEST",
   "today": "2026-09-03",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-02T19:41:24Z"
+    "fetched_at": "2026-09-02T20:01:37Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-02T19:41:24Z"
+    "fetched_at": "2026-09-02T20:01:37Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-02T19:41:24Z"
+    "fetched_at": "2026-09-02T20:01:37Z"
    }
   }
  },
@@ -359,26 +359,26 @@
  },
  "ads": {
   "today": {
-   "spend": 2.37,
+   "spend": 2.48,
    "value": 0.0,
    "roas": 0.0,
    "clicks": 4,
-   "impressions": 88,
+   "impressions": 99,
    "purchases": 0,
-   "cpc": 0.59,
-   "ctr": 4.55,
+   "cpc": 0.62,
+   "ctr": 4.04,
    "cpa": null
   },
   "d7": {
-   "spend": 528.03,
+   "spend": 528.24,
    "value": 1714.86,
    "roas": 3.25,
    "clicks": 1064,
-   "impressions": 16953,
+   "impressions": 16965,
    "purchases": 9,
    "cpc": 0.5,
-   "ctr": 6.28,
-   "cpa": 58.67
+   "ctr": 6.27,
+   "cpa": 58.69
   },
   "prev7": {
    "spend": 528.14,
@@ -388,7 +388,7 @@
   "daily_budget_live": 90.0,
   "active_campaigns": 2,
   "dry_days": 1,
-  "dry_spend": 2.37,
+  "dry_spend": 2.48,
   "series": [
    {
     "date": "2026-08-21",
@@ -513,7 +513,7 @@
    {
     "date": "2026-09-02",
     "label": "2 Sep",
-    "spend": 103.62,
+    "spend": 103.72,
     "revenue": 311.0,
     "purchases": 2,
     "clicks": 171,
@@ -523,12 +523,12 @@
    {
     "date": "2026-09-03",
     "label": "3 Sep",
-    "spend": 2.37,
+    "spend": 2.48,
     "revenue": 0.0,
     "purchases": 0,
     "clicks": 4,
-    "ctr": 4.55,
-    "cpc": 0.59
+    "ctr": 4.04,
+    "cpc": 0.62
    }
   ],
   "campaigns": [
@@ -566,12 +566,12 @@
     "name": "Decor",
     "status": "ACTIVE",
     "daily_budget": 40.0,
-    "spend": 372.92,
-    "impressions": 17535,
+    "spend": 373.02,
+    "impressions": 17536,
     "clicks": 1113,
     "ctr": 6.35,
     "cpc": 0.34,
-    "roas": 0.7978,
+    "roas": 0.7975,
     "purchases": 2,
     "purchase_value": 297.5,
     "atc": 23,
