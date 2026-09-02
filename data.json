@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-02T10:35:44Z",
-  "generated_at_local": "Wed 2 Sep 2026, 8:35pm AEST",
+  "generated_at_utc": "2026-09-02T10:55:55Z",
+  "generated_at_local": "Wed 2 Sep 2026, 8:55pm AEST",
   "today": "2026-09-02",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-02T10:35:44Z"
+    "fetched_at": "2026-09-02T10:55:55Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-02T10:35:44Z"
+    "fetched_at": "2026-09-02T10:55:55Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-02T10:35:44Z"
+    "fetched_at": "2026-09-02T10:55:55Z"
    }
   }
  },
@@ -29,8 +29,8 @@
   },
   {
    "level": "serious",
-   "title": "2 paid order(s) awaiting fulfilment",
-   "body": "#1053, #1060"
+   "title": "1 paid order(s) awaiting fulfilment",
+   "body": "#1053"
   },
   {
    "level": "warning",
@@ -56,19 +56,13 @@
   },
   "prev7_revenue": 1907.46,
   "wow_pct": 0.9,
-  "pending_fulfilment": 2,
+  "pending_fulfilment": 1,
   "pending_orders": [
    {
     "name": "#1053",
     "createdAt": "2026-08-28T03:52:29Z",
     "total": 132.94,
     "customer": "Karen Bonato"
-   },
-   {
-    "name": "#1060",
-    "createdAt": "2026-09-01T22:04:16Z",
-    "total": 125.4,
-    "customer": "Debbie Bryant"
    }
   ],
   "abandoned_checkouts": 6,
@@ -286,7 +280,7 @@
     "when": "2 sep, 8:04am",
     "total": 125.4,
     "customer": "Debbie Bryant",
-    "fulfillment": "UNFULFILLED",
+    "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Lumara Welcome Farm Sign, Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral"
    },
@@ -365,26 +359,26 @@
  },
  "ads": {
   "today": {
-   "spend": 88.37,
+   "spend": 89.46,
    "value": 311.0,
-   "roas": 3.52,
+   "roas": 3.48,
    "clicks": 160,
-   "impressions": 2619,
+   "impressions": 2660,
    "purchases": 2,
-   "cpc": 0.55,
-   "ctr": 6.11,
-   "cpa": 44.19
+   "cpc": 0.56,
+   "ctr": 6.02,
+   "cpa": 44.73
   },
   "d7": {
-   "spend": 591.7,
+   "spend": 592.79,
    "value": 1714.86,
-   "roas": 2.9,
+   "roas": 2.89,
    "clicks": 1164,
-   "impressions": 18719,
+   "impressions": 18760,
    "purchases": 9,
    "cpc": 0.51,
-   "ctr": 6.22,
-   "cpa": 65.74
+   "ctr": 6.2,
+   "cpa": 65.87
   },
   "prev7": {
    "spend": 517.29,
@@ -529,12 +523,12 @@
    {
     "date": "2026-09-02",
     "label": "2 Sep",
-    "spend": 88.37,
+    "spend": 89.46,
     "revenue": 311.0,
     "purchases": 2,
     "clicks": 160,
-    "ctr": 6.11,
-    "cpc": 0.55
+    "ctr": 6.02,
+    "cpc": 0.56
    }
   ],
   "campaigns": [
