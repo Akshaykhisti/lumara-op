@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-09-02T06:43:55Z",
+ "generated_at_utc": "2026-09-02T07:04:03Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,23 +9,37 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-09-02T06:43:55Z"
+   "fetched_at": "2026-09-02T07:04:03Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-09-02T06:43:55Z"
+   "fetched_at": "2026-09-02T07:04:03Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-09-02T06:43:55Z"
+   "fetched_at": "2026-09-02T07:04:03Z"
   }
  },
  "orders": [
   {
+   "name": "#1062",
+   "createdAt": "2026-09-02T06:51:01Z",
+   "financial": "PAID",
+   "fulfillment": "UNFULFILLED",
+   "total": 212.55,
+   "customer": "Nicala Harris",
+   "items": [
+    {
+     "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
+     "quantity": 1
+    }
+   ]
+  },
+  {
    "name": "#1061",
    "createdAt": "2026-09-02T03:19:50Z",
    "financial": "PAID",
-   "fulfillment": "UNFULFILLED",
+   "fulfillment": "FULFILLED",
    "total": 98.45,
    "customer": "Maree Lackey",
    "items": [
@@ -402,13 +416,13 @@
    "customer": "Debbie Bryant"
   },
   {
-   "name": "#1061",
-   "createdAt": "2026-09-02T03:19:50Z",
-   "total": 98.45,
-   "customer": "Maree Lackey"
+   "name": "#1062",
+   "createdAt": "2026-09-02T06:51:01Z",
+   "total": 212.55,
+   "customer": "Nicala Harris"
   }
  ],
- "customers_total": 84,
+ "customers_total": 85,
  "abandoned_checkouts_recent": 6,
  "inventory": [
   {
@@ -576,11 +590,11 @@
   {
    "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
    "sku": "LH-TL-009",
-   "qty": 1,
+   "qty": 0,
    "price": 213.99,
    "status": "ACTIVE",
    "tracked": true,
-   "available": true
+   "available": false
   },
   {
    "title": "Lumara Artichoke Table Lamp \u2014 Sculptural Nature-Inspired",
@@ -1878,22 +1892,22 @@
   },
   {
    "date": "2026-09-02",
-   "spend": 64.41,
-   "impressions": 1994,
-   "clicks": 123,
-   "ctr": 6.17,
-   "cpc": 0.52,
+   "spend": 66.46,
+   "impressions": 2062,
+   "clicks": 126,
+   "ctr": 6.11,
+   "cpc": 0.53,
    "purchases": 1,
    "purchase_value": 98.45
   }
  ],
  "ads_today": {
   "date": "2026-09-02",
-  "spend": 64.41,
-  "impressions": 1994,
-  "clicks": 123,
-  "ctr": 6.17,
-  "cpc": 0.52,
+  "spend": 66.46,
+  "impressions": 2062,
+  "clicks": 126,
+  "ctr": 6.11,
+  "cpc": 0.53,
   "purchases": 1,
   "purchase_value": 98.45
  },
