@@ -3,29 +3,29 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-02T11:36:13Z",
-  "generated_at_local": "Wed 2 Sep 2026, 9:36pm AEST",
+  "generated_at_utc": "2026-09-02T11:56:21Z",
+  "generated_at_local": "Wed 2 Sep 2026, 9:56pm AEST",
   "today": "2026-09-02",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-02T11:36:13Z"
+    "fetched_at": "2026-09-02T11:56:21Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-02T11:36:13Z"
+    "fetched_at": "2026-09-02T11:56:21Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-02T11:36:13Z"
+    "fetched_at": "2026-09-02T11:56:21Z"
    }
   }
  },
  "alerts": [
   {
    "level": "serious",
-   "title": "4 product(s) sold in the last 30d are out of stock",
-   "body": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze, Lumara Ashore Framed Canvas \u2014 Coastal 70 \u00d7 90 cm, Lumara Welcome Farm Sign\u2026. Still listed as active \u2014 they take traffic and convert nothing."
+   "title": "3 product(s) sold in the last 30d are out of stock",
+   "body": "Lumara Ashore Framed Canvas \u2014 Coastal 70 \u00d7 90 cm, Lumara Welcome Farm Sign, Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral. Still listed as active \u2014 they take traffic and convert nothing."
   },
   {
    "level": "serious",
@@ -359,26 +359,26 @@
  },
  "ads": {
   "today": {
-   "spend": 91.97,
+   "spend": 92.94,
    "value": 311.0,
-   "roas": 3.38,
-   "clicks": 163,
-   "impressions": 2766,
+   "roas": 3.35,
+   "clicks": 166,
+   "impressions": 2824,
    "purchases": 2,
    "cpc": 0.56,
-   "ctr": 5.89,
-   "cpa": 45.98
+   "ctr": 5.88,
+   "cpa": 46.47
   },
   "d7": {
-   "spend": 595.3,
+   "spend": 596.27,
    "value": 1714.86,
    "roas": 2.88,
-   "clicks": 1167,
-   "impressions": 18866,
+   "clicks": 1170,
+   "impressions": 18924,
    "purchases": 9,
    "cpc": 0.51,
-   "ctr": 6.19,
-   "cpa": 66.14
+   "ctr": 6.18,
+   "cpa": 66.25
   },
   "prev7": {
    "spend": 517.29,
@@ -523,11 +523,11 @@
    {
     "date": "2026-09-02",
     "label": "2 Sep",
-    "spend": 91.97,
+    "spend": 92.94,
     "revenue": 311.0,
     "purchases": 2,
-    "clicks": 163,
-    "ctr": 5.89,
+    "clicks": 166,
+    "ctr": 5.88,
     "cpc": 0.56
    }
   ],
@@ -657,23 +657,13 @@
  "stock": {
   "sellable_skus": 134,
   "tracked_skus": 82,
-  "out_of_stock": 5,
+  "out_of_stock": 4,
   "low": 3,
   "watch": 2,
-  "healthy": 72,
+  "healthy": 73,
   "untracked": 52,
-  "stock_value": 87131.89,
+  "stock_value": 89271.79,
   "oos_list": [
-   {
-    "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
-    "sku": "LH-TL-009",
-    "qty": 0,
-    "price": 213.99,
-    "status": "ACTIVE",
-    "tracked": true,
-    "available": false,
-    "sold_30d": 10
-   },
    {
     "title": "Lumara Ashore Framed Canvas \u2014 Coastal 70 \u00d7 90 cm",
     "sku": "AW1733-2",
@@ -716,16 +706,6 @@
    }
   ],
   "oos_sellers": [
-   {
-    "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
-    "sku": "LH-TL-009",
-    "qty": 0,
-    "price": 213.99,
-    "status": "ACTIVE",
-    "tracked": true,
-    "available": false,
-    "sold_30d": 10
-   },
    {
     "title": "Lumara Ashore Framed Canvas \u2014 Coastal 70 \u00d7 90 cm",
     "sku": "AW1733-2",
