@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-09-02T03:11:33Z",
+ "generated_at_utc": "2026-09-02T03:31:41Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,18 +9,32 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-09-02T03:11:33Z"
+   "fetched_at": "2026-09-02T03:31:41Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-09-02T03:11:33Z"
+   "fetched_at": "2026-09-02T03:31:41Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-09-02T03:11:33Z"
+   "fetched_at": "2026-09-02T03:31:41Z"
   }
  },
  "orders": [
+  {
+   "name": "#1061",
+   "createdAt": "2026-09-02T03:19:50Z",
+   "financial": "PAID",
+   "fulfillment": "UNFULFILLED",
+   "total": 98.45,
+   "customer": "Maree Lackey",
+   "items": [
+    {
+     "title": "Lumara Alegra Statement Vase \u2014 Sculptural Metal",
+     "quantity": 1
+    }
+   ]
+  },
   {
    "name": "#1060",
    "createdAt": "2026-09-01T22:04:16Z",
@@ -386,9 +400,15 @@
    "createdAt": "2026-09-01T22:04:16Z",
    "total": 125.4,
    "customer": "Debbie Bryant"
+  },
+  {
+   "name": "#1061",
+   "createdAt": "2026-09-02T03:19:50Z",
+   "total": 98.45,
+   "customer": "Maree Lackey"
   }
  ],
- "customers_total": 83,
+ "customers_total": 84,
  "abandoned_checkouts_recent": 6,
  "inventory": [
   {
@@ -772,7 +792,7 @@
   {
    "title": "Lumara Alegra Statement Vase \u2014 Sculptural Metal",
    "sku": "QA5813-2",
-   "qty": 4,
+   "qty": 3,
    "price": 94.99,
    "status": "ACTIVE",
    "tracked": true,
@@ -1858,22 +1878,22 @@
   },
   {
    "date": "2026-09-02",
-   "spend": 47.13,
-   "impressions": 1460,
-   "clicks": 87,
-   "ctr": 5.96,
-   "cpc": 0.54,
+   "spend": 49.53,
+   "impressions": 1530,
+   "clicks": 89,
+   "ctr": 5.82,
+   "cpc": 0.56,
    "purchases": 0,
    "purchase_value": 0.0
   }
  ],
  "ads_today": {
   "date": "2026-09-02",
-  "spend": 47.13,
-  "impressions": 1460,
-  "clicks": 87,
-  "ctr": 5.96,
-  "cpc": 0.54,
+  "spend": 49.53,
+  "impressions": 1530,
+  "clicks": 89,
+  "ctr": 5.82,
+  "cpc": 0.56,
   "purchases": 0,
   "purchase_value": 0.0
  },
@@ -1921,7 +1941,7 @@
    "purchases": 1,
    "purchase_value": 84.95,
    "atc": 19,
-   "reach": 11316
+   "reach": 11325
   },
   {
    "name": "Lumara \u2014 Lamps \u2014 KG Gap (Jul 2026)",

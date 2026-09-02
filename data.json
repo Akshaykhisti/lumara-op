@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-02T03:11:33Z",
-  "generated_at_local": "Wed 2 Sep 2026, 1:11pm AEST",
+  "generated_at_utc": "2026-09-02T03:31:41Z",
+  "generated_at_local": "Wed 2 Sep 2026, 1:31pm AEST",
   "today": "2026-09-02",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-02T03:11:33Z"
+    "fetched_at": "2026-09-02T03:31:41Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-02T03:11:33Z"
+    "fetched_at": "2026-09-02T03:31:41Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-02T03:11:33Z"
+    "fetched_at": "2026-09-02T03:31:41Z"
    }
   }
  },
@@ -29,34 +29,34 @@
   },
   {
    "level": "serious",
-   "title": "2 paid order(s) awaiting fulfilment",
-   "body": "#1053, #1060"
+   "title": "3 paid order(s) awaiting fulfilment",
+   "body": "#1053, #1060, #1061"
   },
   {
    "level": "warning",
-   "title": "3 product(s) at 3 units or fewer",
-   "body": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze (1), Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass (1), Table Swag Olive Candelabra (2)"
+   "title": "4 product(s) at 3 units or fewer",
+   "body": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze (1), Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass (1), Table Swag Olive Candelabra (2), Lumara Alegra Statement Vase \u2014 Sculptural Metal (3)"
   }
  ],
  "sales": {
   "today": {
-   "orders": 1,
-   "revenue": 125.4,
-   "aov": 125.4
+   "orders": 2,
+   "revenue": 223.85,
+   "aov": 111.93
   },
   "d7": {
-   "orders": 9,
-   "revenue": 1614.21,
-   "aov": 179.36
+   "orders": 10,
+   "revenue": 1712.66,
+   "aov": 171.27
   },
   "d30": {
-   "orders": 24,
-   "revenue": 6305.39,
-   "aov": 262.72
+   "orders": 25,
+   "revenue": 6403.84,
+   "aov": 256.15
   },
   "prev7_revenue": 1907.46,
-  "wow_pct": -15.4,
-  "pending_fulfilment": 2,
+  "wow_pct": -10.2,
+  "pending_fulfilment": 3,
   "pending_orders": [
    {
     "name": "#1053",
@@ -69,16 +69,22 @@
     "createdAt": "2026-09-01T22:04:16Z",
     "total": 125.4,
     "customer": "Debbie Bryant"
+   },
+   {
+    "name": "#1061",
+    "createdAt": "2026-09-02T03:19:50Z",
+    "total": 98.45,
+    "customer": "Maree Lackey"
    }
   ],
   "abandoned_checkouts": 6,
-  "customers_total": 83,
+  "customers_total": 84,
   "days_since_order": 0,
   "last_order": {
-   "name": "#1060",
-   "when": "2 sep, 8:04am",
-   "total": 125.4,
-   "customer": "Debbie Bryant"
+   "name": "#1061",
+   "when": "2 sep, 1:19pm",
+   "total": 98.45,
+   "customer": "Maree Lackey"
   },
   "daily": [
    {
@@ -258,11 +264,20 @@
    {
     "date": "2026-09-02",
     "label": "2 Sep",
-    "orders": 1,
-    "revenue": 125.4
+    "orders": 2,
+    "revenue": 223.85
    }
   ],
   "recent": [
+   {
+    "name": "#1061",
+    "when": "2 sep, 1:19pm",
+    "total": 98.45,
+    "customer": "Maree Lackey",
+    "fulfillment": "UNFULFILLED",
+    "financial": "PAID",
+    "items": "Lumara Alegra Statement Vase \u2014 Sculptural Metal"
+   },
    {
     "name": "#1060",
     "when": "2 sep, 8:04am",
@@ -325,15 +340,6 @@
     "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze"
-   },
-   {
-    "name": "#1053",
-    "when": "28 aug, 1:52pm",
-    "total": 132.94,
-    "customer": "Karen Bonato",
-    "fulfillment": "IN_PROGRESS",
-    "financial": "PAID",
-    "items": "Lumara Amazon Woven Basket Set of 3 \u2014 Corn Husk & Seagrass"
    }
   ],
   "top_sellers": [
@@ -365,26 +371,26 @@
  },
  "ads": {
   "today": {
-   "spend": 47.13,
+   "spend": 49.53,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 87,
-   "impressions": 1460,
+   "clicks": 89,
+   "impressions": 1530,
    "purchases": 0,
-   "cpc": 0.54,
-   "ctr": 5.96,
+   "cpc": 0.56,
+   "ctr": 5.82,
    "cpa": null
   },
   "d7": {
-   "spend": 550.45,
+   "spend": 552.85,
    "value": 1403.86,
-   "roas": 2.55,
-   "clicks": 1090,
-   "impressions": 17559,
+   "roas": 2.54,
+   "clicks": 1092,
+   "impressions": 17629,
    "purchases": 7,
    "cpc": 0.51,
-   "ctr": 6.21,
-   "cpa": 78.64
+   "ctr": 6.19,
+   "cpa": 78.98
   },
   "prev7": {
    "spend": 517.29,
@@ -394,7 +400,7 @@
   "daily_budget_live": 90.0,
   "active_campaigns": 2,
   "dry_days": 2,
-  "dry_spend": 131.3,
+  "dry_spend": 133.7,
   "series": [
    {
     "date": "2026-08-20",
@@ -529,12 +535,12 @@
    {
     "date": "2026-09-02",
     "label": "2 Sep",
-    "spend": 47.13,
+    "spend": 49.53,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 87,
-    "ctr": 5.96,
-    "cpc": 0.54
+    "clicks": 89,
+    "ctr": 5.82,
+    "cpc": 0.56
    }
   ],
   "campaigns": [
@@ -581,7 +587,7 @@
     "purchases": 1,
     "purchase_value": 84.95,
     "atc": 19,
-    "reach": 11316
+    "reach": 11325
    },
    {
     "name": "Lumara \u2014 Lamps \u2014 KG Gap (Jul 2026)",
@@ -664,11 +670,11 @@
   "sellable_skus": 134,
   "tracked_skus": 82,
   "out_of_stock": 4,
-  "low": 3,
-  "watch": 3,
+  "low": 4,
+  "watch": 2,
   "healthy": 72,
   "untracked": 52,
-  "stock_value": 87440.87,
+  "stock_value": 87345.88,
   "oos_list": [
    {
     "title": "Lumara Ashore Framed Canvas \u2014 Coastal 70 \u00d7 90 cm",
@@ -780,13 +786,13 @@
    {
     "title": "Lumara Alegra Statement Vase \u2014 Sculptural Metal",
     "sku": "QA5813-2",
-    "qty": 4,
+    "qty": 3,
     "price": 94.99,
     "status": "ACTIVE",
     "tracked": true,
     "available": true,
-    "sold_30d": 0,
-    "days_cover": null
+    "sold_30d": 1,
+    "days_cover": 90.0
    },
    {
     "title": "Lumara Olive Mediterranean Candelabra \u2014 Sculptural Metal Centrepiece",
