@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-03T22:11:46Z",
-  "generated_at_local": "Fri 4 Sep 2026, 8:11am AEST",
+  "generated_at_utc": "2026-09-03T22:31:58Z",
+  "generated_at_local": "Fri 4 Sep 2026, 8:31am AEST",
   "today": "2026-09-04",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-03T22:11:46Z"
+    "fetched_at": "2026-09-03T22:31:58Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-03T22:11:46Z"
+    "fetched_at": "2026-09-03T22:31:58Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-03T22:11:46Z"
+    "fetched_at": "2026-09-03T22:31:58Z"
    }
   }
  },
@@ -29,55 +29,56 @@
   },
   {
    "level": "serious",
-   "title": "1 paid order(s) awaiting fulfilment",
-   "body": "#1053"
+   "title": "2 paid order(s) awaiting fulfilment",
+   "body": "#1053, #1063"
   },
   {
    "level": "warning",
-   "title": "No orders for 2 days",
-   "body": "Last order was #1062 on 2 Sep. Ads have spent $98 since the last attributed purchase."
-  },
-  {
-   "level": "warning",
-   "title": "3 product(s) at 3 units or fewer",
-   "body": "Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass (1), Table Swag Olive Candelabra (2), Lumara Alegra Statement Vase \u2014 Sculptural Metal (3)"
+   "title": "4 product(s) at 3 units or fewer",
+   "body": "Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass (1), Table Swag Olive Candelabra (2), Lumara Alegra Statement Vase \u2014 Sculptural Metal (3), Lumara Olive Mediterranean Candelabra \u2014 Sculptural Metal Centrepiece (3)"
   }
  ],
  "sales": {
   "today": {
-   "orders": 0,
-   "revenue": 0.0,
-   "aov": 0.0
+   "orders": 1,
+   "revenue": 112.95,
+   "aov": 112.95
   },
   "d7": {
-   "orders": 8,
-   "revenue": 1500.72,
-   "aov": 187.59
+   "orders": 9,
+   "revenue": 1613.67,
+   "aov": 179.3
   },
   "d30": {
-   "orders": 26,
-   "revenue": 6616.39,
-   "aov": 254.48
+   "orders": 27,
+   "revenue": 6729.34,
+   "aov": 249.23
   },
   "prev7_revenue": 1926.81,
-  "wow_pct": -22.1,
-  "pending_fulfilment": 1,
+  "wow_pct": -16.3,
+  "pending_fulfilment": 2,
   "pending_orders": [
    {
     "name": "#1053",
     "createdAt": "2026-08-28T03:52:29Z",
     "total": 132.94,
     "customer": "Karen Bonato"
+   },
+   {
+    "name": "#1063",
+    "createdAt": "2026-09-03T22:12:04Z",
+    "total": 112.95,
+    "customer": "Jane Hope"
    }
   ],
   "abandoned_checkouts": 3,
-  "customers_total": 85,
-  "days_since_order": 2,
+  "customers_total": 86,
+  "days_since_order": 0,
   "last_order": {
-   "name": "#1062",
-   "when": "2 sep, 4:51pm",
-   "total": 212.55,
-   "customer": "Nicala Harris"
+   "name": "#1063",
+   "when": "4 sep, 8:12am",
+   "total": 112.95,
+   "customer": "Jane Hope"
   },
   "daily": [
    {
@@ -257,11 +258,20 @@
    {
     "date": "2026-09-04",
     "label": "4 Sep",
-    "orders": 0,
-    "revenue": 0.0
+    "orders": 1,
+    "revenue": 112.95
    }
   ],
   "recent": [
+   {
+    "name": "#1063",
+    "when": "4 sep, 8:12am",
+    "total": 112.95,
+    "customer": "Jane Hope",
+    "fulfillment": "UNFULFILLED",
+    "financial": "PAID",
+    "items": "Lumara Olive Mediterranean Candelabra \u2014 Sculptural Metal Centrepiece"
+   },
    {
     "name": "#1062",
     "when": "2 sep, 4:51pm",
@@ -324,15 +334,6 @@
     "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze \u00d72"
-   },
-   {
-    "name": "#1055",
-    "when": "30 aug, 10:17am",
-    "total": 212.55,
-    "customer": "LEANNE MCLEAN",
-    "fulfillment": "FULFILLED",
-    "financial": "PAID",
-    "items": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze"
    }
   ],
   "top_sellers": [
@@ -364,26 +365,26 @@
  },
  "ads": {
   "today": {
-   "spend": 10.21,
+   "spend": 12.95,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 18,
-   "impressions": 325,
+   "clicks": 19,
+   "impressions": 394,
    "purchases": 0,
-   "cpc": 0.57,
-   "ctr": 5.54,
+   "cpc": 0.68,
+   "ctr": 4.82,
    "cpa": null
   },
   "d7": {
-   "spend": 543.27,
+   "spend": 546.01,
    "value": 1290.37,
-   "roas": 2.38,
-   "clicks": 1097,
-   "impressions": 17839,
+   "roas": 2.36,
+   "clicks": 1098,
+   "impressions": 17908,
    "purchases": 6,
    "cpc": 0.5,
-   "ctr": 6.15,
-   "cpa": 90.55
+   "ctr": 6.13,
+   "cpa": 91.0
   },
   "prev7": {
    "spend": 538.41,
@@ -393,7 +394,7 @@
   "daily_budget_live": 90.0,
   "active_campaigns": 2,
   "dry_days": 2,
-  "dry_spend": 98.18,
+  "dry_spend": 100.92,
   "series": [
    {
     "date": "2026-08-22",
@@ -528,12 +529,12 @@
    {
     "date": "2026-09-04",
     "label": "4 Sep",
-    "spend": 10.21,
+    "spend": 12.95,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 18,
-    "ctr": 5.54,
-    "cpc": 0.57
+    "clicks": 19,
+    "ctr": 4.82,
+    "cpc": 0.68
    }
   ],
   "campaigns": [
@@ -663,11 +664,11 @@
   "sellable_skus": 134,
   "tracked_skus": 82,
   "out_of_stock": 4,
-  "low": 3,
-  "watch": 2,
+  "low": 4,
+  "watch": 1,
   "healthy": 73,
   "untracked": 52,
-  "stock_value": 89271.79,
+  "stock_value": 89171.8,
   "oos_list": [
    {
     "title": "Lumara Ashore Framed Canvas \u2014 Coastal 70 \u00d7 90 cm",
@@ -779,13 +780,13 @@
    {
     "title": "Lumara Olive Mediterranean Candelabra \u2014 Sculptural Metal Centrepiece",
     "sku": "QA5903-2",
-    "qty": 4,
+    "qty": 3,
     "price": 99.99,
     "status": "ACTIVE",
     "tracked": true,
     "available": true,
-    "sold_30d": 0,
-    "days_cover": null
+    "sold_30d": 1,
+    "days_cover": 90.0
    },
    {
     "title": "Lumara Baroque Heart Wall Art \u2014 Gold",

@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-09-03T22:11:46Z",
+ "generated_at_utc": "2026-09-03T22:31:58Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,18 +9,32 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-09-03T22:11:46Z"
+   "fetched_at": "2026-09-03T22:31:58Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-09-03T22:11:46Z"
+   "fetched_at": "2026-09-03T22:31:58Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-09-03T22:11:46Z"
+   "fetched_at": "2026-09-03T22:31:58Z"
   }
  },
  "orders": [
+  {
+   "name": "#1063",
+   "createdAt": "2026-09-03T22:12:04Z",
+   "financial": "PAID",
+   "fulfillment": "UNFULFILLED",
+   "total": 112.95,
+   "customer": "Jane Hope",
+   "items": [
+    {
+     "title": "Lumara Olive Mediterranean Candelabra \u2014 Sculptural Metal Centrepiece",
+     "quantity": 1
+    }
+   ]
+  },
   {
    "name": "#1062",
    "createdAt": "2026-09-02T06:51:01Z",
@@ -408,9 +422,15 @@
    "createdAt": "2026-08-28T03:52:29Z",
    "total": 132.94,
    "customer": "Karen Bonato"
+  },
+  {
+   "name": "#1063",
+   "createdAt": "2026-09-03T22:12:04Z",
+   "total": 112.95,
+   "customer": "Jane Hope"
   }
  ],
- "customers_total": 85,
+ "customers_total": 86,
  "abandoned_checkouts_recent": 3,
  "inventory": [
   {
@@ -1046,7 +1066,7 @@
   {
    "title": "Lumara Olive Mediterranean Candelabra \u2014 Sculptural Metal Centrepiece",
    "sku": "QA5903-2",
-   "qty": 4,
+   "qty": 3,
    "price": 99.99,
    "status": "ACTIVE",
    "tracked": true,
@@ -1880,22 +1900,22 @@
   },
   {
    "date": "2026-09-04",
-   "spend": 10.21,
-   "impressions": 325,
-   "clicks": 18,
-   "ctr": 5.54,
-   "cpc": 0.57,
+   "spend": 12.95,
+   "impressions": 394,
+   "clicks": 19,
+   "ctr": 4.82,
+   "cpc": 0.68,
    "purchases": 0,
    "purchase_value": 0.0
   }
  ],
  "ads_today": {
   "date": "2026-09-04",
-  "spend": 10.21,
-  "impressions": 325,
-  "clicks": 18,
-  "ctr": 5.54,
-  "cpc": 0.57,
+  "spend": 12.95,
+  "impressions": 394,
+  "clicks": 19,
+  "ctr": 4.82,
+  "cpc": 0.68,
   "purchases": 0,
   "purchase_value": 0.0
  },
