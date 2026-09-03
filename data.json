@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-03T00:14:28Z",
-  "generated_at_local": "Thu 3 Sep 2026, 10:14am AEST",
+  "generated_at_utc": "2026-09-03T00:34:41Z",
+  "generated_at_local": "Thu 3 Sep 2026, 10:34am AEST",
   "today": "2026-09-03",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-03T00:14:28Z"
+    "fetched_at": "2026-09-03T00:34:41Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-03T00:14:28Z"
+    "fetched_at": "2026-09-03T00:34:41Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-03T00:14:28Z"
+    "fetched_at": "2026-09-03T00:34:41Z"
    }
   }
  },
@@ -359,26 +359,26 @@
  },
  "ads": {
   "today": {
-   "spend": 17.85,
+   "spend": 23.7,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 27,
-   "impressions": 558,
+   "clicks": 31,
+   "impressions": 684,
    "purchases": 0,
-   "cpc": 0.66,
-   "ctr": 4.84,
+   "cpc": 0.76,
+   "ctr": 4.53,
    "cpa": null
   },
   "d7": {
-   "spend": 543.79,
+   "spend": 549.64,
    "value": 1714.86,
-   "roas": 3.15,
-   "clicks": 1087,
-   "impressions": 17433,
+   "roas": 3.12,
+   "clicks": 1091,
+   "impressions": 17560,
    "purchases": 9,
    "cpc": 0.5,
-   "ctr": 6.24,
-   "cpa": 60.42
+   "ctr": 6.21,
+   "cpa": 61.07
   },
   "prev7": {
    "spend": 528.14,
@@ -388,7 +388,7 @@
   "daily_budget_live": 90.0,
   "active_campaigns": 2,
   "dry_days": 1,
-  "dry_spend": 17.85,
+  "dry_spend": 23.7,
   "series": [
    {
     "date": "2026-08-21",
@@ -523,12 +523,12 @@
    {
     "date": "2026-09-03",
     "label": "3 Sep",
-    "spend": 17.85,
+    "spend": 23.7,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 27,
-    "ctr": 4.84,
-    "cpc": 0.66
+    "clicks": 31,
+    "ctr": 4.53,
+    "cpc": 0.76
    }
   ],
   "campaigns": [
@@ -567,7 +567,7 @@
     "status": "ACTIVE",
     "daily_budget": 40.0,
     "spend": 373.06,
-    "impressions": 17538,
+    "impressions": 17539,
     "clicks": 1113,
     "ctr": 6.35,
     "cpc": 0.34,
