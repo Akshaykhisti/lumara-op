@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-09-04T03:25:37Z",
+ "generated_at_utc": "2026-09-04T03:45:47Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,18 +9,32 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-09-04T03:25:37Z"
+   "fetched_at": "2026-09-04T03:45:47Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-09-04T03:25:37Z"
+   "fetched_at": "2026-09-04T03:45:47Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-09-04T03:25:37Z"
+   "fetched_at": "2026-09-04T03:45:47Z"
   }
  },
  "orders": [
+  {
+   "name": "#1064",
+   "createdAt": "2026-09-04T03:29:08Z",
+   "financial": "PAID",
+   "fulfillment": "UNFULFILLED",
+   "total": 212.55,
+   "customer": "Maree Lackey",
+   "items": [
+    {
+     "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
+     "quantity": 1
+    }
+   ]
+  },
   {
    "name": "#1063",
    "createdAt": "2026-09-03T22:12:04Z",
@@ -422,10 +436,16 @@
    "createdAt": "2026-09-03T22:12:04Z",
    "total": 112.95,
    "customer": "Jane Hope"
+  },
+  {
+   "name": "#1064",
+   "createdAt": "2026-09-04T03:29:08Z",
+   "total": 212.55,
+   "customer": "Maree Lackey"
   }
  ],
- "customers_total": 86,
- "abandoned_checkouts_recent": 3,
+ "customers_total": 87,
+ "abandoned_checkouts_recent": 4,
  "inventory": [
   {
    "title": "Lumara Cayman Rattan Table Lamp \u2014 Coastal Natural Style",
@@ -592,7 +612,7 @@
   {
    "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
    "sku": "LH-TL-009",
-   "qty": 10,
+   "qty": 9,
    "price": 213.99,
    "status": "ACTIVE",
    "tracked": true,
@@ -1894,22 +1914,22 @@
   },
   {
    "date": "2026-09-04",
-   "spend": 31.96,
-   "impressions": 1065,
-   "clicks": 53,
-   "ctr": 4.98,
-   "cpc": 0.6,
+   "spend": 33.64,
+   "impressions": 1114,
+   "clicks": 54,
+   "ctr": 4.85,
+   "cpc": 0.62,
    "purchases": 1,
    "purchase_value": 112.95
   }
  ],
  "ads_today": {
   "date": "2026-09-04",
-  "spend": 31.96,
-  "impressions": 1065,
-  "clicks": 53,
-  "ctr": 4.98,
-  "cpc": 0.6,
+  "spend": 33.64,
+  "impressions": 1114,
+  "clicks": 54,
+  "ctr": 4.85,
+  "cpc": 0.62,
   "purchases": 1,
   "purchase_value": 112.95
  },
