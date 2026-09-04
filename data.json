@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-04T21:15:57Z",
-  "generated_at_local": "Sat 5 Sep 2026, 7:15am AEST",
+  "generated_at_utc": "2026-09-04T21:36:08Z",
+  "generated_at_local": "Sat 5 Sep 2026, 7:36am AEST",
   "today": "2026-09-05",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-04T21:15:57Z"
+    "fetched_at": "2026-09-04T21:36:08Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-04T21:15:57Z"
+    "fetched_at": "2026-09-04T21:36:08Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-04T21:15:57Z"
+    "fetched_at": "2026-09-04T21:36:08Z"
    }
   }
  },
@@ -371,26 +371,26 @@
  },
  "ads": {
   "today": {
-   "spend": 8.02,
+   "spend": 11.13,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 16,
-   "impressions": 264,
+   "clicks": 17,
+   "impressions": 324,
    "purchases": 0,
-   "cpc": 0.5,
-   "ctr": 6.06,
+   "cpc": 0.65,
+   "ctr": 5.25,
    "cpa": null
   },
   "d7": {
-   "spend": 566.69,
+   "spend": 569.81,
    "value": 1849.81,
-   "roas": 3.26,
-   "clicks": 1115,
-   "impressions": 18687,
+   "roas": 3.25,
+   "clicks": 1116,
+   "impressions": 18748,
    "purchases": 9,
    "cpc": 0.51,
-   "ctr": 5.97,
-   "cpa": 62.97
+   "ctr": 5.95,
+   "cpa": 63.31
   },
   "prev7": {
    "spend": 522.96,
@@ -400,7 +400,7 @@
   "daily_budget_live": 90.0,
   "active_campaigns": 2,
   "dry_days": 1,
-  "dry_spend": 8.02,
+  "dry_spend": 11.13,
   "series": [
    {
     "date": "2026-08-23",
@@ -525,7 +525,7 @@
    {
     "date": "2026-09-04",
     "label": "4 Sep",
-    "spend": 84.07,
+    "spend": 84.08,
     "revenue": 559.44,
     "purchases": 3,
     "clicks": 159,
@@ -535,12 +535,12 @@
    {
     "date": "2026-09-05",
     "label": "5 Sep",
-    "spend": 8.02,
+    "spend": 11.13,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 16,
-    "ctr": 6.06,
-    "cpc": 0.5
+    "clicks": 17,
+    "ctr": 5.25,
+    "cpc": 0.65
    }
   ],
   "campaigns": [
@@ -578,8 +578,8 @@
     "name": "Decor",
     "status": "ACTIVE",
     "daily_budget": 40.0,
-    "spend": 453.83,
-    "impressions": 20290,
+    "spend": 453.84,
+    "impressions": 20291,
     "clicks": 1245,
     "ctr": 6.14,
     "cpc": 0.36,
