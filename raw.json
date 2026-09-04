@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-09-04T00:43:54Z",
+ "generated_at_utc": "2026-09-04T01:04:14Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-09-04T00:43:54Z"
+   "fetched_at": "2026-09-04T01:04:14Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-09-04T00:43:54Z"
+   "fetched_at": "2026-09-04T01:04:14Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-09-04T00:43:54Z"
+   "fetched_at": "2026-09-04T01:04:14Z"
   }
  },
  "orders": [
@@ -463,11 +463,11 @@
   {
    "title": "Lumara Nishi Table Lamp \u2014 Contemporary Ceramic Style",
    "sku": "YR7306-1",
-   "qty": 8,
+   "qty": 0,
    "price": 219.99,
    "status": "ACTIVE",
    "tracked": true,
-   "available": true
+   "available": false
   },
   {
    "title": "Lumara Lopez Rustic White Candle Holder",
@@ -832,11 +832,11 @@
   {
    "title": "Lumara Nishi Clay Table Lamp \u2014 Warm Earthy Ceramic",
    "sku": "YR7316-1",
-   "qty": 10,
+   "qty": 0,
    "price": 169.99,
    "status": "ACTIVE",
    "tracked": true,
-   "available": true
+   "available": false
   },
   {
    "title": "Lumara Mediterranean Statement Vase \u2014 Rustic White Ceramic",
@@ -1900,22 +1900,22 @@
   },
   {
    "date": "2026-09-04",
-   "spend": 20.38,
-   "impressions": 680,
-   "clicks": 35,
-   "ctr": 5.15,
-   "cpc": 0.58,
+   "spend": 21.59,
+   "impressions": 737,
+   "clicks": 36,
+   "ctr": 4.88,
+   "cpc": 0.6,
    "purchases": 1,
    "purchase_value": 112.95
   }
  ],
  "ads_today": {
   "date": "2026-09-04",
-  "spend": 20.38,
-  "impressions": 680,
-  "clicks": 35,
-  "ctr": 5.15,
-  "cpc": 0.58,
+  "spend": 21.59,
+  "impressions": 737,
+  "clicks": 36,
+  "ctr": 4.88,
+  "cpc": 0.6,
   "purchases": 1,
   "purchase_value": 112.95
  },
