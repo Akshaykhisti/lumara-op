@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-09-04T14:01:25Z",
+ "generated_at_utc": "2026-09-04T14:11:49Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-09-04T14:01:25Z"
+   "fetched_at": "2026-09-04T14:11:49Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-09-04T14:01:25Z"
+   "fetched_at": "2026-09-04T14:11:49Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-09-04T14:01:25Z"
+   "fetched_at": "2026-09-04T14:11:49Z"
   }
  },
  "orders": [
@@ -1948,9 +1948,9 @@
   {
    "date": "2026-09-04",
    "spend": 83.86,
-   "impressions": 2972,
+   "impressions": 2976,
    "clicks": 158,
-   "ctr": 5.32,
+   "ctr": 5.31,
    "cpc": 0.53,
    "purchases": 3,
    "purchase_value": 559.44
@@ -1982,7 +1982,7 @@
    "status": "ACTIVE",
    "daily_budget": 50.0,
    "spend": 1177.19,
-   "impressions": 42140,
+   "impressions": 42141,
    "clicks": 2147,
    "ctr": 5.09,
    "cpc": 0.55,
@@ -1990,7 +1990,7 @@
    "purchases": 19,
    "purchase_value": 5150.05,
    "atc": 64,
-   "reach": 25349
+   "reach": 25362
   },
   {
    "name": "Lumara \u2014 Sales \u2014 Winners Broad CBO (Jul 2026)",
@@ -2012,7 +2012,7 @@
    "status": "ACTIVE",
    "daily_budget": 40.0,
    "spend": 453.67,
-   "impressions": 20281,
+   "impressions": 20283,
    "clicks": 1244,
    "ctr": 6.13,
    "cpc": 0.36,
