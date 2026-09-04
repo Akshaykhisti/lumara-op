@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-09-04T06:07:13Z",
+ "generated_at_utc": "2026-09-04T06:27:25Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,18 +9,46 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-09-04T06:07:13Z"
+   "fetched_at": "2026-09-04T06:27:25Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-09-04T06:07:13Z"
+   "fetched_at": "2026-09-04T06:27:25Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-09-04T06:07:13Z"
+   "fetched_at": "2026-09-04T06:27:25Z"
   }
  },
  "orders": [
+  {
+   "name": "#1066",
+   "createdAt": "2026-09-04T06:25:50Z",
+   "financial": "PAID",
+   "fulfillment": "UNFULFILLED",
+   "total": 233.94,
+   "customer": "M Giannini",
+   "items": [
+    {
+     "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
+     "quantity": 1
+    }
+   ]
+  },
+  {
+   "name": "#1065",
+   "createdAt": "2026-09-04T06:11:05Z",
+   "financial": "PAID",
+   "fulfillment": "UNFULFILLED",
+   "total": 212.55,
+   "customer": "simon graham",
+   "items": [
+    {
+     "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
+     "quantity": 1
+    }
+   ]
+  },
   {
    "name": "#1064",
    "createdAt": "2026-09-04T03:29:08Z",
@@ -436,9 +464,21 @@
    "createdAt": "2026-09-03T22:12:04Z",
    "total": 112.95,
    "customer": "Jane Hope"
+  },
+  {
+   "name": "#1065",
+   "createdAt": "2026-09-04T06:11:05Z",
+   "total": 212.55,
+   "customer": "simon graham"
+  },
+  {
+   "name": "#1066",
+   "createdAt": "2026-09-04T06:25:50Z",
+   "total": 233.94,
+   "customer": "M Giannini"
   }
  ],
- "customers_total": 87,
+ "customers_total": 89,
  "abandoned_checkouts_recent": 4,
  "inventory": [
   {
@@ -606,7 +646,7 @@
   {
    "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
    "sku": "LH-TL-009",
-   "qty": 9,
+   "qty": 7,
    "price": 213.99,
    "status": "ACTIVE",
    "tracked": true,
@@ -1917,24 +1957,24 @@
   },
   {
    "date": "2026-09-04",
-   "spend": 45.21,
-   "impressions": 1539,
-   "clicks": 71,
-   "ctr": 4.61,
-   "cpc": 0.64,
-   "purchases": 1,
-   "purchase_value": 112.95
+   "spend": 47.38,
+   "impressions": 1606,
+   "clicks": 81,
+   "ctr": 5.04,
+   "cpc": 0.58,
+   "purchases": 2,
+   "purchase_value": 325.5
   }
  ],
  "ads_today": {
   "date": "2026-09-04",
-  "spend": 45.21,
-  "impressions": 1539,
-  "clicks": 71,
-  "ctr": 4.61,
-  "cpc": 0.64,
-  "purchases": 1,
-  "purchase_value": 112.95
+  "spend": 47.38,
+  "impressions": 1606,
+  "clicks": 81,
+  "ctr": 5.04,
+  "cpc": 0.58,
+  "purchases": 2,
+  "purchase_value": 325.5
  },
  "ads_campaigns": [
   {
