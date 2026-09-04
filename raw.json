@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-09-04T04:05:58Z",
+ "generated_at_utc": "2026-09-04T04:26:09Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-09-04T04:05:58Z"
+   "fetched_at": "2026-09-04T04:26:09Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-09-04T04:05:58Z"
+   "fetched_at": "2026-09-04T04:26:09Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-09-04T04:05:58Z"
+   "fetched_at": "2026-09-04T04:26:09Z"
   }
  },
  "orders": [
@@ -1769,6 +1769,15 @@
    "status": "ACTIVE",
    "tracked": true,
    "available": true
+  },
+  {
+   "title": "Lumara Monica Green Table Lamp \u2014 Sage Ceramic with Gold Detail",
+   "sku": "YR7400-1",
+   "qty": 0,
+   "price": 189.99,
+   "status": "DRAFT",
+   "tracked": true,
+   "available": false
   }
  ],
  "ads_daily": [
@@ -1914,22 +1923,22 @@
   },
   {
    "date": "2026-09-04",
-   "spend": 35.08,
-   "impressions": 1169,
-   "clicks": 56,
-   "ctr": 4.79,
-   "cpc": 0.63,
+   "spend": 36.82,
+   "impressions": 1219,
+   "clicks": 57,
+   "ctr": 4.68,
+   "cpc": 0.65,
    "purchases": 1,
    "purchase_value": 112.95
   }
  ],
  "ads_today": {
   "date": "2026-09-04",
-  "spend": 35.08,
-  "impressions": 1169,
-  "clicks": 56,
-  "ctr": 4.79,
-  "cpc": 0.63,
+  "spend": 36.82,
+  "impressions": 1219,
+  "clicks": 57,
+  "ctr": 4.68,
+  "cpc": 0.65,
   "purchases": 1,
   "purchase_value": 112.95
  },
