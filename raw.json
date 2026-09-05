@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-09-05T10:58:22Z",
+ "generated_at_utc": "2026-09-05T11:18:29Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-09-05T10:58:22Z"
+   "fetched_at": "2026-09-05T11:18:29Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-09-05T10:58:22Z"
+   "fetched_at": "2026-09-05T11:18:29Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-09-05T10:58:22Z"
+   "fetched_at": "2026-09-05T11:18:29Z"
   }
  },
  "orders": [
@@ -25,7 +25,7 @@
    "name": "#1068",
    "createdAt": "2026-09-05T10:20:56Z",
    "financial": "PAID",
-   "fulfillment": "UNFULFILLED",
+   "fulfillment": "FULFILLED",
    "total": 233.94,
    "customer": "Avinash Valiaveettil",
    "items": [
@@ -39,7 +39,7 @@
    "name": "#1067",
    "createdAt": "2026-09-05T01:09:58Z",
    "financial": "PAID",
-   "fulfillment": "UNFULFILLED",
+   "fulfillment": "IN_PROGRESS",
    "total": 179.98,
    "customer": "Jane MacKinnell",
    "items": [
@@ -504,12 +504,6 @@
    "createdAt": "2026-09-05T01:09:58Z",
    "total": 179.98,
    "customer": "Jane MacKinnell"
-  },
-  {
-   "name": "#1068",
-   "createdAt": "2026-09-05T10:20:56Z",
-   "total": 233.94,
-   "customer": "Avinash Valiaveettil"
   }
  ],
  "customers_total": 91,
@@ -1991,10 +1985,10 @@
   },
   {
    "date": "2026-09-05",
-   "spend": 67.31,
-   "impressions": 2419,
+   "spend": 67.58,
+   "impressions": 2435,
    "clicks": 117,
-   "ctr": 4.84,
+   "ctr": 4.8,
    "cpc": 0.58,
    "purchases": 2,
    "purchase_value": 413.92
@@ -2002,10 +1996,10 @@
  ],
  "ads_today": {
   "date": "2026-09-05",
-  "spend": 67.31,
-  "impressions": 2419,
+  "spend": 67.58,
+  "impressions": 2435,
   "clicks": 117,
-  "ctr": 4.84,
+  "ctr": 4.8,
   "cpc": 0.58,
   "purchases": 2,
   "purchase_value": 413.92

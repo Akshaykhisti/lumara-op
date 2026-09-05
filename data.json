@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-05T10:58:22Z",
-  "generated_at_local": "Sat 5 Sep 2026, 8:58pm AEST",
+  "generated_at_utc": "2026-09-05T11:18:29Z",
+  "generated_at_local": "Sat 5 Sep 2026, 9:18pm AEST",
   "today": "2026-09-05",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-05T10:58:22Z"
+    "fetched_at": "2026-09-05T11:18:29Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-05T10:58:22Z"
+    "fetched_at": "2026-09-05T11:18:29Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-05T10:58:22Z"
+    "fetched_at": "2026-09-05T11:18:29Z"
    }
   }
  },
@@ -29,8 +29,8 @@
   },
   {
    "level": "serious",
-   "title": "4 paid order(s) awaiting fulfilment",
-   "body": "#1063, #1065, #1067, #1068"
+   "title": "3 paid order(s) awaiting fulfilment",
+   "body": "#1063, #1065, #1067"
   },
   {
    "level": "warning",
@@ -56,7 +56,7 @@
   },
   "prev7_revenue": 1926.81,
   "wow_pct": 39.4,
-  "pending_fulfilment": 4,
+  "pending_fulfilment": 3,
   "pending_orders": [
    {
     "name": "#1063",
@@ -75,12 +75,6 @@
     "createdAt": "2026-09-05T01:09:58Z",
     "total": 179.98,
     "customer": "Jane MacKinnell"
-   },
-   {
-    "name": "#1068",
-    "createdAt": "2026-09-05T10:20:56Z",
-    "total": 233.94,
-    "customer": "Avinash Valiaveettil"
    }
   ],
   "abandoned_checkouts": 3,
@@ -280,7 +274,7 @@
     "when": "5 sep, 8:20pm",
     "total": 233.94,
     "customer": "Avinash Valiaveettil",
-    "fulfillment": "UNFULFILLED",
+    "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze"
    },
@@ -289,7 +283,7 @@
     "when": "5 sep, 11:09am",
     "total": 179.98,
     "customer": "Jane MacKinnell",
-    "fulfillment": "UNFULFILLED",
+    "fulfillment": "IN_PROGRESS",
     "financial": "PAID",
     "items": "Lumara Hurricane Candle Holder Moss \u2014 Organic Green Ceramic \u00d72"
    },
@@ -377,26 +371,26 @@
  },
  "ads": {
   "today": {
-   "spend": 67.31,
+   "spend": 67.58,
    "value": 413.92,
-   "roas": 6.15,
+   "roas": 6.12,
    "clicks": 117,
-   "impressions": 2419,
+   "impressions": 2435,
    "purchases": 2,
    "cpc": 0.58,
-   "ctr": 4.84,
-   "cpa": 33.66
+   "ctr": 4.8,
+   "cpa": 33.79
   },
   "d7": {
-   "spend": 626.39,
+   "spend": 626.66,
    "value": 2263.73,
    "roas": 3.61,
    "clicks": 1216,
-   "impressions": 20853,
+   "impressions": 20869,
    "purchases": 11,
    "cpc": 0.52,
    "ctr": 5.83,
-   "cpa": 56.94
+   "cpa": 56.97
   },
   "prev7": {
    "spend": 522.96,
@@ -541,11 +535,11 @@
    {
     "date": "2026-09-05",
     "label": "5 Sep",
-    "spend": 67.31,
+    "spend": 67.58,
     "revenue": 413.92,
     "purchases": 2,
     "clicks": 117,
-    "ctr": 4.84,
+    "ctr": 4.8,
     "cpc": 0.58
    }
   ],
