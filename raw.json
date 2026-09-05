@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-09-05T00:53:05Z",
+ "generated_at_utc": "2026-09-05T01:13:15Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,18 +9,32 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-09-05T00:53:05Z"
+   "fetched_at": "2026-09-05T01:13:15Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-09-05T00:53:05Z"
+   "fetched_at": "2026-09-05T01:13:15Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-09-05T00:53:05Z"
+   "fetched_at": "2026-09-05T01:13:15Z"
   }
  },
  "orders": [
+  {
+   "name": "#1067",
+   "createdAt": "2026-09-05T01:09:58Z",
+   "financial": "PAID",
+   "fulfillment": "UNFULFILLED",
+   "total": 179.98,
+   "customer": "Jane MacKinnell",
+   "items": [
+    {
+     "title": "Lumara Hurricane Candle Holder Moss \u2014 Organic Green Ceramic",
+     "quantity": 2
+    }
+   ]
+  },
   {
    "name": "#1066",
    "createdAt": "2026-09-04T06:25:50Z",
@@ -67,7 +81,7 @@
    "name": "#1063",
    "createdAt": "2026-09-03T22:12:04Z",
    "financial": "PAID",
-   "fulfillment": "UNFULFILLED",
+   "fulfillment": "IN_PROGRESS",
    "total": 112.95,
    "customer": "Jane Hope",
    "items": [
@@ -476,9 +490,15 @@
    "createdAt": "2026-09-04T06:25:50Z",
    "total": 233.94,
    "customer": "M Giannini"
+  },
+  {
+   "name": "#1067",
+   "createdAt": "2026-09-05T01:09:58Z",
+   "total": 179.98,
+   "customer": "Jane MacKinnell"
   }
  ],
- "customers_total": 89,
+ "customers_total": 90,
  "abandoned_checkouts_recent": 3,
  "inventory": [
   {
@@ -835,7 +855,7 @@
   {
    "title": "Lumara Hurricane Candle Holder Moss \u2014 Organic Green Ceramic",
    "sku": "LH-CH-006",
-   "qty": 8,
+   "qty": 6,
    "price": 89.99,
    "status": "ACTIVE",
    "tracked": true,
@@ -1947,8 +1967,8 @@
   },
   {
    "date": "2026-09-04",
-   "spend": 84.44,
-   "impressions": 2995,
+   "spend": 84.46,
+   "impressions": 2996,
    "clicks": 159,
    "ctr": 5.31,
    "cpc": 0.53,
@@ -1957,22 +1977,22 @@
   },
   {
    "date": "2026-09-05",
-   "spend": 32.27,
-   "impressions": 1064,
-   "clicks": 51,
-   "ctr": 4.79,
-   "cpc": 0.63,
+   "spend": 34.88,
+   "impressions": 1144,
+   "clicks": 60,
+   "ctr": 5.24,
+   "cpc": 0.58,
    "purchases": 0,
    "purchase_value": 0.0
   }
  ],
  "ads_today": {
   "date": "2026-09-05",
-  "spend": 32.27,
-  "impressions": 1064,
-  "clicks": 51,
-  "ctr": 4.79,
-  "cpc": 0.63,
+  "spend": 34.88,
+  "impressions": 1144,
+  "clicks": 60,
+  "ctr": 5.24,
+  "cpc": 0.58,
   "purchases": 0,
   "purchase_value": 0.0
  },
@@ -1981,12 +2001,12 @@
    "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
    "status": "ACTIVE",
    "daily_budget": 50.0,
-   "spend": 1177.51,
-   "impressions": 42149,
+   "spend": 1177.53,
+   "impressions": 42150,
    "clicks": 2147,
    "ctr": 5.09,
    "cpc": 0.55,
-   "roas": 4.3737,
+   "roas": 4.3736,
    "purchases": 19,
    "purchase_value": 5150.05,
    "atc": 64,
