@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-05T13:44:49Z",
-  "generated_at_local": "Sat 5 Sep 2026, 11:44pm AEST",
-  "today": "2026-09-05",
+  "generated_at_utc": "2026-09-05T14:04:59Z",
+  "generated_at_local": "Sun 6 Sep 2026, 12:04am AEST",
+  "today": "2026-09-06",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-05T13:44:49Z"
+    "fetched_at": "2026-09-05T14:04:59Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-05T13:44:49Z"
+    "fetched_at": "2026-09-05T14:04:59Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-05T13:44:49Z"
+    "fetched_at": "2026-09-05T14:04:59Z"
    }
   }
  },
@@ -40,22 +40,22 @@
  ],
  "sales": {
   "today": {
-   "orders": 2,
-   "revenue": 413.92,
-   "aov": 206.96
+   "orders": 0,
+   "revenue": 0.0,
+   "aov": 0.0
   },
   "d7": {
-   "orders": 14,
-   "revenue": 2686.63,
-   "aov": 191.9
+   "orders": 12,
+   "revenue": 2026.15,
+   "aov": 168.85
   },
   "d30": {
-   "orders": 30,
-   "revenue": 6972.41,
-   "aov": 232.41
+   "orders": 29,
+   "revenue": 6672.42,
+   "aov": 230.08
   },
-  "prev7_revenue": 1926.81,
-  "wow_pct": 39.4,
+  "prev7_revenue": 2297.34,
+  "wow_pct": -11.8,
   "pending_fulfilment": 3,
   "pending_orders": [
    {
@@ -79,7 +79,7 @@
   ],
   "abandoned_checkouts": 3,
   "customers_total": 91,
-  "days_since_order": 0,
+  "days_since_order": 1,
   "last_order": {
    "name": "#1068",
    "when": "5 sep, 8:20pm",
@@ -87,12 +87,6 @@
    "customer": "Avinash Valiaveettil"
   },
   "daily": [
-   {
-    "date": "2026-08-07",
-    "label": "7 Aug",
-    "orders": 1,
-    "revenue": 299.99
-   },
    {
     "date": "2026-08-08",
     "label": "8 Aug",
@@ -266,6 +260,12 @@
     "label": "5 Sep",
     "orders": 2,
     "revenue": 413.92
+   },
+   {
+    "date": "2026-09-06",
+    "label": "6 Sep",
+    "orders": 0,
+    "revenue": 0.0
    }
   ],
   "recent": [
@@ -349,7 +349,7 @@
    },
    {
     "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
-    "units": 6
+    "units": 5
    },
    {
     "title": "Lumara Hurricane Candle Holder Moss \u2014 Organic Green Ceramic",
@@ -371,47 +371,37 @@
  },
  "ads": {
   "today": {
-   "spend": 69.13,
-   "value": 413.92,
-   "roas": 5.99,
-   "clicks": 119,
-   "impressions": 2573,
-   "purchases": 2,
-   "cpc": 0.58,
-   "ctr": 4.62,
-   "cpa": 34.56
+   "spend": 0.0,
+   "value": 0.0,
+   "roas": 0.0,
+   "clicks": 0,
+   "impressions": 0,
+   "purchases": 0,
+   "cpc": 0.0,
+   "ctr": 0.0,
+   "cpa": null
   },
   "d7": {
-   "spend": 628.21,
-   "value": 2263.73,
-   "roas": 3.6,
-   "clicks": 1218,
-   "impressions": 21007,
-   "purchases": 11,
-   "cpc": 0.52,
-   "ctr": 5.8,
-   "cpa": 57.11
+   "spend": 520.11,
+   "value": 1603.25,
+   "roas": 3.08,
+   "clicks": 971,
+   "impressions": 17273,
+   "purchases": 9,
+   "cpc": 0.54,
+   "ctr": 5.62,
+   "cpa": 57.79
   },
   "prev7": {
-   "spend": 522.96,
-   "value": 1926.81,
-   "roas": 3.68
+   "spend": 550.58,
+   "value": 2297.34,
+   "roas": 4.17
   },
   "daily_budget_live": 90.0,
   "active_campaigns": 2,
   "dry_days": 0,
   "dry_spend": 0.0,
   "series": [
-   {
-    "date": "2026-08-23",
-    "label": "23 Aug",
-    "spend": 80.55,
-    "revenue": 289.95,
-    "purchases": 1,
-    "clicks": 226,
-    "ctr": 4.79,
-    "cpc": 0.36
-   },
    {
     "date": "2026-08-24",
     "label": "24 Aug",
@@ -535,12 +525,22 @@
    {
     "date": "2026-09-05",
     "label": "5 Sep",
-    "spend": 69.13,
+    "spend": 69.2,
     "revenue": 413.92,
     "purchases": 2,
     "clicks": 119,
     "ctr": 4.62,
     "cpc": 0.58
+   },
+   {
+    "date": "2026-09-06",
+    "label": "6 Sep",
+    "spend": 0.0,
+    "revenue": 0.0,
+    "purchases": 0,
+    "clicks": 0,
+    "ctr": 0.0,
+    "cpc": 0.0
    }
   ],
   "campaigns": [
@@ -548,46 +548,46 @@
     "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
     "status": "ACTIVE",
     "daily_budget": 50.0,
-    "spend": 1177.55,
-    "impressions": 42152,
-    "clicks": 2147,
-    "ctr": 5.09,
+    "spend": 1182.63,
+    "impressions": 42854,
+    "clicks": 2149,
+    "ctr": 5.01,
     "cpc": 0.55,
-    "roas": 4.3735,
-    "purchases": 19,
-    "purchase_value": 5150.05,
-    "atc": 64,
-    "reach": 25362
-   },
-   {
-    "name": "Lumara \u2014 Sales \u2014 Winners Broad CBO (Jul 2026)",
-    "status": "PAUSED",
-    "daily_budget": 30.0,
-    "spend": 492.78,
-    "impressions": 16471,
-    "clicks": 690,
-    "ctr": 4.19,
-    "cpc": 0.71,
-    "roas": 1.6435,
-    "purchases": 3,
-    "purchase_value": 809.89,
-    "atc": 10,
-    "reach": 11090
+    "roas": 3.8508,
+    "purchases": 18,
+    "purchase_value": 4554.1,
+    "atc": 62,
+    "reach": 25509
    },
    {
     "name": "Decor",
     "status": "ACTIVE",
     "daily_budget": 40.0,
-    "spend": 453.93,
-    "impressions": 20294,
-    "clicks": 1245,
-    "ctr": 6.13,
-    "cpc": 0.36,
-    "roas": 0.9042,
+    "spend": 487.28,
+    "impressions": 21429,
+    "clicks": 1310,
+    "ctr": 6.11,
+    "cpc": 0.37,
+    "roas": 1.2117,
+    "purchases": 4,
+    "purchase_value": 590.43,
+    "atc": 33,
+    "reach": 13297
+   },
+   {
+    "name": "Lumara \u2014 Sales \u2014 Winners Broad CBO (Jul 2026)",
+    "status": "PAUSED",
+    "daily_budget": 30.0,
+    "spend": 467.75,
+    "impressions": 15998,
+    "clicks": 661,
+    "ctr": 4.13,
+    "cpc": 0.71,
+    "roas": 1.7315,
     "purchases": 3,
-    "purchase_value": 410.45,
-    "atc": 30,
-    "reach": 12831
+    "purchase_value": 809.89,
+    "atc": 9,
+    "reach": 10770
    },
    {
     "name": "Lumara \u2014 Lamps \u2014 KG Gap (Jul 2026)",

@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-09-05T13:44:49Z",
+ "generated_at_utc": "2026-09-05T14:04:59Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-09-05T13:44:49Z"
+   "fetched_at": "2026-09-05T14:04:59Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-09-05T13:44:49Z"
+   "fetched_at": "2026-09-05T14:04:59Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-09-05T13:44:49Z"
+   "fetched_at": "2026-09-05T14:04:59Z"
   }
  },
  "orders": [
@@ -445,42 +445,6 @@
    "items": [
     {
      "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
-     "quantity": 1
-    }
-   ]
-  },
-  {
-   "name": "#1038",
-   "createdAt": "2026-08-06T10:47:52Z",
-   "financial": "PAID",
-   "fulfillment": "FULFILLED",
-   "total": 270.0,
-   "customer": "Denise Rowles",
-   "items": [
-    {
-     "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
-     "quantity": 1
-    }
-   ]
-  },
-  {
-   "name": "#1037",
-   "createdAt": "2026-08-06T09:05:14Z",
-   "financial": "PAID",
-   "fulfillment": "FULFILLED",
-   "total": 559.89,
-   "customer": "Lindy Herron",
-   "items": [
-    {
-     "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
-     "quantity": 1
-    },
-    {
-     "title": "Lumara Navy Shell Framed Print II \u2014 60 \u00d7 80 cm",
-     "quantity": 1
-    },
-    {
-     "title": "Lumara Navy Shell Framed Print I \u2014 60 \u00d7 80 cm",
      "quantity": 1
     }
    ]
@@ -1844,16 +1808,6 @@
  ],
  "ads_daily": [
   {
-   "date": "2026-08-22",
-   "spend": 73.95,
-   "impressions": 4374,
-   "clicks": 187,
-   "ctr": 4.28,
-   "cpc": 0.4,
-   "purchases": 0,
-   "purchase_value": 0.0
-  },
-  {
    "date": "2026-08-23",
    "spend": 80.55,
    "impressions": 4722,
@@ -1985,70 +1939,80 @@
   },
   {
    "date": "2026-09-05",
-   "spend": 69.13,
-   "impressions": 2573,
+   "spend": 69.2,
+   "impressions": 2577,
    "clicks": 119,
    "ctr": 4.62,
    "cpc": 0.58,
    "purchases": 2,
    "purchase_value": 413.92
+  },
+  {
+   "date": "2026-09-06",
+   "spend": 0.0,
+   "impressions": 0,
+   "clicks": 0,
+   "ctr": 0.0,
+   "cpc": 0.0,
+   "purchases": 0,
+   "purchase_value": 0.0
   }
  ],
  "ads_today": {
-  "date": "2026-09-05",
-  "spend": 69.13,
-  "impressions": 2573,
-  "clicks": 119,
-  "ctr": 4.62,
-  "cpc": 0.58,
-  "purchases": 2,
-  "purchase_value": 413.92
+  "date": "2026-09-06",
+  "spend": 0.0,
+  "impressions": 0,
+  "clicks": 0,
+  "ctr": 0.0,
+  "cpc": 0.0,
+  "purchases": 0,
+  "purchase_value": 0.0
  },
  "ads_campaigns": [
   {
    "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
    "status": "ACTIVE",
    "daily_budget": 50.0,
-   "spend": 1177.55,
-   "impressions": 42152,
-   "clicks": 2147,
-   "ctr": 5.09,
+   "spend": 1182.63,
+   "impressions": 42854,
+   "clicks": 2149,
+   "ctr": 5.01,
    "cpc": 0.55,
-   "roas": 4.3735,
-   "purchases": 19,
-   "purchase_value": 5150.05,
-   "atc": 64,
-   "reach": 25362
-  },
-  {
-   "name": "Lumara \u2014 Sales \u2014 Winners Broad CBO (Jul 2026)",
-   "status": "PAUSED",
-   "daily_budget": 30.0,
-   "spend": 492.78,
-   "impressions": 16471,
-   "clicks": 690,
-   "ctr": 4.19,
-   "cpc": 0.71,
-   "roas": 1.6435,
-   "purchases": 3,
-   "purchase_value": 809.89,
-   "atc": 10,
-   "reach": 11090
+   "roas": 3.8508,
+   "purchases": 18,
+   "purchase_value": 4554.1,
+   "atc": 62,
+   "reach": 25509
   },
   {
    "name": "Decor",
    "status": "ACTIVE",
    "daily_budget": 40.0,
-   "spend": 453.93,
-   "impressions": 20294,
-   "clicks": 1245,
-   "ctr": 6.13,
-   "cpc": 0.36,
-   "roas": 0.9042,
+   "spend": 487.28,
+   "impressions": 21429,
+   "clicks": 1310,
+   "ctr": 6.11,
+   "cpc": 0.37,
+   "roas": 1.2117,
+   "purchases": 4,
+   "purchase_value": 590.43,
+   "atc": 33,
+   "reach": 13297
+  },
+  {
+   "name": "Lumara \u2014 Sales \u2014 Winners Broad CBO (Jul 2026)",
+   "status": "PAUSED",
+   "daily_budget": 30.0,
+   "spend": 467.75,
+   "impressions": 15998,
+   "clicks": 661,
+   "ctr": 4.13,
+   "cpc": 0.71,
+   "roas": 1.7315,
    "purchases": 3,
-   "purchase_value": 410.45,
-   "atc": 30,
-   "reach": 12831
+   "purchase_value": 809.89,
+   "atc": 9,
+   "reach": 10770
   },
   {
    "name": "Lumara \u2014 Lamps \u2014 KG Gap (Jul 2026)",
