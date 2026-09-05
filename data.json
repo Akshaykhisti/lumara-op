@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-05T01:13:15Z",
-  "generated_at_local": "Sat 5 Sep 2026, 11:13am AEST",
+  "generated_at_utc": "2026-09-05T01:33:25Z",
+  "generated_at_local": "Sat 5 Sep 2026, 11:33am AEST",
   "today": "2026-09-05",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-05T01:13:15Z"
+    "fetched_at": "2026-09-05T01:33:25Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-05T01:13:15Z"
+    "fetched_at": "2026-09-05T01:33:25Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-05T01:13:15Z"
+    "fetched_at": "2026-09-05T01:33:25Z"
    }
   }
  },
@@ -29,8 +29,8 @@
   },
   {
    "level": "serious",
-   "title": "4 paid order(s) awaiting fulfilment",
-   "body": "#1063, #1065, #1066, #1067"
+   "title": "3 paid order(s) awaiting fulfilment",
+   "body": "#1063, #1065, #1067"
   },
   {
    "level": "warning",
@@ -56,7 +56,7 @@
   },
   "prev7_revenue": 1926.81,
   "wow_pct": 27.3,
-  "pending_fulfilment": 4,
+  "pending_fulfilment": 3,
   "pending_orders": [
    {
     "name": "#1063",
@@ -69,12 +69,6 @@
     "createdAt": "2026-09-04T06:11:05Z",
     "total": 212.55,
     "customer": "simon graham"
-   },
-   {
-    "name": "#1066",
-    "createdAt": "2026-09-04T06:25:50Z",
-    "total": 233.94,
-    "customer": "M Giannini"
    },
    {
     "name": "#1067",
@@ -289,7 +283,7 @@
     "when": "4 sep, 4:25pm",
     "total": 233.94,
     "customer": "M Giannini",
-    "fulfillment": "UNFULFILLED",
+    "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze"
    },
@@ -377,26 +371,26 @@
  },
  "ads": {
   "today": {
-   "spend": 34.88,
-   "value": 0.0,
-   "roas": 0.0,
-   "clicks": 60,
-   "impressions": 1144,
-   "purchases": 0,
-   "cpc": 0.58,
-   "ctr": 5.24,
-   "cpa": null
+   "spend": 37.89,
+   "value": 179.98,
+   "roas": 4.75,
+   "clicks": 63,
+   "impressions": 1230,
+   "purchases": 1,
+   "cpc": 0.6,
+   "ctr": 5.12,
+   "cpa": 37.89
   },
   "d7": {
-   "spend": 593.94,
-   "value": 1849.81,
-   "roas": 3.11,
-   "clicks": 1159,
-   "impressions": 19576,
-   "purchases": 9,
+   "spend": 596.95,
+   "value": 2029.79,
+   "roas": 3.4,
+   "clicks": 1162,
+   "impressions": 19662,
+   "purchases": 10,
    "cpc": 0.51,
-   "ctr": 5.92,
-   "cpa": 65.99
+   "ctr": 5.91,
+   "cpa": 59.7
   },
   "prev7": {
    "spend": 522.96,
@@ -405,8 +399,8 @@
   },
   "daily_budget_live": 90.0,
   "active_campaigns": 2,
-  "dry_days": 1,
-  "dry_spend": 34.88,
+  "dry_days": 0,
+  "dry_spend": 0.0,
   "series": [
    {
     "date": "2026-08-23",
@@ -541,12 +535,12 @@
    {
     "date": "2026-09-05",
     "label": "5 Sep",
-    "spend": 34.88,
-    "revenue": 0.0,
-    "purchases": 0,
-    "clicks": 60,
-    "ctr": 5.24,
-    "cpc": 0.58
+    "spend": 37.89,
+    "revenue": 179.98,
+    "purchases": 1,
+    "clicks": 63,
+    "ctr": 5.12,
+    "cpc": 0.6
    }
   ],
   "campaigns": [
