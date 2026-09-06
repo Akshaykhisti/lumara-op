@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-09-06T23:23:52Z",
+ "generated_at_utc": "2026-09-06T23:44:03Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,18 +9,32 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-09-06T23:23:52Z"
+   "fetched_at": "2026-09-06T23:44:03Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-09-06T23:23:52Z"
+   "fetched_at": "2026-09-06T23:44:03Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-09-06T23:23:52Z"
+   "fetched_at": "2026-09-06T23:44:03Z"
   }
  },
  "orders": [
+  {
+   "name": "#1069",
+   "createdAt": "2026-09-06T23:28:49Z",
+   "financial": "PAID",
+   "fulfillment": "UNFULFILLED",
+   "total": 212.55,
+   "customer": "Frances Simpson",
+   "items": [
+    {
+     "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
+     "quantity": 1
+    }
+   ]
+  },
   {
    "name": "#1068",
    "createdAt": "2026-09-05T10:20:56Z",
@@ -442,9 +456,15 @@
    "createdAt": "2026-09-05T01:09:58Z",
    "total": 179.98,
    "customer": "Jane MacKinnell"
+  },
+  {
+   "name": "#1069",
+   "createdAt": "2026-09-06T23:28:49Z",
+   "total": 212.55,
+   "customer": "Frances Simpson"
   }
  ],
- "customers_total": 92,
+ "customers_total": 93,
  "abandoned_checkouts_recent": 3,
  "inventory": [
   {
@@ -612,7 +632,7 @@
   {
    "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
    "sku": "LH-TL-009",
-   "qty": 6,
+   "qty": 5,
    "price": 213.99,
    "status": "ACTIVE",
    "tracked": true,
@@ -1923,22 +1943,22 @@
   },
   {
    "date": "2026-09-07",
-   "spend": 16.21,
-   "impressions": 473,
-   "clicks": 24,
-   "ctr": 5.07,
-   "cpc": 0.68,
+   "spend": 17.77,
+   "impressions": 527,
+   "clicks": 32,
+   "ctr": 6.07,
+   "cpc": 0.56,
    "purchases": 0,
    "purchase_value": 0.0
   }
  ],
  "ads_today": {
   "date": "2026-09-07",
-  "spend": 16.21,
-  "impressions": 473,
-  "clicks": 24,
-  "ctr": 5.07,
-  "cpc": 0.68,
+  "spend": 17.77,
+  "impressions": 527,
+  "clicks": 32,
+  "ctr": 6.07,
+  "cpc": 0.56,
   "purchases": 0,
   "purchase_value": 0.0
  },
