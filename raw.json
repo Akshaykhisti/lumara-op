@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-09-07T10:10:13Z",
+ "generated_at_utc": "2026-09-07T10:30:21Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-09-07T10:10:13Z"
+   "fetched_at": "2026-09-07T10:30:21Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-09-07T10:10:13Z"
+   "fetched_at": "2026-09-07T10:30:21Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-09-07T10:10:13Z"
+   "fetched_at": "2026-09-07T10:30:21Z"
   }
  },
  "orders": [
@@ -1789,7 +1789,7 @@
    "sku": "YR7400-1",
    "qty": 10,
    "price": 159.99,
-   "status": "DRAFT",
+   "status": "ACTIVE",
    "tracked": true,
    "available": true
   }
@@ -1937,22 +1937,22 @@
   },
   {
    "date": "2026-09-07",
-   "spend": 71.83,
-   "impressions": 2556,
-   "clicks": 137,
-   "ctr": 5.36,
-   "cpc": 0.52,
+   "spend": 73.88,
+   "impressions": 2635,
+   "clicks": 140,
+   "ctr": 5.31,
+   "cpc": 0.53,
    "purchases": 1,
    "purchase_value": 212.55
   }
  ],
  "ads_today": {
   "date": "2026-09-07",
-  "spend": 71.83,
-  "impressions": 2556,
-  "clicks": 137,
-  "ctr": 5.36,
-  "cpc": 0.52,
+  "spend": 73.88,
+  "impressions": 2635,
+  "clicks": 140,
+  "ctr": 5.31,
+  "cpc": 0.53,
   "purchases": 1,
   "purchase_value": 212.55
  },

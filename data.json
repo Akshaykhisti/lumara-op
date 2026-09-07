@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-07T10:10:13Z",
-  "generated_at_local": "Mon 7 Sep 2026, 8:10pm AEST",
+  "generated_at_utc": "2026-09-07T10:30:21Z",
+  "generated_at_local": "Mon 7 Sep 2026, 8:30pm AEST",
   "today": "2026-09-07",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-07T10:10:13Z"
+    "fetched_at": "2026-09-07T10:30:21Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-07T10:10:13Z"
+    "fetched_at": "2026-09-07T10:30:21Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-07T10:10:13Z"
+    "fetched_at": "2026-09-07T10:30:21Z"
    }
   }
  },
@@ -359,26 +359,26 @@
  },
  "ads": {
   "today": {
-   "spend": 71.83,
+   "spend": 73.88,
    "value": 212.55,
-   "roas": 2.96,
-   "clicks": 137,
-   "impressions": 2556,
+   "roas": 2.88,
+   "clicks": 140,
+   "impressions": 2635,
    "purchases": 1,
-   "cpc": 0.52,
-   "ctr": 5.36,
-   "cpa": 71.83
+   "cpc": 0.53,
+   "ctr": 5.31,
+   "cpa": 73.88
   },
   "d7": {
-   "spend": 615.71,
+   "spend": 617.76,
    "value": 1496.91,
-   "roas": 2.43,
-   "clicks": 1152,
-   "impressions": 20580,
+   "roas": 2.42,
+   "clicks": 1155,
+   "impressions": 20659,
    "purchases": 8,
    "cpc": 0.53,
-   "ctr": 5.6,
-   "cpa": 76.96
+   "ctr": 5.59,
+   "cpa": 77.22
   },
   "prev7": {
    "spend": 574.25,
@@ -523,12 +523,12 @@
    {
     "date": "2026-09-07",
     "label": "7 Sep",
-    "spend": 71.83,
+    "spend": 73.88,
     "revenue": 212.55,
     "purchases": 1,
-    "clicks": 137,
-    "ctr": 5.36,
-    "cpc": 0.52
+    "clicks": 140,
+    "ctr": 5.31,
+    "cpc": 0.53
    }
   ],
   "campaigns": [
@@ -655,14 +655,14 @@
   ]
  },
  "stock": {
-  "sellable_skus": 135,
-  "tracked_skus": 83,
+  "sellable_skus": 136,
+  "tracked_skus": 84,
   "out_of_stock": 6,
   "low": 4,
   "watch": 2,
-  "healthy": 71,
+  "healthy": 72,
   "untracked": 52,
-  "stock_value": 86601.95,
+  "stock_value": 88201.85,
   "oos_list": [
    {
     "title": "Lumara Nishi Table Lamp \u2014 Contemporary Ceramic Style",
