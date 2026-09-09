@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-09-09T21:35:01Z",
+ "generated_at_utc": "2026-09-09T21:55:11Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-09-09T21:35:01Z"
+   "fetched_at": "2026-09-09T21:55:11Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-09-09T21:35:01Z"
+   "fetched_at": "2026-09-09T21:55:11Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-09-09T21:35:01Z"
+   "fetched_at": "2026-09-09T21:55:11Z"
   }
  },
  "orders": [
@@ -2817,8 +2817,8 @@
   },
   {
    "date": "2026-09-09",
-   "spend": 94.85,
-   "impressions": 3623,
+   "spend": 95.02,
+   "impressions": 3626,
    "clicks": 149,
    "ctr": 4.11,
    "cpc": 0.64,
@@ -2827,22 +2827,22 @@
   },
   {
    "date": "2026-09-10",
-   "spend": 8.94,
-   "impressions": 295,
-   "clicks": 15,
-   "ctr": 5.08,
-   "cpc": 0.6,
+   "spend": 10.48,
+   "impressions": 350,
+   "clicks": 19,
+   "ctr": 5.43,
+   "cpc": 0.55,
    "purchases": 0,
    "purchase_value": 0.0
   }
  ],
  "ads_today": {
   "date": "2026-09-10",
-  "spend": 8.94,
-  "impressions": 295,
-  "clicks": 15,
-  "ctr": 5.08,
-  "cpc": 0.6,
+  "spend": 10.48,
+  "impressions": 350,
+  "clicks": 19,
+  "ctr": 5.43,
+  "cpc": 0.55,
   "purchases": 0,
   "purchase_value": 0.0
  },
@@ -2851,12 +2851,12 @@
    "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
    "status": "ACTIVE",
    "daily_budget": 50.0,
-   "spend": 1268.55,
-   "impressions": 47849,
+   "spend": 1268.61,
+   "impressions": 47850,
    "clicks": 2394,
    "ctr": 5.0,
    "cpc": 0.53,
-   "roas": 3.5447,
+   "roas": 3.5445,
    "purchases": 18,
    "purchase_value": 4496.65,
    "atc": 69,
@@ -2866,12 +2866,12 @@
    "name": "Decor",
    "status": "ACTIVE",
    "daily_budget": 40.0,
-   "spend": 658.09,
-   "impressions": 27669,
+   "spend": 658.2,
+   "impressions": 27671,
    "clicks": 1650,
    "ctr": 5.96,
    "cpc": 0.4,
-   "roas": 0.8972,
+   "roas": 0.897,
    "purchases": 4,
    "purchase_value": 590.43,
    "atc": 35,
