@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-09T15:11:21Z",
-  "generated_at_local": "Thu 10 Sep 2026, 1:11am AEST",
+  "generated_at_utc": "2026-09-09T15:31:31Z",
+  "generated_at_local": "Thu 10 Sep 2026, 1:31am AEST",
   "today": "2026-09-10",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-09T15:11:21Z"
+    "fetched_at": "2026-09-09T15:31:31Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-09T15:11:21Z"
+    "fetched_at": "2026-09-09T15:31:31Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-09T15:11:21Z"
+    "fetched_at": "2026-09-09T15:31:31Z"
    }
   }
  },
@@ -369,26 +369,26 @@
  },
  "ads": {
   "today": {
-   "spend": 0.51,
+   "spend": 0.62,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 0,
-   "impressions": 37,
+   "clicks": 2,
+   "impressions": 48,
    "purchases": 0,
-   "cpc": 0.0,
-   "ctr": 0.0,
+   "cpc": 0.31,
+   "ctr": 4.17,
    "cpa": null
   },
   "d7": {
-   "spend": 530.08,
+   "spend": 530.19,
    "value": 1185.91,
    "roas": 2.24,
-   "clicks": 1023,
-   "impressions": 19609,
+   "clicks": 1025,
+   "impressions": 19621,
    "purchases": 6,
    "cpc": 0.52,
    "ctr": 5.22,
-   "cpa": 88.35
+   "cpa": 88.36
   },
   "prev7": {
    "spend": 614.07,
@@ -398,7 +398,7 @@
   "daily_budget_live": 90.0,
   "active_campaigns": 2,
   "dry_days": 3,
-  "dry_spend": 172.9,
+  "dry_spend": 173.01,
   "series": [
    {
     "date": "2026-08-28",
@@ -533,12 +533,12 @@
    {
     "date": "2026-09-10",
     "label": "10 Sep",
-    "spend": 0.51,
+    "spend": 0.62,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 0,
-    "ctr": 0.0,
-    "cpc": 0.0
+    "clicks": 2,
+    "ctr": 4.17,
+    "cpc": 0.31
    }
   ],
   "campaigns": [
@@ -562,7 +562,7 @@
     "status": "ACTIVE",
     "daily_budget": 40.0,
     "spend": 658.05,
-    "impressions": 27666,
+    "impressions": 27667,
     "clicks": 1650,
     "ctr": 5.96,
     "cpc": 0.4,
@@ -570,7 +570,7 @@
     "purchases": 4,
     "purchase_value": 590.43,
     "atc": 35,
-    "reach": 15685
+    "reach": 15706
    },
    {
     "name": "Lumara \u2014 Sales \u2014 Winners Broad CBO (Jul 2026)",
