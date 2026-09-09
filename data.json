@@ -3,28 +3,28 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-09T20:44:18Z",
-  "generated_at_local": "Thu 10 Sep 2026, 6:44am AEST",
+  "generated_at_utc": "2026-09-09T21:04:27Z",
+  "generated_at_local": "Thu 10 Sep 2026, 7:04am AEST",
   "today": "2026-09-10",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-09T20:44:18Z"
+    "fetched_at": "2026-09-09T21:04:27Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-09T20:44:18Z"
+    "fetched_at": "2026-09-09T21:04:27Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-09T20:44:18Z"
+    "fetched_at": "2026-09-09T21:04:27Z"
    }
   }
  },
  "alerts": [
   {
    "level": "critical",
-   "title": "$179 ad spend, 0 purchases (3 days)",
+   "title": "$180 ad spend, 0 purchases (3 days)",
    "body": "No store orders in that window either. 2 campaign(s) live at $90/day. Check pixel/tracking and landing pages before topping up budget."
   },
   {
@@ -40,7 +40,7 @@
   {
    "level": "warning",
    "title": "No orders for 3 days",
-   "body": "Last order was #1069 on 7 Sep. Ads have spent $179 since the last attributed purchase."
+   "body": "Last order was #1069 on 7 Sep. Ads have spent $180 since the last attributed purchase."
   },
   {
    "level": "warning",
@@ -369,26 +369,26 @@
  },
  "ads": {
   "today": {
-   "spend": 6.39,
+   "spend": 7.17,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 9,
-   "impressions": 195,
+   "clicks": 10,
+   "impressions": 230,
    "purchases": 0,
-   "cpc": 0.71,
-   "ctr": 4.62,
+   "cpc": 0.72,
+   "ctr": 4.35,
    "cpa": null
   },
   "d7": {
-   "spend": 536.11,
+   "spend": 536.91,
    "value": 1185.91,
    "roas": 2.21,
-   "clicks": 1032,
-   "impressions": 19773,
+   "clicks": 1033,
+   "impressions": 19809,
    "purchases": 6,
    "cpc": 0.52,
-   "ctr": 5.22,
-   "cpa": 89.35
+   "ctr": 5.21,
+   "cpa": 89.48
   },
   "prev7": {
    "spend": 614.07,
@@ -398,7 +398,7 @@
   "daily_budget_live": 90.0,
   "active_campaigns": 2,
   "dry_days": 3,
-  "dry_spend": 178.93,
+  "dry_spend": 179.73,
   "series": [
    {
     "date": "2026-08-28",
@@ -523,7 +523,7 @@
    {
     "date": "2026-09-09",
     "label": "9 Sep",
-    "spend": 94.81,
+    "spend": 94.83,
     "revenue": 0.0,
     "purchases": 0,
     "clicks": 149,
@@ -533,12 +533,12 @@
    {
     "date": "2026-09-10",
     "label": "10 Sep",
-    "spend": 6.39,
+    "spend": 7.17,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 9,
-    "ctr": 4.62,
-    "cpc": 0.71
+    "clicks": 10,
+    "ctr": 4.35,
+    "cpc": 0.72
    }
   ],
   "campaigns": [
@@ -561,8 +561,8 @@
     "name": "Decor",
     "status": "ACTIVE",
     "daily_budget": 40.0,
-    "spend": 658.05,
-    "impressions": 27667,
+    "spend": 658.07,
+    "impressions": 27668,
     "clicks": 1650,
     "ctr": 5.96,
     "cpc": 0.4,
