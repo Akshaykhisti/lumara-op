@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-09-09T03:39:38Z",
+ "generated_at_utc": "2026-09-09T03:59:50Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-09-09T03:39:38Z"
+   "fetched_at": "2026-09-09T03:59:50Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-09-09T03:39:38Z"
+   "fetched_at": "2026-09-09T03:59:50Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-09-09T03:39:38Z"
+   "fetched_at": "2026-09-09T03:59:50Z"
   }
  },
  "orders": [
@@ -152,7 +152,7 @@
    "createdAt": "2026-09-01T22:04:16Z",
    "financial": "PAID",
    "fulfillment": "FULFILLED",
-   "total": 125.4,
+   "total": 62.45,
    "customer": "Debbie Bryant",
    "items": [
     {
@@ -1660,11 +1660,11 @@
   {
    "title": "Lumara Welcome Farm Sign",
    "sku": "TY8012-2",
-   "qty": 0,
+   "qty": 1,
    "price": 69.95,
    "status": "ACTIVE",
    "tracked": true,
-   "available": false
+   "available": true
   },
   {
    "title": "Lumara Home Sweet Home Tractor Sign",
@@ -2827,22 +2827,22 @@
   },
   {
    "date": "2026-09-09",
-   "spend": 44.82,
-   "impressions": 1485,
-   "clicks": 61,
-   "ctr": 4.11,
-   "cpc": 0.73,
+   "spend": 46.79,
+   "impressions": 1548,
+   "clicks": 67,
+   "ctr": 4.33,
+   "cpc": 0.7,
    "purchases": 0,
    "purchase_value": 0.0
   }
  ],
  "ads_today": {
   "date": "2026-09-09",
-  "spend": 44.82,
-  "impressions": 1485,
-  "clicks": 61,
-  "ctr": 4.11,
-  "cpc": 0.73,
+  "spend": 46.79,
+  "impressions": 1548,
+  "clicks": 67,
+  "ctr": 4.33,
+  "cpc": 0.7,
   "purchases": 0,
   "purchase_value": 0.0
  },

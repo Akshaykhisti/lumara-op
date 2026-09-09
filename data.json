@@ -3,29 +3,29 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-09T03:39:38Z",
-  "generated_at_local": "Wed 9 Sep 2026, 1:39pm AEST",
+  "generated_at_utc": "2026-09-09T03:59:50Z",
+  "generated_at_local": "Wed 9 Sep 2026, 1:59pm AEST",
   "today": "2026-09-09",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-09T03:39:38Z"
+    "fetched_at": "2026-09-09T03:59:50Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-09T03:39:38Z"
+    "fetched_at": "2026-09-09T03:59:50Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-09T03:39:38Z"
+    "fetched_at": "2026-09-09T03:59:50Z"
    }
   }
  },
  "alerts": [
   {
    "level": "serious",
-   "title": "3 product(s) sold in the last 30d are out of stock",
-   "body": "Lumara Ashore Framed Canvas \u2014 Coastal 70 \u00d7 90 cm, Lumara Welcome Farm Sign, Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral. Still listed as active \u2014 they take traffic and convert nothing."
+   "title": "2 product(s) sold in the last 30d are out of stock",
+   "body": "Lumara Ashore Framed Canvas \u2014 Coastal 70 \u00d7 90 cm, Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral. Still listed as active \u2014 they take traffic and convert nothing."
   },
   {
    "level": "serious",
@@ -35,12 +35,12 @@
   {
    "level": "warning",
    "title": "No orders for 2 days",
-   "body": "Last order was #1069 on 7 Sep. Ads have spent $122 since the last attributed purchase."
+   "body": "Last order was #1069 on 7 Sep. Ads have spent $124 since the last attributed purchase."
   },
   {
    "level": "warning",
-   "title": "4 product(s) at 3 units or fewer",
-   "body": "Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass (1), Table Swag Olive Candelabra (2), Lumara Alegra Statement Vase \u2014 Sculptural Metal (3), Lumara Olive Mediterranean Candelabra \u2014 Sculptural Metal Centrepiece (3)"
+   "title": "5 product(s) at 3 units or fewer",
+   "body": "Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass (1), Lumara Welcome Farm Sign (1), Table Swag Olive Candelabra (2), Lumara Alegra Statement Vase \u2014 Sculptural Metal (3)"
   }
  ],
  "sales": {
@@ -56,11 +56,11 @@
   },
   "d30": {
    "orders": 28,
-   "revenue": 6295.02,
-   "aov": 224.82
+   "revenue": 6232.07,
+   "aov": 222.57
   },
-  "prev7_revenue": 1925.21,
-  "wow_pct": -27.4,
+  "prev7_revenue": 1862.26,
+  "wow_pct": -24.9,
   "pending_fulfilment": 1,
   "pending_orders": [
    {
@@ -216,7 +216,7 @@
     "date": "2026-09-02",
     "label": "2 Sep",
     "orders": 3,
-    "revenue": 436.4
+    "revenue": 373.45
    },
    {
     "date": "2026-09-03",
@@ -364,26 +364,26 @@
  },
  "ads": {
   "today": {
-   "spend": 44.82,
+   "spend": 46.79,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 61,
-   "impressions": 1485,
+   "clicks": 67,
+   "impressions": 1548,
    "purchases": 0,
-   "cpc": 0.73,
-   "ctr": 4.11,
+   "cpc": 0.7,
+   "ctr": 4.33,
    "cpa": null
   },
   "d7": {
-   "spend": 567.65,
+   "spend": 569.62,
    "value": 1185.91,
-   "roas": 2.09,
-   "clicks": 1081,
-   "impressions": 20284,
+   "roas": 2.08,
+   "clicks": 1087,
+   "impressions": 20347,
    "purchases": 6,
-   "cpc": 0.53,
-   "ctr": 5.33,
-   "cpa": 94.61
+   "cpc": 0.52,
+   "ctr": 5.34,
+   "cpa": 94.94
   },
   "prev7": {
    "spend": 607.39,
@@ -393,7 +393,7 @@
   "daily_budget_live": 90.0,
   "active_campaigns": 2,
   "dry_days": 2,
-  "dry_spend": 122.5,
+  "dry_spend": 124.47,
   "series": [
    {
     "date": "2026-08-27",
@@ -528,12 +528,12 @@
    {
     "date": "2026-09-09",
     "label": "9 Sep",
-    "spend": 44.82,
+    "spend": 46.79,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 61,
-    "ctr": 4.11,
-    "cpc": 0.73
+    "clicks": 67,
+    "ctr": 4.33,
+    "cpc": 0.7
    }
   ],
   "campaigns": [
@@ -662,12 +662,12 @@
  "stock": {
   "sellable_skus": 136,
   "tracked_skus": 84,
-  "out_of_stock": 6,
-  "low": 4,
+  "out_of_stock": 5,
+  "low": 5,
   "watch": 2,
   "healthy": 72,
   "untracked": 52,
-  "stock_value": 88201.85,
+  "stock_value": 88271.8,
   "oos_list": [
    {
     "title": "Lumara Nishi Table Lamp \u2014 Contemporary Ceramic Style",
@@ -710,16 +710,6 @@
     "sold_30d": 0
    },
    {
-    "title": "Lumara Welcome Farm Sign",
-    "sku": "TY8012-2",
-    "qty": 0,
-    "price": 69.95,
-    "status": "ACTIVE",
-    "tracked": true,
-    "available": false,
-    "sold_30d": 1
-   },
-   {
     "title": "Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral",
     "sku": "CN7142-1",
     "qty": 0,
@@ -740,16 +730,6 @@
     "tracked": true,
     "available": false,
     "sold_30d": 2
-   },
-   {
-    "title": "Lumara Welcome Farm Sign",
-    "sku": "TY8012-2",
-    "qty": 0,
-    "price": 69.95,
-    "status": "ACTIVE",
-    "tracked": true,
-    "available": false,
-    "sold_30d": 1
    },
    {
     "title": "Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral",
@@ -773,6 +753,17 @@
     "available": true,
     "sold_30d": 0,
     "days_cover": null
+   },
+   {
+    "title": "Lumara Welcome Farm Sign",
+    "sku": "TY8012-2",
+    "qty": 1,
+    "price": 69.95,
+    "status": "ACTIVE",
+    "tracked": true,
+    "available": true,
+    "sold_30d": 1,
+    "days_cover": 30.0
    },
    {
     "title": "Table Swag Olive Candelabra",
