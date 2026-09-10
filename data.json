@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-10T08:30:30Z",
-  "generated_at_local": "Thu 10 Sep 2026, 6:30pm AEST",
+  "generated_at_utc": "2026-09-10T08:50:38Z",
+  "generated_at_local": "Thu 10 Sep 2026, 6:50pm AEST",
   "today": "2026-09-10",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-10T08:30:30Z"
+    "fetched_at": "2026-09-10T08:50:38Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-10T08:30:30Z"
+    "fetched_at": "2026-09-10T08:50:38Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-10T08:30:30Z"
+    "fetched_at": "2026-09-10T08:50:38Z"
    }
   }
  },
@@ -71,8 +71,8 @@
     "customer": "Sara Smyth-King"
    }
   ],
-  "abandoned_checkouts": 5,
-  "customers_total": 96,
+  "abandoned_checkouts": 7,
+  "customers_total": 97,
   "days_since_order": 0,
   "last_order": {
    "name": "#1070",
@@ -365,26 +365,26 @@
  },
  "ads": {
   "today": {
-   "spend": 59.06,
+   "spend": 60.98,
    "value": 66.95,
-   "roas": 1.13,
-   "clicks": 103,
-   "impressions": 2156,
+   "roas": 1.1,
+   "clicks": 107,
+   "impressions": 2212,
    "purchases": 1,
    "cpc": 0.57,
-   "ctr": 4.78,
-   "cpa": 59.06
+   "ctr": 4.84,
+   "cpa": 60.98
   },
   "d7": {
-   "spend": 588.99,
+   "spend": 590.91,
    "value": 1252.86,
-   "roas": 2.13,
-   "clicks": 1126,
-   "impressions": 21742,
+   "roas": 2.12,
+   "clicks": 1130,
+   "impressions": 21798,
    "purchases": 7,
    "cpc": 0.52,
    "ctr": 5.18,
-   "cpa": 84.14
+   "cpa": 84.42
   },
   "prev7": {
    "spend": 614.07,
@@ -529,11 +529,11 @@
    {
     "date": "2026-09-10",
     "label": "10 Sep",
-    "spend": 59.06,
+    "spend": 60.98,
     "revenue": 66.95,
     "purchases": 1,
-    "clicks": 103,
-    "ctr": 4.78,
+    "clicks": 107,
+    "ctr": 4.84,
     "cpc": 0.57
    }
   ],
