@@ -3,28 +3,28 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-10T05:34:06Z",
-  "generated_at_local": "Thu 10 Sep 2026, 3:34pm AEST",
+  "generated_at_utc": "2026-09-10T05:54:16Z",
+  "generated_at_local": "Thu 10 Sep 2026, 3:54pm AEST",
   "today": "2026-09-10",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-10T05:34:06Z"
+    "fetched_at": "2026-09-10T05:54:16Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-10T05:34:06Z"
+    "fetched_at": "2026-09-10T05:54:16Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-10T05:34:06Z"
+    "fetched_at": "2026-09-10T05:54:16Z"
    }
   }
  },
  "alerts": [
   {
    "level": "critical",
-   "title": "$217 ad spend, 0 purchases (3 days)",
+   "title": "$218 ad spend, 0 purchases (3 days)",
    "body": "No store orders in that window either. 2 campaign(s) live at $90/day. Check pixel/tracking and landing pages before topping up budget."
   },
   {
@@ -40,7 +40,7 @@
   {
    "level": "warning",
    "title": "No orders for 3 days",
-   "body": "Last order was #1069 on 7 Sep. Ads have spent $217 since the last attributed purchase."
+   "body": "Last order was #1069 on 7 Sep. Ads have spent $218 since the last attributed purchase."
   },
   {
    "level": "warning",
@@ -75,8 +75,8 @@
     "customer": "Jane MacKinnell"
    }
   ],
-  "abandoned_checkouts": 3,
-  "customers_total": 94,
+  "abandoned_checkouts": 5,
+  "customers_total": 95,
   "days_since_order": 3,
   "last_order": {
    "name": "#1069",
@@ -369,26 +369,26 @@
  },
  "ads": {
   "today": {
-   "spend": 44.31,
+   "spend": 45.53,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 79,
-   "impressions": 1567,
+   "clicks": 81,
+   "impressions": 1613,
    "purchases": 0,
    "cpc": 0.56,
-   "ctr": 5.04,
+   "ctr": 5.02,
    "cpa": null
   },
   "d7": {
-   "spend": 574.24,
+   "spend": 575.46,
    "value": 1185.91,
-   "roas": 2.07,
-   "clicks": 1102,
-   "impressions": 21152,
+   "roas": 2.06,
+   "clicks": 1104,
+   "impressions": 21198,
    "purchases": 6,
    "cpc": 0.52,
    "ctr": 5.21,
-   "cpa": 95.71
+   "cpa": 95.91
   },
   "prev7": {
    "spend": 614.07,
@@ -398,7 +398,7 @@
   "daily_budget_live": 90.0,
   "active_campaigns": 2,
   "dry_days": 3,
-  "dry_spend": 217.06,
+  "dry_spend": 218.28,
   "series": [
    {
     "date": "2026-08-28",
@@ -533,11 +533,11 @@
    {
     "date": "2026-09-10",
     "label": "10 Sep",
-    "spend": 44.31,
+    "spend": 45.53,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 79,
-    "ctr": 5.04,
+    "clicks": 81,
+    "ctr": 5.02,
     "cpc": 0.56
    }
   ],
