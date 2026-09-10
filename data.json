@@ -3,29 +3,29 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-10T07:30:04Z",
-  "generated_at_local": "Thu 10 Sep 2026, 5:30pm AEST",
+  "generated_at_utc": "2026-09-10T07:50:13Z",
+  "generated_at_local": "Thu 10 Sep 2026, 5:50pm AEST",
   "today": "2026-09-10",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-10T07:30:04Z"
+    "fetched_at": "2026-09-10T07:50:13Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-10T07:30:04Z"
+    "fetched_at": "2026-09-10T07:50:13Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-10T07:30:04Z"
+    "fetched_at": "2026-09-10T07:50:13Z"
    }
   }
  },
  "alerts": [
   {
-   "level": "critical",
-   "title": "$227 ad spend, 0 purchases (3 days)",
-   "body": "No store orders in that window either. 2 campaign(s) live at $90/day. Check pixel/tracking and landing pages before topping up budget."
+   "level": "serious",
+   "title": "$228 ad spend, 0 Meta-attributed purchases (3 days)",
+   "body": "The store DID take 1 order(s) worth $67 in that window \u2014 Meta just isn't claiming any of them. Either they're organic/direct sales, or the pixel is missing purchases. Worth checking Events Manager before reading this as zero conversion."
   },
   {
    "level": "serious",
@@ -34,55 +34,56 @@
   },
   {
    "level": "serious",
-   "title": "1 paid order(s) awaiting fulfilment",
-   "body": "#1067"
+   "title": "2 paid order(s) awaiting fulfilment",
+   "body": "#1067, #1070"
   },
   {
    "level": "warning",
-   "title": "No orders for 3 days",
-   "body": "Last order was #1069 on 7 Sep. Ads have spent $227 since the last attributed purchase."
-  },
-  {
-   "level": "warning",
-   "title": "5 product(s) at 3 units or fewer",
+   "title": "6 product(s) at 3 units or fewer",
    "body": "Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass (1), Lumara Welcome Farm Sign (1), Table Swag Olive Candelabra (2), Lumara Alegra Statement Vase \u2014 Sculptural Metal (3)"
   }
  ],
  "sales": {
   "today": {
-   "orders": 0,
-   "revenue": 0.0,
-   "aov": 0.0
+   "orders": 1,
+   "revenue": 66.95,
+   "aov": 66.95
   },
   "d7": {
-   "orders": 7,
-   "revenue": 1398.46,
-   "aov": 199.78
+   "orders": 8,
+   "revenue": 1465.41,
+   "aov": 183.18
   },
   "d30": {
-   "orders": 28,
-   "revenue": 6232.07,
-   "aov": 222.57
+   "orders": 29,
+   "revenue": 6299.02,
+   "aov": 217.21
   },
   "prev7_revenue": 1862.26,
-  "wow_pct": -24.9,
-  "pending_fulfilment": 1,
+  "wow_pct": -21.3,
+  "pending_fulfilment": 2,
   "pending_orders": [
    {
     "name": "#1067",
     "createdAt": "2026-09-05T01:09:58Z",
     "total": 179.98,
     "customer": "Jane MacKinnell"
+   },
+   {
+    "name": "#1070",
+    "createdAt": "2026-09-10T07:42:47Z",
+    "total": 66.95,
+    "customer": "Sara Smyth-King"
    }
   ],
   "abandoned_checkouts": 5,
-  "customers_total": 95,
-  "days_since_order": 3,
+  "customers_total": 96,
+  "days_since_order": 0,
   "last_order": {
-   "name": "#1069",
-   "when": "7 sep, 9:28am",
-   "total": 212.55,
-   "customer": "Frances Simpson"
+   "name": "#1070",
+   "when": "10 sep, 5:42pm",
+   "total": 66.95,
+   "customer": "Sara Smyth-King"
   },
   "daily": [
    {
@@ -262,11 +263,20 @@
    {
     "date": "2026-09-10",
     "label": "10 Sep",
-    "orders": 0,
-    "revenue": 0.0
+    "orders": 1,
+    "revenue": 66.95
    }
   ],
   "recent": [
+   {
+    "name": "#1070",
+    "when": "10 sep, 5:42pm",
+    "total": 66.95,
+    "customer": "Sara Smyth-King",
+    "fulfillment": "UNFULFILLED",
+    "financial": "PAID",
+    "items": "Lumara Baroque Heart Wall Art \u2014 Gold"
+   },
    {
     "name": "#1069",
     "when": "7 sep, 9:28am",
@@ -329,15 +339,6 @@
     "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Lumara Olive Mediterranean Candelabra \u2014 Sculptural Metal Centrepiece"
-   },
-   {
-    "name": "#1062",
-    "when": "2 sep, 4:51pm",
-    "total": 212.55,
-    "customer": "Nicala Harris",
-    "fulfillment": "FULFILLED",
-    "financial": "PAID",
-    "items": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze"
    }
   ],
   "top_sellers": [
@@ -369,26 +370,26 @@
  },
  "ads": {
   "today": {
-   "spend": 54.21,
+   "spend": 55.38,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 94,
-   "impressions": 1951,
+   "clicks": 97,
+   "impressions": 2014,
    "purchases": 0,
-   "cpc": 0.58,
+   "cpc": 0.57,
    "ctr": 4.82,
    "cpa": null
   },
   "d7": {
-   "spend": 584.14,
+   "spend": 585.31,
    "value": 1185.91,
    "roas": 2.03,
-   "clicks": 1117,
-   "impressions": 21536,
+   "clicks": 1120,
+   "impressions": 21599,
    "purchases": 6,
    "cpc": 0.52,
    "ctr": 5.19,
-   "cpa": 97.36
+   "cpa": 97.55
   },
   "prev7": {
    "spend": 614.07,
@@ -398,7 +399,7 @@
   "daily_budget_live": 90.0,
   "active_campaigns": 2,
   "dry_days": 3,
-  "dry_spend": 226.96,
+  "dry_spend": 228.13,
   "series": [
    {
     "date": "2026-08-28",
@@ -533,12 +534,12 @@
    {
     "date": "2026-09-10",
     "label": "10 Sep",
-    "spend": 54.21,
+    "spend": 55.38,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 94,
+    "clicks": 97,
     "ctr": 4.82,
-    "cpc": 0.58
+    "cpc": 0.57
    }
   ],
   "campaigns": [
@@ -668,11 +669,11 @@
   "sellable_skus": 136,
   "tracked_skus": 84,
   "out_of_stock": 5,
-  "low": 5,
-  "watch": 2,
+  "low": 6,
+  "watch": 1,
   "healthy": 72,
   "untracked": 52,
-  "stock_value": 88271.8,
+  "stock_value": 88211.81,
   "oos_list": [
    {
     "title": "Lumara Nishi Table Lamp \u2014 Contemporary Ceramic Style",
@@ -806,13 +807,13 @@
    {
     "title": "Lumara Baroque Heart Wall Art \u2014 Gold",
     "sku": "BL7808-1",
-    "qty": 4,
+    "qty": 3,
     "price": 59.99,
     "status": "ACTIVE",
     "tracked": true,
     "available": true,
-    "sold_30d": 0,
-    "days_cover": null
+    "sold_30d": 1,
+    "days_cover": 90.0
    },
    {
     "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",

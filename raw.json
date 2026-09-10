@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-09-10T07:30:04Z",
+ "generated_at_utc": "2026-09-10T07:50:13Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,18 +9,32 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-09-10T07:30:04Z"
+   "fetched_at": "2026-09-10T07:50:13Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-09-10T07:30:04Z"
+   "fetched_at": "2026-09-10T07:50:13Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-09-10T07:30:04Z"
+   "fetched_at": "2026-09-10T07:50:13Z"
   }
  },
  "orders": [
+  {
+   "name": "#1070",
+   "createdAt": "2026-09-10T07:42:47Z",
+   "financial": "PAID",
+   "fulfillment": "UNFULFILLED",
+   "total": 66.95,
+   "customer": "Sara Smyth-King",
+   "items": [
+    {
+     "title": "Lumara Baroque Heart Wall Art \u2014 Gold",
+     "quantity": 1
+    }
+   ]
+  },
   {
    "name": "#1069",
    "createdAt": "2026-09-06T23:28:49Z",
@@ -428,9 +442,15 @@
    "createdAt": "2026-09-05T01:09:58Z",
    "total": 179.98,
    "customer": "Jane MacKinnell"
+  },
+  {
+   "name": "#1070",
+   "createdAt": "2026-09-10T07:42:47Z",
+   "total": 66.95,
+   "customer": "Sara Smyth-King"
   }
  ],
- "customers_total": 95,
+ "customers_total": 96,
  "abandoned_checkouts_recent": 5,
  "inventory": [
   {
@@ -1696,7 +1716,7 @@
   {
    "title": "Lumara Baroque Heart Wall Art \u2014 Gold",
    "sku": "BL7808-1",
-   "qty": 4,
+   "qty": 3,
    "price": 59.99,
    "status": "ACTIVE",
    "tracked": true,
@@ -2827,22 +2847,22 @@
   },
   {
    "date": "2026-09-10",
-   "spend": 54.21,
-   "impressions": 1951,
-   "clicks": 94,
+   "spend": 55.38,
+   "impressions": 2014,
+   "clicks": 97,
    "ctr": 4.82,
-   "cpc": 0.58,
+   "cpc": 0.57,
    "purchases": 0,
    "purchase_value": 0.0
   }
  ],
  "ads_today": {
   "date": "2026-09-10",
-  "spend": 54.21,
-  "impressions": 1951,
-  "clicks": 94,
+  "spend": 55.38,
+  "impressions": 2014,
+  "clicks": 97,
   "ctr": 4.82,
-  "cpc": 0.58,
+  "cpc": 0.57,
   "purchases": 0,
   "purchase_value": 0.0
  },
