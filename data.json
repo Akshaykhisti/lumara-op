@@ -3,28 +3,28 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-10T07:50:13Z",
-  "generated_at_local": "Thu 10 Sep 2026, 5:50pm AEST",
+  "generated_at_utc": "2026-09-10T08:10:21Z",
+  "generated_at_local": "Thu 10 Sep 2026, 6:10pm AEST",
   "today": "2026-09-10",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-10T07:50:13Z"
+    "fetched_at": "2026-09-10T08:10:21Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-10T07:50:13Z"
+    "fetched_at": "2026-09-10T08:10:21Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-10T07:50:13Z"
+    "fetched_at": "2026-09-10T08:10:21Z"
    }
   }
  },
  "alerts": [
   {
    "level": "serious",
-   "title": "$228 ad spend, 0 Meta-attributed purchases (3 days)",
+   "title": "$230 ad spend, 0 Meta-attributed purchases (3 days)",
    "body": "The store DID take 1 order(s) worth $67 in that window \u2014 Meta just isn't claiming any of them. Either they're organic/direct sales, or the pixel is missing purchases. Worth checking Events Manager before reading this as zero conversion."
   },
   {
@@ -370,26 +370,26 @@
  },
  "ads": {
   "today": {
-   "spend": 55.38,
+   "spend": 56.9,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 97,
-   "impressions": 2014,
+   "clicks": 99,
+   "impressions": 2090,
    "purchases": 0,
    "cpc": 0.57,
-   "ctr": 4.82,
+   "ctr": 4.74,
    "cpa": null
   },
   "d7": {
-   "spend": 585.31,
+   "spend": 586.83,
    "value": 1185.91,
-   "roas": 2.03,
-   "clicks": 1120,
-   "impressions": 21599,
+   "roas": 2.02,
+   "clicks": 1122,
+   "impressions": 21676,
    "purchases": 6,
    "cpc": 0.52,
-   "ctr": 5.19,
-   "cpa": 97.55
+   "ctr": 5.18,
+   "cpa": 97.81
   },
   "prev7": {
    "spend": 614.07,
@@ -399,7 +399,7 @@
   "daily_budget_live": 90.0,
   "active_campaigns": 2,
   "dry_days": 3,
-  "dry_spend": 228.13,
+  "dry_spend": 229.65,
   "series": [
    {
     "date": "2026-08-28",
@@ -534,11 +534,11 @@
    {
     "date": "2026-09-10",
     "label": "10 Sep",
-    "spend": 55.38,
+    "spend": 56.9,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 97,
-    "ctr": 4.82,
+    "clicks": 99,
+    "ctr": 4.74,
     "cpc": 0.57
    }
   ],
@@ -548,7 +548,7 @@
     "status": "ACTIVE",
     "daily_budget": 50.0,
     "spend": 1268.61,
-    "impressions": 47851,
+    "impressions": 47852,
     "clicks": 2394,
     "ctr": 5.0,
     "cpc": 0.53,
