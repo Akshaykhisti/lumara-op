@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-09-11T13:43:10Z",
+ "generated_at_utc": "2026-09-11T14:03:22Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-09-11T13:43:10Z"
+   "fetched_at": "2026-09-11T14:03:22Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-09-11T13:43:10Z"
+   "fetched_at": "2026-09-11T14:03:22Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-09-11T13:43:10Z"
+   "fetched_at": "2026-09-11T14:03:22Z"
   }
  },
  "orders": [
@@ -459,7 +459,7 @@
   }
  ],
  "customers_total": 98,
- "abandoned_checkouts_recent": 7,
+ "abandoned_checkouts_recent": 6,
  "inventory": [
   {
    "title": "Lumara Cayman Rattan Table Lamp \u2014 Coastal Natural Style",
@@ -2714,16 +2714,6 @@
  ],
  "ads_daily": [
   {
-   "date": "2026-08-28",
-   "spend": 80.97,
-   "impressions": 2211,
-   "clicks": 129,
-   "ctr": 5.83,
-   "cpc": 0.63,
-   "purchases": 3,
-   "purchase_value": 424.49
-  },
-  {
    "date": "2026-08-29",
    "spend": 58.5,
    "impressions": 2079,
@@ -2855,70 +2845,80 @@
   },
   {
    "date": "2026-09-11",
-   "spend": 94.39,
-   "impressions": 3103,
+   "spend": 94.58,
+   "impressions": 3118,
    "clicks": 143,
-   "ctr": 4.61,
+   "ctr": 4.59,
    "cpc": 0.66,
    "purchases": 1,
    "purchase_value": 212.55
+  },
+  {
+   "date": "2026-09-12",
+   "spend": 0.0,
+   "impressions": 0,
+   "clicks": 0,
+   "ctr": 0.0,
+   "cpc": 0.0,
+   "purchases": 0,
+   "purchase_value": 0.0
   }
  ],
  "ads_today": {
-  "date": "2026-09-11",
-  "spend": 94.39,
-  "impressions": 3103,
-  "clicks": 143,
-  "ctr": 4.61,
-  "cpc": 0.66,
-  "purchases": 1,
-  "purchase_value": 212.55
+  "date": "2026-09-12",
+  "spend": 0.0,
+  "impressions": 0,
+  "clicks": 0,
+  "ctr": 0.0,
+  "cpc": 0.0,
+  "purchases": 0,
+  "purchase_value": 0.0
  },
  "ads_campaigns": [
   {
    "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
    "status": "ACTIVE",
    "daily_budget": 90.0,
-   "spend": 1282.46,
-   "impressions": 48539,
-   "clicks": 2432,
-   "ctr": 5.01,
+   "spend": 1322.42,
+   "impressions": 49993,
+   "clicks": 2512,
+   "ctr": 5.02,
    "cpc": 0.53,
-   "roas": 3.5063,
-   "purchases": 18,
-   "purchase_value": 4496.65,
-   "atc": 70,
-   "reach": 27352
+   "roas": 3.561,
+   "purchases": 19,
+   "purchase_value": 4709.2,
+   "atc": 71,
+   "reach": 27638
   },
   {
    "name": "Decor",
    "status": "PAUSED",
    "daily_budget": 4.0,
-   "spend": 693.08,
-   "impressions": 29132,
-   "clicks": 1713,
-   "ctr": 5.88,
-   "cpc": 0.4,
-   "roas": 0.9485,
+   "spend": 718.9,
+   "impressions": 29856,
+   "clicks": 1738,
+   "ctr": 5.82,
+   "cpc": 0.41,
+   "roas": 0.9144,
    "purchases": 5,
    "purchase_value": 657.38,
-   "atc": 37,
-   "reach": 16315
+   "atc": 39,
+   "reach": 16590
   },
   {
    "name": "Lumara \u2014 Sales \u2014 Winners Broad CBO (Jul 2026)",
    "status": "PAUSED",
    "daily_budget": 30.0,
-   "spend": 312.23,
-   "impressions": 12731,
-   "clicks": 483,
-   "ctr": 3.79,
-   "cpc": 0.65,
-   "roas": 0.6084,
+   "spend": 284.46,
+   "impressions": 11669,
+   "clicks": 450,
+   "ctr": 3.86,
+   "cpc": 0.63,
+   "roas": 0.6678,
    "purchases": 1,
    "purchase_value": 189.95,
-   "atc": 6,
-   "reach": 8464
+   "atc": 5,
+   "reach": 7839
   },
   {
    "name": "Lumara \u2014 Lamps \u2014 KG Gap (Jul 2026)",
