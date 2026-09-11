@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-11T15:34:33Z",
-  "generated_at_local": "Sat 12 Sep 2026, 1:34am AEST",
+  "generated_at_utc": "2026-09-11T15:54:47Z",
+  "generated_at_local": "Sat 12 Sep 2026, 1:54am AEST",
   "today": "2026-09-12",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-11T15:34:33Z"
+    "fetched_at": "2026-09-11T15:54:47Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-11T15:34:33Z"
+    "fetched_at": "2026-09-11T15:54:47Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-11T15:34:33Z"
+    "fetched_at": "2026-09-11T15:54:47Z"
    }
   }
  },
@@ -359,26 +359,26 @@
  },
  "ads": {
   "today": {
-   "spend": 0.38,
+   "spend": 0.46,
    "value": 0.0,
    "roas": 0.0,
    "clicks": 1,
-   "impressions": 21,
+   "impressions": 24,
    "purchases": 0,
-   "cpc": 0.38,
-   "ctr": 4.76,
+   "cpc": 0.46,
+   "ctr": 4.17,
    "cpa": null
   },
   "d7": {
-   "spend": 551.96,
+   "spend": 552.08,
    "value": 492.05,
    "roas": 0.89,
    "clicks": 1035,
-   "impressions": 20305,
+   "impressions": 20309,
    "purchases": 3,
    "cpc": 0.53,
    "ctr": 5.1,
-   "cpa": 183.99
+   "cpa": 184.03
   },
   "prev7": {
    "spend": 628.3,
@@ -388,7 +388,7 @@
   "daily_budget_live": 90.0,
   "active_campaigns": 1,
   "dry_days": 1,
-  "dry_spend": 0.38,
+  "dry_spend": 0.46,
   "series": [
    {
     "date": "2026-08-30",
@@ -513,7 +513,7 @@
    {
     "date": "2026-09-11",
     "label": "11 Sep",
-    "spend": 95.41,
+    "spend": 95.45,
     "revenue": 212.55,
     "purchases": 1,
     "clicks": 143,
@@ -523,12 +523,12 @@
    {
     "date": "2026-09-12",
     "label": "12 Sep",
-    "spend": 0.38,
+    "spend": 0.46,
     "revenue": 0.0,
     "purchases": 0,
     "clicks": 1,
-    "ctr": 4.76,
-    "cpc": 0.38
+    "ctr": 4.17,
+    "cpc": 0.46
    }
   ],
   "campaigns": [
@@ -536,12 +536,12 @@
     "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
     "status": "ACTIVE",
     "daily_budget": 90.0,
-    "spend": 1323.21,
-    "impressions": 50008,
+    "spend": 1323.25,
+    "impressions": 50009,
     "clicks": 2512,
     "ctr": 5.02,
     "cpc": 0.53,
-    "roas": 3.5589,
+    "roas": 3.5588,
     "purchases": 19,
     "purchase_value": 4709.2,
     "atc": 71,
