@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-12T23:36:13Z",
-  "generated_at_local": "Sun 13 Sep 2026, 9:36am AEST",
+  "generated_at_utc": "2026-09-12T23:56:23Z",
+  "generated_at_local": "Sun 13 Sep 2026, 9:56am AEST",
   "today": "2026-09-13",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-12T23:36:13Z"
+    "fetched_at": "2026-09-12T23:56:23Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-12T23:36:13Z"
+    "fetched_at": "2026-09-12T23:56:23Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-12T23:36:13Z"
+    "fetched_at": "2026-09-12T23:56:23Z"
    }
   }
  },
@@ -29,55 +29,56 @@
   },
   {
    "level": "serious",
-   "title": "1 paid order(s) awaiting fulfilment",
-   "body": "#1067"
+   "title": "2 paid order(s) awaiting fulfilment",
+   "body": "#1067, #1072"
   },
   {
    "level": "warning",
-   "title": "No orders for 2 days",
-   "body": "Last order was #1071 on 11 Sep. Ads have spent $104 since the last attributed purchase."
-  },
-  {
-   "level": "warning",
-   "title": "6 product(s) at 3 units or fewer",
-   "body": "Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass (1), Lumara Welcome Farm Sign (1), Table Swag Olive Candelabra (2), Lumara Alegra Statement Vase \u2014 Sculptural Metal (3)"
+   "title": "7 product(s) at 3 units or fewer",
+   "body": "Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass (1), Lumara Welcome Farm Sign (1), Table Swag Olive Candelabra (2), Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze (3)"
   }
  ],
  "sales": {
   "today": {
-   "orders": 0,
-   "revenue": 0.0,
-   "aov": 0.0
+   "orders": 1,
+   "revenue": 212.55,
+   "aov": 212.55
   },
   "d7": {
-   "orders": 3,
-   "revenue": 492.05,
-   "aov": 164.02
+   "orders": 4,
+   "revenue": 704.6,
+   "aov": 176.15
   },
   "d30": {
-   "orders": 29,
-   "revenue": 6321.62,
-   "aov": 217.99
+   "orders": 30,
+   "revenue": 6534.17,
+   "aov": 217.81
   },
   "prev7_revenue": 1963.2,
-  "wow_pct": -74.9,
-  "pending_fulfilment": 1,
+  "wow_pct": -64.1,
+  "pending_fulfilment": 2,
   "pending_orders": [
    {
     "name": "#1067",
     "createdAt": "2026-09-05T01:09:58Z",
     "total": 179.98,
     "customer": "Jane MacKinnell"
+   },
+   {
+    "name": "#1072",
+    "createdAt": "2026-09-12T23:41:43Z",
+    "total": 212.55,
+    "customer": "Nicole Dixon"
    }
   ],
   "abandoned_checkouts": 6,
-  "customers_total": 98,
-  "days_since_order": 2,
+  "customers_total": 99,
+  "days_since_order": 0,
   "last_order": {
-   "name": "#1071",
-   "when": "11 sep, 8:32pm",
+   "name": "#1072",
+   "when": "13 sep, 9:41am",
    "total": 212.55,
-   "customer": "Tarriann Langford"
+   "customer": "Nicole Dixon"
   },
   "daily": [
    {
@@ -257,11 +258,20 @@
    {
     "date": "2026-09-13",
     "label": "13 Sep",
-    "orders": 0,
-    "revenue": 0.0
+    "orders": 1,
+    "revenue": 212.55
    }
   ],
   "recent": [
+   {
+    "name": "#1072",
+    "when": "13 sep, 9:41am",
+    "total": 212.55,
+    "customer": "Nicole Dixon",
+    "fulfillment": "UNFULFILLED",
+    "financial": "PAID",
+    "items": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze"
+   },
    {
     "name": "#1071",
     "when": "11 sep, 8:32pm",
@@ -324,21 +334,12 @@
     "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze"
-   },
-   {
-    "name": "#1064",
-    "when": "4 sep, 1:29pm",
-    "total": 212.55,
-    "customer": "Maree Lackey",
-    "fulfillment": "FULFILLED",
-    "financial": "PAID",
-    "items": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze"
    }
   ],
   "top_sellers": [
    {
     "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
-    "units": 16
+    "units": 17
    },
    {
     "title": "Lumara Hurricane Candle Holder Moss \u2014 Organic Green Ceramic",
@@ -364,26 +365,26 @@
  },
  "ads": {
   "today": {
-   "spend": 17.87,
+   "spend": 23.55,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 27,
-   "impressions": 550,
+   "clicks": 35,
+   "impressions": 629,
    "purchases": 0,
-   "cpc": 0.66,
-   "ctr": 4.91,
+   "cpc": 0.67,
+   "ctr": 5.56,
    "cpa": null
   },
   "d7": {
-   "spend": 541.91,
+   "spend": 547.59,
    "value": 492.05,
-   "roas": 0.91,
-   "clicks": 987,
-   "impressions": 20148,
+   "roas": 0.9,
+   "clicks": 995,
+   "impressions": 20227,
    "purchases": 3,
    "cpc": 0.55,
-   "ctr": 4.9,
-   "cpa": 180.64
+   "ctr": 4.92,
+   "cpa": 182.53
   },
   "prev7": {
    "spend": 634.1,
@@ -393,7 +394,7 @@
   "daily_budget_live": 90.0,
   "active_campaigns": 1,
   "dry_days": 2,
-  "dry_spend": 103.88,
+  "dry_spend": 109.56,
   "series": [
    {
     "date": "2026-08-31",
@@ -528,12 +529,12 @@
    {
     "date": "2026-09-13",
     "label": "13 Sep",
-    "spend": 17.87,
+    "spend": 23.55,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 27,
-    "ctr": 4.91,
-    "cpc": 0.66
+    "clicks": 35,
+    "ctr": 5.56,
+    "cpc": 0.67
    }
   ],
   "campaigns": [
@@ -663,11 +664,11 @@
   "sellable_skus": 136,
   "tracked_skus": 84,
   "out_of_stock": 5,
-  "low": 6,
-  "watch": 1,
+  "low": 7,
+  "watch": 0,
   "healthy": 72,
   "untracked": 52,
-  "stock_value": 87997.82,
+  "stock_value": 87783.83,
   "oos_list": [
    {
     "title": "Lumara Nishi Table Lamp \u2014 Contemporary Ceramic Style",
@@ -777,6 +778,17 @@
     "days_cover": null
    },
    {
+    "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
+    "sku": "LH-TL-009",
+    "qty": 3,
+    "price": 213.99,
+    "status": "ACTIVE",
+    "tracked": true,
+    "available": true,
+    "sold_30d": 17,
+    "days_cover": 5.3
+   },
+   {
     "title": "Lumara Alegra Statement Vase \u2014 Sculptural Metal",
     "sku": "QA5813-2",
     "qty": 3,
@@ -808,17 +820,6 @@
     "available": true,
     "sold_30d": 1,
     "days_cover": 90.0
-   },
-   {
-    "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
-    "sku": "LH-TL-009",
-    "qty": 4,
-    "price": 213.99,
-    "status": "ACTIVE",
-    "tracked": true,
-    "available": true,
-    "sold_30d": 16,
-    "days_cover": 7.5
    }
   ],
   "untracked_list": [

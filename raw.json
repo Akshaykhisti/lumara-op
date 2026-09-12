@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-09-12T23:36:13Z",
+ "generated_at_utc": "2026-09-12T23:56:23Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,18 +9,32 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-09-12T23:36:13Z"
+   "fetched_at": "2026-09-12T23:56:23Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-09-12T23:36:13Z"
+   "fetched_at": "2026-09-12T23:56:23Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-09-12T23:36:13Z"
+   "fetched_at": "2026-09-12T23:56:23Z"
   }
  },
  "orders": [
+  {
+   "name": "#1072",
+   "createdAt": "2026-09-12T23:41:43Z",
+   "financial": "PAID",
+   "fulfillment": "UNFULFILLED",
+   "total": 212.55,
+   "customer": "Nicole Dixon",
+   "items": [
+    {
+     "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
+     "quantity": 1
+    }
+   ]
+  },
   {
    "name": "#1071",
    "createdAt": "2026-09-11T10:32:32Z",
@@ -456,9 +470,15 @@
    "createdAt": "2026-09-05T01:09:58Z",
    "total": 179.98,
    "customer": "Jane MacKinnell"
+  },
+  {
+   "name": "#1072",
+   "createdAt": "2026-09-12T23:41:43Z",
+   "total": 212.55,
+   "customer": "Nicole Dixon"
   }
  ],
- "customers_total": 98,
+ "customers_total": 99,
  "abandoned_checkouts_recent": 6,
  "inventory": [
   {
@@ -626,7 +646,7 @@
   {
    "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
    "sku": "LH-TL-009",
-   "qty": 4,
+   "qty": 3,
    "price": 213.99,
    "status": "ACTIVE",
    "tracked": true,
@@ -2855,22 +2875,22 @@
   },
   {
    "date": "2026-09-13",
-   "spend": 17.87,
-   "impressions": 550,
-   "clicks": 27,
-   "ctr": 4.91,
-   "cpc": 0.66,
+   "spend": 23.55,
+   "impressions": 629,
+   "clicks": 35,
+   "ctr": 5.56,
+   "cpc": 0.67,
    "purchases": 0,
    "purchase_value": 0.0
   }
  ],
  "ads_today": {
   "date": "2026-09-13",
-  "spend": 17.87,
-  "impressions": 550,
-  "clicks": 27,
-  "ctr": 4.91,
-  "cpc": 0.66,
+  "spend": 23.55,
+  "impressions": 629,
+  "clicks": 35,
+  "ctr": 5.56,
+  "cpc": 0.67,
   "purchases": 0,
   "purchase_value": 0.0
  },
