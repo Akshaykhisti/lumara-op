@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-13T22:08:14Z",
-  "generated_at_local": "Mon 14 Sep 2026, 8:08am AEST",
+  "generated_at_utc": "2026-09-13T22:28:24Z",
+  "generated_at_local": "Mon 14 Sep 2026, 8:28am AEST",
   "today": "2026-09-14",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-13T22:08:14Z"
+    "fetched_at": "2026-09-13T22:28:24Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-13T22:08:14Z"
+    "fetched_at": "2026-09-13T22:28:24Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-13T22:08:14Z"
+    "fetched_at": "2026-09-13T22:28:24Z"
    }
   }
  },
@@ -365,26 +365,26 @@
  },
  "ads": {
   "today": {
-   "spend": 6.66,
+   "spend": 7.78,
    "value": 0.0,
    "roas": 0.0,
    "clicks": 11,
-   "impressions": 211,
+   "impressions": 254,
    "purchases": 0,
-   "cpc": 0.61,
-   "ctr": 5.21,
+   "cpc": 0.71,
+   "ctr": 4.33,
    "cpa": null
   },
   "d7": {
-   "spend": 550.74,
+   "spend": 552.07,
    "value": 492.05,
    "roas": 0.89,
    "clicks": 957,
-   "impressions": 20389,
+   "impressions": 20434,
    "purchases": 3,
    "cpc": 0.58,
-   "ctr": 4.69,
-   "cpa": 183.58
+   "ctr": 4.68,
+   "cpa": 184.02
   },
   "prev7": {
    "spend": 633.39,
@@ -394,7 +394,7 @@
   "daily_budget_live": 90.0,
   "active_campaigns": 1,
   "dry_days": 1,
-  "dry_spend": 6.66,
+  "dry_spend": 7.78,
   "series": [
    {
     "date": "2026-09-01",
@@ -509,7 +509,7 @@
    {
     "date": "2026-09-12",
     "label": "12 Sep",
-    "spend": 86.12,
+    "spend": 86.32,
     "revenue": 0.0,
     "purchases": 0,
     "clicks": 157,
@@ -519,22 +519,22 @@
    {
     "date": "2026-09-13",
     "label": "13 Sep",
-    "spend": 109.44,
+    "spend": 109.45,
     "revenue": 212.55,
     "purchases": 1,
     "clicks": 167,
-    "ctr": 4.29,
+    "ctr": 4.28,
     "cpc": 0.66
    },
    {
     "date": "2026-09-14",
     "label": "14 Sep",
-    "spend": 6.66,
+    "spend": 7.78,
     "revenue": 0.0,
     "purchases": 0,
     "clicks": 11,
-    "ctr": 5.21,
-    "cpc": 0.61
+    "ctr": 4.33,
+    "cpc": 0.71
    }
   ],
   "campaigns": [
@@ -542,12 +542,12 @@
     "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
     "status": "ACTIVE",
     "daily_budget": 90.0,
-    "spend": 1452.07,
-    "impressions": 54791,
+    "spend": 1452.28,
+    "impressions": 54793,
     "clicks": 2723,
     "ctr": 4.97,
     "cpc": 0.53,
-    "roas": 3.3895,
+    "roas": 3.389,
     "purchases": 20,
     "purchase_value": 4921.75,
     "atc": 73,
