@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-14T10:10:00Z",
-  "generated_at_local": "Mon 14 Sep 2026, 8:10pm AEST",
+  "generated_at_utc": "2026-09-14T10:30:10Z",
+  "generated_at_local": "Mon 14 Sep 2026, 8:30pm AEST",
   "today": "2026-09-14",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-14T10:10:00Z"
+    "fetched_at": "2026-09-14T10:30:10Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-14T10:10:00Z"
+    "fetched_at": "2026-09-14T10:30:10Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-14T10:10:00Z"
+    "fetched_at": "2026-09-14T10:30:10Z"
    }
   }
  },
@@ -29,8 +29,8 @@
   },
   {
    "level": "serious",
-   "title": "3 paid order(s) awaiting fulfilment",
-   "body": "#1067, #1073, #1074"
+   "title": "2 paid order(s) awaiting fulfilment",
+   "body": "#1067, #1074"
   },
   {
    "level": "warning",
@@ -56,19 +56,13 @@
   },
   "prev7_revenue": 1771.91,
   "wow_pct": -48.2,
-  "pending_fulfilment": 3,
+  "pending_fulfilment": 2,
   "pending_orders": [
    {
     "name": "#1067",
     "createdAt": "2026-09-05T01:09:58Z",
     "total": 179.98,
     "customer": "Jane MacKinnell"
-   },
-   {
-    "name": "#1073",
-    "createdAt": "2026-09-14T02:14:31Z",
-    "total": 212.55,
-    "customer": "Kimberley Weissel"
    },
    {
     "name": "#1074",
@@ -283,7 +277,7 @@
     "when": "14 sep, 12:14pm",
     "total": 212.55,
     "customer": "Kimberley Weissel",
-    "fulfillment": "UNFULFILLED",
+    "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze"
    },
@@ -371,26 +365,26 @@
  },
  "ads": {
   "today": {
-   "spend": 60.99,
+   "spend": 61.23,
    "value": 425.1,
-   "roas": 6.97,
+   "roas": 6.94,
    "clicks": 104,
-   "impressions": 2159,
+   "impressions": 2167,
    "purchases": 2,
    "cpc": 0.59,
-   "ctr": 4.82,
-   "cpa": 30.5
+   "ctr": 4.8,
+   "cpa": 30.61
   },
   "d7": {
-   "spend": 605.32,
+   "spend": 605.56,
    "value": 917.15,
-   "roas": 1.52,
+   "roas": 1.51,
    "clicks": 1050,
-   "impressions": 22341,
+   "impressions": 22349,
    "purchases": 5,
    "cpc": 0.58,
    "ctr": 4.7,
-   "cpa": 121.06
+   "cpa": 121.11
   },
   "prev7": {
    "spend": 633.39,
@@ -535,11 +529,11 @@
    {
     "date": "2026-09-14",
     "label": "14 Sep",
-    "spend": 60.99,
+    "spend": 61.23,
     "revenue": 425.1,
     "purchases": 2,
     "clicks": 104,
-    "ctr": 4.82,
+    "ctr": 4.8,
     "cpc": 0.59
    }
   ],
