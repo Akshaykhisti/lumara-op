@@ -3,29 +3,29 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-14T13:52:53Z",
-  "generated_at_local": "Mon 14 Sep 2026, 11:52pm AEST",
-  "today": "2026-09-14",
+  "generated_at_utc": "2026-09-14T14:13:08Z",
+  "generated_at_local": "Tue 15 Sep 2026, 12:13am AEST",
+  "today": "2026-09-15",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-14T13:52:53Z"
+    "fetched_at": "2026-09-14T14:13:08Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-14T13:52:53Z"
+    "fetched_at": "2026-09-14T14:13:08Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-14T13:52:53Z"
+    "fetched_at": "2026-09-14T14:13:08Z"
    }
   }
  },
  "alerts": [
   {
    "level": "serious",
-   "title": "3 product(s) sold in the last 30d are out of stock",
-   "body": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze, Lumara Ashore Framed Canvas \u2014 Coastal 70 \u00d7 90 cm, Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral. Still listed as active \u2014 they take traffic and convert nothing."
+   "title": "2 product(s) sold in the last 30d are out of stock",
+   "body": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze, Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral. Still listed as active \u2014 they take traffic and convert nothing."
   },
   {
    "level": "serious",
@@ -40,9 +40,9 @@
  ],
  "sales": {
   "today": {
-   "orders": 2,
-   "revenue": 425.1,
-   "aov": 212.55
+   "orders": 0,
+   "revenue": 0.0,
+   "aov": 0.0
   },
   "d7": {
    "orders": 5,
@@ -50,9 +50,9 @@
    "aov": 183.43
   },
   "d30": {
-   "orders": 30,
-   "revenue": 6275.28,
-   "aov": 209.18
+   "orders": 29,
+   "revenue": 6085.33,
+   "aov": 209.84
   },
   "prev7_revenue": 1771.91,
   "wow_pct": -48.2,
@@ -73,7 +73,7 @@
   ],
   "abandoned_checkouts": 5,
   "customers_total": 101,
-  "days_since_order": 0,
+  "days_since_order": 1,
   "last_order": {
    "name": "#1074",
    "when": "14 sep, 5:54pm",
@@ -81,12 +81,6 @@
    "customer": "Emma Kay"
   },
   "daily": [
-   {
-    "date": "2026-08-16",
-    "label": "16 Aug",
-    "orders": 1,
-    "revenue": 189.95
-   },
    {
     "date": "2026-08-17",
     "label": "17 Aug",
@@ -260,6 +254,12 @@
     "label": "14 Sep",
     "orders": 2,
     "revenue": 425.1
+   },
+   {
+    "date": "2026-09-15",
+    "label": "15 Sep",
+    "orders": 0,
+    "revenue": 0.0
    }
   ],
   "recent": [
@@ -365,47 +365,37 @@
  },
  "ads": {
   "today": {
-   "spend": 63.12,
-   "value": 425.1,
-   "roas": 6.73,
-   "clicks": 104,
-   "impressions": 2216,
-   "purchases": 2,
-   "cpc": 0.61,
-   "ctr": 4.69,
-   "cpa": 31.56
+   "spend": 0.0,
+   "value": 0.0,
+   "roas": 0.0,
+   "clicks": 0,
+   "impressions": 0,
+   "purchases": 0,
+   "cpc": 0.0,
+   "ctr": 0.0,
+   "cpa": null
   },
   "d7": {
-   "spend": 607.45,
+   "spend": 529.73,
    "value": 917.15,
-   "roas": 1.51,
-   "clicks": 1050,
-   "impressions": 22398,
+   "roas": 1.73,
+   "clicks": 866,
+   "impressions": 19137,
    "purchases": 5,
-   "cpc": 0.58,
-   "ctr": 4.69,
-   "cpa": 121.49
+   "cpc": 0.61,
+   "ctr": 4.53,
+   "cpa": 105.95
   },
   "prev7": {
-   "spend": 633.39,
+   "spend": 626.94,
    "value": 1496.91,
-   "roas": 2.36
+   "roas": 2.39
   },
   "daily_budget_live": 0.0,
   "active_campaigns": 0,
   "dry_days": 0,
   "dry_spend": 0.0,
   "series": [
-   {
-    "date": "2026-09-01",
-    "label": "1 Sep",
-    "spend": 84.18,
-    "revenue": 0.0,
-    "purchases": 0,
-    "clicks": 187,
-    "ctr": 6.75,
-    "cpc": 0.45
-   },
    {
     "date": "2026-09-02",
     "label": "2 Sep",
@@ -529,12 +519,22 @@
    {
     "date": "2026-09-14",
     "label": "14 Sep",
-    "spend": 63.12,
+    "spend": 63.13,
     "revenue": 425.1,
     "purchases": 2,
     "clicks": 104,
     "ctr": 4.69,
     "cpc": 0.61
+   },
+   {
+    "date": "2026-09-15",
+    "label": "15 Sep",
+    "spend": 0.0,
+    "revenue": 0.0,
+    "purchases": 0,
+    "clicks": 0,
+    "ctr": 0.0,
+    "cpc": 0.0
    }
   ],
   "campaigns": [
@@ -542,16 +542,16 @@
     "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
     "status": "PAUSED",
     "daily_budget": 90.0,
-    "spend": 1452.32,
-    "impressions": 54795,
-    "clicks": 2723,
-    "ctr": 4.97,
-    "cpc": 0.53,
-    "roas": 3.3889,
+    "spend": 1497.43,
+    "impressions": 56304,
+    "clicks": 2789,
+    "ctr": 4.95,
+    "cpc": 0.54,
+    "roas": 3.1139,
     "purchases": 20,
-    "purchase_value": 4921.75,
-    "atc": 73,
-    "reach": 29625
+    "purchase_value": 4662.86,
+    "atc": 71,
+    "reach": 30338
    },
    {
     "name": "Decor",
@@ -572,16 +572,16 @@
     "name": "Lumara \u2014 Sales \u2014 Winners Broad CBO (Jul 2026)",
     "status": "PAUSED",
     "daily_budget": 30.0,
-    "spend": 222.13,
-    "impressions": 9949,
-    "clicks": 352,
-    "ctr": 3.54,
-    "cpc": 0.63,
-    "roas": 0.8551,
+    "spend": 205.15,
+    "impressions": 9199,
+    "clicks": 305,
+    "ctr": 3.32,
+    "cpc": 0.67,
+    "roas": 0.9259,
     "purchases": 1,
     "purchase_value": 189.95,
     "atc": 3,
-    "reach": 6879
+    "reach": 6522
    },
    {
     "name": "Lumara \u2014 Lamps \u2014 KG Gap (Jul 2026)",
@@ -698,7 +698,7 @@
     "status": "ACTIVE",
     "tracked": true,
     "available": false,
-    "sold_30d": 1
+    "sold_30d": 0
    },
    {
     "title": "Lumara Nishi Clay Table Lamp \u2014 Warm Earthy Ceramic",
@@ -741,16 +741,6 @@
     "tracked": true,
     "available": false,
     "sold_30d": 19
-   },
-   {
-    "title": "Lumara Ashore Framed Canvas \u2014 Coastal 70 \u00d7 90 cm",
-    "sku": "AW1733-2",
-    "qty": 0,
-    "price": 189.95,
-    "status": "ACTIVE",
-    "tracked": true,
-    "available": false,
-    "sold_30d": 1
    },
    {
     "title": "Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral",
