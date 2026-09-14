@@ -3,60 +3,60 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-14T07:48:42Z",
-  "generated_at_local": "Mon 14 Sep 2026, 5:48pm AEST",
+  "generated_at_utc": "2026-09-14T08:08:54Z",
+  "generated_at_local": "Mon 14 Sep 2026, 6:08pm AEST",
   "today": "2026-09-14",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-14T07:48:42Z"
+    "fetched_at": "2026-09-14T08:08:54Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-14T07:48:42Z"
+    "fetched_at": "2026-09-14T08:08:54Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-14T07:48:42Z"
+    "fetched_at": "2026-09-14T08:08:54Z"
    }
   }
  },
  "alerts": [
   {
    "level": "serious",
-   "title": "2 product(s) sold in the last 30d are out of stock",
-   "body": "Lumara Ashore Framed Canvas \u2014 Coastal 70 \u00d7 90 cm, Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral. Still listed as active \u2014 they take traffic and convert nothing."
+   "title": "3 product(s) sold in the last 30d are out of stock",
+   "body": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze, Lumara Ashore Framed Canvas \u2014 Coastal 70 \u00d7 90 cm, Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral. Still listed as active \u2014 they take traffic and convert nothing."
   },
   {
    "level": "serious",
-   "title": "2 paid order(s) awaiting fulfilment",
-   "body": "#1067, #1073"
+   "title": "3 paid order(s) awaiting fulfilment",
+   "body": "#1067, #1073, #1074"
   },
   {
    "level": "warning",
-   "title": "7 product(s) at 3 units or fewer",
-   "body": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze (1), Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass (1), Lumara Welcome Farm Sign (1), Table Swag Olive Candelabra (2)"
+   "title": "6 product(s) at 3 units or fewer",
+   "body": "Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass (1), Lumara Welcome Farm Sign (1), Table Swag Olive Candelabra (2), Lumara Alegra Statement Vase \u2014 Sculptural Metal (3)"
   }
  ],
  "sales": {
   "today": {
-   "orders": 1,
-   "revenue": 212.55,
+   "orders": 2,
+   "revenue": 425.1,
    "aov": 212.55
   },
   "d7": {
-   "orders": 4,
-   "revenue": 704.6,
-   "aov": 176.15
+   "orders": 5,
+   "revenue": 917.15,
+   "aov": 183.43
   },
   "d30": {
-   "orders": 29,
-   "revenue": 6062.73,
-   "aov": 209.06
+   "orders": 30,
+   "revenue": 6275.28,
+   "aov": 209.18
   },
   "prev7_revenue": 1771.91,
-  "wow_pct": -60.2,
-  "pending_fulfilment": 2,
+  "wow_pct": -48.2,
+  "pending_fulfilment": 3,
   "pending_orders": [
    {
     "name": "#1067",
@@ -69,16 +69,22 @@
     "createdAt": "2026-09-14T02:14:31Z",
     "total": 212.55,
     "customer": "Kimberley Weissel"
+   },
+   {
+    "name": "#1074",
+    "createdAt": "2026-09-14T07:54:18Z",
+    "total": 212.55,
+    "customer": "Emma Kay"
    }
   ],
   "abandoned_checkouts": 5,
-  "customers_total": 100,
+  "customers_total": 101,
   "days_since_order": 0,
   "last_order": {
-   "name": "#1073",
-   "when": "14 sep, 12:14pm",
+   "name": "#1074",
+   "when": "14 sep, 5:54pm",
    "total": 212.55,
-   "customer": "Kimberley Weissel"
+   "customer": "Emma Kay"
   },
   "daily": [
    {
@@ -258,11 +264,20 @@
    {
     "date": "2026-09-14",
     "label": "14 Sep",
-    "orders": 1,
-    "revenue": 212.55
+    "orders": 2,
+    "revenue": 425.1
    }
   ],
   "recent": [
+   {
+    "name": "#1074",
+    "when": "14 sep, 5:54pm",
+    "total": 212.55,
+    "customer": "Emma Kay",
+    "fulfillment": "UNFULFILLED",
+    "financial": "PAID",
+    "items": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze"
+   },
    {
     "name": "#1073",
     "when": "14 sep, 12:14pm",
@@ -325,21 +340,12 @@
     "fulfillment": "IN_PROGRESS",
     "financial": "PAID",
     "items": "Lumara Hurricane Candle Holder Moss \u2014 Organic Green Ceramic \u00d72"
-   },
-   {
-    "name": "#1066",
-    "when": "4 sep, 4:25pm",
-    "total": 233.94,
-    "customer": "M Giannini",
-    "fulfillment": "FULFILLED",
-    "financial": "PAID",
-    "items": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze"
    }
   ],
   "top_sellers": [
    {
     "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
-    "units": 18
+    "units": 19
    },
    {
     "title": "Lumara Hurricane Candle Holder Moss \u2014 Organic Green Ceramic",
@@ -365,26 +371,26 @@
  },
  "ads": {
   "today": {
-   "spend": 46.93,
+   "spend": 49.77,
    "value": 212.55,
-   "roas": 4.53,
-   "clicks": 83,
-   "impressions": 1597,
+   "roas": 4.27,
+   "clicks": 89,
+   "impressions": 1698,
    "purchases": 1,
-   "cpc": 0.57,
-   "ctr": 5.2,
-   "cpa": 46.93
+   "cpc": 0.56,
+   "ctr": 5.24,
+   "cpa": 49.77
   },
   "d7": {
-   "spend": 591.26,
+   "spend": 594.1,
    "value": 704.6,
    "roas": 1.19,
-   "clicks": 1029,
-   "impressions": 21779,
+   "clicks": 1035,
+   "impressions": 21880,
    "purchases": 4,
    "cpc": 0.57,
-   "ctr": 4.72,
-   "cpa": 147.81
+   "ctr": 4.73,
+   "cpa": 148.53
   },
   "prev7": {
    "spend": 633.39,
@@ -529,12 +535,12 @@
    {
     "date": "2026-09-14",
     "label": "14 Sep",
-    "spend": 46.93,
+    "spend": 49.77,
     "revenue": 212.55,
     "purchases": 1,
-    "clicks": 83,
-    "ctr": 5.2,
-    "cpc": 0.57
+    "clicks": 89,
+    "ctr": 5.24,
+    "cpc": 0.56
    }
   ],
   "campaigns": [
@@ -663,12 +669,12 @@
  "stock": {
   "sellable_skus": 136,
   "tracked_skus": 84,
-  "out_of_stock": 5,
-  "low": 7,
+  "out_of_stock": 6,
+  "low": 6,
   "watch": 0,
   "healthy": 72,
   "untracked": 52,
-  "stock_value": 87355.85,
+  "stock_value": 87141.86,
   "oos_list": [
    {
     "title": "Lumara Nishi Table Lamp \u2014 Contemporary Ceramic Style",
@@ -679,6 +685,16 @@
     "tracked": true,
     "available": false,
     "sold_30d": 0
+   },
+   {
+    "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
+    "sku": "LH-TL-009",
+    "qty": 0,
+    "price": 213.99,
+    "status": "ACTIVE",
+    "tracked": true,
+    "available": false,
+    "sold_30d": 19
    },
    {
     "title": "Lumara Ashore Framed Canvas \u2014 Coastal 70 \u00d7 90 cm",
@@ -723,6 +739,16 @@
   ],
   "oos_sellers": [
    {
+    "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
+    "sku": "LH-TL-009",
+    "qty": 0,
+    "price": 213.99,
+    "status": "ACTIVE",
+    "tracked": true,
+    "available": false,
+    "sold_30d": 19
+   },
+   {
     "title": "Lumara Ashore Framed Canvas \u2014 Coastal 70 \u00d7 90 cm",
     "sku": "AW1733-2",
     "qty": 0,
@@ -744,17 +770,6 @@
    }
   ],
   "low_list": [
-   {
-    "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
-    "sku": "LH-TL-009",
-    "qty": 1,
-    "price": 213.99,
-    "status": "ACTIVE",
-    "tracked": true,
-    "available": true,
-    "sold_30d": 18,
-    "days_cover": 1.7
-   },
    {
     "title": "Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass",
     "sku": "LH-VS-012",

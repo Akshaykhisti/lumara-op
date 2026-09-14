@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-09-14T07:48:42Z",
+ "generated_at_utc": "2026-09-14T08:08:54Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,18 +9,32 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-09-14T07:48:42Z"
+   "fetched_at": "2026-09-14T08:08:54Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-09-14T07:48:42Z"
+   "fetched_at": "2026-09-14T08:08:54Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-09-14T07:48:42Z"
+   "fetched_at": "2026-09-14T08:08:54Z"
   }
  },
  "orders": [
+  {
+   "name": "#1074",
+   "createdAt": "2026-09-14T07:54:18Z",
+   "financial": "PAID",
+   "fulfillment": "UNFULFILLED",
+   "total": 212.55,
+   "customer": "Emma Kay",
+   "items": [
+    {
+     "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
+     "quantity": 1
+    }
+   ]
+  },
   {
    "name": "#1073",
    "createdAt": "2026-09-14T02:14:31Z",
@@ -476,9 +490,15 @@
    "createdAt": "2026-09-14T02:14:31Z",
    "total": 212.55,
    "customer": "Kimberley Weissel"
+  },
+  {
+   "name": "#1074",
+   "createdAt": "2026-09-14T07:54:18Z",
+   "total": 212.55,
+   "customer": "Emma Kay"
   }
  ],
- "customers_total": 100,
+ "customers_total": 101,
  "abandoned_checkouts_recent": 5,
  "inventory": [
   {
@@ -646,11 +666,11 @@
   {
    "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
    "sku": "LH-TL-009",
-   "qty": 1,
+   "qty": 0,
    "price": 213.99,
    "status": "ACTIVE",
    "tracked": true,
-   "available": true
+   "available": false
   },
   {
    "title": "Lumara Artichoke Table Lamp \u2014 Sculptural Nature-Inspired",
@@ -2875,22 +2895,22 @@
   },
   {
    "date": "2026-09-14",
-   "spend": 46.93,
-   "impressions": 1597,
-   "clicks": 83,
-   "ctr": 5.2,
-   "cpc": 0.57,
+   "spend": 49.77,
+   "impressions": 1698,
+   "clicks": 89,
+   "ctr": 5.24,
+   "cpc": 0.56,
    "purchases": 1,
    "purchase_value": 212.55
   }
  ],
  "ads_today": {
   "date": "2026-09-14",
-  "spend": 46.93,
-  "impressions": 1597,
-  "clicks": 83,
-  "ctr": 5.2,
-  "cpc": 0.57,
+  "spend": 49.77,
+  "impressions": 1698,
+  "clicks": 89,
+  "ctr": 5.24,
+  "cpc": 0.56,
   "purchases": 1,
   "purchase_value": 212.55
  },
