@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-14T23:18:58Z",
-  "generated_at_local": "Tue 15 Sep 2026, 9:18am AEST",
+  "generated_at_utc": "2026-09-14T23:39:10Z",
+  "generated_at_local": "Tue 15 Sep 2026, 9:39am AEST",
   "today": "2026-09-15",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-14T23:18:58Z"
+    "fetched_at": "2026-09-14T23:39:10Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-14T23:18:58Z"
+    "fetched_at": "2026-09-14T23:39:10Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-14T23:18:58Z"
+    "fetched_at": "2026-09-14T23:39:10Z"
    }
   }
  },
@@ -29,8 +29,8 @@
   },
   {
    "level": "serious",
-   "title": "2 paid order(s) awaiting fulfilment",
-   "body": "#1067, #1074"
+   "title": "1 paid order(s) awaiting fulfilment",
+   "body": "#1067"
   },
   {
    "level": "warning",
@@ -56,19 +56,13 @@
   },
   "prev7_revenue": 1771.91,
   "wow_pct": -48.2,
-  "pending_fulfilment": 2,
+  "pending_fulfilment": 1,
   "pending_orders": [
    {
     "name": "#1067",
     "createdAt": "2026-09-05T01:09:58Z",
     "total": 179.98,
     "customer": "Jane MacKinnell"
-   },
-   {
-    "name": "#1074",
-    "createdAt": "2026-09-14T07:54:18Z",
-    "total": 212.55,
-    "customer": "Emma Kay"
    }
   ],
   "abandoned_checkouts": 5,
@@ -268,7 +262,7 @@
     "when": "14 sep, 5:54pm",
     "total": 212.55,
     "customer": "Emma Kay",
-    "fulfillment": "UNFULFILLED",
+    "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze"
    },
