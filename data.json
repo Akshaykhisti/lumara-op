@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-14T04:01:27Z",
-  "generated_at_local": "Mon 14 Sep 2026, 2:01pm AEST",
+  "generated_at_utc": "2026-09-14T04:21:38Z",
+  "generated_at_local": "Mon 14 Sep 2026, 2:21pm AEST",
   "today": "2026-09-14",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-14T04:01:27Z"
+    "fetched_at": "2026-09-14T04:21:38Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-14T04:01:27Z"
+    "fetched_at": "2026-09-14T04:21:38Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-14T04:01:27Z"
+    "fetched_at": "2026-09-14T04:21:38Z"
    }
   }
  },
@@ -35,7 +35,7 @@
   {
    "level": "warning",
    "title": "7 product(s) at 3 units or fewer",
-   "body": "Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass (1), Lumara Welcome Farm Sign (1), Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze (2), Table Swag Olive Candelabra (2)"
+   "body": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze (1), Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass (1), Lumara Welcome Farm Sign (1), Table Swag Olive Candelabra (2)"
   }
  ],
  "sales": {
@@ -365,26 +365,26 @@
  },
  "ads": {
   "today": {
-   "spend": 31.32,
+   "spend": 32.18,
    "value": 212.55,
-   "roas": 6.79,
-   "clicks": 56,
-   "impressions": 976,
+   "roas": 6.61,
+   "clicks": 58,
+   "impressions": 1013,
    "purchases": 1,
-   "cpc": 0.56,
-   "ctr": 5.74,
-   "cpa": 31.32
+   "cpc": 0.55,
+   "ctr": 5.73,
+   "cpa": 32.18
   },
   "d7": {
-   "spend": 575.64,
+   "spend": 576.5,
    "value": 704.6,
    "roas": 1.22,
-   "clicks": 1002,
-   "impressions": 21157,
+   "clicks": 1004,
+   "impressions": 21194,
    "purchases": 4,
    "cpc": 0.57,
    "ctr": 4.74,
-   "cpa": 143.91
+   "cpa": 144.12
   },
   "prev7": {
    "spend": 633.39,
@@ -529,12 +529,12 @@
    {
     "date": "2026-09-14",
     "label": "14 Sep",
-    "spend": 31.32,
+    "spend": 32.18,
     "revenue": 212.55,
     "purchases": 1,
-    "clicks": 56,
-    "ctr": 5.74,
-    "cpc": 0.56
+    "clicks": 58,
+    "ctr": 5.73,
+    "cpc": 0.55
    }
   ],
   "campaigns": [
@@ -668,7 +668,7 @@
   "watch": 0,
   "healthy": 72,
   "untracked": 52,
-  "stock_value": 87569.84,
+  "stock_value": 87355.85,
   "oos_list": [
    {
     "title": "Lumara Nishi Table Lamp \u2014 Contemporary Ceramic Style",
@@ -745,6 +745,17 @@
   ],
   "low_list": [
    {
+    "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
+    "sku": "LH-TL-009",
+    "qty": 1,
+    "price": 213.99,
+    "status": "ACTIVE",
+    "tracked": true,
+    "available": true,
+    "sold_30d": 18,
+    "days_cover": 1.7
+   },
+   {
     "title": "Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass",
     "sku": "LH-VS-012",
     "qty": 1,
@@ -765,17 +776,6 @@
     "available": true,
     "sold_30d": 1,
     "days_cover": 30.0
-   },
-   {
-    "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
-    "sku": "LH-TL-009",
-    "qty": 2,
-    "price": 213.99,
-    "status": "ACTIVE",
-    "tracked": true,
-    "available": true,
-    "sold_30d": 18,
-    "days_cover": 3.3
    },
    {
     "title": "Table Swag Olive Candelabra",
