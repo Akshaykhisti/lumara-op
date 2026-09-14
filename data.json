@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-14T03:21:07Z",
-  "generated_at_local": "Mon 14 Sep 2026, 1:21pm AEST",
+  "generated_at_utc": "2026-09-14T03:41:18Z",
+  "generated_at_local": "Mon 14 Sep 2026, 1:41pm AEST",
   "today": "2026-09-14",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-14T03:21:07Z"
+    "fetched_at": "2026-09-14T03:41:18Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-14T03:21:07Z"
+    "fetched_at": "2026-09-14T03:41:18Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-14T03:21:07Z"
+    "fetched_at": "2026-09-14T03:41:18Z"
    }
   }
  },
@@ -365,26 +365,26 @@
  },
  "ads": {
   "today": {
-   "spend": 27.74,
-   "value": 0.0,
-   "roas": 0.0,
-   "clicks": 53,
-   "impressions": 874,
-   "purchases": 0,
-   "cpc": 0.52,
-   "ctr": 6.06,
-   "cpa": null
+   "spend": 29.23,
+   "value": 212.55,
+   "roas": 7.27,
+   "clicks": 55,
+   "impressions": 925,
+   "purchases": 1,
+   "cpc": 0.53,
+   "ctr": 5.95,
+   "cpa": 29.23
   },
   "d7": {
-   "spend": 572.06,
-   "value": 492.05,
-   "roas": 0.86,
-   "clicks": 999,
-   "impressions": 21055,
-   "purchases": 3,
+   "spend": 573.55,
+   "value": 704.6,
+   "roas": 1.23,
+   "clicks": 1001,
+   "impressions": 21106,
+   "purchases": 4,
    "cpc": 0.57,
    "ctr": 4.74,
-   "cpa": 190.69
+   "cpa": 143.39
   },
   "prev7": {
    "spend": 633.39,
@@ -393,8 +393,8 @@
   },
   "daily_budget_live": 90.0,
   "active_campaigns": 1,
-  "dry_days": 1,
-  "dry_spend": 27.74,
+  "dry_days": 0,
+  "dry_spend": 0.0,
   "series": [
    {
     "date": "2026-09-01",
@@ -529,12 +529,12 @@
    {
     "date": "2026-09-14",
     "label": "14 Sep",
-    "spend": 27.74,
-    "revenue": 0.0,
-    "purchases": 0,
-    "clicks": 53,
-    "ctr": 6.06,
-    "cpc": 0.52
+    "spend": 29.23,
+    "revenue": 212.55,
+    "purchases": 1,
+    "clicks": 55,
+    "ctr": 5.95,
+    "cpc": 0.53
    }
   ],
   "campaigns": [
