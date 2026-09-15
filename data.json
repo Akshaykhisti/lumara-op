@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-15T04:37:03Z",
-  "generated_at_local": "Tue 15 Sep 2026, 2:37pm AEST",
+  "generated_at_utc": "2026-09-15T04:57:15Z",
+  "generated_at_local": "Tue 15 Sep 2026, 2:57pm AEST",
   "today": "2026-09-15",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-15T04:37:03Z"
+    "fetched_at": "2026-09-15T04:57:15Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-15T04:37:03Z"
+    "fetched_at": "2026-09-15T04:57:15Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-15T04:37:03Z"
+    "fetched_at": "2026-09-15T04:57:15Z"
    }
   }
  },
@@ -365,26 +365,26 @@
  },
  "ads": {
   "today": {
-   "spend": 1.96,
+   "spend": 2.56,
    "value": 0.0,
    "roas": 0.0,
    "clicks": 3,
-   "impressions": 61,
+   "impressions": 77,
    "purchases": 0,
-   "cpc": 0.65,
-   "ctr": 4.92,
+   "cpc": 0.85,
+   "ctr": 3.9,
    "cpa": null
   },
   "d7": {
-   "spend": 532.28,
+   "spend": 532.88,
    "value": 917.15,
    "roas": 1.72,
    "clicks": 869,
-   "impressions": 19207,
+   "impressions": 19223,
    "purchases": 5,
    "cpc": 0.61,
    "ctr": 4.52,
-   "cpa": 106.46
+   "cpa": 106.58
   },
   "prev7": {
    "spend": 626.94,
@@ -394,7 +394,7 @@
   "daily_budget_live": 100.0,
   "active_campaigns": 2,
   "dry_days": 1,
-  "dry_spend": 1.96,
+  "dry_spend": 2.56,
   "series": [
    {
     "date": "2026-09-02",
@@ -529,12 +529,12 @@
    {
     "date": "2026-09-15",
     "label": "15 Sep",
-    "spend": 1.96,
+    "spend": 2.56,
     "revenue": 0.0,
     "purchases": 0,
     "clicks": 3,
-    "ctr": 4.92,
-    "cpc": 0.65
+    "ctr": 3.9,
+    "cpc": 0.85
    }
   ],
   "campaigns": [
@@ -662,13 +662,13 @@
  },
  "stock": {
   "sellable_skus": 136,
-  "tracked_skus": 84,
+  "tracked_skus": 86,
   "out_of_stock": 5,
   "low": 6,
   "watch": 1,
-  "healthy": 72,
-  "untracked": 52,
-  "stock_value": 87061.83,
+  "healthy": 74,
+  "untracked": 50,
+  "stock_value": 89261.63,
   "oos_list": [
    {
     "title": "Lumara Nishi Table Lamp \u2014 Contemporary Ceramic Style",
@@ -895,15 +895,6 @@
     "available": true
    },
    {
-    "title": "Lumara Malabar Table Lamp \u2014 Ribbed Reactive Glaze Ceramic",
-    "sku": "YE6202-1",
-    "qty": 10,
-    "price": 149.99,
-    "status": "ACTIVE",
-    "tracked": false,
-    "available": true
-   },
-   {
     "title": "Lumara Gum Leaf Stem \u2014 Faux Eucalyptus Branch",
     "sku": "JI2045-4-X3",
     "qty": 0,
@@ -958,15 +949,6 @@
     "available": true
    },
    {
-    "title": "Lumara Malabar Vase \u2014 Ribbed Cobalt Ceramic",
-    "sku": "YE6213-1",
-    "qty": 10,
-    "price": 69.99,
-    "status": "ACTIVE",
-    "tracked": false,
-    "available": true
-   },
-   {
     "title": "Lumara Banksia Stem \u2014 Amber Faux Native",
     "sku": "JI2044-4-X2",
     "qty": 0,
@@ -989,6 +971,24 @@
     "sku": "JI2043-4-X3",
     "qty": 0,
     "price": 64.99,
+    "status": "ACTIVE",
+    "tracked": false,
+    "available": true
+   },
+   {
+    "title": "Lumara Gum Leaf Stem \u2014 Faux Eucalyptus Branch",
+    "sku": "JI2045-4",
+    "qty": 0,
+    "price": 57.99,
+    "status": "ACTIVE",
+    "tracked": false,
+    "available": true
+   },
+   {
+    "title": "Lumara Pine &amp; Eucalypt Stem \u2014 Faux Greenery Branch",
+    "sku": "LD9311-4-X3",
+    "qty": 0,
+    "price": 53.99,
     "status": "ACTIVE",
     "tracked": false,
     "available": true
