@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-15T23:24:06Z",
-  "generated_at_local": "Wed 16 Sep 2026, 9:24am AEST",
+  "generated_at_utc": "2026-09-15T23:44:14Z",
+  "generated_at_local": "Wed 16 Sep 2026, 9:44am AEST",
   "today": "2026-09-16",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-15T23:24:06Z"
+    "fetched_at": "2026-09-15T23:44:14Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-15T23:24:06Z"
+    "fetched_at": "2026-09-15T23:44:14Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-15T23:24:06Z"
+    "fetched_at": "2026-09-15T23:44:14Z"
    }
   }
  },
@@ -359,26 +359,26 @@
  },
  "ads": {
   "today": {
-   "spend": 22.52,
+   "spend": 24.72,
    "value": 0.0,
    "roas": 0.0,
    "clicks": 22,
-   "impressions": 740,
+   "impressions": 806,
    "purchases": 0,
-   "cpc": 1.02,
-   "ctr": 2.97,
+   "cpc": 1.12,
+   "ctr": 2.73,
    "cpa": null
   },
   "d7": {
-   "spend": 502.39,
+   "spend": 504.59,
    "value": 917.15,
-   "roas": 1.83,
+   "roas": 1.82,
    "clicks": 819,
-   "impressions": 18185,
+   "impressions": 18252,
    "purchases": 5,
-   "cpc": 0.61,
-   "ctr": 4.5,
-   "cpa": 100.48
+   "cpc": 0.62,
+   "ctr": 4.49,
+   "cpa": 100.92
   },
   "prev7": {
    "spend": 617.9,
@@ -388,7 +388,7 @@
   "daily_budget_live": 100.0,
   "active_campaigns": 2,
   "dry_days": 2,
-  "dry_spend": 67.09,
+  "dry_spend": 69.29,
   "series": [
    {
     "date": "2026-09-03",
@@ -523,12 +523,12 @@
    {
     "date": "2026-09-16",
     "label": "16 Sep",
-    "spend": 22.52,
+    "spend": 24.72,
     "revenue": 0.0,
     "purchases": 0,
     "clicks": 22,
-    "ctr": 2.97,
-    "cpc": 1.02
+    "ctr": 2.73,
+    "cpc": 1.12
    }
   ],
   "campaigns": [
@@ -552,7 +552,7 @@
     "status": "ACTIVE",
     "daily_budget": 40.0,
     "spend": 737.52,
-    "impressions": 30789,
+    "impressions": 30790,
     "clicks": 1770,
     "ctr": 5.75,
     "cpc": 0.42,
