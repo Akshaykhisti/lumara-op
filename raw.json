@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-09-15T03:16:21Z",
+ "generated_at_utc": "2026-09-15T03:36:32Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-09-15T03:16:21Z"
+   "fetched_at": "2026-09-15T03:36:32Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-09-15T03:16:21Z"
+   "fetched_at": "2026-09-15T03:36:32Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-09-15T03:16:21Z"
+   "fetched_at": "2026-09-15T03:36:32Z"
   }
  },
  "orders": [
@@ -700,11 +700,11 @@
   {
    "title": "Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral",
    "sku": "CN7142-1",
-   "qty": 0,
+   "qty": 4,
    "price": 54.99,
    "status": "ACTIVE",
    "tracked": true,
-   "available": false
+   "available": true
   },
   {
    "title": "Lumara Curvaceous Vase \u2014 Matt Black Sculptural Ceramic",
@@ -2875,8 +2875,8 @@
   },
   {
    "date": "2026-09-15",
-   "spend": 0.79,
-   "impressions": 23,
+   "spend": 1.01,
+   "impressions": 29,
    "clicks": 0,
    "ctr": 0.0,
    "cpc": 0.0,
@@ -2886,8 +2886,8 @@
  ],
  "ads_today": {
   "date": "2026-09-15",
-  "spend": 0.79,
-  "impressions": 23,
+  "spend": 1.01,
+  "impressions": 29,
   "clicks": 0,
   "ctr": 0.0,
   "cpc": 0.0,

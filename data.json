@@ -3,29 +3,29 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-15T03:16:21Z",
-  "generated_at_local": "Tue 15 Sep 2026, 1:16pm AEST",
+  "generated_at_utc": "2026-09-15T03:36:32Z",
+  "generated_at_local": "Tue 15 Sep 2026, 1:36pm AEST",
   "today": "2026-09-15",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-15T03:16:21Z"
+    "fetched_at": "2026-09-15T03:36:32Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-15T03:16:21Z"
+    "fetched_at": "2026-09-15T03:36:32Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-15T03:16:21Z"
+    "fetched_at": "2026-09-15T03:36:32Z"
    }
   }
  },
  "alerts": [
   {
    "level": "serious",
-   "title": "2 product(s) sold in the last 30d are out of stock",
-   "body": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze, Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral. Still listed as active \u2014 they take traffic and convert nothing."
+   "title": "1 product(s) sold in the last 30d are out of stock",
+   "body": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze. Still listed as active \u2014 they take traffic and convert nothing."
   },
   {
    "level": "serious",
@@ -365,26 +365,26 @@
  },
  "ads": {
   "today": {
-   "spend": 0.79,
+   "spend": 1.01,
    "value": 0.0,
    "roas": 0.0,
    "clicks": 0,
-   "impressions": 23,
+   "impressions": 29,
    "purchases": 0,
    "cpc": 0.0,
    "ctr": 0.0,
    "cpa": null
   },
   "d7": {
-   "spend": 531.11,
+   "spend": 531.33,
    "value": 917.15,
    "roas": 1.73,
    "clicks": 866,
-   "impressions": 19169,
+   "impressions": 19175,
    "purchases": 5,
    "cpc": 0.61,
    "ctr": 4.52,
-   "cpa": 106.22
+   "cpa": 106.27
   },
   "prev7": {
    "spend": 626.94,
@@ -394,7 +394,7 @@
   "daily_budget_live": 90.0,
   "active_campaigns": 1,
   "dry_days": 1,
-  "dry_spend": 0.79,
+  "dry_spend": 1.01,
   "series": [
    {
     "date": "2026-09-02",
@@ -529,7 +529,7 @@
    {
     "date": "2026-09-15",
     "label": "15 Sep",
-    "spend": 0.79,
+    "spend": 1.01,
     "revenue": 0.0,
     "purchases": 0,
     "clicks": 0,
@@ -663,12 +663,12 @@
  "stock": {
   "sellable_skus": 136,
   "tracked_skus": 84,
-  "out_of_stock": 6,
+  "out_of_stock": 5,
   "low": 6,
-  "watch": 0,
+  "watch": 1,
   "healthy": 72,
   "untracked": 52,
-  "stock_value": 86841.87,
+  "stock_value": 87061.83,
   "oos_list": [
    {
     "title": "Lumara Nishi Table Lamp \u2014 Contemporary Ceramic Style",
@@ -719,16 +719,6 @@
     "tracked": true,
     "available": false,
     "sold_30d": 0
-   },
-   {
-    "title": "Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral",
-    "sku": "CN7142-1",
-    "qty": 0,
-    "price": 54.99,
-    "status": "ACTIVE",
-    "tracked": true,
-    "available": false,
-    "sold_30d": 1
    }
   ],
   "oos_sellers": [
@@ -741,16 +731,6 @@
     "tracked": true,
     "available": false,
     "sold_30d": 19
-   },
-   {
-    "title": "Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral",
-    "sku": "CN7142-1",
-    "qty": 0,
-    "price": 54.99,
-    "status": "ACTIVE",
-    "tracked": true,
-    "available": false,
-    "sold_30d": 1
    }
   ],
   "low_list": [
@@ -819,6 +799,17 @@
     "available": true,
     "sold_30d": 1,
     "days_cover": 90.0
+   },
+   {
+    "title": "Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral",
+    "sku": "CN7142-1",
+    "qty": 4,
+    "price": 54.99,
+    "status": "ACTIVE",
+    "tracked": true,
+    "available": true,
+    "sold_30d": 1,
+    "days_cover": 120.0
    }
   ],
   "untracked_list": [
