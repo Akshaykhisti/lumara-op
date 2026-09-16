@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-09-16T13:47:19Z",
+ "generated_at_utc": "2026-09-16T14:07:30Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,18 +9,32 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-09-16T13:47:19Z"
+   "fetched_at": "2026-09-16T14:07:30Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-09-16T13:47:19Z"
+   "fetched_at": "2026-09-16T14:07:30Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-09-16T13:47:19Z"
+   "fetched_at": "2026-09-16T14:07:30Z"
   }
  },
  "orders": [
+  {
+   "name": "#1077",
+   "createdAt": "2026-09-16T13:49:42Z",
+   "financial": "PAID",
+   "fulfillment": "UNFULFILLED",
+   "total": 468.15,
+   "customer": "Monica Armijo",
+   "items": [
+    {
+     "title": "Lumara Spice Table Lamp \u2014 Caramel Ribbed Ceramic with Linen Shade",
+     "quantity": 2
+    }
+   ]
+  },
   {
    "name": "#1076",
    "createdAt": "2026-09-16T06:36:18Z",
@@ -476,9 +490,15 @@
    "createdAt": "2026-09-16T06:36:18Z",
    "total": 212.55,
    "customer": "Julie Hutchinson"
+  },
+  {
+   "name": "#1077",
+   "createdAt": "2026-09-16T13:49:42Z",
+   "total": 468.15,
+   "customer": "Monica Armijo"
   }
  ],
- "customers_total": 103,
+ "customers_total": 104,
  "abandoned_checkouts_recent": 4,
  "inventory": [
   {
@@ -2734,16 +2754,6 @@
  ],
  "ads_daily": [
   {
-   "date": "2026-09-02",
-   "spend": 104.06,
-   "impressions": 3032,
-   "clicks": 172,
-   "ctr": 5.67,
-   "cpc": 0.6,
-   "purchases": 2,
-   "purchase_value": 311.0
-  },
-  {
    "date": "2026-09-03",
    "spend": 87.97,
    "impressions": 2845,
@@ -2875,70 +2885,80 @@
   },
   {
    "date": "2026-09-16",
-   "spend": 104.82,
-   "impressions": 3820,
+   "spend": 105.01,
+   "impressions": 3841,
    "clicks": 123,
-   "ctr": 3.22,
+   "ctr": 3.2,
    "cpc": 0.85,
    "purchases": 1,
    "purchase_value": 212.55
+  },
+  {
+   "date": "2026-09-17",
+   "spend": 0.0,
+   "impressions": 0,
+   "clicks": 0,
+   "ctr": 0.0,
+   "cpc": 0.0,
+   "purchases": 0,
+   "purchase_value": 0.0
   }
  ],
  "ads_today": {
-  "date": "2026-09-16",
-  "spend": 104.82,
-  "impressions": 3820,
-  "clicks": 123,
-  "ctr": 3.22,
-  "cpc": 0.85,
-  "purchases": 1,
-  "purchase_value": 212.55
+  "date": "2026-09-17",
+  "spend": 0.0,
+  "impressions": 0,
+  "clicks": 0,
+  "ctr": 0.0,
+  "cpc": 0.0,
+  "purchases": 0,
+  "purchase_value": 0.0
  },
  "ads_campaigns": [
   {
    "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
    "status": "ACTIVE",
    "daily_budget": 60.0,
-   "spend": 1484.23,
-   "impressions": 55622,
-   "clicks": 2759,
-   "ctr": 4.96,
-   "cpc": 0.54,
-   "roas": 3.1416,
-   "purchases": 20,
-   "purchase_value": 4662.86,
-   "atc": 69,
-   "reach": 29042
+   "spend": 1508.36,
+   "impressions": 55691,
+   "clicks": 2739,
+   "ctr": 4.92,
+   "cpc": 0.55,
+   "roas": 3.2323,
+   "purchases": 21,
+   "purchase_value": 4875.41,
+   "atc": 71,
+   "reach": 28929
   },
   {
    "name": "Decor",
    "status": "ACTIVE",
    "daily_budget": 40.0,
-   "spend": 737.53,
-   "impressions": 30791,
-   "clicks": 1770,
-   "ctr": 5.75,
-   "cpc": 0.42,
-   "roas": 0.8913,
+   "spend": 782.57,
+   "impressions": 32758,
+   "clicks": 1834,
+   "ctr": 5.6,
+   "cpc": 0.43,
+   "roas": 0.84,
    "purchases": 5,
    "purchase_value": 657.38,
    "atc": 39,
-   "reach": 17031
+   "reach": 18301
   },
   {
    "name": "Lumara \u2014 Sales \u2014 Winners Broad CBO (Jul 2026)",
    "status": "PAUSED",
    "daily_budget": 30.0,
-   "spend": 164.03,
-   "impressions": 7523,
-   "clicks": 239,
-   "ctr": 3.18,
-   "cpc": 0.69,
+   "spend": 130.85,
+   "impressions": 5637,
+   "clicks": 169,
+   "ctr": 3.0,
+   "cpc": 0.77,
    "roas": 0.0,
    "purchases": 0,
    "purchase_value": 0.0,
    "atc": 2,
-   "reach": 5587
+   "reach": 4118
   },
   {
    "name": "Lumara \u2014 Lamps \u2014 KG Gap (Jul 2026)",
