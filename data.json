@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-16T06:17:42Z",
-  "generated_at_local": "Wed 16 Sep 2026, 4:17pm AEST",
+  "generated_at_utc": "2026-09-16T06:37:53Z",
+  "generated_at_local": "Wed 16 Sep 2026, 4:37pm AEST",
   "today": "2026-09-16",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-16T06:17:42Z"
+    "fetched_at": "2026-09-16T06:37:53Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-16T06:17:42Z"
+    "fetched_at": "2026-09-16T06:37:53Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-16T06:17:42Z"
+    "fetched_at": "2026-09-16T06:37:53Z"
    }
   }
  },
@@ -29,8 +29,8 @@
   },
   {
    "level": "serious",
-   "title": "1 paid order(s) awaiting fulfilment",
-   "body": "#1067"
+   "title": "2 paid order(s) awaiting fulfilment",
+   "body": "#1067, #1076"
   },
   {
    "level": "warning",
@@ -40,39 +40,45 @@
  ],
  "sales": {
   "today": {
-   "orders": 0,
-   "revenue": 0.0,
-   "aov": 0.0
+   "orders": 1,
+   "revenue": 212.55,
+   "aov": 212.55
   },
   "d7": {
-   "orders": 6,
-   "revenue": 1217.1,
-   "aov": 202.85
+   "orders": 7,
+   "revenue": 1429.65,
+   "aov": 204.24
   },
   "d30": {
-   "orders": 30,
-   "revenue": 6385.28,
-   "aov": 212.84
+   "orders": 31,
+   "revenue": 6597.83,
+   "aov": 212.83
   },
   "prev7_revenue": 1398.46,
-  "wow_pct": -13.0,
-  "pending_fulfilment": 1,
+  "wow_pct": 2.2,
+  "pending_fulfilment": 2,
   "pending_orders": [
    {
     "name": "#1067",
     "createdAt": "2026-09-05T01:09:58Z",
     "total": 179.98,
     "customer": "Jane MacKinnell"
+   },
+   {
+    "name": "#1076",
+    "createdAt": "2026-09-16T06:36:18Z",
+    "total": 212.55,
+    "customer": "Julie Hutchinson"
    }
   ],
   "abandoned_checkouts": 4,
-  "customers_total": 102,
-  "days_since_order": 1,
+  "customers_total": 103,
+  "days_since_order": 0,
   "last_order": {
-   "name": "#1075",
-   "when": "15 sep, 12:42pm",
-   "total": 299.95,
-   "customer": "Rhonda Chapman"
+   "name": "#1076",
+   "when": "16 sep, 4:36pm",
+   "total": 212.55,
+   "customer": "Julie Hutchinson"
   },
   "daily": [
    {
@@ -252,11 +258,20 @@
    {
     "date": "2026-09-16",
     "label": "16 Sep",
-    "orders": 0,
-    "revenue": 0.0
+    "orders": 1,
+    "revenue": 212.55
    }
   ],
   "recent": [
+   {
+    "name": "#1076",
+    "when": "16 sep, 4:36pm",
+    "total": 212.55,
+    "customer": "Julie Hutchinson",
+    "fulfillment": "UNFULFILLED",
+    "financial": "PAID",
+    "items": "Lumara Gede Blues Table Lamp \u2014 Blue Reactive Glaze"
+   },
    {
     "name": "#1075",
     "when": "15 sep, 12:42pm",
@@ -319,15 +334,6 @@
     "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze"
-   },
-   {
-    "name": "#1068",
-    "when": "5 sep, 8:20pm",
-    "total": 233.94,
-    "customer": "Avinash Valiaveettil",
-    "fulfillment": "FULFILLED",
-    "financial": "PAID",
-    "items": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze"
    }
   ],
   "top_sellers": [
@@ -348,37 +354,37 @@
     "units": 2
    },
    {
-    "title": "Lumara Baroque Heart Wall Art \u2014 Gold",
+    "title": "Lumara Gede Blues Table Lamp \u2014 Blue Reactive Glaze",
     "units": 1
    },
    {
-    "title": "Lumara Olive Mediterranean Candelabra \u2014 Sculptural Metal Centrepiece",
+    "title": "Lumara Baroque Heart Wall Art \u2014 Gold",
     "units": 1
    }
   ]
  },
  "ads": {
   "today": {
-   "spend": 72.05,
+   "spend": 73.97,
    "value": 0.0,
    "roas": 0.0,
    "clicks": 76,
-   "impressions": 2246,
+   "impressions": 2312,
    "purchases": 0,
-   "cpc": 0.95,
-   "ctr": 3.38,
+   "cpc": 0.97,
+   "ctr": 3.29,
    "cpa": null
   },
   "d7": {
-   "spend": 551.96,
+   "spend": 553.88,
    "value": 917.15,
    "roas": 1.66,
    "clicks": 873,
-   "impressions": 19695,
+   "impressions": 19761,
    "purchases": 5,
    "cpc": 0.63,
-   "ctr": 4.43,
-   "cpa": 110.39
+   "ctr": 4.42,
+   "cpa": 110.78
   },
   "prev7": {
    "spend": 617.9,
@@ -388,7 +394,7 @@
   "daily_budget_live": 100.0,
   "active_campaigns": 2,
   "dry_days": 2,
-  "dry_spend": 116.66,
+  "dry_spend": 118.58,
   "series": [
    {
     "date": "2026-09-03",
@@ -523,12 +529,12 @@
    {
     "date": "2026-09-16",
     "label": "16 Sep",
-    "spend": 72.05,
+    "spend": 73.97,
     "revenue": 0.0,
     "purchases": 0,
     "clicks": 76,
-    "ctr": 3.38,
-    "cpc": 0.95
+    "ctr": 3.29,
+    "cpc": 0.97
    }
   ],
   "campaigns": [
@@ -662,7 +668,7 @@
   "watch": 1,
   "healthy": 74,
   "untracked": 50,
-  "stock_value": 89261.63,
+  "stock_value": 89047.64,
   "oos_list": [
    {
     "title": "Lumara Nishi Table Lamp \u2014 Contemporary Ceramic Style",

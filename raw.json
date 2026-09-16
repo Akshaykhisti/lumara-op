@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-09-16T06:17:42Z",
+ "generated_at_utc": "2026-09-16T06:37:53Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,18 +9,32 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-09-16T06:17:42Z"
+   "fetched_at": "2026-09-16T06:37:53Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-09-16T06:17:42Z"
+   "fetched_at": "2026-09-16T06:37:53Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-09-16T06:17:42Z"
+   "fetched_at": "2026-09-16T06:37:53Z"
   }
  },
  "orders": [
+  {
+   "name": "#1076",
+   "createdAt": "2026-09-16T06:36:18Z",
+   "financial": "PAID",
+   "fulfillment": "UNFULFILLED",
+   "total": 212.55,
+   "customer": "Julie Hutchinson",
+   "items": [
+    {
+     "title": "Lumara Gede Blues Table Lamp \u2014 Blue Reactive Glaze",
+     "quantity": 1
+    }
+   ]
+  },
   {
    "name": "#1075",
    "createdAt": "2026-09-15T02:42:32Z",
@@ -456,9 +470,15 @@
    "createdAt": "2026-09-05T01:09:58Z",
    "total": 179.98,
    "customer": "Jane MacKinnell"
+  },
+  {
+   "name": "#1076",
+   "createdAt": "2026-09-16T06:36:18Z",
+   "total": 212.55,
+   "customer": "Julie Hutchinson"
   }
  ],
- "customers_total": 102,
+ "customers_total": 103,
  "abandoned_checkouts_recent": 4,
  "inventory": [
   {
@@ -617,7 +637,7 @@
   {
    "title": "Lumara Gede Blues Table Lamp \u2014 Blue Reactive Glaze",
    "sku": "LH-TL-008",
-   "qty": 10,
+   "qty": 9,
    "price": 213.99,
    "status": "ACTIVE",
    "tracked": true,
@@ -2855,22 +2875,22 @@
   },
   {
    "date": "2026-09-16",
-   "spend": 72.05,
-   "impressions": 2246,
+   "spend": 73.97,
+   "impressions": 2312,
    "clicks": 76,
-   "ctr": 3.38,
-   "cpc": 0.95,
+   "ctr": 3.29,
+   "cpc": 0.97,
    "purchases": 0,
    "purchase_value": 0.0
   }
  ],
  "ads_today": {
   "date": "2026-09-16",
-  "spend": 72.05,
-  "impressions": 2246,
+  "spend": 73.97,
+  "impressions": 2312,
   "clicks": 76,
-  "ctr": 3.38,
-  "cpc": 0.95,
+  "ctr": 3.29,
+  "cpc": 0.97,
   "purchases": 0,
   "purchase_value": 0.0
  },
