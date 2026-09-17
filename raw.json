@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-09-17T22:10:40Z",
+ "generated_at_utc": "2026-09-17T22:30:50Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,18 +9,32 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-09-17T22:10:40Z"
+   "fetched_at": "2026-09-17T22:30:50Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-09-17T22:10:40Z"
+   "fetched_at": "2026-09-17T22:30:50Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-09-17T22:10:40Z"
+   "fetched_at": "2026-09-17T22:30:50Z"
   }
  },
  "orders": [
+  {
+   "name": "#1079",
+   "createdAt": "2026-09-17T22:24:32Z",
+   "financial": "PAID",
+   "fulfillment": "UNFULFILLED",
+   "total": 244.05,
+   "customer": "Tanya Cullen",
+   "items": [
+    {
+     "title": "Lumara Spice Table Lamp \u2014 Caramel Ribbed Ceramic with Linen Shade",
+     "quantity": 1
+    }
+   ]
+  },
   {
    "name": "#1078",
    "createdAt": "2026-09-17T21:57:12Z",
@@ -498,9 +512,15 @@
    "createdAt": "2026-09-17T21:57:12Z",
    "total": 244.05,
    "customer": "Sam Waters"
+  },
+  {
+   "name": "#1079",
+   "createdAt": "2026-09-17T22:24:32Z",
+   "total": 244.05,
+   "customer": "Tanya Cullen"
   }
  ],
- "customers_total": 105,
+ "customers_total": 106,
  "abandoned_checkouts_recent": 0,
  "inventory": [
   {
@@ -2887,8 +2907,8 @@
   },
   {
    "date": "2026-09-17",
-   "spend": 96.82,
-   "impressions": 3005,
+   "spend": 96.98,
+   "impressions": 3007,
    "clicks": 92,
    "ctr": 3.06,
    "cpc": 1.05,
@@ -2897,22 +2917,22 @@
   },
   {
    "date": "2026-09-18",
-   "spend": 16.44,
-   "impressions": 487,
-   "clicks": 18,
-   "ctr": 3.7,
-   "cpc": 0.91,
+   "spend": 19.66,
+   "impressions": 584,
+   "clicks": 21,
+   "ctr": 3.6,
+   "cpc": 0.94,
    "purchases": 0,
    "purchase_value": 0.0
   }
  ],
  "ads_today": {
   "date": "2026-09-18",
-  "spend": 16.44,
-  "impressions": 487,
-  "clicks": 18,
-  "ctr": 3.7,
-  "cpc": 0.91,
+  "spend": 19.66,
+  "impressions": 584,
+  "clicks": 21,
+  "ctr": 3.6,
+  "cpc": 0.94,
   "purchases": 0,
   "purchase_value": 0.0
  },
@@ -2936,12 +2956,12 @@
    "name": "Decor",
    "status": "ACTIVE",
    "daily_budget": 40.0,
-   "spend": 818.99,
-   "impressions": 34455,
+   "spend": 819.15,
+   "impressions": 34457,
    "clicks": 1881,
    "ctr": 5.46,
    "cpc": 0.44,
-   "roas": 0.8027,
+   "roas": 0.8025,
    "purchases": 5,
    "purchase_value": 657.38,
    "atc": 39,
