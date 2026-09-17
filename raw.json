@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-09-17T06:26:49Z",
+ "generated_at_utc": "2026-09-17T06:46:59Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-09-17T06:26:49Z"
+   "fetched_at": "2026-09-17T06:46:59Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-09-17T06:26:49Z"
+   "fetched_at": "2026-09-17T06:46:59Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-09-17T06:26:49Z"
+   "fetched_at": "2026-09-17T06:46:59Z"
   }
  },
  "orders": [
@@ -25,7 +25,7 @@
    "name": "#1077",
    "createdAt": "2026-09-16T13:49:42Z",
    "financial": "PAID",
-   "fulfillment": "UNFULFILLED",
+   "fulfillment": "FULFILLED",
    "total": 468.15,
    "customer": "Monica Armijo",
    "items": [
@@ -165,7 +165,7 @@
    "name": "#1067",
    "createdAt": "2026-09-05T01:09:58Z",
    "financial": "PAID",
-   "fulfillment": "IN_PROGRESS",
+   "fulfillment": "FULFILLED",
    "total": 179.98,
    "customer": "Jane MacKinnell",
    "items": [
@@ -478,20 +478,7 @@
    ]
   }
  ],
- "unfulfilled_paid": [
-  {
-   "name": "#1067",
-   "createdAt": "2026-09-05T01:09:58Z",
-   "total": 179.98,
-   "customer": "Jane MacKinnell"
-  },
-  {
-   "name": "#1077",
-   "createdAt": "2026-09-16T13:49:42Z",
-   "total": 468.15,
-   "customer": "Monica Armijo"
-  }
- ],
+ "unfulfilled_paid": [],
  "customers_total": 104,
  "abandoned_checkouts_recent": 4,
  "inventory": [
@@ -2889,22 +2876,22 @@
   },
   {
    "date": "2026-09-17",
-   "spend": 51.58,
-   "impressions": 1469,
+   "spend": 53.89,
+   "impressions": 1555,
    "clicks": 48,
-   "ctr": 3.27,
-   "cpc": 1.07,
+   "ctr": 3.09,
+   "cpc": 1.12,
    "purchases": 0,
    "purchase_value": 0.0
   }
  ],
  "ads_today": {
   "date": "2026-09-17",
-  "spend": 51.58,
-  "impressions": 1469,
+  "spend": 53.89,
+  "impressions": 1555,
   "clicks": 48,
-  "ctr": 3.27,
-  "cpc": 1.07,
+  "ctr": 3.09,
+  "cpc": 1.12,
   "purchases": 0,
   "purchase_value": 0.0
  },
