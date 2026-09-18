@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-18T00:01:40Z",
-  "generated_at_local": "Fri 18 Sep 2026, 10:01am AEST",
+  "generated_at_utc": "2026-09-18T00:21:51Z",
+  "generated_at_local": "Fri 18 Sep 2026, 10:21am AEST",
   "today": "2026-09-18",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-18T00:01:40Z"
+    "fetched_at": "2026-09-18T00:21:51Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-18T00:01:40Z"
+    "fetched_at": "2026-09-18T00:21:51Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-18T00:01:40Z"
+    "fetched_at": "2026-09-18T00:21:51Z"
    }
   }
  },
@@ -365,26 +365,26 @@
  },
  "ads": {
   "today": {
-   "spend": 29.28,
-   "value": 0.0,
-   "roas": 0.0,
-   "clicks": 35,
-   "impressions": 886,
-   "purchases": 0,
-   "cpc": 0.84,
-   "ctr": 3.95,
-   "cpa": null
+   "spend": 30.86,
+   "value": 244.05,
+   "roas": 7.91,
+   "clicks": 36,
+   "impressions": 967,
+   "purchases": 1,
+   "cpc": 0.86,
+   "ctr": 3.72,
+   "cpa": 30.86
   },
   "d7": {
-   "spend": 535.69,
-   "value": 1318.35,
-   "roas": 2.46,
-   "clicks": 759,
-   "impressions": 18908,
-   "purchases": 5,
+   "spend": 537.27,
+   "value": 1562.4,
+   "roas": 2.91,
+   "clicks": 760,
+   "impressions": 18989,
+   "purchases": 6,
    "cpc": 0.71,
-   "ctr": 4.01,
-   "cpa": 107.14
+   "ctr": 4.0,
+   "cpa": 89.55
   },
   "prev7": {
    "spend": 621.21,
@@ -393,8 +393,8 @@
   },
   "daily_budget_live": 100.0,
   "active_campaigns": 2,
-  "dry_days": 2,
-  "dry_spend": 126.26,
+  "dry_days": 0,
+  "dry_spend": 0.0,
   "series": [
    {
     "date": "2026-09-05",
@@ -529,12 +529,12 @@
    {
     "date": "2026-09-18",
     "label": "18 Sep",
-    "spend": 29.28,
-    "revenue": 0.0,
-    "purchases": 0,
-    "clicks": 35,
-    "ctr": 3.95,
-    "cpc": 0.84
+    "spend": 30.86,
+    "revenue": 244.05,
+    "purchases": 1,
+    "clicks": 36,
+    "ctr": 3.72,
+    "cpc": 0.86
    }
   ],
   "campaigns": [
