@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-09-18T15:10:34Z",
+ "generated_at_utc": "2026-09-18T15:30:45Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-09-18T15:10:34Z"
+   "fetched_at": "2026-09-18T15:30:45Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-09-18T15:10:34Z"
+   "fetched_at": "2026-09-18T15:30:45Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-09-18T15:10:34Z"
+   "fetched_at": "2026-09-18T15:30:45Z"
   }
  },
  "orders": [
@@ -2894,8 +2894,8 @@
   },
   {
    "date": "2026-09-18",
-   "spend": 107.75,
-   "impressions": 3501,
+   "spend": 107.93,
+   "impressions": 3504,
    "clicks": 125,
    "ctr": 3.57,
    "cpc": 0.86,
@@ -2904,22 +2904,22 @@
   },
   {
    "date": "2026-09-19",
-   "spend": 0.5,
-   "impressions": 47,
+   "spend": 0.88,
+   "impressions": 60,
    "clicks": 1,
-   "ctr": 2.13,
-   "cpc": 0.5,
+   "ctr": 1.67,
+   "cpc": 0.88,
    "purchases": 0,
    "purchase_value": 0.0
   }
  ],
  "ads_today": {
   "date": "2026-09-19",
-  "spend": 0.5,
-  "impressions": 47,
+  "spend": 0.88,
+  "impressions": 60,
   "clicks": 1,
-  "ctr": 2.13,
-  "cpc": 0.5,
+  "ctr": 1.67,
+  "cpc": 0.88,
   "purchases": 0,
   "purchase_value": 0.0
  },
@@ -2928,12 +2928,12 @@
    "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
    "status": "ACTIVE",
    "daily_budget": 60.0,
-   "spend": 1581.61,
-   "impressions": 55600,
+   "spend": 1581.73,
+   "impressions": 55602,
    "clicks": 2737,
    "ctr": 4.92,
    "cpc": 0.58,
-   "roas": 3.5329,
+   "roas": 3.5326,
    "purchases": 23,
    "purchase_value": 5587.61,
    "atc": 75,
@@ -2943,12 +2943,12 @@
    "name": "Decor",
    "status": "ACTIVE",
    "daily_budget": 40.0,
-   "spend": 859.01,
-   "impressions": 36242,
+   "spend": 859.07,
+   "impressions": 36243,
    "clicks": 1939,
    "ctr": 5.35,
    "cpc": 0.44,
-   "roas": 0.7653,
+   "roas": 0.7652,
    "purchases": 5,
    "purchase_value": 657.38,
    "atc": 39,
