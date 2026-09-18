@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-09-18T01:02:14Z",
+ "generated_at_utc": "2026-09-18T01:22:35Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-09-18T01:02:14Z"
+   "fetched_at": "2026-09-18T01:22:35Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-09-18T01:02:14Z"
+   "fetched_at": "2026-09-18T01:22:35Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-09-18T01:02:14Z"
+   "fetched_at": "2026-09-18T01:22:35Z"
   }
  },
  "orders": [
@@ -681,12 +681,12 @@
    "sku": "LH-TL-008",
    "qty": 9,
    "price": 213.99,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": true,
    "available": true
   },
   {
-   "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
+   "title": "Lumara Gede Table Lamp \u2014 Reactive Glaze Ceramic (Sage Green / Blue)",
    "sku": "LH-TL-009",
    "qty": 0,
    "price": 213.99,
@@ -2917,22 +2917,22 @@
   },
   {
    "date": "2026-09-18",
-   "spend": 36.99,
-   "impressions": 1095,
-   "clicks": 37,
-   "ctr": 3.38,
-   "cpc": 1.0,
+   "spend": 38.86,
+   "impressions": 1143,
+   "clicks": 38,
+   "ctr": 3.32,
+   "cpc": 1.02,
    "purchases": 1,
    "purchase_value": 244.05
   }
  ],
  "ads_today": {
   "date": "2026-09-18",
-  "spend": 36.99,
-  "impressions": 1095,
-  "clicks": 37,
-  "ctr": 3.38,
-  "cpc": 1.0,
+  "spend": 38.86,
+  "impressions": 1143,
+  "clicks": 38,
+  "ctr": 3.32,
+  "cpc": 1.02,
   "purchases": 1,
   "purchase_value": 244.05
  },
