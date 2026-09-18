@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-09-18T08:01:34Z",
+ "generated_at_utc": "2026-09-18T08:21:44Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-09-18T08:01:34Z"
+   "fetched_at": "2026-09-18T08:21:44Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-09-18T08:01:34Z"
+   "fetched_at": "2026-09-18T08:21:44Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-09-18T08:01:34Z"
+   "fetched_at": "2026-09-18T08:21:44Z"
   }
  },
  "orders": [
@@ -25,7 +25,7 @@
    "name": "#1079",
    "createdAt": "2026-09-17T22:24:32Z",
    "financial": "PAID",
-   "fulfillment": "UNFULFILLED",
+   "fulfillment": "FULFILLED",
    "total": 244.05,
    "customer": "Tanya Cullen",
    "items": [
@@ -39,7 +39,7 @@
    "name": "#1078",
    "createdAt": "2026-09-17T21:57:12Z",
    "financial": "PAID",
-   "fulfillment": "UNFULFILLED",
+   "fulfillment": "FULFILLED",
    "total": 244.05,
    "customer": "Sam Waters",
    "items": [
@@ -506,20 +506,7 @@
    ]
   }
  ],
- "unfulfilled_paid": [
-  {
-   "name": "#1078",
-   "createdAt": "2026-09-17T21:57:12Z",
-   "total": 244.05,
-   "customer": "Sam Waters"
-  },
-  {
-   "name": "#1079",
-   "createdAt": "2026-09-17T22:24:32Z",
-   "total": 244.05,
-   "customer": "Tanya Cullen"
-  }
- ],
+ "unfulfilled_paid": [],
  "customers_total": 106,
  "abandoned_checkouts_recent": 0,
  "inventory": [
@@ -2917,22 +2904,22 @@
   },
   {
    "date": "2026-09-18",
-   "spend": 80.59,
-   "impressions": 2340,
-   "clicks": 85,
-   "ctr": 3.63,
-   "cpc": 0.95,
+   "spend": 82.61,
+   "impressions": 2414,
+   "clicks": 88,
+   "ctr": 3.65,
+   "cpc": 0.94,
    "purchases": 1,
    "purchase_value": 244.05
   }
  ],
  "ads_today": {
   "date": "2026-09-18",
-  "spend": 80.59,
-  "impressions": 2340,
-  "clicks": 85,
-  "ctr": 3.63,
-  "cpc": 0.95,
+  "spend": 82.61,
+  "impressions": 2414,
+  "clicks": 88,
+  "ctr": 3.65,
+  "cpc": 0.94,
   "purchases": 1,
   "purchase_value": 244.05
  },
