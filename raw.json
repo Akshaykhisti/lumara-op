@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-09-19T13:57:26Z",
+ "generated_at_utc": "2026-09-19T14:17:36Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-09-19T13:57:26Z"
+   "fetched_at": "2026-09-19T14:17:36Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-09-19T13:57:26Z"
+   "fetched_at": "2026-09-19T14:17:36Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-09-19T13:57:26Z"
+   "fetched_at": "2026-09-19T14:17:36Z"
   }
  },
  "orders": [
@@ -488,20 +488,6 @@
     {
      "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
      "quantity": 1
-    }
-   ]
-  },
-  {
-   "name": "#1046",
-   "createdAt": "2026-08-20T07:35:21Z",
-   "financial": "PAID",
-   "fulfillment": "FULFILLED",
-   "total": 405.14,
-   "customer": "Helve Beale",
-   "items": [
-    {
-     "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
-     "quantity": 2
     }
    ]
   }
@@ -2763,16 +2749,6 @@
  ],
  "ads_daily": [
   {
-   "date": "2026-09-05",
-   "spend": 69.21,
-   "impressions": 2581,
-   "clicks": 119,
-   "ctr": 4.61,
-   "cpc": 0.58,
-   "purchases": 2,
-   "purchase_value": 413.92
-  },
-  {
    "date": "2026-09-06",
    "spend": 113.97,
    "impressions": 3797,
@@ -2905,21 +2881,31 @@
   {
    "date": "2026-09-19",
    "spend": 86.58,
-   "impressions": 2837,
+   "impressions": 2838,
    "clicks": 87,
    "ctr": 3.07,
    "cpc": 1.0,
    "purchases": 0,
    "purchase_value": 0.0
+  },
+  {
+   "date": "2026-09-20",
+   "spend": 0.19,
+   "impressions": 10,
+   "clicks": 1,
+   "ctr": 10.0,
+   "cpc": 0.19,
+   "purchases": 0,
+   "purchase_value": 0.0
   }
  ],
  "ads_today": {
-  "date": "2026-09-19",
-  "spend": 86.58,
-  "impressions": 2837,
-  "clicks": 87,
-  "ctr": 3.07,
-  "cpc": 1.0,
+  "date": "2026-09-20",
+  "spend": 0.19,
+  "impressions": 10,
+  "clicks": 1,
+  "ctr": 10.0,
+  "cpc": 0.19,
   "purchases": 0,
   "purchase_value": 0.0
  },
@@ -2928,46 +2914,46 @@
    "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
    "status": "ACTIVE",
    "daily_budget": 60.0,
-   "spend": 1581.84,
-   "impressions": 55608,
-   "clicks": 2738,
+   "spend": 1608.65,
+   "impressions": 55656,
+   "clicks": 2739,
    "ctr": 4.92,
-   "cpc": 0.58,
-   "roas": 3.5323,
+   "cpc": 0.59,
+   "roas": 3.4735,
    "purchases": 23,
    "purchase_value": 5587.61,
-   "atc": 75,
-   "reach": 28723
+   "atc": 74,
+   "reach": 28553
   },
   {
    "name": "Decor",
    "status": "ACTIVE",
    "daily_budget": 40.0,
-   "spend": 859.14,
-   "impressions": 36250,
-   "clicks": 1939,
-   "ctr": 5.35,
-   "cpc": 0.44,
-   "roas": 0.7652,
+   "spend": 877.19,
+   "impressions": 36832,
+   "clicks": 1918,
+   "ctr": 5.21,
+   "cpc": 0.46,
+   "roas": 0.7494,
    "purchases": 5,
    "purchase_value": 657.38,
-   "atc": 39,
-   "reach": 19830
+   "atc": 40,
+   "reach": 19602
   },
   {
    "name": "Lumara \u2014 Sales \u2014 Winners Broad CBO (Jul 2026)",
    "status": "PAUSED",
    "daily_budget": 30.0,
-   "spend": 91.9,
-   "impressions": 3640,
-   "clicks": 86,
-   "ctr": 2.36,
-   "cpc": 1.07,
+   "spend": 63.18,
+   "impressions": 2579,
+   "clicks": 54,
+   "ctr": 2.09,
+   "cpc": 1.17,
    "roas": 0.0,
    "purchases": 0,
    "purchase_value": 0.0,
    "atc": 0,
-   "reach": 2626
+   "reach": 1952
   },
   {
    "name": "Lumara \u2014 Lamps \u2014 KG Gap (Jul 2026)",

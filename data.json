@@ -3,25 +3,30 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-19T13:57:26Z",
-  "generated_at_local": "Sat 19 Sep 2026, 11:57pm AEST",
-  "today": "2026-09-19",
+  "generated_at_utc": "2026-09-19T14:17:36Z",
+  "generated_at_local": "Sun 20 Sep 2026, 12:17am AEST",
+  "today": "2026-09-20",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-19T13:57:26Z"
+    "fetched_at": "2026-09-19T14:17:36Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-19T13:57:26Z"
+    "fetched_at": "2026-09-19T14:17:36Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-19T13:57:26Z"
+    "fetched_at": "2026-09-19T14:17:36Z"
    }
   }
  },
  "alerts": [
+  {
+   "level": "warning",
+   "title": "No orders for 2 days",
+   "body": "Last order was #1079 on 18 Sep. Ads have spent $87 since the last attributed purchase."
+  },
   {
    "level": "warning",
    "title": "6 product(s) at 3 units or fewer",
@@ -35,22 +40,22 @@
    "aov": 0.0
   },
   "d7": {
-   "orders": 8,
-   "revenue": 2106.4,
-   "aov": 263.3
+   "orders": 7,
+   "revenue": 1893.85,
+   "aov": 270.55
   },
   "d30": {
    "orders": 33,
    "revenue": 7148.94,
    "aov": 216.63
   },
-  "prev7_revenue": 492.05,
-  "wow_pct": 328.1,
+  "prev7_revenue": 704.6,
+  "wow_pct": 168.8,
   "pending_fulfilment": 0,
   "pending_orders": [],
   "abandoned_checkouts": 0,
   "customers_total": 106,
-  "days_since_order": 1,
+  "days_since_order": 2,
   "last_order": {
    "name": "#1079",
    "when": "18 sep, 8:24am",
@@ -58,12 +63,6 @@
    "customer": "Tanya Cullen"
   },
   "daily": [
-   {
-    "date": "2026-08-21",
-    "label": "21 Aug",
-    "orders": 0,
-    "revenue": 0.0
-   },
    {
     "date": "2026-08-22",
     "label": "22 Aug",
@@ -237,6 +236,12 @@
     "label": "19 Sep",
     "orders": 0,
     "revenue": 0.0
+   },
+   {
+    "date": "2026-09-20",
+    "label": "20 Sep",
+    "orders": 0,
+    "revenue": 0.0
    }
   ],
   "recent": [
@@ -342,47 +347,37 @@
  },
  "ads": {
   "today": {
-   "spend": 86.58,
+   "spend": 0.19,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 87,
-   "impressions": 2837,
+   "clicks": 1,
+   "impressions": 10,
    "purchases": 0,
-   "cpc": 1.0,
-   "ctr": 3.07,
+   "cpc": 0.19,
+   "ctr": 10.0,
    "cpa": null
   },
   "d7": {
-   "spend": 614.79,
-   "value": 1562.4,
-   "roas": 2.54,
-   "clicks": 780,
-   "impressions": 21281,
-   "purchases": 6,
-   "cpc": 0.79,
-   "ctr": 3.67,
-   "cpa": 102.46
+   "spend": 505.49,
+   "value": 1349.85,
+   "roas": 2.67,
+   "clicks": 614,
+   "impressions": 17392,
+   "purchases": 5,
+   "cpc": 0.82,
+   "ctr": 3.53,
+   "cpa": 101.1
   },
   "prev7": {
-   "spend": 638.32,
-   "value": 492.05,
-   "roas": 0.77
+   "spend": 633.84,
+   "value": 704.6,
+   "roas": 1.11
   },
   "daily_budget_live": 100.0,
   "active_campaigns": 2,
-  "dry_days": 1,
-  "dry_spend": 86.58,
+  "dry_days": 2,
+  "dry_spend": 86.77,
   "series": [
-   {
-    "date": "2026-09-06",
-    "label": "6 Sep",
-    "spend": 113.97,
-    "revenue": 0.0,
-    "purchases": 0,
-    "clicks": 231,
-    "ctr": 6.08,
-    "cpc": 0.49
-   },
    {
     "date": "2026-09-07",
     "label": "7 Sep",
@@ -512,6 +507,16 @@
     "clicks": 87,
     "ctr": 3.07,
     "cpc": 1.0
+   },
+   {
+    "date": "2026-09-20",
+    "label": "20 Sep",
+    "spend": 0.19,
+    "revenue": 0.0,
+    "purchases": 0,
+    "clicks": 1,
+    "ctr": 10.0,
+    "cpc": 0.19
    }
   ],
   "campaigns": [
@@ -519,46 +524,46 @@
     "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
     "status": "ACTIVE",
     "daily_budget": 60.0,
-    "spend": 1581.84,
-    "impressions": 55608,
-    "clicks": 2738,
+    "spend": 1608.65,
+    "impressions": 55656,
+    "clicks": 2739,
     "ctr": 4.92,
-    "cpc": 0.58,
-    "roas": 3.5323,
+    "cpc": 0.59,
+    "roas": 3.4735,
     "purchases": 23,
     "purchase_value": 5587.61,
-    "atc": 75,
-    "reach": 28723
+    "atc": 74,
+    "reach": 28553
    },
    {
     "name": "Decor",
     "status": "ACTIVE",
     "daily_budget": 40.0,
-    "spend": 859.14,
-    "impressions": 36250,
-    "clicks": 1939,
-    "ctr": 5.35,
-    "cpc": 0.44,
-    "roas": 0.7652,
+    "spend": 877.19,
+    "impressions": 36832,
+    "clicks": 1918,
+    "ctr": 5.21,
+    "cpc": 0.46,
+    "roas": 0.7494,
     "purchases": 5,
     "purchase_value": 657.38,
-    "atc": 39,
-    "reach": 19830
+    "atc": 40,
+    "reach": 19602
    },
    {
     "name": "Lumara \u2014 Sales \u2014 Winners Broad CBO (Jul 2026)",
     "status": "PAUSED",
     "daily_budget": 30.0,
-    "spend": 91.9,
-    "impressions": 3640,
-    "clicks": 86,
-    "ctr": 2.36,
-    "cpc": 1.07,
+    "spend": 63.18,
+    "impressions": 2579,
+    "clicks": 54,
+    "ctr": 2.09,
+    "cpc": 1.17,
     "roas": 0.0,
     "purchases": 0,
     "purchase_value": 0.0,
     "atc": 0,
-    "reach": 2626
+    "reach": 1952
    },
    {
     "name": "Lumara \u2014 Lamps \u2014 KG Gap (Jul 2026)",
