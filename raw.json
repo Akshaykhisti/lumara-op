@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-09-20T00:53:14Z",
+ "generated_at_utc": "2026-09-20T01:13:25Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,18 +9,32 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-09-20T00:53:14Z"
+   "fetched_at": "2026-09-20T01:13:25Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-09-20T00:53:14Z"
+   "fetched_at": "2026-09-20T01:13:25Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-09-20T00:53:14Z"
+   "fetched_at": "2026-09-20T01:13:25Z"
   }
  },
  "orders": [
+  {
+   "name": "#1080",
+   "createdAt": "2026-09-20T00:53:46Z",
+   "financial": "PAID",
+   "fulfillment": "UNFULFILLED",
+   "total": 268.95,
+   "customer": "Glen Bernardino",
+   "items": [
+    {
+     "title": "Lumara Spice Table Lamp \u2014 Caramel Ribbed Ceramic with Linen Shade",
+     "quantity": 1
+    }
+   ]
+  },
   {
    "name": "#1079",
    "createdAt": "2026-09-17T22:24:32Z",
@@ -492,8 +506,15 @@
    ]
   }
  ],
- "unfulfilled_paid": [],
- "customers_total": 106,
+ "unfulfilled_paid": [
+  {
+   "name": "#1080",
+   "createdAt": "2026-09-20T00:53:46Z",
+   "total": 268.95,
+   "customer": "Glen Bernardino"
+  }
+ ],
+ "customers_total": 107,
  "abandoned_checkouts_recent": 0,
  "inventory": [
   {
@@ -2890,24 +2911,24 @@
   },
   {
    "date": "2026-09-20",
-   "spend": 27.61,
-   "impressions": 729,
-   "clicks": 27,
-   "ctr": 3.7,
-   "cpc": 1.02,
-   "purchases": 0,
-   "purchase_value": 0.0
+   "spend": 31.56,
+   "impressions": 801,
+   "clicks": 33,
+   "ctr": 4.12,
+   "cpc": 0.96,
+   "purchases": 1,
+   "purchase_value": 268.95
   }
  ],
  "ads_today": {
   "date": "2026-09-20",
-  "spend": 27.61,
-  "impressions": 729,
-  "clicks": 27,
-  "ctr": 3.7,
-  "cpc": 1.02,
-  "purchases": 0,
-  "purchase_value": 0.0
+  "spend": 31.56,
+  "impressions": 801,
+  "clicks": 33,
+  "ctr": 4.12,
+  "cpc": 0.96,
+  "purchases": 1,
+  "purchase_value": 268.95
  },
  "ads_campaigns": [
   {
