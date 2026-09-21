@@ -3,34 +3,29 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-21T20:59:18Z",
-  "generated_at_local": "Tue 22 Sep 2026, 6:59am AEST",
+  "generated_at_utc": "2026-09-21T21:19:28Z",
+  "generated_at_local": "Tue 22 Sep 2026, 7:19am AEST",
   "today": "2026-09-22",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-21T20:59:18Z"
+    "fetched_at": "2026-09-21T21:19:28Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-21T20:59:18Z"
+    "fetched_at": "2026-09-21T21:19:28Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-21T20:59:18Z"
+    "fetched_at": "2026-09-21T21:19:28Z"
    }
   }
  },
  "alerts": [
   {
-   "level": "serious",
-   "title": "1 paid order(s) awaiting fulfilment",
-   "body": "#1081"
-  },
-  {
    "level": "warning",
    "title": "No orders for 2 days",
-   "body": "Last order was #1081 on 20 Sep. Ads have spent $97 since the last attributed purchase."
+   "body": "Last order was #1081 on 20 Sep. Ads have spent $99 since the last attributed purchase."
   },
   {
    "level": "warning",
@@ -56,15 +51,8 @@
   },
   "prev7_revenue": 1217.1,
   "wow_pct": 42.0,
-  "pending_fulfilment": 1,
-  "pending_orders": [
-   {
-    "name": "#1081",
-    "createdAt": "2026-09-20T11:11:09Z",
-    "total": 289.95,
-    "customer": "Susan Lyons"
-   }
-  ],
+  "pending_fulfilment": 0,
+  "pending_orders": [],
   "abandoned_checkouts": 0,
   "customers_total": 108,
   "days_since_order": 2,
@@ -262,7 +250,7 @@
     "when": "20 sep, 9:11pm",
     "total": 289.95,
     "customer": "Susan Lyons",
-    "fulfillment": "UNFULFILLED",
+    "fulfillment": "ON_HOLD",
     "financial": "PAID",
     "items": "Lumara Fossil Table Lamp \u2014 Organic Textured Ceramic"
    },
@@ -359,26 +347,26 @@
  },
  "ads": {
   "today": {
-   "spend": 7.01,
+   "spend": 8.66,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 6,
-   "impressions": 205,
+   "clicks": 8,
+   "impressions": 241,
    "purchases": 0,
-   "cpc": 1.17,
-   "ctr": 2.93,
+   "cpc": 1.08,
+   "ctr": 3.32,
    "cpa": null
   },
   "d7": {
-   "spend": 605.33,
+   "spend": 606.98,
    "value": 1483.65,
-   "roas": 2.45,
-   "clicks": 627,
-   "impressions": 18127,
+   "roas": 2.44,
+   "clicks": 629,
+   "impressions": 18163,
    "purchases": 5,
-   "cpc": 0.97,
+   "cpc": 0.96,
    "ctr": 3.46,
-   "cpa": 121.07
+   "cpa": 121.4
   },
   "prev7": {
    "spend": 574.93,
@@ -388,7 +376,7 @@
   "daily_budget_live": 100.0,
   "active_campaigns": 1,
   "dry_days": 2,
-  "dry_spend": 97.41,
+  "dry_spend": 99.06,
   "series": [
    {
     "date": "2026-09-09",
@@ -523,12 +511,12 @@
    {
     "date": "2026-09-22",
     "label": "22 Sep",
-    "spend": 7.01,
+    "spend": 8.66,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 6,
-    "ctr": 2.93,
-    "cpc": 1.17
+    "clicks": 8,
+    "ctr": 3.32,
+    "cpc": 1.08
    }
   ],
   "campaigns": [
