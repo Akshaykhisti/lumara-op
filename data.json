@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-22T08:30:00Z",
-  "generated_at_local": "Tue 22 Sep 2026, 6:30pm AEST",
+  "generated_at_utc": "2026-09-22T08:50:09Z",
+  "generated_at_local": "Tue 22 Sep 2026, 6:50pm AEST",
   "today": "2026-09-22",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-22T08:30:00Z"
+    "fetched_at": "2026-09-22T08:50:09Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-22T08:30:00Z"
+    "fetched_at": "2026-09-22T08:50:09Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-22T08:30:00Z"
+    "fetched_at": "2026-09-22T08:50:09Z"
    }
   }
  },
@@ -25,12 +25,12 @@
   {
    "level": "warning",
    "title": "No orders for 2 days",
-   "body": "Last order was #1081 on 20 Sep. Ads have spent $183 since the last attributed purchase."
+   "body": "Last order was #1081 on 20 Sep. Ads have spent $185 since the last attributed purchase."
   },
   {
    "level": "warning",
-   "title": "7 product(s) at 3 units or fewer",
-   "body": "Lumara Welcome Farm Sign (1), Table Swag Olive Candelabra (2), Lumara Mediterranean Large Candle Holder \u2014 Tall Ceramic Taper (3), Lumara Mediterranean Med Candle Holder \u2014 Slender Ceramic Taper (3)"
+   "title": "6 product(s) at 3 units or fewer",
+   "body": "Table Swag Olive Candelabra (2), Lumara Mediterranean Large Candle Holder \u2014 Tall Ceramic Taper (3), Lumara Mediterranean Med Candle Holder \u2014 Slender Ceramic Taper (3), Lumara Alegra Statement Vase \u2014 Sculptural Metal (3)"
   }
  ],
  "sales": {
@@ -347,26 +347,26 @@
  },
  "ads": {
   "today": {
-   "spend": 92.32,
+   "spend": 94.45,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 66,
-   "impressions": 1798,
+   "clicks": 69,
+   "impressions": 1858,
    "purchases": 0,
-   "cpc": 1.4,
-   "ctr": 3.67,
+   "cpc": 1.37,
+   "ctr": 3.71,
    "cpa": null
   },
   "d7": {
-   "spend": 690.64,
+   "spend": 692.77,
    "value": 1483.65,
-   "roas": 2.15,
-   "clicks": 687,
-   "impressions": 19721,
+   "roas": 2.14,
+   "clicks": 690,
+   "impressions": 19781,
    "purchases": 5,
-   "cpc": 1.01,
-   "ctr": 3.48,
-   "cpa": 138.13
+   "cpc": 1.0,
+   "ctr": 3.49,
+   "cpa": 138.55
   },
   "prev7": {
    "spend": 574.93,
@@ -376,7 +376,7 @@
   "daily_budget_live": 100.0,
   "active_campaigns": 1,
   "dry_days": 2,
-  "dry_spend": 182.72,
+  "dry_spend": 184.85,
   "series": [
    {
     "date": "2026-09-09",
@@ -511,12 +511,12 @@
    {
     "date": "2026-09-22",
     "label": "22 Sep",
-    "spend": 92.32,
+    "spend": 94.45,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 66,
-    "ctr": 3.67,
-    "cpc": 1.4
+    "clicks": 69,
+    "ctr": 3.71,
+    "cpc": 1.37
    }
   ],
   "campaigns": [
@@ -643,14 +643,14 @@
   ]
  },
  "stock": {
-  "sellable_skus": 135,
-  "tracked_skus": 85,
-  "out_of_stock": 7,
-  "low": 7,
+  "sellable_skus": 131,
+  "tracked_skus": 81,
+  "out_of_stock": 3,
+  "low": 6,
   "watch": 0,
-  "healthy": 71,
+  "healthy": 72,
   "untracked": 50,
-  "stock_value": 84271.88,
+  "stock_value": 86401.83,
   "oos_list": [
    {
     "title": "Lumara Giana Natural Table Lamp \u2014 Earthy Organic Style",
@@ -663,50 +663,10 @@
     "sold_30d": 0
    },
    {
-    "title": "Lumara Nishi Table Lamp \u2014 Contemporary Ceramic Style",
-    "sku": "YR7306-1",
-    "qty": 0,
-    "price": 219.99,
-    "status": "ACTIVE",
-    "tracked": true,
-    "available": false,
-    "sold_30d": 0
-   },
-   {
     "title": "Lumara Gede Table Lamp \u2014 Reactive Glaze Ceramic (Sage Green / Blue)",
     "sku": "LH-TL-009",
     "qty": 0,
     "price": 213.99,
-    "status": "ACTIVE",
-    "tracked": true,
-    "available": false,
-    "sold_30d": 0
-   },
-   {
-    "title": "Lumara Ashore Framed Canvas \u2014 Coastal 70 \u00d7 90 cm",
-    "sku": "AW1733-2",
-    "qty": 0,
-    "price": 189.95,
-    "status": "ACTIVE",
-    "tracked": true,
-    "available": false,
-    "sold_30d": 0
-   },
-   {
-    "title": "Lumara Nishi Clay Table Lamp \u2014 Warm Earthy Ceramic",
-    "sku": "YR7316-1",
-    "qty": 0,
-    "price": 169.99,
-    "status": "ACTIVE",
-    "tracked": true,
-    "available": false,
-    "sold_30d": 0
-   },
-   {
-    "title": "Lumara Bee Cloche Set of 2 \u2014 Washed Silver",
-    "sku": "TY8107-2",
-    "qty": 0,
-    "price": 169.95,
     "status": "ACTIVE",
     "tracked": true,
     "available": false,
@@ -725,17 +685,6 @@
   ],
   "oos_sellers": [],
   "low_list": [
-   {
-    "title": "Lumara Welcome Farm Sign",
-    "sku": "TY8012-2",
-    "qty": 1,
-    "price": 69.95,
-    "status": "ACTIVE",
-    "tracked": true,
-    "available": true,
-    "sold_30d": 1,
-    "days_cover": 30.0
-   },
    {
     "title": "Table Swag Olive Candelabra",
     "sku": "QA5903-3",

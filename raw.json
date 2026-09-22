@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-09-22T08:30:00Z",
+ "generated_at_utc": "2026-09-22T08:50:09Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-09-22T08:30:00Z"
+   "fetched_at": "2026-09-22T08:50:09Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-09-22T08:30:00Z"
+   "fetched_at": "2026-09-22T08:50:09Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-09-22T08:30:00Z"
+   "fetched_at": "2026-09-22T08:50:09Z"
   }
  },
  "orders": [
@@ -554,11 +554,11 @@
   {
    "title": "Lumara Nishi Table Lamp \u2014 Contemporary Ceramic Style",
    "sku": "YR7306-1",
-   "qty": 0,
+   "qty": 10,
    "price": 219.99,
    "status": "ACTIVE",
    "tracked": true,
-   "available": false
+   "available": true
   },
   {
    "title": "Lumara Lopez Rustic White Candle Holder",
@@ -925,7 +925,7 @@
    "sku": "YR7316-1",
    "qty": 0,
    "price": 169.99,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": true,
    "available": false
   },
@@ -1699,7 +1699,7 @@
    "sku": "TY8107-2",
    "qty": 0,
    "price": 169.95,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": true,
    "available": false
   },
@@ -1751,11 +1751,11 @@
   {
    "title": "Lumara Welcome Farm Sign",
    "sku": "TY8012-2",
-   "qty": 1,
+   "qty": 0,
    "price": 69.95,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": true,
-   "available": true
+   "available": false
   },
   {
    "title": "Lumara Home Sweet Home Tractor Sign",
@@ -1825,7 +1825,7 @@
    "sku": "AW1733-2",
    "qty": 0,
    "price": 189.95,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": true,
    "available": false
   },
@@ -2918,22 +2918,22 @@
   },
   {
    "date": "2026-09-22",
-   "spend": 92.32,
-   "impressions": 1798,
-   "clicks": 66,
-   "ctr": 3.67,
-   "cpc": 1.4,
+   "spend": 94.45,
+   "impressions": 1858,
+   "clicks": 69,
+   "ctr": 3.71,
+   "cpc": 1.37,
    "purchases": 0,
    "purchase_value": 0.0
   }
  ],
  "ads_today": {
   "date": "2026-09-22",
-  "spend": 92.32,
-  "impressions": 1798,
-  "clicks": 66,
-  "ctr": 3.67,
-  "cpc": 1.4,
+  "spend": 94.45,
+  "impressions": 1858,
+  "clicks": 69,
+  "ctr": 3.71,
+  "cpc": 1.37,
   "purchases": 0,
   "purchase_value": 0.0
  },
