@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-22T07:49:43Z",
-  "generated_at_local": "Tue 22 Sep 2026, 5:49pm AEST",
+  "generated_at_utc": "2026-09-22T08:09:52Z",
+  "generated_at_local": "Tue 22 Sep 2026, 6:09pm AEST",
   "today": "2026-09-22",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-22T07:49:43Z"
+    "fetched_at": "2026-09-22T08:09:52Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-22T07:49:43Z"
+    "fetched_at": "2026-09-22T08:09:52Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-22T07:49:43Z"
+    "fetched_at": "2026-09-22T08:09:52Z"
    }
   }
  },
@@ -25,7 +25,7 @@
   {
    "level": "warning",
    "title": "No orders for 2 days",
-   "body": "Last order was #1081 on 20 Sep. Ads have spent $178 since the last attributed purchase."
+   "body": "Last order was #1081 on 20 Sep. Ads have spent $180 since the last attributed purchase."
   },
   {
    "level": "warning",
@@ -347,26 +347,26 @@
  },
  "ads": {
   "today": {
-   "spend": 87.47,
+   "spend": 89.32,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 62,
-   "impressions": 1690,
+   "clicks": 63,
+   "impressions": 1735,
    "purchases": 0,
-   "cpc": 1.41,
-   "ctr": 3.67,
+   "cpc": 1.42,
+   "ctr": 3.63,
    "cpa": null
   },
   "d7": {
-   "spend": 685.79,
+   "spend": 687.64,
    "value": 1483.65,
    "roas": 2.16,
-   "clicks": 683,
-   "impressions": 19613,
+   "clicks": 684,
+   "impressions": 19658,
    "purchases": 5,
-   "cpc": 1.0,
+   "cpc": 1.01,
    "ctr": 3.48,
-   "cpa": 137.16
+   "cpa": 137.53
   },
   "prev7": {
    "spend": 574.93,
@@ -376,7 +376,7 @@
   "daily_budget_live": 100.0,
   "active_campaigns": 1,
   "dry_days": 2,
-  "dry_spend": 177.87,
+  "dry_spend": 179.72,
   "series": [
    {
     "date": "2026-09-09",
@@ -511,12 +511,12 @@
    {
     "date": "2026-09-22",
     "label": "22 Sep",
-    "spend": 87.47,
+    "spend": 89.32,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 62,
-    "ctr": 3.67,
-    "cpc": 1.41
+    "clicks": 63,
+    "ctr": 3.63,
+    "cpc": 1.42
    }
   ],
   "campaigns": [
@@ -650,7 +650,7 @@
   "watch": 0,
   "healthy": 71,
   "untracked": 50,
-  "stock_value": 84251.88,
+  "stock_value": 84321.87,
   "oos_list": [
    {
     "title": "Lumara Giana Natural Table Lamp \u2014 Earthy Organic Style",
