@@ -3,25 +3,30 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-22T15:08:42Z",
-  "generated_at_local": "Wed 23 Sep 2026, 1:08am AEST",
+  "generated_at_utc": "2026-09-22T15:28:56Z",
+  "generated_at_local": "Wed 23 Sep 2026, 1:28am AEST",
   "today": "2026-09-23",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-22T15:08:42Z"
+    "fetched_at": "2026-09-22T15:28:56Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-22T15:08:42Z"
+    "fetched_at": "2026-09-22T15:28:56Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-22T15:08:42Z"
+    "fetched_at": "2026-09-22T15:28:56Z"
    }
   }
  },
  "alerts": [
+  {
+   "level": "critical",
+   "title": "$200 ad spend, 0 purchases (3 days)",
+   "body": "No store orders in that window either. 1 campaign(s) live at $70/day. Check pixel/tracking and landing pages before topping up budget."
+  },
   {
    "level": "warning",
    "title": "No orders for 3 days",
@@ -347,26 +352,26 @@
  },
  "ads": {
   "today": {
-   "spend": 0.0,
+   "spend": 0.05,
    "value": 0.0,
    "roas": 0.0,
    "clicks": 0,
-   "impressions": 0,
+   "impressions": 2,
    "purchases": 0,
    "cpc": 0.0,
    "ctr": 0.0,
    "cpa": null
   },
   "d7": {
-   "spend": 602.5,
+   "spend": 602.55,
    "value": 802.95,
    "roas": 1.33,
    "clicks": 578,
-   "impressions": 16301,
+   "impressions": 16303,
    "purchases": 3,
    "cpc": 1.04,
    "ctr": 3.55,
-   "cpa": 200.83
+   "cpa": 200.85
   },
   "prev7": {
    "spend": 585.2,
@@ -375,8 +380,8 @@
   },
   "daily_budget_live": 70.0,
   "active_campaigns": 1,
-  "dry_days": 2,
-  "dry_spend": 199.87,
+  "dry_days": 3,
+  "dry_spend": 199.92,
   "series": [
    {
     "date": "2026-09-10",
@@ -511,7 +516,7 @@
    {
     "date": "2026-09-23",
     "label": "23 Sep",
-    "spend": 0.0,
+    "spend": 0.05,
     "revenue": 0.0,
     "purchases": 0,
     "clicks": 0,
