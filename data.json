@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-22T07:29:34Z",
-  "generated_at_local": "Tue 22 Sep 2026, 5:29pm AEST",
+  "generated_at_utc": "2026-09-22T07:49:43Z",
+  "generated_at_local": "Tue 22 Sep 2026, 5:49pm AEST",
   "today": "2026-09-22",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-22T07:29:34Z"
+    "fetched_at": "2026-09-22T07:49:43Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-22T07:29:34Z"
+    "fetched_at": "2026-09-22T07:49:43Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-22T07:29:34Z"
+    "fetched_at": "2026-09-22T07:49:43Z"
    }
   }
  },
@@ -25,12 +25,12 @@
   {
    "level": "warning",
    "title": "No orders for 2 days",
-   "body": "Last order was #1081 on 20 Sep. Ads have spent $176 since the last attributed purchase."
+   "body": "Last order was #1081 on 20 Sep. Ads have spent $178 since the last attributed purchase."
   },
   {
    "level": "warning",
-   "title": "6 product(s) at 3 units or fewer",
-   "body": "Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass (1), Lumara Welcome Farm Sign (1), Table Swag Olive Candelabra (2), Lumara Alegra Statement Vase \u2014 Sculptural Metal (3)"
+   "title": "8 product(s) at 3 units or fewer",
+   "body": "Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass (1), Lumara Welcome Farm Sign (1), Table Swag Olive Candelabra (2), Lumara Mediterranean Large Candle Holder \u2014 Tall Ceramic Taper (3)"
   }
  ],
  "sales": {
@@ -347,26 +347,26 @@
  },
  "ads": {
   "today": {
-   "spend": 85.72,
+   "spend": 87.47,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 61,
-   "impressions": 1646,
+   "clicks": 62,
+   "impressions": 1690,
    "purchases": 0,
    "cpc": 1.41,
-   "ctr": 3.71,
+   "ctr": 3.67,
    "cpa": null
   },
   "d7": {
-   "spend": 684.04,
+   "spend": 685.79,
    "value": 1483.65,
-   "roas": 2.17,
-   "clicks": 682,
-   "impressions": 19569,
+   "roas": 2.16,
+   "clicks": 683,
+   "impressions": 19613,
    "purchases": 5,
    "cpc": 1.0,
-   "ctr": 3.49,
-   "cpa": 136.81
+   "ctr": 3.48,
+   "cpa": 137.16
   },
   "prev7": {
    "spend": 574.93,
@@ -376,7 +376,7 @@
   "daily_budget_live": 100.0,
   "active_campaigns": 1,
   "dry_days": 2,
-  "dry_spend": 176.12,
+  "dry_spend": 177.87,
   "series": [
    {
     "date": "2026-09-09",
@@ -511,11 +511,11 @@
    {
     "date": "2026-09-22",
     "label": "22 Sep",
-    "spend": 85.72,
+    "spend": 87.47,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 61,
-    "ctr": 3.71,
+    "clicks": 62,
+    "ctr": 3.67,
     "cpc": 1.41
    }
   ],
@@ -645,13 +645,23 @@
  "stock": {
   "sellable_skus": 135,
   "tracked_skus": 85,
-  "out_of_stock": 5,
-  "low": 6,
-  "watch": 1,
-  "healthy": 73,
+  "out_of_stock": 6,
+  "low": 8,
+  "watch": 0,
+  "healthy": 71,
   "untracked": 50,
-  "stock_value": 86821.74,
+  "stock_value": 84251.88,
   "oos_list": [
+   {
+    "title": "Lumara Giana Natural Table Lamp \u2014 Earthy Organic Style",
+    "sku": "LH-TL-002",
+    "qty": 0,
+    "price": 249.99,
+    "status": "ACTIVE",
+    "tracked": true,
+    "available": false,
+    "sold_30d": 0
+   },
    {
     "title": "Lumara Nishi Table Lamp \u2014 Contemporary Ceramic Style",
     "sku": "YR7306-1",
@@ -739,6 +749,28 @@
     "days_cover": null
    },
    {
+    "title": "Lumara Mediterranean Large Candle Holder \u2014 Tall Ceramic Taper",
+    "sku": "LH-CH-003",
+    "qty": 3,
+    "price": 84.99,
+    "status": "ACTIVE",
+    "tracked": true,
+    "available": true,
+    "sold_30d": 0,
+    "days_cover": null
+   },
+   {
+    "title": "Lumara Mediterranean Med Candle Holder \u2014 Slender Ceramic Taper",
+    "sku": "LH-CH-004",
+    "qty": 3,
+    "price": 64.99,
+    "status": "ACTIVE",
+    "tracked": true,
+    "available": true,
+    "sold_30d": 0,
+    "days_cover": null
+   },
+   {
     "title": "Lumara Alegra Statement Vase \u2014 Sculptural Metal",
     "sku": "QA5813-2",
     "qty": 3,
@@ -770,17 +802,6 @@
     "available": true,
     "sold_30d": 1,
     "days_cover": 90.0
-   },
-   {
-    "title": "Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral",
-    "sku": "CN7142-1",
-    "qty": 4,
-    "price": 54.99,
-    "status": "ACTIVE",
-    "tracked": true,
-    "available": true,
-    "sold_30d": 1,
-    "days_cover": 120.0
    }
   ],
   "untracked_list": [
