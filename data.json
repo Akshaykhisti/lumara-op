@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-22T10:50:58Z",
-  "generated_at_local": "Tue 22 Sep 2026, 8:50pm AEST",
+  "generated_at_utc": "2026-09-22T11:11:07Z",
+  "generated_at_local": "Tue 22 Sep 2026, 9:11pm AEST",
   "today": "2026-09-22",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-22T10:50:58Z"
+    "fetched_at": "2026-09-22T11:11:07Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-22T10:50:58Z"
+    "fetched_at": "2026-09-22T11:11:07Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-22T10:50:58Z"
+    "fetched_at": "2026-09-22T11:11:07Z"
    }
   }
  },
@@ -25,7 +25,7 @@
   {
    "level": "warning",
    "title": "No orders for 2 days",
-   "body": "Last order was #1081 on 20 Sep. Ads have spent $195 since the last attributed purchase."
+   "body": "Last order was #1081 on 20 Sep. Ads have spent $196 since the last attributed purchase."
   },
   {
    "level": "warning",
@@ -347,26 +347,26 @@
  },
  "ads": {
   "today": {
-   "spend": 105.05,
+   "spend": 106.09,
    "value": 0.0,
    "roas": 0.0,
    "clicks": 78,
-   "impressions": 2129,
+   "impressions": 2167,
    "purchases": 0,
-   "cpc": 1.35,
-   "ctr": 3.66,
+   "cpc": 1.36,
+   "ctr": 3.6,
    "cpa": null
   },
   "d7": {
-   "spend": 703.37,
+   "spend": 704.41,
    "value": 1483.65,
    "roas": 2.11,
    "clicks": 699,
-   "impressions": 20052,
+   "impressions": 20090,
    "purchases": 5,
    "cpc": 1.01,
-   "ctr": 3.49,
-   "cpa": 140.67
+   "ctr": 3.48,
+   "cpa": 140.88
   },
   "prev7": {
    "spend": 574.93,
@@ -376,7 +376,7 @@
   "daily_budget_live": 100.0,
   "active_campaigns": 1,
   "dry_days": 2,
-  "dry_spend": 195.45,
+  "dry_spend": 196.49,
   "series": [
    {
     "date": "2026-09-09",
@@ -511,12 +511,12 @@
    {
     "date": "2026-09-22",
     "label": "22 Sep",
-    "spend": 105.05,
+    "spend": 106.09,
     "revenue": 0.0,
     "purchases": 0,
     "clicks": 78,
-    "ctr": 3.66,
-    "cpc": 1.35
+    "ctr": 3.6,
+    "cpc": 1.36
    }
   ],
   "campaigns": [
@@ -650,7 +650,7 @@
   "watch": 0,
   "healthy": 72,
   "untracked": 50,
-  "stock_value": 86401.83,
+  "stock_value": 69869.85,
   "oos_list": [
    {
     "title": "Lumara Giana Natural Table Lamp \u2014 Earthy Organic Style",
@@ -666,7 +666,7 @@
     "title": "Lumara Gede Table Lamp \u2014 Reactive Glaze Ceramic (Sage Green / Blue)",
     "sku": "LH-TL-009",
     "qty": 0,
-    "price": 213.99,
+    "price": 206.99,
     "status": "ACTIVE",
     "tracked": true,
     "available": false,
@@ -689,7 +689,7 @@
     "title": "Table Swag Olive Candelabra",
     "sku": "QA5903-3",
     "qty": 2,
-    "price": 89.99,
+    "price": 44.99,
     "status": "ACTIVE",
     "tracked": true,
     "available": true,
@@ -700,7 +700,7 @@
     "title": "Lumara Mediterranean Large Candle Holder \u2014 Tall Ceramic Taper",
     "sku": "LH-CH-003",
     "qty": 3,
-    "price": 84.99,
+    "price": 41.99,
     "status": "ACTIVE",
     "tracked": true,
     "available": true,
@@ -711,7 +711,7 @@
     "title": "Lumara Mediterranean Med Candle Holder \u2014 Slender Ceramic Taper",
     "sku": "LH-CH-004",
     "qty": 3,
-    "price": 64.99,
+    "price": 31.99,
     "status": "ACTIVE",
     "tracked": true,
     "available": true,
@@ -722,7 +722,7 @@
     "title": "Lumara Alegra Statement Vase \u2014 Sculptural Metal",
     "sku": "QA5813-2",
     "qty": 3,
-    "price": 94.99,
+    "price": 46.99,
     "status": "ACTIVE",
     "tracked": true,
     "available": true,
@@ -733,7 +733,7 @@
     "title": "Lumara Olive Mediterranean Candelabra \u2014 Sculptural Metal Centrepiece",
     "sku": "QA5903-2",
     "qty": 3,
-    "price": 99.99,
+    "price": 89.99,
     "status": "ACTIVE",
     "tracked": true,
     "available": true,
@@ -744,7 +744,7 @@
     "title": "Lumara Baroque Heart Wall Art \u2014 Gold",
     "sku": "BL7808-1",
     "qty": 3,
-    "price": 59.99,
+    "price": 41.99,
     "status": "ACTIVE",
     "tracked": true,
     "available": true,
@@ -775,7 +775,7 @@
     "title": "Lumara Pineapple Table Lamp \u2014 Reactive Glaze Ceramic",
     "sku": "YE6102-1",
     "qty": 0,
-    "price": 289.0,
+    "price": 230.99,
     "status": "ACTIVE",
     "tracked": false,
     "available": true
@@ -784,25 +784,7 @@
     "title": "Lumara Pineapple Table Lamp \u2014 Reactive Glaze Ceramic",
     "sku": "YE6101-1",
     "qty": 0,
-    "price": 289.0,
-    "status": "ACTIVE",
-    "tracked": false,
-    "available": true
-   },
-   {
-    "title": "Lumara Pear Table Lamp \u2014 Playful Gloss Green Ceramic",
-    "sku": "YR7256-1",
-    "qty": 0,
-    "price": 228.99,
-    "status": "ACTIVE",
-    "tracked": false,
-    "available": true
-   },
-   {
-    "title": "Lumara White Foam Table Lamp \u2014 Sculptural Cloud White Ceramic",
-    "sku": "YR7257-1",
-    "qty": 0,
-    "price": 228.99,
+    "price": 230.99,
     "status": "ACTIVE",
     "tracked": false,
     "available": true
@@ -826,10 +808,19 @@
     "available": true
    },
    {
-    "title": "Lumara Casa Table Lamp \u2014 Classic Ceramic Charm",
-    "sku": "YF3033-1",
-    "qty": 10,
-    "price": 149.99,
+    "title": "Lumara Pear Table Lamp \u2014 Playful Gloss Green Ceramic",
+    "sku": "YR7256-1",
+    "qty": 0,
+    "price": 182.99,
+    "status": "ACTIVE",
+    "tracked": false,
+    "available": true
+   },
+   {
+    "title": "Lumara White Foam Table Lamp \u2014 Sculptural Cloud White Ceramic",
+    "sku": "YR7257-1",
+    "qty": 0,
+    "price": 182.99,
     "status": "ACTIVE",
     "tracked": false,
     "available": true
@@ -839,6 +830,15 @@
     "sku": "JI2045-4-X3",
     "qty": 0,
     "price": 129.99,
+    "status": "ACTIVE",
+    "tracked": false,
+    "available": true
+   },
+   {
+    "title": "Lumara Casa Table Lamp \u2014 Classic Ceramic Charm",
+    "sku": "YF3033-1",
+    "qty": 10,
+    "price": 119.99,
     "status": "ACTIVE",
     "tracked": false,
     "available": true
