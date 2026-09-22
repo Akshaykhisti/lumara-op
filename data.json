@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-22T08:09:52Z",
-  "generated_at_local": "Tue 22 Sep 2026, 6:09pm AEST",
+  "generated_at_utc": "2026-09-22T08:30:00Z",
+  "generated_at_local": "Tue 22 Sep 2026, 6:30pm AEST",
   "today": "2026-09-22",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-22T08:09:52Z"
+    "fetched_at": "2026-09-22T08:30:00Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-22T08:09:52Z"
+    "fetched_at": "2026-09-22T08:30:00Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-22T08:09:52Z"
+    "fetched_at": "2026-09-22T08:30:00Z"
    }
   }
  },
@@ -25,12 +25,12 @@
   {
    "level": "warning",
    "title": "No orders for 2 days",
-   "body": "Last order was #1081 on 20 Sep. Ads have spent $180 since the last attributed purchase."
+   "body": "Last order was #1081 on 20 Sep. Ads have spent $183 since the last attributed purchase."
   },
   {
    "level": "warning",
-   "title": "8 product(s) at 3 units or fewer",
-   "body": "Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass (1), Lumara Welcome Farm Sign (1), Table Swag Olive Candelabra (2), Lumara Mediterranean Large Candle Holder \u2014 Tall Ceramic Taper (3)"
+   "title": "7 product(s) at 3 units or fewer",
+   "body": "Lumara Welcome Farm Sign (1), Table Swag Olive Candelabra (2), Lumara Mediterranean Large Candle Holder \u2014 Tall Ceramic Taper (3), Lumara Mediterranean Med Candle Holder \u2014 Slender Ceramic Taper (3)"
   }
  ],
  "sales": {
@@ -347,26 +347,26 @@
  },
  "ads": {
   "today": {
-   "spend": 89.32,
+   "spend": 92.32,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 63,
-   "impressions": 1735,
+   "clicks": 66,
+   "impressions": 1798,
    "purchases": 0,
-   "cpc": 1.42,
-   "ctr": 3.63,
+   "cpc": 1.4,
+   "ctr": 3.67,
    "cpa": null
   },
   "d7": {
-   "spend": 687.64,
+   "spend": 690.64,
    "value": 1483.65,
-   "roas": 2.16,
-   "clicks": 684,
-   "impressions": 19658,
+   "roas": 2.15,
+   "clicks": 687,
+   "impressions": 19721,
    "purchases": 5,
    "cpc": 1.01,
    "ctr": 3.48,
-   "cpa": 137.53
+   "cpa": 138.13
   },
   "prev7": {
    "spend": 574.93,
@@ -376,7 +376,7 @@
   "daily_budget_live": 100.0,
   "active_campaigns": 1,
   "dry_days": 2,
-  "dry_spend": 179.72,
+  "dry_spend": 182.72,
   "series": [
    {
     "date": "2026-09-09",
@@ -511,12 +511,12 @@
    {
     "date": "2026-09-22",
     "label": "22 Sep",
-    "spend": 89.32,
+    "spend": 92.32,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 63,
-    "ctr": 3.63,
-    "cpc": 1.42
+    "clicks": 66,
+    "ctr": 3.67,
+    "cpc": 1.4
    }
   ],
   "campaigns": [
@@ -645,12 +645,12 @@
  "stock": {
   "sellable_skus": 135,
   "tracked_skus": 85,
-  "out_of_stock": 6,
-  "low": 8,
+  "out_of_stock": 7,
+  "low": 7,
   "watch": 0,
   "healthy": 71,
   "untracked": 50,
-  "stock_value": 84321.87,
+  "stock_value": 84271.88,
   "oos_list": [
    {
     "title": "Lumara Giana Natural Table Lamp \u2014 Earthy Organic Style",
@@ -711,21 +711,20 @@
     "tracked": true,
     "available": false,
     "sold_30d": 0
+   },
+   {
+    "title": "Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass",
+    "sku": "LH-VS-012",
+    "qty": 0,
+    "price": 49.99,
+    "status": "ACTIVE",
+    "tracked": true,
+    "available": false,
+    "sold_30d": 0
    }
   ],
   "oos_sellers": [],
   "low_list": [
-   {
-    "title": "Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass",
-    "sku": "LH-VS-012",
-    "qty": 1,
-    "price": 49.99,
-    "status": "ACTIVE",
-    "tracked": true,
-    "available": true,
-    "sold_30d": 0,
-    "days_cover": null
-   },
    {
     "title": "Lumara Welcome Farm Sign",
     "sku": "TY8012-2",

@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-09-22T08:09:52Z",
+ "generated_at_utc": "2026-09-22T08:30:00Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-09-22T08:09:52Z"
+   "fetched_at": "2026-09-22T08:30:00Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-09-22T08:09:52Z"
+   "fetched_at": "2026-09-22T08:30:00Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-09-22T08:09:52Z"
+   "fetched_at": "2026-09-22T08:30:00Z"
   }
  },
  "orders": [
@@ -788,11 +788,11 @@
   {
    "title": "Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass",
    "sku": "LH-VS-012",
-   "qty": 1,
+   "qty": 0,
    "price": 49.99,
    "status": "ACTIVE",
    "tracked": true,
-   "available": true
+   "available": false
   },
   {
    "title": "Lumara Organic Vase \u2014 Buttercup Petal Warm Ceramic",
@@ -2918,22 +2918,22 @@
   },
   {
    "date": "2026-09-22",
-   "spend": 89.32,
-   "impressions": 1735,
-   "clicks": 63,
-   "ctr": 3.63,
-   "cpc": 1.42,
+   "spend": 92.32,
+   "impressions": 1798,
+   "clicks": 66,
+   "ctr": 3.67,
+   "cpc": 1.4,
    "purchases": 0,
    "purchase_value": 0.0
   }
  ],
  "ads_today": {
   "date": "2026-09-22",
-  "spend": 89.32,
-  "impressions": 1735,
-  "clicks": 63,
-  "ctr": 3.63,
-  "cpc": 1.42,
+  "spend": 92.32,
+  "impressions": 1798,
+  "clicks": 66,
+  "ctr": 3.67,
+  "cpc": 1.4,
   "purchases": 0,
   "purchase_value": 0.0
  },
