@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-09-23T01:45:18Z",
+ "generated_at_utc": "2026-09-23T02:05:28Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,18 +9,36 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-09-23T01:45:18Z"
+   "fetched_at": "2026-09-23T02:05:28Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-09-23T01:45:18Z"
+   "fetched_at": "2026-09-23T02:05:28Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-09-23T01:45:18Z"
+   "fetched_at": "2026-09-23T02:05:28Z"
   }
  },
  "orders": [
+  {
+   "name": "#1082",
+   "createdAt": "2026-09-23T01:52:26Z",
+   "financial": "PAID",
+   "fulfillment": "UNFULFILLED",
+   "total": 145.93,
+   "customer": "Kellie Miles",
+   "items": [
+    {
+     "title": "Lumara Magnolia XL Sculpture \u2014 Wall or Tabletop",
+     "quantity": 1
+    },
+    {
+     "title": "Lumara Urn Candle Holder Set of 3 \u2014 Ceramic Neutral",
+     "quantity": 1
+    }
+   ]
+  },
   {
    "name": "#1081",
    "createdAt": "2026-09-20T11:11:09Z",
@@ -506,8 +524,15 @@
    ]
   }
  ],
- "unfulfilled_paid": [],
- "customers_total": 108,
+ "unfulfilled_paid": [
+  {
+   "name": "#1082",
+   "createdAt": "2026-09-23T01:52:26Z",
+   "total": 145.93,
+   "customer": "Kellie Miles"
+  }
+ ],
+ "customers_total": 109,
  "abandoned_checkouts_recent": 0,
  "inventory": [
   {
@@ -558,7 +583,7 @@
   {
    "title": "Lumara Urn Candle Holder Set of 3 \u2014 Ceramic Neutral",
    "sku": "CP6016-1",
-   "qty": 7,
+   "qty": 6,
    "price": 39.99,
    "status": "ACTIVE",
    "tracked": true,
@@ -1521,7 +1546,7 @@
   {
    "title": "Lumara Magnolia XL Sculpture \u2014 Wall or Tabletop",
    "sku": "BL7803-1",
-   "qty": 10,
+   "qty": 9,
    "price": 92.99,
    "status": "ACTIVE",
    "tracked": true,
@@ -2904,22 +2929,22 @@
   },
   {
    "date": "2026-09-23",
-   "spend": 37.01,
-   "impressions": 690,
-   "clicks": 28,
-   "ctr": 4.06,
-   "cpc": 1.32,
+   "spend": 39.1,
+   "impressions": 728,
+   "clicks": 32,
+   "ctr": 4.4,
+   "cpc": 1.22,
    "purchases": 0,
    "purchase_value": 0.0
   }
  ],
  "ads_today": {
   "date": "2026-09-23",
-  "spend": 37.01,
-  "impressions": 690,
-  "clicks": 28,
-  "ctr": 4.06,
-  "cpc": 1.32,
+  "spend": 39.1,
+  "impressions": 728,
+  "clicks": 32,
+  "ctr": 4.4,
+  "cpc": 1.22,
   "purchases": 0,
   "purchase_value": 0.0
  },
