@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-09-23T23:22:47Z",
+ "generated_at_utc": "2026-09-23T23:42:57Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-09-23T23:22:47Z"
+   "fetched_at": "2026-09-23T23:42:57Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-09-23T23:22:47Z"
+   "fetched_at": "2026-09-23T23:42:57Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-09-23T23:22:47Z"
+   "fetched_at": "2026-09-23T23:42:57Z"
   }
  },
  "orders": [
@@ -532,7 +532,7 @@
    "customer": "Kellie Miles"
   }
  ],
- "customers_total": 109,
+ "customers_total": 110,
  "abandoned_checkouts_recent": 0,
  "inventory": [
   {
@@ -2929,22 +2929,22 @@
   },
   {
    "date": "2026-09-24",
-   "spend": 20.15,
-   "impressions": 494,
-   "clicks": 17,
-   "ctr": 3.44,
-   "cpc": 1.19,
+   "spend": 21.82,
+   "impressions": 550,
+   "clicks": 19,
+   "ctr": 3.45,
+   "cpc": 1.15,
    "purchases": 0,
    "purchase_value": 0.0
   }
  ],
  "ads_today": {
   "date": "2026-09-24",
-  "spend": 20.15,
-  "impressions": 494,
-  "clicks": 17,
-  "ctr": 3.44,
-  "cpc": 1.19,
+  "spend": 21.82,
+  "impressions": 550,
+  "clicks": 19,
+  "ctr": 3.45,
+  "cpc": 1.15,
   "purchases": 0,
   "purchase_value": 0.0
  },
