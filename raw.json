@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-09-23T14:07:13Z",
+ "generated_at_utc": "2026-09-23T14:27:25Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-09-23T14:07:13Z"
+   "fetched_at": "2026-09-23T14:27:25Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-09-23T14:07:13Z"
+   "fetched_at": "2026-09-23T14:27:25Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-09-23T14:07:13Z"
+   "fetched_at": "2026-09-23T14:27:25Z"
   }
  },
  "orders": [
@@ -2929,22 +2929,22 @@
   },
   {
    "date": "2026-09-24",
-   "spend": 0.0,
-   "impressions": 0,
-   "clicks": 0,
-   "ctr": 0.0,
-   "cpc": 0.0,
+   "spend": 0.34,
+   "impressions": 6,
+   "clicks": 3,
+   "ctr": 50.0,
+   "cpc": 0.11,
    "purchases": 0,
    "purchase_value": 0.0
   }
  ],
  "ads_today": {
   "date": "2026-09-24",
-  "spend": 0.0,
-  "impressions": 0,
-  "clicks": 0,
-  "ctr": 0.0,
-  "cpc": 0.0,
+  "spend": 0.34,
+  "impressions": 6,
+  "clicks": 3,
+  "ctr": 50.0,
+  "cpc": 0.11,
   "purchases": 0,
   "purchase_value": 0.0
  },
@@ -2992,7 +2992,7 @@
    "purchases": 1,
    "purchase_value": 145.93,
    "atc": 3,
-   "reach": 1426
+   "reach": 1428
   },
   {
    "name": "Lumara \u2014 Lamps \u2014 KG Gap (Jul 2026)",
