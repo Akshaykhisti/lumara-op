@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-24T05:46:24Z",
-  "generated_at_local": "Thu 24 Sep 2026, 3:46pm AEST",
+  "generated_at_utc": "2026-09-24T06:06:35Z",
+  "generated_at_local": "Thu 24 Sep 2026, 4:06pm AEST",
   "today": "2026-09-24",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-24T05:46:24Z"
+    "fetched_at": "2026-09-24T06:06:35Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-24T05:46:24Z"
+    "fetched_at": "2026-09-24T06:06:35Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-24T05:46:24Z"
+    "fetched_at": "2026-09-24T06:06:35Z"
    }
   }
  },
@@ -354,26 +354,26 @@
  },
  "ads": {
   "today": {
-   "spend": 50.69,
+   "spend": 52.07,
    "value": 243.94,
-   "roas": 4.81,
-   "clicks": 47,
-   "impressions": 1590,
+   "roas": 4.68,
+   "clicks": 50,
+   "impressions": 1648,
    "purchases": 1,
-   "cpc": 1.08,
-   "ctr": 2.96,
-   "cpa": 50.69
+   "cpc": 1.04,
+   "ctr": 3.03,
+   "cpa": 52.07
   },
   "d7": {
-   "spend": 635.86,
+   "spend": 637.29,
    "value": 1192.82,
-   "roas": 1.88,
-   "clicks": 594,
-   "impressions": 16905,
+   "roas": 1.87,
+   "clicks": 597,
+   "impressions": 16964,
    "purchases": 5,
    "cpc": 1.07,
-   "ctr": 3.51,
-   "cpa": 127.17
+   "ctr": 3.52,
+   "cpa": 127.46
   },
   "prev7": {
    "spend": 602.25,
@@ -508,22 +508,22 @@
    {
     "date": "2026-09-23",
     "label": "23 Sep",
-    "spend": 78.96,
+    "spend": 79.01,
     "revenue": 145.93,
     "purchases": 1,
     "clicks": 61,
     "ctr": 3.03,
-    "cpc": 1.29
+    "cpc": 1.3
    },
    {
     "date": "2026-09-24",
     "label": "24 Sep",
-    "spend": 50.69,
+    "spend": 52.07,
     "revenue": 243.94,
     "purchases": 1,
-    "clicks": 47,
-    "ctr": 2.96,
-    "cpc": 1.08
+    "clicks": 50,
+    "ctr": 3.03,
+    "cpc": 1.04
    }
   ],
   "campaigns": [
@@ -561,12 +561,12 @@
     "name": "Spring Sale 2026 \u2014 AU \u2014 Sales (23 Sep\u201311 Oct)",
     "status": "ACTIVE",
     "daily_budget": 70.0,
-    "spend": 79.27,
-    "impressions": 2026,
+    "spend": 79.32,
+    "impressions": 2027,
     "clicks": 61,
     "ctr": 3.01,
     "cpc": 1.3,
-    "roas": 1.8409,
+    "roas": 1.8398,
     "purchases": 1,
     "purchase_value": 145.93,
     "atc": 3,
