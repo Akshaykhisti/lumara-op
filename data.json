@@ -3,25 +3,30 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-24T10:34:11Z",
-  "generated_at_local": "Thu 24 Sep 2026, 8:34pm AEST",
+  "generated_at_utc": "2026-09-24T10:54:22Z",
+  "generated_at_local": "Thu 24 Sep 2026, 8:54pm AEST",
   "today": "2026-09-24",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-24T10:34:11Z"
+    "fetched_at": "2026-09-24T10:54:22Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-24T10:34:11Z"
+    "fetched_at": "2026-09-24T10:54:22Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-24T10:34:11Z"
+    "fetched_at": "2026-09-24T10:54:22Z"
    }
   }
  },
  "alerts": [
+  {
+   "level": "serious",
+   "title": "1 product(s) sold in the last 30d are out of stock",
+   "body": "Lumara Magnolia XL Sculpture \u2014 Wall or Tabletop. Still listed as active \u2014 they take traffic and convert nothing."
+  },
   {
    "level": "serious",
    "title": "1 paid order(s) awaiting fulfilment",
@@ -354,26 +359,26 @@
  },
  "ads": {
   "today": {
-   "spend": 65.72,
+   "spend": 66.6,
    "value": 243.94,
-   "roas": 3.71,
-   "clicks": 67,
-   "impressions": 2241,
+   "roas": 3.66,
+   "clicks": 70,
+   "impressions": 2297,
    "purchases": 1,
-   "cpc": 0.98,
-   "ctr": 2.99,
-   "cpa": 65.72
+   "cpc": 0.95,
+   "ctr": 3.05,
+   "cpa": 66.6
   },
   "d7": {
-   "spend": 650.94,
+   "spend": 651.82,
    "value": 1192.82,
    "roas": 1.83,
-   "clicks": 614,
-   "impressions": 17557,
+   "clicks": 617,
+   "impressions": 17613,
    "purchases": 5,
    "cpc": 1.06,
    "ctr": 3.5,
-   "cpa": 130.19
+   "cpa": 130.36
   },
   "prev7": {
    "spend": 602.25,
@@ -518,12 +523,12 @@
    {
     "date": "2026-09-24",
     "label": "24 Sep",
-    "spend": 65.72,
+    "spend": 66.6,
     "revenue": 243.94,
     "purchases": 1,
-    "clicks": 67,
-    "ctr": 2.99,
-    "cpc": 0.98
+    "clicks": 70,
+    "ctr": 3.05,
+    "cpc": 0.95
    }
   ],
   "campaigns": [
@@ -667,12 +672,12 @@
  "stock": {
   "sellable_skus": 131,
   "tracked_skus": 81,
-  "out_of_stock": 3,
+  "out_of_stock": 4,
   "low": 6,
   "watch": 0,
-  "healthy": 72,
+  "healthy": 71,
   "untracked": 50,
-  "stock_value": 69736.87,
+  "stock_value": 68899.96,
   "oos_list": [
    {
     "title": "Lumara Giana Natural Table Lamp \u2014 Earthy Organic Style",
@@ -695,6 +700,16 @@
     "sold_30d": 0
    },
    {
+    "title": "Lumara Magnolia XL Sculpture \u2014 Wall or Tabletop",
+    "sku": "BL7803-1",
+    "qty": 0,
+    "price": 92.99,
+    "status": "ACTIVE",
+    "tracked": true,
+    "available": false,
+    "sold_30d": 1
+   },
+   {
     "title": "Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass",
     "sku": "LH-VS-012",
     "qty": 0,
@@ -705,7 +720,18 @@
     "sold_30d": 0
    }
   ],
-  "oos_sellers": [],
+  "oos_sellers": [
+   {
+    "title": "Lumara Magnolia XL Sculpture \u2014 Wall or Tabletop",
+    "sku": "BL7803-1",
+    "qty": 0,
+    "price": 92.99,
+    "status": "ACTIVE",
+    "tracked": true,
+    "available": false,
+    "sold_30d": 1
+   }
+  ],
   "low_list": [
    {
     "title": "Table Swag Olive Candelabra",
