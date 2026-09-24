@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-24T23:11:54Z",
-  "generated_at_local": "Fri 25 Sep 2026, 9:11am AEST",
+  "generated_at_utc": "2026-09-24T23:32:04Z",
+  "generated_at_local": "Fri 25 Sep 2026, 9:32am AEST",
   "today": "2026-09-25",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-24T23:11:54Z"
+    "fetched_at": "2026-09-24T23:32:04Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-24T23:11:54Z"
+    "fetched_at": "2026-09-24T23:32:04Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-24T23:11:54Z"
+    "fetched_at": "2026-09-24T23:32:04Z"
    }
   }
  },
@@ -65,7 +65,7 @@
     "customer": "Kellie Miles"
    }
   ],
-  "abandoned_checkouts": 0,
+  "abandoned_checkouts": 1,
   "customers_total": 112,
   "days_since_order": 1,
   "last_order": {
@@ -359,26 +359,26 @@
  },
  "ads": {
   "today": {
-   "spend": 11.82,
+   "spend": 12.04,
    "value": 0.0,
    "roas": 0.0,
    "clicks": 7,
-   "impressions": 277,
+   "impressions": 294,
    "purchases": 0,
-   "cpc": 1.69,
-   "ctr": 2.53,
+   "cpc": 1.72,
+   "ctr": 2.38,
    "cpa": null
   },
   "d7": {
-   "spend": 563.32,
+   "spend": 563.54,
    "value": 948.77,
    "roas": 1.68,
    "clicks": 509,
-   "impressions": 14675,
+   "impressions": 14692,
    "purchases": 4,
    "cpc": 1.11,
-   "ctr": 3.47,
-   "cpa": 140.83
+   "ctr": 3.46,
+   "cpa": 140.88
   },
   "prev7": {
    "spend": 614.53,
@@ -388,7 +388,7 @@
   "daily_budget_live": 70.0,
   "active_campaigns": 1,
   "dry_days": 1,
-  "dry_spend": 11.82,
+  "dry_spend": 12.04,
   "series": [
    {
     "date": "2026-09-12",
@@ -523,12 +523,12 @@
    {
     "date": "2026-09-25",
     "label": "25 Sep",
-    "spend": 11.82,
+    "spend": 12.04,
     "revenue": 0.0,
     "purchases": 0,
     "clicks": 7,
-    "ctr": 2.53,
-    "cpc": 1.69
+    "ctr": 2.38,
+    "cpc": 1.72
    }
   ],
   "campaigns": [
@@ -693,7 +693,7 @@
     "title": "Lumara Gede Table Lamp \u2014 Reactive Glaze Ceramic (Sage Green / Blue)",
     "sku": "LH-TL-009",
     "qty": 0,
-    "price": 206.99,
+    "price": 194.99,
     "status": "ACTIVE",
     "tracked": true,
     "available": false,

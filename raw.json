@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-09-24T23:11:54Z",
+ "generated_at_utc": "2026-09-24T23:32:04Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-09-24T23:11:54Z"
+   "fetched_at": "2026-09-24T23:32:04Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-09-24T23:11:54Z"
+   "fetched_at": "2026-09-24T23:32:04Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-09-24T23:11:54Z"
+   "fetched_at": "2026-09-24T23:32:04Z"
   }
  },
  "orders": [
@@ -547,7 +547,7 @@
   }
  ],
  "customers_total": 112,
- "abandoned_checkouts_recent": 0,
+ "abandoned_checkouts_recent": 1,
  "inventory": [
   {
    "title": "Lumara Cayman Rattan Table Lamp \u2014 Coastal Natural Style",
@@ -715,7 +715,7 @@
    "title": "Lumara Gede Table Lamp \u2014 Reactive Glaze Ceramic (Sage Green / Blue)",
    "sku": "LH-TL-009",
    "qty": 0,
-   "price": 206.99,
+   "price": 194.99,
    "status": "ACTIVE",
    "tracked": true,
    "available": false
@@ -2943,22 +2943,22 @@
   },
   {
    "date": "2026-09-25",
-   "spend": 11.82,
-   "impressions": 277,
+   "spend": 12.04,
+   "impressions": 294,
    "clicks": 7,
-   "ctr": 2.53,
-   "cpc": 1.69,
+   "ctr": 2.38,
+   "cpc": 1.72,
    "purchases": 0,
    "purchase_value": 0.0
   }
  ],
  "ads_today": {
   "date": "2026-09-25",
-  "spend": 11.82,
-  "impressions": 277,
+  "spend": 12.04,
+  "impressions": 294,
   "clicks": 7,
-  "ctr": 2.53,
-  "cpc": 1.69,
+  "ctr": 2.38,
+  "cpc": 1.72,
   "purchases": 0,
   "purchase_value": 0.0
  },
