@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-24T00:38:36Z",
-  "generated_at_local": "Thu 24 Sep 2026, 10:38am AEST",
+  "generated_at_utc": "2026-09-24T00:58:46Z",
+  "generated_at_local": "Thu 24 Sep 2026, 10:58am AEST",
   "today": "2026-09-24",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-24T00:38:36Z"
+    "fetched_at": "2026-09-24T00:58:46Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-24T00:38:36Z"
+    "fetched_at": "2026-09-24T00:58:46Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-24T00:38:36Z"
+    "fetched_at": "2026-09-24T00:58:46Z"
    }
   }
  },
@@ -61,7 +61,7 @@
    }
   ],
   "abandoned_checkouts": 0,
-  "customers_total": 110,
+  "customers_total": 111,
   "days_since_order": 1,
   "last_order": {
    "name": "#1082",
@@ -354,26 +354,26 @@
  },
  "ads": {
   "today": {
-   "spend": 27.82,
+   "spend": 29.52,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 23,
-   "impressions": 737,
+   "clicks": 27,
+   "impressions": 795,
    "purchases": 0,
-   "cpc": 1.21,
-   "ctr": 3.12,
+   "cpc": 1.09,
+   "ctr": 3.4,
    "cpa": null
   },
   "d7": {
-   "spend": 612.99,
+   "spend": 614.69,
    "value": 948.88,
-   "roas": 1.55,
-   "clicks": 570,
-   "impressions": 16052,
+   "roas": 1.54,
+   "clicks": 574,
+   "impressions": 16110,
    "purchases": 4,
-   "cpc": 1.08,
-   "ctr": 3.55,
-   "cpa": 153.25
+   "cpc": 1.07,
+   "ctr": 3.56,
+   "cpa": 153.67
   },
   "prev7": {
    "spend": 602.25,
@@ -383,7 +383,7 @@
   "daily_budget_live": 70.0,
   "active_campaigns": 1,
   "dry_days": 1,
-  "dry_spend": 27.82,
+  "dry_spend": 29.52,
   "series": [
    {
     "date": "2026-09-11",
@@ -518,12 +518,12 @@
    {
     "date": "2026-09-24",
     "label": "24 Sep",
-    "spend": 27.82,
+    "spend": 29.52,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 23,
-    "ctr": 3.12,
-    "cpc": 1.21
+    "clicks": 27,
+    "ctr": 3.4,
+    "cpc": 1.09
    }
   ],
   "campaigns": [
