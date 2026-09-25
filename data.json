@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-25T02:13:27Z",
-  "generated_at_local": "Fri 25 Sep 2026, 12:13pm AEST",
+  "generated_at_utc": "2026-09-25T02:33:36Z",
+  "generated_at_local": "Fri 25 Sep 2026, 12:33pm AEST",
   "today": "2026-09-25",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-25T02:13:27Z"
+    "fetched_at": "2026-09-25T02:33:36Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-25T02:13:27Z"
+    "fetched_at": "2026-09-25T02:33:36Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-25T02:13:27Z"
+    "fetched_at": "2026-09-25T02:33:36Z"
    }
   }
  },
@@ -365,36 +365,36 @@
  },
  "ads": {
   "today": {
-   "spend": 20.9,
+   "spend": 21.41,
    "value": 0.0,
    "roas": 0.0,
    "clicks": 23,
-   "impressions": 508,
+   "impressions": 519,
    "purchases": 0,
-   "cpc": 0.91,
-   "ctr": 4.53,
+   "cpc": 0.93,
+   "ctr": 4.43,
    "cpa": null
   },
   "d7": {
-   "spend": 572.42,
+   "spend": 572.93,
    "value": 948.77,
    "roas": 1.66,
    "clicks": 525,
-   "impressions": 14907,
+   "impressions": 14918,
    "purchases": 4,
    "cpc": 1.09,
    "ctr": 3.52,
-   "cpa": 143.1
+   "cpa": 143.23
   },
   "prev7": {
    "spend": 614.53,
    "value": 1562.4,
    "roas": 2.54
   },
-  "daily_budget_live": 70.0,
+  "daily_budget_live": 100.0,
   "active_campaigns": 1,
   "dry_days": 1,
-  "dry_spend": 20.9,
+  "dry_spend": 21.41,
   "series": [
    {
     "date": "2026-09-12",
@@ -529,12 +529,12 @@
    {
     "date": "2026-09-25",
     "label": "25 Sep",
-    "spend": 20.9,
+    "spend": 21.41,
     "revenue": 0.0,
     "purchases": 0,
     "clicks": 23,
-    "ctr": 4.53,
-    "cpc": 0.91
+    "ctr": 4.43,
+    "cpc": 0.93
    }
   ],
   "campaigns": [
@@ -571,7 +571,7 @@
    {
     "name": "Spring Sale 2026 \u2014 AU \u2014 Sales (23 Sep\u201311 Oct)",
     "status": "ACTIVE",
-    "daily_budget": 70.0,
+    "daily_budget": 100.0,
     "spend": 153.73,
     "impressions": 4627,
     "clicks": 142,
