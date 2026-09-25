@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-09-25T04:14:18Z",
+ "generated_at_utc": "2026-09-25T04:34:26Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-09-25T04:14:18Z"
+   "fetched_at": "2026-09-25T04:34:26Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-09-25T04:14:18Z"
+   "fetched_at": "2026-09-25T04:34:26Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-09-25T04:14:18Z"
+   "fetched_at": "2026-09-25T04:34:26Z"
   }
  },
  "orders": [
@@ -25,7 +25,7 @@
    "name": "#1084",
    "createdAt": "2026-09-25T01:34:30Z",
    "financial": "PAID",
-   "fulfillment": "UNFULFILLED",
+   "fulfillment": "FULFILLED",
    "total": 260.94,
    "customer": "Hiba Farra",
    "items": [
@@ -53,8 +53,8 @@
    "name": "#1082",
    "createdAt": "2026-09-23T01:52:26Z",
    "financial": "PAID",
-   "fulfillment": "UNFULFILLED",
-   "total": 145.93,
+   "fulfillment": "FULFILLED",
+   "total": 52.94,
    "customer": "Kellie Miles",
    "items": [
     {
@@ -552,20 +552,7 @@
    ]
   }
  ],
- "unfulfilled_paid": [
-  {
-   "name": "#1082",
-   "createdAt": "2026-09-23T01:52:26Z",
-   "total": 145.93,
-   "customer": "Kellie Miles"
-  },
-  {
-   "name": "#1084",
-   "createdAt": "2026-09-25T01:34:30Z",
-   "total": 260.94,
-   "customer": "Hiba Farra"
-  }
- ],
+ "unfulfilled_paid": [],
  "customers_total": 113,
  "abandoned_checkouts_recent": 1,
  "inventory": [
@@ -1580,11 +1567,11 @@
   {
    "title": "Lumara Magnolia XL Sculpture \u2014 Wall or Tabletop",
    "sku": "BL7803-1",
-   "qty": 0,
+   "qty": 1,
    "price": 92.99,
    "status": "ACTIVE",
    "tracked": true,
-   "available": false
+   "available": true
   },
   {
    "title": "Lumara Amazon Woven Basket Set of 3 \u2014 Corn Husk & Seagrass",
@@ -2963,22 +2950,22 @@
   },
   {
    "date": "2026-09-25",
-   "spend": 30.55,
-   "impressions": 747,
+   "spend": 31.67,
+   "impressions": 810,
    "clicks": 27,
-   "ctr": 3.61,
-   "cpc": 1.13,
+   "ctr": 3.33,
+   "cpc": 1.17,
    "purchases": 1,
    "purchase_value": 260.94
   }
  ],
  "ads_today": {
   "date": "2026-09-25",
-  "spend": 30.55,
-  "impressions": 747,
+  "spend": 31.67,
+  "impressions": 810,
   "clicks": 27,
-  "ctr": 3.61,
-  "cpc": 1.13,
+  "ctr": 3.33,
+  "cpc": 1.17,
   "purchases": 1,
   "purchase_value": 260.94
  },

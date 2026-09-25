@@ -3,39 +3,29 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-25T04:14:18Z",
-  "generated_at_local": "Fri 25 Sep 2026, 2:14pm AEST",
+  "generated_at_utc": "2026-09-25T04:34:26Z",
+  "generated_at_local": "Fri 25 Sep 2026, 2:34pm AEST",
   "today": "2026-09-25",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-25T04:14:18Z"
+    "fetched_at": "2026-09-25T04:34:26Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-25T04:14:18Z"
+    "fetched_at": "2026-09-25T04:34:26Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-25T04:14:18Z"
+    "fetched_at": "2026-09-25T04:34:26Z"
    }
   }
  },
  "alerts": [
   {
-   "level": "serious",
-   "title": "1 product(s) sold in the last 30d are out of stock",
-   "body": "Lumara Magnolia XL Sculpture \u2014 Wall or Tabletop. Still listed as active \u2014 they take traffic and convert nothing."
-  },
-  {
-   "level": "serious",
-   "title": "2 paid order(s) awaiting fulfilment",
-   "body": "#1082, #1084"
-  },
-  {
    "level": "warning",
-   "title": "6 product(s) at 3 units or fewer",
-   "body": "Table Swag Olive Candelabra (2), Lumara Mediterranean Large Candle Holder \u2014 Tall Ceramic Taper (3), Lumara Mediterranean Med Candle Holder \u2014 Slender Ceramic Taper (3), Lumara Alegra Statement Vase \u2014 Sculptural Metal (3)"
+   "title": "7 product(s) at 3 units or fewer",
+   "body": "Lumara Magnolia XL Sculpture \u2014 Wall or Tabletop (1), Table Swag Olive Candelabra (2), Lumara Mediterranean Large Candle Holder \u2014 Tall Ceramic Taper (3), Lumara Mediterranean Med Candle Holder \u2014 Slender Ceramic Taper (3)"
   }
  ],
  "sales": {
@@ -46,31 +36,18 @@
   },
   "d7": {
    "orders": 5,
-   "revenue": 1209.71,
-   "aov": 241.94
+   "revenue": 1116.72,
+   "aov": 223.34
   },
   "d30": {
    "orders": 33,
-   "revenue": 6856.33,
-   "aov": 207.77
+   "revenue": 6763.34,
+   "aov": 204.95
   },
   "prev7_revenue": 2106.4,
-  "wow_pct": -42.6,
-  "pending_fulfilment": 2,
-  "pending_orders": [
-   {
-    "name": "#1082",
-    "createdAt": "2026-09-23T01:52:26Z",
-    "total": 145.93,
-    "customer": "Kellie Miles"
-   },
-   {
-    "name": "#1084",
-    "createdAt": "2026-09-25T01:34:30Z",
-    "total": 260.94,
-    "customer": "Hiba Farra"
-   }
-  ],
+  "wow_pct": -47.0,
+  "pending_fulfilment": 0,
+  "pending_orders": [],
   "abandoned_checkouts": 1,
   "customers_total": 113,
   "days_since_order": 0,
@@ -247,7 +224,7 @@
     "date": "2026-09-23",
     "label": "23 Sep",
     "orders": 1,
-    "revenue": 145.93
+    "revenue": 52.94
    },
    {
     "date": "2026-09-24",
@@ -268,7 +245,7 @@
     "when": "25 sep, 11:34am",
     "total": 260.94,
     "customer": "Hiba Farra",
-    "fulfillment": "UNFULFILLED",
+    "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Lumara Spice Table Lamp \u2014 Caramel Ribbed Ceramic with Linen Shade"
    },
@@ -284,9 +261,9 @@
    {
     "name": "#1082",
     "when": "23 sep, 11:52am",
-    "total": 145.93,
+    "total": 52.94,
     "customer": "Kellie Miles",
-    "fulfillment": "UNFULFILLED",
+    "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Lumara Magnolia XL Sculpture \u2014 Wall or Tabletop, Lumara Urn Candle Holder Set of 3 \u2014 Ceramic Neutral"
    },
@@ -365,26 +342,26 @@
  },
  "ads": {
   "today": {
-   "spend": 30.55,
+   "spend": 31.67,
    "value": 260.94,
-   "roas": 8.54,
+   "roas": 8.24,
    "clicks": 27,
-   "impressions": 747,
+   "impressions": 810,
    "purchases": 1,
-   "cpc": 1.13,
-   "ctr": 3.61,
-   "cpa": 30.55
+   "cpc": 1.17,
+   "ctr": 3.33,
+   "cpa": 31.67
   },
   "d7": {
-   "spend": 582.07,
+   "spend": 583.19,
    "value": 1209.71,
-   "roas": 2.08,
+   "roas": 2.07,
    "clicks": 529,
-   "impressions": 15146,
+   "impressions": 15209,
    "purchases": 5,
    "cpc": 1.1,
-   "ctr": 3.49,
-   "cpa": 116.41
+   "ctr": 3.48,
+   "cpa": 116.64
   },
   "prev7": {
    "spend": 614.53,
@@ -529,12 +506,12 @@
    {
     "date": "2026-09-25",
     "label": "25 Sep",
-    "spend": 30.55,
+    "spend": 31.67,
     "revenue": 260.94,
     "purchases": 1,
     "clicks": 27,
-    "ctr": 3.61,
-    "cpc": 1.13
+    "ctr": 3.33,
+    "cpc": 1.17
    }
   ],
   "campaigns": [
@@ -678,12 +655,12 @@
  "stock": {
   "sellable_skus": 131,
   "tracked_skus": 81,
-  "out_of_stock": 4,
-  "low": 6,
+  "out_of_stock": 3,
+  "low": 7,
   "watch": 0,
   "healthy": 71,
   "untracked": 50,
-  "stock_value": 68899.96,
+  "stock_value": 68992.95,
   "oos_list": [
    {
     "title": "Lumara Giana Natural Table Lamp \u2014 Earthy Organic Style",
@@ -706,16 +683,6 @@
     "sold_30d": 0
    },
    {
-    "title": "Lumara Magnolia XL Sculpture \u2014 Wall or Tabletop",
-    "sku": "BL7803-1",
-    "qty": 0,
-    "price": 92.99,
-    "status": "ACTIVE",
-    "tracked": true,
-    "available": false,
-    "sold_30d": 1
-   },
-   {
     "title": "Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass",
     "sku": "LH-VS-012",
     "qty": 0,
@@ -726,19 +693,19 @@
     "sold_30d": 0
    }
   ],
-  "oos_sellers": [
+  "oos_sellers": [],
+  "low_list": [
    {
     "title": "Lumara Magnolia XL Sculpture \u2014 Wall or Tabletop",
     "sku": "BL7803-1",
-    "qty": 0,
+    "qty": 1,
     "price": 92.99,
     "status": "ACTIVE",
     "tracked": true,
-    "available": false,
-    "sold_30d": 1
-   }
-  ],
-  "low_list": [
+    "available": true,
+    "sold_30d": 1,
+    "days_cover": 30.0
+   },
    {
     "title": "Table Swag Olive Candelabra",
     "sku": "QA5903-3",
