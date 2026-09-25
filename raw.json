@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-09-25T14:19:45Z",
+ "generated_at_utc": "2026-09-25T14:39:57Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-09-25T14:19:45Z"
+   "fetched_at": "2026-09-25T14:39:57Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-09-25T14:19:45Z"
+   "fetched_at": "2026-09-25T14:39:57Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-09-25T14:19:45Z"
+   "fetched_at": "2026-09-25T14:39:57Z"
   }
  },
  "orders": [
@@ -2880,8 +2880,8 @@
   },
   {
    "date": "2026-09-25",
-   "spend": 77.97,
-   "impressions": 2049,
+   "spend": 78.0,
+   "impressions": 2051,
    "clicks": 60,
    "ctr": 2.93,
    "cpc": 1.3,
@@ -2890,8 +2890,8 @@
   },
   {
    "date": "2026-09-26",
-   "spend": 0.0,
-   "impressions": 0,
+   "spend": 0.07,
+   "impressions": 11,
    "clicks": 0,
    "ctr": 0.0,
    "cpc": 0.0,
@@ -2901,8 +2901,8 @@
  ],
  "ads_today": {
   "date": "2026-09-26",
-  "spend": 0.0,
-  "impressions": 0,
+  "spend": 0.07,
+  "impressions": 11,
   "clicks": 0,
   "ctr": 0.0,
   "cpc": 0.0,
@@ -2944,12 +2944,12 @@
    "name": "Spring Sale 2026 \u2014 AU \u2014 Sales (23 Sep\u201311 Oct)",
    "status": "ACTIVE",
    "daily_budget": 100.0,
-   "spend": 231.7,
-   "impressions": 6677,
+   "spend": 231.73,
+   "impressions": 6679,
    "clicks": 202,
-   "ctr": 3.03,
+   "ctr": 3.02,
    "cpc": 1.15,
-   "roas": 2.8088,
+   "roas": 2.8085,
    "purchases": 3,
    "purchase_value": 650.81,
    "atc": 7,
