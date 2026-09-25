@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-25T00:52:55Z",
-  "generated_at_local": "Fri 25 Sep 2026, 10:52am AEST",
+  "generated_at_utc": "2026-09-25T01:13:04Z",
+  "generated_at_local": "Fri 25 Sep 2026, 11:13am AEST",
   "today": "2026-09-25",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-25T00:52:55Z"
+    "fetched_at": "2026-09-25T01:13:04Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-25T00:52:55Z"
+    "fetched_at": "2026-09-25T01:13:04Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-25T00:52:55Z"
+    "fetched_at": "2026-09-25T01:13:04Z"
    }
   }
  },
@@ -359,26 +359,26 @@
  },
  "ads": {
   "today": {
-   "spend": 15.11,
+   "spend": 16.93,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 13,
-   "impressions": 374,
+   "clicks": 15,
+   "impressions": 416,
    "purchases": 0,
-   "cpc": 1.16,
-   "ctr": 3.48,
+   "cpc": 1.13,
+   "ctr": 3.61,
    "cpa": null
   },
   "d7": {
-   "spend": 566.61,
+   "spend": 568.45,
    "value": 948.77,
    "roas": 1.67,
-   "clicks": 515,
-   "impressions": 14772,
+   "clicks": 517,
+   "impressions": 14815,
    "purchases": 4,
    "cpc": 1.1,
    "ctr": 3.49,
-   "cpa": 141.65
+   "cpa": 142.11
   },
   "prev7": {
    "spend": 614.53,
@@ -388,7 +388,7 @@
   "daily_budget_live": 70.0,
   "active_campaigns": 1,
   "dry_days": 1,
-  "dry_spend": 15.11,
+  "dry_spend": 16.93,
   "series": [
    {
     "date": "2026-09-12",
@@ -513,7 +513,7 @@
    {
     "date": "2026-09-24",
     "label": "24 Sep",
-    "spend": 74.39,
+    "spend": 74.41,
     "revenue": 243.94,
     "purchases": 1,
     "clicks": 81,
@@ -523,12 +523,12 @@
    {
     "date": "2026-09-25",
     "label": "25 Sep",
-    "spend": 15.11,
+    "spend": 16.93,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 13,
-    "ctr": 3.48,
-    "cpc": 1.16
+    "clicks": 15,
+    "ctr": 3.61,
+    "cpc": 1.13
    }
   ],
   "campaigns": [
@@ -566,12 +566,12 @@
     "name": "Spring Sale 2026 \u2014 AU \u2014 Sales (23 Sep\u201311 Oct)",
     "status": "ACTIVE",
     "daily_budget": 70.0,
-    "spend": 153.71,
-    "impressions": 4626,
+    "spend": 153.73,
+    "impressions": 4627,
     "clicks": 142,
     "ctr": 3.07,
     "cpc": 1.08,
-    "roas": 2.5364,
+    "roas": 2.5361,
     "purchases": 2,
     "purchase_value": 389.87,
     "atc": 5,
