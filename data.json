@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-26T04:23:10Z",
-  "generated_at_local": "Sat 26 Sep 2026, 2:23pm AEST",
+  "generated_at_utc": "2026-09-26T04:43:26Z",
+  "generated_at_local": "Sat 26 Sep 2026, 2:43pm AEST",
   "today": "2026-09-26",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-26T04:23:10Z"
+    "fetched_at": "2026-09-26T04:43:26Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-26T04:23:10Z"
+    "fetched_at": "2026-09-26T04:43:26Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-26T04:23:10Z"
+    "fetched_at": "2026-09-26T04:43:26Z"
    }
   }
  },
@@ -264,7 +264,7 @@
     "total": 52.94,
     "customer": "Kellie Miles",
     "fulfillment": "FULFILLED",
-    "financial": "PAID",
+    "financial": "PARTIALLY_REFUNDED",
     "items": "Lumara Magnolia XL Sculpture \u2014 Wall or Tabletop, Lumara Urn Candle Holder Set of 3 \u2014 Ceramic Neutral"
    },
    {
@@ -342,26 +342,26 @@
  },
  "ads": {
   "today": {
-   "spend": 51.12,
+   "spend": 54.43,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 43,
-   "impressions": 1221,
+   "clicks": 45,
+   "impressions": 1313,
    "purchases": 0,
-   "cpc": 1.19,
-   "ctr": 3.52,
+   "cpc": 1.21,
+   "ctr": 3.43,
    "cpa": null
   },
   "d7": {
-   "spend": 594.12,
+   "spend": 597.43,
    "value": 1209.71,
-   "roas": 2.04,
-   "clicks": 518,
-   "impressions": 14837,
+   "roas": 2.02,
+   "clicks": 520,
+   "impressions": 14929,
    "purchases": 5,
    "cpc": 1.15,
-   "ctr": 3.49,
-   "cpa": 118.82
+   "ctr": 3.48,
+   "cpa": 119.49
   },
   "prev7": {
    "spend": 614.89,
@@ -371,7 +371,7 @@
   "daily_budget_live": 100.0,
   "active_campaigns": 1,
   "dry_days": 1,
-  "dry_spend": 51.12,
+  "dry_spend": 54.43,
   "series": [
    {
     "date": "2026-09-13",
@@ -506,12 +506,12 @@
    {
     "date": "2026-09-26",
     "label": "26 Sep",
-    "spend": 51.12,
+    "spend": 54.43,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 43,
-    "ctr": 3.52,
-    "cpc": 1.19
+    "clicks": 45,
+    "ctr": 3.43,
+    "cpc": 1.21
    }
   ],
   "campaigns": [
