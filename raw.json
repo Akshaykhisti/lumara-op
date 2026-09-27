@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-09-27T00:34:18Z",
+ "generated_at_utc": "2026-09-27T00:54:28Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-09-27T00:34:18Z"
+   "fetched_at": "2026-09-27T00:54:28Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-09-27T00:34:18Z"
+   "fetched_at": "2026-09-27T00:54:28Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-09-27T00:34:18Z"
+   "fetched_at": "2026-09-27T00:54:28Z"
   }
  },
  "orders": [
@@ -2880,32 +2880,32 @@
   },
   {
    "date": "2026-09-26",
-   "spend": 94.29,
-   "impressions": 2788,
-   "clicks": 76,
-   "ctr": 2.73,
-   "cpc": 1.24,
+   "spend": 94.36,
+   "impressions": 2789,
+   "clicks": 77,
+   "ctr": 2.76,
+   "cpc": 1.23,
    "purchases": 0,
    "purchase_value": 0.0
   },
   {
    "date": "2026-09-27",
-   "spend": 35.71,
-   "impressions": 977,
-   "clicks": 19,
-   "ctr": 1.94,
-   "cpc": 1.88,
+   "spend": 39.68,
+   "impressions": 1058,
+   "clicks": 21,
+   "ctr": 1.98,
+   "cpc": 1.89,
    "purchases": 0,
    "purchase_value": 0.0
   }
  ],
  "ads_today": {
   "date": "2026-09-27",
-  "spend": 35.71,
-  "impressions": 977,
-  "clicks": 19,
-  "ctr": 1.94,
-  "cpc": 1.88,
+  "spend": 39.68,
+  "impressions": 1058,
+  "clicks": 21,
+  "ctr": 1.98,
+  "cpc": 1.89,
   "purchases": 0,
   "purchase_value": 0.0
  },
@@ -2944,16 +2944,16 @@
    "name": "Spring Sale 2026 \u2014 AU \u2014 Sales (23 Sep\u201311 Oct)",
    "status": "PAUSED",
    "daily_budget": 100.0,
-   "spend": 326.22,
-   "impressions": 9476,
-   "clicks": 278,
-   "ctr": 2.93,
+   "spend": 326.29,
+   "impressions": 9477,
+   "clicks": 279,
+   "ctr": 2.94,
    "cpc": 1.17,
-   "roas": 1.995,
+   "roas": 1.9946,
    "purchases": 3,
    "purchase_value": 650.81,
    "atc": 7,
-   "reach": 5055
+   "reach": 5062
   },
   {
    "name": "Lumara \u2014 Lamps \u2014 KG Gap (Jul 2026)",

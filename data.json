@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-27T00:34:18Z",
-  "generated_at_local": "Sun 27 Sep 2026, 10:34am AEST",
+  "generated_at_utc": "2026-09-27T00:54:28Z",
+  "generated_at_local": "Sun 27 Sep 2026, 10:54am AEST",
   "today": "2026-09-27",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-27T00:34:18Z"
+    "fetched_at": "2026-09-27T00:54:28Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-27T00:34:18Z"
+    "fetched_at": "2026-09-27T00:54:28Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-27T00:34:18Z"
+    "fetched_at": "2026-09-27T00:54:28Z"
    }
   }
  },
@@ -25,7 +25,7 @@
   {
    "level": "warning",
    "title": "No orders for 2 days",
-   "body": "Last order was #1084 on 25 Sep. Ads have spent $130 since the last attributed purchase."
+   "body": "Last order was #1084 on 25 Sep. Ads have spent $134 since the last attributed purchase."
   },
   {
    "level": "warning",
@@ -347,26 +347,26 @@
  },
  "ads": {
   "today": {
-   "spend": 35.71,
+   "spend": 39.68,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 19,
-   "impressions": 977,
+   "clicks": 21,
+   "impressions": 1058,
    "purchases": 0,
-   "cpc": 1.88,
-   "ctr": 1.94,
+   "cpc": 1.89,
+   "ctr": 1.98,
    "cpa": null
   },
   "d7": {
-   "spend": 562.19,
+   "spend": 566.23,
    "value": 650.81,
-   "roas": 1.16,
-   "clicks": 448,
-   "impressions": 14752,
+   "roas": 1.15,
+   "clicks": 451,
+   "impressions": 14834,
    "purchases": 3,
-   "cpc": 1.25,
+   "cpc": 1.26,
    "ctr": 3.04,
-   "cpa": 187.4
+   "cpa": 188.74
   },
   "prev7": {
    "spend": 616.25,
@@ -376,7 +376,7 @@
   "daily_budget_live": 100.0,
   "active_campaigns": 1,
   "dry_days": 2,
-  "dry_spend": 130.0,
+  "dry_spend": 134.04,
   "series": [
    {
     "date": "2026-09-14",
@@ -501,22 +501,22 @@
    {
     "date": "2026-09-26",
     "label": "26 Sep",
-    "spend": 94.29,
+    "spend": 94.36,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 76,
-    "ctr": 2.73,
-    "cpc": 1.24
+    "clicks": 77,
+    "ctr": 2.76,
+    "cpc": 1.23
    },
    {
     "date": "2026-09-27",
     "label": "27 Sep",
-    "spend": 35.71,
+    "spend": 39.68,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 19,
-    "ctr": 1.94,
-    "cpc": 1.88
+    "clicks": 21,
+    "ctr": 1.98,
+    "cpc": 1.89
    }
   ],
   "campaigns": [
@@ -554,16 +554,16 @@
     "name": "Spring Sale 2026 \u2014 AU \u2014 Sales (23 Sep\u201311 Oct)",
     "status": "PAUSED",
     "daily_budget": 100.0,
-    "spend": 326.22,
-    "impressions": 9476,
-    "clicks": 278,
-    "ctr": 2.93,
+    "spend": 326.29,
+    "impressions": 9477,
+    "clicks": 279,
+    "ctr": 2.94,
     "cpc": 1.17,
-    "roas": 1.995,
+    "roas": 1.9946,
     "purchases": 3,
     "purchase_value": 650.81,
     "atc": 7,
-    "reach": 5055
+    "reach": 5062
    },
    {
     "name": "Lumara \u2014 Lamps \u2014 KG Gap (Jul 2026)",
