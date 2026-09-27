@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-27T13:35:11Z",
-  "generated_at_local": "Sun 27 Sep 2026, 11:35pm AEST",
+  "generated_at_utc": "2026-09-27T13:55:20Z",
+  "generated_at_local": "Sun 27 Sep 2026, 11:55pm AEST",
   "today": "2026-09-27",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-27T13:35:11Z"
+    "fetched_at": "2026-09-27T13:55:20Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-27T13:35:11Z"
+    "fetched_at": "2026-09-27T13:55:20Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-27T13:35:11Z"
+    "fetched_at": "2026-09-27T13:55:20Z"
    }
   }
  },
@@ -25,7 +25,7 @@
   {
    "level": "warning",
    "title": "No orders for 2 days",
-   "body": "Last order was #1084 on 25 Sep. Ads have spent $187 since the last attributed purchase."
+   "body": "Last order was #1084 on 25 Sep. Ads have spent $188 since the last attributed purchase."
   },
   {
    "level": "warning",
@@ -347,26 +347,26 @@
  },
  "ads": {
   "today": {
-   "spend": 92.86,
+   "spend": 93.26,
    "value": 0.0,
    "roas": 0.0,
    "clicks": 60,
-   "impressions": 2714,
+   "impressions": 2741,
    "purchases": 0,
    "cpc": 1.55,
-   "ctr": 2.21,
+   "ctr": 2.19,
    "cpa": null
   },
   "d7": {
-   "spend": 619.41,
+   "spend": 619.81,
    "value": 650.81,
    "roas": 1.05,
    "clicks": 490,
-   "impressions": 16490,
+   "impressions": 16517,
    "purchases": 3,
    "cpc": 1.26,
    "ctr": 2.97,
-   "cpa": 206.47
+   "cpa": 206.6
   },
   "prev7": {
    "spend": 616.25,
@@ -376,7 +376,7 @@
   "daily_budget_live": 100.0,
   "active_campaigns": 1,
   "dry_days": 2,
-  "dry_spend": 187.22,
+  "dry_spend": 187.62,
   "series": [
    {
     "date": "2026-09-14",
@@ -511,11 +511,11 @@
    {
     "date": "2026-09-27",
     "label": "27 Sep",
-    "spend": 92.86,
+    "spend": 93.26,
     "revenue": 0.0,
     "purchases": 0,
     "clicks": 60,
-    "ctr": 2.21,
+    "ctr": 2.19,
     "cpc": 1.55
    }
   ],
