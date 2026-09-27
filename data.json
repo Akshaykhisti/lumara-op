@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-27T01:54:56Z",
-  "generated_at_local": "Sun 27 Sep 2026, 11:54am AEST",
+  "generated_at_utc": "2026-09-27T02:15:06Z",
+  "generated_at_local": "Sun 27 Sep 2026, 12:15pm AEST",
   "today": "2026-09-27",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-27T01:54:56Z"
+    "fetched_at": "2026-09-27T02:15:06Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-27T01:54:56Z"
+    "fetched_at": "2026-09-27T02:15:06Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-27T01:54:56Z"
+    "fetched_at": "2026-09-27T02:15:06Z"
    }
   }
  },
@@ -25,7 +25,7 @@
   {
    "level": "warning",
    "title": "No orders for 2 days",
-   "body": "Last order was #1084 on 25 Sep. Ads have spent $141 since the last attributed purchase."
+   "body": "Last order was #1084 on 25 Sep. Ads have spent $145 since the last attributed purchase."
   },
   {
    "level": "warning",
@@ -347,26 +347,26 @@
  },
  "ads": {
   "today": {
-   "spend": 47.0,
+   "spend": 50.8,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 30,
-   "impressions": 1287,
+   "clicks": 31,
+   "impressions": 1352,
    "purchases": 0,
-   "cpc": 1.57,
-   "ctr": 2.33,
+   "cpc": 1.64,
+   "ctr": 2.29,
    "cpa": null
   },
   "d7": {
-   "spend": 573.55,
+   "spend": 577.35,
    "value": 650.81,
    "roas": 1.13,
-   "clicks": 460,
-   "impressions": 15063,
+   "clicks": 461,
+   "impressions": 15128,
    "purchases": 3,
    "cpc": 1.25,
    "ctr": 3.05,
-   "cpa": 191.18
+   "cpa": 192.45
   },
   "prev7": {
    "spend": 616.25,
@@ -376,7 +376,7 @@
   "daily_budget_live": 100.0,
   "active_campaigns": 1,
   "dry_days": 2,
-  "dry_spend": 141.36,
+  "dry_spend": 145.16,
   "series": [
    {
     "date": "2026-09-14",
@@ -511,12 +511,12 @@
    {
     "date": "2026-09-27",
     "label": "27 Sep",
-    "spend": 47.0,
+    "spend": 50.8,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 30,
-    "ctr": 2.33,
-    "cpc": 1.57
+    "clicks": 31,
+    "ctr": 2.29,
+    "cpc": 1.64
    }
   ],
   "campaigns": [
