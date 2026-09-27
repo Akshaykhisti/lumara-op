@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-09-27T13:55:20Z",
+ "generated_at_utc": "2026-09-27T14:15:29Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-09-27T13:55:20Z"
+   "fetched_at": "2026-09-27T14:15:29Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-09-27T13:55:20Z"
+   "fetched_at": "2026-09-27T14:15:29Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-09-27T13:55:20Z"
+   "fetched_at": "2026-09-27T14:15:29Z"
   }
  },
  "orders": [
@@ -445,48 +445,6 @@
    "items": [
     {
      "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
-     "quantity": 1
-    }
-   ]
-  },
-  {
-   "name": "#1054",
-   "createdAt": "2026-08-28T08:35:13Z",
-   "financial": "PAID",
-   "fulfillment": "FULFILLED",
-   "total": 212.55,
-   "customer": "Ross Currie",
-   "items": [
-    {
-     "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
-     "quantity": 1
-    }
-   ]
-  },
-  {
-   "name": "#1053",
-   "createdAt": "2026-08-28T03:52:29Z",
-   "financial": "PAID",
-   "fulfillment": "FULFILLED",
-   "total": 132.94,
-   "customer": "Karen Bonato",
-   "items": [
-    {
-     "title": "Lumara Amazon Woven Basket Set of 3 \u2014 Corn Husk & Seagrass",
-     "quantity": 1
-    }
-   ]
-  },
-  {
-   "name": "#1052",
-   "createdAt": "2026-08-27T21:44:51Z",
-   "financial": "PAID",
-   "fulfillment": "FULFILLED",
-   "total": 79.0,
-   "customer": "Vicki Jones",
-   "items": [
-    {
-     "title": "Additional freight \u2014 Chike Table Lamp to Australia Post Emerald QLD 4720",
      "quantity": 1
     }
    ]
@@ -2749,16 +2707,6 @@
  ],
  "ads_daily": [
   {
-   "date": "2026-09-13",
-   "spend": 109.49,
-   "impressions": 3900,
-   "clicks": 167,
-   "ctr": 4.28,
-   "cpc": 0.66,
-   "purchases": 1,
-   "purchase_value": 212.55
-  },
-  {
    "date": "2026-09-14",
    "spend": 63.72,
    "impressions": 2226,
@@ -2890,22 +2838,32 @@
   },
   {
    "date": "2026-09-27",
-   "spend": 93.26,
-   "impressions": 2741,
-   "clicks": 60,
-   "ctr": 2.19,
-   "cpc": 1.55,
+   "spend": 93.67,
+   "impressions": 2765,
+   "clicks": 61,
+   "ctr": 2.21,
+   "cpc": 1.54,
+   "purchases": 0,
+   "purchase_value": 0.0
+  },
+  {
+   "date": "2026-09-28",
+   "spend": 0.31,
+   "impressions": 10,
+   "clicks": 0,
+   "ctr": 0.0,
+   "cpc": 0.0,
    "purchases": 0,
    "purchase_value": 0.0
   }
  ],
  "ads_today": {
-  "date": "2026-09-27",
-  "spend": 93.26,
-  "impressions": 2741,
-  "clicks": 60,
-  "ctr": 2.19,
-  "cpc": 1.55,
+  "date": "2026-09-28",
+  "spend": 0.31,
+  "impressions": 10,
+  "clicks": 0,
+  "ctr": 0.0,
+  "cpc": 0.0,
   "purchases": 0,
   "purchase_value": 0.0
  },
@@ -2914,46 +2872,46 @@
    "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
    "status": "ACTIVE",
    "daily_budget": 100.0,
-   "spend": 1576.19,
-   "impressions": 49442,
-   "clicks": 2414,
-   "ctr": 4.88,
-   "cpc": 0.65,
-   "roas": 2.9465,
-   "purchases": 20,
-   "purchase_value": 4644.19,
-   "atc": 63,
-   "reach": 24302
+   "spend": 1589.63,
+   "impressions": 50014,
+   "clicks": 2375,
+   "ctr": 4.75,
+   "cpc": 0.67,
+   "roas": 2.6545,
+   "purchases": 17,
+   "purchase_value": 4219.7,
+   "atc": 61,
+   "reach": 24679
   },
   {
    "name": "Decor",
    "status": "PAUSED",
    "daily_budget": 40.0,
-   "spend": 755.9,
-   "impressions": 27477,
-   "clicks": 1316,
-   "ctr": 4.79,
+   "spend": 726.69,
+   "impressions": 26714,
+   "clicks": 1270,
+   "ctr": 4.75,
    "cpc": 0.57,
-   "roas": 0.8697,
+   "roas": 0.9046,
    "purchases": 5,
    "purchase_value": 657.38,
    "atc": 33,
-   "reach": 13644
+   "reach": 13404
   },
   {
    "name": "Spring Sale 2026 \u2014 AU \u2014 Sales (23 Sep\u201311 Oct)",
    "status": "PAUSED",
    "daily_budget": 100.0,
-   "spend": 326.29,
-   "impressions": 9477,
-   "clicks": 279,
-   "ctr": 2.94,
-   "cpc": 1.17,
-   "roas": 1.9946,
+   "spend": 354.76,
+   "impressions": 10222,
+   "clicks": 296,
+   "ctr": 2.9,
+   "cpc": 1.2,
+   "roas": 1.8345,
    "purchases": 3,
    "purchase_value": 650.81,
    "atc": 7,
-   "reach": 5062
+   "reach": 5438
   },
   {
    "name": "Lumara \u2014 Lamps \u2014 KG Gap (Jul 2026)",
