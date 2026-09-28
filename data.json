@@ -3,30 +3,25 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-28T11:15:36Z",
-  "generated_at_local": "Mon 28 Sep 2026, 9:15pm AEST",
+  "generated_at_utc": "2026-09-28T13:27:54Z",
+  "generated_at_local": "Mon 28 Sep 2026, 11:27pm AEST",
   "today": "2026-09-28",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-28T11:15:36Z"
+    "fetched_at": "2026-09-28T13:27:54Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-28T11:15:36Z"
+    "fetched_at": "2026-09-28T13:27:54Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-28T11:15:36Z"
+    "fetched_at": "2026-09-28T13:27:54Z"
    }
   }
  },
  "alerts": [
-  {
-   "level": "serious",
-   "title": "1 paid order(s) awaiting fulfilment",
-   "body": "#1085"
-  },
   {
    "level": "warning",
    "title": "7 product(s) at 3 units or fewer",
@@ -51,15 +46,8 @@
   },
   "prev7_revenue": 2027.65,
   "wow_pct": -58.4,
-  "pending_fulfilment": 1,
-  "pending_orders": [
-   {
-    "name": "#1085",
-    "createdAt": "2026-09-28T06:01:53Z",
-    "total": 284.94,
-    "customer": "Alison Coop"
-   }
-  ],
+  "pending_fulfilment": 0,
+  "pending_orders": [],
   "abandoned_checkouts": 1,
   "customers_total": 114,
   "days_since_order": 0,
@@ -257,7 +245,7 @@
     "when": "28 sep, 4:01pm",
     "total": 284.94,
     "customer": "Alison Coop",
-    "fulfillment": "UNFULFILLED",
+    "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement"
    },
@@ -354,26 +342,26 @@
  },
  "ads": {
   "today": {
-   "spend": 95.15,
+   "spend": 101.15,
    "value": 284.94,
-   "roas": 2.99,
-   "clicks": 42,
-   "impressions": 2554,
+   "roas": 2.82,
+   "clicks": 46,
+   "impressions": 2799,
    "purchases": 1,
-   "cpc": 2.27,
+   "cpc": 2.2,
    "ctr": 1.64,
-   "cpa": 95.15
+   "cpa": 101.15
   },
   "d7": {
-   "spend": 625.97,
+   "spend": 631.97,
    "value": 935.75,
-   "roas": 1.49,
-   "clicks": 463,
-   "impressions": 17047,
+   "roas": 1.48,
+   "clicks": 467,
+   "impressions": 17292,
    "purchases": 4,
    "cpc": 1.35,
-   "ctr": 2.72,
-   "cpa": 156.49
+   "ctr": 2.7,
+   "cpa": 157.99
   },
   "prev7": {
    "spend": 642.93,
@@ -518,12 +506,12 @@
    {
     "date": "2026-09-28",
     "label": "28 Sep",
-    "spend": 95.15,
+    "spend": 101.15,
     "revenue": 284.94,
     "purchases": 1,
-    "clicks": 42,
+    "clicks": 46,
     "ctr": 1.64,
-    "cpc": 2.27
+    "cpc": 2.2
    }
   ],
   "campaigns": [
