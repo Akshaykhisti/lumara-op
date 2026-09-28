@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-09-28T05:53:22Z",
+ "generated_at_utc": "2026-09-28T06:13:31Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,18 +9,32 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-09-28T05:53:22Z"
+   "fetched_at": "2026-09-28T06:13:31Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-09-28T05:53:22Z"
+   "fetched_at": "2026-09-28T06:13:31Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-09-28T05:53:22Z"
+   "fetched_at": "2026-09-28T06:13:31Z"
   }
  },
  "orders": [
+  {
+   "name": "#1085",
+   "createdAt": "2026-09-28T06:01:53Z",
+   "financial": "PAID",
+   "fulfillment": "UNFULFILLED",
+   "total": 284.94,
+   "customer": "Alison Coop",
+   "items": [
+    {
+     "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
+     "quantity": 1
+    }
+   ]
+  },
   {
    "name": "#1084",
    "createdAt": "2026-09-25T01:34:30Z",
@@ -450,8 +464,15 @@
    ]
   }
  ],
- "unfulfilled_paid": [],
- "customers_total": 113,
+ "unfulfilled_paid": [
+  {
+   "name": "#1085",
+   "createdAt": "2026-09-28T06:01:53Z",
+   "total": 284.94,
+   "customer": "Alison Coop"
+  }
+ ],
+ "customers_total": 114,
  "abandoned_checkouts_recent": 1,
  "inventory": [
   {
@@ -565,7 +586,7 @@
   {
    "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
    "sku": "Y8238-1",
-   "qty": 9,
+   "qty": 8,
    "price": 254.99,
    "status": "ACTIVE",
    "tracked": true,
@@ -2848,22 +2869,22 @@
   },
   {
    "date": "2026-09-28",
-   "spend": 64.09,
-   "impressions": 1480,
-   "clicks": 20,
-   "ctr": 1.35,
-   "cpc": 3.2,
+   "spend": 66.75,
+   "impressions": 1522,
+   "clicks": 23,
+   "ctr": 1.51,
+   "cpc": 2.9,
    "purchases": 0,
    "purchase_value": 0.0
   }
  ],
  "ads_today": {
   "date": "2026-09-28",
-  "spend": 64.09,
-  "impressions": 1480,
-  "clicks": 20,
-  "ctr": 1.35,
-  "cpc": 3.2,
+  "spend": 66.75,
+  "impressions": 1522,
+  "clicks": 23,
+  "ctr": 1.51,
+  "cpc": 2.9,
   "purchases": 0,
   "purchase_value": 0.0
  },

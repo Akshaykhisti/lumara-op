@@ -3,34 +3,34 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-28T05:53:22Z",
-  "generated_at_local": "Mon 28 Sep 2026, 3:53pm AEST",
+  "generated_at_utc": "2026-09-28T06:13:31Z",
+  "generated_at_local": "Mon 28 Sep 2026, 4:13pm AEST",
   "today": "2026-09-28",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-28T05:53:22Z"
+    "fetched_at": "2026-09-28T06:13:31Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-28T05:53:22Z"
+    "fetched_at": "2026-09-28T06:13:31Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-28T05:53:22Z"
+    "fetched_at": "2026-09-28T06:13:31Z"
    }
   }
  },
  "alerts": [
   {
-   "level": "critical",
-   "title": "$253 ad spend, 0 purchases (3 days)",
-   "body": "No store orders in that window either. 1 campaign(s) live at $100/day. Check pixel/tracking and landing pages before topping up budget."
+   "level": "serious",
+   "title": "$256 ad spend, 0 Meta-attributed purchases (3 days)",
+   "body": "The store DID take 1 order(s) worth $285 in that window \u2014 Meta just isn't claiming any of them. Either they're organic/direct sales, or the pixel is missing purchases. Worth checking Events Manager before reading this as zero conversion."
   },
   {
-   "level": "warning",
-   "title": "No orders for 3 days",
-   "body": "Last order was #1084 on 25 Sep. Ads have spent $253 since the last attributed purchase."
+   "level": "serious",
+   "title": "1 paid order(s) awaiting fulfilment",
+   "body": "#1085"
   },
   {
    "level": "warning",
@@ -40,32 +40,39 @@
  ],
  "sales": {
   "today": {
-   "orders": 0,
-   "revenue": 0.0,
-   "aov": 0.0
+   "orders": 1,
+   "revenue": 284.94,
+   "aov": 284.94
   },
   "d7": {
-   "orders": 3,
-   "revenue": 557.82,
-   "aov": 185.94
+   "orders": 4,
+   "revenue": 842.76,
+   "aov": 210.69
   },
   "d30": {
-   "orders": 30,
-   "revenue": 6338.85,
-   "aov": 211.3
+   "orders": 31,
+   "revenue": 6623.79,
+   "aov": 213.67
   },
   "prev7_revenue": 2027.65,
-  "wow_pct": -72.5,
-  "pending_fulfilment": 0,
-  "pending_orders": [],
+  "wow_pct": -58.4,
+  "pending_fulfilment": 1,
+  "pending_orders": [
+   {
+    "name": "#1085",
+    "createdAt": "2026-09-28T06:01:53Z",
+    "total": 284.94,
+    "customer": "Alison Coop"
+   }
+  ],
   "abandoned_checkouts": 1,
-  "customers_total": 113,
-  "days_since_order": 3,
+  "customers_total": 114,
+  "days_since_order": 0,
   "last_order": {
-   "name": "#1084",
-   "when": "25 sep, 11:34am",
-   "total": 260.94,
-   "customer": "Hiba Farra"
+   "name": "#1085",
+   "when": "28 sep, 4:01pm",
+   "total": 284.94,
+   "customer": "Alison Coop"
   },
   "daily": [
    {
@@ -245,11 +252,20 @@
    {
     "date": "2026-09-28",
     "label": "28 Sep",
-    "orders": 0,
-    "revenue": 0.0
+    "orders": 1,
+    "revenue": 284.94
    }
   ],
   "recent": [
+   {
+    "name": "#1085",
+    "when": "28 sep, 4:01pm",
+    "total": 284.94,
+    "customer": "Alison Coop",
+    "fulfillment": "UNFULFILLED",
+    "financial": "PAID",
+    "items": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement"
+   },
    {
     "name": "#1084",
     "when": "25 sep, 11:34am",
@@ -312,15 +328,6 @@
     "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Lumara Spice Table Lamp \u2014 Caramel Ribbed Ceramic with Linen Shade"
-   },
-   {
-    "name": "#1077",
-    "when": "16 sep, 11:49pm",
-    "total": 468.15,
-    "customer": "Monica Armijo",
-    "fulfillment": "FULFILLED",
-    "financial": "PAID",
-    "items": "Lumara Spice Table Lamp \u2014 Caramel Ribbed Ceramic with Linen Shade \u00d72"
    }
   ],
   "top_sellers": [
@@ -337,41 +344,41 @@
     "units": 3
    },
    {
+    "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
+    "units": 2
+   },
+   {
     "title": "Lumara Hurricane Candle Holder Moss \u2014 Organic Green Ceramic",
     "units": 2
    },
    {
     "title": "Lumara Magnolia XL Sculpture \u2014 Wall or Tabletop",
     "units": 1
-   },
-   {
-    "title": "Lumara Fossil Table Lamp \u2014 Organic Textured Ceramic",
-    "units": 1
    }
   ]
  },
  "ads": {
   "today": {
-   "spend": 64.09,
+   "spend": 66.75,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 20,
-   "impressions": 1480,
+   "clicks": 23,
+   "impressions": 1522,
    "purchases": 0,
-   "cpc": 3.2,
-   "ctr": 1.35,
+   "cpc": 2.9,
+   "ctr": 1.51,
    "cpa": null
   },
   "d7": {
-   "spend": 594.91,
+   "spend": 597.57,
    "value": 650.81,
    "roas": 1.09,
-   "clicks": 441,
-   "impressions": 15973,
+   "clicks": 444,
+   "impressions": 16015,
    "purchases": 3,
    "cpc": 1.35,
-   "ctr": 2.76,
-   "cpa": 198.3
+   "ctr": 2.77,
+   "cpa": 199.19
   },
   "prev7": {
    "spend": 642.93,
@@ -381,7 +388,7 @@
   "daily_budget_live": 100.0,
   "active_campaigns": 1,
   "dry_days": 3,
-  "dry_spend": 253.12,
+  "dry_spend": 255.78,
   "series": [
    {
     "date": "2026-09-15",
@@ -516,12 +523,12 @@
    {
     "date": "2026-09-28",
     "label": "28 Sep",
-    "spend": 64.09,
+    "spend": 66.75,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 20,
-    "ctr": 1.35,
-    "cpc": 3.2
+    "clicks": 23,
+    "ctr": 1.51,
+    "cpc": 2.9
    }
   ],
   "campaigns": [
@@ -670,7 +677,7 @@
   "watch": 0,
   "healthy": 71,
   "untracked": 50,
-  "stock_value": 68992.95,
+  "stock_value": 68737.96,
   "oos_list": [
    {
     "title": "Lumara Giana Natural Table Lamp \u2014 Earthy Organic Style",
