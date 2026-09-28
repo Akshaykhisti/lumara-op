@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-28T13:48:05Z",
-  "generated_at_local": "Mon 28 Sep 2026, 11:48pm AEST",
-  "today": "2026-09-28",
+  "generated_at_utc": "2026-09-28T14:08:15Z",
+  "generated_at_local": "Tue 29 Sep 2026, 12:08am AEST",
+  "today": "2026-09-29",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-28T13:48:05Z"
+    "fetched_at": "2026-09-28T14:08:15Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-28T13:48:05Z"
+    "fetched_at": "2026-09-28T14:08:15Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-28T13:48:05Z"
+    "fetched_at": "2026-09-28T14:08:15Z"
    }
   }
  },
@@ -30,9 +30,9 @@
  ],
  "sales": {
   "today": {
-   "orders": 1,
-   "revenue": 284.94,
-   "aov": 284.94
+   "orders": 0,
+   "revenue": 0.0,
+   "aov": 0.0
   },
   "d7": {
    "orders": 4,
@@ -40,17 +40,17 @@
    "aov": 210.69
   },
   "d30": {
-   "orders": 31,
-   "revenue": 6623.79,
-   "aov": 213.67
+   "orders": 29,
+   "revenue": 5963.31,
+   "aov": 205.63
   },
-  "prev7_revenue": 2027.65,
-  "wow_pct": -58.4,
+  "prev7_revenue": 1727.7,
+  "wow_pct": -51.2,
   "pending_fulfilment": 0,
   "pending_orders": [],
   "abandoned_checkouts": 1,
   "customers_total": 114,
-  "days_since_order": 0,
+  "days_since_order": 1,
   "last_order": {
    "name": "#1085",
    "when": "28 sep, 4:01pm",
@@ -58,12 +58,6 @@
    "customer": "Alison Coop"
   },
   "daily": [
-   {
-    "date": "2026-08-30",
-    "label": "30 Aug",
-    "orders": 2,
-    "revenue": 660.48
-   },
    {
     "date": "2026-08-31",
     "label": "31 Aug",
@@ -237,6 +231,12 @@
     "label": "28 Sep",
     "orders": 1,
     "revenue": 284.94
+   },
+   {
+    "date": "2026-09-29",
+    "label": "29 Sep",
+    "orders": 0,
+    "revenue": 0.0
    }
   ],
   "recent": [
@@ -316,7 +316,7 @@
   "top_sellers": [
    {
     "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
-    "units": 14
+    "units": 11
    },
    {
     "title": "Lumara Spice Table Lamp \u2014 Caramel Ribbed Ceramic with Linen Shade",
@@ -342,47 +342,37 @@
  },
  "ads": {
   "today": {
-   "spend": 101.9,
-   "value": 284.94,
-   "roas": 2.8,
-   "clicks": 47,
-   "impressions": 2832,
-   "purchases": 1,
-   "cpc": 2.17,
-   "ctr": 1.66,
-   "cpa": 101.9
+   "spend": 0.0,
+   "value": 0.0,
+   "roas": 0.0,
+   "clicks": 0,
+   "impressions": 0,
+   "purchases": 0,
+   "cpc": 0.0,
+   "ctr": 0.0,
+   "cpa": null
   },
   "d7": {
-   "spend": 632.72,
+   "spend": 522.58,
    "value": 935.75,
-   "roas": 1.48,
-   "clicks": 468,
-   "impressions": 17325,
+   "roas": 1.79,
+   "clicks": 387,
+   "impressions": 15089,
    "purchases": 4,
    "cpc": 1.35,
-   "ctr": 2.7,
-   "cpa": 158.18
+   "ctr": 2.56,
+   "cpa": 130.65
   },
   "prev7": {
-   "spend": 642.93,
+   "spend": 708.49,
    "value": 1483.65,
-   "roas": 2.31
+   "roas": 2.09
   },
   "daily_budget_live": 100.0,
   "active_campaigns": 1,
   "dry_days": 0,
   "dry_spend": 0.0,
   "series": [
-   {
-    "date": "2026-09-15",
-    "label": "15 Sep",
-    "spend": 44.61,
-    "revenue": 0.0,
-    "purchases": 0,
-    "clicks": 80,
-    "ctr": 4.14,
-    "cpc": 0.56
-   },
    {
     "date": "2026-09-16",
     "label": "16 Sep",
@@ -506,12 +496,22 @@
    {
     "date": "2026-09-28",
     "label": "28 Sep",
-    "spend": 101.9,
+    "spend": 101.93,
     "revenue": 284.94,
     "purchases": 1,
     "clicks": 47,
-    "ctr": 1.66,
+    "ctr": 1.65,
     "cpc": 2.17
+   },
+   {
+    "date": "2026-09-29",
+    "label": "29 Sep",
+    "spend": 0.0,
+    "revenue": 0.0,
+    "purchases": 0,
+    "clicks": 0,
+    "ctr": 0.0,
+    "cpc": 0.0
    }
   ],
   "campaigns": [
@@ -519,31 +519,31 @@
     "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
     "status": "ACTIVE",
     "daily_budget": 100.0,
-    "spend": 1590.09,
-    "impressions": 50029,
-    "clicks": 2375,
-    "ctr": 4.75,
-    "cpc": 0.67,
-    "roas": 2.6537,
-    "purchases": 17,
-    "purchase_value": 4219.7,
-    "atc": 61,
-    "reach": 24679
+    "spend": 1657.03,
+    "impressions": 51605,
+    "clicks": 2352,
+    "ctr": 4.56,
+    "cpc": 0.7,
+    "roas": 2.7185,
+    "purchases": 18,
+    "purchase_value": 4504.64,
+    "atc": 60,
+    "reach": 25026
    },
    {
     "name": "Decor",
     "status": "PAUSED",
     "daily_budget": 40.0,
-    "spend": 726.69,
-    "impressions": 26714,
-    "clicks": 1270,
-    "ctr": 4.75,
-    "cpc": 0.57,
-    "roas": 0.9046,
+    "spend": 703.18,
+    "impressions": 25903,
+    "clicks": 1201,
+    "ctr": 4.64,
+    "cpc": 0.59,
+    "roas": 0.9349,
     "purchases": 5,
     "purchase_value": 657.38,
     "atc": 33,
-    "reach": 13404
+    "reach": 13132
    },
    {
     "name": "Spring Sale 2026 \u2014 AU \u2014 Sales (23 Sep\u201311 Oct)",
