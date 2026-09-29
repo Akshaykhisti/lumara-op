@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-09-29T11:21:58Z",
+ "generated_at_utc": "2026-09-29T12:31:03Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,18 +9,32 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-09-29T11:21:58Z"
+   "fetched_at": "2026-09-29T12:31:03Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-09-29T11:21:58Z"
+   "fetched_at": "2026-09-29T12:31:03Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-09-29T11:21:58Z"
+   "fetched_at": "2026-09-29T12:31:03Z"
   }
  },
  "orders": [
+  {
+   "name": "#1086",
+   "createdAt": "2026-09-29T11:38:58Z",
+   "financial": "PAID",
+   "fulfillment": "FULFILLED",
+   "total": 314.94,
+   "customer": "Heather Dowling",
+   "items": [
+    {
+     "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
+     "quantity": 1
+    }
+   ]
+  },
   {
    "name": "#1085",
    "createdAt": "2026-09-28T06:01:53Z",
@@ -465,7 +479,7 @@
   }
  ],
  "unfulfilled_paid": [],
- "customers_total": 114,
+ "customers_total": 115,
  "abandoned_checkouts_recent": 1,
  "inventory": [
   {
@@ -579,7 +593,7 @@
   {
    "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
    "sku": "Y8238-1",
-   "qty": 8,
+   "qty": 7,
    "price": 254.99,
    "status": "ACTIVE",
    "tracked": true,
@@ -2862,22 +2876,22 @@
   },
   {
    "date": "2026-09-29",
-   "spend": 78.2,
-   "impressions": 2127,
-   "clicks": 29,
-   "ctr": 1.36,
-   "cpc": 2.7,
+   "spend": 82.58,
+   "impressions": 2293,
+   "clicks": 32,
+   "ctr": 1.4,
+   "cpc": 2.58,
    "purchases": 0,
    "purchase_value": 0.0
   }
  ],
  "ads_today": {
   "date": "2026-09-29",
-  "spend": 78.2,
-  "impressions": 2127,
-  "clicks": 29,
-  "ctr": 1.36,
-  "cpc": 2.7,
+  "spend": 82.58,
+  "impressions": 2293,
+  "clicks": 32,
+  "ctr": 1.4,
+  "cpc": 2.58,
   "purchases": 0,
   "purchase_value": 0.0
  },
