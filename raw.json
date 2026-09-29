@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-09-29T16:33:18Z",
+ "generated_at_utc": "2026-09-29T16:53:29Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-09-29T16:33:18Z"
+   "fetched_at": "2026-09-29T16:53:29Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-09-29T16:33:18Z"
+   "fetched_at": "2026-09-29T16:53:29Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-09-29T16:33:18Z"
+   "fetched_at": "2026-09-29T16:53:29Z"
   }
  },
  "orders": [
@@ -2838,8 +2838,8 @@
   },
   {
    "date": "2026-09-29",
-   "spend": 84.92,
-   "impressions": 2409,
+   "spend": 84.94,
+   "impressions": 2410,
    "clicks": 33,
    "ctr": 1.37,
    "cpc": 2.57,
@@ -2849,7 +2849,7 @@
   {
    "date": "2026-09-30",
    "spend": 0.49,
-   "impressions": 29,
+   "impressions": 31,
    "clicks": 0,
    "ctr": 0.0,
    "cpc": 0.0,
@@ -2860,7 +2860,7 @@
  "ads_today": {
   "date": "2026-09-30",
   "spend": 0.49,
-  "impressions": 29,
+  "impressions": 31,
   "clicks": 0,
   "ctr": 0.0,
   "cpc": 0.0,
@@ -2872,12 +2872,12 @@
    "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
    "status": "ACTIVE",
    "daily_budget": 100.0,
-   "spend": 1680.46,
-   "impressions": 51829,
+   "spend": 1680.48,
+   "impressions": 51830,
    "clicks": 2230,
    "ctr": 4.3,
    "cpc": 0.75,
-   "roas": 2.475,
+   "roas": 2.4749,
    "purchases": 17,
    "purchase_value": 4159.1,
    "atc": 57,
