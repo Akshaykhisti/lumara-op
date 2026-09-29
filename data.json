@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-09-29T13:51:51Z",
-  "generated_at_local": "Tue 29 Sep 2026, 11:51pm AEST",
-  "today": "2026-09-29",
+  "generated_at_utc": "2026-09-29T14:12:02Z",
+  "generated_at_local": "Wed 30 Sep 2026, 12:12am AEST",
+  "today": "2026-09-30",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-09-29T13:51:51Z"
+    "fetched_at": "2026-09-29T14:12:02Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-09-29T13:51:51Z"
+    "fetched_at": "2026-09-29T14:12:02Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-09-29T13:51:51Z"
+    "fetched_at": "2026-09-29T14:12:02Z"
    }
   }
  },
@@ -30,27 +30,27 @@
  ],
  "sales": {
   "today": {
-   "orders": 1,
-   "revenue": 314.94,
-   "aov": 314.94
+   "orders": 0,
+   "revenue": 0.0,
+   "aov": 0.0
   },
   "d7": {
-   "orders": 5,
-   "revenue": 1157.7,
-   "aov": 231.54
+   "orders": 4,
+   "revenue": 1104.76,
+   "aov": 276.19
   },
   "d30": {
-   "orders": 30,
-   "revenue": 6278.25,
-   "aov": 209.28
+   "orders": 27,
+   "revenue": 5874.41,
+   "aov": 217.57
   },
-  "prev7_revenue": 1727.7,
-  "wow_pct": -33.0,
+  "prev7_revenue": 1099.94,
+  "wow_pct": 0.4,
   "pending_fulfilment": 0,
   "pending_orders": [],
   "abandoned_checkouts": 1,
   "customers_total": 115,
-  "days_since_order": 0,
+  "days_since_order": 1,
   "last_order": {
    "name": "#1086",
    "when": "29 sep, 9:38pm",
@@ -58,12 +58,6 @@
    "customer": "Heather Dowling"
   },
   "daily": [
-   {
-    "date": "2026-08-31",
-    "label": "31 Aug",
-    "orders": 3,
-    "revenue": 403.84
-   },
    {
     "date": "2026-09-01",
     "label": "1 Sep",
@@ -237,6 +231,12 @@
     "label": "29 Sep",
     "orders": 1,
     "revenue": 314.94
+   },
+   {
+    "date": "2026-09-30",
+    "label": "30 Sep",
+    "orders": 0,
+    "revenue": 0.0
    }
   ],
   "recent": [
@@ -316,7 +316,7 @@
   "top_sellers": [
    {
     "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
-    "units": 11
+    "units": 10
    },
    {
     "title": "Lumara Spice Table Lamp \u2014 Caramel Ribbed Ceramic with Linen Shade",
@@ -327,62 +327,52 @@
     "units": 3
    },
    {
-    "title": "Lumara Urn Candle Holder Set of 3 \u2014 Ceramic Neutral",
-    "units": 3
-   },
-   {
     "title": "Lumara Hurricane Candle Holder Moss \u2014 Organic Green Ceramic",
     "units": 2
    },
    {
     "title": "Lumara Magnolia XL Sculpture \u2014 Wall or Tabletop",
     "units": 1
+   },
+   {
+    "title": "Lumara Urn Candle Holder Set of 3 \u2014 Ceramic Neutral",
+    "units": 1
    }
   ]
  },
  "ads": {
   "today": {
-   "spend": 84.69,
-   "value": 314.94,
-   "roas": 3.72,
-   "clicks": 33,
-   "impressions": 2400,
-   "purchases": 1,
-   "cpc": 2.57,
-   "ctr": 1.38,
-   "cpa": 84.69
+   "spend": 0.21,
+   "value": 0.0,
+   "roas": 0.0,
+   "clicks": 0,
+   "impressions": 3,
+   "purchases": 0,
+   "cpc": 0.0,
+   "ctr": 0.0,
+   "cpa": null
   },
   "d7": {
-   "spend": 607.51,
-   "value": 1250.69,
-   "roas": 2.06,
-   "clicks": 420,
-   "impressions": 17496,
-   "purchases": 5,
-   "cpc": 1.45,
-   "ctr": 2.4,
-   "cpa": 121.5
+   "spend": 528.91,
+   "value": 1104.76,
+   "roas": 2.09,
+   "clicks": 359,
+   "impressions": 15492,
+   "purchases": 4,
+   "cpc": 1.47,
+   "ctr": 2.32,
+   "cpa": 132.23
   },
   "prev7": {
-   "spend": 708.49,
-   "value": 1483.65,
-   "roas": 2.09
+   "spend": 682.21,
+   "value": 948.88,
+   "roas": 1.39
   },
   "daily_budget_live": 100.0,
   "active_campaigns": 1,
-  "dry_days": 0,
-  "dry_spend": 0.0,
+  "dry_days": 1,
+  "dry_spend": 0.21,
   "series": [
-   {
-    "date": "2026-09-16",
-    "label": "16 Sep",
-    "spend": 105.29,
-    "revenue": 680.7,
-    "purchases": 2,
-    "clicks": 124,
-    "ctr": 3.21,
-    "cpc": 0.85
-   },
    {
     "date": "2026-09-17",
     "label": "17 Sep",
@@ -506,12 +496,22 @@
    {
     "date": "2026-09-29",
     "label": "29 Sep",
-    "spend": 84.69,
+    "spend": 84.89,
     "revenue": 314.94,
     "purchases": 1,
     "clicks": 33,
-    "ctr": 1.38,
+    "ctr": 1.37,
     "cpc": 2.57
+   },
+   {
+    "date": "2026-09-30",
+    "label": "30 Sep",
+    "spend": 0.21,
+    "revenue": 0.0,
+    "purchases": 0,
+    "clicks": 0,
+    "ctr": 0.0,
+    "cpc": 0.0
    }
   ],
   "campaigns": [
@@ -519,31 +519,31 @@
     "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
     "status": "ACTIVE",
     "daily_budget": 100.0,
-    "spend": 1657.27,
-    "impressions": 51612,
-    "clicks": 2352,
-    "ctr": 4.56,
-    "cpc": 0.7,
-    "roas": 2.7181,
-    "purchases": 18,
-    "purchase_value": 4504.64,
-    "atc": 60,
-    "reach": 25026
+    "spend": 1680.43,
+    "impressions": 51827,
+    "clicks": 2230,
+    "ctr": 4.3,
+    "cpc": 0.75,
+    "roas": 2.475,
+    "purchases": 17,
+    "purchase_value": 4159.1,
+    "atc": 57,
+    "reach": 25087
    },
    {
     "name": "Decor",
     "status": "PAUSED",
     "daily_budget": 40.0,
-    "spend": 703.18,
-    "impressions": 25903,
-    "clicks": 1201,
-    "ctr": 4.64,
+    "spend": 656.74,
+    "impressions": 24357,
+    "clicks": 1109,
+    "ctr": 4.55,
     "cpc": 0.59,
-    "roas": 0.9349,
+    "roas": 1.001,
     "purchases": 5,
     "purchase_value": 657.38,
-    "atc": 33,
-    "reach": 13132
+    "atc": 31,
+    "reach": 12512
    },
    {
     "name": "Spring Sale 2026 \u2014 AU \u2014 Sales (23 Sep\u201311 Oct)",
