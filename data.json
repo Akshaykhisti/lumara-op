@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-10-01T13:10:05Z",
-  "generated_at_local": "Thu 1 Oct 2026, 11:10pm AEST",
-  "today": "2026-10-01",
+  "generated_at_utc": "2026-10-01T15:17:12Z",
+  "generated_at_local": "Fri 2 Oct 2026, 1:17am AEST",
+  "today": "2026-10-02",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-10-01T13:10:05Z"
+    "fetched_at": "2026-10-01T15:17:12Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-10-01T13:10:05Z"
+    "fetched_at": "2026-10-01T15:17:12Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-10-01T13:10:05Z"
+    "fetched_at": "2026-10-01T15:17:12Z"
    }
   }
  },
@@ -35,22 +35,22 @@
  ],
  "sales": {
   "today": {
-   "orders": 1,
-   "revenue": 287.98,
-   "aov": 287.98
+   "orders": 0,
+   "revenue": 0.0,
+   "aov": 0.0
   },
   "d7": {
-   "orders": 4,
-   "revenue": 1148.8,
-   "aov": 287.2
+   "orders": 3,
+   "revenue": 887.86,
+   "aov": 295.95
   },
   "d30": {
-   "orders": 28,
-   "revenue": 6162.39,
-   "aov": 220.09
+   "orders": 25,
+   "revenue": 5788.94,
+   "aov": 231.56
   },
-  "prev7_revenue": 1343.88,
-  "wow_pct": -14.5,
+  "prev7_revenue": 1116.72,
+  "wow_pct": -20.5,
   "pending_fulfilment": 1,
   "pending_orders": [
    {
@@ -60,9 +60,9 @@
     "customer": "Catherine Jones"
    }
   ],
-  "abandoned_checkouts": 1,
+  "abandoned_checkouts": 0,
   "customers_total": 116,
-  "days_since_order": 0,
+  "days_since_order": 1,
   "last_order": {
    "name": "#1087",
    "when": "1 oct, 2:17pm",
@@ -70,12 +70,6 @@
    "customer": "Catherine Jones"
   },
   "daily": [
-   {
-    "date": "2026-09-02",
-    "label": "2 Sep",
-    "orders": 3,
-    "revenue": 373.45
-   },
    {
     "date": "2026-09-03",
     "label": "3 Sep",
@@ -249,6 +243,12 @@
     "label": "1 Oct",
     "orders": 1,
     "revenue": 287.98
+   },
+   {
+    "date": "2026-10-02",
+    "label": "2 Oct",
+    "orders": 0,
+    "revenue": 0.0
    }
   ],
   "recent": [
@@ -328,7 +328,7 @@
   "top_sellers": [
    {
     "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
-    "units": 10
+    "units": 9
    },
    {
     "title": "Lumara Spice Table Lamp \u2014 Caramel Ribbed Ceramic with Linen Shade",
@@ -354,47 +354,37 @@
  },
  "ads": {
   "today": {
-   "spend": 120.52,
-   "value": 287.98,
-   "roas": 2.39,
-   "clicks": 67,
-   "impressions": 2726,
-   "purchases": 1,
-   "cpc": 1.8,
-   "ctr": 2.46,
-   "cpa": 120.52
+   "spend": 0.23,
+   "value": 0.0,
+   "roas": 0.0,
+   "clicks": 0,
+   "impressions": 29,
+   "purchases": 0,
+   "cpc": 0.0,
+   "ctr": 0.0,
+   "cpa": null
   },
   "d7": {
-   "spend": 670.18,
-   "value": 1148.8,
-   "roas": 1.71,
-   "clicks": 381,
-   "impressions": 17914,
-   "purchases": 4,
-   "cpc": 1.76,
-   "ctr": 2.13,
-   "cpa": 167.54
+   "spend": 594.73,
+   "value": 887.86,
+   "roas": 1.49,
+   "clicks": 324,
+   "impressions": 15931,
+   "purchases": 3,
+   "cpc": 1.84,
+   "ctr": 2.03,
+   "cpa": 198.24
   },
   "prev7": {
-   "spend": 659.63,
-   "value": 1192.82,
-   "roas": 1.81
+   "spend": 629.72,
+   "value": 1209.71,
+   "roas": 1.92
   },
   "daily_budget_live": 100.0,
   "active_campaigns": 1,
-  "dry_days": 0,
-  "dry_spend": 0.0,
+  "dry_days": 1,
+  "dry_spend": 0.23,
   "series": [
-   {
-    "date": "2026-09-18",
-    "label": "18 Sep",
-    "spend": 108.11,
-    "revenue": 244.05,
-    "purchases": 1,
-    "clicks": 126,
-    "ctr": 3.58,
-    "cpc": 0.86
-   },
    {
     "date": "2026-09-19",
     "label": "19 Sep",
@@ -518,12 +508,22 @@
    {
     "date": "2026-10-01",
     "label": "1 Oct",
-    "spend": 120.52,
+    "spend": 123.04,
     "revenue": 287.98,
     "purchases": 1,
-    "clicks": 67,
-    "ctr": 2.46,
-    "cpc": 1.8
+    "clicks": 70,
+    "ctr": 2.52,
+    "cpc": 1.76
+   },
+   {
+    "date": "2026-10-02",
+    "label": "2 Oct",
+    "spend": 0.23,
+    "revenue": 0.0,
+    "purchases": 0,
+    "clicks": 0,
+    "ctr": 0.0,
+    "cpc": 0.0
    }
   ],
   "campaigns": [
@@ -531,31 +531,31 @@
     "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
     "status": "ACTIVE",
     "daily_budget": 100.0,
-    "spend": 1729.35,
-    "impressions": 52374,
-    "clicks": 2157,
-    "ctr": 4.12,
-    "cpc": 0.8,
-    "roas": 2.2697,
-    "purchases": 16,
-    "purchase_value": 3925.16,
+    "spend": 1806.53,
+    "impressions": 53606,
+    "clicks": 2135,
+    "ctr": 3.98,
+    "cpc": 0.85,
+    "roas": 2.3322,
+    "purchases": 17,
+    "purchase_value": 4213.14,
     "atc": 58,
-    "reach": 24947
+    "reach": 25372
    },
    {
     "name": "Decor",
     "status": "PAUSED",
     "daily_budget": 40.0,
-    "spend": 612.97,
-    "impressions": 23059,
-    "clicks": 1031,
-    "ctr": 4.47,
-    "cpc": 0.59,
-    "roas": 0.9339,
+    "spend": 574.65,
+    "impressions": 21831,
+    "clicks": 936,
+    "ctr": 4.29,
+    "cpc": 0.61,
+    "roas": 0.9961,
     "purchases": 4,
     "purchase_value": 572.43,
-    "atc": 28,
-    "reach": 12030
+    "atc": 23,
+    "reach": 11477
    },
    {
     "name": "Spring Sale 2026 \u2014 AU \u2014 Sales (23 Sep\u201311 Oct)",
@@ -759,8 +759,8 @@
     "status": "ACTIVE",
     "tracked": true,
     "available": true,
-    "sold_30d": 1,
-    "days_cover": 90.0
+    "sold_30d": 0,
+    "days_cover": null
    },
    {
     "title": "Lumara Olive Mediterranean Candelabra \u2014 Sculptural Metal Centrepiece",

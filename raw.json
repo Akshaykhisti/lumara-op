@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-10-01T13:10:05Z",
+ "generated_at_utc": "2026-10-01T15:17:12Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-10-01T13:10:05Z"
+   "fetched_at": "2026-10-01T15:17:12Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-10-01T13:10:05Z"
+   "fetched_at": "2026-10-01T15:17:12Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-10-01T13:10:05Z"
+   "fetched_at": "2026-10-01T15:17:12Z"
   }
  },
  "orders": [
@@ -431,7 +431,7 @@
   }
  ],
  "customers_total": 116,
- "abandoned_checkouts_recent": 1,
+ "abandoned_checkouts_recent": 0,
  "inventory": [
   {
    "title": "Lumara Cayman Rattan Table Lamp \u2014 Coastal Natural Style",
@@ -2686,16 +2686,6 @@
  ],
  "ads_daily": [
   {
-   "date": "2026-09-17",
-   "spend": 96.99,
-   "impressions": 3008,
-   "clicks": 92,
-   "ctr": 3.06,
-   "cpc": 1.05,
-   "purchases": 0,
-   "purchase_value": 0.0
-  },
-  {
    "date": "2026-09-18",
    "spend": 108.11,
    "impressions": 3517,
@@ -2827,55 +2817,65 @@
   },
   {
    "date": "2026-10-01",
-   "spend": 120.52,
-   "impressions": 2726,
-   "clicks": 67,
-   "ctr": 2.46,
-   "cpc": 1.8,
+   "spend": 123.04,
+   "impressions": 2774,
+   "clicks": 70,
+   "ctr": 2.52,
+   "cpc": 1.76,
    "purchases": 1,
    "purchase_value": 287.98
+  },
+  {
+   "date": "2026-10-02",
+   "spend": 0.23,
+   "impressions": 29,
+   "clicks": 0,
+   "ctr": 0.0,
+   "cpc": 0.0,
+   "purchases": 0,
+   "purchase_value": 0.0
   }
  ],
  "ads_today": {
-  "date": "2026-10-01",
-  "spend": 120.52,
-  "impressions": 2726,
-  "clicks": 67,
-  "ctr": 2.46,
-  "cpc": 1.8,
-  "purchases": 1,
-  "purchase_value": 287.98
+  "date": "2026-10-02",
+  "spend": 0.23,
+  "impressions": 29,
+  "clicks": 0,
+  "ctr": 0.0,
+  "cpc": 0.0,
+  "purchases": 0,
+  "purchase_value": 0.0
  },
  "ads_campaigns": [
   {
    "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
    "status": "ACTIVE",
    "daily_budget": 100.0,
-   "spend": 1729.35,
-   "impressions": 52374,
-   "clicks": 2157,
-   "ctr": 4.12,
-   "cpc": 0.8,
-   "roas": 2.2697,
-   "purchases": 16,
-   "purchase_value": 3925.16,
+   "spend": 1806.53,
+   "impressions": 53606,
+   "clicks": 2135,
+   "ctr": 3.98,
+   "cpc": 0.85,
+   "roas": 2.3322,
+   "purchases": 17,
+   "purchase_value": 4213.14,
    "atc": 58,
-   "reach": 24947
+   "reach": 25372
   },
   {
    "name": "Decor",
    "status": "PAUSED",
    "daily_budget": 40.0,
-   "spend": 612.97,
-   "impressions": 23059,
-   "clicks": 1031,
-   "ctr": 4.47,
-   "cpc": 0.59,
-   "roas": 0.9339,
+   "spend": 574.65,
+   "impressions": 21831,
+   "clicks": 936,
+   "ctr": 4.29,
+   "cpc": 0.61,
+   "roas": 0.9961,
    "purchases": 4,
    "purchase_value": 572.43,
-   "atc": 28,
-   "reach": 12030
+   "atc": 23,
+   "reach": 11477
   },
   {
    "name": "Spring Sale 2026 \u2014 AU \u2014 Sales (23 Sep\u201311 Oct)",
