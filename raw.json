@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-10-01T03:59:07Z",
+ "generated_at_utc": "2026-10-01T04:19:18Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,18 +9,32 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-10-01T03:59:07Z"
+   "fetched_at": "2026-10-01T04:19:18Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-10-01T03:59:07Z"
+   "fetched_at": "2026-10-01T04:19:18Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-10-01T03:59:07Z"
+   "fetched_at": "2026-10-01T04:19:18Z"
   }
  },
  "orders": [
+  {
+   "name": "#1087",
+   "createdAt": "2026-10-01T04:17:39Z",
+   "financial": "PAID",
+   "fulfillment": "UNFULFILLED",
+   "total": 287.98,
+   "customer": "Catherine Jones",
+   "items": [
+    {
+     "title": "Lumara Monica Green Table Lamp \u2014 Sage Ceramic with Gold Detail",
+     "quantity": 2
+    }
+   ]
+  },
   {
    "name": "#1086",
    "createdAt": "2026-09-29T11:38:58Z",
@@ -408,8 +422,15 @@
    ]
   }
  ],
- "unfulfilled_paid": [],
- "customers_total": 115,
+ "unfulfilled_paid": [
+  {
+   "name": "#1087",
+   "createdAt": "2026-10-01T04:17:39Z",
+   "total": 287.98,
+   "customer": "Catherine Jones"
+  }
+ ],
+ "customers_total": 116,
  "abandoned_checkouts_recent": 1,
  "inventory": [
   {
@@ -1738,7 +1759,7 @@
   {
    "title": "Lumara Monica Green Table Lamp \u2014 Sage Ceramic with Gold Detail",
    "sku": "YR7400-1",
-   "qty": 10,
+   "qty": 8,
    "price": 143.99,
    "status": "ACTIVE",
    "tracked": true,
@@ -2806,22 +2827,22 @@
   },
   {
    "date": "2026-10-01",
-   "spend": 61.21,
-   "impressions": 1357,
-   "clicks": 27,
-   "ctr": 1.99,
-   "cpc": 2.27,
+   "spend": 65.1,
+   "impressions": 1418,
+   "clicks": 28,
+   "ctr": 1.97,
+   "cpc": 2.33,
    "purchases": 0,
    "purchase_value": 0.0
   }
  ],
  "ads_today": {
   "date": "2026-10-01",
-  "spend": 61.21,
-  "impressions": 1357,
-  "clicks": 27,
-  "ctr": 1.99,
-  "cpc": 2.27,
+  "spend": 65.1,
+  "impressions": 1418,
+  "clicks": 28,
+  "ctr": 1.97,
+  "cpc": 2.33,
   "purchases": 0,
   "purchase_value": 0.0
  },

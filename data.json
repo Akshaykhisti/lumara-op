@@ -3,29 +3,29 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-10-01T03:59:07Z",
-  "generated_at_local": "Thu 1 Oct 2026, 1:59pm AEST",
+  "generated_at_utc": "2026-10-01T04:19:18Z",
+  "generated_at_local": "Thu 1 Oct 2026, 2:19pm AEST",
   "today": "2026-10-01",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-10-01T03:59:07Z"
+    "fetched_at": "2026-10-01T04:19:18Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-10-01T03:59:07Z"
+    "fetched_at": "2026-10-01T04:19:18Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-10-01T03:59:07Z"
+    "fetched_at": "2026-10-01T04:19:18Z"
    }
   }
  },
  "alerts": [
   {
-   "level": "warning",
-   "title": "No orders for 2 days",
-   "body": "Last order was #1086 on 29 Sep. Ads have spent $156 since the last attributed purchase."
+   "level": "serious",
+   "title": "1 paid order(s) awaiting fulfilment",
+   "body": "#1087"
   },
   {
    "level": "warning",
@@ -35,32 +35,39 @@
  ],
  "sales": {
   "today": {
-   "orders": 0,
-   "revenue": 0.0,
-   "aov": 0.0
+   "orders": 1,
+   "revenue": 287.98,
+   "aov": 287.98
   },
   "d7": {
-   "orders": 3,
-   "revenue": 860.82,
-   "aov": 286.94
+   "orders": 4,
+   "revenue": 1148.8,
+   "aov": 287.2
   },
   "d30": {
-   "orders": 27,
-   "revenue": 5874.41,
-   "aov": 217.57
+   "orders": 28,
+   "revenue": 6162.39,
+   "aov": 220.09
   },
   "prev7_revenue": 1343.88,
-  "wow_pct": -35.9,
-  "pending_fulfilment": 0,
-  "pending_orders": [],
+  "wow_pct": -14.5,
+  "pending_fulfilment": 1,
+  "pending_orders": [
+   {
+    "name": "#1087",
+    "createdAt": "2026-10-01T04:17:39Z",
+    "total": 287.98,
+    "customer": "Catherine Jones"
+   }
+  ],
   "abandoned_checkouts": 1,
-  "customers_total": 115,
-  "days_since_order": 2,
+  "customers_total": 116,
+  "days_since_order": 0,
   "last_order": {
-   "name": "#1086",
-   "when": "29 sep, 9:38pm",
-   "total": 314.94,
-   "customer": "Heather Dowling"
+   "name": "#1087",
+   "when": "1 oct, 2:17pm",
+   "total": 287.98,
+   "customer": "Catherine Jones"
   },
   "daily": [
    {
@@ -240,11 +247,20 @@
    {
     "date": "2026-10-01",
     "label": "1 Oct",
-    "orders": 0,
-    "revenue": 0.0
+    "orders": 1,
+    "revenue": 287.98
    }
   ],
   "recent": [
+   {
+    "name": "#1087",
+    "when": "1 oct, 2:17pm",
+    "total": 287.98,
+    "customer": "Catherine Jones",
+    "fulfillment": "UNFULFILLED",
+    "financial": "PAID",
+    "items": "Lumara Monica Green Table Lamp \u2014 Sage Ceramic with Gold Detail \u00d72"
+   },
    {
     "name": "#1086",
     "when": "29 sep, 9:38pm",
@@ -307,15 +323,6 @@
     "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Lumara Spice Table Lamp \u2014 Caramel Ribbed Ceramic with Linen Shade"
-   },
-   {
-    "name": "#1079",
-    "when": "18 sep, 8:24am",
-    "total": 244.05,
-    "customer": "Tanya Cullen",
-    "fulfillment": "FULFILLED",
-    "financial": "PAID",
-    "items": "Lumara Spice Table Lamp \u2014 Caramel Ribbed Ceramic with Linen Shade"
    }
   ],
   "top_sellers": [
@@ -332,41 +339,41 @@
     "units": 3
    },
    {
+    "title": "Lumara Monica Green Table Lamp \u2014 Sage Ceramic with Gold Detail",
+    "units": 2
+   },
+   {
     "title": "Lumara Hurricane Candle Holder Moss \u2014 Organic Green Ceramic",
     "units": 2
    },
    {
     "title": "Lumara Magnolia XL Sculpture \u2014 Wall or Tabletop",
     "units": 1
-   },
-   {
-    "title": "Lumara Urn Candle Holder Set of 3 \u2014 Ceramic Neutral",
-    "units": 1
    }
   ]
  },
  "ads": {
   "today": {
-   "spend": 61.21,
+   "spend": 65.1,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 27,
-   "impressions": 1357,
+   "clicks": 28,
+   "impressions": 1418,
    "purchases": 0,
-   "cpc": 2.27,
-   "ctr": 1.99,
+   "cpc": 2.32,
+   "ctr": 1.97,
    "cpa": null
   },
   "d7": {
-   "spend": 610.66,
+   "spend": 614.55,
    "value": 860.82,
-   "roas": 1.41,
-   "clicks": 341,
-   "impressions": 16544,
+   "roas": 1.4,
+   "clicks": 342,
+   "impressions": 16605,
    "purchases": 3,
-   "cpc": 1.79,
+   "cpc": 1.8,
    "ctr": 2.06,
-   "cpa": 203.55
+   "cpa": 204.85
   },
   "prev7": {
    "spend": 659.63,
@@ -376,7 +383,7 @@
   "daily_budget_live": 100.0,
   "active_campaigns": 1,
   "dry_days": 2,
-  "dry_spend": 155.99,
+  "dry_spend": 159.88,
   "series": [
    {
     "date": "2026-09-18",
@@ -511,12 +518,12 @@
    {
     "date": "2026-10-01",
     "label": "1 Oct",
-    "spend": 61.21,
+    "spend": 65.1,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 27,
-    "ctr": 1.99,
-    "cpc": 2.27
+    "clicks": 28,
+    "ctr": 1.97,
+    "cpc": 2.33
    }
   ],
   "campaigns": [
@@ -665,7 +672,7 @@
   "watch": 0,
   "healthy": 71,
   "untracked": 50,
-  "stock_value": 67901.97,
+  "stock_value": 67613.99,
   "oos_list": [
    {
     "title": "Lumara Giana Natural Table Lamp \u2014 Earthy Organic Style",
