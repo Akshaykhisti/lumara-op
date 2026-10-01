@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-10-01T04:19:18Z",
-  "generated_at_local": "Thu 1 Oct 2026, 2:19pm AEST",
+  "generated_at_utc": "2026-10-01T04:39:30Z",
+  "generated_at_local": "Thu 1 Oct 2026, 2:39pm AEST",
   "today": "2026-10-01",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-10-01T04:19:18Z"
+    "fetched_at": "2026-10-01T04:39:30Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-10-01T04:19:18Z"
+    "fetched_at": "2026-10-01T04:39:30Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-10-01T04:19:18Z"
+    "fetched_at": "2026-10-01T04:39:30Z"
    }
   }
  },
@@ -354,26 +354,26 @@
  },
  "ads": {
   "today": {
-   "spend": 65.1,
-   "value": 0.0,
-   "roas": 0.0,
-   "clicks": 28,
-   "impressions": 1418,
-   "purchases": 0,
-   "cpc": 2.32,
-   "ctr": 1.97,
-   "cpa": null
+   "spend": 66.27,
+   "value": 287.98,
+   "roas": 4.35,
+   "clicks": 29,
+   "impressions": 1452,
+   "purchases": 1,
+   "cpc": 2.29,
+   "ctr": 2.0,
+   "cpa": 66.27
   },
   "d7": {
-   "spend": 614.55,
-   "value": 860.82,
-   "roas": 1.4,
-   "clicks": 342,
-   "impressions": 16605,
-   "purchases": 3,
+   "spend": 615.72,
+   "value": 1148.8,
+   "roas": 1.87,
+   "clicks": 343,
+   "impressions": 16639,
+   "purchases": 4,
    "cpc": 1.8,
    "ctr": 2.06,
-   "cpa": 204.85
+   "cpa": 153.93
   },
   "prev7": {
    "spend": 659.63,
@@ -382,8 +382,8 @@
   },
   "daily_budget_live": 100.0,
   "active_campaigns": 1,
-  "dry_days": 2,
-  "dry_spend": 159.88,
+  "dry_days": 0,
+  "dry_spend": 0.0,
   "series": [
    {
     "date": "2026-09-18",
@@ -518,12 +518,12 @@
    {
     "date": "2026-10-01",
     "label": "1 Oct",
-    "spend": 65.1,
-    "revenue": 0.0,
-    "purchases": 0,
-    "clicks": 28,
-    "ctr": 1.97,
-    "cpc": 2.33
+    "spend": 66.27,
+    "revenue": 287.98,
+    "purchases": 1,
+    "clicks": 29,
+    "ctr": 2.0,
+    "cpc": 2.29
    }
   ],
   "campaigns": [
