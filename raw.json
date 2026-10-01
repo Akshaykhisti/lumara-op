@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-10-01T09:28:06Z",
+ "generated_at_utc": "2026-10-01T09:48:16Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-10-01T09:28:06Z"
+   "fetched_at": "2026-10-01T09:48:16Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-10-01T09:28:06Z"
+   "fetched_at": "2026-10-01T09:48:16Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-10-01T09:28:06Z"
+   "fetched_at": "2026-10-01T09:48:16Z"
   }
  },
  "orders": [
@@ -2827,22 +2827,22 @@
   },
   {
    "date": "2026-10-01",
-   "spend": 103.42,
-   "impressions": 2243,
-   "clicks": 49,
-   "ctr": 2.18,
-   "cpc": 2.11,
+   "spend": 105.87,
+   "impressions": 2304,
+   "clicks": 54,
+   "ctr": 2.34,
+   "cpc": 1.96,
    "purchases": 1,
    "purchase_value": 287.98
   }
  ],
  "ads_today": {
   "date": "2026-10-01",
-  "spend": 103.42,
-  "impressions": 2243,
-  "clicks": 49,
-  "ctr": 2.18,
-  "cpc": 2.11,
+  "spend": 105.87,
+  "impressions": 2304,
+  "clicks": 54,
+  "ctr": 2.34,
+  "cpc": 1.96,
   "purchases": 1,
   "purchase_value": 287.98
  },
