@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-10-01T22:26:03Z",
-  "generated_at_local": "Fri 2 Oct 2026, 8:26am AEST",
+  "generated_at_utc": "2026-10-01T22:46:14Z",
+  "generated_at_local": "Fri 2 Oct 2026, 8:46am AEST",
   "today": "2026-10-02",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-10-01T22:26:03Z"
+    "fetched_at": "2026-10-01T22:46:14Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-10-01T22:26:03Z"
+    "fetched_at": "2026-10-01T22:46:14Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-10-01T22:26:03Z"
+    "fetched_at": "2026-10-01T22:46:14Z"
    }
   }
  },
@@ -360,26 +360,26 @@
  },
  "ads": {
   "today": {
-   "spend": 33.25,
-   "value": 0.0,
-   "roas": 0.0,
-   "clicks": 19,
-   "impressions": 381,
-   "purchases": 0,
-   "cpc": 1.75,
-   "ctr": 4.99,
-   "cpa": null
+   "spend": 35.94,
+   "value": 509.98,
+   "roas": 14.19,
+   "clicks": 20,
+   "impressions": 432,
+   "purchases": 1,
+   "cpc": 1.8,
+   "ctr": 4.63,
+   "cpa": 35.94
   },
   "d7": {
-   "spend": 627.75,
-   "value": 887.86,
-   "roas": 1.41,
-   "clicks": 343,
-   "impressions": 16284,
-   "purchases": 3,
+   "spend": 630.44,
+   "value": 1397.84,
+   "roas": 2.22,
+   "clicks": 344,
+   "impressions": 16335,
+   "purchases": 4,
    "cpc": 1.83,
    "ctr": 2.11,
-   "cpa": 209.25
+   "cpa": 157.61
   },
   "prev7": {
    "spend": 629.72,
@@ -388,8 +388,8 @@
   },
   "daily_budget_live": 100.0,
   "active_campaigns": 1,
-  "dry_days": 1,
-  "dry_spend": 33.25,
+  "dry_days": 0,
+  "dry_spend": 0.0,
   "series": [
    {
     "date": "2026-09-19",
@@ -524,12 +524,12 @@
    {
     "date": "2026-10-02",
     "label": "2 Oct",
-    "spend": 33.25,
-    "revenue": 0.0,
-    "purchases": 0,
-    "clicks": 19,
-    "ctr": 4.99,
-    "cpc": 1.75
+    "spend": 35.94,
+    "revenue": 509.98,
+    "purchases": 1,
+    "clicks": 20,
+    "ctr": 4.63,
+    "cpc": 1.8
    }
   ],
   "campaigns": [
