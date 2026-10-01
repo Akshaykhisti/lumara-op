@@ -3,29 +3,29 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-10-01T21:25:30Z",
-  "generated_at_local": "Fri 2 Oct 2026, 7:25am AEST",
+  "generated_at_utc": "2026-10-01T21:45:41Z",
+  "generated_at_local": "Fri 2 Oct 2026, 7:45am AEST",
   "today": "2026-10-02",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-10-01T21:25:30Z"
+    "fetched_at": "2026-10-01T21:45:41Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-10-01T21:25:30Z"
+    "fetched_at": "2026-10-01T21:45:41Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-10-01T21:25:30Z"
+    "fetched_at": "2026-10-01T21:45:41Z"
    }
   }
  },
  "alerts": [
   {
    "level": "serious",
-   "title": "1 paid order(s) awaiting fulfilment",
-   "body": "#1087"
+   "title": "2 paid order(s) awaiting fulfilment",
+   "body": "#1087, #1088"
   },
   {
    "level": "warning",
@@ -35,39 +35,45 @@
  ],
  "sales": {
   "today": {
-   "orders": 0,
-   "revenue": 0.0,
-   "aov": 0.0
+   "orders": 1,
+   "revenue": 509.98,
+   "aov": 509.98
   },
   "d7": {
-   "orders": 3,
-   "revenue": 887.86,
-   "aov": 295.95
+   "orders": 4,
+   "revenue": 1397.84,
+   "aov": 349.46
   },
   "d30": {
-   "orders": 25,
-   "revenue": 5788.94,
-   "aov": 231.56
+   "orders": 26,
+   "revenue": 6298.92,
+   "aov": 242.27
   },
   "prev7_revenue": 1116.72,
-  "wow_pct": -20.5,
-  "pending_fulfilment": 1,
+  "wow_pct": 25.2,
+  "pending_fulfilment": 2,
   "pending_orders": [
    {
     "name": "#1087",
     "createdAt": "2026-10-01T04:17:39Z",
     "total": 287.98,
     "customer": "Catherine Jones"
+   },
+   {
+    "name": "#1088",
+    "createdAt": "2026-10-01T21:40:06Z",
+    "total": 509.98,
+    "customer": "Mary Galea"
    }
   ],
   "abandoned_checkouts": 0,
-  "customers_total": 116,
-  "days_since_order": 1,
+  "customers_total": 117,
+  "days_since_order": 0,
   "last_order": {
-   "name": "#1087",
-   "when": "1 oct, 2:17pm",
-   "total": 287.98,
-   "customer": "Catherine Jones"
+   "name": "#1088",
+   "when": "2 oct, 7:40am",
+   "total": 509.98,
+   "customer": "Mary Galea"
   },
   "daily": [
    {
@@ -247,11 +253,20 @@
    {
     "date": "2026-10-02",
     "label": "2 Oct",
-    "orders": 0,
-    "revenue": 0.0
+    "orders": 1,
+    "revenue": 509.98
    }
   ],
   "recent": [
+   {
+    "name": "#1088",
+    "when": "2 oct, 7:40am",
+    "total": 509.98,
+    "customer": "Mary Galea",
+    "fulfillment": "UNFULFILLED",
+    "financial": "PAID",
+    "items": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement \u00d72"
+   },
    {
     "name": "#1087",
     "when": "1 oct, 2:17pm",
@@ -314,15 +329,6 @@
     "fulfillment": "ON_HOLD",
     "financial": "PAID",
     "items": "Lumara Fossil Table Lamp \u2014 Organic Textured Ceramic"
-   },
-   {
-    "name": "#1080",
-    "when": "20 sep, 10:53am",
-    "total": 268.95,
-    "customer": "Glen Bernardino",
-    "fulfillment": "FULFILLED",
-    "financial": "PAID",
-    "items": "Lumara Spice Table Lamp \u2014 Caramel Ribbed Ceramic with Linen Shade"
    }
   ],
   "top_sellers": [
@@ -336,7 +342,7 @@
    },
    {
     "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
-    "units": 3
+    "units": 5
    },
    {
     "title": "Lumara Monica Green Table Lamp \u2014 Sage Ceramic with Gold Detail",
@@ -354,26 +360,26 @@
  },
  "ads": {
   "today": {
-   "spend": 23.39,
+   "spend": 28.09,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 9,
-   "impressions": 256,
+   "clicks": 16,
+   "impressions": 311,
    "purchases": 0,
-   "cpc": 2.6,
-   "ctr": 3.52,
+   "cpc": 1.76,
+   "ctr": 5.14,
    "cpa": null
   },
   "d7": {
-   "spend": 617.89,
+   "spend": 622.59,
    "value": 887.86,
-   "roas": 1.44,
-   "clicks": 333,
-   "impressions": 16159,
+   "roas": 1.43,
+   "clicks": 340,
+   "impressions": 16214,
    "purchases": 3,
-   "cpc": 1.86,
-   "ctr": 2.06,
-   "cpa": 205.96
+   "cpc": 1.83,
+   "ctr": 2.1,
+   "cpa": 207.53
   },
   "prev7": {
    "spend": 629.72,
@@ -383,7 +389,7 @@
   "daily_budget_live": 100.0,
   "active_campaigns": 1,
   "dry_days": 1,
-  "dry_spend": 23.39,
+  "dry_spend": 28.09,
   "series": [
    {
     "date": "2026-09-19",
@@ -518,12 +524,12 @@
    {
     "date": "2026-10-02",
     "label": "2 Oct",
-    "spend": 23.39,
+    "spend": 28.09,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 9,
-    "ctr": 3.52,
-    "cpc": 2.6
+    "clicks": 16,
+    "ctr": 5.14,
+    "cpc": 1.76
    }
   ],
   "campaigns": [
@@ -669,10 +675,10 @@
   "tracked_skus": 81,
   "out_of_stock": 3,
   "low": 7,
-  "watch": 0,
-  "healthy": 71,
+  "watch": 1,
+  "healthy": 70,
   "untracked": 50,
-  "stock_value": 67613.99,
+  "stock_value": 67104.01,
   "oos_list": [
    {
     "title": "Lumara Giana Natural Table Lamp \u2014 Earthy Organic Style",
@@ -783,6 +789,17 @@
     "available": true,
     "sold_30d": 1,
     "days_cover": 90.0
+   },
+   {
+    "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
+    "sku": "Y8238-1",
+    "qty": 5,
+    "price": 254.99,
+    "status": "ACTIVE",
+    "tracked": true,
+    "available": true,
+    "sold_30d": 5,
+    "days_cover": 30.0
    }
   ],
   "untracked_list": [

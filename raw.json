@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-10-01T21:25:30Z",
+ "generated_at_utc": "2026-10-01T21:45:41Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,18 +9,32 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-10-01T21:25:30Z"
+   "fetched_at": "2026-10-01T21:45:41Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-10-01T21:25:30Z"
+   "fetched_at": "2026-10-01T21:45:41Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-10-01T21:25:30Z"
+   "fetched_at": "2026-10-01T21:45:41Z"
   }
  },
  "orders": [
+  {
+   "name": "#1088",
+   "createdAt": "2026-10-01T21:40:06Z",
+   "financial": "PAID",
+   "fulfillment": "UNFULFILLED",
+   "total": 509.98,
+   "customer": "Mary Galea",
+   "items": [
+    {
+     "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
+     "quantity": 2
+    }
+   ]
+  },
   {
    "name": "#1087",
    "createdAt": "2026-10-01T04:17:39Z",
@@ -428,9 +442,15 @@
    "createdAt": "2026-10-01T04:17:39Z",
    "total": 287.98,
    "customer": "Catherine Jones"
+  },
+  {
+   "name": "#1088",
+   "createdAt": "2026-10-01T21:40:06Z",
+   "total": 509.98,
+   "customer": "Mary Galea"
   }
  ],
- "customers_total": 116,
+ "customers_total": 117,
  "abandoned_checkouts_recent": 0,
  "inventory": [
   {
@@ -544,7 +564,7 @@
   {
    "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
    "sku": "Y8238-1",
-   "qty": 7,
+   "qty": 5,
    "price": 254.99,
    "status": "ACTIVE",
    "tracked": true,
@@ -2827,22 +2847,22 @@
   },
   {
    "date": "2026-10-02",
-   "spend": 23.39,
-   "impressions": 256,
-   "clicks": 9,
-   "ctr": 3.52,
-   "cpc": 2.6,
+   "spend": 28.09,
+   "impressions": 311,
+   "clicks": 16,
+   "ctr": 5.14,
+   "cpc": 1.76,
    "purchases": 0,
    "purchase_value": 0.0
   }
  ],
  "ads_today": {
   "date": "2026-10-02",
-  "spend": 23.39,
-  "impressions": 256,
-  "clicks": 9,
-  "ctr": 3.52,
-  "cpc": 2.6,
+  "spend": 28.09,
+  "impressions": 311,
+  "clicks": 16,
+  "ctr": 5.14,
+  "cpc": 1.76,
   "purchases": 0,
   "purchase_value": 0.0
  },
