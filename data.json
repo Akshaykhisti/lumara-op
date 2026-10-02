@@ -3,29 +3,29 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-10-02T06:05:03Z",
-  "generated_at_local": "Fri 2 Oct 2026, 4:05pm AEST",
+  "generated_at_utc": "2026-10-02T06:25:14Z",
+  "generated_at_local": "Fri 2 Oct 2026, 4:25pm AEST",
   "today": "2026-10-02",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-10-02T06:05:03Z"
+    "fetched_at": "2026-10-02T06:25:14Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-10-02T06:05:03Z"
+    "fetched_at": "2026-10-02T06:25:14Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-10-02T06:05:03Z"
+    "fetched_at": "2026-10-02T06:25:14Z"
    }
   }
  },
  "alerts": [
   {
    "level": "serious",
-   "title": "3 paid order(s) awaiting fulfilment",
-   "body": "#1087, #1088, #1089"
+   "title": "1 paid order(s) awaiting fulfilment",
+   "body": "#1087"
   },
   {
    "level": "warning",
@@ -51,25 +51,13 @@
   },
   "prev7_revenue": 1116.72,
   "wow_pct": 44.1,
-  "pending_fulfilment": 3,
+  "pending_fulfilment": 1,
   "pending_orders": [
    {
     "name": "#1087",
     "createdAt": "2026-10-01T04:17:39Z",
     "total": 287.98,
     "customer": "Catherine Jones"
-   },
-   {
-    "name": "#1088",
-    "createdAt": "2026-10-01T21:40:06Z",
-    "total": 509.98,
-    "customer": "Mary Galea"
-   },
-   {
-    "name": "#1089",
-    "createdAt": "2026-10-01T23:56:46Z",
-    "total": 210.99,
-    "customer": "Nicole McDiarmid"
    }
   ],
   "abandoned_checkouts": 0,
@@ -269,7 +257,7 @@
     "when": "2 oct, 9:56am",
     "total": 210.99,
     "customer": "Nicole McDiarmid",
-    "fulfillment": "UNFULFILLED",
+    "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Lumara Spice Table Lamp \u2014 Caramel Ribbed Ceramic with Linen Shade"
    },
@@ -278,7 +266,7 @@
     "when": "2 oct, 7:40am",
     "total": 509.98,
     "customer": "Mary Galea",
-    "fulfillment": "UNFULFILLED",
+    "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement \u00d72"
    },
@@ -366,26 +354,26 @@
  },
  "ads": {
   "today": {
-   "spend": 82.15,
+   "spend": 83.05,
    "value": 720.97,
-   "roas": 8.78,
+   "roas": 8.68,
    "clicks": 39,
-   "impressions": 1421,
+   "impressions": 1451,
    "purchases": 2,
-   "cpc": 2.11,
-   "ctr": 2.74,
-   "cpa": 41.08
+   "cpc": 2.13,
+   "ctr": 2.69,
+   "cpa": 41.52
   },
   "d7": {
-   "spend": 676.65,
+   "spend": 677.55,
    "value": 1608.83,
-   "roas": 2.38,
+   "roas": 2.37,
    "clicks": 363,
-   "impressions": 17324,
+   "impressions": 17354,
    "purchases": 5,
-   "cpc": 1.86,
-   "ctr": 2.1,
-   "cpa": 135.33
+   "cpc": 1.87,
+   "ctr": 2.09,
+   "cpa": 135.51
   },
   "prev7": {
    "spend": 629.72,
@@ -530,12 +518,12 @@
    {
     "date": "2026-10-02",
     "label": "2 Oct",
-    "spend": 82.15,
+    "spend": 83.05,
     "revenue": 720.97,
     "purchases": 2,
     "clicks": 39,
-    "ctr": 2.74,
-    "cpc": 2.11
+    "ctr": 2.69,
+    "cpc": 2.13
    }
   ],
   "campaigns": [

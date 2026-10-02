@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-10-02T06:05:03Z",
+ "generated_at_utc": "2026-10-02T06:25:14Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-10-02T06:05:03Z"
+   "fetched_at": "2026-10-02T06:25:14Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-10-02T06:05:03Z"
+   "fetched_at": "2026-10-02T06:25:14Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-10-02T06:05:03Z"
+   "fetched_at": "2026-10-02T06:25:14Z"
   }
  },
  "orders": [
@@ -25,7 +25,7 @@
    "name": "#1089",
    "createdAt": "2026-10-01T23:56:46Z",
    "financial": "PAID",
-   "fulfillment": "UNFULFILLED",
+   "fulfillment": "FULFILLED",
    "total": 210.99,
    "customer": "Nicole McDiarmid",
    "items": [
@@ -39,7 +39,7 @@
    "name": "#1088",
    "createdAt": "2026-10-01T21:40:06Z",
    "financial": "PAID",
-   "fulfillment": "UNFULFILLED",
+   "fulfillment": "FULFILLED",
    "total": 509.98,
    "customer": "Mary Galea",
    "items": [
@@ -456,18 +456,6 @@
    "createdAt": "2026-10-01T04:17:39Z",
    "total": 287.98,
    "customer": "Catherine Jones"
-  },
-  {
-   "name": "#1088",
-   "createdAt": "2026-10-01T21:40:06Z",
-   "total": 509.98,
-   "customer": "Mary Galea"
-  },
-  {
-   "name": "#1089",
-   "createdAt": "2026-10-01T23:56:46Z",
-   "total": 210.99,
-   "customer": "Nicole McDiarmid"
   }
  ],
  "customers_total": 118,
@@ -2867,22 +2855,22 @@
   },
   {
    "date": "2026-10-02",
-   "spend": 82.15,
-   "impressions": 1421,
+   "spend": 83.05,
+   "impressions": 1451,
    "clicks": 39,
-   "ctr": 2.74,
-   "cpc": 2.11,
+   "ctr": 2.69,
+   "cpc": 2.13,
    "purchases": 2,
    "purchase_value": 720.97
   }
  ],
  "ads_today": {
   "date": "2026-10-02",
-  "spend": 82.15,
-  "impressions": 1421,
+  "spend": 83.05,
+  "impressions": 1451,
   "clicks": 39,
-  "ctr": 2.74,
-  "cpc": 2.11,
+  "ctr": 2.69,
+  "cpc": 2.13,
   "purchases": 2,
   "purchase_value": 720.97
  },
