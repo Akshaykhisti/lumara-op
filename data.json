@@ -3,29 +3,29 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-10-01T23:46:48Z",
-  "generated_at_local": "Fri 2 Oct 2026, 9:46am AEST",
+  "generated_at_utc": "2026-10-02T00:02:06Z",
+  "generated_at_local": "Fri 2 Oct 2026, 10:02am AEST",
   "today": "2026-10-02",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-10-01T23:46:48Z"
+    "fetched_at": "2026-10-02T00:02:06Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-10-01T23:46:48Z"
+    "fetched_at": "2026-10-02T00:02:06Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-10-01T23:46:48Z"
+    "fetched_at": "2026-10-02T00:02:06Z"
    }
   }
  },
  "alerts": [
   {
    "level": "serious",
-   "title": "2 paid order(s) awaiting fulfilment",
-   "body": "#1087, #1088"
+   "title": "3 paid order(s) awaiting fulfilment",
+   "body": "#1087, #1088, #1089"
   },
   {
    "level": "warning",
@@ -35,23 +35,23 @@
  ],
  "sales": {
   "today": {
-   "orders": 1,
-   "revenue": 509.98,
-   "aov": 509.98
+   "orders": 2,
+   "revenue": 720.97,
+   "aov": 360.49
   },
   "d7": {
-   "orders": 4,
-   "revenue": 1397.84,
-   "aov": 349.46
+   "orders": 5,
+   "revenue": 1608.83,
+   "aov": 321.77
   },
   "d30": {
-   "orders": 26,
-   "revenue": 6298.92,
-   "aov": 242.27
+   "orders": 27,
+   "revenue": 6509.91,
+   "aov": 241.11
   },
   "prev7_revenue": 1116.72,
-  "wow_pct": 25.2,
-  "pending_fulfilment": 2,
+  "wow_pct": 44.1,
+  "pending_fulfilment": 3,
   "pending_orders": [
    {
     "name": "#1087",
@@ -64,16 +64,22 @@
     "createdAt": "2026-10-01T21:40:06Z",
     "total": 509.98,
     "customer": "Mary Galea"
+   },
+   {
+    "name": "#1089",
+    "createdAt": "2026-10-01T23:56:46Z",
+    "total": 210.99,
+    "customer": "Nicole McDiarmid"
    }
   ],
   "abandoned_checkouts": 0,
-  "customers_total": 117,
+  "customers_total": 118,
   "days_since_order": 0,
   "last_order": {
-   "name": "#1088",
-   "when": "2 oct, 7:40am",
-   "total": 509.98,
-   "customer": "Mary Galea"
+   "name": "#1089",
+   "when": "2 oct, 9:56am",
+   "total": 210.99,
+   "customer": "Nicole McDiarmid"
   },
   "daily": [
    {
@@ -253,11 +259,20 @@
    {
     "date": "2026-10-02",
     "label": "2 Oct",
-    "orders": 1,
-    "revenue": 509.98
+    "orders": 2,
+    "revenue": 720.97
    }
   ],
   "recent": [
+   {
+    "name": "#1089",
+    "when": "2 oct, 9:56am",
+    "total": 210.99,
+    "customer": "Nicole McDiarmid",
+    "fulfillment": "UNFULFILLED",
+    "financial": "PAID",
+    "items": "Lumara Spice Table Lamp \u2014 Caramel Ribbed Ceramic with Linen Shade"
+   },
    {
     "name": "#1088",
     "when": "2 oct, 7:40am",
@@ -320,15 +335,6 @@
     "fulfillment": "FULFILLED",
     "financial": "PARTIALLY_REFUNDED",
     "items": "Lumara Magnolia XL Sculpture \u2014 Wall or Tabletop, Lumara Urn Candle Holder Set of 3 \u2014 Ceramic Neutral"
-   },
-   {
-    "name": "#1081",
-    "when": "20 sep, 9:11pm",
-    "total": 289.95,
-    "customer": "Susan Lyons",
-    "fulfillment": "ON_HOLD",
-    "financial": "PAID",
-    "items": "Lumara Fossil Table Lamp \u2014 Organic Textured Ceramic"
    }
   ],
   "top_sellers": [
@@ -338,7 +344,7 @@
    },
    {
     "title": "Lumara Spice Table Lamp \u2014 Caramel Ribbed Ceramic with Linen Shade",
-    "units": 7
+    "units": 8
    },
    {
     "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
@@ -360,26 +366,26 @@
  },
  "ads": {
   "today": {
-   "spend": 41.89,
+   "spend": 43.45,
    "value": 509.98,
-   "roas": 12.17,
-   "clicks": 21,
-   "impressions": 576,
+   "roas": 11.74,
+   "clicks": 22,
+   "impressions": 614,
    "purchases": 1,
-   "cpc": 1.99,
-   "ctr": 3.65,
-   "cpa": 41.89
+   "cpc": 1.98,
+   "ctr": 3.58,
+   "cpa": 43.45
   },
   "d7": {
-   "spend": 636.39,
+   "spend": 637.95,
    "value": 1397.84,
-   "roas": 2.2,
-   "clicks": 345,
-   "impressions": 16479,
+   "roas": 2.19,
+   "clicks": 346,
+   "impressions": 16517,
    "purchases": 4,
    "cpc": 1.84,
    "ctr": 2.09,
-   "cpa": 159.1
+   "cpa": 159.49
   },
   "prev7": {
    "spend": 629.72,
@@ -524,12 +530,12 @@
    {
     "date": "2026-10-02",
     "label": "2 Oct",
-    "spend": 41.89,
+    "spend": 43.45,
     "revenue": 509.98,
     "purchases": 1,
-    "clicks": 21,
-    "ctr": 3.65,
-    "cpc": 1.99
+    "clicks": 22,
+    "ctr": 3.58,
+    "cpc": 1.98
    }
   ],
   "campaigns": [
