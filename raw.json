@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-10-02T13:41:01Z",
+ "generated_at_utc": "2026-10-02T14:01:09Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-10-02T13:41:01Z"
+   "fetched_at": "2026-10-02T14:01:09Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-10-02T13:41:01Z"
+   "fetched_at": "2026-10-02T14:01:09Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-10-02T13:41:01Z"
+   "fetched_at": "2026-10-02T14:01:09Z"
   }
  },
  "orders": [
@@ -399,52 +399,6 @@
    "items": [
     {
      "title": "Lumara Olive Mediterranean Candelabra \u2014 Sculptural Metal Centrepiece",
-     "quantity": 1
-    }
-   ]
-  },
-  {
-   "name": "#1062",
-   "createdAt": "2026-09-02T06:51:01Z",
-   "financial": "PAID",
-   "fulfillment": "FULFILLED",
-   "total": 212.55,
-   "customer": "Nicala Harris",
-   "items": [
-    {
-     "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
-     "quantity": 1
-    }
-   ]
-  },
-  {
-   "name": "#1061",
-   "createdAt": "2026-09-02T03:19:50Z",
-   "financial": "PAID",
-   "fulfillment": "FULFILLED",
-   "total": 98.45,
-   "customer": "Maree Lackey",
-   "items": [
-    {
-     "title": "Lumara Alegra Statement Vase \u2014 Sculptural Metal",
-     "quantity": 1
-    }
-   ]
-  },
-  {
-   "name": "#1060",
-   "createdAt": "2026-09-01T22:04:16Z",
-   "financial": "PARTIALLY_REFUNDED",
-   "fulfillment": "FULFILLED",
-   "total": 62.45,
-   "customer": "Debbie Bryant",
-   "items": [
-    {
-     "title": "Lumara Welcome Farm Sign",
-     "quantity": 1
-    },
-    {
-     "title": "Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral",
      "quantity": 1
     }
    ]
@@ -2714,16 +2668,6 @@
  ],
  "ads_daily": [
   {
-   "date": "2026-09-18",
-   "spend": 108.11,
-   "impressions": 3517,
-   "clicks": 126,
-   "ctr": 3.58,
-   "cpc": 0.86,
-   "purchases": 1,
-   "purchase_value": 244.05
-  },
-  {
    "date": "2026-09-19",
    "spend": 86.68,
    "impressions": 2843,
@@ -2855,55 +2799,65 @@
   },
   {
    "date": "2026-10-02",
-   "spend": 117.23,
-   "impressions": 2557,
-   "clicks": 63,
+   "spend": 118.12,
+   "impressions": 2597,
+   "clicks": 64,
    "ctr": 2.46,
-   "cpc": 1.86,
+   "cpc": 1.85,
    "purchases": 2,
    "purchase_value": 720.97
+  },
+  {
+   "date": "2026-10-03",
+   "spend": 0.0,
+   "impressions": 0,
+   "clicks": 0,
+   "ctr": 0.0,
+   "cpc": 0.0,
+   "purchases": 0,
+   "purchase_value": 0.0
   }
  ],
  "ads_today": {
-  "date": "2026-10-02",
-  "spend": 117.23,
-  "impressions": 2557,
-  "clicks": 63,
-  "ctr": 2.46,
-  "cpc": 1.86,
-  "purchases": 2,
-  "purchase_value": 720.97
+  "date": "2026-10-03",
+  "spend": 0.0,
+  "impressions": 0,
+  "clicks": 0,
+  "ctr": 0.0,
+  "cpc": 0.0,
+  "purchases": 0,
+  "purchase_value": 0.0
  },
  "ads_campaigns": [
   {
    "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
    "status": "ACTIVE",
    "daily_budget": 100.0,
-   "spend": 1806.53,
-   "impressions": 53607,
-   "clicks": 2135,
-   "ctr": 3.98,
-   "cpc": 0.85,
-   "roas": 2.3322,
-   "purchases": 17,
-   "purchase_value": 4213.14,
-   "atc": 58,
-   "reach": 25372
+   "spend": 1856.73,
+   "impressions": 54286,
+   "clicks": 2091,
+   "ctr": 3.85,
+   "cpc": 0.89,
+   "roas": 2.6044,
+   "purchases": 18,
+   "purchase_value": 4835.66,
+   "atc": 55,
+   "reach": 25004
   },
   {
    "name": "Decor",
    "status": "PAUSED",
    "daily_budget": 40.0,
-   "spend": 574.65,
-   "impressions": 21831,
-   "clicks": 936,
-   "ctr": 4.29,
-   "cpc": 0.61,
-   "roas": 0.9961,
-   "purchases": 4,
-   "purchase_value": 572.43,
-   "atc": 23,
-   "reach": 11477
+   "spend": 538.51,
+   "impressions": 20717,
+   "clicks": 872,
+   "ctr": 4.21,
+   "cpc": 0.62,
+   "roas": 0.6683,
+   "purchases": 3,
+   "purchase_value": 359.88,
+   "atc": 19,
+   "reach": 11152
   },
   {
    "name": "Spring Sale 2026 \u2014 AU \u2014 Sales (23 Sep\u201311 Oct)",

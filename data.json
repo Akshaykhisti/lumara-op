@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-10-02T13:41:01Z",
-  "generated_at_local": "Fri 2 Oct 2026, 11:41pm AEST",
-  "today": "2026-10-02",
+  "generated_at_utc": "2026-10-02T14:01:09Z",
+  "generated_at_local": "Sat 3 Oct 2026, 12:01am AEST",
+  "today": "2026-10-03",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-10-02T13:41:01Z"
+    "fetched_at": "2026-10-02T14:01:09Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-10-02T13:41:01Z"
+    "fetched_at": "2026-10-02T14:01:09Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-10-02T13:41:01Z"
+    "fetched_at": "2026-10-02T14:01:09Z"
    }
   }
  },
@@ -35,9 +35,9 @@
  ],
  "sales": {
   "today": {
-   "orders": 2,
-   "revenue": 720.97,
-   "aov": 360.49
+   "orders": 0,
+   "revenue": 0.0,
+   "aov": 0.0
   },
   "d7": {
    "orders": 5,
@@ -62,7 +62,7 @@
   ],
   "abandoned_checkouts": 0,
   "customers_total": 118,
-  "days_since_order": 0,
+  "days_since_order": 1,
   "last_order": {
    "name": "#1089",
    "when": "2 oct, 9:56am",
@@ -70,12 +70,6 @@
    "customer": "Nicole McDiarmid"
   },
   "daily": [
-   {
-    "date": "2026-09-03",
-    "label": "3 Sep",
-    "orders": 0,
-    "revenue": 0.0
-   },
    {
     "date": "2026-09-04",
     "label": "4 Sep",
@@ -249,6 +243,12 @@
     "label": "2 Oct",
     "orders": 2,
     "revenue": 720.97
+   },
+   {
+    "date": "2026-10-03",
+    "label": "3 Oct",
+    "orders": 0,
+    "revenue": 0.0
    }
   ],
   "recent": [
@@ -354,47 +354,37 @@
  },
  "ads": {
   "today": {
-   "spend": 117.23,
-   "value": 720.97,
-   "roas": 6.15,
-   "clicks": 63,
-   "impressions": 2557,
-   "purchases": 2,
-   "cpc": 1.86,
-   "ctr": 2.46,
-   "cpa": 58.62
+   "spend": 0.0,
+   "value": 0.0,
+   "roas": 0.0,
+   "clicks": 0,
+   "impressions": 0,
+   "purchases": 0,
+   "cpc": 0.0,
+   "ctr": 0.0,
+   "cpa": null
   },
   "d7": {
-   "spend": 711.73,
+   "spend": 618.26,
    "value": 1608.83,
-   "roas": 2.26,
-   "clicks": 387,
-   "impressions": 18460,
+   "roas": 2.6,
+   "clicks": 311,
+   "impressions": 15711,
    "purchases": 5,
-   "cpc": 1.84,
-   "ctr": 2.1,
-   "cpa": 142.35
+   "cpc": 1.99,
+   "ctr": 1.98,
+   "cpa": 123.65
   },
   "prev7": {
-   "spend": 629.72,
+   "spend": 637.4,
    "value": 1209.71,
-   "roas": 1.92
+   "roas": 1.9
   },
   "daily_budget_live": 100.0,
   "active_campaigns": 1,
   "dry_days": 0,
   "dry_spend": 0.0,
   "series": [
-   {
-    "date": "2026-09-19",
-    "label": "19 Sep",
-    "spend": 86.68,
-    "revenue": 0.0,
-    "purchases": 0,
-    "clicks": 87,
-    "ctr": 3.06,
-    "cpc": 1.0
-   },
    {
     "date": "2026-09-20",
     "label": "20 Sep",
@@ -518,12 +508,22 @@
    {
     "date": "2026-10-02",
     "label": "2 Oct",
-    "spend": 117.23,
+    "spend": 118.12,
     "revenue": 720.97,
     "purchases": 2,
-    "clicks": 63,
+    "clicks": 64,
     "ctr": 2.46,
-    "cpc": 1.86
+    "cpc": 1.85
+   },
+   {
+    "date": "2026-10-03",
+    "label": "3 Oct",
+    "spend": 0.0,
+    "revenue": 0.0,
+    "purchases": 0,
+    "clicks": 0,
+    "ctr": 0.0,
+    "cpc": 0.0
    }
   ],
   "campaigns": [
@@ -531,31 +531,31 @@
     "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
     "status": "ACTIVE",
     "daily_budget": 100.0,
-    "spend": 1806.53,
-    "impressions": 53607,
-    "clicks": 2135,
-    "ctr": 3.98,
-    "cpc": 0.85,
-    "roas": 2.3322,
-    "purchases": 17,
-    "purchase_value": 4213.14,
-    "atc": 58,
-    "reach": 25372
+    "spend": 1856.73,
+    "impressions": 54286,
+    "clicks": 2091,
+    "ctr": 3.85,
+    "cpc": 0.89,
+    "roas": 2.6044,
+    "purchases": 18,
+    "purchase_value": 4835.66,
+    "atc": 55,
+    "reach": 25004
    },
    {
     "name": "Decor",
     "status": "PAUSED",
     "daily_budget": 40.0,
-    "spend": 574.65,
-    "impressions": 21831,
-    "clicks": 936,
-    "ctr": 4.29,
-    "cpc": 0.61,
-    "roas": 0.9961,
-    "purchases": 4,
-    "purchase_value": 572.43,
-    "atc": 23,
-    "reach": 11477
+    "spend": 538.51,
+    "impressions": 20717,
+    "clicks": 872,
+    "ctr": 4.21,
+    "cpc": 0.62,
+    "roas": 0.6683,
+    "purchases": 3,
+    "purchase_value": 359.88,
+    "atc": 19,
+    "reach": 11152
    },
    {
     "name": "Spring Sale 2026 \u2014 AU \u2014 Sales (23 Sep\u201311 Oct)",
