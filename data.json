@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-10-03T13:57:53Z",
-  "generated_at_local": "Sat 3 Oct 2026, 11:57pm AEST",
-  "today": "2026-10-03",
+  "generated_at_utc": "2026-10-03T14:18:01Z",
+  "generated_at_local": "Sun 4 Oct 2026, 12:18am AEST",
+  "today": "2026-10-04",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-10-03T13:57:53Z"
+    "fetched_at": "2026-10-03T14:18:01Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-10-03T13:57:53Z"
+    "fetched_at": "2026-10-03T14:18:01Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-10-03T13:57:53Z"
+    "fetched_at": "2026-10-03T14:18:01Z"
    }
   }
  },
@@ -26,6 +26,11 @@
    "level": "serious",
    "title": "1 paid order(s) awaiting fulfilment",
    "body": "#1087"
+  },
+  {
+   "level": "warning",
+   "title": "No orders for 2 days",
+   "body": "Last order was #1089 on 2 Oct. Ads have spent $109 since the last attributed purchase."
   },
   {
    "level": "warning",
@@ -45,12 +50,12 @@
    "aov": 321.77
   },
   "d30": {
-   "orders": 27,
-   "revenue": 6509.91,
-   "aov": 241.11
+   "orders": 23,
+   "revenue": 5737.92,
+   "aov": 249.47
   },
-  "prev7_revenue": 1116.72,
-  "wow_pct": 44.1,
+  "prev7_revenue": 557.82,
+  "wow_pct": 188.4,
   "pending_fulfilment": 1,
   "pending_orders": [
    {
@@ -62,7 +67,7 @@
   ],
   "abandoned_checkouts": 0,
   "customers_total": 118,
-  "days_since_order": 1,
+  "days_since_order": 2,
   "last_order": {
    "name": "#1089",
    "when": "2 oct, 9:56am",
@@ -70,12 +75,6 @@
    "customer": "Nicole McDiarmid"
   },
   "daily": [
-   {
-    "date": "2026-09-04",
-    "label": "4 Sep",
-    "orders": 4,
-    "revenue": 771.99
-   },
    {
     "date": "2026-09-05",
     "label": "5 Sep",
@@ -249,6 +248,12 @@
     "label": "3 Oct",
     "orders": 0,
     "revenue": 0.0
+   },
+   {
+    "date": "2026-10-04",
+    "label": "4 Oct",
+    "orders": 0,
+    "revenue": 0.0
    }
   ],
   "recent": [
@@ -327,12 +332,12 @@
   ],
   "top_sellers": [
    {
-    "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
-    "units": 9
-   },
-   {
     "title": "Lumara Spice Table Lamp \u2014 Caramel Ribbed Ceramic with Linen Shade",
     "units": 8
+   },
+   {
+    "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
+    "units": 6
    },
    {
     "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
@@ -354,47 +359,37 @@
  },
  "ads": {
   "today": {
-   "spend": 108.55,
+   "spend": 0.16,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 63,
-   "impressions": 3231,
+   "clicks": 0,
+   "impressions": 11,
    "purchases": 0,
-   "cpc": 1.72,
-   "ctr": 1.95,
+   "cpc": 0.0,
+   "ctr": 0.0,
    "cpa": null
   },
   "d7": {
-   "spend": 727.5,
+   "spend": 632.99,
    "value": 1608.83,
-   "roas": 2.21,
-   "clicks": 374,
-   "impressions": 18954,
+   "roas": 2.54,
+   "clicks": 313,
+   "impressions": 16186,
    "purchases": 5,
-   "cpc": 1.95,
-   "ctr": 1.97,
-   "cpa": 145.5
+   "cpc": 2.02,
+   "ctr": 1.93,
+   "cpa": 126.6
   },
   "prev7": {
-   "spend": 637.4,
-   "value": 1209.71,
-   "roas": 1.9
+   "spend": 621.22,
+   "value": 650.81,
+   "roas": 1.05
   },
   "daily_budget_live": 100.0,
   "active_campaigns": 1,
-  "dry_days": 1,
-  "dry_spend": 108.55,
+  "dry_days": 2,
+  "dry_spend": 108.71,
   "series": [
-   {
-    "date": "2026-09-20",
-    "label": "20 Sep",
-    "spend": 110.85,
-    "revenue": 558.9,
-    "purchases": 2,
-    "clicks": 122,
-    "ctr": 4.64,
-    "cpc": 0.91
-   },
    {
     "date": "2026-09-21",
     "label": "21 Sep",
@@ -524,6 +519,16 @@
     "clicks": 63,
     "ctr": 1.95,
     "cpc": 1.72
+   },
+   {
+    "date": "2026-10-04",
+    "label": "4 Oct",
+    "spend": 0.16,
+    "revenue": 0.0,
+    "purchases": 0,
+    "clicks": 0,
+    "ctr": 0.0,
+    "cpc": 0.0
    }
   ],
   "campaigns": [
@@ -531,31 +536,31 @@
     "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
     "status": "ACTIVE",
     "daily_budget": 100.0,
-    "spend": 1857.42,
-    "impressions": 54298,
-    "clicks": 2091,
-    "ctr": 3.85,
-    "cpc": 0.89,
-    "roas": 2.6034,
+    "spend": 1919.46,
+    "impressions": 55993,
+    "clicks": 2067,
+    "ctr": 3.69,
+    "cpc": 0.93,
+    "roas": 2.5193,
     "purchases": 18,
     "purchase_value": 4835.66,
-    "atc": 55,
-    "reach": 25053
+    "atc": 56,
+    "reach": 25674
    },
    {
     "name": "Decor",
     "status": "PAUSED",
     "daily_budget": 40.0,
-    "spend": 538.51,
-    "impressions": 20717,
-    "clicks": 872,
-    "ctr": 4.21,
-    "cpc": 0.62,
-    "roas": 0.6683,
+    "spend": 497.05,
+    "impressions": 19410,
+    "clicks": 812,
+    "ctr": 4.18,
+    "cpc": 0.61,
+    "roas": 0.724,
     "purchases": 3,
     "purchase_value": 359.88,
-    "atc": 19,
-    "reach": 11152
+    "atc": 14,
+    "reach": 10715
    },
    {
     "name": "Spring Sale 2026 \u2014 AU \u2014 Sales (23 Sep\u201311 Oct)",
@@ -770,8 +775,8 @@
     "status": "ACTIVE",
     "tracked": true,
     "available": true,
-    "sold_30d": 1,
-    "days_cover": 90.0
+    "sold_30d": 0,
+    "days_cover": null
    },
    {
     "title": "Lumara Baroque Heart Wall Art \u2014 Gold",

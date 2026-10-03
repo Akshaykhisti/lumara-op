@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-10-03T13:57:53Z",
+ "generated_at_utc": "2026-10-03T14:18:01Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-10-03T13:57:53Z"
+   "fetched_at": "2026-10-03T14:18:01Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-10-03T13:57:53Z"
+   "fetched_at": "2026-10-03T14:18:01Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-10-03T13:57:53Z"
+   "fetched_at": "2026-10-03T14:18:01Z"
   }
  },
  "orders": [
@@ -2668,16 +2668,6 @@
  ],
  "ads_daily": [
   {
-   "date": "2026-09-19",
-   "spend": 86.68,
-   "impressions": 2843,
-   "clicks": 87,
-   "ctr": 3.06,
-   "cpc": 1.0,
-   "purchases": 0,
-   "purchase_value": 0.0
-  },
-  {
    "date": "2026-09-20",
    "spend": 110.85,
    "impressions": 2630,
@@ -2810,21 +2800,31 @@
   {
    "date": "2026-10-03",
    "spend": 108.55,
-   "impressions": 3231,
+   "impressions": 3233,
    "clicks": 63,
    "ctr": 1.95,
    "cpc": 1.72,
    "purchases": 0,
    "purchase_value": 0.0
+  },
+  {
+   "date": "2026-10-04",
+   "spend": 0.16,
+   "impressions": 11,
+   "clicks": 0,
+   "ctr": 0.0,
+   "cpc": 0.0,
+   "purchases": 0,
+   "purchase_value": 0.0
   }
  ],
  "ads_today": {
-  "date": "2026-10-03",
-  "spend": 108.55,
-  "impressions": 3231,
-  "clicks": 63,
-  "ctr": 1.95,
-  "cpc": 1.72,
+  "date": "2026-10-04",
+  "spend": 0.16,
+  "impressions": 11,
+  "clicks": 0,
+  "ctr": 0.0,
+  "cpc": 0.0,
   "purchases": 0,
   "purchase_value": 0.0
  },
@@ -2833,31 +2833,31 @@
    "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
    "status": "ACTIVE",
    "daily_budget": 100.0,
-   "spend": 1857.42,
-   "impressions": 54298,
-   "clicks": 2091,
-   "ctr": 3.85,
-   "cpc": 0.89,
-   "roas": 2.6034,
+   "spend": 1919.46,
+   "impressions": 55993,
+   "clicks": 2067,
+   "ctr": 3.69,
+   "cpc": 0.93,
+   "roas": 2.5193,
    "purchases": 18,
    "purchase_value": 4835.66,
-   "atc": 55,
-   "reach": 25053
+   "atc": 56,
+   "reach": 25674
   },
   {
    "name": "Decor",
    "status": "PAUSED",
    "daily_budget": 40.0,
-   "spend": 538.51,
-   "impressions": 20717,
-   "clicks": 872,
-   "ctr": 4.21,
-   "cpc": 0.62,
-   "roas": 0.6683,
+   "spend": 497.05,
+   "impressions": 19410,
+   "clicks": 812,
+   "ctr": 4.18,
+   "cpc": 0.61,
+   "roas": 0.724,
    "purchases": 3,
    "purchase_value": 359.88,
-   "atc": 19,
-   "reach": 11152
+   "atc": 14,
+   "reach": 10715
   },
   {
    "name": "Spring Sale 2026 \u2014 AU \u2014 Sales (23 Sep\u201311 Oct)",
