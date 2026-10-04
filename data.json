@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-10-04T19:16:39Z",
-  "generated_at_local": "Mon 5 Oct 2026, 6:16am AEST",
+  "generated_at_utc": "2026-10-04T19:26:57Z",
+  "generated_at_local": "Mon 5 Oct 2026, 6:26am AEST",
   "today": "2026-10-05",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-10-04T19:16:39Z"
+    "fetched_at": "2026-10-04T19:26:57Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-10-04T19:16:39Z"
+    "fetched_at": "2026-10-04T19:26:57Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-10-04T19:16:39Z"
+    "fetched_at": "2026-10-04T19:26:57Z"
    }
   }
  },
@@ -364,26 +364,26 @@
  },
  "ads": {
   "today": {
-   "spend": 3.21,
+   "spend": 3.23,
    "value": 0.0,
    "roas": 0.0,
    "clicks": 7,
-   "impressions": 169,
+   "impressions": 173,
    "purchases": 0,
    "cpc": 0.46,
-   "ctr": 4.14,
+   "ctr": 4.05,
    "cpa": null
   },
   "d7": {
-   "spend": 650.36,
+   "spend": 650.41,
    "value": 1323.89,
    "roas": 2.04,
    "clicks": 333,
-   "impressions": 16616,
+   "impressions": 16621,
    "purchases": 4,
    "cpc": 1.95,
    "ctr": 2.0,
-   "cpa": 162.59
+   "cpa": 162.6
   },
   "prev7": {
    "spend": 632.99,
@@ -393,7 +393,7 @@
   "daily_budget_live": 100.0,
   "active_campaigns": 1,
   "dry_days": 3,
-  "dry_spend": 228.25,
+  "dry_spend": 228.3,
   "series": [
    {
     "date": "2026-09-22",
@@ -518,7 +518,7 @@
    {
     "date": "2026-10-04",
     "label": "4 Oct",
-    "spend": 116.49,
+    "spend": 116.52,
     "revenue": 0.0,
     "purchases": 0,
     "clicks": 60,
@@ -528,11 +528,11 @@
    {
     "date": "2026-10-05",
     "label": "5 Oct",
-    "spend": 3.21,
+    "spend": 3.23,
     "revenue": 0.0,
     "purchases": 0,
     "clicks": 7,
-    "ctr": 4.14,
+    "ctr": 4.05,
     "cpc": 0.46
    }
   ],
@@ -541,12 +541,12 @@
     "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
     "status": "ACTIVE",
     "daily_budget": 100.0,
-    "spend": 1990.84,
-    "impressions": 57564,
+    "spend": 1990.87,
+    "impressions": 57565,
     "clicks": 2040,
     "ctr": 3.54,
     "cpc": 0.98,
-    "roas": 2.2047,
+    "roas": 2.2046,
     "purchases": 16,
     "purchase_value": 4389.17,
     "atc": 53,
