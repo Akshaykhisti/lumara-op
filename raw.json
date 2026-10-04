@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-10-04T12:58:40Z",
+ "generated_at_utc": "2026-10-04T13:18:48Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-10-04T12:58:40Z"
+   "fetched_at": "2026-10-04T13:18:48Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-10-04T12:58:40Z"
+   "fetched_at": "2026-10-04T13:18:48Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-10-04T12:58:40Z"
+   "fetched_at": "2026-10-04T13:18:48Z"
   }
  },
  "orders": [
@@ -344,62 +344,6 @@
     {
      "title": "Lumara Hurricane Candle Holder Moss \u2014 Organic Green Ceramic",
      "quantity": 2
-    }
-   ]
-  },
-  {
-   "name": "#1066",
-   "createdAt": "2026-09-04T06:25:50Z",
-   "financial": "PAID",
-   "fulfillment": "FULFILLED",
-   "total": 233.94,
-   "customer": "M Giannini",
-   "items": [
-    {
-     "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
-     "quantity": 1
-    }
-   ]
-  },
-  {
-   "name": "#1065",
-   "createdAt": "2026-09-04T06:11:05Z",
-   "financial": "PAID",
-   "fulfillment": "FULFILLED",
-   "total": 212.55,
-   "customer": "simon graham",
-   "items": [
-    {
-     "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
-     "quantity": 1
-    }
-   ]
-  },
-  {
-   "name": "#1064",
-   "createdAt": "2026-09-04T03:29:08Z",
-   "financial": "PAID",
-   "fulfillment": "FULFILLED",
-   "total": 212.55,
-   "customer": "Maree Lackey",
-   "items": [
-    {
-     "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
-     "quantity": 1
-    }
-   ]
-  },
-  {
-   "name": "#1063",
-   "createdAt": "2026-09-03T22:12:04Z",
-   "financial": "PAID",
-   "fulfillment": "FULFILLED",
-   "total": 112.95,
-   "customer": "Jane Hope",
-   "items": [
-    {
-     "title": "Lumara Olive Mediterranean Candelabra \u2014 Sculptural Metal Centrepiece",
-     "quantity": 1
     }
    ]
   }
@@ -2668,16 +2612,6 @@
  ],
  "ads_daily": [
   {
-   "date": "2026-09-20",
-   "spend": 110.85,
-   "impressions": 2630,
-   "clicks": 122,
-   "ctr": 4.64,
-   "cpc": 0.91,
-   "purchases": 2,
-   "purchase_value": 558.9
-  },
-  {
    "date": "2026-09-21",
    "spend": 90.4,
    "impressions": 2064,
@@ -2809,22 +2743,32 @@
   },
   {
    "date": "2026-10-04",
-   "spend": 116.27,
-   "impressions": 3104,
+   "spend": 116.28,
+   "impressions": 3115,
    "clicks": 60,
    "ctr": 1.93,
    "cpc": 1.94,
    "purchases": 0,
    "purchase_value": 0.0
+  },
+  {
+   "date": "2026-10-05",
+   "spend": 0.07,
+   "impressions": 23,
+   "clicks": 0,
+   "ctr": 0.0,
+   "cpc": 0.0,
+   "purchases": 0,
+   "purchase_value": 0.0
   }
  ],
  "ads_today": {
-  "date": "2026-10-04",
-  "spend": 116.27,
-  "impressions": 3104,
-  "clicks": 60,
-  "ctr": 1.93,
-  "cpc": 1.94,
+  "date": "2026-10-05",
+  "spend": 0.07,
+  "impressions": 23,
+  "clicks": 0,
+  "ctr": 0.0,
+  "cpc": 0.0,
   "purchases": 0,
   "purchase_value": 0.0
  },
@@ -2833,31 +2777,31 @@
    "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
    "status": "ACTIVE",
    "daily_budget": 100.0,
-   "spend": 1919.46,
-   "impressions": 55996,
-   "clicks": 2067,
-   "ctr": 3.69,
-   "cpc": 0.93,
-   "roas": 2.5193,
-   "purchases": 18,
-   "purchase_value": 4835.66,
-   "atc": 56,
-   "reach": 25674
+   "spend": 1990.63,
+   "impressions": 57559,
+   "clicks": 2040,
+   "ctr": 3.54,
+   "cpc": 0.98,
+   "roas": 2.2049,
+   "purchases": 16,
+   "purchase_value": 4389.17,
+   "atc": 53,
+   "reach": 25955
   },
   {
    "name": "Decor",
    "status": "PAUSED",
    "daily_budget": 40.0,
-   "spend": 497.05,
-   "impressions": 19410,
-   "clicks": 812,
-   "ctr": 4.18,
-   "cpc": 0.61,
-   "roas": 0.724,
-   "purchases": 3,
-   "purchase_value": 359.88,
-   "atc": 14,
-   "reach": 10715
+   "spend": 457.67,
+   "impressions": 17963,
+   "clicks": 740,
+   "ctr": 4.12,
+   "cpc": 0.62,
+   "roas": 0.5395,
+   "purchases": 2,
+   "purchase_value": 246.93,
+   "atc": 12,
+   "reach": 9922
   },
   {
    "name": "Spring Sale 2026 \u2014 AU \u2014 Sales (23 Sep\u201311 Oct)",

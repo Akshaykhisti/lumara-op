@@ -3,25 +3,30 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-10-04T12:58:40Z",
-  "generated_at_local": "Sun 4 Oct 2026, 11:58pm AEST",
-  "today": "2026-10-04",
+  "generated_at_utc": "2026-10-04T13:18:48Z",
+  "generated_at_local": "Mon 5 Oct 2026, 12:18am AEST",
+  "today": "2026-10-05",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-10-04T12:58:40Z"
+    "fetched_at": "2026-10-04T13:18:48Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-10-04T12:58:40Z"
+    "fetched_at": "2026-10-04T13:18:48Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-10-04T12:58:40Z"
+    "fetched_at": "2026-10-04T13:18:48Z"
    }
   }
  },
  "alerts": [
+  {
+   "level": "critical",
+   "title": "$225 ad spend, 0 purchases (3 days)",
+   "body": "No store orders in that window either. 1 campaign(s) live at $100/day. Check pixel/tracking and landing pages before topping up budget."
+  },
   {
    "level": "serious",
    "title": "1 paid order(s) awaiting fulfilment",
@@ -29,7 +34,7 @@
   },
   {
    "level": "warning",
-   "title": "No orders for 2 days",
+   "title": "No orders for 3 days",
    "body": "Last order was #1089 on 2 Oct. Ads have spent $225 since the last attributed purchase."
   },
   {
@@ -45,17 +50,17 @@
    "aov": 0.0
   },
   "d7": {
-   "orders": 5,
-   "revenue": 1608.83,
-   "aov": 321.77
+   "orders": 4,
+   "revenue": 1323.89,
+   "aov": 330.97
   },
   "d30": {
-   "orders": 23,
-   "revenue": 5737.92,
-   "aov": 249.47
+   "orders": 21,
+   "revenue": 5324.0,
+   "aov": 253.52
   },
-  "prev7_revenue": 557.82,
-  "wow_pct": 188.4,
+  "prev7_revenue": 842.76,
+  "wow_pct": 57.1,
   "pending_fulfilment": 1,
   "pending_orders": [
    {
@@ -67,7 +72,7 @@
   ],
   "abandoned_checkouts": 0,
   "customers_total": 118,
-  "days_since_order": 2,
+  "days_since_order": 3,
   "last_order": {
    "name": "#1089",
    "when": "2 oct, 9:56am",
@@ -75,12 +80,6 @@
    "customer": "Nicole McDiarmid"
   },
   "daily": [
-   {
-    "date": "2026-09-05",
-    "label": "5 Sep",
-    "orders": 2,
-    "revenue": 413.92
-   },
    {
     "date": "2026-09-06",
     "label": "6 Sep",
@@ -254,6 +253,12 @@
     "label": "4 Oct",
     "orders": 0,
     "revenue": 0.0
+   },
+   {
+    "date": "2026-10-05",
+    "label": "5 Oct",
+    "orders": 0,
+    "revenue": 0.0
    }
   ],
   "recent": [
@@ -336,11 +341,11 @@
     "units": 8
    },
    {
-    "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
-    "units": 6
+    "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
+    "units": 5
    },
    {
-    "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
+    "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
     "units": 5
    },
    {
@@ -348,58 +353,48 @@
     "units": 2
    },
    {
-    "title": "Lumara Hurricane Candle Holder Moss \u2014 Organic Green Ceramic",
-    "units": 2
+    "title": "Lumara Magnolia XL Sculpture \u2014 Wall or Tabletop",
+    "units": 1
    },
    {
-    "title": "Lumara Magnolia XL Sculpture \u2014 Wall or Tabletop",
+    "title": "Lumara Urn Candle Holder Set of 3 \u2014 Ceramic Neutral",
     "units": 1
    }
   ]
  },
  "ads": {
   "today": {
-   "spend": 116.27,
+   "spend": 0.07,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 60,
-   "impressions": 3104,
+   "clicks": 0,
+   "impressions": 23,
    "purchases": 0,
-   "cpc": 1.94,
-   "ctr": 1.93,
+   "cpc": 0.0,
+   "ctr": 0.0,
    "cpa": null
   },
   "d7": {
-   "spend": 749.1,
-   "value": 1608.83,
-   "roas": 2.15,
-   "clicks": 373,
-   "impressions": 19282,
-   "purchases": 5,
-   "cpc": 2.01,
-   "ctr": 1.93,
-   "cpa": 149.82
+   "spend": 647.01,
+   "value": 1323.89,
+   "roas": 2.05,
+   "clicks": 326,
+   "impressions": 16465,
+   "purchases": 4,
+   "cpc": 1.98,
+   "ctr": 1.98,
+   "cpa": 161.75
   },
   "prev7": {
-   "spend": 621.22,
-   "value": 650.81,
-   "roas": 1.05
+   "spend": 632.99,
+   "value": 935.75,
+   "roas": 1.48
   },
   "daily_budget_live": 100.0,
   "active_campaigns": 1,
-  "dry_days": 2,
-  "dry_spend": 224.82,
+  "dry_days": 3,
+  "dry_spend": 224.9,
   "series": [
-   {
-    "date": "2026-09-21",
-    "label": "21 Sep",
-    "spend": 90.4,
-    "revenue": 0.0,
-    "purchases": 0,
-    "clicks": 70,
-    "ctr": 3.39,
-    "cpc": 1.29
-   },
    {
     "date": "2026-09-22",
     "label": "22 Sep",
@@ -523,12 +518,22 @@
    {
     "date": "2026-10-04",
     "label": "4 Oct",
-    "spend": 116.27,
+    "spend": 116.28,
     "revenue": 0.0,
     "purchases": 0,
     "clicks": 60,
     "ctr": 1.93,
     "cpc": 1.94
+   },
+   {
+    "date": "2026-10-05",
+    "label": "5 Oct",
+    "spend": 0.07,
+    "revenue": 0.0,
+    "purchases": 0,
+    "clicks": 0,
+    "ctr": 0.0,
+    "cpc": 0.0
    }
   ],
   "campaigns": [
@@ -536,31 +541,31 @@
     "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
     "status": "ACTIVE",
     "daily_budget": 100.0,
-    "spend": 1919.46,
-    "impressions": 55996,
-    "clicks": 2067,
-    "ctr": 3.69,
-    "cpc": 0.93,
-    "roas": 2.5193,
-    "purchases": 18,
-    "purchase_value": 4835.66,
-    "atc": 56,
-    "reach": 25674
+    "spend": 1990.63,
+    "impressions": 57559,
+    "clicks": 2040,
+    "ctr": 3.54,
+    "cpc": 0.98,
+    "roas": 2.2049,
+    "purchases": 16,
+    "purchase_value": 4389.17,
+    "atc": 53,
+    "reach": 25955
    },
    {
     "name": "Decor",
     "status": "PAUSED",
     "daily_budget": 40.0,
-    "spend": 497.05,
-    "impressions": 19410,
-    "clicks": 812,
-    "ctr": 4.18,
-    "cpc": 0.61,
-    "roas": 0.724,
-    "purchases": 3,
-    "purchase_value": 359.88,
-    "atc": 14,
-    "reach": 10715
+    "spend": 457.67,
+    "impressions": 17963,
+    "clicks": 740,
+    "ctr": 4.12,
+    "cpc": 0.62,
+    "roas": 0.5395,
+    "purchases": 2,
+    "purchase_value": 246.93,
+    "atc": 12,
+    "reach": 9922
    },
    {
     "name": "Spring Sale 2026 \u2014 AU \u2014 Sales (23 Sep\u201311 Oct)",
