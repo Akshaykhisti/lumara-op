@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-10-05T12:10:32Z",
+ "generated_at_utc": "2026-10-05T15:17:53Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-10-05T12:10:32Z"
+   "fetched_at": "2026-10-05T15:17:53Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-10-05T12:10:32Z"
+   "fetched_at": "2026-10-05T15:17:53Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-10-05T12:10:32Z"
+   "fetched_at": "2026-10-05T15:17:53Z"
   }
  },
  "orders": [
@@ -316,34 +316,6 @@
     {
      "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
      "quantity": 1
-    }
-   ]
-  },
-  {
-   "name": "#1068",
-   "createdAt": "2026-09-05T10:20:56Z",
-   "financial": "PAID",
-   "fulfillment": "FULFILLED",
-   "total": 233.94,
-   "customer": "Avinash Valiaveettil",
-   "items": [
-    {
-     "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
-     "quantity": 1
-    }
-   ]
-  },
-  {
-   "name": "#1067",
-   "createdAt": "2026-09-05T01:09:58Z",
-   "financial": "PAID",
-   "fulfillment": "FULFILLED",
-   "total": 179.98,
-   "customer": "Jane MacKinnell",
-   "items": [
-    {
-     "title": "Lumara Hurricane Candle Holder Moss \u2014 Organic Green Ceramic",
-     "quantity": 2
     }
    ]
   }
@@ -2612,16 +2584,6 @@
  ],
  "ads_daily": [
   {
-   "date": "2026-09-21",
-   "spend": 90.4,
-   "impressions": 2064,
-   "clicks": 70,
-   "ctr": 3.39,
-   "cpc": 1.29,
-   "purchases": 0,
-   "purchase_value": 0.0
-  },
-  {
    "date": "2026-09-22",
    "spend": 110.17,
    "impressions": 2248,
@@ -2753,22 +2715,32 @@
   },
   {
    "date": "2026-10-05",
-   "spend": 143.43,
-   "impressions": 3189,
-   "clicks": 72,
-   "ctr": 2.26,
-   "cpc": 1.99,
+   "spend": 144.61,
+   "impressions": 3241,
+   "clicks": 73,
+   "ctr": 2.25,
+   "cpc": 1.98,
+   "purchases": 0,
+   "purchase_value": 0.0
+  },
+  {
+   "date": "2026-10-06",
+   "spend": 2.03,
+   "impressions": 79,
+   "clicks": 2,
+   "ctr": 2.53,
+   "cpc": 1.01,
    "purchases": 0,
    "purchase_value": 0.0
   }
  ],
  "ads_today": {
-  "date": "2026-10-05",
-  "spend": 143.43,
-  "impressions": 3189,
-  "clicks": 72,
-  "ctr": 2.26,
-  "cpc": 1.99,
+  "date": "2026-10-06",
+  "spend": 2.03,
+  "impressions": 79,
+  "clicks": 2,
+  "ctr": 2.53,
+  "cpc": 1.01,
   "purchases": 0,
   "purchase_value": 0.0
  },
@@ -2777,31 +2749,31 @@
    "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
    "status": "ACTIVE",
    "daily_budget": 100.0,
-   "spend": 1990.88,
-   "impressions": 57567,
-   "clicks": 2040,
-   "ctr": 3.54,
-   "cpc": 0.98,
-   "roas": 2.2046,
-   "purchases": 16,
-   "purchase_value": 4389.17,
-   "atc": 53,
-   "reach": 25955
+   "spend": 2099.63,
+   "impressions": 59365,
+   "clicks": 2059,
+   "ctr": 3.47,
+   "cpc": 1.02,
+   "roas": 1.979,
+   "purchases": 15,
+   "purchase_value": 4155.23,
+   "atc": 48,
+   "reach": 26186
   },
   {
    "name": "Decor",
    "status": "PAUSED",
    "daily_budget": 40.0,
-   "spend": 457.67,
-   "impressions": 17963,
-   "clicks": 740,
-   "ctr": 4.12,
-   "cpc": 0.62,
-   "roas": 0.5395,
-   "purchases": 2,
-   "purchase_value": 246.93,
-   "atc": 12,
-   "reach": 9922
+   "spend": 424.32,
+   "impressions": 16825,
+   "clicks": 675,
+   "ctr": 4.01,
+   "cpc": 0.63,
+   "roas": 0.1578,
+   "purchases": 1,
+   "purchase_value": 66.95,
+   "atc": 9,
+   "reach": 9537
   },
   {
    "name": "Spring Sale 2026 \u2014 AU \u2014 Sales (23 Sep\u201311 Oct)",

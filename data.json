@@ -3,39 +3,39 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-10-05T12:10:32Z",
-  "generated_at_local": "Mon 5 Oct 2026, 11:10pm AEST",
-  "today": "2026-10-05",
+  "generated_at_utc": "2026-10-05T15:17:53Z",
+  "generated_at_local": "Tue 6 Oct 2026, 2:17am AEST",
+  "today": "2026-10-06",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-10-05T12:10:32Z"
+    "fetched_at": "2026-10-05T15:17:53Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-10-05T12:10:32Z"
+    "fetched_at": "2026-10-05T15:17:53Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-10-05T12:10:32Z"
+    "fetched_at": "2026-10-05T15:17:53Z"
    }
   }
  },
  "alerts": [
   {
    "level": "critical",
-   "title": "$369 ad spend, 0 purchases (3 days)",
+   "title": "No orders for 4 days",
+   "body": "Last order was #1089 on 2 Oct. Ads have spent $372 since the last attributed purchase."
+  },
+  {
+   "level": "critical",
+   "title": "$372 ad spend, 0 purchases (4 days)",
    "body": "No store orders in that window either. 1 campaign(s) live at $100/day. Check pixel/tracking and landing pages before topping up budget."
   },
   {
    "level": "serious",
    "title": "1 paid order(s) awaiting fulfilment",
    "body": "#1087"
-  },
-  {
-   "level": "warning",
-   "title": "No orders for 3 days",
-   "body": "Last order was #1089 on 2 Oct. Ads have spent $369 since the last attributed purchase."
   },
   {
    "level": "warning",
@@ -50,17 +50,17 @@
    "aov": 0.0
   },
   "d7": {
-   "orders": 4,
-   "revenue": 1323.89,
-   "aov": 330.97
+   "orders": 3,
+   "revenue": 1008.95,
+   "aov": 336.32
   },
   "d30": {
    "orders": 21,
    "revenue": 5324.0,
    "aov": 253.52
   },
-  "prev7_revenue": 842.76,
-  "wow_pct": 57.1,
+  "prev7_revenue": 1157.7,
+  "wow_pct": -12.8,
   "pending_fulfilment": 1,
   "pending_orders": [
    {
@@ -72,7 +72,7 @@
   ],
   "abandoned_checkouts": 0,
   "customers_total": 118,
-  "days_since_order": 3,
+  "days_since_order": 4,
   "last_order": {
    "name": "#1089",
    "when": "2 oct, 9:56am",
@@ -80,12 +80,6 @@
    "customer": "Nicole McDiarmid"
   },
   "daily": [
-   {
-    "date": "2026-09-06",
-    "label": "6 Sep",
-    "orders": 0,
-    "revenue": 0.0
-   },
    {
     "date": "2026-09-07",
     "label": "7 Sep",
@@ -259,6 +253,12 @@
     "label": "5 Oct",
     "orders": 0,
     "revenue": 0.0
+   },
+   {
+    "date": "2026-10-06",
+    "label": "6 Oct",
+    "orders": 0,
+    "revenue": 0.0
    }
   ],
   "recent": [
@@ -364,47 +364,37 @@
  },
  "ads": {
   "today": {
-   "spend": 143.43,
+   "spend": 2.03,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 72,
-   "impressions": 3189,
+   "clicks": 2,
+   "impressions": 79,
    "purchases": 0,
-   "cpc": 1.99,
-   "ctr": 2.26,
+   "cpc": 1.01,
+   "ctr": 2.53,
    "cpa": null
   },
   "d7": {
-   "spend": 790.62,
-   "value": 1323.89,
-   "roas": 1.67,
-   "clicks": 398,
-   "impressions": 19639,
-   "purchases": 4,
-   "cpc": 1.99,
-   "ctr": 2.03,
-   "cpa": 197.66
+   "spend": 708.56,
+   "value": 1008.95,
+   "roas": 1.42,
+   "clicks": 368,
+   "impressions": 17353,
+   "purchases": 3,
+   "cpc": 1.93,
+   "ctr": 2.12,
+   "cpa": 236.19
   },
   "prev7": {
-   "spend": 632.99,
-   "value": 935.75,
-   "roas": 1.48
+   "spend": 608.09,
+   "value": 1250.69,
+   "roas": 2.06
   },
   "daily_budget_live": 100.0,
   "active_campaigns": 1,
-  "dry_days": 3,
-  "dry_spend": 368.51,
+  "dry_days": 4,
+  "dry_spend": 371.72,
   "series": [
-   {
-    "date": "2026-09-22",
-    "label": "22 Sep",
-    "spend": 110.17,
-    "revenue": 0.0,
-    "purchases": 0,
-    "clicks": 81,
-    "ctr": 3.6,
-    "cpc": 1.36
-   },
    {
     "date": "2026-09-23",
     "label": "23 Sep",
@@ -528,12 +518,22 @@
    {
     "date": "2026-10-05",
     "label": "5 Oct",
-    "spend": 143.43,
+    "spend": 144.61,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 72,
-    "ctr": 2.26,
-    "cpc": 1.99
+    "clicks": 73,
+    "ctr": 2.25,
+    "cpc": 1.98
+   },
+   {
+    "date": "2026-10-06",
+    "label": "6 Oct",
+    "spend": 2.03,
+    "revenue": 0.0,
+    "purchases": 0,
+    "clicks": 2,
+    "ctr": 2.53,
+    "cpc": 1.01
    }
   ],
   "campaigns": [
@@ -541,31 +541,31 @@
     "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
     "status": "ACTIVE",
     "daily_budget": 100.0,
-    "spend": 1990.88,
-    "impressions": 57567,
-    "clicks": 2040,
-    "ctr": 3.54,
-    "cpc": 0.98,
-    "roas": 2.2046,
-    "purchases": 16,
-    "purchase_value": 4389.17,
-    "atc": 53,
-    "reach": 25955
+    "spend": 2099.63,
+    "impressions": 59365,
+    "clicks": 2059,
+    "ctr": 3.47,
+    "cpc": 1.02,
+    "roas": 1.979,
+    "purchases": 15,
+    "purchase_value": 4155.23,
+    "atc": 48,
+    "reach": 26186
    },
    {
     "name": "Decor",
     "status": "PAUSED",
     "daily_budget": 40.0,
-    "spend": 457.67,
-    "impressions": 17963,
-    "clicks": 740,
-    "ctr": 4.12,
-    "cpc": 0.62,
-    "roas": 0.5395,
-    "purchases": 2,
-    "purchase_value": 246.93,
-    "atc": 12,
-    "reach": 9922
+    "spend": 424.32,
+    "impressions": 16825,
+    "clicks": 675,
+    "ctr": 4.01,
+    "cpc": 0.63,
+    "roas": 0.1578,
+    "purchases": 1,
+    "purchase_value": 66.95,
+    "atc": 9,
+    "reach": 9537
    },
    {
     "name": "Spring Sale 2026 \u2014 AU \u2014 Sales (23 Sep\u201311 Oct)",
