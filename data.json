@@ -3,30 +3,25 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-10-06T20:34:14Z",
-  "generated_at_local": "Wed 7 Oct 2026, 7:34am AEST",
+  "generated_at_utc": "2026-10-06T20:54:34Z",
+  "generated_at_local": "Wed 7 Oct 2026, 7:54am AEST",
   "today": "2026-10-07",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-10-06T20:34:14Z"
+    "fetched_at": "2026-10-06T20:54:34Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-10-06T20:34:14Z"
+    "fetched_at": "2026-10-06T20:54:34Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-10-06T20:34:14Z"
+    "fetched_at": "2026-10-06T20:54:34Z"
    }
   }
  },
  "alerts": [
-  {
-   "level": "serious",
-   "title": "1 paid order(s) awaiting fulfilment",
-   "body": "#1090"
-  },
   {
    "level": "warning",
    "title": "7 product(s) at 3 units or fewer",
@@ -51,15 +46,8 @@
   },
   "prev7_revenue": 1104.76,
   "wow_pct": 34.5,
-  "pending_fulfilment": 1,
-  "pending_orders": [
-   {
-    "name": "#1090",
-    "createdAt": "2026-10-06T12:03:24Z",
-    "total": 476.93,
-    "customer": "Grace Ricciardo"
-   }
-  ],
+  "pending_fulfilment": 0,
+  "pending_orders": [],
   "abandoned_checkouts": 0,
   "customers_total": 119,
   "days_since_order": 1,
@@ -257,7 +245,7 @@
     "when": "6 oct, 11:03pm",
     "total": 476.93,
     "customer": "Grace Ricciardo",
-    "fulfillment": "UNFULFILLED",
+    "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Lumara Spice Table Lamp \u2014 Caramel Ribbed Ceramic with Linen Shade \u00d72"
    },
@@ -354,26 +342,26 @@
  },
  "ads": {
   "today": {
-   "spend": 6.33,
+   "spend": 7.2,
    "value": 0.0,
    "roas": 0.0,
    "clicks": 4,
-   "impressions": 187,
+   "impressions": 217,
    "purchases": 0,
-   "cpc": 1.58,
-   "ctr": 2.14,
+   "cpc": 1.8,
+   "ctr": 1.84,
    "cpa": null
   },
   "d7": {
-   "spend": 700.8,
+   "spend": 701.67,
    "value": 1485.88,
    "roas": 2.12,
    "clicks": 389,
-   "impressions": 16941,
+   "impressions": 16971,
    "purchases": 4,
    "cpc": 1.8,
-   "ctr": 2.3,
-   "cpa": 175.2
+   "ctr": 2.29,
+   "cpa": 175.42
   },
   "prev7": {
    "spend": 624.07,
@@ -383,7 +371,7 @@
   "daily_budget_live": 40.0,
   "active_campaigns": 1,
   "dry_days": 1,
-  "dry_spend": 6.33,
+  "dry_spend": 7.2,
   "series": [
    {
     "date": "2026-09-24",
@@ -518,12 +506,12 @@
    {
     "date": "2026-10-07",
     "label": "7 Oct",
-    "spend": 6.33,
+    "spend": 7.2,
     "revenue": 0.0,
     "purchases": 0,
     "clicks": 4,
-    "ctr": 2.14,
-    "cpc": 1.58
+    "ctr": 1.84,
+    "cpc": 1.8
    }
   ],
   "campaigns": [

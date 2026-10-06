@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-10-06T20:34:14Z",
+ "generated_at_utc": "2026-10-06T20:54:34Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-10-06T20:34:14Z"
+   "fetched_at": "2026-10-06T20:54:34Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-10-06T20:34:14Z"
+   "fetched_at": "2026-10-06T20:54:34Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-10-06T20:34:14Z"
+   "fetched_at": "2026-10-06T20:54:34Z"
   }
  },
  "orders": [
@@ -25,7 +25,7 @@
    "name": "#1090",
    "createdAt": "2026-10-06T12:03:24Z",
    "financial": "PAID",
-   "fulfillment": "UNFULFILLED",
+   "fulfillment": "FULFILLED",
    "total": 476.93,
    "customer": "Grace Ricciardo",
    "items": [
@@ -334,14 +334,7 @@
    ]
   }
  ],
- "unfulfilled_paid": [
-  {
-   "name": "#1090",
-   "createdAt": "2026-10-06T12:03:24Z",
-   "total": 476.93,
-   "customer": "Grace Ricciardo"
-  }
- ],
+ "unfulfilled_paid": [],
  "customers_total": 119,
  "abandoned_checkouts_recent": 0,
  "inventory": [
@@ -2739,22 +2732,22 @@
   },
   {
    "date": "2026-10-07",
-   "spend": 6.33,
-   "impressions": 187,
+   "spend": 7.2,
+   "impressions": 217,
    "clicks": 4,
-   "ctr": 2.14,
-   "cpc": 1.58,
+   "ctr": 1.84,
+   "cpc": 1.8,
    "purchases": 0,
    "purchase_value": 0.0
   }
  ],
  "ads_today": {
   "date": "2026-10-07",
-  "spend": 6.33,
-  "impressions": 187,
+  "spend": 7.2,
+  "impressions": 217,
   "clicks": 4,
-  "ctr": 2.14,
-  "cpc": 1.58,
+  "ctr": 1.84,
+  "cpc": 1.8,
   "purchases": 0,
   "purchase_value": 0.0
  },
