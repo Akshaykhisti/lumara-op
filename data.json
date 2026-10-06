@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-10-06T04:53:07Z",
-  "generated_at_local": "Tue 6 Oct 2026, 3:53pm AEST",
+  "generated_at_utc": "2026-10-06T05:13:18Z",
+  "generated_at_local": "Tue 6 Oct 2026, 4:13pm AEST",
   "today": "2026-10-06",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-10-06T04:53:07Z"
+    "fetched_at": "2026-10-06T05:13:18Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-10-06T04:53:07Z"
+    "fetched_at": "2026-10-06T05:13:18Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-10-06T04:53:07Z"
+    "fetched_at": "2026-10-06T05:13:18Z"
    }
   }
  },
@@ -25,17 +25,12 @@
   {
    "level": "critical",
    "title": "No orders for 4 days",
-   "body": "Last order was #1089 on 2 Oct. Ads have spent $425 since the last attributed purchase."
+   "body": "Last order was #1089 on 2 Oct. Ads have spent $426 since the last attributed purchase."
   },
   {
    "level": "critical",
-   "title": "$425 ad spend, 0 purchases (4 days)",
+   "title": "$426 ad spend, 0 purchases (4 days)",
    "body": "No store orders in that window either. 1 campaign(s) live at $100/day. Check pixel/tracking and landing pages before topping up budget."
-  },
-  {
-   "level": "serious",
-   "title": "1 paid order(s) awaiting fulfilment",
-   "body": "#1087"
   },
   {
    "level": "warning",
@@ -61,15 +56,8 @@
   },
   "prev7_revenue": 1157.7,
   "wow_pct": -12.8,
-  "pending_fulfilment": 1,
-  "pending_orders": [
-   {
-    "name": "#1087",
-    "createdAt": "2026-10-01T04:17:39Z",
-    "total": 287.98,
-    "customer": "Catherine Jones"
-   }
-  ],
+  "pending_fulfilment": 0,
+  "pending_orders": [],
   "abandoned_checkouts": 0,
   "customers_total": 118,
   "days_since_order": 4,
@@ -285,7 +273,7 @@
     "when": "1 oct, 2:17pm",
     "total": 287.98,
     "customer": "Catherine Jones",
-    "fulfillment": "UNFULFILLED",
+    "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Lumara Monica Green Table Lamp \u2014 Sage Ceramic with Gold Detail \u00d72"
    },
@@ -364,26 +352,26 @@
  },
  "ads": {
   "today": {
-   "spend": 55.19,
+   "spend": 55.79,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 33,
-   "impressions": 1053,
+   "clicks": 35,
+   "impressions": 1081,
    "purchases": 0,
-   "cpc": 1.67,
-   "ctr": 3.13,
+   "cpc": 1.59,
+   "ctr": 3.24,
    "cpa": null
   },
   "d7": {
-   "spend": 762.1,
+   "spend": 762.7,
    "value": 1008.95,
    "roas": 1.32,
-   "clicks": 399,
-   "impressions": 18334,
+   "clicks": 401,
+   "impressions": 18362,
    "purchases": 3,
-   "cpc": 1.91,
+   "cpc": 1.9,
    "ctr": 2.18,
-   "cpa": 254.03
+   "cpa": 254.23
   },
   "prev7": {
    "spend": 608.09,
@@ -393,7 +381,7 @@
   "daily_budget_live": 100.0,
   "active_campaigns": 1,
   "dry_days": 4,
-  "dry_spend": 425.26,
+  "dry_spend": 425.86,
   "series": [
    {
     "date": "2026-09-23",
@@ -528,12 +516,12 @@
    {
     "date": "2026-10-06",
     "label": "6 Oct",
-    "spend": 55.19,
+    "spend": 55.79,
     "revenue": 0.0,
     "purchases": 0,
-    "clicks": 33,
-    "ctr": 3.13,
-    "cpc": 1.67
+    "clicks": 35,
+    "ctr": 3.24,
+    "cpc": 1.59
    }
   ],
   "campaigns": [
