@@ -3,34 +3,34 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-10-06T11:47:39Z",
-  "generated_at_local": "Tue 6 Oct 2026, 10:47pm AEST",
+  "generated_at_utc": "2026-10-06T12:07:47Z",
+  "generated_at_local": "Tue 6 Oct 2026, 11:07pm AEST",
   "today": "2026-10-06",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-10-06T11:47:39Z"
+    "fetched_at": "2026-10-06T12:07:47Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-10-06T11:47:39Z"
+    "fetched_at": "2026-10-06T12:07:47Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-10-06T11:47:39Z"
+    "fetched_at": "2026-10-06T12:07:47Z"
    }
   }
  },
  "alerts": [
   {
-   "level": "critical",
-   "title": "No orders for 4 days",
-   "body": "Last order was #1089 on 2 Oct. Ads have spent $450 since the last attributed purchase."
+   "level": "serious",
+   "title": "$451 ad spend, 0 Meta-attributed purchases (4 days)",
+   "body": "The store DID take 1 order(s) worth $477 in that window \u2014 Meta just isn't claiming any of them. Either they're organic/direct sales, or the pixel is missing purchases. Worth checking Events Manager before reading this as zero conversion."
   },
   {
-   "level": "critical",
-   "title": "$450 ad spend, 0 purchases (4 days)",
-   "body": "No store orders in that window either. 1 campaign(s) live at $40/day. Check pixel/tracking and landing pages before topping up budget."
+   "level": "serious",
+   "title": "1 paid order(s) awaiting fulfilment",
+   "body": "#1090"
   },
   {
    "level": "warning",
@@ -40,32 +40,39 @@
  ],
  "sales": {
   "today": {
-   "orders": 0,
-   "revenue": 0.0,
-   "aov": 0.0
+   "orders": 1,
+   "revenue": 476.93,
+   "aov": 476.93
   },
   "d7": {
-   "orders": 3,
-   "revenue": 1008.95,
-   "aov": 336.32
+   "orders": 4,
+   "revenue": 1485.88,
+   "aov": 371.47
   },
   "d30": {
-   "orders": 21,
-   "revenue": 5324.0,
-   "aov": 253.52
+   "orders": 22,
+   "revenue": 5800.93,
+   "aov": 263.68
   },
   "prev7_revenue": 1157.7,
-  "wow_pct": -12.8,
-  "pending_fulfilment": 0,
-  "pending_orders": [],
+  "wow_pct": 28.3,
+  "pending_fulfilment": 1,
+  "pending_orders": [
+   {
+    "name": "#1090",
+    "createdAt": "2026-10-06T12:03:24Z",
+    "total": 476.93,
+    "customer": "Grace Ricciardo"
+   }
+  ],
   "abandoned_checkouts": 0,
-  "customers_total": 118,
-  "days_since_order": 4,
+  "customers_total": 119,
+  "days_since_order": 0,
   "last_order": {
-   "name": "#1089",
-   "when": "2 oct, 9:56am",
-   "total": 210.99,
-   "customer": "Nicole McDiarmid"
+   "name": "#1090",
+   "when": "6 oct, 11:03pm",
+   "total": 476.93,
+   "customer": "Grace Ricciardo"
   },
   "daily": [
    {
@@ -245,11 +252,20 @@
    {
     "date": "2026-10-06",
     "label": "6 Oct",
-    "orders": 0,
-    "revenue": 0.0
+    "orders": 1,
+    "revenue": 476.93
    }
   ],
   "recent": [
+   {
+    "name": "#1090",
+    "when": "6 oct, 11:03pm",
+    "total": 476.93,
+    "customer": "Grace Ricciardo",
+    "fulfillment": "UNFULFILLED",
+    "financial": "PAID",
+    "items": "Lumara Spice Table Lamp \u2014 Caramel Ribbed Ceramic with Linen Shade \u00d72"
+   },
    {
     "name": "#1089",
     "when": "2 oct, 9:56am",
@@ -312,21 +328,12 @@
     "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Lumara Spice Table Lamp \u2014 Caramel Ribbed Ceramic with Linen Shade"
-   },
-   {
-    "name": "#1082",
-    "when": "23 sep, 11:52am",
-    "total": 52.94,
-    "customer": "Kellie Miles",
-    "fulfillment": "FULFILLED",
-    "financial": "PARTIALLY_REFUNDED",
-    "items": "Lumara Magnolia XL Sculpture \u2014 Wall or Tabletop, Lumara Urn Candle Holder Set of 3 \u2014 Ceramic Neutral"
    }
   ],
   "top_sellers": [
    {
     "title": "Lumara Spice Table Lamp \u2014 Caramel Ribbed Ceramic with Linen Shade",
-    "units": 8
+    "units": 10
    },
    {
     "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
@@ -352,26 +359,26 @@
  },
  "ads": {
   "today": {
-   "spend": 80.0,
+   "spend": 80.35,
    "value": 0.0,
    "roas": 0.0,
    "clicks": 55,
-   "impressions": 1690,
+   "impressions": 1718,
    "purchases": 0,
-   "cpc": 1.45,
-   "ctr": 3.25,
+   "cpc": 1.46,
+   "ctr": 3.2,
    "cpa": null
   },
   "d7": {
-   "spend": 787.08,
+   "spend": 787.43,
    "value": 1008.95,
    "roas": 1.28,
    "clicks": 421,
-   "impressions": 18972,
+   "impressions": 19000,
    "purchases": 3,
    "cpc": 1.87,
    "ctr": 2.22,
-   "cpa": 262.36
+   "cpa": 262.48
   },
   "prev7": {
    "spend": 608.09,
@@ -381,7 +388,7 @@
   "daily_budget_live": 40.0,
   "active_campaigns": 1,
   "dry_days": 4,
-  "dry_spend": 450.24,
+  "dry_spend": 450.59,
   "series": [
    {
     "date": "2026-09-23",
@@ -516,12 +523,12 @@
    {
     "date": "2026-10-06",
     "label": "6 Oct",
-    "spend": 80.0,
+    "spend": 80.35,
     "revenue": 0.0,
     "purchases": 0,
     "clicks": 55,
-    "ctr": 3.25,
-    "cpc": 1.45
+    "ctr": 3.2,
+    "cpc": 1.46
    }
   ],
   "campaigns": [
