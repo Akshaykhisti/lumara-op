@@ -3,28 +3,28 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-10-09T12:45:40Z",
-  "generated_at_local": "Fri 9 Oct 2026, 11:45pm AEST",
-  "today": "2026-10-09",
+  "generated_at_utc": "2026-10-09T13:05:50Z",
+  "generated_at_local": "Sat 10 Oct 2026, 12:05am AEST",
+  "today": "2026-10-10",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-10-09T12:45:40Z"
+    "fetched_at": "2026-10-09T13:05:50Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-10-09T12:45:40Z"
+    "fetched_at": "2026-10-09T13:05:50Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-10-09T12:45:40Z"
+    "fetched_at": "2026-10-09T13:05:50Z"
    }
   }
  },
  "alerts": [
   {
-   "level": "warning",
-   "title": "No orders for 3 days",
+   "level": "critical",
+   "title": "No orders for 4 days",
    "body": "Last order was #1090 on 6 Oct. Ads have spent $82 since the last attributed purchase."
   },
   {
@@ -45,9 +45,9 @@
    "aov": 476.93
   },
   "d30": {
-   "orders": 21,
-   "revenue": 5588.38,
-   "aov": 266.11
+   "orders": 20,
+   "revenue": 5521.43,
+   "aov": 276.07
   },
   "prev7_revenue": 1608.83,
   "wow_pct": -70.4,
@@ -55,7 +55,7 @@
   "pending_orders": [],
   "abandoned_checkouts": 0,
   "customers_total": 119,
-  "days_since_order": 3,
+  "days_since_order": 4,
   "last_order": {
    "name": "#1090",
    "when": "6 oct, 11:03pm",
@@ -63,12 +63,6 @@
    "customer": "Grace Ricciardo"
   },
   "daily": [
-   {
-    "date": "2026-09-10",
-    "label": "10 Sep",
-    "orders": 1,
-    "revenue": 66.95
-   },
    {
     "date": "2026-09-11",
     "label": "11 Sep",
@@ -242,6 +236,12 @@
     "label": "9 Oct",
     "orders": 0,
     "revenue": 0.0
+   },
+   {
+    "date": "2026-10-10",
+    "label": "10 Oct",
+    "orders": 0,
+    "revenue": 0.0
    }
   ],
   "recent": [
@@ -358,36 +358,26 @@
    "cpa": null
   },
   "d7": {
-   "spend": 534.65,
+   "spend": 426.1,
    "value": 476.93,
-   "roas": 0.89,
-   "clicks": 294,
-   "impressions": 13695,
+   "roas": 1.12,
+   "clicks": 231,
+   "impressions": 10459,
    "purchases": 1,
-   "cpc": 1.82,
-   "ctr": 2.15,
-   "cpa": 534.65
+   "cpc": 1.84,
+   "ctr": 2.21,
+   "cpa": 426.1
   },
   "prev7": {
-   "spend": 713.31,
+   "spend": 727.5,
    "value": 1608.83,
-   "roas": 2.26
+   "roas": 2.21
   },
   "daily_budget_live": 0.0,
   "active_campaigns": 0,
   "dry_days": 2,
   "dry_spend": 81.66,
   "series": [
-   {
-    "date": "2026-09-26",
-    "label": "26 Sep",
-    "spend": 94.36,
-    "revenue": 0.0,
-    "purchases": 0,
-    "clicks": 77,
-    "ctr": 2.76,
-    "cpc": 1.23
-   },
    {
     "date": "2026-09-27",
     "label": "27 Sep",
@@ -517,6 +507,16 @@
     "clicks": 0,
     "ctr": 0.0,
     "cpc": 0.0
+   },
+   {
+    "date": "2026-10-10",
+    "label": "10 Oct",
+    "spend": 0.0,
+    "revenue": 0.0,
+    "purchases": 0,
+    "clicks": 0,
+    "ctr": 0.0,
+    "cpc": 0.0
    }
   ],
   "campaigns": [
@@ -524,16 +524,16 @@
     "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
     "status": "PAUSED",
     "daily_budget": 40.0,
-    "spend": 2117.78,
-    "impressions": 57918,
-    "clicks": 1845,
-    "ctr": 3.19,
-    "cpc": 1.15,
-    "roas": 2.0869,
+    "spend": 2059.27,
+    "impressions": 55693,
+    "clicks": 1752,
+    "ctr": 3.15,
+    "cpc": 1.18,
+    "roas": 2.1462,
     "purchases": 15,
     "purchase_value": 4419.61,
     "atc": 40,
-    "reach": 24935
+    "reach": 24009
    },
    {
     "name": "Spring Sale 2026 \u2014 AU \u2014 Sales (23 Sep\u201311 Oct)",
@@ -554,16 +554,16 @@
     "name": "Decor",
     "status": "PAUSED",
     "daily_budget": 40.0,
-    "spend": 289.92,
-    "impressions": 11990,
-    "clicks": 391,
-    "ctr": 3.26,
-    "cpc": 0.74,
-    "roas": 0.2309,
+    "spend": 253.41,
+    "impressions": 10586,
+    "clicks": 335,
+    "ctr": 3.16,
+    "cpc": 0.76,
+    "roas": 0.2642,
     "purchases": 1,
     "purchase_value": 66.95,
     "atc": 7,
-    "reach": 6831
+    "reach": 6142
    },
    {
     "name": "Lumara \u2014 Lamps \u2014 KG Gap (Jul 2026)",
@@ -774,8 +774,8 @@
     "status": "ACTIVE",
     "tracked": true,
     "available": true,
-    "sold_30d": 1,
-    "days_cover": 90.0
+    "sold_30d": 0,
+    "days_cover": null
    },
    {
     "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
