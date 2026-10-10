@@ -3,29 +3,29 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-10-10T09:17:59Z",
-  "generated_at_local": "Sat 10 Oct 2026, 8:17pm AEST",
+  "generated_at_utc": "2026-10-10T09:38:10Z",
+  "generated_at_local": "Sat 10 Oct 2026, 8:38pm AEST",
   "today": "2026-10-10",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-10-10T09:17:59Z"
+    "fetched_at": "2026-10-10T09:38:10Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-10-10T09:17:59Z"
+    "fetched_at": "2026-10-10T09:38:10Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-10-10T09:17:59Z"
+    "fetched_at": "2026-10-10T09:38:10Z"
    }
   }
  },
  "alerts": [
   {
-   "level": "critical",
-   "title": "No orders for 4 days",
-   "body": "Last order was #1090 on 6 Oct. Ads have spent $82 since the last attributed purchase."
+   "level": "serious",
+   "title": "1 paid order(s) awaiting fulfilment",
+   "body": "#1091"
   },
   {
    "level": "warning",
@@ -35,32 +35,39 @@
  ],
  "sales": {
   "today": {
-   "orders": 0,
-   "revenue": 0.0,
-   "aov": 0.0
+   "orders": 1,
+   "revenue": 201.98,
+   "aov": 201.98
   },
   "d7": {
-   "orders": 1,
-   "revenue": 476.93,
-   "aov": 476.93
+   "orders": 2,
+   "revenue": 678.91,
+   "aov": 339.45
   },
   "d30": {
-   "orders": 20,
-   "revenue": 5521.43,
-   "aov": 276.07
+   "orders": 21,
+   "revenue": 5723.41,
+   "aov": 272.54
   },
   "prev7_revenue": 1608.83,
-  "wow_pct": -70.4,
-  "pending_fulfilment": 0,
-  "pending_orders": [],
+  "wow_pct": -57.8,
+  "pending_fulfilment": 1,
+  "pending_orders": [
+   {
+    "name": "#1091",
+    "createdAt": "2026-10-10T09:24:23Z",
+    "total": 201.98,
+    "customer": "arlie mccubbin"
+   }
+  ],
   "abandoned_checkouts": 0,
-  "customers_total": 119,
-  "days_since_order": 4,
+  "customers_total": 120,
+  "days_since_order": 0,
   "last_order": {
-   "name": "#1090",
-   "when": "6 oct, 11:03pm",
-   "total": 476.93,
-   "customer": "Grace Ricciardo"
+   "name": "#1091",
+   "when": "10 oct, 8:24pm",
+   "total": 201.98,
+   "customer": "arlie mccubbin"
   },
   "daily": [
    {
@@ -240,11 +247,20 @@
    {
     "date": "2026-10-10",
     "label": "10 Oct",
-    "orders": 0,
-    "revenue": 0.0
+    "orders": 1,
+    "revenue": 201.98
    }
   ],
   "recent": [
+   {
+    "name": "#1091",
+    "when": "10 oct, 8:24pm",
+    "total": 201.98,
+    "customer": "arlie mccubbin",
+    "fulfillment": "UNFULFILLED",
+    "financial": "PAID",
+    "items": "Lumara Frog Lily Water Bowl, Lumara Nishi Table Lamp \u2014 Contemporary Ceramic Style"
+   },
    {
     "name": "#1090",
     "when": "6 oct, 11:03pm",
@@ -307,15 +323,6 @@
     "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Lumara Spice Table Lamp \u2014 Caramel Ribbed Ceramic with Linen Shade"
-   },
-   {
-    "name": "#1083",
-    "when": "24 sep, 12:30pm",
-    "total": 243.94,
-    "customer": "Julie Kennedy",
-    "fulfillment": "FULFILLED",
-    "financial": "PAID",
-    "items": "Lumara Spice Table Lamp \u2014 Caramel Ribbed Ceramic with Linen Shade"
    }
   ],
   "top_sellers": [
@@ -336,11 +343,11 @@
     "units": 2
    },
    {
-    "title": "Lumara Magnolia XL Sculpture \u2014 Wall or Tabletop",
+    "title": "Lumara Frog Lily Water Bowl",
     "units": 1
    },
    {
-    "title": "Lumara Urn Candle Holder Set of 3 \u2014 Ceramic Neutral",
+    "title": "Lumara Nishi Table Lamp \u2014 Contemporary Ceramic Style",
     "units": 1
    }
   ]
@@ -665,7 +672,7 @@
   "watch": 1,
   "healthy": 70,
   "untracked": 50,
-  "stock_value": 67104.01,
+  "stock_value": 66902.03,
   "oos_list": [
    {
     "title": "Lumara Giana Natural Table Lamp \u2014 Earthy Organic Style",

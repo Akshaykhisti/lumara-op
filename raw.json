@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-10-10T09:17:59Z",
+ "generated_at_utc": "2026-10-10T09:38:10Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,18 +9,36 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-10-10T09:17:59Z"
+   "fetched_at": "2026-10-10T09:38:10Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-10-10T09:17:59Z"
+   "fetched_at": "2026-10-10T09:38:10Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-10-10T09:17:59Z"
+   "fetched_at": "2026-10-10T09:38:10Z"
   }
  },
  "orders": [
+  {
+   "name": "#1091",
+   "createdAt": "2026-10-10T09:24:23Z",
+   "financial": "PAID",
+   "fulfillment": "UNFULFILLED",
+   "total": 201.98,
+   "customer": "arlie mccubbin",
+   "items": [
+    {
+     "title": "Lumara Frog Lily Water Bowl",
+     "quantity": 1
+    },
+    {
+     "title": "Lumara Nishi Table Lamp \u2014 Contemporary Ceramic Style",
+     "quantity": 1
+    }
+   ]
+  },
   {
    "name": "#1090",
    "createdAt": "2026-10-06T12:03:24Z",
@@ -320,8 +338,15 @@
    ]
   }
  ],
- "unfulfilled_paid": [],
- "customers_total": 119,
+ "unfulfilled_paid": [
+  {
+   "name": "#1091",
+   "createdAt": "2026-10-10T09:24:23Z",
+   "total": 201.98,
+   "customer": "arlie mccubbin"
+  }
+ ],
+ "customers_total": 120,
  "abandoned_checkouts_recent": 0,
  "inventory": [
   {
@@ -354,7 +379,7 @@
   {
    "title": "Lumara Nishi Table Lamp \u2014 Contemporary Ceramic Style",
    "sku": "YR7306-1",
-   "qty": 10,
+   "qty": 9,
    "price": 175.99,
    "status": "ACTIVE",
    "tracked": true,
@@ -1407,7 +1432,7 @@
   {
    "title": "Lumara Frog Lily Water Bowl",
    "sku": "CM6023-1",
-   "qty": 10,
+   "qty": 9,
    "price": 25.99,
    "status": "ACTIVE",
    "tracked": true,
