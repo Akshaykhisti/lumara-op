@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-10-10T12:59:54Z",
-  "generated_at_local": "Sat 10 Oct 2026, 11:59pm AEST",
-  "today": "2026-10-10",
+  "generated_at_utc": "2026-10-10T13:20:05Z",
+  "generated_at_local": "Sun 11 Oct 2026, 12:20am AEST",
+  "today": "2026-10-11",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-10-10T12:59:54Z"
+    "fetched_at": "2026-10-10T13:20:05Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-10-10T12:59:54Z"
+    "fetched_at": "2026-10-10T13:20:05Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-10-10T12:59:54Z"
+    "fetched_at": "2026-10-10T13:20:05Z"
    }
   }
  },
@@ -35,9 +35,9 @@
  ],
  "sales": {
   "today": {
-   "orders": 1,
-   "revenue": 201.98,
-   "aov": 201.98
+   "orders": 0,
+   "revenue": 0.0,
+   "aov": 0.0
   },
   "d7": {
    "orders": 2,
@@ -45,9 +45,9 @@
    "aov": 339.45
   },
   "d30": {
-   "orders": 21,
-   "revenue": 5723.41,
-   "aov": 272.54
+   "orders": 20,
+   "revenue": 5510.86,
+   "aov": 275.54
   },
   "prev7_revenue": 1608.83,
   "wow_pct": -57.8,
@@ -62,7 +62,7 @@
   ],
   "abandoned_checkouts": 0,
   "customers_total": 120,
-  "days_since_order": 0,
+  "days_since_order": 1,
   "last_order": {
    "name": "#1091",
    "when": "10 oct, 8:24pm",
@@ -70,12 +70,6 @@
    "customer": "arlie mccubbin"
   },
   "daily": [
-   {
-    "date": "2026-09-11",
-    "label": "11 Sep",
-    "orders": 1,
-    "revenue": 212.55
-   },
    {
     "date": "2026-09-12",
     "label": "12 Sep",
@@ -249,6 +243,12 @@
     "label": "10 Oct",
     "orders": 1,
     "revenue": 201.98
+   },
+   {
+    "date": "2026-10-11",
+    "label": "11 Oct",
+    "orders": 0,
+    "revenue": 0.0
    }
   ],
   "recent": [
@@ -336,7 +336,7 @@
    },
    {
     "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
-    "units": 4
+    "units": 3
    },
    {
     "title": "Lumara Monica Green Table Lamp \u2014 Sage Ceramic with Gold Detail",
@@ -365,20 +365,20 @@
    "cpa": null
   },
   "d7": {
-   "spend": 426.1,
+   "spend": 309.57,
    "value": 476.93,
-   "roas": 1.12,
-   "clicks": 231,
-   "impressions": 10459,
+   "roas": 1.54,
+   "clicks": 171,
+   "impressions": 7336,
    "purchases": 1,
-   "cpc": 1.84,
-   "ctr": 2.21,
-   "cpa": 426.1
+   "cpc": 1.81,
+   "ctr": 2.33,
+   "cpa": 309.57
   },
   "prev7": {
-   "spend": 727.5,
+   "spend": 749.36,
    "value": 1608.83,
-   "roas": 2.21
+   "roas": 2.15
   },
   "daily_budget_live": 0.0,
   "active_campaigns": 0,
@@ -516,8 +516,8 @@
     "cpc": 0.0
    },
    {
-    "date": "2026-10-10",
-    "label": "10 Oct",
+    "date": "2026-10-11",
+    "label": "11 Oct",
     "spend": 0.0,
     "revenue": 0.0,
     "purchases": 0,
@@ -531,16 +531,16 @@
     "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
     "status": "PAUSED",
     "daily_budget": 40.0,
-    "spend": 2059.27,
-    "impressions": 55693,
-    "clicks": 1752,
-    "ctr": 3.15,
-    "cpc": 1.18,
-    "roas": 2.1462,
+    "spend": 2014.21,
+    "impressions": 54009,
+    "clicks": 1669,
+    "ctr": 3.09,
+    "cpc": 1.21,
+    "roas": 2.1942,
     "purchases": 15,
     "purchase_value": 4419.61,
-    "atc": 40,
-    "reach": 24009
+    "atc": 39,
+    "reach": 23420
    },
    {
     "name": "Spring Sale 2026 \u2014 AU \u2014 Sales (23 Sep\u201311 Oct)",
@@ -561,16 +561,16 @@
     "name": "Decor",
     "status": "PAUSED",
     "daily_budget": 40.0,
-    "spend": 253.41,
-    "impressions": 10586,
-    "clicks": 335,
-    "ctr": 3.16,
-    "cpc": 0.76,
-    "roas": 0.2642,
-    "purchases": 1,
-    "purchase_value": 66.95,
-    "atc": 7,
-    "reach": 6142
+    "spend": 218.53,
+    "impressions": 9126,
+    "clicks": 272,
+    "ctr": 2.98,
+    "cpc": 0.8,
+    "roas": 0.0,
+    "purchases": 0,
+    "purchase_value": 0.0,
+    "atc": 5,
+    "reach": 5241
    },
    {
     "name": "Lumara \u2014 Lamps \u2014 KG Gap (Jul 2026)",

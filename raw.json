@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-10-10T12:59:54Z",
+ "generated_at_utc": "2026-10-10T13:20:05Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-10-10T12:59:54Z"
+   "fetched_at": "2026-10-10T13:20:05Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-10-10T12:59:54Z"
+   "fetched_at": "2026-10-10T13:20:05Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-10-10T12:59:54Z"
+   "fetched_at": "2026-10-10T13:20:05Z"
   }
  },
  "orders": [
@@ -319,20 +319,6 @@
    "items": [
     {
      "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
-     "quantity": 1
-    }
-   ]
-  },
-  {
-   "name": "#1070",
-   "createdAt": "2026-09-10T07:42:47Z",
-   "financial": "PAID",
-   "fulfillment": "FULFILLED",
-   "total": 66.95,
-   "customer": "Sara Smyth-King",
-   "items": [
-    {
-     "title": "Lumara Baroque Heart Wall Art \u2014 Gold",
      "quantity": 1
     }
    ]
@@ -2602,16 +2588,6 @@
  ],
  "ads_daily": [
   {
-   "date": "2026-09-26",
-   "spend": 94.36,
-   "impressions": 2789,
-   "clicks": 77,
-   "ctr": 2.76,
-   "cpc": 1.23,
-   "purchases": 0,
-   "purchase_value": 0.0
-  },
-  {
    "date": "2026-09-27",
    "spend": 94.67,
    "impressions": 2781,
@@ -2742,7 +2718,7 @@
    "purchase_value": 0.0
   },
   {
-   "date": "2026-10-10",
+   "date": "2026-10-11",
    "spend": 0.0,
    "impressions": 0,
    "clicks": 0,
@@ -2753,7 +2729,7 @@
   }
  ],
  "ads_today": {
-  "date": "2026-10-10",
+  "date": "2026-10-11",
   "spend": 0.0,
   "impressions": 0,
   "clicks": 0,
@@ -2767,16 +2743,16 @@
    "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
    "status": "PAUSED",
    "daily_budget": 40.0,
-   "spend": 2059.27,
-   "impressions": 55693,
-   "clicks": 1752,
-   "ctr": 3.15,
-   "cpc": 1.18,
-   "roas": 2.1462,
+   "spend": 2014.21,
+   "impressions": 54009,
+   "clicks": 1669,
+   "ctr": 3.09,
+   "cpc": 1.21,
+   "roas": 2.1942,
    "purchases": 15,
    "purchase_value": 4419.61,
-   "atc": 40,
-   "reach": 24009
+   "atc": 39,
+   "reach": 23420
   },
   {
    "name": "Spring Sale 2026 \u2014 AU \u2014 Sales (23 Sep\u201311 Oct)",
@@ -2797,16 +2773,16 @@
    "name": "Decor",
    "status": "PAUSED",
    "daily_budget": 40.0,
-   "spend": 253.41,
-   "impressions": 10586,
-   "clicks": 335,
-   "ctr": 3.16,
-   "cpc": 0.76,
-   "roas": 0.2642,
-   "purchases": 1,
-   "purchase_value": 66.95,
-   "atc": 7,
-   "reach": 6142
+   "spend": 218.53,
+   "impressions": 9126,
+   "clicks": 272,
+   "ctr": 2.98,
+   "cpc": 0.8,
+   "roas": 0.0,
+   "purchases": 0,
+   "purchase_value": 0.0,
+   "atc": 5,
+   "reach": 5241
   },
   {
    "name": "Lumara \u2014 Lamps \u2014 KG Gap (Jul 2026)",
