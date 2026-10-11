@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-10-11T12:22:44Z",
-  "generated_at_local": "Sun 11 Oct 2026, 11:22pm AEST",
-  "today": "2026-10-11",
+  "generated_at_utc": "2026-10-11T13:52:51Z",
+  "generated_at_local": "Mon 12 Oct 2026, 12:52am AEST",
+  "today": "2026-10-12",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-10-11T12:22:44Z"
+    "fetched_at": "2026-10-11T13:52:51Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-10-11T12:22:44Z"
+    "fetched_at": "2026-10-11T13:52:51Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-10-11T12:22:44Z"
+    "fetched_at": "2026-10-11T13:52:51Z"
    }
   }
  },
@@ -26,6 +26,11 @@
    "level": "serious",
    "title": "1 paid order(s) awaiting fulfilment",
    "body": "#1091"
+  },
+  {
+   "level": "warning",
+   "title": "No orders for 2 days",
+   "body": "Last order was #1091 on 10 Oct. Ads have spent $82 since the last attributed purchase."
   },
   {
    "level": "warning",
@@ -49,8 +54,8 @@
    "revenue": 5510.86,
    "aov": 275.54
   },
-  "prev7_revenue": 1608.83,
-  "wow_pct": -57.8,
+  "prev7_revenue": 1323.89,
+  "wow_pct": -48.7,
   "pending_fulfilment": 1,
   "pending_orders": [
    {
@@ -62,7 +67,7 @@
   ],
   "abandoned_checkouts": 0,
   "customers_total": 120,
-  "days_since_order": 1,
+  "days_since_order": 2,
   "last_order": {
    "name": "#1091",
    "when": "10 oct, 8:24pm",
@@ -70,12 +75,6 @@
    "customer": "arlie mccubbin"
   },
   "daily": [
-   {
-    "date": "2026-09-12",
-    "label": "12 Sep",
-    "orders": 0,
-    "revenue": 0.0
-   },
    {
     "date": "2026-09-13",
     "label": "13 Sep",
@@ -249,6 +248,12 @@
     "label": "11 Oct",
     "orders": 0,
     "revenue": 0.0
+   },
+   {
+    "date": "2026-10-12",
+    "label": "12 Oct",
+    "orders": 0,
+    "revenue": 0.0
    }
   ],
   "recent": [
@@ -365,36 +370,26 @@
    "cpa": null
   },
   "d7": {
-   "spend": 309.57,
+   "spend": 164.41,
    "value": 476.93,
-   "roas": 1.54,
-   "clicks": 171,
-   "impressions": 7336,
+   "roas": 2.9,
+   "clicks": 98,
+   "impressions": 4087,
    "purchases": 1,
-   "cpc": 1.81,
-   "ctr": 2.33,
-   "cpa": 309.57
+   "cpc": 1.68,
+   "ctr": 2.4,
+   "cpa": 164.41
   },
   "prev7": {
-   "spend": 749.36,
-   "value": 1608.83,
-   "roas": 2.15
+   "spend": 792.35,
+   "value": 1323.89,
+   "roas": 1.67
   },
   "daily_budget_live": 0.0,
   "active_campaigns": 0,
   "dry_days": 2,
   "dry_spend": 81.66,
   "series": [
-   {
-    "date": "2026-09-27",
-    "label": "27 Sep",
-    "spend": 94.67,
-    "revenue": 0.0,
-    "purchases": 0,
-    "clicks": 61,
-    "ctr": 2.19,
-    "cpc": 1.55
-   },
    {
     "date": "2026-09-28",
     "label": "28 Sep",
@@ -516,8 +511,8 @@
     "cpc": 0.0
    },
    {
-    "date": "2026-10-11",
-    "label": "11 Oct",
+    "date": "2026-10-12",
+    "label": "12 Oct",
     "spend": 0.0,
     "revenue": 0.0,
     "purchases": 0,
@@ -531,16 +526,16 @@
     "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
     "status": "PAUSED",
     "daily_budget": 40.0,
-    "spend": 2014.21,
-    "impressions": 54009,
-    "clicks": 1669,
-    "ctr": 3.09,
-    "cpc": 1.21,
-    "roas": 2.1942,
-    "purchases": 15,
-    "purchase_value": 4419.61,
-    "atc": 39,
-    "reach": 23420
+    "spend": 1944.36,
+    "impressions": 51585,
+    "clicks": 1551,
+    "ctr": 3.01,
+    "cpc": 1.25,
+    "roas": 2.1637,
+    "purchases": 14,
+    "purchase_value": 4207.06,
+    "atc": 38,
+    "reach": 22645
    },
    {
     "name": "Spring Sale 2026 \u2014 AU \u2014 Sales (23 Sep\u201311 Oct)",
@@ -561,16 +556,16 @@
     "name": "Decor",
     "status": "PAUSED",
     "daily_budget": 40.0,
-    "spend": 218.53,
-    "impressions": 9126,
-    "clicks": 272,
-    "ctr": 2.98,
-    "cpc": 0.8,
+    "spend": 192.55,
+    "impressions": 8399,
+    "clicks": 247,
+    "ctr": 2.94,
+    "cpc": 0.78,
     "roas": 0.0,
     "purchases": 0,
     "purchase_value": 0.0,
-    "atc": 5,
-    "reach": 5241
+    "atc": 3,
+    "reach": 4782
    },
    {
     "name": "Lumara \u2014 Lamps \u2014 KG Gap (Jul 2026)",
