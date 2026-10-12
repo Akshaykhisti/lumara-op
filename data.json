@@ -3,25 +3,30 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-10-12T21:42:00Z",
-  "generated_at_local": "Tue 13 Oct 2026, 8:42am AEST",
+  "generated_at_utc": "2026-10-12T22:02:11Z",
+  "generated_at_local": "Tue 13 Oct 2026, 9:02am AEST",
   "today": "2026-10-13",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-10-12T21:42:00Z"
+    "fetched_at": "2026-10-12T22:02:11Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-10-12T21:42:00Z"
+    "fetched_at": "2026-10-12T22:02:11Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-10-12T21:42:00Z"
+    "fetched_at": "2026-10-12T22:02:11Z"
    }
   }
  },
  "alerts": [
+  {
+   "level": "serious",
+   "title": "2 product(s) sold in the last 30d are out of stock",
+   "body": "Lumara Nishi Table Lamp \u2014 Contemporary Ceramic Style, Lumara Frog Lily Water Bowl. Still listed as active \u2014 they take traffic and convert nothing."
+  },
   {
    "level": "serious",
    "title": "1 paid order(s) awaiting fulfilment",
@@ -652,12 +657,12 @@
  "stock": {
   "sellable_skus": 131,
   "tracked_skus": 81,
-  "out_of_stock": 3,
+  "out_of_stock": 5,
   "low": 7,
   "watch": 1,
-  "healthy": 70,
+  "healthy": 68,
   "untracked": 50,
-  "stock_value": 82324.99,
+  "stock_value": 79805.59,
   "oos_list": [
    {
     "title": "Lumara Giana Natural Table Lamp \u2014 Earthy Organic Style",
@@ -680,6 +685,16 @@
     "sold_30d": 0
    },
    {
+    "title": "Lumara Nishi Table Lamp \u2014 Contemporary Ceramic Style",
+    "sku": "YR7306-1",
+    "qty": 0,
+    "price": 219.99,
+    "status": "ACTIVE",
+    "tracked": true,
+    "available": false,
+    "sold_30d": 1
+   },
+   {
     "title": "Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass",
     "sku": "LH-VS-012",
     "qty": 0,
@@ -688,9 +703,40 @@
     "tracked": true,
     "available": false,
     "sold_30d": 0
+   },
+   {
+    "title": "Lumara Frog Lily Water Bowl",
+    "sku": "CM6023-1",
+    "qty": 0,
+    "price": 31.95,
+    "status": "ACTIVE",
+    "tracked": true,
+    "available": false,
+    "sold_30d": 1
    }
   ],
-  "oos_sellers": [],
+  "oos_sellers": [
+   {
+    "title": "Lumara Nishi Table Lamp \u2014 Contemporary Ceramic Style",
+    "sku": "YR7306-1",
+    "qty": 0,
+    "price": 219.99,
+    "status": "ACTIVE",
+    "tracked": true,
+    "available": false,
+    "sold_30d": 1
+   },
+   {
+    "title": "Lumara Frog Lily Water Bowl",
+    "sku": "CM6023-1",
+    "qty": 0,
+    "price": 31.95,
+    "status": "ACTIVE",
+    "tracked": true,
+    "available": false,
+    "sold_30d": 1
+   }
+  ],
   "low_list": [
    {
     "title": "Lumara Magnolia XL Sculpture \u2014 Wall or Tabletop",

@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-10-12T21:42:00Z",
+ "generated_at_utc": "2026-10-12T22:02:11Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-10-12T21:42:00Z"
+   "fetched_at": "2026-10-12T22:02:11Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-10-12T21:42:00Z"
+   "fetched_at": "2026-10-12T22:02:11Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-10-12T21:42:00Z"
+   "fetched_at": "2026-10-12T22:02:11Z"
   }
  },
  "orders": [
@@ -351,11 +351,11 @@
   {
    "title": "Lumara Nishi Table Lamp \u2014 Contemporary Ceramic Style",
    "sku": "YR7306-1",
-   "qty": 10,
+   "qty": 0,
    "price": 219.99,
    "status": "ACTIVE",
    "tracked": true,
-   "available": true
+   "available": false
   },
   {
    "title": "Lumara Lopez Rustic White Candle Holder",
@@ -1404,11 +1404,11 @@
   {
    "title": "Lumara Frog Lily Water Bowl",
    "sku": "CM6023-1",
-   "qty": 10,
+   "qty": 0,
    "price": 31.95,
    "status": "ACTIVE",
    "tracked": true,
-   "available": true
+   "available": false
   },
   {
    "title": "Lumara Turtle Tap Water Bowl",
