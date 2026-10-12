@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-10-12T09:02:45Z",
-  "generated_at_local": "Mon 12 Oct 2026, 8:02pm AEST",
+  "generated_at_utc": "2026-10-12T09:22:52Z",
+  "generated_at_local": "Mon 12 Oct 2026, 8:22pm AEST",
   "today": "2026-10-12",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-10-12T09:02:45Z"
+    "fetched_at": "2026-10-12T09:22:52Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-10-12T09:02:45Z"
+    "fetched_at": "2026-10-12T09:22:52Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-10-12T09:02:45Z"
+    "fetched_at": "2026-10-12T09:22:52Z"
    }
   }
  },
@@ -46,22 +46,22 @@
   },
   "d7": {
    "orders": 2,
-   "revenue": 678.91,
-   "aov": 339.45
+   "revenue": 476.93,
+   "aov": 238.47
   },
   "d30": {
    "orders": 20,
-   "revenue": 5510.86,
-   "aov": 275.54
+   "revenue": 5308.88,
+   "aov": 265.44
   },
   "prev7_revenue": 1323.89,
-  "wow_pct": -48.7,
+  "wow_pct": -64.0,
   "pending_fulfilment": 1,
   "pending_orders": [
    {
     "name": "#1091",
     "createdAt": "2026-10-10T09:24:23Z",
-    "total": 201.98,
+    "total": 0.0,
     "customer": "arlie mccubbin"
    }
   ],
@@ -71,7 +71,7 @@
   "last_order": {
    "name": "#1091",
    "when": "10 oct, 8:24pm",
-   "total": 201.98,
+   "total": 0.0,
    "customer": "arlie mccubbin"
   },
   "daily": [
@@ -241,7 +241,7 @@
     "date": "2026-10-10",
     "label": "10 Oct",
     "orders": 1,
-    "revenue": 201.98
+    "revenue": 0.0
    },
    {
     "date": "2026-10-11",
@@ -260,7 +260,7 @@
    {
     "name": "#1091",
     "when": "10 oct, 8:24pm",
-    "total": 201.98,
+    "total": 0.0,
     "customer": "arlie mccubbin",
     "fulfillment": "UNFULFILLED",
     "financial": "PAID",
@@ -667,7 +667,7 @@
   "watch": 1,
   "healthy": 70,
   "untracked": 50,
-  "stock_value": 66902.03,
+  "stock_value": 82324.99,
   "oos_list": [
    {
     "title": "Lumara Giana Natural Table Lamp \u2014 Earthy Organic Style",
@@ -683,7 +683,7 @@
     "title": "Lumara Gede Table Lamp \u2014 Reactive Glaze Ceramic (Sage Green / Blue)",
     "sku": "LH-TL-009",
     "qty": 0,
-    "price": 194.99,
+    "price": 229.99,
     "status": "ACTIVE",
     "tracked": true,
     "available": false,
@@ -706,7 +706,7 @@
     "title": "Lumara Magnolia XL Sculpture \u2014 Wall or Tabletop",
     "sku": "BL7803-1",
     "qty": 1,
-    "price": 92.99,
+    "price": 109.99,
     "status": "ACTIVE",
     "tracked": true,
     "available": true,
@@ -761,7 +761,7 @@
     "title": "Lumara Olive Mediterranean Candelabra \u2014 Sculptural Metal Centrepiece",
     "sku": "QA5903-2",
     "qty": 3,
-    "price": 89.99,
+    "price": 99.99,
     "status": "ACTIVE",
     "tracked": true,
     "available": true,
@@ -783,7 +783,7 @@
     "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
     "sku": "Y8238-1",
     "qty": 5,
-    "price": 254.99,
+    "price": 299.99,
     "status": "ACTIVE",
     "tracked": true,
     "available": true,
@@ -814,7 +814,7 @@
     "title": "Lumara Pineapple Table Lamp \u2014 Reactive Glaze Ceramic",
     "sku": "YE6102-1",
     "qty": 0,
-    "price": 230.99,
+    "price": 289.0,
     "status": "ACTIVE",
     "tracked": false,
     "available": true
@@ -823,7 +823,25 @@
     "title": "Lumara Pineapple Table Lamp \u2014 Reactive Glaze Ceramic",
     "sku": "YE6101-1",
     "qty": 0,
-    "price": 230.99,
+    "price": 289.0,
+    "status": "ACTIVE",
+    "tracked": false,
+    "available": true
+   },
+   {
+    "title": "Lumara Pear Table Lamp \u2014 Playful Gloss Green Ceramic",
+    "sku": "YR7256-1",
+    "qty": 0,
+    "price": 228.99,
+    "status": "ACTIVE",
+    "tracked": false,
+    "available": true
+   },
+   {
+    "title": "Lumara White Foam Table Lamp \u2014 Sculptural Cloud White Ceramic",
+    "sku": "YR7257-1",
+    "qty": 0,
+    "price": 228.99,
     "status": "ACTIVE",
     "tracked": false,
     "available": true
@@ -847,19 +865,10 @@
     "available": true
    },
    {
-    "title": "Lumara Pear Table Lamp \u2014 Playful Gloss Green Ceramic",
-    "sku": "YR7256-1",
-    "qty": 0,
-    "price": 182.99,
-    "status": "ACTIVE",
-    "tracked": false,
-    "available": true
-   },
-   {
-    "title": "Lumara White Foam Table Lamp \u2014 Sculptural Cloud White Ceramic",
-    "sku": "YR7257-1",
-    "qty": 0,
-    "price": 182.99,
+    "title": "Lumara Casa Table Lamp \u2014 Classic Ceramic Charm",
+    "sku": "YF3033-1",
+    "qty": 10,
+    "price": 149.99,
     "status": "ACTIVE",
     "tracked": false,
     "available": true
@@ -869,15 +878,6 @@
     "sku": "JI2045-4-X3",
     "qty": 0,
     "price": 129.99,
-    "status": "ACTIVE",
-    "tracked": false,
-    "available": true
-   },
-   {
-    "title": "Lumara Casa Table Lamp \u2014 Classic Ceramic Charm",
-    "sku": "YF3033-1",
-    "qty": 10,
-    "price": 119.99,
     "status": "ACTIVE",
     "tracked": false,
     "available": true
