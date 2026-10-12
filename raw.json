@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-10-12T22:02:11Z",
+ "generated_at_utc": "2026-10-12T22:22:22Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-10-12T22:02:11Z"
+   "fetched_at": "2026-10-12T22:22:22Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-10-12T22:02:11Z"
+   "fetched_at": "2026-10-12T22:22:22Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-10-12T22:02:11Z"
+   "fetched_at": "2026-10-12T22:22:22Z"
   }
  },
  "orders": [
@@ -353,7 +353,7 @@
    "sku": "YR7306-1",
    "qty": 0,
    "price": 219.99,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": true,
    "available": false
   },
