@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-10-13T12:55:54Z",
+ "generated_at_utc": "2026-10-13T13:16:02Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-10-13T12:55:54Z"
+   "fetched_at": "2026-10-13T13:16:02Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-10-13T12:55:54Z"
+   "fetched_at": "2026-10-13T13:16:02Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-10-13T12:55:54Z"
+   "fetched_at": "2026-10-13T13:16:02Z"
   }
  },
  "orders": [
@@ -288,20 +288,6 @@
    "fulfillment": "FULFILLED",
    "total": 212.55,
    "customer": "Kimberley Weissel",
-   "items": [
-    {
-     "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
-     "quantity": 1
-    }
-   ]
-  },
-  {
-   "name": "#1072",
-   "createdAt": "2026-09-12T23:41:43Z",
-   "financial": "PAID",
-   "fulfillment": "FULFILLED",
-   "total": 212.55,
-   "customer": "Nicole Dixon",
    "items": [
     {
      "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
@@ -2574,16 +2560,6 @@
  ],
  "ads_daily": [
   {
-   "date": "2026-09-29",
-   "spend": 85.27,
-   "impressions": 2417,
-   "clicks": 33,
-   "ctr": 1.37,
-   "cpc": 2.58,
-   "purchases": 1,
-   "purchase_value": 314.94
-  },
-  {
    "date": "2026-09-30",
    "spend": 94.99,
    "impressions": 2290,
@@ -2692,10 +2668,20 @@
    "cpc": 0.0,
    "purchases": 0,
    "purchase_value": 0.0
+  },
+  {
+   "date": "2026-10-14",
+   "spend": 0.0,
+   "impressions": 0,
+   "clicks": 0,
+   "ctr": 0.0,
+   "cpc": 0.0,
+   "purchases": 0,
+   "purchase_value": 0.0
   }
  ],
  "ads_today": {
-  "date": "2026-10-13",
+  "date": "2026-10-14",
   "spend": 0.0,
   "impressions": 0,
   "clicks": 0,
@@ -2709,16 +2695,16 @@
    "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
    "status": "PAUSED",
    "daily_budget": 40.0,
-   "spend": 1858.04,
-   "impressions": 48489,
-   "clicks": 1394,
-   "ctr": 2.87,
-   "cpc": 1.33,
-   "roas": 2.2642,
-   "purchases": 14,
-   "purchase_value": 4207.06,
-   "atc": 38,
-   "reach": 21125
+   "spend": 1748.55,
+   "impressions": 44589,
+   "clicks": 1227,
+   "ctr": 2.75,
+   "cpc": 1.43,
+   "roas": 2.2845,
+   "purchases": 13,
+   "purchase_value": 3994.51,
+   "atc": 34,
+   "reach": 19113
   },
   {
    "name": "Spring Sale 2026 \u2014 AU \u2014 Sales (23 Sep\u201311 Oct)",

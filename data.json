@@ -3,25 +3,30 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-10-13T12:55:54Z",
-  "generated_at_local": "Tue 13 Oct 2026, 11:55pm AEST",
-  "today": "2026-10-13",
+  "generated_at_utc": "2026-10-13T13:16:02Z",
+  "generated_at_local": "Wed 14 Oct 2026, 12:16am AEST",
+  "today": "2026-10-14",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-10-13T12:55:54Z"
+    "fetched_at": "2026-10-13T13:16:02Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-10-13T12:55:54Z"
+    "fetched_at": "2026-10-13T13:16:02Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-10-13T12:55:54Z"
+    "fetched_at": "2026-10-13T13:16:02Z"
    }
   }
  },
  "alerts": [
+  {
+   "level": "critical",
+   "title": "No orders for 4 days",
+   "body": "Last order was #1091 on 10 Oct. Ads have spent $82 since the last attributed purchase."
+  },
   {
    "level": "serious",
    "title": "1 product(s) sold in the last 30d are out of stock",
@@ -31,11 +36,6 @@
    "level": "serious",
    "title": "1 paid order(s) awaiting fulfilment",
    "body": "#1091"
-  },
-  {
-   "level": "warning",
-   "title": "No orders for 3 days",
-   "body": "Last order was #1091 on 10 Oct. Ads have spent $82 since the last attributed purchase."
   },
   {
    "level": "warning",
@@ -55,9 +55,9 @@
    "aov": 0.0
   },
   "d30": {
-   "orders": 19,
-   "revenue": 4806.38,
-   "aov": 252.97
+   "orders": 17,
+   "revenue": 4381.28,
+   "aov": 257.72
   },
   "prev7_revenue": 1485.88,
   "wow_pct": -100.0,
@@ -72,7 +72,7 @@
   ],
   "abandoned_checkouts": 2,
   "customers_total": 121,
-  "days_since_order": 3,
+  "days_since_order": 4,
   "last_order": {
    "name": "#1091",
    "when": "10 oct, 8:24pm",
@@ -80,12 +80,6 @@
    "customer": "arlie mccubbin"
   },
   "daily": [
-   {
-    "date": "2026-09-14",
-    "label": "14 Sep",
-    "orders": 2,
-    "revenue": 425.1
-   },
    {
     "date": "2026-09-15",
     "label": "15 Sep",
@@ -259,6 +253,12 @@
     "label": "13 Oct",
     "orders": 0,
     "revenue": 0.0
+   },
+   {
+    "date": "2026-10-14",
+    "label": "14 Oct",
+    "orders": 0,
+    "revenue": 0.0
    }
   ],
   "recent": [
@@ -349,15 +349,15 @@
     "units": 2
    },
    {
-    "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
-    "units": 2
-   },
-   {
     "title": "Lumara Frog Lily Water Bowl",
     "units": 1
    },
    {
     "title": "Lumara Nishi Table Lamp \u2014 Contemporary Ceramic Style",
+    "units": 1
+   },
+   {
+    "title": "Lumara Magnolia XL Sculpture \u2014 Wall or Tabletop",
     "units": 1
    }
   ]
@@ -375,36 +375,26 @@
    "cpa": null
   },
   "d7": {
-   "spend": 81.66,
+   "spend": 34.23,
    "value": 0.0,
    "roas": 0.0,
-   "clicks": 43,
-   "impressions": 2323,
+   "clicks": 17,
+   "impressions": 945,
    "purchases": 0,
-   "cpc": 1.9,
-   "ctr": 1.85,
+   "cpc": 2.01,
+   "ctr": 1.8,
    "cpa": null
   },
   "prev7": {
-   "spend": 789.83,
+   "spend": 742.27,
    "value": 1485.88,
-   "roas": 1.88
+   "roas": 2.0
   },
   "daily_budget_live": 0.0,
   "active_campaigns": 0,
   "dry_days": 2,
   "dry_spend": 81.66,
   "series": [
-   {
-    "date": "2026-09-29",
-    "label": "29 Sep",
-    "spend": 85.27,
-    "revenue": 314.94,
-    "purchases": 1,
-    "clicks": 33,
-    "ctr": 1.37,
-    "cpc": 2.58
-   },
    {
     "date": "2026-09-30",
     "label": "30 Sep",
@@ -514,6 +504,16 @@
     "clicks": 0,
     "ctr": 0.0,
     "cpc": 0.0
+   },
+   {
+    "date": "2026-10-14",
+    "label": "14 Oct",
+    "spend": 0.0,
+    "revenue": 0.0,
+    "purchases": 0,
+    "clicks": 0,
+    "ctr": 0.0,
+    "cpc": 0.0
    }
   ],
   "campaigns": [
@@ -521,16 +521,16 @@
     "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
     "status": "PAUSED",
     "daily_budget": 40.0,
-    "spend": 1858.04,
-    "impressions": 48489,
-    "clicks": 1394,
-    "ctr": 2.87,
-    "cpc": 1.33,
-    "roas": 2.2642,
-    "purchases": 14,
-    "purchase_value": 4207.06,
-    "atc": 38,
-    "reach": 21125
+    "spend": 1748.55,
+    "impressions": 44589,
+    "clicks": 1227,
+    "ctr": 2.75,
+    "cpc": 1.43,
+    "roas": 2.2845,
+    "purchases": 13,
+    "purchase_value": 3994.51,
+    "atc": 34,
+    "reach": 19113
    },
    {
     "name": "Spring Sale 2026 \u2014 AU \u2014 Sales (23 Sep\u201311 Oct)",
