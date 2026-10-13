@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-10-13T00:45:48Z",
+ "generated_at_utc": "2026-10-13T01:05:58Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-10-13T00:45:48Z"
+   "fetched_at": "2026-10-13T01:05:58Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-10-13T00:45:48Z"
+   "fetched_at": "2026-10-13T01:05:58Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-10-13T00:45:48Z"
+   "fetched_at": "2026-10-13T01:05:58Z"
   }
  },
  "orders": [
@@ -174,7 +174,7 @@
    "createdAt": "2026-09-20T11:11:09Z",
    "financial": "PAID",
    "fulfillment": "FULFILLED",
-   "total": 289.95,
+   "total": 0.0,
    "customer": "Susan Lyons",
    "items": [
     {
@@ -918,7 +918,7 @@
   {
    "title": "Lumara Fossil Table Lamp \u2014 Organic Textured Ceramic",
    "sku": "YE6125-1",
-   "qty": 9,
+   "qty": 10,
    "price": 299.99,
    "status": "ACTIVE",
    "tracked": true,
