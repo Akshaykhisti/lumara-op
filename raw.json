@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-10-14T12:55:56Z",
+ "generated_at_utc": "2026-10-14T13:16:06Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-10-14T12:55:56Z"
+   "fetched_at": "2026-10-14T13:16:06Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-10-14T12:55:56Z"
+   "fetched_at": "2026-10-14T13:16:06Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-10-14T12:55:56Z"
+   "fetched_at": "2026-10-14T13:16:06Z"
   }
  },
  "orders": [
@@ -277,34 +277,6 @@
    "items": [
     {
      "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
-     "quantity": 1
-    }
-   ]
-  },
-  {
-   "name": "#1074",
-   "createdAt": "2026-09-14T07:54:18Z",
-   "financial": "PAID",
-   "fulfillment": "FULFILLED",
-   "total": 212.55,
-   "customer": "Emma Kay",
-   "items": [
-    {
-     "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
-     "quantity": 1
-    }
-   ]
-  },
-  {
-   "name": "#1073",
-   "createdAt": "2026-09-14T02:14:31Z",
-   "financial": "PAID",
-   "fulfillment": "FULFILLED",
-   "total": 212.55,
-   "customer": "Kimberley Weissel",
-   "items": [
-    {
-     "title": "Lumara Gede Green Table Lamp \u2014 Sage Green Reactive Glaze",
      "quantity": 1
     }
    ]
@@ -2574,16 +2546,6 @@
  ],
  "ads_daily": [
   {
-   "date": "2026-09-30",
-   "spend": 94.99,
-   "impressions": 2290,
-   "clicks": 36,
-   "ctr": 1.57,
-   "cpc": 2.64,
-   "purchases": 0,
-   "purchase_value": 0.0
-  },
-  {
    "date": "2026-10-01",
    "spend": 123.04,
    "impressions": 2775,
@@ -2684,7 +2646,7 @@
    "purchase_value": 0.0
   },
   {
-   "date": "2026-10-14",
+   "date": "2026-10-15",
    "spend": 0.0,
    "impressions": 0,
    "clicks": 0,
@@ -2695,7 +2657,7 @@
   }
  ],
  "ads_today": {
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "spend": 0.0,
   "impressions": 0,
   "clicks": 0,
@@ -2709,16 +2671,16 @@
    "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
    "status": "PAUSED",
    "daily_budget": 40.0,
-   "spend": 1748.55,
-   "impressions": 44589,
-   "clicks": 1227,
-   "ctr": 2.75,
-   "cpc": 1.43,
-   "roas": 2.2845,
-   "purchases": 13,
-   "purchase_value": 3994.51,
-   "atc": 34,
-   "reach": 19113
+   "spend": 1684.83,
+   "impressions": 42363,
+   "clicks": 1123,
+   "ctr": 2.65,
+   "cpc": 1.5,
+   "roas": 2.1186,
+   "purchases": 11,
+   "purchase_value": 3569.41,
+   "atc": 32,
+   "reach": 18147
   },
   {
    "name": "Spring Sale 2026 \u2014 AU \u2014 Sales (23 Sep\u201311 Oct)",
