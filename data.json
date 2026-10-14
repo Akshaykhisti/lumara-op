@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-10-14T06:52:24Z",
-  "generated_at_local": "Wed 14 Oct 2026, 5:52pm AEST",
+  "generated_at_utc": "2026-10-14T07:12:36Z",
+  "generated_at_local": "Wed 14 Oct 2026, 6:12pm AEST",
   "today": "2026-10-14",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-10-14T06:52:24Z"
+    "fetched_at": "2026-10-14T07:12:36Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-10-14T06:52:24Z"
+    "fetched_at": "2026-10-14T07:12:36Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-10-14T06:52:24Z"
+    "fetched_at": "2026-10-14T07:12:36Z"
    }
   }
  },
@@ -29,8 +29,8 @@
   },
   {
    "level": "serious",
-   "title": "2 paid order(s) awaiting fulfilment",
-   "body": "#1091, #1092"
+   "title": "1 paid order(s) awaiting fulfilment",
+   "body": "#1091"
   },
   {
    "level": "warning",
@@ -56,19 +56,13 @@
   },
   "prev7_revenue": 1485.88,
   "wow_pct": -96.0,
-  "pending_fulfilment": 2,
+  "pending_fulfilment": 1,
   "pending_orders": [
    {
     "name": "#1091",
     "createdAt": "2026-10-10T09:24:23Z",
     "total": 0.0,
     "customer": "arlie mccubbin"
-   },
-   {
-    "name": "#1092",
-    "createdAt": "2026-10-14T04:54:13Z",
-    "total": 59.94,
-    "customer": "Ellen Marshall"
    }
   ],
   "abandoned_checkouts": 2,
@@ -268,7 +262,7 @@
     "when": "14 oct, 3:54pm",
     "total": 59.94,
     "customer": "Ellen Marshall",
-    "fulfillment": "UNFULFILLED",
+    "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Lumara Alegra Statement Vase \u2014 Sculptural Metal"
    },
