@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-10-14T04:51:19Z",
+ "generated_at_utc": "2026-10-14T05:11:30Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,18 +9,32 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-10-14T04:51:19Z"
+   "fetched_at": "2026-10-14T05:11:30Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-10-14T04:51:19Z"
+   "fetched_at": "2026-10-14T05:11:30Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-10-14T04:51:19Z"
+   "fetched_at": "2026-10-14T05:11:30Z"
   }
  },
  "orders": [
+  {
+   "name": "#1092",
+   "createdAt": "2026-10-14T04:54:13Z",
+   "financial": "PAID",
+   "fulfillment": "UNFULFILLED",
+   "total": 59.94,
+   "customer": "Ellen Marshall",
+   "items": [
+    {
+     "title": "Lumara Alegra Statement Vase \u2014 Sculptural Metal",
+     "quantity": 1
+    }
+   ]
+  },
   {
    "name": "#1091",
    "createdAt": "2026-10-10T09:24:23Z",
@@ -302,9 +316,15 @@
    "createdAt": "2026-10-10T09:24:23Z",
    "total": 0.0,
    "customer": "arlie mccubbin"
+  },
+  {
+   "name": "#1092",
+   "createdAt": "2026-10-14T04:54:13Z",
+   "total": 59.94,
+   "customer": "Ellen Marshall"
   }
  ],
- "customers_total": 121,
+ "customers_total": 122,
  "abandoned_checkouts_recent": 2,
  "inventory": [
   {
@@ -688,7 +708,7 @@
   {
    "title": "Lumara Alegra Statement Vase \u2014 Sculptural Metal",
    "sku": "QA5813-2",
-   "qty": 3,
+   "qty": 2,
    "price": 46.99,
    "status": "ACTIVE",
    "tracked": true,
