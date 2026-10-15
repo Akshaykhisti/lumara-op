@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-10-15T12:59:19Z",
-  "generated_at_local": "Thu 15 Oct 2026, 11:59pm AEST",
-  "today": "2026-10-15",
+  "generated_at_utc": "2026-10-15T13:19:30Z",
+  "generated_at_local": "Fri 16 Oct 2026, 12:19am AEST",
+  "today": "2026-10-16",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-10-15T12:59:19Z"
+    "fetched_at": "2026-10-15T13:19:30Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-10-15T12:59:19Z"
+    "fetched_at": "2026-10-15T13:19:30Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-10-15T12:59:19Z"
+    "fetched_at": "2026-10-15T13:19:30Z"
    }
   }
  },
@@ -31,6 +31,11 @@
    "level": "serious",
    "title": "1 paid order(s) awaiting fulfilment",
    "body": "#1091"
+  },
+  {
+   "level": "warning",
+   "title": "No orders for 2 days",
+   "body": "Last order was #1092 on 14 Oct. Ads have spent $82 since the last attributed purchase."
   },
   {
    "level": "warning",
@@ -50,12 +55,12 @@
    "aov": 29.97
   },
   "d30": {
-   "orders": 17,
-   "revenue": 4141.27,
-   "aov": 243.6
+   "orders": 15,
+   "revenue": 3460.57,
+   "aov": 230.7
   },
-  "prev7_revenue": 1197.9,
-  "wow_pct": -95.0,
+  "prev7_revenue": 476.93,
+  "wow_pct": -87.4,
   "pending_fulfilment": 1,
   "pending_orders": [
    {
@@ -67,7 +72,7 @@
   ],
   "abandoned_checkouts": 2,
   "customers_total": 122,
-  "days_since_order": 1,
+  "days_since_order": 2,
   "last_order": {
    "name": "#1092",
    "when": "14 oct, 3:54pm",
@@ -75,12 +80,6 @@
    "customer": "Ellen Marshall"
   },
   "daily": [
-   {
-    "date": "2026-09-16",
-    "label": "16 Sep",
-    "orders": 2,
-    "revenue": 680.7
-   },
    {
     "date": "2026-09-17",
     "label": "17 Sep",
@@ -254,6 +253,12 @@
     "label": "15 Oct",
     "orders": 0,
     "revenue": 0.0
+   },
+   {
+    "date": "2026-10-16",
+    "label": "16 Oct",
+    "orders": 0,
+    "revenue": 0.0
    }
   ],
   "recent": [
@@ -333,7 +338,7 @@
   "top_sellers": [
    {
     "title": "Lumara Spice Table Lamp \u2014 Caramel Ribbed Ceramic with Linen Shade",
-    "units": 10
+    "units": 8
    },
    {
     "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
@@ -381,25 +386,15 @@
    "cpa": null
   },
   "prev7": {
-   "spend": 653.46,
-   "value": 1197.9,
-   "roas": 1.83
+   "spend": 534.65,
+   "value": 476.93,
+   "roas": 0.89
   },
   "daily_budget_live": 0.0,
   "active_campaigns": 0,
   "dry_days": 2,
   "dry_spend": 81.66,
   "series": [
-   {
-    "date": "2026-10-01",
-    "label": "1 Oct",
-    "spend": 123.04,
-    "revenue": 287.98,
-    "purchases": 1,
-    "clicks": 70,
-    "ctr": 2.52,
-    "cpc": 1.76
-   },
    {
     "date": "2026-10-02",
     "label": "2 Oct",
@@ -491,8 +486,8 @@
     "cpc": 0.0
    },
    {
-    "date": "2026-10-15",
-    "label": "15 Oct",
+    "date": "2026-10-16",
+    "label": "16 Oct",
     "spend": 0.0,
     "revenue": 0.0,
     "purchases": 0,
@@ -506,16 +501,16 @@
     "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
     "status": "PAUSED",
     "daily_budget": 40.0,
-    "spend": 1684.83,
-    "impressions": 42363,
-    "clicks": 1123,
-    "ctr": 2.65,
-    "cpc": 1.5,
-    "roas": 2.1186,
+    "spend": 1658.69,
+    "impressions": 41363,
+    "clicks": 1075,
+    "ctr": 2.6,
+    "cpc": 1.54,
+    "roas": 2.1519,
     "purchases": 11,
     "purchase_value": 3569.41,
-    "atc": 32,
-    "reach": 18147
+    "atc": 31,
+    "reach": 17908
    },
    {
     "name": "Spring Sale 2026 \u2014 AU \u2014 Sales (23 Sep\u201311 Oct)",
@@ -536,16 +531,16 @@
     "name": "Decor",
     "status": "PAUSED",
     "daily_budget": 40.0,
-    "spend": 192.55,
-    "impressions": 8399,
-    "clicks": 247,
-    "ctr": 2.94,
-    "cpc": 0.78,
+    "spend": 174.08,
+    "impressions": 7467,
+    "clicks": 215,
+    "ctr": 2.88,
+    "cpc": 0.81,
     "roas": 0.0,
     "purchases": 0,
     "purchase_value": 0.0,
     "atc": 3,
-    "reach": 4782
+    "reach": 4363
    },
    {
     "name": "Lumara \u2014 Lamps \u2014 KG Gap (Jul 2026)",
