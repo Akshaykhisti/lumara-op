@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-10-16T12:58:27Z",
+ "generated_at_utc": "2026-10-16T13:18:38Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-10-16T12:58:27Z"
+   "fetched_at": "2026-10-16T13:18:38Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-10-16T12:58:27Z"
+   "fetched_at": "2026-10-16T13:18:38Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-10-16T12:58:27Z"
+   "fetched_at": "2026-10-16T13:18:38Z"
   }
  },
  "orders": [
@@ -235,34 +235,6 @@
    "items": [
     {
      "title": "Lumara Spice Table Lamp \u2014 Caramel Ribbed Ceramic with Linen Shade",
-     "quantity": 1
-    }
-   ]
-  },
-  {
-   "name": "#1077",
-   "createdAt": "2026-09-16T13:49:42Z",
-   "financial": "PAID",
-   "fulfillment": "FULFILLED",
-   "total": 468.15,
-   "customer": "Monica Armijo",
-   "items": [
-    {
-     "title": "Lumara Spice Table Lamp \u2014 Caramel Ribbed Ceramic with Linen Shade",
-     "quantity": 2
-    }
-   ]
-  },
-  {
-   "name": "#1076",
-   "createdAt": "2026-09-16T06:36:18Z",
-   "financial": "PAID",
-   "fulfillment": "FULFILLED",
-   "total": 212.55,
-   "customer": "Julie Hutchinson",
-   "items": [
-    {
-     "title": "Lumara Gede Blues Table Lamp \u2014 Blue Reactive Glaze",
      "quantity": 1
     }
    ]
@@ -2532,16 +2504,6 @@
  ],
  "ads_daily": [
   {
-   "date": "2026-10-02",
-   "spend": 118.81,
-   "impressions": 2609,
-   "clicks": 64,
-   "ctr": 2.45,
-   "cpc": 1.86,
-   "purchases": 2,
-   "purchase_value": 720.97
-  },
-  {
    "date": "2026-10-03",
    "spend": 108.55,
    "impressions": 3236,
@@ -2622,7 +2584,7 @@
    "purchase_value": 0.0
   },
   {
-   "date": "2026-10-16",
+   "date": "2026-10-17",
    "spend": 0.0,
    "impressions": 0,
    "clicks": 0,
@@ -2633,7 +2595,7 @@
   }
  ],
  "ads_today": {
-  "date": "2026-10-16",
+  "date": "2026-10-17",
   "spend": 0.0,
   "impressions": 0,
   "clicks": 0,
@@ -2647,16 +2609,16 @@
    "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
    "status": "PAUSED",
    "daily_budget": 40.0,
-   "spend": 1658.69,
-   "impressions": 41363,
-   "clicks": 1075,
-   "ctr": 2.6,
-   "cpc": 1.54,
-   "roas": 2.1519,
-   "purchases": 11,
-   "purchase_value": 3569.41,
-   "atc": 31,
-   "reach": 17908
+   "spend": 1598.65,
+   "impressions": 39484,
+   "clicks": 1016,
+   "ctr": 2.57,
+   "cpc": 1.57,
+   "roas": 1.807,
+   "purchases": 9,
+   "purchase_value": 2888.71,
+   "atc": 28,
+   "reach": 17194
   },
   {
    "name": "Spring Sale 2026 \u2014 AU \u2014 Sales (23 Sep\u201311 Oct)",
@@ -2677,16 +2639,16 @@
    "name": "Decor",
    "status": "PAUSED",
    "daily_budget": 40.0,
-   "spend": 174.08,
-   "impressions": 7467,
-   "clicks": 215,
-   "ctr": 2.88,
-   "cpc": 0.81,
+   "spend": 128.83,
+   "impressions": 5485,
+   "clicks": 150,
+   "ctr": 2.73,
+   "cpc": 0.86,
    "roas": 0.0,
    "purchases": 0,
    "purchase_value": 0.0,
    "atc": 3,
-   "reach": 4363
+   "reach": 3388
   },
   {
    "name": "Lumara \u2014 Lamps \u2014 KG Gap (Jul 2026)",
