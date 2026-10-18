@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-10-18T12:57:59Z",
+ "generated_at_utc": "2026-10-18T13:18:10Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-10-18T12:57:59Z"
+   "fetched_at": "2026-10-18T13:18:10Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-10-18T12:57:59Z"
+   "fetched_at": "2026-10-18T13:18:10Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-10-18T12:57:59Z"
+   "fetched_at": "2026-10-18T13:18:10Z"
   }
  },
  "orders": [
@@ -210,34 +210,6 @@
      "quantity": 1
     }
    ]
-  },
-  {
-   "name": "#1079",
-   "createdAt": "2026-09-17T22:24:32Z",
-   "financial": "PAID",
-   "fulfillment": "FULFILLED",
-   "total": 244.05,
-   "customer": "Tanya Cullen",
-   "items": [
-    {
-     "title": "Lumara Spice Table Lamp \u2014 Caramel Ribbed Ceramic with Linen Shade",
-     "quantity": 1
-    }
-   ]
-  },
-  {
-   "name": "#1078",
-   "createdAt": "2026-09-17T21:57:12Z",
-   "financial": "PAID",
-   "fulfillment": "FULFILLED",
-   "total": 244.05,
-   "customer": "Sam Waters",
-   "items": [
-    {
-     "title": "Lumara Spice Table Lamp \u2014 Caramel Ribbed Ceramic with Linen Shade",
-     "quantity": 1
-    }
-   ]
   }
  ],
  "unfulfilled_paid": [
@@ -249,7 +221,7 @@
   }
  ],
  "customers_total": 123,
- "abandoned_checkouts_recent": 2,
+ "abandoned_checkouts_recent": 0,
  "inventory": [
   {
    "title": "Lumara Cayman Rattan Table Lamp \u2014 Coastal Natural Style",
@@ -2504,16 +2476,6 @@
  ],
  "ads_daily": [
   {
-   "date": "2026-10-04",
-   "spend": 116.53,
-   "impressions": 3123,
-   "clicks": 60,
-   "ctr": 1.92,
-   "cpc": 1.94,
-   "purchases": 0,
-   "purchase_value": 0.0
-  },
-  {
    "date": "2026-10-05",
    "spend": 145.16,
    "impressions": 3249,
@@ -2574,7 +2536,7 @@
    "purchase_value": 0.0
   },
   {
-   "date": "2026-10-18",
+   "date": "2026-10-19",
    "spend": 0.0,
    "impressions": 0,
    "clicks": 0,
@@ -2585,7 +2547,7 @@
   }
  ],
  "ads_today": {
-  "date": "2026-10-18",
+  "date": "2026-10-19",
   "spend": 0.0,
   "impressions": 0,
   "clicks": 0,
@@ -2599,16 +2561,16 @@
    "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
    "status": "PAUSED",
    "daily_budget": 40.0,
-   "spend": 1538.03,
-   "impressions": 38160,
-   "clicks": 970,
-   "ctr": 2.54,
-   "cpc": 1.59,
-   "roas": 1.8782,
-   "purchases": 9,
-   "purchase_value": 2888.71,
-   "atc": 28,
-   "reach": 16737
+   "spend": 1469.91,
+   "impressions": 36436,
+   "clicks": 902,
+   "ctr": 2.48,
+   "cpc": 1.63,
+   "roas": 1.7992,
+   "purchases": 8,
+   "purchase_value": 2644.66,
+   "atc": 24,
+   "reach": 15883
   },
   {
    "name": "Spring Sale 2026 \u2014 AU \u2014 Sales (23 Sep\u201311 Oct)",
@@ -2629,16 +2591,16 @@
    "name": "Decor",
    "status": "PAUSED",
    "daily_budget": 40.0,
-   "spend": 92.46,
-   "impressions": 3801,
-   "clicks": 104,
-   "ctr": 2.74,
-   "cpc": 0.89,
+   "spend": 52.47,
+   "impressions": 2008,
+   "clicks": 46,
+   "ctr": 2.29,
+   "cpc": 1.14,
    "roas": 0.0,
    "purchases": 0,
    "purchase_value": 0.0,
    "atc": 3,
-   "reach": 2490
+   "reach": 1410
   },
   {
    "name": "Lumara \u2014 Lamps \u2014 KG Gap (Jul 2026)",
