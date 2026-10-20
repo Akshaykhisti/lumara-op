@@ -3,28 +3,28 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-10-20T12:59:44Z",
-  "generated_at_local": "Tue 20 Oct 2026, 11:59pm AEST",
-  "today": "2026-10-20",
+  "generated_at_utc": "2026-10-20T13:19:55Z",
+  "generated_at_local": "Wed 21 Oct 2026, 12:19am AEST",
+  "today": "2026-10-21",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-10-20T12:59:44Z"
+    "fetched_at": "2026-10-20T13:19:55Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-10-20T12:59:44Z"
+    "fetched_at": "2026-10-20T13:19:55Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-10-20T12:59:44Z"
+    "fetched_at": "2026-10-20T13:19:55Z"
    }
   }
  },
  "alerts": [
   {
    "level": "critical",
-   "title": "No orders for 6 days",
+   "title": "No orders for 7 days",
    "body": "Last order was #1092 on 14 Oct. Ads have spent $82 since the last attributed purchase."
   },
   {
@@ -50,17 +50,17 @@
    "aov": 0.0
   },
   "d7": {
-   "orders": 1,
-   "revenue": 59.94,
-   "aov": 59.94
+   "orders": 0,
+   "revenue": 0.0,
+   "aov": 0.0
   },
   "d30": {
    "orders": 11,
    "revenue": 2703.52,
    "aov": 245.77
   },
-  "prev7_revenue": 0.0,
-  "wow_pct": null,
+  "prev7_revenue": 59.94,
+  "wow_pct": -100.0,
   "pending_fulfilment": 1,
   "pending_orders": [
    {
@@ -72,7 +72,7 @@
   ],
   "abandoned_checkouts": 0,
   "customers_total": 123,
-  "days_since_order": 6,
+  "days_since_order": 7,
   "last_order": {
    "name": "#1092",
    "when": "14 oct, 3:54pm",
@@ -80,12 +80,6 @@
    "customer": "Ellen Marshall"
   },
   "daily": [
-   {
-    "date": "2026-09-21",
-    "label": "21 Sep",
-    "orders": 0,
-    "revenue": 0.0
-   },
    {
     "date": "2026-09-22",
     "label": "22 Sep",
@@ -259,6 +253,12 @@
     "label": "20 Oct",
     "orders": 0,
     "revenue": 0.0
+   },
+   {
+    "date": "2026-10-21",
+    "label": "21 Oct",
+    "orders": 0,
+    "revenue": 0.0
    }
   ],
   "recent": [
@@ -386,7 +386,7 @@
    "cpa": null
   },
   "prev7": {
-   "spend": 81.66,
+   "spend": 34.23,
    "value": 0.0,
    "roas": 0.0
   },
@@ -395,16 +395,6 @@
   "dry_days": 2,
   "dry_spend": 81.66,
   "series": [
-   {
-    "date": "2026-10-06",
-    "label": "6 Oct",
-    "spend": 82.75,
-    "revenue": 476.93,
-    "purchases": 1,
-    "clicks": 55,
-    "ctr": 3.12,
-    "cpc": 1.5
-   },
    {
     "date": "2026-10-07",
     "label": "7 Oct",
@@ -446,8 +436,8 @@
     "cpc": 0.0
    },
    {
-    "date": "2026-10-20",
-    "label": "20 Oct",
+    "date": "2026-10-21",
+    "label": "21 Oct",
     "spend": 0.0,
     "revenue": 0.0,
     "purchases": 0,
@@ -461,16 +451,16 @@
     "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
     "status": "PAUSED",
     "daily_budget": 40.0,
-    "spend": 1419.17,
-    "impressions": 35182,
-    "clicks": 853,
-    "ctr": 2.42,
-    "cpc": 1.66,
-    "roas": 1.8635,
-    "purchases": 8,
-    "purchase_value": 2644.66,
-    "atc": 23,
-    "reach": 15245
+    "spend": 1324.85,
+    "impressions": 32971,
+    "clicks": 739,
+    "ctr": 2.24,
+    "cpc": 1.79,
+    "roas": 1.5743,
+    "purchases": 6,
+    "purchase_value": 2085.76,
+    "atc": 22,
+    "reach": 14229
    },
    {
     "name": "Spring Sale 2026 \u2014 AU \u2014 Sales (23 Sep\u201311 Oct)",
@@ -491,16 +481,16 @@
     "name": "Decor",
     "status": "PAUSED",
     "daily_budget": 40.0,
-    "spend": 16.53,
-    "impressions": 419,
-    "clicks": 8,
-    "ctr": 1.91,
-    "cpc": 2.07,
+    "spend": 0.0,
+    "impressions": 0,
+    "clicks": 0,
+    "ctr": 0.0,
+    "cpc": 0.0,
     "roas": 0.0,
     "purchases": 0,
     "purchase_value": 0.0,
-    "atc": 2,
-    "reach": 346
+    "atc": 1,
+    "reach": 0
    },
    {
     "name": "Lumara \u2014 Lamps \u2014 KG Gap (Jul 2026)",

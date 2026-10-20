@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-10-20T12:59:44Z",
+ "generated_at_utc": "2026-10-20T13:19:55Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-10-20T12:59:44Z"
+   "fetched_at": "2026-10-20T13:19:55Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-10-20T12:59:44Z"
+   "fetched_at": "2026-10-20T13:19:55Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-10-20T12:59:44Z"
+   "fetched_at": "2026-10-20T13:19:55Z"
   }
  },
  "orders": [
@@ -179,34 +179,6 @@
     },
     {
      "title": "Lumara Urn Candle Holder Set of 3 \u2014 Ceramic Neutral",
-     "quantity": 1
-    }
-   ]
-  },
-  {
-   "name": "#1081",
-   "createdAt": "2026-09-20T11:11:09Z",
-   "financial": "PAID",
-   "fulfillment": "FULFILLED",
-   "total": 0.0,
-   "customer": "Susan Lyons",
-   "items": [
-    {
-     "title": "Lumara Fossil Table Lamp \u2014 Organic Textured Ceramic",
-     "quantity": 1
-    }
-   ]
-  },
-  {
-   "name": "#1080",
-   "createdAt": "2026-09-20T00:53:46Z",
-   "financial": "PAID",
-   "fulfillment": "FULFILLED",
-   "total": 268.95,
-   "customer": "Glen Bernardino",
-   "items": [
-    {
-     "title": "Lumara Spice Table Lamp \u2014 Caramel Ribbed Ceramic with Linen Shade",
      "quantity": 1
     }
    ]
@@ -2476,16 +2448,6 @@
  ],
  "ads_daily": [
   {
-   "date": "2026-10-06",
-   "spend": 82.75,
-   "impressions": 1764,
-   "clicks": 55,
-   "ctr": 3.12,
-   "cpc": 1.5,
-   "purchases": 1,
-   "purchase_value": 476.93
-  },
-  {
    "date": "2026-10-07",
    "spend": 47.43,
    "impressions": 1378,
@@ -2526,7 +2488,7 @@
    "purchase_value": 0.0
   },
   {
-   "date": "2026-10-20",
+   "date": "2026-10-21",
    "spend": 0.0,
    "impressions": 0,
    "clicks": 0,
@@ -2537,7 +2499,7 @@
   }
  ],
  "ads_today": {
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "spend": 0.0,
   "impressions": 0,
   "clicks": 0,
@@ -2551,16 +2513,16 @@
    "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
    "status": "PAUSED",
    "daily_budget": 40.0,
-   "spend": 1419.17,
-   "impressions": 35182,
-   "clicks": 853,
-   "ctr": 2.42,
-   "cpc": 1.66,
-   "roas": 1.8635,
-   "purchases": 8,
-   "purchase_value": 2644.66,
-   "atc": 23,
-   "reach": 15245
+   "spend": 1324.85,
+   "impressions": 32971,
+   "clicks": 739,
+   "ctr": 2.24,
+   "cpc": 1.79,
+   "roas": 1.5743,
+   "purchases": 6,
+   "purchase_value": 2085.76,
+   "atc": 22,
+   "reach": 14229
   },
   {
    "name": "Spring Sale 2026 \u2014 AU \u2014 Sales (23 Sep\u201311 Oct)",
@@ -2581,16 +2543,16 @@
    "name": "Decor",
    "status": "PAUSED",
    "daily_budget": 40.0,
-   "spend": 16.53,
-   "impressions": 419,
-   "clicks": 8,
-   "ctr": 1.91,
-   "cpc": 2.07,
+   "spend": 0.0,
+   "impressions": 0,
+   "clicks": 0,
+   "ctr": 0.0,
+   "cpc": 0.0,
    "roas": 0.0,
    "purchases": 0,
    "purchase_value": 0.0,
-   "atc": 2,
-   "reach": 346
+   "atc": 1,
+   "reach": 0
   },
   {
    "name": "Lumara \u2014 Lamps \u2014 KG Gap (Jul 2026)",
