@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-10-23T12:51:05Z",
-  "generated_at_local": "Fri 23 Oct 2026, 11:51pm AEST",
-  "today": "2026-10-23",
+  "generated_at_utc": "2026-10-23T13:11:16Z",
+  "generated_at_local": "Sat 24 Oct 2026, 12:11am AEST",
+  "today": "2026-10-24",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-10-23T12:51:05Z"
+    "fetched_at": "2026-10-23T13:11:16Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-10-23T12:51:05Z"
+    "fetched_at": "2026-10-23T13:11:16Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-10-23T12:51:05Z"
+    "fetched_at": "2026-10-23T13:11:16Z"
    }
   }
  },
@@ -40,9 +40,9 @@
  ],
  "sales": {
   "today": {
-   "orders": 1,
-   "revenue": 198.97,
-   "aov": 198.97
+   "orders": 0,
+   "revenue": 0.0,
+   "aov": 0.0
   },
   "d7": {
    "orders": 1,
@@ -50,9 +50,9 @@
    "aov": 198.97
   },
   "d30": {
-   "orders": 11,
-   "revenue": 2849.55,
-   "aov": 259.05
+   "orders": 10,
+   "revenue": 2605.61,
+   "aov": 260.56
   },
   "prev7_revenue": 59.94,
   "wow_pct": 231.9,
@@ -73,7 +73,7 @@
   ],
   "abandoned_checkouts": 0,
   "customers_total": 123,
-  "days_since_order": 0,
+  "days_since_order": 1,
   "last_order": {
    "name": "#1093",
    "when": "23 oct, 5:24pm",
@@ -81,12 +81,6 @@
    "customer": "Kellie Miles"
   },
   "daily": [
-   {
-    "date": "2026-09-24",
-    "label": "24 Sep",
-    "orders": 1,
-    "revenue": 243.94
-   },
    {
     "date": "2026-09-25",
     "label": "25 Sep",
@@ -260,6 +254,12 @@
     "label": "23 Oct",
     "orders": 1,
     "revenue": 198.97
+   },
+   {
+    "date": "2026-10-24",
+    "label": "24 Oct",
+    "orders": 0,
+    "revenue": 0.0
    }
   ],
   "recent": [
@@ -339,7 +339,7 @@
   "top_sellers": [
    {
     "title": "Lumara Spice Table Lamp \u2014 Caramel Ribbed Ceramic with Linen Shade",
-    "units": 5
+    "units": 4
    },
    {
     "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
@@ -397,16 +397,6 @@
   "dry_spend": 0.0,
   "series": [
    {
-    "date": "2026-10-09",
-    "label": "9 Oct",
-    "spend": 0.0,
-    "revenue": 0.0,
-    "purchases": 0,
-    "clicks": 0,
-    "ctr": 0.0,
-    "cpc": 0.0
-   },
-   {
     "date": "2026-10-13",
     "label": "13 Oct",
     "spend": 0.0,
@@ -417,8 +407,8 @@
     "cpc": 0.0
    },
    {
-    "date": "2026-10-23",
-    "label": "23 Oct",
+    "date": "2026-10-24",
+    "label": "24 Oct",
     "spend": 0.0,
     "revenue": 0.0,
     "purchases": 0,
@@ -447,16 +437,16 @@
     "name": "Spring Sale 2026 \u2014 AU \u2014 Sales (23 Sep\u201311 Oct)",
     "status": "PAUSED",
     "daily_budget": 100.0,
-    "spend": 354.99,
-    "impressions": 10210,
-    "clicks": 296,
-    "ctr": 2.9,
-    "cpc": 1.2,
-    "roas": 1.8333,
-    "purchases": 3,
-    "purchase_value": 650.81,
-    "atc": 7,
-    "reach": 5442
+    "spend": 275.98,
+    "impressions": 8196,
+    "clicks": 235,
+    "ctr": 2.87,
+    "cpc": 1.17,
+    "roas": 1.8294,
+    "purchases": 2,
+    "purchase_value": 504.88,
+    "atc": 4,
+    "reach": 4626
    },
    {
     "name": "Decor",

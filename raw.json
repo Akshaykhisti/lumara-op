@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-10-23T12:51:05Z",
+ "generated_at_utc": "2026-10-23T13:11:16Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-10-23T12:51:05Z"
+   "fetched_at": "2026-10-23T13:11:16Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-10-23T12:51:05Z"
+   "fetched_at": "2026-10-23T13:11:16Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-10-23T12:51:05Z"
+   "fetched_at": "2026-10-23T13:11:16Z"
   }
  },
  "orders": [
@@ -183,24 +183,6 @@
    "items": [
     {
      "title": "Lumara Spice Table Lamp \u2014 Caramel Ribbed Ceramic with Linen Shade",
-     "quantity": 1
-    }
-   ]
-  },
-  {
-   "name": "#1082",
-   "createdAt": "2026-09-23T01:52:26Z",
-   "financial": "PARTIALLY_REFUNDED",
-   "fulfillment": "FULFILLED",
-   "total": 52.94,
-   "customer": "Kellie Miles",
-   "items": [
-    {
-     "title": "Lumara Magnolia XL Sculpture \u2014 Wall or Tabletop",
-     "quantity": 1
-    },
-    {
-     "title": "Lumara Urn Candle Holder Set of 3 \u2014 Ceramic Neutral",
      "quantity": 1
     }
    ]
@@ -2476,16 +2458,6 @@
  ],
  "ads_daily": [
   {
-   "date": "2026-10-09",
-   "spend": 0.0,
-   "impressions": 0,
-   "clicks": 0,
-   "ctr": 0.0,
-   "cpc": 0.0,
-   "purchases": 0,
-   "purchase_value": 0.0
-  },
-  {
    "date": "2026-10-13",
    "spend": 0.0,
    "impressions": 0,
@@ -2496,7 +2468,7 @@
    "purchase_value": 0.0
   },
   {
-   "date": "2026-10-23",
+   "date": "2026-10-24",
    "spend": 0.0,
    "impressions": 0,
    "clicks": 0,
@@ -2507,7 +2479,7 @@
   }
  ],
  "ads_today": {
-  "date": "2026-10-23",
+  "date": "2026-10-24",
   "spend": 0.0,
   "impressions": 0,
   "clicks": 0,
@@ -2536,16 +2508,16 @@
    "name": "Spring Sale 2026 \u2014 AU \u2014 Sales (23 Sep\u201311 Oct)",
    "status": "PAUSED",
    "daily_budget": 100.0,
-   "spend": 354.99,
-   "impressions": 10210,
-   "clicks": 296,
-   "ctr": 2.9,
-   "cpc": 1.2,
-   "roas": 1.8333,
-   "purchases": 3,
-   "purchase_value": 650.81,
-   "atc": 7,
-   "reach": 5442
+   "spend": 275.98,
+   "impressions": 8196,
+   "clicks": 235,
+   "ctr": 2.87,
+   "cpc": 1.17,
+   "roas": 1.8294,
+   "purchases": 2,
+   "purchase_value": 504.88,
+   "atc": 4,
+   "reach": 4626
   },
   {
    "name": "Decor",
