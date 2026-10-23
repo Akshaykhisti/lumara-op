@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-10-23T06:22:22Z",
+ "generated_at_utc": "2026-10-23T06:32:39Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,18 +9,40 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-10-23T06:22:22Z"
+   "fetched_at": "2026-10-23T06:32:39Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-10-23T06:22:22Z"
+   "fetched_at": "2026-10-23T06:32:39Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-10-23T06:22:22Z"
+   "fetched_at": "2026-10-23T06:32:39Z"
   }
  },
  "orders": [
+  {
+   "name": "#1093",
+   "createdAt": "2026-10-23T06:24:46Z",
+   "financial": "PAID",
+   "fulfillment": "UNFULFILLED",
+   "total": 198.97,
+   "customer": "Kellie Miles",
+   "items": [
+    {
+     "title": "Lumara Magnolia Stem \u2014 Real Touch Faux Bloom",
+     "quantity": 1
+    },
+    {
+     "title": "Lumara Fern Gold Stem \u2014 Metallic Faux Frond",
+     "quantity": 1
+    },
+    {
+     "title": "Lumara Magnolia XL Sculpture \u2014 Wall or Tabletop",
+     "quantity": 1
+    }
+   ]
+  },
   {
    "name": "#1092",
    "createdAt": "2026-10-14T04:54:13Z",
@@ -190,6 +212,12 @@
    "createdAt": "2026-10-10T09:24:23Z",
    "total": 0.0,
    "customer": "arlie mccubbin"
+  },
+  {
+   "name": "#1093",
+   "createdAt": "2026-10-23T06:24:46Z",
+   "total": 198.97,
+   "customer": "Kellie Miles"
   }
  ],
  "customers_total": 123,
@@ -981,7 +1009,7 @@
   {
    "title": "Lumara Magnolia Stem \u2014 Real Touch Faux Bloom",
    "sku": "LD9306-4-X2",
-   "qty": 0,
+   "qty": -1,
    "price": 66.99,
    "status": "ACTIVE",
    "tracked": false,
@@ -1179,7 +1207,7 @@
   {
    "title": "Lumara Fern Gold Stem \u2014 Metallic Faux Frond",
    "sku": "LD7052-12-X3",
-   "qty": 0,
+   "qty": -1,
    "price": 21.99,
    "status": "ACTIVE",
    "tracked": false,
@@ -1206,11 +1234,11 @@
   {
    "title": "Lumara Magnolia XL Sculpture \u2014 Wall or Tabletop",
    "sku": "BL7803-1",
-   "qty": 1,
+   "qty": 0,
    "price": 109.99,
    "status": "ACTIVE",
    "tracked": true,
-   "available": true
+   "available": false
   },
   {
    "title": "Lumara Amazon Woven Basket Set of 3 \u2014 Corn Husk & Seagrass",
