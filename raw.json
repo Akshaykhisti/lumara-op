@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-10-24T12:45:01Z",
+ "generated_at_utc": "2026-10-24T13:05:09Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-10-24T12:45:01Z"
+   "fetched_at": "2026-10-24T13:05:09Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-10-24T12:45:01Z"
+   "fetched_at": "2026-10-24T13:05:09Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-10-24T12:45:01Z"
+   "fetched_at": "2026-10-24T13:05:09Z"
   }
  },
  "orders": [
@@ -166,20 +166,6 @@
    "fulfillment": "FULFILLED",
    "total": 260.94,
    "customer": "Hiba Farra",
-   "items": [
-    {
-     "title": "Lumara Spice Table Lamp \u2014 Caramel Ribbed Ceramic with Linen Shade",
-     "quantity": 1
-    }
-   ]
-  },
-  {
-   "name": "#1083",
-   "createdAt": "2026-09-24T02:30:53Z",
-   "financial": "PAID",
-   "fulfillment": "FULFILLED",
-   "total": 243.94,
-   "customer": "Julie Kennedy",
    "items": [
     {
      "title": "Lumara Spice Table Lamp \u2014 Caramel Ribbed Ceramic with Linen Shade",
@@ -2468,7 +2454,7 @@
    "purchase_value": 0.0
   },
   {
-   "date": "2026-10-24",
+   "date": "2026-10-25",
    "spend": 0.0,
    "impressions": 0,
    "clicks": 0,
@@ -2479,7 +2465,7 @@
   }
  ],
  "ads_today": {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "spend": 0.0,
   "impressions": 0,
   "clicks": 0,
@@ -2508,16 +2494,16 @@
    "name": "Spring Sale 2026 \u2014 AU \u2014 Sales (23 Sep\u201311 Oct)",
    "status": "PAUSED",
    "daily_budget": 100.0,
-   "spend": 275.98,
-   "impressions": 8196,
-   "clicks": 235,
-   "ctr": 2.87,
-   "cpc": 1.17,
-   "roas": 1.8294,
-   "purchases": 2,
-   "purchase_value": 504.88,
-   "atc": 4,
-   "reach": 4626
+   "spend": 201.57,
+   "impressions": 5595,
+   "clicks": 154,
+   "ctr": 2.75,
+   "cpc": 1.31,
+   "roas": 1.2945,
+   "purchases": 1,
+   "purchase_value": 260.94,
+   "atc": 2,
+   "reach": 3417
   },
   {
    "name": "Decor",
