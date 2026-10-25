@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-10-25T12:42:24Z",
+ "generated_at_utc": "2026-10-25T13:02:34Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-10-25T12:42:24Z"
+   "fetched_at": "2026-10-25T13:02:34Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-10-25T12:42:24Z"
+   "fetched_at": "2026-10-25T13:02:34Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-10-25T12:42:24Z"
+   "fetched_at": "2026-10-25T13:02:34Z"
   }
  },
  "orders": [
@@ -155,20 +155,6 @@
    "items": [
     {
      "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
-     "quantity": 1
-    }
-   ]
-  },
-  {
-   "name": "#1084",
-   "createdAt": "2026-09-25T01:34:30Z",
-   "financial": "PAID",
-   "fulfillment": "FULFILLED",
-   "total": 260.94,
-   "customer": "Hiba Farra",
-   "items": [
-    {
-     "title": "Lumara Spice Table Lamp \u2014 Caramel Ribbed Ceramic with Linen Shade",
      "quantity": 1
     }
    ]
@@ -2454,7 +2440,7 @@
    "purchase_value": 0.0
   },
   {
-   "date": "2026-10-25",
+   "date": "2026-10-26",
    "spend": 0.0,
    "impressions": 0,
    "clicks": 0,
@@ -2465,7 +2451,7 @@
   }
  ],
  "ads_today": {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "spend": 0.0,
   "impressions": 0,
   "clicks": 0,
@@ -2494,16 +2480,16 @@
    "name": "Spring Sale 2026 \u2014 AU \u2014 Sales (23 Sep\u201311 Oct)",
    "status": "PAUSED",
    "daily_budget": 100.0,
-   "spend": 201.57,
-   "impressions": 5595,
-   "clicks": 154,
-   "ctr": 2.75,
+   "spend": 123.37,
+   "impressions": 3535,
+   "clicks": 94,
+   "ctr": 2.66,
    "cpc": 1.31,
-   "roas": 1.2945,
-   "purchases": 1,
-   "purchase_value": 260.94,
-   "atc": 2,
-   "reach": 3417
+   "roas": 0.0,
+   "purchases": 0,
+   "purchase_value": 0.0,
+   "atc": 0,
+   "reach": 2391
   },
   {
    "name": "Decor",
