@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-10-26T21:08:45Z",
-  "generated_at_local": "Tue 27 Oct 2026, 8:08am AEST",
+  "generated_at_utc": "2026-10-26T21:28:53Z",
+  "generated_at_local": "Tue 27 Oct 2026, 8:28am AEST",
   "today": "2026-10-27",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-10-26T21:08:45Z"
+    "fetched_at": "2026-10-26T21:28:53Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-10-26T21:08:45Z"
+    "fetched_at": "2026-10-26T21:28:53Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-10-26T21:08:45Z"
+    "fetched_at": "2026-10-26T21:28:53Z"
    }
   }
  },
@@ -29,8 +29,8 @@
   },
   {
    "level": "serious",
-   "title": "2 product(s) sold in the last 30d are out of stock",
-   "body": "Lumara Magnolia XL Sculpture \u2014 Wall or Tabletop, Lumara Frog Lily Water Bowl. Still listed as active \u2014 they take traffic and convert nothing."
+   "title": "1 product(s) sold in the last 30d are out of stock",
+   "body": "Lumara Frog Lily Water Bowl. Still listed as active \u2014 they take traffic and convert nothing."
   },
   {
    "level": "serious",
@@ -557,9 +557,9 @@
   ]
  },
  "stock": {
-  "sellable_skus": 130,
-  "tracked_skus": 80,
-  "out_of_stock": 5,
+  "sellable_skus": 129,
+  "tracked_skus": 79,
+  "out_of_stock": 4,
   "low": 6,
   "watch": 1,
   "healthy": 68,
@@ -587,16 +587,6 @@
     "sold_30d": 0
    },
    {
-    "title": "Lumara Magnolia XL Sculpture \u2014 Wall or Tabletop",
-    "sku": "BL7803-1",
-    "qty": 0,
-    "price": 109.99,
-    "status": "ACTIVE",
-    "tracked": true,
-    "available": false,
-    "sold_30d": 1
-   },
-   {
     "title": "Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass",
     "sku": "LH-VS-012",
     "qty": 0,
@@ -618,16 +608,6 @@
    }
   ],
   "oos_sellers": [
-   {
-    "title": "Lumara Magnolia XL Sculpture \u2014 Wall or Tabletop",
-    "sku": "BL7803-1",
-    "qty": 0,
-    "price": 109.99,
-    "status": "ACTIVE",
-    "tracked": true,
-    "available": false,
-    "sold_30d": 1
-   },
    {
     "title": "Lumara Frog Lily Water Bowl",
     "sku": "CM6023-1",
