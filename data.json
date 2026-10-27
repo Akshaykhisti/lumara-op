@@ -3,28 +3,28 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-10-27T12:41:10Z",
-  "generated_at_local": "Tue 27 Oct 2026, 11:41pm AEST",
-  "today": "2026-10-27",
+  "generated_at_utc": "2026-10-27T13:01:19Z",
+  "generated_at_local": "Wed 28 Oct 2026, 12:01am AEST",
+  "today": "2026-10-28",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-10-27T12:41:10Z"
+    "fetched_at": "2026-10-27T13:01:19Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-10-27T12:41:10Z"
+    "fetched_at": "2026-10-27T13:01:19Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-10-27T12:41:10Z"
+    "fetched_at": "2026-10-27T13:01:19Z"
    }
   }
  },
  "alerts": [
   {
    "level": "critical",
-   "title": "No orders for 4 days",
+   "title": "No orders for 5 days",
    "body": "Last order was #1093 on 23 Oct. Ads have spent $0 since the last attributed purchase."
   },
   {
@@ -55,12 +55,12 @@
    "aov": 198.97
   },
   "d30": {
-   "orders": 9,
-   "revenue": 2344.67,
-   "aov": 260.52
+   "orders": 8,
+   "revenue": 2059.73,
+   "aov": 257.47
   },
-  "prev7_revenue": 59.94,
-  "wow_pct": 231.9,
+  "prev7_revenue": 0.0,
+  "wow_pct": null,
   "pending_fulfilment": 2,
   "pending_orders": [
    {
@@ -78,7 +78,7 @@
   ],
   "abandoned_checkouts": 0,
   "customers_total": 123,
-  "days_since_order": 4,
+  "days_since_order": 5,
   "last_order": {
    "name": "#1093",
    "when": "23 oct, 5:24pm",
@@ -86,12 +86,6 @@
    "customer": "Kellie Miles"
   },
   "daily": [
-   {
-    "date": "2026-09-28",
-    "label": "28 Sep",
-    "orders": 1,
-    "revenue": 284.94
-   },
    {
     "date": "2026-09-29",
     "label": "29 Sep",
@@ -265,6 +259,12 @@
     "label": "27 Oct",
     "orders": 0,
     "revenue": 0.0
+   },
+   {
+    "date": "2026-10-28",
+    "label": "28 Oct",
+    "orders": 0,
+    "revenue": 0.0
    }
   ],
   "recent": [
@@ -343,11 +343,11 @@
   ],
   "top_sellers": [
    {
-    "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
-    "units": 4
+    "title": "Lumara Spice Table Lamp \u2014 Caramel Ribbed Ceramic with Linen Shade",
+    "units": 3
    },
    {
-    "title": "Lumara Spice Table Lamp \u2014 Caramel Ribbed Ceramic with Linen Shade",
+    "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
     "units": 3
    },
    {
@@ -398,18 +398,8 @@
   "dry_spend": 0.0,
   "series": [
    {
-    "date": "2026-10-13",
-    "label": "13 Oct",
-    "spend": 0.0,
-    "revenue": 0.0,
-    "purchases": 0,
-    "clicks": 0,
-    "ctr": 0.0,
-    "cpc": 0.0
-   },
-   {
-    "date": "2026-10-27",
-    "label": "27 Oct",
+    "date": "2026-10-28",
+    "label": "28 Oct",
     "spend": 0.0,
     "revenue": 0.0,
     "purchases": 0,
@@ -423,31 +413,31 @@
     "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
     "status": "PAUSED",
     "daily_budget": 40.0,
-    "spend": 1124.59,
-    "impressions": 28672,
-    "clicks": 588,
-    "ctr": 2.05,
-    "cpc": 1.91,
-    "roas": 1.8547,
+    "spend": 1058.93,
+    "impressions": 26637,
+    "clicks": 544,
+    "ctr": 2.04,
+    "cpc": 1.95,
+    "roas": 1.9697,
     "purchases": 6,
     "purchase_value": 2085.76,
-    "atc": 10,
-    "reach": 12221
+    "atc": 9,
+    "reach": 11598
    },
    {
     "name": "Spring Sale 2026 \u2014 AU \u2014 Sales (23 Sep\u201311 Oct)",
     "status": "PAUSED",
     "daily_budget": 100.0,
-    "spend": 29.01,
-    "impressions": 746,
-    "clicks": 17,
-    "ctr": 2.28,
-    "cpc": 1.71,
+    "spend": 0.0,
+    "impressions": 0,
+    "clicks": 0,
+    "ctr": 0.0,
+    "cpc": 0.0,
     "roas": 0.0,
     "purchases": 0,
     "purchase_value": 0.0,
     "atc": 0,
-    "reach": 605
+    "reach": 0
    },
    {
     "name": "Decor",
@@ -694,8 +684,8 @@
     "status": "ACTIVE",
     "tracked": true,
     "available": true,
-    "sold_30d": 4,
-    "days_cover": 37.5
+    "sold_30d": 3,
+    "days_cover": 50.0
    }
   ],
   "untracked_list": [

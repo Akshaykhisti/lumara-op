@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-10-27T12:41:10Z",
+ "generated_at_utc": "2026-10-27T13:01:19Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-10-27T12:41:10Z"
+   "fetched_at": "2026-10-27T13:01:19Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-10-27T12:41:10Z"
+   "fetched_at": "2026-10-27T13:01:19Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-10-27T12:41:10Z"
+   "fetched_at": "2026-10-27T13:01:19Z"
   }
  },
  "orders": [
@@ -2430,17 +2430,7 @@
  ],
  "ads_daily": [
   {
-   "date": "2026-10-13",
-   "spend": 0.0,
-   "impressions": 0,
-   "clicks": 0,
-   "ctr": 0.0,
-   "cpc": 0.0,
-   "purchases": 0,
-   "purchase_value": 0.0
-  },
-  {
-   "date": "2026-10-27",
+   "date": "2026-10-28",
    "spend": 0.0,
    "impressions": 0,
    "clicks": 0,
@@ -2451,7 +2441,7 @@
   }
  ],
  "ads_today": {
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "spend": 0.0,
   "impressions": 0,
   "clicks": 0,
@@ -2465,31 +2455,31 @@
    "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
    "status": "PAUSED",
    "daily_budget": 40.0,
-   "spend": 1124.59,
-   "impressions": 28672,
-   "clicks": 588,
-   "ctr": 2.05,
-   "cpc": 1.91,
-   "roas": 1.8547,
+   "spend": 1058.93,
+   "impressions": 26637,
+   "clicks": 544,
+   "ctr": 2.04,
+   "cpc": 1.95,
+   "roas": 1.9697,
    "purchases": 6,
    "purchase_value": 2085.76,
-   "atc": 10,
-   "reach": 12221
+   "atc": 9,
+   "reach": 11598
   },
   {
    "name": "Spring Sale 2026 \u2014 AU \u2014 Sales (23 Sep\u201311 Oct)",
    "status": "PAUSED",
    "daily_budget": 100.0,
-   "spend": 29.01,
-   "impressions": 746,
-   "clicks": 17,
-   "ctr": 2.28,
-   "cpc": 1.71,
+   "spend": 0.0,
+   "impressions": 0,
+   "clicks": 0,
+   "ctr": 0.0,
+   "cpc": 0.0,
    "roas": 0.0,
    "purchases": 0,
    "purchase_value": 0.0,
    "atc": 0,
-   "reach": 605
+   "reach": 0
   },
   {
    "name": "Decor",
