@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-10-28T12:12:56Z",
+ "generated_at_utc": "2026-10-28T13:33:49Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-10-28T12:12:56Z"
+   "fetched_at": "2026-10-28T13:33:49Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-10-28T12:12:56Z"
+   "fetched_at": "2026-10-28T13:33:49Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-10-28T12:12:56Z"
+   "fetched_at": "2026-10-28T13:33:49Z"
   }
  },
  "orders": [
@@ -138,20 +138,6 @@
    "fulfillment": "FULFILLED",
    "total": 314.94,
    "customer": "Heather Dowling",
-   "items": [
-    {
-     "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
-     "quantity": 1
-    }
-   ]
-  },
-  {
-   "name": "#1085",
-   "createdAt": "2026-09-28T06:01:53Z",
-   "financial": "PAID",
-   "fulfillment": "FULFILLED",
-   "total": 284.94,
-   "customer": "Alison Coop",
    "items": [
     {
      "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
@@ -2430,7 +2416,7 @@
  ],
  "ads_daily": [
   {
-   "date": "2026-10-28",
+   "date": "2026-10-29",
    "spend": 0.0,
    "impressions": 0,
    "clicks": 0,
@@ -2441,7 +2427,7 @@
   }
  ],
  "ads_today": {
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "spend": 0.0,
   "impressions": 0,
   "clicks": 0,
@@ -2455,16 +2441,16 @@
    "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
    "status": "PAUSED",
    "daily_budget": 40.0,
-   "spend": 1058.93,
-   "impressions": 26637,
-   "clicks": 544,
-   "ctr": 2.04,
-   "cpc": 1.95,
-   "roas": 1.9697,
-   "purchases": 6,
-   "purchase_value": 2085.76,
+   "spend": 956.76,
+   "impressions": 23786,
+   "clicks": 497,
+   "ctr": 2.09,
+   "cpc": 1.93,
+   "roas": 1.8822,
+   "purchases": 5,
+   "purchase_value": 1800.82,
    "atc": 9,
-   "reach": 11598
+   "reach": 10728
   },
   {
    "name": "Spring Sale 2026 \u2014 AU \u2014 Sales (23 Sep\u201311 Oct)",

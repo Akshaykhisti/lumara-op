@@ -3,28 +3,28 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-10-28T12:12:56Z",
-  "generated_at_local": "Wed 28 Oct 2026, 11:12pm AEST",
-  "today": "2026-10-28",
+  "generated_at_utc": "2026-10-28T13:33:49Z",
+  "generated_at_local": "Thu 29 Oct 2026, 12:33am AEST",
+  "today": "2026-10-29",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-10-28T12:12:56Z"
+    "fetched_at": "2026-10-28T13:33:49Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-10-28T12:12:56Z"
+    "fetched_at": "2026-10-28T13:33:49Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-10-28T12:12:56Z"
+    "fetched_at": "2026-10-28T13:33:49Z"
    }
   }
  },
  "alerts": [
   {
    "level": "critical",
-   "title": "No orders for 5 days",
+   "title": "No orders for 6 days",
    "body": "Last order was #1093 on 23 Oct. Ads have spent $0 since the last attributed purchase."
   },
   {
@@ -55,9 +55,9 @@
    "aov": 198.97
   },
   "d30": {
-   "orders": 8,
-   "revenue": 2059.73,
-   "aov": 257.47
+   "orders": 7,
+   "revenue": 1744.79,
+   "aov": 249.26
   },
   "prev7_revenue": 0.0,
   "wow_pct": null,
@@ -78,7 +78,7 @@
   ],
   "abandoned_checkouts": 0,
   "customers_total": 123,
-  "days_since_order": 5,
+  "days_since_order": 6,
   "last_order": {
    "name": "#1093",
    "when": "23 oct, 5:24pm",
@@ -86,12 +86,6 @@
    "customer": "Kellie Miles"
   },
   "daily": [
-   {
-    "date": "2026-09-29",
-    "label": "29 Sep",
-    "orders": 1,
-    "revenue": 314.94
-   },
    {
     "date": "2026-09-30",
     "label": "30 Sep",
@@ -265,6 +259,12 @@
     "label": "28 Oct",
     "orders": 0,
     "revenue": 0.0
+   },
+   {
+    "date": "2026-10-29",
+    "label": "29 Oct",
+    "orders": 0,
+    "revenue": 0.0
    }
   ],
   "recent": [
@@ -348,7 +348,7 @@
    },
    {
     "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
-    "units": 3
+    "units": 2
    },
    {
     "title": "Lumara Monica Green Table Lamp \u2014 Sage Ceramic with Gold Detail",
@@ -398,8 +398,8 @@
   "dry_spend": 0.0,
   "series": [
    {
-    "date": "2026-10-28",
-    "label": "28 Oct",
+    "date": "2026-10-29",
+    "label": "29 Oct",
     "spend": 0.0,
     "revenue": 0.0,
     "purchases": 0,
@@ -413,16 +413,16 @@
     "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
     "status": "PAUSED",
     "daily_budget": 40.0,
-    "spend": 1058.93,
-    "impressions": 26637,
-    "clicks": 544,
-    "ctr": 2.04,
-    "cpc": 1.95,
-    "roas": 1.9697,
-    "purchases": 6,
-    "purchase_value": 2085.76,
+    "spend": 956.76,
+    "impressions": 23786,
+    "clicks": 497,
+    "ctr": 2.09,
+    "cpc": 1.93,
+    "roas": 1.8822,
+    "purchases": 5,
+    "purchase_value": 1800.82,
     "atc": 9,
-    "reach": 11598
+    "reach": 10728
    },
    {
     "name": "Spring Sale 2026 \u2014 AU \u2014 Sales (23 Sep\u201311 Oct)",
@@ -684,8 +684,8 @@
     "status": "ACTIVE",
     "tracked": true,
     "available": true,
-    "sold_30d": 3,
-    "days_cover": 50.0
+    "sold_30d": 2,
+    "days_cover": 75.0
    }
   ],
   "untracked_list": [
