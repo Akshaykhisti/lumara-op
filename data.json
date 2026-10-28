@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-10-28T23:29:24Z",
-  "generated_at_local": "Thu 29 Oct 2026, 10:29am AEST",
+  "generated_at_utc": "2026-10-28T23:49:34Z",
+  "generated_at_local": "Thu 29 Oct 2026, 10:49am AEST",
   "today": "2026-10-29",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-10-28T23:29:24Z"
+    "fetched_at": "2026-10-28T23:49:34Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-10-28T23:29:24Z"
+    "fetched_at": "2026-10-28T23:49:34Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-10-28T23:29:24Z"
+    "fetched_at": "2026-10-28T23:49:34Z"
    }
   }
  },
@@ -34,8 +34,8 @@
   },
   {
    "level": "serious",
-   "title": "2 paid order(s) awaiting fulfilment",
-   "body": "#1091, #1093"
+   "title": "1 paid order(s) awaiting fulfilment",
+   "body": "#1091"
   },
   {
    "level": "warning",
@@ -51,29 +51,23 @@
   },
   "d7": {
    "orders": 1,
-   "revenue": 198.97,
-   "aov": 198.97
+   "revenue": 88.98,
+   "aov": 88.98
   },
   "d30": {
    "orders": 7,
-   "revenue": 1744.79,
-   "aov": 249.26
+   "revenue": 1634.8,
+   "aov": 233.54
   },
   "prev7_revenue": 0.0,
   "wow_pct": null,
-  "pending_fulfilment": 2,
+  "pending_fulfilment": 1,
   "pending_orders": [
    {
     "name": "#1091",
     "createdAt": "2026-10-10T09:24:23Z",
     "total": 0.0,
     "customer": "arlie mccubbin"
-   },
-   {
-    "name": "#1093",
-    "createdAt": "2026-10-23T06:24:46Z",
-    "total": 198.97,
-    "customer": "Kellie Miles"
    }
   ],
   "abandoned_checkouts": 0,
@@ -82,7 +76,7 @@
   "last_order": {
    "name": "#1093",
    "when": "23 oct, 5:24pm",
-   "total": 198.97,
+   "total": 88.98,
    "customer": "Kellie Miles"
   },
   "daily": [
@@ -228,7 +222,7 @@
     "date": "2026-10-23",
     "label": "23 Oct",
     "orders": 1,
-    "revenue": 198.97
+    "revenue": 88.98
    },
    {
     "date": "2026-10-24",
@@ -271,10 +265,10 @@
    {
     "name": "#1093",
     "when": "23 oct, 5:24pm",
-    "total": 198.97,
+    "total": 88.98,
     "customer": "Kellie Miles",
     "fulfillment": "UNFULFILLED",
-    "financial": "PAID",
+    "financial": "PARTIALLY_REFUNDED",
     "items": "Lumara Magnolia Stem \u2014 Real Touch Faux Bloom, Lumara Fern Gold Stem \u2014 Metallic Faux Frond, Lumara Magnolia XL Sculpture \u2014 Wall or Tabletop"
    },
    {
