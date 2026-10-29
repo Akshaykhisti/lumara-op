@@ -3,28 +3,28 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-10-29T12:56:32Z",
-  "generated_at_local": "Thu 29 Oct 2026, 11:56pm AEST",
-  "today": "2026-10-29",
+  "generated_at_utc": "2026-10-29T13:16:43Z",
+  "generated_at_local": "Fri 30 Oct 2026, 12:16am AEST",
+  "today": "2026-10-30",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-10-29T12:56:32Z"
+    "fetched_at": "2026-10-29T13:16:43Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-10-29T12:56:32Z"
+    "fetched_at": "2026-10-29T13:16:43Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-10-29T12:56:32Z"
+    "fetched_at": "2026-10-29T13:16:43Z"
    }
   }
  },
  "alerts": [
   {
    "level": "critical",
-   "title": "No orders for 6 days",
+   "title": "No orders for 7 days",
    "body": "Last order was #1093 on 23 Oct. Ads have spent $0 since the last attributed purchase."
   },
   {
@@ -50,17 +50,17 @@
    "aov": 0.0
   },
   "d7": {
-   "orders": 1,
-   "revenue": 88.98,
-   "aov": 88.98
+   "orders": 0,
+   "revenue": 0.0,
+   "aov": 0.0
   },
   "d30": {
    "orders": 7,
    "revenue": 1634.8,
    "aov": 233.54
   },
-  "prev7_revenue": 0.0,
-  "wow_pct": null,
+  "prev7_revenue": 88.98,
+  "wow_pct": -100.0,
   "pending_fulfilment": 1,
   "pending_orders": [
    {
@@ -72,7 +72,7 @@
   ],
   "abandoned_checkouts": 0,
   "customers_total": 123,
-  "days_since_order": 6,
+  "days_since_order": 7,
   "last_order": {
    "name": "#1093",
    "when": "23 oct, 5:24pm",
@@ -80,12 +80,6 @@
    "customer": "Kellie Miles"
   },
   "daily": [
-   {
-    "date": "2026-09-30",
-    "label": "30 Sep",
-    "orders": 0,
-    "revenue": 0.0
-   },
    {
     "date": "2026-10-01",
     "label": "1 Oct",
@@ -259,6 +253,12 @@
     "label": "29 Oct",
     "orders": 0,
     "revenue": 0.0
+   },
+   {
+    "date": "2026-10-30",
+    "label": "30 Oct",
+    "orders": 0,
+    "revenue": 0.0
    }
   ],
   "recent": [
@@ -324,15 +324,6 @@
     "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Lumara Monica Green Table Lamp \u2014 Sage Ceramic with Gold Detail \u00d72"
-   },
-   {
-    "name": "#1086",
-    "when": "29 sep, 9:38pm",
-    "total": 314.94,
-    "customer": "Heather Dowling",
-    "fulfillment": "FULFILLED",
-    "financial": "PAID",
-    "items": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement"
    }
   ],
   "top_sellers": [
@@ -392,8 +383,8 @@
   "dry_spend": 0.0,
   "series": [
    {
-    "date": "2026-10-29",
-    "label": "29 Oct",
+    "date": "2026-10-30",
+    "label": "30 Oct",
     "spend": 0.0,
     "revenue": 0.0,
     "purchases": 0,
@@ -407,16 +398,16 @@
     "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
     "status": "PAUSED",
     "daily_budget": 40.0,
-    "spend": 956.76,
-    "impressions": 23786,
-    "clicks": 497,
-    "ctr": 2.09,
-    "cpc": 1.93,
-    "roas": 1.8822,
-    "purchases": 5,
-    "purchase_value": 1800.82,
-    "atc": 9,
-    "reach": 10728
+    "spend": 871.49,
+    "impressions": 21369,
+    "clicks": 464,
+    "ctr": 2.17,
+    "cpc": 1.88,
+    "roas": 1.705,
+    "purchases": 4,
+    "purchase_value": 1485.88,
+    "atc": 8,
+    "reach": 9861
    },
    {
     "name": "Spring Sale 2026 \u2014 AU \u2014 Sales (23 Sep\u201311 Oct)",
