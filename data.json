@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-10-29T04:53:09Z",
-  "generated_at_local": "Thu 29 Oct 2026, 3:53pm AEST",
+  "generated_at_utc": "2026-10-29T05:13:19Z",
+  "generated_at_local": "Thu 29 Oct 2026, 4:13pm AEST",
   "today": "2026-10-29",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-10-29T04:53:09Z"
+    "fetched_at": "2026-10-29T05:13:19Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-10-29T04:53:09Z"
+    "fetched_at": "2026-10-29T05:13:19Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-10-29T04:53:09Z"
+    "fetched_at": "2026-10-29T05:13:19Z"
    }
   }
  },
@@ -267,7 +267,7 @@
     "when": "23 oct, 5:24pm",
     "total": 88.98,
     "customer": "Kellie Miles",
-    "fulfillment": "UNFULFILLED",
+    "fulfillment": "FULFILLED",
     "financial": "PARTIALLY_REFUNDED",
     "items": "Lumara Magnolia Stem \u2014 Real Touch Faux Bloom, Lumara Fern Gold Stem \u2014 Metallic Faux Frond, Lumara Magnolia XL Sculpture \u2014 Wall or Tabletop"
    },
