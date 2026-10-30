@@ -3,28 +3,28 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-10-30T11:48:06Z",
-  "generated_at_local": "Fri 30 Oct 2026, 10:48pm AEST",
-  "today": "2026-10-30",
+  "generated_at_utc": "2026-10-30T13:14:18Z",
+  "generated_at_local": "Sat 31 Oct 2026, 12:14am AEST",
+  "today": "2026-10-31",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-10-30T11:48:06Z"
+    "fetched_at": "2026-10-30T13:14:18Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-10-30T11:48:06Z"
+    "fetched_at": "2026-10-30T13:14:18Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-10-30T11:48:06Z"
+    "fetched_at": "2026-10-30T13:14:18Z"
    }
   }
  },
  "alerts": [
   {
    "level": "critical",
-   "title": "No orders for 7 days",
+   "title": "No orders for 8 days",
    "body": "Last order was #1093 on 23 Oct. Ads have spent $0 since the last attributed purchase."
   },
   {
@@ -55,9 +55,9 @@
    "aov": 0.0
   },
   "d30": {
-   "orders": 7,
-   "revenue": 1634.8,
-   "aov": 233.54
+   "orders": 6,
+   "revenue": 1346.82,
+   "aov": 224.47
   },
   "prev7_revenue": 88.98,
   "wow_pct": -100.0,
@@ -72,7 +72,7 @@
   ],
   "abandoned_checkouts": 0,
   "customers_total": 123,
-  "days_since_order": 7,
+  "days_since_order": 8,
   "last_order": {
    "name": "#1093",
    "when": "23 oct, 5:24pm",
@@ -80,12 +80,6 @@
    "customer": "Kellie Miles"
   },
   "daily": [
-   {
-    "date": "2026-10-01",
-    "label": "1 Oct",
-    "orders": 1,
-    "revenue": 287.98
-   },
    {
     "date": "2026-10-02",
     "label": "2 Oct",
@@ -259,6 +253,12 @@
     "label": "30 Oct",
     "orders": 0,
     "revenue": 0.0
+   },
+   {
+    "date": "2026-10-31",
+    "label": "31 Oct",
+    "orders": 0,
+    "revenue": 0.0
    }
   ],
   "recent": [
@@ -336,10 +336,6 @@
     "units": 2
    },
    {
-    "title": "Lumara Monica Green Table Lamp \u2014 Sage Ceramic with Gold Detail",
-    "units": 2
-   },
-   {
     "title": "Lumara Magnolia Stem \u2014 Real Touch Faux Bloom",
     "units": 1
    },
@@ -349,6 +345,10 @@
    },
    {
     "title": "Lumara Magnolia XL Sculpture \u2014 Wall or Tabletop",
+    "units": 1
+   },
+   {
+    "title": "Lumara Alegra Statement Vase \u2014 Sculptural Metal",
     "units": 1
    }
   ]
@@ -383,8 +383,8 @@
   "dry_spend": 0.0,
   "series": [
    {
-    "date": "2026-10-30",
-    "label": "30 Oct",
+    "date": "2026-10-31",
+    "label": "31 Oct",
     "spend": 0.0,
     "revenue": 0.0,
     "purchases": 0,
@@ -398,16 +398,16 @@
     "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
     "status": "PAUSED",
     "daily_budget": 40.0,
-    "spend": 871.49,
-    "impressions": 21369,
-    "clicks": 464,
-    "ctr": 2.17,
-    "cpc": 1.88,
-    "roas": 1.705,
+    "spend": 776.5,
+    "impressions": 19079,
+    "clicks": 428,
+    "ctr": 2.24,
+    "cpc": 1.81,
+    "roas": 1.9136,
     "purchases": 4,
     "purchase_value": 1485.88,
-    "atc": 8,
-    "reach": 9861
+    "atc": 6,
+    "reach": 9053
    },
    {
     "name": "Spring Sale 2026 \u2014 AU \u2014 Sales (23 Sep\u201311 Oct)",
