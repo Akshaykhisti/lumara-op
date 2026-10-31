@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-10-31T12:56:06Z",
+ "generated_at_utc": "2026-10-31T13:16:15Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-10-31T12:56:06Z"
+   "fetched_at": "2026-10-31T13:16:15Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-10-31T12:56:06Z"
+   "fetched_at": "2026-10-31T13:16:15Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-10-31T12:56:06Z"
+   "fetched_at": "2026-10-31T13:16:15Z"
   }
  },
  "orders": [
@@ -113,20 +113,6 @@
    "items": [
     {
      "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
-     "quantity": 2
-    }
-   ]
-  },
-  {
-   "name": "#1087",
-   "createdAt": "2026-10-01T04:17:39Z",
-   "financial": "PAID",
-   "fulfillment": "FULFILLED",
-   "total": 287.98,
-   "customer": "Catherine Jones",
-   "items": [
-    {
-     "title": "Lumara Monica Green Table Lamp \u2014 Sage Ceramic with Gold Detail",
      "quantity": 2
     }
    ]
@@ -2396,7 +2382,7 @@
  ],
  "ads_daily": [
   {
-   "date": "2026-10-31",
+   "date": "2026-11-01",
    "spend": 0.0,
    "impressions": 0,
    "clicks": 0,
@@ -2407,7 +2393,7 @@
   }
  ],
  "ads_today": {
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "spend": 0.0,
   "impressions": 0,
   "clicks": 0,
@@ -2421,16 +2407,16 @@
    "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
    "status": "PAUSED",
    "daily_budget": 40.0,
-   "spend": 776.5,
-   "impressions": 19079,
-   "clicks": 428,
-   "ctr": 2.24,
-   "cpc": 1.81,
-   "roas": 1.9136,
-   "purchases": 4,
-   "purchase_value": 1485.88,
-   "atc": 6,
-   "reach": 9053
+   "spend": 653.46,
+   "impressions": 16304,
+   "clicks": 358,
+   "ctr": 2.2,
+   "cpc": 1.83,
+   "roas": 1.8332,
+   "purchases": 3,
+   "purchase_value": 1197.9,
+   "atc": 5,
+   "reach": 7882
   },
   {
    "name": "Spring Sale 2026 \u2014 AU \u2014 Sales (23 Sep\u201311 Oct)",

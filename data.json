@@ -3,28 +3,28 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-10-31T12:56:06Z",
-  "generated_at_local": "Sat 31 Oct 2026, 11:56pm AEST",
-  "today": "2026-10-31",
+  "generated_at_utc": "2026-10-31T13:16:15Z",
+  "generated_at_local": "Sun 1 Nov 2026, 12:16am AEST",
+  "today": "2026-11-01",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-10-31T12:56:06Z"
+    "fetched_at": "2026-10-31T13:16:15Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-10-31T12:56:06Z"
+    "fetched_at": "2026-10-31T13:16:15Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-10-31T12:56:06Z"
+    "fetched_at": "2026-10-31T13:16:15Z"
    }
   }
  },
  "alerts": [
   {
    "level": "critical",
-   "title": "No orders for 8 days",
+   "title": "No orders for 9 days",
    "body": "Last order was #1093 on 23 Oct. Ads have spent $0 since the last attributed purchase."
   },
   {
@@ -55,9 +55,9 @@
    "aov": 0.0
   },
   "d30": {
-   "orders": 6,
-   "revenue": 1346.82,
-   "aov": 224.47
+   "orders": 4,
+   "revenue": 625.85,
+   "aov": 156.46
   },
   "prev7_revenue": 88.98,
   "wow_pct": -100.0,
@@ -72,7 +72,7 @@
   ],
   "abandoned_checkouts": 0,
   "customers_total": 123,
-  "days_since_order": 8,
+  "days_since_order": 9,
   "last_order": {
    "name": "#1093",
    "when": "23 oct, 5:24pm",
@@ -80,12 +80,6 @@
    "customer": "Kellie Miles"
   },
   "daily": [
-   {
-    "date": "2026-10-02",
-    "label": "2 Oct",
-    "orders": 2,
-    "revenue": 720.97
-   },
    {
     "date": "2026-10-03",
     "label": "3 Oct",
@@ -259,6 +253,12 @@
     "label": "31 Oct",
     "orders": 0,
     "revenue": 0.0
+   },
+   {
+    "date": "2026-11-01",
+    "label": "1 Nov",
+    "orders": 0,
+    "revenue": 0.0
    }
   ],
   "recent": [
@@ -315,24 +315,11 @@
     "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement \u00d72"
-   },
-   {
-    "name": "#1087",
-    "when": "1 oct, 2:17pm",
-    "total": 287.98,
-    "customer": "Catherine Jones",
-    "fulfillment": "FULFILLED",
-    "financial": "PAID",
-    "items": "Lumara Monica Green Table Lamp \u2014 Sage Ceramic with Gold Detail \u00d72"
    }
   ],
   "top_sellers": [
    {
     "title": "Lumara Spice Table Lamp \u2014 Caramel Ribbed Ceramic with Linen Shade",
-    "units": 3
-   },
-   {
-    "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
     "units": 2
    },
    {
@@ -349,6 +336,10 @@
    },
    {
     "title": "Lumara Alegra Statement Vase \u2014 Sculptural Metal",
+    "units": 1
+   },
+   {
+    "title": "Lumara Frog Lily Water Bowl",
     "units": 1
    }
   ]
@@ -383,8 +374,8 @@
   "dry_spend": 0.0,
   "series": [
    {
-    "date": "2026-10-31",
-    "label": "31 Oct",
+    "date": "2026-11-01",
+    "label": "1 Nov",
     "spend": 0.0,
     "revenue": 0.0,
     "purchases": 0,
@@ -398,16 +389,16 @@
     "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
     "status": "PAUSED",
     "daily_budget": 40.0,
-    "spend": 776.5,
-    "impressions": 19079,
-    "clicks": 428,
-    "ctr": 2.24,
-    "cpc": 1.81,
-    "roas": 1.9136,
-    "purchases": 4,
-    "purchase_value": 1485.88,
-    "atc": 6,
-    "reach": 9053
+    "spend": 653.46,
+    "impressions": 16304,
+    "clicks": 358,
+    "ctr": 2.2,
+    "cpc": 1.83,
+    "roas": 1.8332,
+    "purchases": 3,
+    "purchase_value": 1197.9,
+    "atc": 5,
+    "reach": 7882
    },
    {
     "name": "Spring Sale 2026 \u2014 AU \u2014 Sales (23 Sep\u201311 Oct)",
@@ -669,8 +660,8 @@
     "status": "ACTIVE",
     "tracked": true,
     "available": true,
-    "sold_30d": 2,
-    "days_cover": 75.0
+    "sold_30d": 0,
+    "days_cover": null
    }
   ],
   "untracked_list": [
