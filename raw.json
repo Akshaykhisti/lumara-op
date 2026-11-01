@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-11-01T22:01:08Z",
+ "generated_at_utc": "2026-11-01T22:21:18Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-11-01T22:01:08Z"
+   "fetched_at": "2026-11-01T22:21:18Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-11-01T22:01:08Z"
+   "fetched_at": "2026-11-01T22:21:18Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-11-01T22:01:08Z"
+   "fetched_at": "2026-11-01T22:21:18Z"
   }
  },
  "orders": [
@@ -745,7 +745,7 @@
    "sku": "JI2028-4",
    "qty": 0,
    "price": 17.99,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": false,
    "available": true
   },
@@ -754,7 +754,7 @@
    "sku": "JI2028-4-X2",
    "qty": 0,
    "price": 31.99,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": false,
    "available": true
   },
@@ -763,7 +763,7 @@
    "sku": "JI2028-4-X3",
    "qty": 0,
    "price": 39.99,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": false,
    "available": true
   },
