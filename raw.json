@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-11-01T12:37:52Z",
+ "generated_at_utc": "2026-11-01T14:21:35Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-11-01T12:37:52Z"
+   "fetched_at": "2026-11-01T14:21:35Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-11-01T12:37:52Z"
+   "fetched_at": "2026-11-01T14:21:35Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-11-01T12:37:52Z"
+   "fetched_at": "2026-11-01T14:21:35Z"
   }
  },
  "orders": [
@@ -85,34 +85,6 @@
    "items": [
     {
      "title": "Lumara Spice Table Lamp \u2014 Caramel Ribbed Ceramic with Linen Shade",
-     "quantity": 2
-    }
-   ]
-  },
-  {
-   "name": "#1089",
-   "createdAt": "2026-10-01T23:56:46Z",
-   "financial": "PAID",
-   "fulfillment": "FULFILLED",
-   "total": 210.99,
-   "customer": "Nicole McDiarmid",
-   "items": [
-    {
-     "title": "Lumara Spice Table Lamp \u2014 Caramel Ribbed Ceramic with Linen Shade",
-     "quantity": 1
-    }
-   ]
-  },
-  {
-   "name": "#1088",
-   "createdAt": "2026-10-01T21:40:06Z",
-   "financial": "PAID",
-   "fulfillment": "FULFILLED",
-   "total": 509.98,
-   "customer": "Mary Galea",
-   "items": [
-    {
-     "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
      "quantity": 2
     }
    ]
@@ -2382,7 +2354,7 @@
  ],
  "ads_daily": [
   {
-   "date": "2026-11-01",
+   "date": "2026-11-02",
    "spend": 0.0,
    "impressions": 0,
    "clicks": 0,
@@ -2393,7 +2365,7 @@
   }
  ],
  "ads_today": {
-  "date": "2026-11-01",
+  "date": "2026-11-02",
   "spend": 0.0,
   "impressions": 0,
   "clicks": 0,
@@ -2407,16 +2379,16 @@
    "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
    "status": "PAUSED",
    "daily_budget": 40.0,
-   "spend": 653.46,
-   "impressions": 16304,
-   "clicks": 358,
-   "ctr": 2.2,
-   "cpc": 1.83,
-   "roas": 1.8332,
-   "purchases": 3,
-   "purchase_value": 1197.9,
-   "atc": 5,
-   "reach": 7882
+   "spend": 534.65,
+   "impressions": 13695,
+   "clicks": 294,
+   "ctr": 2.15,
+   "cpc": 1.82,
+   "roas": 0.892,
+   "purchases": 1,
+   "purchase_value": 476.93,
+   "atc": 3,
+   "reach": 6779
   },
   {
    "name": "Spring Sale 2026 \u2014 AU \u2014 Sales (23 Sep\u201311 Oct)",

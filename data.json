@@ -3,28 +3,28 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-11-01T12:37:52Z",
-  "generated_at_local": "Sun 1 Nov 2026, 11:37pm AEST",
-  "today": "2026-11-01",
+  "generated_at_utc": "2026-11-01T14:21:35Z",
+  "generated_at_local": "Mon 2 Nov 2026, 1:21am AEST",
+  "today": "2026-11-02",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-11-01T12:37:52Z"
+    "fetched_at": "2026-11-01T14:21:35Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-11-01T12:37:52Z"
+    "fetched_at": "2026-11-01T14:21:35Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-11-01T12:37:52Z"
+    "fetched_at": "2026-11-01T14:21:35Z"
    }
   }
  },
  "alerts": [
   {
    "level": "critical",
-   "title": "No orders for 9 days",
+   "title": "No orders for 10 days",
    "body": "Last order was #1093 on 23 Oct. Ads have spent $0 since the last attributed purchase."
   },
   {
@@ -72,7 +72,7 @@
   ],
   "abandoned_checkouts": 0,
   "customers_total": 123,
-  "days_since_order": 9,
+  "days_since_order": 10,
   "last_order": {
    "name": "#1093",
    "when": "23 oct, 5:24pm",
@@ -80,12 +80,6 @@
    "customer": "Kellie Miles"
   },
   "daily": [
-   {
-    "date": "2026-10-03",
-    "label": "3 Oct",
-    "orders": 0,
-    "revenue": 0.0
-   },
    {
     "date": "2026-10-04",
     "label": "4 Oct",
@@ -259,6 +253,12 @@
     "label": "1 Nov",
     "orders": 0,
     "revenue": 0.0
+   },
+   {
+    "date": "2026-11-02",
+    "label": "2 Nov",
+    "orders": 0,
+    "revenue": 0.0
    }
   ],
   "recent": [
@@ -297,24 +297,6 @@
     "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Lumara Spice Table Lamp \u2014 Caramel Ribbed Ceramic with Linen Shade \u00d72"
-   },
-   {
-    "name": "#1089",
-    "when": "2 oct, 9:56am",
-    "total": 210.99,
-    "customer": "Nicole McDiarmid",
-    "fulfillment": "FULFILLED",
-    "financial": "PAID",
-    "items": "Lumara Spice Table Lamp \u2014 Caramel Ribbed Ceramic with Linen Shade"
-   },
-   {
-    "name": "#1088",
-    "when": "2 oct, 7:40am",
-    "total": 509.98,
-    "customer": "Mary Galea",
-    "fulfillment": "FULFILLED",
-    "financial": "PAID",
-    "items": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement \u00d72"
    }
   ],
   "top_sellers": [
@@ -374,8 +356,8 @@
   "dry_spend": 0.0,
   "series": [
    {
-    "date": "2026-11-01",
-    "label": "1 Nov",
+    "date": "2026-11-02",
+    "label": "2 Nov",
     "spend": 0.0,
     "revenue": 0.0,
     "purchases": 0,
@@ -389,16 +371,16 @@
     "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
     "status": "PAUSED",
     "daily_budget": 40.0,
-    "spend": 653.46,
-    "impressions": 16304,
-    "clicks": 358,
-    "ctr": 2.2,
-    "cpc": 1.83,
-    "roas": 1.8332,
-    "purchases": 3,
-    "purchase_value": 1197.9,
-    "atc": 5,
-    "reach": 7882
+    "spend": 534.65,
+    "impressions": 13695,
+    "clicks": 294,
+    "ctr": 2.15,
+    "cpc": 1.82,
+    "roas": 0.892,
+    "purchases": 1,
+    "purchase_value": 476.93,
+    "atc": 3,
+    "reach": 6779
    },
    {
     "name": "Spring Sale 2026 \u2014 AU \u2014 Sales (23 Sep\u201311 Oct)",
