@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-11-01T21:40:58Z",
+ "generated_at_utc": "2026-11-01T22:01:08Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-11-01T21:40:58Z"
+   "fetched_at": "2026-11-01T22:01:08Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-11-01T21:40:58Z"
+   "fetched_at": "2026-11-01T22:01:08Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-11-01T21:40:58Z"
+   "fetched_at": "2026-11-01T22:01:08Z"
   }
  },
  "orders": [
@@ -880,7 +880,7 @@
    "sku": "LD9306-4",
    "qty": 0,
    "price": 36.99,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": false,
    "available": true
   },
@@ -889,7 +889,7 @@
    "sku": "LD9306-4-X2",
    "qty": -1,
    "price": 66.99,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": false,
    "available": true
   },
@@ -898,7 +898,7 @@
    "sku": "LD9306-4-X3",
    "qty": 0,
    "price": 82.99,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": false,
    "available": true
   },

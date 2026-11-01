@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-11-01T21:40:58Z",
-  "generated_at_local": "Mon 2 Nov 2026, 8:40am AEST",
+  "generated_at_utc": "2026-11-01T22:01:08Z",
+  "generated_at_local": "Mon 2 Nov 2026, 9:01am AEST",
   "today": "2026-11-02",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-11-01T21:40:58Z"
+    "fetched_at": "2026-11-01T22:01:08Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-11-01T21:40:58Z"
+    "fetched_at": "2026-11-01T22:01:08Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-11-01T21:40:58Z"
+    "fetched_at": "2026-11-01T22:01:08Z"
    }
   }
  },
@@ -505,13 +505,13 @@
   ]
  },
  "stock": {
-  "sellable_skus": 129,
+  "sellable_skus": 126,
   "tracked_skus": 79,
   "out_of_stock": 4,
   "low": 6,
   "watch": 1,
   "healthy": 68,
-  "untracked": 50,
+  "untracked": 47,
   "stock_value": 79948.6,
   "oos_list": [
    {
@@ -774,28 +774,10 @@
     "available": true
    },
    {
-    "title": "Lumara Magnolia Stem \u2014 Real Touch Faux Bloom",
-    "sku": "LD9306-4-X3",
-    "qty": 0,
-    "price": 82.99,
-    "status": "ACTIVE",
-    "tracked": false,
-    "available": true
-   },
-   {
     "title": "Lumara Banksia Stem \u2014 Amber Faux Native",
     "sku": "JI2044-4-X2",
     "qty": 0,
     "price": 68.99,
-    "status": "ACTIVE",
-    "tracked": false,
-    "available": true
-   },
-   {
-    "title": "Lumara Magnolia Stem \u2014 Real Touch Faux Bloom",
-    "sku": "LD9306-4-X2",
-    "qty": -1,
-    "price": 66.99,
     "status": "ACTIVE",
     "tracked": false,
     "available": true
@@ -823,6 +805,24 @@
     "sku": "LD9311-4-X3",
     "qty": 0,
     "price": 53.99,
+    "status": "ACTIVE",
+    "tracked": false,
+    "available": true
+   },
+   {
+    "title": "Lumara Kangaroo Paw Stem \u2014 Faux Native Bloom",
+    "sku": "JI2043-4-X2",
+    "qty": 0,
+    "price": 52.99,
+    "status": "ACTIVE",
+    "tracked": false,
+    "available": true
+   },
+   {
+    "title": "Lumara Ivory Gum Stem \u2014 Faux Foliage Branch",
+    "sku": "LD7363-4-X3",
+    "qty": 0,
+    "price": 47.99,
     "status": "ACTIVE",
     "tracked": false,
     "available": true
