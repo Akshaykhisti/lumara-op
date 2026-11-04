@@ -3,28 +3,28 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-11-04T12:59:15Z",
-  "generated_at_local": "Wed 4 Nov 2026, 11:59pm AEST",
-  "today": "2026-11-04",
+  "generated_at_utc": "2026-11-04T13:19:25Z",
+  "generated_at_local": "Thu 5 Nov 2026, 12:19am AEST",
+  "today": "2026-11-05",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-11-04T12:59:15Z"
+    "fetched_at": "2026-11-04T13:19:25Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-11-04T12:59:15Z"
+    "fetched_at": "2026-11-04T13:19:25Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-11-04T12:59:15Z"
+    "fetched_at": "2026-11-04T13:19:25Z"
    }
   }
  },
  "alerts": [
   {
    "level": "critical",
-   "title": "No orders for 12 days",
+   "title": "No orders for 13 days",
    "body": "Last order was #1093 on 23 Oct. Ads have spent $0 since the last attributed purchase."
   },
   {
@@ -55,9 +55,9 @@
    "aov": 0.0
   },
   "d30": {
-   "orders": 4,
-   "revenue": 625.85,
-   "aov": 156.46
+   "orders": 3,
+   "revenue": 148.92,
+   "aov": 49.64
   },
   "prev7_revenue": 88.98,
   "wow_pct": -100.0,
@@ -72,7 +72,7 @@
   ],
   "abandoned_checkouts": 0,
   "customers_total": 123,
-  "days_since_order": 12,
+  "days_since_order": 13,
   "last_order": {
    "name": "#1093",
    "when": "23 oct, 5:24pm",
@@ -80,12 +80,6 @@
    "customer": "Kellie Miles"
   },
   "daily": [
-   {
-    "date": "2026-10-06",
-    "label": "6 Oct",
-    "orders": 1,
-    "revenue": 476.93
-   },
    {
     "date": "2026-10-07",
     "label": "7 Oct",
@@ -259,6 +253,12 @@
     "label": "4 Nov",
     "orders": 0,
     "revenue": 0.0
+   },
+   {
+    "date": "2026-11-05",
+    "label": "5 Nov",
+    "orders": 0,
+    "revenue": 0.0
    }
   ],
   "recent": [
@@ -301,10 +301,6 @@
   ],
   "top_sellers": [
    {
-    "title": "Lumara Spice Table Lamp \u2014 Caramel Ribbed Ceramic with Linen Shade",
-    "units": 2
-   },
-   {
     "title": "Lumara Magnolia Stem \u2014 Real Touch Faux Bloom",
     "units": 1
    },
@@ -322,6 +318,10 @@
    },
    {
     "title": "Lumara Frog Lily Water Bowl",
+    "units": 1
+   },
+   {
+    "title": "Lumara Nishi Table Lamp \u2014 Contemporary Ceramic Style",
     "units": 1
    }
   ]
@@ -356,8 +356,8 @@
   "dry_spend": 0.0,
   "series": [
    {
-    "date": "2026-11-04",
-    "label": "4 Nov",
+    "date": "2026-11-05",
+    "label": "5 Nov",
     "spend": 0.0,
     "revenue": 0.0,
     "purchases": 0,
@@ -371,16 +371,16 @@
     "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
     "status": "PAUSED",
     "daily_budget": 40.0,
-    "spend": 309.57,
-    "impressions": 7336,
-    "clicks": 171,
-    "ctr": 2.33,
-    "cpc": 1.81,
-    "roas": 1.5406,
+    "spend": 164.41,
+    "impressions": 4087,
+    "clicks": 98,
+    "ctr": 2.4,
+    "cpc": 1.68,
+    "roas": 2.9009,
     "purchases": 1,
     "purchase_value": 476.93,
     "atc": 1,
-    "reach": 3775
+    "reach": 2141
    },
    {
     "name": "Spring Sale 2026 \u2014 AU \u2014 Sales (23 Sep\u201311 Oct)",
