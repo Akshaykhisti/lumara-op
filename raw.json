@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-11-05T12:52:23Z",
+ "generated_at_utc": "2026-11-05T13:12:32Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-11-05T12:52:23Z"
+   "fetched_at": "2026-11-05T13:12:32Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-11-05T12:52:23Z"
+   "fetched_at": "2026-11-05T13:12:32Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-11-05T12:52:23Z"
+   "fetched_at": "2026-11-05T13:12:32Z"
   }
  },
  "orders": [
@@ -72,20 +72,6 @@
     {
      "title": "Lumara Nishi Table Lamp \u2014 Contemporary Ceramic Style",
      "quantity": 1
-    }
-   ]
-  },
-  {
-   "name": "#1090",
-   "createdAt": "2026-10-06T12:03:24Z",
-   "financial": "PAID",
-   "fulfillment": "FULFILLED",
-   "total": 476.93,
-   "customer": "Grace Ricciardo",
-   "items": [
-    {
-     "title": "Lumara Spice Table Lamp \u2014 Caramel Ribbed Ceramic with Linen Shade",
-     "quantity": 2
     }
    ]
   }
@@ -2354,7 +2340,7 @@
  ],
  "ads_daily": [
   {
-   "date": "2026-11-05",
+   "date": "2026-11-06",
    "spend": 0.0,
    "impressions": 0,
    "clicks": 0,
@@ -2365,7 +2351,7 @@
   }
  ],
  "ads_today": {
-  "date": "2026-11-05",
+  "date": "2026-11-06",
   "spend": 0.0,
   "impressions": 0,
   "clicks": 0,
@@ -2379,16 +2365,16 @@
    "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
    "status": "PAUSED",
    "daily_budget": 40.0,
-   "spend": 164.41,
-   "impressions": 4087,
-   "clicks": 98,
-   "ctr": 2.4,
-   "cpc": 1.68,
-   "roas": 2.9009,
-   "purchases": 1,
-   "purchase_value": 476.93,
-   "atc": 1,
-   "reach": 2141
+   "spend": 81.66,
+   "impressions": 2323,
+   "clicks": 43,
+   "ctr": 1.85,
+   "cpc": 1.9,
+   "roas": 0.0,
+   "purchases": 0,
+   "purchase_value": 0.0,
+   "atc": 0,
+   "reach": 1299
   },
   {
    "name": "Spring Sale 2026 \u2014 AU \u2014 Sales (23 Sep\u201311 Oct)",

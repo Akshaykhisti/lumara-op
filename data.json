@@ -3,28 +3,28 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-11-05T12:52:23Z",
-  "generated_at_local": "Thu 5 Nov 2026, 11:52pm AEST",
-  "today": "2026-11-05",
+  "generated_at_utc": "2026-11-05T13:12:32Z",
+  "generated_at_local": "Fri 6 Nov 2026, 12:12am AEST",
+  "today": "2026-11-06",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-11-05T12:52:23Z"
+    "fetched_at": "2026-11-05T13:12:32Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-11-05T12:52:23Z"
+    "fetched_at": "2026-11-05T13:12:32Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-11-05T12:52:23Z"
+    "fetched_at": "2026-11-05T13:12:32Z"
    }
   }
  },
  "alerts": [
   {
    "level": "critical",
-   "title": "No orders for 13 days",
+   "title": "No orders for 14 days",
    "body": "Last order was #1093 on 23 Oct. Ads have spent $0 since the last attributed purchase."
   },
   {
@@ -59,8 +59,8 @@
    "revenue": 148.92,
    "aov": 49.64
   },
-  "prev7_revenue": 88.98,
-  "wow_pct": -100.0,
+  "prev7_revenue": 0.0,
+  "wow_pct": null,
   "pending_fulfilment": 1,
   "pending_orders": [
    {
@@ -72,7 +72,7 @@
   ],
   "abandoned_checkouts": 0,
   "customers_total": 123,
-  "days_since_order": 13,
+  "days_since_order": 14,
   "last_order": {
    "name": "#1093",
    "when": "23 oct, 5:24pm",
@@ -80,12 +80,6 @@
    "customer": "Kellie Miles"
   },
   "daily": [
-   {
-    "date": "2026-10-07",
-    "label": "7 Oct",
-    "orders": 0,
-    "revenue": 0.0
-   },
    {
     "date": "2026-10-08",
     "label": "8 Oct",
@@ -259,6 +253,12 @@
     "label": "5 Nov",
     "orders": 0,
     "revenue": 0.0
+   },
+   {
+    "date": "2026-11-06",
+    "label": "6 Nov",
+    "orders": 0,
+    "revenue": 0.0
    }
   ],
   "recent": [
@@ -288,15 +288,6 @@
     "fulfillment": "UNFULFILLED",
     "financial": "PAID",
     "items": "Lumara Frog Lily Water Bowl, Lumara Nishi Table Lamp \u2014 Contemporary Ceramic Style"
-   },
-   {
-    "name": "#1090",
-    "when": "6 oct, 11:03pm",
-    "total": 476.93,
-    "customer": "Grace Ricciardo",
-    "fulfillment": "FULFILLED",
-    "financial": "PAID",
-    "items": "Lumara Spice Table Lamp \u2014 Caramel Ribbed Ceramic with Linen Shade \u00d72"
    }
   ],
   "top_sellers": [
@@ -356,8 +347,8 @@
   "dry_spend": 0.0,
   "series": [
    {
-    "date": "2026-11-05",
-    "label": "5 Nov",
+    "date": "2026-11-06",
+    "label": "6 Nov",
     "spend": 0.0,
     "revenue": 0.0,
     "purchases": 0,
@@ -371,16 +362,16 @@
     "name": "Lumara \u2014 Sales \u2014 Accessories \u2014 FB+IG (Jul 2026)",
     "status": "PAUSED",
     "daily_budget": 40.0,
-    "spend": 164.41,
-    "impressions": 4087,
-    "clicks": 98,
-    "ctr": 2.4,
-    "cpc": 1.68,
-    "roas": 2.9009,
-    "purchases": 1,
-    "purchase_value": 476.93,
-    "atc": 1,
-    "reach": 2141
+    "spend": 81.66,
+    "impressions": 2323,
+    "clicks": 43,
+    "ctr": 1.85,
+    "cpc": 1.9,
+    "roas": 0.0,
+    "purchases": 0,
+    "purchase_value": 0.0,
+    "atc": 0,
+    "reach": 1299
    },
    {
     "name": "Spring Sale 2026 \u2014 AU \u2014 Sales (23 Sep\u201311 Oct)",
