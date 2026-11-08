@@ -3,34 +3,29 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-11-08T12:48:53Z",
-  "generated_at_local": "Sun 8 Nov 2026, 11:48pm AEST",
-  "today": "2026-11-08",
+  "generated_at_utc": "2026-11-08T13:09:02Z",
+  "generated_at_local": "Mon 9 Nov 2026, 12:09am AEST",
+  "today": "2026-11-09",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-11-08T12:48:53Z"
+    "fetched_at": "2026-11-08T13:09:02Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-11-08T12:48:53Z"
+    "fetched_at": "2026-11-08T13:09:02Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-11-08T12:48:53Z"
+    "fetched_at": "2026-11-08T13:09:02Z"
    }
   }
  },
  "alerts": [
   {
    "level": "critical",
-   "title": "No orders for 16 days",
+   "title": "No orders for 17 days",
    "body": "Last order was #1093 on 23 Oct. Ads have spent $0 since the last attributed purchase."
-  },
-  {
-   "level": "serious",
-   "title": "1 product(s) sold in the last 30d are out of stock",
-   "body": "Lumara Frog Lily Water Bowl. Still listed as active \u2014 they take traffic and convert nothing."
   },
   {
    "level": "serious",
@@ -55,9 +50,9 @@
    "aov": 0.0
   },
   "d30": {
-   "orders": 3,
+   "orders": 2,
    "revenue": 148.92,
-   "aov": 49.64
+   "aov": 74.46
   },
   "prev7_revenue": 0.0,
   "wow_pct": null,
@@ -72,7 +67,7 @@
   ],
   "abandoned_checkouts": 0,
   "customers_total": 123,
-  "days_since_order": 16,
+  "days_since_order": 17,
   "last_order": {
    "name": "#1093",
    "when": "23 oct, 5:24pm",
@@ -80,12 +75,6 @@
    "customer": "Kellie Miles"
   },
   "daily": [
-   {
-    "date": "2026-10-10",
-    "label": "10 Oct",
-    "orders": 1,
-    "revenue": 0.0
-   },
    {
     "date": "2026-10-11",
     "label": "11 Oct",
@@ -259,6 +248,12 @@
     "label": "8 Nov",
     "orders": 0,
     "revenue": 0.0
+   },
+   {
+    "date": "2026-11-09",
+    "label": "9 Nov",
+    "orders": 0,
+    "revenue": 0.0
    }
   ],
   "recent": [
@@ -306,14 +301,6 @@
    {
     "title": "Lumara Alegra Statement Vase \u2014 Sculptural Metal",
     "units": 1
-   },
-   {
-    "title": "Lumara Frog Lily Water Bowl",
-    "units": 1
-   },
-   {
-    "title": "Lumara Nishi Table Lamp \u2014 Contemporary Ceramic Style",
-    "units": 1
    }
   ]
  },
@@ -347,8 +334,8 @@
   "dry_spend": 0.0,
   "series": [
    {
-    "date": "2026-11-08",
-    "label": "8 Nov",
+    "date": "2026-11-09",
+    "label": "9 Nov",
     "spend": 0.0,
     "revenue": 0.0,
     "purchases": 0,
@@ -543,21 +530,10 @@
     "status": "ACTIVE",
     "tracked": true,
     "available": false,
-    "sold_30d": 1
+    "sold_30d": 0
    }
   ],
-  "oos_sellers": [
-   {
-    "title": "Lumara Frog Lily Water Bowl",
-    "sku": "CM6023-1",
-    "qty": 0,
-    "price": 31.95,
-    "status": "ACTIVE",
-    "tracked": true,
-    "available": false,
-    "sold_30d": 1
-   }
-  ],
+  "oos_sellers": [],
   "low_list": [
    {
     "title": "Lumara Alegra Statement Vase \u2014 Sculptural Metal",
