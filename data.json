@@ -3,28 +3,28 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-11-09T11:07:24Z",
-  "generated_at_local": "Mon 9 Nov 2026, 10:07pm AEST",
-  "today": "2026-11-09",
+  "generated_at_utc": "2026-11-09T14:20:07Z",
+  "generated_at_local": "Tue 10 Nov 2026, 1:20am AEST",
+  "today": "2026-11-10",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-11-09T11:07:24Z"
+    "fetched_at": "2026-11-09T14:20:07Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-11-09T11:07:24Z"
+    "fetched_at": "2026-11-09T14:20:07Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-11-09T11:07:24Z"
+    "fetched_at": "2026-11-09T14:20:07Z"
    }
   }
  },
  "alerts": [
   {
    "level": "critical",
-   "title": "No orders for 17 days",
+   "title": "No orders for 18 days",
    "body": "Last order was #1093 on 23 Oct. Ads have spent $0 since the last attributed purchase."
   },
   {
@@ -67,7 +67,7 @@
   ],
   "abandoned_checkouts": 0,
   "customers_total": 123,
-  "days_since_order": 17,
+  "days_since_order": 18,
   "last_order": {
    "name": "#1093",
    "when": "23 oct, 5:24pm",
@@ -75,12 +75,6 @@
    "customer": "Kellie Miles"
   },
   "daily": [
-   {
-    "date": "2026-10-11",
-    "label": "11 Oct",
-    "orders": 0,
-    "revenue": 0.0
-   },
    {
     "date": "2026-10-12",
     "label": "12 Oct",
@@ -254,6 +248,12 @@
     "label": "9 Nov",
     "orders": 0,
     "revenue": 0.0
+   },
+   {
+    "date": "2026-11-10",
+    "label": "10 Nov",
+    "orders": 0,
+    "revenue": 0.0
    }
   ],
   "recent": [
@@ -274,15 +274,6 @@
     "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Lumara Alegra Statement Vase \u2014 Sculptural Metal"
-   },
-   {
-    "name": "#1091",
-    "when": "10 oct, 8:24pm",
-    "total": 0.0,
-    "customer": "arlie mccubbin",
-    "fulfillment": "UNFULFILLED",
-    "financial": "PAID",
-    "items": "Lumara Frog Lily Water Bowl, Lumara Nishi Table Lamp \u2014 Contemporary Ceramic Style"
    }
   ],
   "top_sellers": [
@@ -334,8 +325,8 @@
   "dry_spend": 0.0,
   "series": [
    {
-    "date": "2026-11-09",
-    "label": "9 Nov",
+    "date": "2026-11-10",
+    "label": "10 Nov",
     "spend": 0.0,
     "revenue": 0.0,
     "purchases": 0,
