@@ -3,34 +3,29 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-11-10T08:31:36Z",
-  "generated_at_local": "Tue 10 Nov 2026, 7:31pm AEST",
+  "generated_at_utc": "2026-11-10T08:51:43Z",
+  "generated_at_local": "Tue 10 Nov 2026, 7:51pm AEST",
   "today": "2026-11-10",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-11-10T08:31:36Z"
+    "fetched_at": "2026-11-10T08:51:43Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-11-10T08:31:36Z"
+    "fetched_at": "2026-11-10T08:51:43Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-11-10T08:31:36Z"
+    "fetched_at": "2026-11-10T08:51:43Z"
    }
   }
  },
  "alerts": [
   {
-   "level": "critical",
-   "title": "No orders for 18 days",
-   "body": "Last order was #1093 on 23 Oct. Ads have spent $0 since the last attributed purchase."
-  },
-  {
    "level": "serious",
-   "title": "1 paid order(s) awaiting fulfilment",
-   "body": "#1091"
+   "title": "2 paid order(s) awaiting fulfilment",
+   "body": "#1091, #1094"
   },
   {
    "level": "warning",
@@ -40,39 +35,45 @@
  ],
  "sales": {
   "today": {
-   "orders": 0,
-   "revenue": 0.0,
-   "aov": 0.0
+   "orders": 1,
+   "revenue": 244.05,
+   "aov": 244.05
   },
   "d7": {
-   "orders": 0,
-   "revenue": 0.0,
-   "aov": 0.0
+   "orders": 1,
+   "revenue": 244.05,
+   "aov": 244.05
   },
   "d30": {
-   "orders": 2,
-   "revenue": 148.92,
-   "aov": 74.46
+   "orders": 3,
+   "revenue": 392.97,
+   "aov": 130.99
   },
   "prev7_revenue": 0.0,
   "wow_pct": null,
-  "pending_fulfilment": 1,
+  "pending_fulfilment": 2,
   "pending_orders": [
    {
     "name": "#1091",
     "createdAt": "2026-10-10T09:24:23Z",
     "total": 0.0,
     "customer": "arlie mccubbin"
+   },
+   {
+    "name": "#1094",
+    "createdAt": "2026-11-10T08:49:38Z",
+    "total": 244.05,
+    "customer": "Kerrie Fellowes"
    }
   ],
   "abandoned_checkouts": 0,
-  "customers_total": 123,
-  "days_since_order": 18,
+  "customers_total": 124,
+  "days_since_order": 0,
   "last_order": {
-   "name": "#1093",
-   "when": "23 oct, 5:24pm",
-   "total": 88.98,
-   "customer": "Kellie Miles"
+   "name": "#1094",
+   "when": "10 nov, 7:49pm",
+   "total": 244.05,
+   "customer": "Kerrie Fellowes"
   },
   "daily": [
    {
@@ -252,11 +253,20 @@
    {
     "date": "2026-11-10",
     "label": "10 Nov",
-    "orders": 0,
-    "revenue": 0.0
+    "orders": 1,
+    "revenue": 244.05
    }
   ],
   "recent": [
+   {
+    "name": "#1094",
+    "when": "10 nov, 7:49pm",
+    "total": 244.05,
+    "customer": "Kerrie Fellowes",
+    "fulfillment": "UNFULFILLED",
+    "financial": "PAID",
+    "items": "Lumara Spice Table Lamp \u2014 Caramel Ribbed Ceramic with Linen Shade"
+   },
    {
     "name": "#1093",
     "when": "23 oct, 5:24pm",
@@ -277,6 +287,10 @@
    }
   ],
   "top_sellers": [
+   {
+    "title": "Lumara Spice Table Lamp \u2014 Caramel Ribbed Ceramic with Linen Shade",
+    "units": 1
+   },
    {
     "title": "Lumara Magnolia Stem \u2014 Real Touch Faux Bloom",
     "units": 1

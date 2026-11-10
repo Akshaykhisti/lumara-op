@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-11-10T08:31:36Z",
+ "generated_at_utc": "2026-11-10T08:51:43Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,18 +9,32 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-11-10T08:31:36Z"
+   "fetched_at": "2026-11-10T08:51:43Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-11-10T08:31:36Z"
+   "fetched_at": "2026-11-10T08:51:43Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-11-10T08:31:36Z"
+   "fetched_at": "2026-11-10T08:51:43Z"
   }
  },
  "orders": [
+  {
+   "name": "#1094",
+   "createdAt": "2026-11-10T08:49:38Z",
+   "financial": "PAID",
+   "fulfillment": "UNFULFILLED",
+   "total": 244.05,
+   "customer": "Kerrie Fellowes",
+   "items": [
+    {
+     "title": "Lumara Spice Table Lamp \u2014 Caramel Ribbed Ceramic with Linen Shade",
+     "quantity": 1
+    }
+   ]
+  },
   {
    "name": "#1093",
    "createdAt": "2026-10-23T06:24:46Z",
@@ -64,9 +78,15 @@
    "createdAt": "2026-10-10T09:24:23Z",
    "total": 0.0,
    "customer": "arlie mccubbin"
+  },
+  {
+   "name": "#1094",
+   "createdAt": "2026-11-10T08:49:38Z",
+   "total": 244.05,
+   "customer": "Kerrie Fellowes"
   }
  ],
- "customers_total": 123,
+ "customers_total": 124,
  "abandoned_checkouts_recent": 0,
  "inventory": [
   {
