@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-11-11T02:57:56Z",
+ "generated_at_utc": "2026-11-11T03:18:04Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-11-11T02:57:56Z"
+   "fetched_at": "2026-11-11T03:18:04Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-11-11T02:57:56Z"
+   "fetched_at": "2026-11-11T03:18:04Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-11-11T02:57:56Z"
+   "fetched_at": "2026-11-11T03:18:04Z"
   }
  },
  "orders": [
@@ -25,7 +25,7 @@
    "name": "#1094",
    "createdAt": "2026-11-10T08:49:38Z",
    "financial": "PAID",
-   "fulfillment": "UNFULFILLED",
+   "fulfillment": "FULFILLED",
    "total": 244.05,
    "customer": "Kerrie Fellowes",
    "items": [
@@ -78,12 +78,6 @@
    "createdAt": "2026-10-10T09:24:23Z",
    "total": 0.0,
    "customer": "arlie mccubbin"
-  },
-  {
-   "name": "#1094",
-   "createdAt": "2026-11-10T08:49:38Z",
-   "total": 244.05,
-   "customer": "Kerrie Fellowes"
   }
  ],
  "customers_total": 124,
