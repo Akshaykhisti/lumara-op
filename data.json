@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-11-12T12:50:29Z",
-  "generated_at_local": "Thu 12 Nov 2026, 11:50pm AEST",
-  "today": "2026-11-12",
+  "generated_at_utc": "2026-11-12T13:10:40Z",
+  "generated_at_local": "Fri 13 Nov 2026, 12:10am AEST",
+  "today": "2026-11-13",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-11-12T12:50:29Z"
+    "fetched_at": "2026-11-12T13:10:40Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-11-12T12:50:29Z"
+    "fetched_at": "2026-11-12T13:10:40Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-11-12T12:50:29Z"
+    "fetched_at": "2026-11-12T13:10:40Z"
    }
   }
  },
@@ -29,7 +29,7 @@
   },
   {
    "level": "warning",
-   "title": "No orders for 2 days",
+   "title": "No orders for 3 days",
    "body": "Last order was #1094 on 10 Nov. Ads have spent $0 since the last attributed purchase."
   },
   {
@@ -50,9 +50,9 @@
    "aov": 244.05
   },
   "d30": {
-   "orders": 3,
-   "revenue": 392.97,
-   "aov": 130.99
+   "orders": 2,
+   "revenue": 333.03,
+   "aov": 166.52
   },
   "prev7_revenue": 0.0,
   "wow_pct": null,
@@ -67,7 +67,7 @@
   ],
   "abandoned_checkouts": 2,
   "customers_total": 124,
-  "days_since_order": 2,
+  "days_since_order": 3,
   "last_order": {
    "name": "#1094",
    "when": "10 nov, 7:49pm",
@@ -75,12 +75,6 @@
    "customer": "Kerrie Fellowes"
   },
   "daily": [
-   {
-    "date": "2026-10-14",
-    "label": "14 Oct",
-    "orders": 1,
-    "revenue": 59.94
-   },
    {
     "date": "2026-10-15",
     "label": "15 Oct",
@@ -254,6 +248,12 @@
     "label": "12 Nov",
     "orders": 0,
     "revenue": 0.0
+   },
+   {
+    "date": "2026-11-13",
+    "label": "13 Nov",
+    "orders": 0,
+    "revenue": 0.0
    }
   ],
   "recent": [
@@ -301,10 +301,6 @@
    {
     "title": "Lumara Magnolia XL Sculpture \u2014 Wall or Tabletop",
     "units": 1
-   },
-   {
-    "title": "Lumara Alegra Statement Vase \u2014 Sculptural Metal",
-    "units": 1
    }
   ]
  },
@@ -338,8 +334,8 @@
   "dry_spend": 0.0,
   "series": [
    {
-    "date": "2026-11-12",
-    "label": "12 Nov",
+    "date": "2026-11-13",
+    "label": "13 Nov",
     "spend": 0.0,
     "revenue": 0.0,
     "purchases": 0,
@@ -547,8 +543,8 @@
     "status": "ACTIVE",
     "tracked": true,
     "available": true,
-    "sold_30d": 1,
-    "days_cover": 60.0
+    "sold_30d": 0,
+    "days_cover": null
    },
    {
     "title": "Table Swag Olive Candelabra",
