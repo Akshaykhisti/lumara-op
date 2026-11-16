@@ -3,28 +3,28 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-11-16T12:57:49Z",
-  "generated_at_local": "Mon 16 Nov 2026, 11:57pm AEST",
-  "today": "2026-11-16",
+  "generated_at_utc": "2026-11-16T13:18:02Z",
+  "generated_at_local": "Tue 17 Nov 2026, 12:18am AEST",
+  "today": "2026-11-17",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-11-16T12:57:49Z"
+    "fetched_at": "2026-11-16T13:18:02Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-11-16T12:57:49Z"
+    "fetched_at": "2026-11-16T13:18:02Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-11-16T12:57:49Z"
+    "fetched_at": "2026-11-16T13:18:02Z"
    }
   }
  },
  "alerts": [
   {
    "level": "critical",
-   "title": "No orders for 6 days",
+   "title": "No orders for 7 days",
    "body": "Last order was #1094 on 10 Nov. Ads have spent $0 since the last attributed purchase."
   },
   {
@@ -45,17 +45,17 @@
    "aov": 0.0
   },
   "d7": {
-   "orders": 1,
-   "revenue": 244.05,
-   "aov": 244.05
+   "orders": 0,
+   "revenue": 0.0,
+   "aov": 0.0
   },
   "d30": {
    "orders": 2,
    "revenue": 333.03,
    "aov": 166.52
   },
-  "prev7_revenue": 0.0,
-  "wow_pct": null,
+  "prev7_revenue": 244.05,
+  "wow_pct": -100.0,
   "pending_fulfilment": 1,
   "pending_orders": [
    {
@@ -67,7 +67,7 @@
   ],
   "abandoned_checkouts": 2,
   "customers_total": 124,
-  "days_since_order": 6,
+  "days_since_order": 7,
   "last_order": {
    "name": "#1094",
    "when": "10 nov, 7:49pm",
@@ -75,12 +75,6 @@
    "customer": "Kerrie Fellowes"
   },
   "daily": [
-   {
-    "date": "2026-10-18",
-    "label": "18 Oct",
-    "orders": 0,
-    "revenue": 0.0
-   },
    {
     "date": "2026-10-19",
     "label": "19 Oct",
@@ -254,6 +248,12 @@
     "label": "16 Nov",
     "orders": 0,
     "revenue": 0.0
+   },
+   {
+    "date": "2026-11-17",
+    "label": "17 Nov",
+    "orders": 0,
+    "revenue": 0.0
    }
   ],
   "recent": [
@@ -325,8 +325,8 @@
   "dry_spend": 0.0,
   "series": [
    {
-    "date": "2026-11-16",
-    "label": "16 Nov",
+    "date": "2026-11-17",
+    "label": "17 Nov",
     "spend": 0.0,
     "revenue": 0.0,
     "purchases": 0,
