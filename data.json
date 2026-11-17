@@ -3,28 +3,28 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-11-17T12:52:22Z",
-  "generated_at_local": "Tue 17 Nov 2026, 11:52pm AEST",
-  "today": "2026-11-17",
+  "generated_at_utc": "2026-11-17T13:12:33Z",
+  "generated_at_local": "Wed 18 Nov 2026, 12:12am AEST",
+  "today": "2026-11-18",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-11-17T12:52:22Z"
+    "fetched_at": "2026-11-17T13:12:33Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-11-17T12:52:22Z"
+    "fetched_at": "2026-11-17T13:12:33Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-11-17T12:52:22Z"
+    "fetched_at": "2026-11-17T13:12:33Z"
    }
   }
  },
  "alerts": [
   {
    "level": "critical",
-   "title": "No orders for 7 days",
+   "title": "No orders for 8 days",
    "body": "Last order was #1094 on 10 Nov. Ads have spent $0 since the last attributed purchase."
   },
   {
@@ -65,9 +65,9 @@
     "customer": "arlie mccubbin"
    }
   ],
-  "abandoned_checkouts": 2,
+  "abandoned_checkouts": 0,
   "customers_total": 124,
-  "days_since_order": 7,
+  "days_since_order": 8,
   "last_order": {
    "name": "#1094",
    "when": "10 nov, 7:49pm",
@@ -75,12 +75,6 @@
    "customer": "Kerrie Fellowes"
   },
   "daily": [
-   {
-    "date": "2026-10-19",
-    "label": "19 Oct",
-    "orders": 0,
-    "revenue": 0.0
-   },
    {
     "date": "2026-10-20",
     "label": "20 Oct",
@@ -254,6 +248,12 @@
     "label": "17 Nov",
     "orders": 0,
     "revenue": 0.0
+   },
+   {
+    "date": "2026-11-18",
+    "label": "18 Nov",
+    "orders": 0,
+    "revenue": 0.0
    }
   ],
   "recent": [
@@ -325,8 +325,8 @@
   "dry_spend": 0.0,
   "series": [
    {
-    "date": "2026-11-17",
-    "label": "17 Nov",
+    "date": "2026-11-18",
+    "label": "18 Nov",
     "spend": 0.0,
     "revenue": 0.0,
     "purchases": 0,
