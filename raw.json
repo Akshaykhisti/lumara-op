@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-11-22T12:57:11Z",
+ "generated_at_utc": "2026-11-22T13:17:21Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-11-22T12:57:11Z"
+   "fetched_at": "2026-11-22T13:17:21Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-11-22T12:57:11Z"
+   "fetched_at": "2026-11-22T13:17:21Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-11-22T12:57:11Z"
+   "fetched_at": "2026-11-22T13:17:21Z"
   }
  },
  "orders": [
@@ -49,28 +49,6 @@
    "items": [
     {
      "title": "Lumara Spice Table Lamp \u2014 Caramel Ribbed Ceramic with Linen Shade",
-     "quantity": 1
-    }
-   ]
-  },
-  {
-   "name": "#1093",
-   "createdAt": "2026-10-23T06:24:46Z",
-   "financial": "PARTIALLY_REFUNDED",
-   "fulfillment": "FULFILLED",
-   "total": 88.98,
-   "customer": "Kellie Miles",
-   "items": [
-    {
-     "title": "Lumara Magnolia Stem \u2014 Real Touch Faux Bloom",
-     "quantity": 1
-    },
-    {
-     "title": "Lumara Fern Gold Stem \u2014 Metallic Faux Frond",
-     "quantity": 1
-    },
-    {
-     "title": "Lumara Magnolia XL Sculpture \u2014 Wall or Tabletop",
      "quantity": 1
     }
    ]
@@ -2346,7 +2324,7 @@
  ],
  "ads_daily": [
   {
-   "date": "2026-11-22",
+   "date": "2026-11-23",
    "spend": 0.0,
    "impressions": 0,
    "clicks": 0,
@@ -2357,7 +2335,7 @@
   }
  ],
  "ads_today": {
-  "date": "2026-11-22",
+  "date": "2026-11-23",
   "spend": 0.0,
   "impressions": 0,
   "clicks": 0,

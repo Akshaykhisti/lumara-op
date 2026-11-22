@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-11-22T12:57:11Z",
-  "generated_at_local": "Sun 22 Nov 2026, 11:57pm AEST",
-  "today": "2026-11-22",
+  "generated_at_utc": "2026-11-22T13:17:21Z",
+  "generated_at_local": "Mon 23 Nov 2026, 12:17am AEST",
+  "today": "2026-11-23",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-11-22T12:57:11Z"
+    "fetched_at": "2026-11-22T13:17:21Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-11-22T12:57:11Z"
+    "fetched_at": "2026-11-22T13:17:21Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-11-22T12:57:11Z"
+    "fetched_at": "2026-11-22T13:17:21Z"
    }
   }
  },
@@ -40,9 +40,9 @@
  ],
  "sales": {
   "today": {
-   "orders": 1,
-   "revenue": 194.94,
-   "aov": 194.94
+   "orders": 0,
+   "revenue": 0.0,
+   "aov": 0.0
   },
   "d7": {
    "orders": 1,
@@ -73,7 +73,7 @@
   ],
   "abandoned_checkouts": 1,
   "customers_total": 125,
-  "days_since_order": 0,
+  "days_since_order": 1,
   "last_order": {
    "name": "#1095",
    "when": "22 nov, 1:24pm",
@@ -81,12 +81,6 @@
    "customer": "April Foster"
   },
   "daily": [
-   {
-    "date": "2026-10-24",
-    "label": "24 Oct",
-    "orders": 0,
-    "revenue": 0.0
-   },
    {
     "date": "2026-10-25",
     "label": "25 Oct",
@@ -260,6 +254,12 @@
     "label": "22 Nov",
     "orders": 1,
     "revenue": 194.94
+   },
+   {
+    "date": "2026-11-23",
+    "label": "23 Nov",
+    "orders": 0,
+    "revenue": 0.0
    }
   ],
   "recent": [
@@ -280,15 +280,6 @@
     "fulfillment": "FULFILLED",
     "financial": "PAID",
     "items": "Lumara Spice Table Lamp \u2014 Caramel Ribbed Ceramic with Linen Shade"
-   },
-   {
-    "name": "#1093",
-    "when": "23 oct, 5:24pm",
-    "total": 88.98,
-    "customer": "Kellie Miles",
-    "fulfillment": "FULFILLED",
-    "financial": "PARTIALLY_REFUNDED",
-    "items": "Lumara Magnolia Stem \u2014 Real Touch Faux Bloom, Lumara Fern Gold Stem \u2014 Metallic Faux Frond, Lumara Magnolia XL Sculpture \u2014 Wall or Tabletop"
    }
   ],
   "top_sellers": [
@@ -336,8 +327,8 @@
   "dry_spend": 0.0,
   "series": [
    {
-    "date": "2026-11-22",
-    "label": "22 Nov",
+    "date": "2026-11-23",
+    "label": "23 Nov",
     "spend": 0.0,
     "revenue": 0.0,
     "purchases": 0,
