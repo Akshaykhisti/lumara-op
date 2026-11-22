@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-11-22T02:23:03Z",
+ "generated_at_utc": "2026-11-22T02:43:12Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,18 +9,36 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-11-22T02:23:03Z"
+   "fetched_at": "2026-11-22T02:43:12Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-11-22T02:23:03Z"
+   "fetched_at": "2026-11-22T02:43:12Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-11-22T02:23:03Z"
+   "fetched_at": "2026-11-22T02:43:12Z"
   }
  },
  "orders": [
+  {
+   "name": "#1095",
+   "createdAt": "2026-11-22T02:24:20Z",
+   "financial": "PAID",
+   "fulfillment": "UNFULFILLED",
+   "total": 194.94,
+   "customer": "April Foster",
+   "items": [
+    {
+     "title": "Lumara Casa Table Lamp \u2014 Classic Ceramic Charm",
+     "quantity": 1
+    },
+    {
+     "title": "Lumara Urn Candle Holder Set of 3 \u2014 Ceramic Neutral",
+     "quantity": 1
+    }
+   ]
+  },
   {
    "name": "#1094",
    "createdAt": "2026-11-10T08:49:38Z",
@@ -64,10 +82,16 @@
    "createdAt": "2026-10-10T09:24:23Z",
    "total": 0.0,
    "customer": "arlie mccubbin"
+  },
+  {
+   "name": "#1095",
+   "createdAt": "2026-11-22T02:24:20Z",
+   "total": 194.94,
+   "customer": "April Foster"
   }
  ],
- "customers_total": 124,
- "abandoned_checkouts_recent": 0,
+ "customers_total": 125,
+ "abandoned_checkouts_recent": 1,
  "inventory": [
   {
    "title": "Lumara Cayman Rattan Table Lamp \u2014 Coastal Natural Style",
@@ -117,11 +141,11 @@
   {
    "title": "Lumara Urn Candle Holder Set of 3 \u2014 Ceramic Neutral",
    "sku": "CP6016-1",
-   "qty": 6,
+   "qty": -1,
    "price": 39.99,
    "status": "ACTIVE",
    "tracked": true,
-   "available": true
+   "available": false
   },
   {
    "title": "Lumara Avia Large Statement Vase \u2014 Warm Ceramic",
@@ -621,11 +645,11 @@
   {
    "title": "Lumara Casa Table Lamp \u2014 Classic Ceramic Charm",
    "sku": "YF3033-1",
-   "qty": 10,
+   "qty": -1,
    "price": 149.99,
    "status": "ACTIVE",
-   "tracked": false,
-   "available": true
+   "tracked": true,
+   "available": false
   },
   {
    "title": "Lumara Riviera XL Table Lamp \u2014 Coastal Glass Statement",
