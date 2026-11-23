@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-11-23T04:41:38Z",
-  "generated_at_local": "Mon 23 Nov 2026, 3:41pm AEST",
+  "generated_at_utc": "2026-11-23T05:01:44Z",
+  "generated_at_local": "Mon 23 Nov 2026, 4:01pm AEST",
   "today": "2026-11-23",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-11-23T04:41:38Z"
+    "fetched_at": "2026-11-23T05:01:44Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-11-23T04:41:38Z"
+    "fetched_at": "2026-11-23T05:01:44Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-11-23T04:41:38Z"
+    "fetched_at": "2026-11-23T05:01:44Z"
    }
   }
  },
@@ -46,16 +46,16 @@
   },
   "d7": {
    "orders": 1,
-   "revenue": 194.94,
-   "aov": 194.94
+   "revenue": 0.0,
+   "aov": 0.0
   },
   "d30": {
    "orders": 2,
-   "revenue": 438.99,
-   "aov": 219.5
+   "revenue": 244.05,
+   "aov": 122.03
   },
   "prev7_revenue": 244.05,
-  "wow_pct": -20.1,
+  "wow_pct": -100.0,
   "pending_fulfilment": 2,
   "pending_orders": [
    {
@@ -67,7 +67,7 @@
    {
     "name": "#1095",
     "createdAt": "2026-11-22T02:24:20Z",
-    "total": 194.94,
+    "total": 0.0,
     "customer": "April Foster"
    }
   ],
@@ -77,7 +77,7 @@
   "last_order": {
    "name": "#1095",
    "when": "22 nov, 1:24pm",
-   "total": 194.94,
+   "total": 0.0,
    "customer": "April Foster"
   },
   "daily": [
@@ -253,7 +253,7 @@
     "date": "2026-11-22",
     "label": "22 Nov",
     "orders": 1,
-    "revenue": 194.94
+    "revenue": 0.0
    },
    {
     "date": "2026-11-23",
@@ -266,7 +266,7 @@
    {
     "name": "#1095",
     "when": "22 nov, 1:24pm",
-    "total": 194.94,
+    "total": 0.0,
     "customer": "April Foster",
     "fulfillment": "UNFULFILLED",
     "financial": "PAID",
@@ -483,7 +483,7 @@
   "watch": 1,
   "healthy": 67,
   "untracked": 43,
-  "stock_value": 79518.68,
+  "stock_value": 79708.66,
   "oos_list": [
    {
     "title": "Lumara Giana Natural Table Lamp \u2014 Earthy Organic Style",
@@ -508,7 +508,7 @@
    {
     "title": "Lumara Casa Table Lamp \u2014 Classic Ceramic Charm",
     "sku": "YF3033-1",
-    "qty": -1,
+    "qty": 0,
     "price": 149.99,
     "status": "ACTIVE",
     "tracked": true,
@@ -528,7 +528,7 @@
    {
     "title": "Lumara Urn Candle Holder Set of 3 \u2014 Ceramic Neutral",
     "sku": "CP6016-1",
-    "qty": -1,
+    "qty": 0,
     "price": 39.99,
     "status": "ACTIVE",
     "tracked": true,
@@ -550,7 +550,7 @@
    {
     "title": "Lumara Casa Table Lamp \u2014 Classic Ceramic Charm",
     "sku": "YF3033-1",
-    "qty": -1,
+    "qty": 0,
     "price": 149.99,
     "status": "ACTIVE",
     "tracked": true,
@@ -560,7 +560,7 @@
    {
     "title": "Lumara Urn Candle Holder Set of 3 \u2014 Ceramic Neutral",
     "sku": "CP6016-1",
-    "qty": -1,
+    "qty": 0,
     "price": 39.99,
     "status": "ACTIVE",
     "tracked": true,

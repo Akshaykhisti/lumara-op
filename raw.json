@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-11-23T04:41:38Z",
+ "generated_at_utc": "2026-11-23T05:01:44Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-11-23T04:41:38Z"
+   "fetched_at": "2026-11-23T05:01:44Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-11-23T04:41:38Z"
+   "fetched_at": "2026-11-23T05:01:44Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-11-23T04:41:38Z"
+   "fetched_at": "2026-11-23T05:01:44Z"
   }
  },
  "orders": [
@@ -26,7 +26,7 @@
    "createdAt": "2026-11-22T02:24:20Z",
    "financial": "PAID",
    "fulfillment": "UNFULFILLED",
-   "total": 194.94,
+   "total": 0.0,
    "customer": "April Foster",
    "items": [
     {
@@ -64,7 +64,7 @@
   {
    "name": "#1095",
    "createdAt": "2026-11-22T02:24:20Z",
-   "total": 194.94,
+   "total": 0.0,
    "customer": "April Foster"
   }
  ],
@@ -119,7 +119,7 @@
   {
    "title": "Lumara Urn Candle Holder Set of 3 \u2014 Ceramic Neutral",
    "sku": "CP6016-1",
-   "qty": -1,
+   "qty": 0,
    "price": 39.99,
    "status": "ACTIVE",
    "tracked": true,
@@ -623,7 +623,7 @@
   {
    "title": "Lumara Casa Table Lamp \u2014 Classic Ceramic Charm",
    "sku": "YF3033-1",
-   "qty": -1,
+   "qty": 0,
    "price": 149.99,
    "status": "ACTIVE",
    "tracked": true,
