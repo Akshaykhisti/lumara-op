@@ -3,29 +3,29 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-11-23T19:02:10Z",
-  "generated_at_local": "Tue 24 Nov 2026, 6:02am AEST",
+  "generated_at_utc": "2026-11-24T01:11:36Z",
+  "generated_at_local": "Tue 24 Nov 2026, 12:11pm AEST",
   "today": "2026-11-24",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-11-23T19:02:10Z"
+    "fetched_at": "2026-11-24T01:11:36Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-11-23T19:02:10Z"
+    "fetched_at": "2026-11-24T01:11:36Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-11-23T19:02:10Z"
+    "fetched_at": "2026-11-24T01:11:36Z"
    }
   }
  },
  "alerts": [
   {
    "level": "serious",
-   "title": "2 product(s) sold in the last 30d are out of stock",
-   "body": "Lumara Casa Table Lamp \u2014 Classic Ceramic Charm, Lumara Urn Candle Holder Set of 3 \u2014 Ceramic Neutral. Still listed as active \u2014 they take traffic and convert nothing."
+   "title": "1 product(s) sold in the last 30d are out of stock",
+   "body": "Lumara Urn Candle Holder Set of 3 \u2014 Ceramic Neutral. Still listed as active \u2014 they take traffic and convert nothing."
   },
   {
    "level": "serious",
@@ -34,8 +34,8 @@
   },
   {
    "level": "warning",
-   "title": "6 product(s) at 3 units or fewer",
-   "body": "Lumara Alegra Statement Vase \u2014 Sculptural Metal (2), Table Swag Olive Candelabra (2), Lumara Mediterranean Large Candle Holder \u2014 Tall Ceramic Taper (3), Lumara Mediterranean Med Candle Holder \u2014 Slender Ceramic Taper (3)"
+   "title": "7 product(s) at 3 units or fewer",
+   "body": "Lumara Navy Shell Framed Print I \u2014 60 \u00d7 80 cm (1), Lumara Alegra Statement Vase \u2014 Sculptural Metal (2), Table Swag Olive Candelabra (2), Lumara Mediterranean Large Candle Holder \u2014 Tall Ceramic Taper (3)"
   }
  ],
  "sales": {
@@ -495,50 +495,20 @@
   ]
  },
  "stock": {
-  "sellable_skus": 123,
-  "tracked_skus": 80,
-  "out_of_stock": 6,
-  "low": 6,
-  "watch": 1,
-  "healthy": 67,
-  "untracked": 43,
-  "stock_value": 79708.66,
+  "sellable_skus": 79,
+  "tracked_skus": 58,
+  "out_of_stock": 3,
+  "low": 7,
+  "watch": 2,
+  "healthy": 46,
+  "untracked": 21,
+  "stock_value": 62064.98,
   "oos_list": [
-   {
-    "title": "Lumara Giana Natural Table Lamp \u2014 Earthy Organic Style",
-    "sku": "LH-TL-002",
-    "qty": 0,
-    "price": 249.99,
-    "status": "ACTIVE",
-    "tracked": true,
-    "available": false,
-    "sold_30d": 0
-   },
    {
     "title": "Lumara Gede Table Lamp \u2014 Reactive Glaze Ceramic (Sage Green / Blue)",
     "sku": "LH-TL-009",
     "qty": 0,
     "price": 229.99,
-    "status": "ACTIVE",
-    "tracked": true,
-    "available": false,
-    "sold_30d": 0
-   },
-   {
-    "title": "Lumara Casa Table Lamp \u2014 Classic Ceramic Charm",
-    "sku": "YF3033-1",
-    "qty": 0,
-    "price": 149.99,
-    "status": "ACTIVE",
-    "tracked": true,
-    "available": false,
-    "sold_30d": 1
-   },
-   {
-    "title": "Lumara Ribbed Rhubarb Glass Vase \u2014 Warm Ribbed Glass",
-    "sku": "LH-VS-012",
-    "qty": 0,
-    "price": 49.99,
     "status": "ACTIVE",
     "tracked": true,
     "available": false,
@@ -567,16 +537,6 @@
   ],
   "oos_sellers": [
    {
-    "title": "Lumara Casa Table Lamp \u2014 Classic Ceramic Charm",
-    "sku": "YF3033-1",
-    "qty": 0,
-    "price": 149.99,
-    "status": "ACTIVE",
-    "tracked": true,
-    "available": false,
-    "sold_30d": 1
-   },
-   {
     "title": "Lumara Urn Candle Holder Set of 3 \u2014 Ceramic Neutral",
     "sku": "CP6016-1",
     "qty": 0,
@@ -588,6 +548,17 @@
    }
   ],
   "low_list": [
+   {
+    "title": "Lumara Navy Shell Framed Print I \u2014 60 \u00d7 80 cm",
+    "sku": "AW1730-2",
+    "qty": 1,
+    "price": 129.95,
+    "status": "ACTIVE",
+    "tracked": true,
+    "available": true,
+    "sold_30d": 0,
+    "days_cover": null
+   },
    {
     "title": "Lumara Alegra Statement Vase \u2014 Sculptural Metal",
     "sku": "QA5813-2",
@@ -655,6 +626,17 @@
     "days_cover": null
    },
    {
+    "title": "Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral",
+    "sku": "CN7142-1",
+    "qty": 4,
+    "price": 54.99,
+    "status": "ACTIVE",
+    "tracked": true,
+    "available": true,
+    "sold_30d": 0,
+    "days_cover": null
+   },
+   {
     "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
     "sku": "Y8238-1",
     "qty": 5,
@@ -672,15 +654,6 @@
     "sku": "LH-BDL-05",
     "qty": 0,
     "price": 309.99,
-    "status": "ACTIVE",
-    "tracked": false,
-    "available": true
-   },
-   {
-    "title": "Lumara Coastal Glow \u2014 Lamp & Candle Bundle",
-    "sku": "LH-BDL-06",
-    "qty": 0,
-    "price": 289.9,
     "status": "ACTIVE",
     "tracked": false,
     "available": true
@@ -812,15 +785,6 @@
     "available": true
    },
    {
-    "title": "Lumara Pine &amp; Eucalypt Stem \u2014 Faux Greenery Branch",
-    "sku": "LD9311-4-X3",
-    "qty": 0,
-    "price": 53.99,
-    "status": "ACTIVE",
-    "tracked": false,
-    "available": true
-   },
-   {
     "title": "Lumara Kangaroo Paw Stem \u2014 Faux Native Bloom",
     "sku": "JI2043-4-X2",
     "qty": 0,
@@ -830,19 +794,37 @@
     "available": true
    },
    {
-    "title": "Lumara Ivory Gum Stem \u2014 Faux Foliage Branch",
-    "sku": "LD7363-4-X3",
+    "title": "Lumara Banksia Stem \u2014 Amber Faux Native",
+    "sku": "JI2044-4",
     "qty": 0,
-    "price": 47.99,
+    "price": 38.99,
     "status": "ACTIVE",
     "tracked": false,
     "available": true
    },
    {
-    "title": "Lumara Berries &amp; Leaves Stem \u2014 Faux Botanical Branch",
-    "sku": "LD9163-4-X3",
+    "title": "Lumara Kangaroo Paw Stem \u2014 Faux Native Bloom",
+    "sku": "JI2043-4",
     "qty": 0,
-    "price": 44.99,
+    "price": 28.99,
+    "status": "ACTIVE",
+    "tracked": false,
+    "available": true
+   },
+   {
+    "title": "Lumara Fern Gold Stem \u2014 Metallic Faux Frond",
+    "sku": "LD7052-12-X3",
+    "qty": -1,
+    "price": 21.99,
+    "status": "ACTIVE",
+    "tracked": false,
+    "available": true
+   },
+   {
+    "title": "Lumara Fern Gold Stem \u2014 Metallic Faux Frond",
+    "sku": "LD7052-12-X2",
+    "qty": 0,
+    "price": 17.99,
     "status": "ACTIVE",
     "tracked": false,
     "available": true

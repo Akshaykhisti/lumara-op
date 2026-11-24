@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-11-23T19:02:10Z",
+ "generated_at_utc": "2026-11-24T01:11:36Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-11-23T19:02:10Z"
+   "fetched_at": "2026-11-24T01:11:36Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-11-23T19:02:10Z"
+   "fetched_at": "2026-11-24T01:11:36Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-11-23T19:02:10Z"
+   "fetched_at": "2026-11-24T01:11:36Z"
   }
  },
  "orders": [
@@ -105,7 +105,7 @@
    "sku": "LH-TL-002",
    "qty": 0,
    "price": 249.99,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": true,
    "available": false
   },
@@ -132,7 +132,7 @@
    "sku": "CH8435-1",
    "qty": 10,
    "price": 69.99,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": true,
    "available": true
   },
@@ -222,7 +222,7 @@
    "sku": "Y8244-1",
    "qty": 8,
    "price": 249.99,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": true,
    "available": true
   },
@@ -231,7 +231,7 @@
    "sku": "Y8240-1",
    "qty": 10,
    "price": 239.99,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": true,
    "available": true
   },
@@ -294,7 +294,7 @@
    "sku": "CN7020-1",
    "qty": 10,
    "price": 64.99,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": true,
    "available": true
   },
@@ -303,14 +303,14 @@
    "sku": "CP6009-1",
    "qty": 10,
    "price": 214.99,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": true,
    "available": true
   },
   {
    "title": "Lumara Botanical Bud Vase Set of 2 \u2014 Ceramic Neutral",
    "sku": "CN7142-1",
-   "qty": 10,
+   "qty": 4,
    "price": 54.99,
    "status": "ACTIVE",
    "tracked": true,
@@ -357,7 +357,7 @@
    "sku": "LH-VS-012",
    "qty": 0,
    "price": 49.99,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": true,
    "available": false
   },
@@ -375,7 +375,7 @@
    "sku": "LH-VS-014",
    "qty": 10,
    "price": 39.99,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": true,
    "available": true
   },
@@ -384,7 +384,7 @@
    "sku": "LH-VS-015",
    "qty": 10,
    "price": 54.99,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": true,
    "available": true
   },
@@ -456,7 +456,7 @@
    "sku": "LH-CH-007",
    "qty": 10,
    "price": 49.99,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": true,
    "available": true
   },
@@ -564,7 +564,7 @@
    "sku": "LH-BDL-06",
    "qty": 0,
    "price": 289.9,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": false,
    "available": true
   },
@@ -645,7 +645,7 @@
    "sku": "YF3033-1",
    "qty": 0,
    "price": 149.99,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": true,
    "available": false
   },
@@ -762,7 +762,7 @@
    "sku": "JI2029-4",
    "qty": 0,
    "price": 17.99,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": false,
    "available": true
   },
@@ -771,7 +771,7 @@
    "sku": "JI2029-4-X2",
    "qty": 0,
    "price": 31.99,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": false,
    "available": true
   },
@@ -780,7 +780,7 @@
    "sku": "JI2029-4-X3",
    "qty": 0,
    "price": 39.99,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": false,
    "available": true
   },
@@ -789,7 +789,7 @@
    "sku": "JI2030-4",
    "qty": 0,
    "price": 17.99,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": false,
    "available": true
   },
@@ -798,7 +798,7 @@
    "sku": "JI2030-4-X2",
    "qty": 0,
    "price": 31.99,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": false,
    "available": true
   },
@@ -807,7 +807,7 @@
    "sku": "JI2030-4-X3",
    "qty": 0,
    "price": 39.99,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": false,
    "available": true
   },
@@ -924,7 +924,7 @@
    "sku": "LD9311-4",
    "qty": 0,
    "price": 23.99,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": false,
    "available": true
   },
@@ -933,7 +933,7 @@
    "sku": "LD9311-4-X2",
    "qty": 0,
    "price": 43.99,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": false,
    "available": true
   },
@@ -942,7 +942,7 @@
    "sku": "LD9311-4-X3",
    "qty": 0,
    "price": 53.99,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": false,
    "available": true
   },
@@ -951,7 +951,7 @@
    "sku": "LD7363-4",
    "qty": 0,
    "price": 21.99,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": false,
    "available": true
   },
@@ -960,7 +960,7 @@
    "sku": "LD7363-4-X2",
    "qty": 0,
    "price": 39.99,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": false,
    "available": true
   },
@@ -969,7 +969,7 @@
    "sku": "LD7363-4-X3",
    "qty": 0,
    "price": 47.99,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": false,
    "available": true
   },
@@ -978,7 +978,7 @@
    "sku": "LD9163-4",
    "qty": 0,
    "price": 19.99,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": false,
    "available": true
   },
@@ -987,7 +987,7 @@
    "sku": "LD9163-4-X2",
    "qty": 0,
    "price": 36.99,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": false,
    "available": true
   },
@@ -996,7 +996,7 @@
    "sku": "LD9163-4-X3",
    "qty": 0,
    "price": 44.99,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": false,
    "available": true
   },
@@ -1005,7 +1005,7 @@
    "sku": "LD7130-1",
    "qty": 0,
    "price": 16.99,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": false,
    "available": true
   },
@@ -1014,7 +1014,7 @@
    "sku": "LD7130-1-X2",
    "qty": 0,
    "price": 30.99,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": false,
    "available": true
   },
@@ -1023,7 +1023,7 @@
    "sku": "LD7130-1-X3",
    "qty": 0,
    "price": 36.99,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": false,
    "available": true
   },
@@ -1032,7 +1032,7 @@
    "sku": "LD7131-1",
    "qty": 0,
    "price": 15.99,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": false,
    "available": true
   },
@@ -1041,7 +1041,7 @@
    "sku": "LD7131-1-X2",
    "qty": 0,
    "price": 28.99,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": false,
    "available": true
   },
@@ -1050,7 +1050,7 @@
    "sku": "LD7131-1-X3",
    "qty": 0,
    "price": 33.99,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": false,
    "available": true
   },
@@ -1194,7 +1194,7 @@
    "sku": "CM6027-1",
    "qty": 10,
    "price": 29.95,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": true,
    "available": true
   },
@@ -1203,7 +1203,7 @@
    "sku": "CM6030-1",
    "qty": 10,
    "price": 44.95,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": true,
    "available": true
   },
@@ -1230,7 +1230,7 @@
    "sku": "TY8014-6",
    "qty": 10,
    "price": 49.95,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": true,
    "available": true
   },
@@ -1257,7 +1257,7 @@
    "sku": "TY8105-2",
    "qty": 10,
    "price": 59.95,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": true,
    "available": true
   },
@@ -1275,7 +1275,7 @@
    "sku": "TY8027-2",
    "qty": 10,
    "price": 89.95,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": true,
    "available": true
   },
@@ -1284,7 +1284,7 @@
    "sku": "TY8000-2",
    "qty": 10,
    "price": 84.95,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": true,
    "available": true
   },
@@ -1293,7 +1293,7 @@
    "sku": "TY8008-2",
    "qty": 10,
    "price": 69.95,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": true,
    "available": true
   },
@@ -1302,7 +1302,7 @@
    "sku": "TY8010-4",
    "qty": 10,
    "price": 29.95,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": true,
    "available": true
   },
@@ -1311,7 +1311,7 @@
    "sku": "TY8004-4",
    "qty": 10,
    "price": 34.95,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": true,
    "available": true
   },
@@ -1329,7 +1329,7 @@
    "sku": "TY8013-2",
    "qty": 10,
    "price": 69.95,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": true,
    "available": true
   },
@@ -1372,7 +1372,7 @@
   {
    "title": "Lumara Navy Shell Framed Print I \u2014 60 \u00d7 80 cm",
    "sku": "AW1730-2",
-   "qty": 9,
+   "qty": 1,
    "price": 129.95,
    "status": "ACTIVE",
    "tracked": true,
@@ -1419,7 +1419,7 @@
    "sku": "YR7400-1",
    "qty": 8,
    "price": 159.99,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": true,
    "available": true
   },
