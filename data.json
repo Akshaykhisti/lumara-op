@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-11-25T02:44:38Z",
-  "generated_at_local": "Wed 25 Nov 2026, 1:44pm AEST",
+  "generated_at_utc": "2026-11-25T04:20:01Z",
+  "generated_at_local": "Wed 25 Nov 2026, 3:20pm AEST",
   "today": "2026-11-25",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-11-25T02:44:38Z"
+    "fetched_at": "2026-11-25T04:20:01Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-11-25T02:44:38Z"
+    "fetched_at": "2026-11-25T04:20:01Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-11-25T02:44:38Z"
+    "fetched_at": "2026-11-25T04:20:01Z"
    }
   }
  },
@@ -481,15 +481,35 @@
   ]
  },
  "stock": {
-  "sellable_skus": 78,
-  "tracked_skus": 58,
-  "out_of_stock": 3,
+  "sellable_skus": 69,
+  "tracked_skus": 52,
+  "out_of_stock": 10,
   "low": 7,
   "watch": 3,
-  "healthy": 45,
-  "untracked": 20,
-  "stock_value": 61015.03,
+  "healthy": 32,
+  "untracked": 17,
+  "stock_value": 42827.47,
   "oos_list": [
+   {
+    "title": "Lumara Fossil Table Lamp \u2014 Organic Textured Ceramic",
+    "sku": "YE6125-1",
+    "qty": 0,
+    "price": 299.99,
+    "status": "ACTIVE",
+    "tracked": true,
+    "available": false,
+    "sold_30d": 0
+   },
+   {
+    "title": "Lumara Cayman Rattan Table Lamp \u2014 Coastal Natural Style",
+    "sku": "Y8235-1",
+    "qty": 0,
+    "price": 229.99,
+    "status": "ACTIVE",
+    "tracked": true,
+    "available": false,
+    "sold_30d": 0
+   },
    {
     "title": "Lumara Gede Table Lamp \u2014 Reactive Glaze Ceramic (Sage Green / Blue)",
     "sku": "LH-TL-009",
@@ -501,10 +521,60 @@
     "sold_30d": 0
    },
    {
+    "title": "Lumara Malt Shake Table Lamp \u2014 Sculptural Organic Form",
+    "sku": "LH-TL-004",
+    "qty": 0,
+    "price": 189.99,
+    "status": "ACTIVE",
+    "tracked": true,
+    "available": false,
+    "sold_30d": 0
+   },
+   {
+    "title": "Lumara Geneva XL Candle Holder \u2014 Tall Antiqued Statement",
+    "sku": "LH-CH-005",
+    "qty": 0,
+    "price": 109.99,
+    "status": "ACTIVE",
+    "tracked": true,
+    "available": false,
+    "sold_30d": 0
+   },
+   {
+    "title": "Lumara Hurricane Candle Holder Moss \u2014 Organic Green Ceramic",
+    "sku": "LH-CH-006",
+    "qty": 0,
+    "price": 89.99,
+    "status": "ACTIVE",
+    "tracked": true,
+    "available": false,
+    "sold_30d": 0
+   },
+   {
+    "title": "Lumara Two Birds Leaf Bird Bath",
+    "sku": "CM6034-1",
+    "qty": 0,
+    "price": 41.95,
+    "status": "ACTIVE",
+    "tracked": true,
+    "available": false,
+    "sold_30d": 0
+   },
+   {
     "title": "Lumara Urn Candle Holder Set of 3 \u2014 Ceramic Neutral",
     "sku": "CP6016-1",
     "qty": 0,
     "price": 39.99,
+    "status": "ACTIVE",
+    "tracked": true,
+    "available": false,
+    "sold_30d": 0
+   },
+   {
+    "title": "Lumara Champagne Glass LED Candle Holder",
+    "sku": "SK3116-1",
+    "qty": 0,
+    "price": 36.99,
     "status": "ACTIVE",
     "tracked": true,
     "available": false,
@@ -645,24 +715,6 @@
     "available": true
    },
    {
-    "title": "Lumara Pineapple Table Lamp \u2014 Reactive Glaze Ceramic",
-    "sku": "YE6102-1",
-    "qty": 0,
-    "price": 289.0,
-    "status": "ACTIVE",
-    "tracked": false,
-    "available": true
-   },
-   {
-    "title": "Lumara Pineapple Table Lamp \u2014 Reactive Glaze Ceramic",
-    "sku": "YE6101-1",
-    "qty": 0,
-    "price": 289.0,
-    "status": "ACTIVE",
-    "tracked": false,
-    "available": true
-   },
-   {
     "title": "Lumara Pear Table Lamp \u2014 Playful Gloss Green Ceramic",
     "sku": "YR7256-1",
     "qty": 0,
@@ -676,15 +728,6 @@
     "sku": "YR7257-1",
     "qty": 0,
     "price": 228.99,
-    "status": "ACTIVE",
-    "tracked": false,
-    "available": true
-   },
-   {
-    "title": "Lumara Living Room Set \u2014 Lamp, Candle & Vase Bundle",
-    "sku": "LH-BDL-04",
-    "qty": 0,
-    "price": 194.0,
     "status": "ACTIVE",
     "tracked": false,
     "available": true

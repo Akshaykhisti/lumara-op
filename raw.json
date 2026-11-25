@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-11-25T02:44:38Z",
+ "generated_at_utc": "2026-11-25T04:20:01Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-11-25T02:44:38Z"
+   "fetched_at": "2026-11-25T04:20:01Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-11-25T02:44:38Z"
+   "fetched_at": "2026-11-25T04:20:01Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-11-25T02:44:38Z"
+   "fetched_at": "2026-11-25T04:20:01Z"
   }
  },
  "orders": [
@@ -88,11 +88,11 @@
   {
    "title": "Lumara Cayman Rattan Table Lamp \u2014 Coastal Natural Style",
    "sku": "Y8235-1",
-   "qty": 8,
+   "qty": 0,
    "price": 229.99,
    "status": "ACTIVE",
    "tracked": true,
-   "available": true
+   "available": false
   },
   {
    "title": "Lumara Giana Natural Table Lamp \u2014 Earthy Organic Style",
@@ -108,7 +108,7 @@
    "sku": "LH-TL-003",
    "qty": 10,
    "price": 199.99,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": true,
    "available": true
   },
@@ -169,18 +169,18 @@
   {
    "title": "Lumara Malt Shake Table Lamp \u2014 Sculptural Organic Form",
    "sku": "LH-TL-004",
-   "qty": 10,
+   "qty": 0,
    "price": 189.99,
    "status": "ACTIVE",
    "tracked": true,
-   "available": true
+   "available": false
   },
   {
    "title": "Lumara Malt Shake Large Table Lamp \u2014 Statement Organic Form",
    "sku": "LH-TL-005",
    "qty": 10,
    "price": 239.99,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": true,
    "available": true
   },
@@ -234,7 +234,7 @@
    "sku": "LH-TL-007",
    "qty": 10,
    "price": 259.99,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": true,
    "available": true
   },
@@ -421,29 +421,29 @@
   {
    "title": "Lumara Geneva XL Candle Holder \u2014 Tall Antiqued Statement",
    "sku": "LH-CH-005",
-   "qty": 10,
+   "qty": 0,
    "price": 109.99,
    "status": "ACTIVE",
    "tracked": true,
-   "available": true
+   "available": false
   },
   {
    "title": "Lumara Candleholders Set of 3 White \u2014 Graduated Taper Holders",
    "sku": "LD6953-1",
    "qty": 10,
    "price": 94.99,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": true,
    "available": true
   },
   {
    "title": "Lumara Hurricane Candle Holder Moss \u2014 Organic Green Ceramic",
    "sku": "LH-CH-006",
-   "qty": 6,
+   "qty": 0,
    "price": 89.99,
    "status": "ACTIVE",
    "tracked": true,
-   "available": true
+   "available": false
   },
   {
    "title": "Lumara Candlestick Mod Natural \u2014 Slender Natural Taper Holder",
@@ -475,11 +475,11 @@
   {
    "title": "Lumara Champagne Glass LED Candle Holder",
    "sku": "SK3116-1",
-   "qty": 10,
+   "qty": 0,
    "price": 36.99,
    "status": "ACTIVE",
    "tracked": true,
-   "available": true
+   "available": false
   },
   {
    "title": "Lumara Nishi Clay Table Lamp \u2014 Warm Earthy Ceramic",
@@ -540,7 +540,7 @@
    "sku": "LH-BDL-04",
    "qty": 0,
    "price": 194.0,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": false,
    "available": true
   },
@@ -682,18 +682,18 @@
   {
    "title": "Lumara Fossil Table Lamp \u2014 Organic Textured Ceramic",
    "sku": "YE6125-1",
-   "qty": 10,
+   "qty": 0,
    "price": 299.99,
    "status": "ACTIVE",
    "tracked": true,
-   "available": true
+   "available": false
   },
   {
    "title": "Lumara Pineapple Table Lamp \u2014 Reactive Glaze Ceramic",
    "sku": "YE6102-1",
    "qty": 0,
    "price": 289.0,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": false,
    "available": true
   },
@@ -702,7 +702,7 @@
    "sku": "YE6101-1",
    "qty": 0,
    "price": 289.0,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": false,
    "available": true
   },
@@ -1143,7 +1143,7 @@
    "sku": "U2356-3",
    "qty": 10,
    "price": 59.95,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": true,
    "available": true
   },
@@ -1161,7 +1161,7 @@
    "sku": "CM6022-1",
    "qty": 10,
    "price": 46.95,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": true,
    "available": true
   },
@@ -1204,11 +1204,11 @@
   {
    "title": "Lumara Two Birds Leaf Bird Bath",
    "sku": "CM6034-1",
-   "qty": 10,
+   "qty": 0,
    "price": 41.95,
    "status": "ACTIVE",
    "tracked": true,
-   "available": true
+   "available": false
   },
   {
    "title": "Lumara Perched Birds Feeder Bowl \u2014 Styles Vary",
