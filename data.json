@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-11-25T00:43:42Z",
-  "generated_at_local": "Wed 25 Nov 2026, 11:43am AEST",
+  "generated_at_utc": "2026-11-25T01:03:51Z",
+  "generated_at_local": "Wed 25 Nov 2026, 12:03pm AEST",
   "today": "2026-11-25",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-11-25T00:43:42Z"
+    "fetched_at": "2026-11-25T01:03:51Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-11-25T00:43:42Z"
+    "fetched_at": "2026-11-25T01:03:51Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-11-25T00:43:42Z"
+    "fetched_at": "2026-11-25T01:03:51Z"
    }
   }
  },
@@ -481,14 +481,14 @@
   ]
  },
  "stock": {
-  "sellable_skus": 79,
+  "sellable_skus": 78,
   "tracked_skus": 58,
   "out_of_stock": 3,
   "low": 7,
-  "watch": 2,
-  "healthy": 46,
-  "untracked": 21,
-  "stock_value": 62064.98,
+  "watch": 3,
+  "healthy": 45,
+  "untracked": 20,
+  "stock_value": 61015.03,
   "oos_list": [
    {
     "title": "Lumara Gede Table Lamp \u2014 Reactive Glaze Ceramic (Sage Green / Blue)",
@@ -612,6 +612,17 @@
     "days_cover": null
    },
    {
+    "title": "Lumara Lopez Rustic White Candle Holder",
+    "sku": "CH8435-1",
+    "qty": 5,
+    "price": 69.99,
+    "status": "ACTIVE",
+    "tracked": true,
+    "available": true,
+    "sold_30d": 0,
+    "days_cover": null
+   },
+   {
     "title": "Lumara Newport Large Table Lamp \u2014 Coastal Hamptons Statement",
     "sku": "Y8238-1",
     "qty": 5,
@@ -706,15 +717,6 @@
     "available": true
    },
    {
-    "title": "Lumara Bedside Bundle \u2014 Flynn Lamp & Bud Vase",
-    "sku": "LH-BDL-03",
-    "qty": -1,
-    "price": 119.0,
-    "status": "ACTIVE",
-    "tracked": false,
-    "available": true
-   },
-   {
     "title": "Lumara Gum Leaf Stem \u2014 Faux Eucalyptus Branch",
     "sku": "JI2045-4-X2",
     "qty": 0,
@@ -800,6 +802,15 @@
     "sku": "LD7052-12-X2",
     "qty": 0,
     "price": 17.99,
+    "status": "ACTIVE",
+    "tracked": false,
+    "available": true
+   },
+   {
+    "title": "Lumara Fern Gold Stem \u2014 Metallic Faux Frond",
+    "sku": "LD7052-12",
+    "qty": 0,
+    "price": 9.99,
     "status": "ACTIVE",
     "tracked": false,
     "available": true

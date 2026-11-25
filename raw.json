@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-11-25T00:43:42Z",
+ "generated_at_utc": "2026-11-25T01:03:51Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-11-25T00:43:42Z"
+   "fetched_at": "2026-11-25T01:03:51Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-11-25T00:43:42Z"
+   "fetched_at": "2026-11-25T01:03:51Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-11-25T00:43:42Z"
+   "fetched_at": "2026-11-25T01:03:51Z"
   }
  },
  "orders": [
@@ -124,9 +124,9 @@
   {
    "title": "Lumara Lopez Rustic White Candle Holder",
    "sku": "CH8435-1",
-   "qty": 10,
+   "qty": 5,
    "price": 69.99,
-   "status": "DRAFT",
+   "status": "ACTIVE",
    "tracked": true,
    "available": true
   },
@@ -270,7 +270,7 @@
    "sku": "LH-TL-011",
    "qty": 10,
    "price": 139.99,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": true,
    "available": true
   },
@@ -531,7 +531,7 @@
    "sku": "LH-BDL-03",
    "qty": -1,
    "price": 119.0,
-   "status": "ACTIVE",
+   "status": "DRAFT",
    "tracked": false,
    "available": true
   },
