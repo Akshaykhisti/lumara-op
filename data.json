@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-11-25T09:43:03Z",
-  "generated_at_local": "Wed 25 Nov 2026, 8:43pm AEST",
-  "today": "2026-11-25",
+  "generated_at_utc": "2026-11-25T14:37:23Z",
+  "generated_at_local": "Thu 26 Nov 2026, 1:37am AEST",
+  "today": "2026-11-26",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-11-25T09:43:03Z"
+    "fetched_at": "2026-11-25T14:37:23Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-11-25T09:43:03Z"
+    "fetched_at": "2026-11-25T14:37:23Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-11-25T09:43:03Z"
+    "fetched_at": "2026-11-25T14:37:23Z"
    }
   }
  },
@@ -29,7 +29,7 @@
   },
   {
    "level": "warning",
-   "title": "No orders for 2 days",
+   "title": "No orders for 3 days",
    "body": "Last order was #1096 on 23 Nov. Ads have spent $0 since the last attributed purchase."
   },
   {
@@ -73,7 +73,7 @@
   ],
   "abandoned_checkouts": 3,
   "customers_total": 126,
-  "days_since_order": 2,
+  "days_since_order": 3,
   "last_order": {
    "name": "#1096",
    "when": "23 nov, 5:40pm",
@@ -81,12 +81,6 @@
    "customer": "April Foster"
   },
   "daily": [
-   {
-    "date": "2026-10-27",
-    "label": "27 Oct",
-    "orders": 0,
-    "revenue": 0.0
-   },
    {
     "date": "2026-10-28",
     "label": "28 Oct",
@@ -260,6 +254,12 @@
     "label": "25 Nov",
     "orders": 0,
     "revenue": 0.0
+   },
+   {
+    "date": "2026-11-26",
+    "label": "26 Nov",
+    "orders": 0,
+    "revenue": 0.0
    }
   ],
   "recent": [
@@ -332,8 +332,8 @@
   "dry_spend": 0.0,
   "series": [
    {
-    "date": "2026-11-25",
-    "label": "25 Nov",
+    "date": "2026-11-26",
+    "label": "26 Nov",
     "spend": 0.0,
     "revenue": 0.0,
     "purchases": 0,
