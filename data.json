@@ -3,34 +3,34 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-11-26T10:33:41Z",
-  "generated_at_local": "Thu 26 Nov 2026, 9:33pm AEST",
-  "today": "2026-11-26",
+  "generated_at_utc": "2026-11-26T15:27:53Z",
+  "generated_at_local": "Fri 27 Nov 2026, 2:27am AEST",
+  "today": "2026-11-27",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-11-26T10:33:41Z"
+    "fetched_at": "2026-11-26T15:27:53Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-11-26T10:33:41Z"
+    "fetched_at": "2026-11-26T15:27:53Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-11-26T10:33:41Z"
+    "fetched_at": "2026-11-26T15:27:53Z"
    }
   }
  },
  "alerts": [
   {
+   "level": "critical",
+   "title": "No orders for 4 days",
+   "body": "Last order was #1096 on 23 Nov. Ads have spent $0 since the last attributed purchase."
+  },
+  {
    "level": "serious",
    "title": "2 paid order(s) awaiting fulfilment",
    "body": "#1091, #1096"
-  },
-  {
-   "level": "warning",
-   "title": "No orders for 3 days",
-   "body": "Last order was #1096 on 23 Nov. Ads have spent $0 since the last attributed purchase."
   },
   {
    "level": "warning",
@@ -73,7 +73,7 @@
   ],
   "abandoned_checkouts": 3,
   "customers_total": 126,
-  "days_since_order": 3,
+  "days_since_order": 4,
   "last_order": {
    "name": "#1096",
    "when": "23 nov, 5:40pm",
@@ -81,12 +81,6 @@
    "customer": "April Foster"
   },
   "daily": [
-   {
-    "date": "2026-10-28",
-    "label": "28 Oct",
-    "orders": 0,
-    "revenue": 0.0
-   },
    {
     "date": "2026-10-29",
     "label": "29 Oct",
@@ -260,6 +254,12 @@
     "label": "26 Nov",
     "orders": 0,
     "revenue": 0.0
+   },
+   {
+    "date": "2026-11-27",
+    "label": "27 Nov",
+    "orders": 0,
+    "revenue": 0.0
    }
   ],
   "recent": [
@@ -332,8 +332,8 @@
   "dry_spend": 0.0,
   "series": [
    {
-    "date": "2026-11-26",
-    "label": "26 Nov",
+    "date": "2026-11-27",
+    "label": "27 Nov",
     "spend": 0.0,
     "revenue": 0.0,
     "purchases": 0,
