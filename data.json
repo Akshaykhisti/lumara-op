@@ -3,21 +3,21 @@
   "shop": "Lumara Home",
   "domain": "lumarahome.com.au",
   "currency": "AUD",
-  "generated_at_utc": "2026-11-27T01:00:01Z",
-  "generated_at_local": "Fri 27 Nov 2026, 12:00pm AEST",
+  "generated_at_utc": "2026-11-27T01:20:12Z",
+  "generated_at_local": "Fri 27 Nov 2026, 12:20pm AEST",
   "today": "2026-11-27",
   "sources": {
    "shopify": {
     "ok": true,
-    "fetched_at": "2026-11-27T01:00:01Z"
+    "fetched_at": "2026-11-27T01:20:12Z"
    },
    "meta": {
     "ok": true,
-    "fetched_at": "2026-11-27T01:00:01Z"
+    "fetched_at": "2026-11-27T01:20:12Z"
    },
    "klaviyo": {
     "ok": true,
-    "fetched_at": "2026-11-27T01:00:01Z"
+    "fetched_at": "2026-11-27T01:20:12Z"
    }
   }
  },
@@ -46,13 +46,13 @@
   },
   "d7": {
    "orders": 1,
-   "revenue": 127.05,
-   "aov": 127.05
+   "revenue": 0.0,
+   "aov": 0.0
   },
   "d30": {
    "orders": 2,
-   "revenue": 371.1,
-   "aov": 185.55
+   "revenue": 244.05,
+   "aov": 122.03
   },
   "prev7_revenue": 0.0,
   "wow_pct": null,
@@ -67,7 +67,7 @@
    {
     "name": "#1096",
     "createdAt": "2026-11-23T06:40:01Z",
-    "total": 127.05,
+    "total": 0.0,
     "customer": "April Foster"
    }
   ],
@@ -77,7 +77,7 @@
   "last_order": {
    "name": "#1096",
    "when": "23 nov, 5:40pm",
-   "total": 127.05,
+   "total": 0.0,
    "customer": "April Foster"
   },
   "daily": [
@@ -235,7 +235,7 @@
     "date": "2026-11-23",
     "label": "23 Nov",
     "orders": 1,
-    "revenue": 127.05
+    "revenue": 0.0
    },
    {
     "date": "2026-11-24",
@@ -266,7 +266,7 @@
    {
     "name": "#1096",
     "when": "23 nov, 5:40pm",
-    "total": 127.05,
+    "total": 0.0,
     "customer": "April Foster",
     "fulfillment": "UNFULFILLED",
     "financial": "PAID",

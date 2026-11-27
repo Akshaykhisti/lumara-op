@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-11-27T01:00:01Z",
+ "generated_at_utc": "2026-11-27T01:20:12Z",
  "shop": {
   "name": "Lumara Home",
   "domain": "lumarahome.com.au",
@@ -9,15 +9,15 @@
  "sources": {
   "shopify": {
    "ok": true,
-   "fetched_at": "2026-11-27T01:00:01Z"
+   "fetched_at": "2026-11-27T01:20:12Z"
   },
   "meta": {
    "ok": true,
-   "fetched_at": "2026-11-27T01:00:01Z"
+   "fetched_at": "2026-11-27T01:20:12Z"
   },
   "klaviyo": {
    "ok": true,
-   "fetched_at": "2026-11-27T01:00:01Z"
+   "fetched_at": "2026-11-27T01:20:12Z"
   }
  },
  "orders": [
@@ -26,7 +26,7 @@
    "createdAt": "2026-11-23T06:40:01Z",
    "financial": "PAID",
    "fulfillment": "UNFULFILLED",
-   "total": 127.05,
+   "total": 0.0,
    "customer": "April Foster",
    "items": [
     {
@@ -78,7 +78,7 @@
   {
    "name": "#1096",
    "createdAt": "2026-11-23T06:40:01Z",
-   "total": 127.05,
+   "total": 0.0,
    "customer": "April Foster"
   }
  ],
@@ -529,7 +529,7 @@
   {
    "title": "Lumara Bedside Bundle \u2014 Flynn Lamp & Bud Vase",
    "sku": "LH-BDL-03",
-   "qty": -1,
+   "qty": 0,
    "price": 119.0,
    "status": "DRAFT",
    "tracked": false,
